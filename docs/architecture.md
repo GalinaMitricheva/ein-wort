@@ -179,12 +179,40 @@ Run over all captures with `status = 'pending'`:
 
 1. **Resolve lemma.** Match `surface_form` against `words.lemma` first — free and
    instant. On a miss, the model resolves it in stage 3's batch.
-2. **Assign level and source.** Captures not already in the word list get a CEFR level
+2. **Apply the dedup gate** (below). Most captures never reach stage 3.
+3. **Assign level and source.** Captures not already in the word list get a CEFR level
    estimate and `source = 'capture'`, keeping §5's per-word provenance honest.
-3. **Generate dossiers** — one batch request per capture, same schema and prompt as
-   §5, submitted through `client.messages.batches.create()`.
-4. **Mark `queued`.** The word is now eligible for selection with its dossier already
+4. **Generate dossiers** — one batch request per surviving capture, same schema and
+   prompt as §5, submitted through `client.messages.batches.create()`.
+5. **Mark `queued`.** The word is now eligible for selection with its dossier already
    cached, so it opens instantly.
+
+### Dedup gate
+
+Resolving a lemma against `words` only answers *"is this in the word list."* Four other
+checks have to run before anything is scheduled for generation:
+
+| Case | Check | Action |
+|---|---|---|
+| **Self-tap** | Captured lemma equals the source session's word | Drop. Tapping `erörtern` inside its own examples is a misfire, not a signal. |
+| **Duplicate capture** | An active capture with the same lemma already exists | Merge into the existing row; don't create a second. |
+| **Dossier already exists** | Row present in `dossiers` at the current `schema_version` | Skip generation entirely, jump to `queued`. Paying twice for the same dossier is the exact waste batching was meant to avoid. |
+| **Already met** | Lemma appears in a completed `sessions` row | Don't re-offer as new. Surface the existing log entry instead — you've seen it before and the app should say so. |
+| **Marked known** | Lemma is in `known_words` | **Remove it from `known_words`,** then queue. |
+
+That last row is the interesting one. Tapping a word you previously answered *Kenne ich*
+on is direct evidence the earlier answer was wrong — so capture becomes bidirectional
+calibration rather than one-way. §3.5 treats a rejection as signal; this treats the
+retraction of one the same way. Without it, any word you once over-claimed is permanently
+unreachable, because the selection engine filters `known_words` out.
+
+Enforce the duplicate case in the schema, not just in the job:
+
+```sql
+CREATE UNIQUE INDEX captures_active_lemma
+  ON captures (lemma)
+  WHERE status IN ('pending', 'resolved', 'queued');
+```
 
 Stage 4 means capture composes with the pre-generation design in §5: by the time a
 captured word is offered, its dossier is already warm.

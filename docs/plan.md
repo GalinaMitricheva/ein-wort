@@ -106,9 +106,14 @@ lives, and a bad register label is exactly the "cheap wrong answer" worth paying
 - [ ] **3.9** Tap-to-capture in collocations and examples; marked state, undo on
       re-tap, "Gemerkt für später" tray — **S**
 - [ ] **3.10** Lemma resolution against `words.lemma` at capture time, for tray display — **S**
-- [ ] **3.11** Nightly job: resolve → level/source assign → batch dossier generation
-      via `messages.batches.create()` → mark `queued`. Per-item failure isolation
-      keyed on `custom_id` — **S**
+- [ ] **3.10b** Dedup gate before scheduling generation: self-tap, duplicate capture,
+      dossier already exists, already met, marked known. Plus the partial unique index
+      on active-capture lemma — **S**
+      Includes the `known_words` retraction: tapping a word previously answered
+      *Kenne ich* removes it from `known_words`, or it stays permanently unreachable.
+- [ ] **3.11** Nightly job: resolve → dedup gate → level/source assign → batch dossier
+      generation via `messages.batches.create()` → mark `queued`. Per-item failure
+      isolation keyed on `custom_id` — **S**
 - [ ] **3.12** Staleness-triggered scheduling — run on app start if last successful run
       is >24h old. Not a wall-clock cron: the laptop sleeps and a fixed-time job would
       silently never fire — **S**
