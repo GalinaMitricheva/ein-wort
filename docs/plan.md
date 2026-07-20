@@ -35,7 +35,12 @@ project, and a wrong answer is costly to catch later.
 
 Fully mechanical. All parallelizable.
 
-- [ ] **0.1** `package.json`, `tsconfig.json`, `.gitignore`, `.env.example` (`ANTHROPIC_API_KEY`) — **H**
+- [ ] **0.1** `package.json`, `tsconfig.json`, `.gitignore`, `.env.example` — **H**
+      ⚠️ `.env.example` must **not** contain `ANTHROPIC_API_KEY`. An empty value still
+      occupies its precedence slot and authenticates with an empty key, silently
+      overriding the OAuth profile. See architecture.md §7b.
+- [ ] **0.5** One-time `ant auth login`, then verify with `ant auth status`. Resolve any
+      Claude Code auth conflict by keeping one credential source — **M**
 - [ ] **0.2** `.gitattributes` with `* text=auto` to settle the CRLF warning — **H** · inline
 - [ ] **0.3** Fastify server booting on :3000 with a health route — **H**
 - [ ] **0.4** htmx + base HTML layout template, no styling yet — **H**
@@ -96,8 +101,14 @@ lives, and a bad register label is exactly the "cheap wrong answer" worth paying
       Turns the loading state into a rare fallback instead of a normal step — **S**
 - [ ] **3.3c** Dossier-generation failure state: retry or skip, never lose the session — **S**
 - [ ] **3.4** `regenerate` CLI: one word / all words / by level — **H**
-- [ ] **3.5** **Anchor feedback prompt** — brief, single attempt, no grading scale (§4) — **O**
-- [ ] **3.6** `core/anchor.ts` plumbing, `effort: "low"` — **S**
+- [ ] **3.5** **Anchor feedback prompt** — rewrite-plus-note, no verdict. Must bias hard
+      toward returning the sentence unchanged: over-correction teaches false German at
+      the moment of maximum receptiveness (architecture.md §7) — **O**
+- [ ] **3.6** `core/anchor.ts` — `claude-opus-4-8`, adaptive thinking, `effort: "medium"`,
+      cached dossier passed as context so feedback can't contradict the dossier.
+      *Revised from `effort: "low"`: that was sizing the task, not the stakes* — **S**
+- [ ] **3.6b** Dispute affordance (*"Das war Absicht"*) reusing the §11 error-report
+      plumbing; store `anchor_feedback` as JSON, not a rendered string — **H**
 - [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
 
 ### Word capture (architecture.md §5b)

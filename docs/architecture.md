@@ -262,9 +262,118 @@ Budget the majority of pipeline time here. A wrong normalizer produces a list th
 
 ---
 
-## 7. Anchor step
+## 7. Anchor step — correctness assessment
 
-A second, cheaper call — no caching (every sentence is novel), no schema, `effort: "low"` for a fast turnaround. §4 specifies brief feedback on naturalness, single attempt, no grading scale, so the prompt should be tightly scoped: what a German speaker would say differently, and why. One short paragraph.
+Every sentence is novel, so nothing here is cacheable.
+
+### Rewrite, not verdict
+
+The obvious design — correct / unidiomatic / wrong — is a grading scale wearing a
+disguise, and §4 and §7 both rule those out. Instead the model returns a rewrite and a
+one-line note:
+
+```ts
+const AnchorFeedback = z.object({
+  rewrite: z.string(),   // what a German would write; may equal the input
+  note: z.string(),      // one sentence on what changed and why
+});
+```
+
+If the rewrite is identical to the input, the UI shows *Klingt natürlich* and nothing
+else. If it differs, both lines appear with the note. Feedback becomes **demonstrative
+rather than evaluative** — you learn from the delta, not from a label — which is also a
+closer match to "naturalness" than any verdict could be.
+
+### Grounded in the dossier
+
+The call receives the **cached dossier as context** — register, Rektion, collocations.
+Without it, the feedback model judges the sentence from scratch and can contradict what
+the learner read ninety seconds earlier: the dossier calls `erörtern` formal, and the
+feedback rewrites the sentence into something colloquial. One source of truth for both,
+or the app argues with itself.
+
+It also lets the note be specific rather than generic: *"`erörtern` verlangt den
+Akkusativ — `über das Thema` gehört zu `diskutieren`."*
+
+### Model — revised
+
+Originally specified as `effort: "low"` on the grounds that it's a small bounded task.
+That was reasoning about size rather than stakes.
+
+**The failure mode is uniquely bad: confidently correcting a sentence that was already
+correct.** That doesn't waste a session, it teaches something false about German at the
+moment of maximum receptiveness — and the learner has no way to overrule it, since not
+having that intuition is why they're here.
+
+So: `claude-opus-4-8`, adaptive thinking, `effort: "medium"`. Volume makes the cost
+argument moot — roughly 500 input and 200 output tokens per anchor at four sessions a
+week is cents per month. Economising there to save a fraction of a cent while risking
+wrong German taught with confidence is a false economy.
+
+### The main guard: bias toward leaving it alone
+
+The dominant risk is **over-correction** — models asked to review tend to find something
+to improve. The prompt must explicitly require returning the sentence unchanged unless
+there is a genuine grammatical error or something a native speaker would not say.
+Stylistic preference is not grounds for a rewrite.
+
+This is the hardest part of the prompt to get right, and the reason authoring it is an
+Opus task rather than a template.
+
+### Practical
+
+- **Store both fields**, not a rendered string — `sessions.anchor_feedback` holds JSON.
+  Lets the log re-render later, and gives material for checking feedback drift.
+- **Failure is non-fatal.** If the call errors, the word still lands in the log.
+  Feedback is optional; the session record is not.
+- **Dispute affordance** — *"Das war Absicht"* — reusing the §11 error-report plumbing.
+  The model will sometimes be wrong, so there must be somewhere to put that, and those
+  reports are the best available signal on feedback quality.
+
+---
+
+## 7b. Authentication (development)
+
+**No API key in the project.** The Anthropic SDKs resolve credentials in a fixed order
+and fall through to an OAuth profile on disk, so after a one-time `ant auth login` a
+bare constructor authenticates on its own:
+
+```ts
+const client = new Anthropic();   // no apiKey argument, no .env entry
+```
+
+Resolution order, first match wins: `ANTHROPIC_API_KEY` → `ANTHROPIC_AUTH_TOKEN` →
+the active OAuth profile from `ant auth login` → WIF env vars → the default profile on
+disk. The profile lives under `%APPDATA%\Anthropic` on Windows.
+
+### What this does and does not change
+
+It removes key management. It does **not** make calls local or free — there is no local
+inference endpoint, and the Claude desktop app exposes no API. Requests still go to
+`api.anthropic.com`; they simply authenticate as the logged-in identity instead of via a
+static key, and usage bills to whichever org and workspace the profile is scoped to.
+**Confirm which workspace that is before relying on the cost profile.**
+
+### Three traps
+
+1. **A set `ANTHROPIC_API_KEY` silently wins over the profile** — including an *empty*
+   one. `ANTHROPIC_API_KEY=""` in a `.env` still occupies its precedence slot and
+   authenticates with an empty key. The variable must be genuinely absent, so it must
+   not appear in `.env.example` at all.
+2. **Claude Code auth conflict.** After `ant auth login`, Claude Code may report a
+   conflict between the CLI profile and its own login. Keep one: `/logout` in Claude
+   Code to use the profile, or `ant auth logout` to keep Claude Code's login.
+3. **Refresh tokens hard-expire** — they don't slide with use. When a previously working
+   setup starts failing auth, re-run `ant auth login` before debugging anything else.
+
+`ant auth status` reports which credential source and profile actually won. That's the
+first diagnostic for any auth surprise.
+
+### Revisit when
+
+This is a development and testing decision. Revisit once the app is polished and real
+usage data exists — at that point a dedicated API key scoped to its own workspace makes
+per-project cost attribution possible, which the shared profile does not.
 
 ---
 
