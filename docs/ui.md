@@ -15,13 +15,13 @@ no interactivity. Resume from the first row that isn't ✅.
 | # | Screen | Status |
 |---|---|---|
 | 1 | Offer + Calibrate | ✅ Approved |
-| 2 | Dossier | 🔵 In review |
-| 3 | Anchor prompt | ⬜ Not started |
-| 4 | Anchor feedback | ⬜ Not started |
-| 5 | Session complete | ⬜ Not started |
-| 6 | Words met (log) | ⬜ Not started |
+| 2 | Dossier | ✅ Approved |
+| 3 | Anchor prompt | ✅ Approved |
+| 4 | Anchor feedback | ✅ Approved |
+| 5 | Session complete | ✅ Approved |
+| 6 | Words met (log) | 🔵 In review |
 | 7 | Log detail | ⬜ Not started |
-| 8 | Search | ⬜ Not started |
+| ~~8~~ | ~~Search~~ | Merged into screen 6 as a state |
 | 9 | Level selector | ⬜ Not started |
 | 10 | First run | ⬜ Not started |
 
@@ -90,19 +90,51 @@ architecture.md §5b.
 
 ### 3. Anchor prompt
 
-Free-text input, single attempt. Needs a **visible, unapologetic skip** — §4 marks the
-step optional-but-encouraged, and if skipping feels furtive then the ≥70% completion
-metric (§9) is measuring guilt rather than engagement.
+Free-text input, single attempt. **Approved 2026-07-20.**
+
+- **Skip is a real option, not a fire escape** — 14px `text-secondary`, centred under the
+  primary button. An 11px muted link would make skipping feel like failing, and the ≥70%
+  completion metric (§9) would measure guilt rather than engagement.
+- **The Rektion pattern stays visible** above the input. The anchor is acquisition, not
+  assessment (§7 rules out grading), so there's no reason to withhold the one fact that
+  makes a correct sentence possible.
+- **What you type is set in serif** — writing, not form-filling.
+- No character counter, no word limit, no sentence-count enforcement: all grading
+  machinery in disguise.
+- Open: don't autofocus (the keyboard would cover the skip); empty submit behaves as
+  skip rather than raising a validation error.
 
 ### 4. Anchor feedback
 
-Brief naturalness note. No score, no grading scale, no retry (§4).
+**Approved 2026-07-20.** Two states — rewrite, or unchanged.
+
+- **No red pen.** No strikethrough, no error colour, no inline diff. Your sentence sits
+  in `text-secondary`, the native version larger in `text-primary`; hierarchy carries the
+  message without marking anything wrong.
+- **"Ein Deutscher würde schreiben"**, not "Besser" or "Korrekt" — demonstrative, not
+  evaluative. A comparative smuggles the scale back in.
+- **The delta is deliberately not highlighted**, because accent underline is reserved for
+  word capture. Words in the rewrite are themselves tappable for capture.
+- **The unchanged state is bare** — sentence, *Klingt natürlich*, done. No checkmark, no
+  praise, no badge: all reward mechanics (§7).
+- *"Das war Absicht"* appears only when there is a rewrite to dispute.
 
 ### 5. Session complete
 
-The word has landed in the log. Deliberately a dead end — **no "next word" button.**
-§3.1 ends the session when the word is anchored and §7 rules out content-volume
-maximization; the intended exit is closing the app.
+**Approved 2026-07-20.** Deliberately a dead end.
+
+- **There is no button.** Every other screen ends in a full-width primary action; this
+  one ends in a quiet link to the log and empty space. §3.1 ends the session when the
+  word is anchored; §7 rules out volume maximisation.
+- **Left-aligned, top-anchored, not centred.** Centred read as a success screen — the
+  visual grammar of celebration. Same alignment as every other screen keeps it
+  matter-of-fact.
+- **No count, no total, no weekly tally.** Each is a streak in disguise.
+- **The captured-words block earns its place** by answering "what happened to the words I
+  tapped?" and showing the queue is real. `Kommen in den nächsten Tagen dran` is vague on
+  purpose — the nightly job only runs when the laptop is awake.
+- *"steht jetzt in deinen Wörtern"* is a deliberately weak claim. Not *gelernt* — the app
+  can't know that, and flattery would be obvious.
 
 ---
 
@@ -110,16 +142,38 @@ maximization; the intended exit is closing the app.
 
 ### 6. Words met
 
-Reverse-chronological list of learned words. A browsable record, not a queue (§4).
+A record, not a queue (§4). Contains: search field, a line noting captured words
+awaiting their turn, and the three most recent words with their meanings.
+
+**Revised in review:**
+
+- **Only the three most recent words are listed, with no dates and no grouping.** A
+  scrollable history invites browsing-as-studying — the review queue returning as a user
+  habit rather than a feature. Three words plus search makes this a lookup tool.
+- **Search is the only route to older words**, so its placeholder reads
+  `Alle Wörter durchsuchen` — otherwise three rows read as "the app remembers three
+  words."
+- **Search covers met words only.** Captured and queued words haven't been learned, so
+  they are not history and are excluded from both the list and the results. They also
+  have no dossier until the nightly job runs, so a result would open onto nothing.
+- **No level indicator per row, and none in this screen's header.** `level`, `source` and
+  `frequency_rank` are engine data: they drive selection and are versioned like code
+  (§5), but the learner never sees them. The active-level badge stays on the session
+  screens (1, 3, 5), where what you're being served is relevant.
+- **No counts of any kind** — no total, no per-week tally. Week grouping is chronology; a
+  number beside it is a score.
+- **Nouns keep their article** (`die Gepflogenheit`), since a stripped headword teaches
+  the wrong form on every scan.
+
+Session dates are still recorded in `sessions` and remain queryable for the §9 metrics —
+they are simply never displayed. You can check whether the product is working without
+the app reporting your cadence back at you.
 
 ### 7. Log detail
 
 A previously-met word's dossier, re-read. Same template as screen 2, different entry
-point, no session chrome.
-
-### 8. Search
-
-Over lemma and meaning.
+point, no session chrome. Since the anchor step stores nothing (architecture.md §7),
+this is the dossier alone.
 
 ---
 

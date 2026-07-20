@@ -174,8 +174,11 @@ The largest chunk. 5.1 gates everything else. 5.2/5.3 parallelize; 5.4 is the re
 
 ## Phase 6 — Words met log
 
-- [ ] **6.1** Reverse-chronological list view with dossiers — **S**
-- [ ] **6.2** Search (SQLite FTS5 over lemma + meaning) — **S**
+- [ ] **6.1** Words-met view: three most recent words with meanings, no dates, no
+      grouping, no level indicators — **S**
+- [ ] **6.2** Search (SQLite FTS5 over lemma + meaning), **scoped to words with a
+      completed session**. Captured and queued words are excluded — they aren't history,
+      and have no dossier to open until the nightly job runs — **S**
 - [ ] **6.3** Metrics query for §9: sessions/week, *Know it* rejection rate, anchor
       completion rate, median session length — **H**
 
