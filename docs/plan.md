@@ -68,6 +68,16 @@ interaction before any LLM spend.
 - [ ] **2.5** Anchor input + write to `sessions` — **S**
 - [ ] **2.6** Stub dossier fixture matching the §5 schema shape — **H**
 - [ ] **2.7** Level selector (self-declared, changeable anytime) — **H**
+- [ ] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
+- [ ] **2.9** Level-exhausted state — guaranteed to fire with the 20-word fixture,
+      so build it now rather than hitting a crash — **S**
+- [ ] **2.10** *Know it* micro-confirmation — rapid rejection with no visual
+      acknowledgement reads as broken — **H**
+- [ ] **2.11** Session-resume behaviour: app closed mid-dossier, reopened later.
+      Resume in place or discard — decide, then implement — **S**
+- [ ] **2.12** Empty-log and no-search-results states — **H**
+
+See [ui.md](ui.md) for the full screen and state inventory, and the design review tracker.
 
 ---
 
@@ -82,6 +92,9 @@ lives, and a bad register label is exactly the "cheap wrong answer" worth paying
       trustworthy for a B2+ learner — **O**
 - [ ] **3.3** `core/dossier.ts` — `messages.parse()` + `zodOutputFormat`, adaptive thinking,
       cache on `(word_id, schema_version)` — **S**
+- [ ] **3.3b** Background pre-generation of the *next* word's dossier on session end.
+      Turns the loading state into a rare fallback instead of a normal step — **S**
+- [ ] **3.3c** Dossier-generation failure state: retry or skip, never lose the session — **S**
 - [ ] **3.4** `regenerate` CLI: one word / all words / by level — **H**
 - [ ] **3.5** **Anchor feedback prompt** — brief, single attempt, no grading scale (§4) — **O**
 - [ ] **3.6** `core/anchor.ts` plumbing, `effort: "low"` — **S**
