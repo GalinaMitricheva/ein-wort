@@ -14,8 +14,8 @@ no interactivity. Resume from the first row that isn't ✅.
 
 | # | Screen | Status |
 |---|---|---|
-| 1 | Offer + Calibrate | 🔵 In review |
-| 2 | Dossier | ⬜ Not started |
+| 1 | Offer + Calibrate | ✅ Approved |
+| 2 | Dossier | 🔵 In review |
 | 3 | Anchor prompt | ⬜ Not started |
 | 4 | Anchor feedback | ⬜ Not started |
 | 5 | Session complete | ⬜ Not started |
@@ -39,6 +39,19 @@ user tap twice to reach it adds a step to a 3-minute session for no information 
 
 Contains: the word with article + plural (nouns) or key forms (verbs); three buttons —
 *Know it* / *Vaguely* / *New to me*.
+
+**Approved 2026-07-20.** Decisions locked by that review:
+
+- **No progress indicator of any kind** — no counter, no "word 3 of 20", no remaining-words
+  figure. A progress bar is a streak with better manners; §7 rules it out.
+- **Interface copy is in German.** English chrome inserts a translation step into a tool
+  whose premise is staying inside the language.
+- **Three stacked full-width buttons** (46px), bottom third of the screen, one-handed
+  reach. A horizontal row would give the three options very different tap ergonomics
+  despite equal weight.
+- **Serif for the word, mono for the principal parts.** The word is the object of study;
+  the forms are reference data.
+- Deliberately absent: escape hatch, source/frequency metadata, words-remaining count.
 
 ### 2. Dossier
 
