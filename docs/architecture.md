@@ -403,46 +403,69 @@ CREATE TABLE feedback_disputes (
 
 ## 7b. Authentication (development)
 
-**No API key in the project.** The Anthropic SDKs resolve credentials in a fixed order
-and fall through to an OAuth profile on disk, so after a one-time `ant auth login` a
-bare constructor authenticates on its own:
+**No API key.** The app authenticates with a long-lived token minted from the existing
+Claude subscription:
+
+```
+claude setup-token            # one-time; requires a Claude subscription
+```
+
+Export the result as `ANTHROPIC_AUTH_TOKEN`. The SDK reads it automatically — the client
+constructor stays bare:
 
 ```ts
-const client = new Anthropic();   // no apiKey argument, no .env entry
+const client = new Anthropic();   // no apiKey argument
 ```
 
 Resolution order, first match wins: `ANTHROPIC_API_KEY` → `ANTHROPIC_AUTH_TOKEN` →
-the active OAuth profile from `ant auth login` → WIF env vars → the default profile on
-disk. The profile lives under `%APPDATA%\Anthropic` on Windows.
+an OAuth profile from `ant auth login` → WIF env vars → the default profile on disk.
+We use slot two.
 
 ### What this does and does not change
 
 It removes key management. It does **not** make calls local or free — there is no local
-inference endpoint, and the Claude desktop app exposes no API. Requests still go to
-`api.anthropic.com`; they simply authenticate as the logged-in identity instead of via a
-static key, and usage bills to whichever org and workspace the profile is scoped to.
-**Confirm which workspace that is before relying on the cost profile.**
+inference endpoint and the Claude desktop app exposes no API. Requests still go to
+`api.anthropic.com`.
 
-### Three traps
+`claude auth login` alone is **not** sufficient: it authenticates Claude Code and stores
+credentials in `~/.claude/.credentials.json`, which the SDK does not read. `setup-token`
+is the bridge between the two.
 
-1. **A set `ANTHROPIC_API_KEY` silently wins over the profile** — including an *empty*
-   one. `ANTHROPIC_API_KEY=""` in a `.env` still occupies its precedence slot and
-   authenticates with an empty key. The variable must be genuinely absent, so it must
-   not appear in `.env.example` at all.
-2. **Claude Code auth conflict.** After `ant auth login`, Claude Code may report a
-   conflict between the CLI profile and its own login. Keep one: `/logout` in Claude
-   Code to use the profile, or `ant auth logout` to keep Claude Code's login.
-3. **Refresh tokens hard-expire** — they don't slide with use. When a previously working
-   setup starts failing auth, re-run `ant auth login` before debugging anything else.
+### Consequences of the subscription path
 
-`ant auth status` reports which credential source and profile actually won. That's the
-first diagnostic for any auth surprise.
+- **Usage runs against subscription limits, not metered per-token billing.** This
+  changes the cost-estimation plan: there will be no per-token spend figures to
+  extrapolate from, only whether limits are hit. Revisiting this decision later means
+  moving to an API key or `ant` profile to get those numbers.
+- **Batch API support is unverified.** The nightly capture job (§5b) depends on
+  `messages.batches.create()`. Whether that endpoint accepts a subscription-derived
+  token has not been confirmed — verify before building task 3.11, not after.
+- **Appropriateness for a separate application is unconfirmed.** `setup-token` is a
+  Claude Code feature. Using it to power an unrelated app may or may not be intended;
+  worth checking the terms before this becomes more than a local dev tool.
+
+### Traps
+
+1. **Never set both `ANTHROPIC_API_KEY` and `ANTHROPIC_AUTH_TOKEN`** — the SDK sends
+   both headers and the API rejects the request.
+2. **An empty `ANTHROPIC_API_KEY` still wins its precedence slot** and authenticates with
+   an empty key. The variable must be genuinely absent, so it must not appear in
+   `.env.example` at all.
+3. **Fail loudly on a missing token.** `.env.example` carries an obviously-fake
+   placeholder rather than an empty assignment, and the app validates presence at
+   startup — an unset token should not surface as a confusing 401 mid-session.
+4. **The token is long-lived, not eternal.** When previously working auth starts
+   failing, re-run `claude setup-token` before debugging anything else.
+5. **The token is a secret.** `.env` is gitignored; the token never enters the repo,
+   a commit message, or a log line.
+
+`claude auth status` reports Claude Code's own auth state. Note it describes Claude
+Code's credential, not the app's — the two are separate stores.
 
 ### Revisit when
 
-This is a development and testing decision. Revisit once the app is polished and real
-usage data exists — at that point a dedicated API key scoped to its own workspace makes
-per-project cost attribution possible, which the shared profile does not.
+A development and testing decision. Revisit once the app is polished, or sooner if the
+Batch API turns out not to work on this credential.
 
 ---
 
