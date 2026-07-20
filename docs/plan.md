@@ -70,7 +70,8 @@ interaction before any LLM spend.
 - [ ] **2.2** Session routes: start → calibrate → dossier → anchor → done — **S**
 - [ ] **2.3** Offer + calibrate view (3 buttons; *Know it* marks known and re-offers immediately) — **S**
 - [ ] **2.4** Dossier display view — the typographically dense one; §6 chose a web app for this — **S**
-- [ ] **2.5** Anchor input + write to `sessions` — **S**
+- [ ] **2.5** Anchor input; sets `sessions.anchor_completed` only. The sentence itself is
+      never written to the database (architecture.md §7) — **S**
 - [ ] **2.6** Stub dossier fixture matching the §5 schema shape — **H**
 - [ ] **2.7** Level selector (self-declared, changeable anytime) — **H**
 - [ ] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
@@ -107,10 +108,10 @@ lives, and a bad register label is exactly the "cheap wrong answer" worth paying
 - [ ] **3.6** `core/anchor.ts` — `claude-opus-4-8`, adaptive thinking, `effort: "medium"`,
       cached dossier passed as context so feedback can't contradict the dossier.
       *Revised from `effort: "low"`: that was sizing the task, not the stakes* — **S**
-- [ ] **3.6b** Dispute affordance (*"Das war Absicht"*) reusing the §11 error-report
-      plumbing. Feedback is otherwise ephemeral — render once, never persist. The
-      dispute path is the single opt-in exception and stores the disputed rewrite,
-      since a dispute with no content is useless as a quality signal — **H**
+- [ ] **3.6b** Dispute affordance (*"Das war Absicht"*) writing to a separate
+      `feedback_disputes` table. The anchor step is otherwise fully ephemeral — sentence,
+      rewrite and note all discarded after render. The dispute path is the single opt-in
+      exception, and lives outside `sessions` so no log query can reach it — **H**
 - [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
 
 ### Word capture (architecture.md §5b)

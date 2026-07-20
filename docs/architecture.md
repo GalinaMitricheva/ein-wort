@@ -69,9 +69,9 @@ CREATE TABLE sessions (
   word_id         INTEGER NOT NULL REFERENCES words(id),
   started_at      TEXT NOT NULL,
   completed_at    TEXT,
-  calibration     TEXT,                  -- know-it | vaguely | new
-  anchor_text     TEXT                   -- the learner's own sentence
-);                                       -- feedback is deliberately NOT stored — §7
+  calibration      TEXT,                 -- know-it | vaguely | new
+  anchor_completed INTEGER NOT NULL DEFAULT 0
+);            -- nothing textual from the anchor step is stored at all — see §7
 
 CREATE TABLE dossiers (
   word_id        INTEGER PRIMARY KEY REFERENCES words(id),
@@ -319,26 +319,45 @@ Stylistic preference is not grounds for a rewrite.
 This is the hardest part of the prompt to get right, and the reason authoring it is an
 Opus task rather than a template.
 
-### Feedback is ephemeral
+### The whole step is ephemeral
 
-**The rewrite and note are never persisted.** They are rendered once and discarded; the
-session stores only `anchor_text`, the learner's own sentence.
+**Nothing textual survives the anchor step** — not the rewrite, not the note, and not
+the learner's own sentence. `sessions` records a single `anchor_completed` flag and
+nothing more.
 
-This keeps the log a record of what you *wrote*, not a file of corrections. A stored
-correction is one query away from being a review list, and §7 rules that out
-permanently — the moment the app can show you "your past mistakes," it has grown the
-review queue it was built to avoid.
+The reasoning generalises from the rewrite to the sentence. Stored corrections are one
+query away from being a review list, which §7 rules out permanently. But a stored
+sentence *without* its correction is worse in a different way: the log would preserve
+`über das Thema erörtern` forever, uncorrected, quietly reinforcing the error it was
+meant to fix. Keeping neither is the only consistent position — the anchor is a moment
+of production, not an artefact.
 
-**One exception, opt-in:** disputing a rewrite (*"Das war Absicht"*) stores that rewrite
-along with the report. Without it a dispute has no content and is useless as a quality
-signal. An explicit tap is explicit consent to record that one instance.
+This makes the review queue structurally impossible rather than merely a matter of
+restraint. There is no table to query.
+
+**One exception, opt-in and quarantined:** disputing a rewrite stores the full triple —
+sentence, rewrite, note — in a separate `feedback_disputes` table. A dispute without
+content is useless as a quality signal, and an explicit tap is explicit consent to
+record that one instance. It lives outside `sessions` deliberately, so no log query can
+reach it by accident.
+
+```sql
+CREATE TABLE feedback_disputes (
+  id           INTEGER PRIMARY KEY,
+  session_id   INTEGER REFERENCES sessions(id),
+  anchor_text  TEXT NOT NULL,
+  rewrite      TEXT NOT NULL,
+  note         TEXT NOT NULL,
+  disputed_at  TEXT NOT NULL
+);
+```
 
 ### Practical
 
-- **Failure is non-fatal.** If the call errors, the word still lands in the log.
-  Feedback is optional; the session record is not.
-- **Anchor completion** for the §9 metric is derived from `anchor_text IS NOT NULL` —
-  no separate flag needed.
+- **Failure is non-fatal.** If the call errors, the word still lands in the log and
+  `anchor_completed` is still set. Feedback is optional; the session record is not.
+- **The §9 anchor-completion metric** reads `anchor_completed` directly.
+- **The log shows words, never writing.** Screen 7 renders the dossier alone.
 
 ---
 
