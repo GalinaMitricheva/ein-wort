@@ -184,9 +184,29 @@ the app reporting your cadence back at you.
 
 ### 7. Log detail
 
-A previously-met word's dossier, re-read. Same template as screen 2, different entry
-point, no session chrome. Since the anchor step stores nothing (architecture.md §7),
-this is the dossier alone.
+A previously-met word's dossier, re-read. Since the anchor step stores nothing
+(architecture.md §7), this is the dossier alone.
+
+**Revised in review:**
+
+- **One template, two entry points.** Identical to screen 2 with the `Weiter` button and
+  level chrome removed and a back link added — a flag on one partial, not a second
+  template that drifts.
+- **All four verb forms always show**, including Konjunktiv II and including regular
+  verbs. Predictable placement beats brevity: a block that appears only for irregular
+  verbs makes the layout shift word to word, and you read this half-asleep. *Settles the
+  question left open on screen 2.*
+- **Word capture works here too.** Re-reading is a plausible moment to notice something
+  unfamiliar — arguably more so than the first pass, when attention was on the headword.
+- **`Kenne ich doch nicht`** returns the word to the pool. Deliberately weighted above
+  `Fehler melden` (14px `text-secondary` vs 12px muted): one is about your learning, the
+  other about data quality. Mechanics in architecture.md §5b.
+- **`Fehler melden` stays** — errors surface on the second encounter, once the word has
+  settled and something reads oddly.
+
+**The history area is a cul-de-sac by design.** Nothing in the log leads into a session;
+starting one is only possible from the app's entry point. Browsing must not slide into
+studying.
 
 ---
 

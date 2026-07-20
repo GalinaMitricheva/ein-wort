@@ -175,7 +175,15 @@ The largest chunk. 5.1 gates everything else. 5.2/5.3 parallelize; 5.4 is the re
 ## Phase 6 — Words met log
 
 - [ ] **6.1** Words-met view: three most recent words with meanings, no dates, no
-      grouping, no level indicators — **S**
+      grouping, no level indicators. Lists **distinct words by most recent session**,
+      since retraction means a word can have more than one — **S**
+- [ ] **6.1b** Log detail: shared dossier partial with session chrome suppressed, plus
+      `Kenne ich doch nicht` (delete `known_words` row + insert capture → dedup gate
+      sends it straight to `queued`, dossier already built). Inline
+      *Kommt wieder dran* confirmation, no dialog — **S**
+- [ ] **6.1c** Captured-words line counts `pending` only, not `queued` — it's the
+      nightly-job health signal, and counting `queued` produces false alarms during
+      normal busy weeks (ui.md screen 6) — **H**
 - [ ] **6.2** Search (SQLite FTS5 over lemma + meaning), **scoped to words with a
       completed session**. Captured and queued words are excluded — they aren't history,
       and have no dossier to open until the nightly job runs — **S**

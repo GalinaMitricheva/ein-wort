@@ -216,6 +216,40 @@ CREATE UNIQUE INDEX captures_active_lemma
 Stage 4 means capture composes with the pre-generation design in §5: by the time a
 captured word is offered, its dossier is already warm.
 
+### Retraction: *"Kenne ich doch nicht"*
+
+Screen 7 offers a way to take a met word back. Completing a session writes to
+`known_words` with `via = 'session-complete'`, so a word you've met is filtered out of
+future selection exactly like one you dismissed. Retraction reverses that:
+
+1. Delete the `known_words` row.
+2. Insert a capture for the lemma.
+
+That's the whole implementation — **it reuses the capture machinery unchanged.** The
+dedup gate already handles this exact shape: the dossier exists at the current
+`schema_version`, so generation is skipped and the capture goes straight to `queued`.
+No new path, no second queue, no extra table.
+
+It also completes the calibration story. There are now three ways the model of your
+vocabulary gets corrected, and all three are user-initiated:
+
+| Signal | Meaning |
+|---|---|
+| *Kenne ich* on screen 1 | I know this — don't offer it |
+| Tapping a word in a dossier | I don't know this — offer it |
+| *Kenne ich doch nicht* on screen 7 | I thought I knew this, but I don't |
+
+The third is the most informative of the three, because it's the only one grounded in
+having actually studied the word and still not retained it.
+
+**Consequence for the log:** a word can now have more than one completed session, so the
+log lists **distinct words by most recent session**, not raw session rows. Otherwise a
+retracted-then-remet word appears twice.
+
+**Confirmation, not undo.** The action replaces itself inline with a quiet
+*Kommt wieder dran* rather than opening a dialog. It's cheap to reverse — the word simply
+comes round again — so a confirmation step would cost more than the mistake.
+
 ### Scheduling
 
 **Trigger on app start when the last successful run is older than ~24h**, not on a
