@@ -108,7 +108,9 @@ lives, and a bad register label is exactly the "cheap wrong answer" worth paying
       cached dossier passed as context so feedback can't contradict the dossier.
       *Revised from `effort: "low"`: that was sizing the task, not the stakes* — **S**
 - [ ] **3.6b** Dispute affordance (*"Das war Absicht"*) reusing the §11 error-report
-      plumbing; store `anchor_feedback` as JSON, not a rendered string — **H**
+      plumbing. Feedback is otherwise ephemeral — render once, never persist. The
+      dispute path is the single opt-in exception and stores the disputed rewrite,
+      since a dispute with no content is useless as a quality signal — **H**
 - [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
 
 ### Word capture (architecture.md §5b)

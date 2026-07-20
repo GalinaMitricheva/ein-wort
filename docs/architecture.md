@@ -70,9 +70,8 @@ CREATE TABLE sessions (
   started_at      TEXT NOT NULL,
   completed_at    TEXT,
   calibration     TEXT,                  -- know-it | vaguely | new
-  anchor_text     TEXT,
-  anchor_feedback TEXT
-);
+  anchor_text     TEXT                   -- the learner's own sentence
+);                                       -- feedback is deliberately NOT stored — §7
 
 CREATE TABLE dossiers (
   word_id        INTEGER PRIMARY KEY REFERENCES words(id),
@@ -320,15 +319,26 @@ Stylistic preference is not grounds for a rewrite.
 This is the hardest part of the prompt to get right, and the reason authoring it is an
 Opus task rather than a template.
 
+### Feedback is ephemeral
+
+**The rewrite and note are never persisted.** They are rendered once and discarded; the
+session stores only `anchor_text`, the learner's own sentence.
+
+This keeps the log a record of what you *wrote*, not a file of corrections. A stored
+correction is one query away from being a review list, and §7 rules that out
+permanently — the moment the app can show you "your past mistakes," it has grown the
+review queue it was built to avoid.
+
+**One exception, opt-in:** disputing a rewrite (*"Das war Absicht"*) stores that rewrite
+along with the report. Without it a dispute has no content and is useless as a quality
+signal. An explicit tap is explicit consent to record that one instance.
+
 ### Practical
 
-- **Store both fields**, not a rendered string — `sessions.anchor_feedback` holds JSON.
-  Lets the log re-render later, and gives material for checking feedback drift.
 - **Failure is non-fatal.** If the call errors, the word still lands in the log.
   Feedback is optional; the session record is not.
-- **Dispute affordance** — *"Das war Absicht"* — reusing the §11 error-report plumbing.
-  The model will sometimes be wrong, so there must be somewhere to put that, and those
-  reports are the best available signal on feedback quality.
+- **Anchor completion** for the §9 metric is derived from `anchor_text IS NOT NULL` —
+  no separate flag needed.
 
 ---
 
