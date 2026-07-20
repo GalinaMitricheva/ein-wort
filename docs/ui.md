@@ -165,6 +165,19 @@ awaiting their turn, and the three most recent words with their meanings.
 - **Nouns keep their article** (`die Gepflogenheit`), since a stripped headword teaches
   the wrong form on every scan.
 
+**The captured-words line stays, as a diagnostic.** It is the one element on this screen
+that isn't history, kept deliberately: it's the only visible health signal for the
+nightly job (architecture.md §5b). If the number climbs day over day, the job isn't
+running — which on a laptop that sleeps is a live failure mode, not a hypothetical.
+
+For that to work it must **count `pending` captures only** — those not yet processed by
+the job. Words already at `queued` have their dossiers built and are waiting on *you* to
+do a session, so counting them would make the number grow during any normal busy week
+and produce a false alarm. Counting the wrong status turns the diagnostic into noise.
+
+Revisit once the job has proven stable; at that point this line has no remaining purpose
+on a history screen.
+
 Session dates are still recorded in `sessions` and remain queryable for the §9 metrics —
 they are simply never displayed. You can check whether the product is working without
 the app reporting your cadence back at you.
