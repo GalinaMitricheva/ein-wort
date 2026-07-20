@@ -111,6 +111,12 @@ Captured words outrank frequency order. A word you noticed and flagged yourself 
 better evidence of a gap than a frequency rank is — that's §3.5's calibration principle
 applied in the other direction.
 
+**The active level filters the second branch only.** Captures are never re-filtered by
+level: whatever was flagged stays queued at whatever level it was flagged. Level governs
+what the engine *proposes*; a capture is what the learner *asked for*, and the engine
+doesn't overrule that. After a downshift this surfaces as the occasional higher-level
+word still appearing — correct, not a bug.
+
 That's the whole MVP rule, and it satisfies §3.4 ("pitched just above what the user knows") because frequency rank within a level is a reasonable proxy for difficulty. Sophistication here is premature — the calibration signal from §3.5 accumulates in `known_words` for free, and after two weeks of real rejections you'll have actual data to tune against. The §9 quality metric (≤20% rejection rate) is measurable from `sessions.calibration` with a single query.
 
 ---

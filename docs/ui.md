@@ -214,7 +214,26 @@ studying.
 
 ### 9. Level selector
 
-B1 / B2 / C1. Changeable anytime (§6).
+B1 / B2 / C1. Changeable anytime (§6). Reached from the gear on screen 6.
+
+**Revised in review:**
+
+- **Each level describes the language, not the label** — *Anspruchsvolle Texte, feine
+  Nuancen, gehobene Sprache*. Bare `B1 / B2 / C1` assumes you remember where you sit on
+  a framework you last met in a course years ago.
+- **A tap selects and saves.** No `Speichern`, no confirmation — it's a preference, and
+  reversible in one tap.
+- **`Ändert nur, welche Wörter du künftig bekommst. Deine Wörter bleiben.`** answers the
+  question that would otherwise stop you switching.
+- **Only three levels.** No A1/A2, no C2, no greyed-out options implying future support —
+  the screen shows exactly what the word list can serve (§6).
+
+**Changing level does not touch the queue.** Anything already captured or queued stays
+queued, at whatever level it was flagged. Level governs what the *engine* proposes;
+captures are what *you* asked for, and the engine has no business overruling that. The
+visible consequence is that after a downshift you may still be offered the occasional
+higher-level word you flagged yourself — correct behaviour, and worth remembering when
+it looks like a bug.
 
 ### 10. First run
 
