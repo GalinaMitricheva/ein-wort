@@ -82,6 +82,16 @@ CREATE TABLE dossiers (
   json           TEXT NOT NULL,
   error_report   TEXT                    -- §11 "report an error" affordance
 );
+
+CREATE TABLE captures (
+  id           INTEGER PRIMARY KEY,
+  surface_form TEXT NOT NULL,            -- as tapped, e.g. "Vorschläge"
+  lemma        TEXT,                     -- resolved, e.g. "Vorschlag"
+  word_id      INTEGER REFERENCES words(id),  -- NULL if not in the word list
+  session_id   INTEGER REFERENCES sessions(id),
+  captured_at  TEXT NOT NULL,
+  status       TEXT NOT NULL             -- pending | resolved | queued | offered | dismissed
+);
 ```
 
 `sessions` doubles as the "Words met" log — reverse-chronological with a join to `dossiers`. No separate table, and deliberately no `next_review_at` column: §7 makes that a permanent non-goal, and leaving the column out means nobody can quietly add scheduling later.
@@ -91,10 +101,16 @@ CREATE TABLE dossiers (
 ## 4. Selection engine
 
 ```
-next_word = the highest-frequency word at the active level
+next_word = the oldest capture with status = 'queued'
+            ── otherwise ──
+            the highest-frequency word at the active level
             that is not in known_words
             and has not already been offered
 ```
+
+Captured words outrank frequency order. A word you noticed and flagged yourself is
+better evidence of a gap than a frequency rank is — that's §3.5's calibration principle
+applied in the other direction.
 
 That's the whole MVP rule, and it satisfies §3.4 ("pitched just above what the user knows") because frequency rank within a level is a reasonable proxy for difficulty. Sophistication here is premature — the calibration signal from §3.5 accumulates in `known_words` for free, and after two weeks of real rejections you'll have actual data to tune against. The §9 quality metric (≤20% rejection rate) is measurable from `sessions.calibration` with a single query.
 
@@ -135,6 +151,59 @@ Adaptive thinking is worth it here — deciding whether *erörtern* is formal-on
 **Cost.** At Opus 4.8 rates ($5/$25 per MTok), a dossier of ~1.5k output tokens costs a couple of cents. A B1–C1 seed of several hundred words is a one-time spend well under $20, and thereafter sessions are free unless you regenerate. Prompt caching is *not* worth wiring up: Opus 4.8 needs a 4096-token cacheable prefix and the dossier system prompt won't reach it.
 
 **Open question §10.4 (real-content snippets) stays open, and should.** Live retrieval and curated corpora both carry copyright exposure that a single-user local app doesn't need to take on in week one. Ship the dossier without snippets; the collocations and register note already carry most of the "context is the product" weight.
+
+---
+
+## 5b. Word capture and the nightly job
+
+Tapping a word in a collocation or example (screens 2 and 7) records it as a capture.
+This is a narrow slice of brief §8's bring-your-own-word feature: capture is in scope,
+**on-demand dossier generation is not.**
+
+### Why batched, not on-tap
+
+On-tap generation fires an unbounded number of expensive calls during a session that is
+supposed to last under five minutes (§9 anti-metric). Deferring instead:
+
+- **Halves the cost.** The Message Batches API runs at 50% of standard pricing and is
+  built for exactly this — asynchronous, latency-insensitive work. Most batches finish
+  within an hour.
+- **Bounds the spend per run** rather than per tap.
+- **Keeps the session fast.** Nothing blocks on a model call mid-dossier.
+- **Leaves no un-dossiered words in the list.** By the next session every capture is
+  either complete or explicitly failed.
+
+### Job stages
+
+Run over all captures with `status = 'pending'`:
+
+1. **Resolve lemma.** Match `surface_form` against `words.lemma` first — free and
+   instant. On a miss, the model resolves it in stage 3's batch.
+2. **Assign level and source.** Captures not already in the word list get a CEFR level
+   estimate and `source = 'capture'`, keeping §5's per-word provenance honest.
+3. **Generate dossiers** — one batch request per capture, same schema and prompt as
+   §5, submitted through `client.messages.batches.create()`.
+4. **Mark `queued`.** The word is now eligible for selection with its dossier already
+   cached, so it opens instantly.
+
+Stage 4 means capture composes with the pre-generation design in §5: by the time a
+captured word is offered, its dossier is already warm.
+
+### Scheduling
+
+**Trigger on app start when the last successful run is older than ~24h**, not on a
+wall-clock cron. The host laptop sleeps (§10), so a fixed 03:00 job would simply be
+missed with no catch-up. A staleness check runs whenever the machine is actually awake,
+which is the only time it can run at all.
+
+### Guards
+
+- **Cap words per run** (~50). A tap-happy week shouldn't produce a surprise bill.
+- **Per-item failure isolation.** Batch results are keyed by `custom_id` and arrive in
+  any order; a failed item stays `pending` and is retried next run rather than failing
+  the batch.
+- **Dismissal path.** Captures can be dropped without ever being offered — a tap is a
+  cheap gesture and should stay reversible.
 
 ---
 

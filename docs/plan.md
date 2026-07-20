@@ -100,6 +100,22 @@ lives, and a bad register label is exactly the "cheap wrong answer" worth paying
 - [ ] **3.6** `core/anchor.ts` plumbing, `effort: "low"` — **S**
 - [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
 
+### Word capture (architecture.md §5b)
+
+- [ ] **3.8** `captures` table migration — **H**
+- [ ] **3.9** Tap-to-capture in collocations and examples; marked state, undo on
+      re-tap, "Gemerkt für später" tray — **S**
+- [ ] **3.10** Lemma resolution against `words.lemma` at capture time, for tray display — **S**
+- [ ] **3.11** Nightly job: resolve → level/source assign → batch dossier generation
+      via `messages.batches.create()` → mark `queued`. Per-item failure isolation
+      keyed on `custom_id` — **S**
+- [ ] **3.12** Staleness-triggered scheduling — run on app start if last successful run
+      is >24h old. Not a wall-clock cron: the laptop sleeps and a fixed-time job would
+      silently never fire — **S**
+- [ ] **3.13** Per-run word cap (~50) and capture dismissal path — **H**
+- [ ] **3.14** Selection engine: captured words with `status = 'queued'` outrank
+      frequency order — **S**
+
 ---
 
 ## Phase 4 — Get it on the phone

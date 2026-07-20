@@ -66,6 +66,28 @@ When calibration was *Vaguely*, the near-synonym block is surfaced more prominen
 same cached artifact, different presentation. This is the resolution of open question
 §10.3.
 
+**Revised in review:**
+
+- **Collocations come before examples.** You meet the pattern, then notice it working in
+  a sentence — the two reinforce instead of competing.
+- **Formen block** — Präsens / Präteritum / Perfekt / Konjunktiv II. Open: whether weak
+  verbs show the full block or a single `regelmäßig` marker, since their forms are
+  derivable. Nouns show declension (genitive singular + plural) in the same slot.
+- **Rektion block** — valency patterns with case tags (`Akk.`, `Akk. + Dat.`), carrying
+  the screen's only accent color. This is the block that enables production rather than
+  recognition, which is what the anchor step asks for two screens later.
+- **Word capture** — any word in the collocations or examples is a tap target. Tap to
+  mark, tap again to undo; only marked words get visual treatment, so no dotted
+  underlines litter the screen. Marked words appear lemmatized in a "Gemerkt für später"
+  tray (tapping `Ausschuss` in context yields `der Ausschuss`).
+
+Tap rather than text selection: mobile selection means OS magnifiers, drag handles, and
+a system context menu that can't be reliably hooked on iOS Safari. The dossier is
+otherwise a passive page, so every word can simply be a tap target.
+
+Dossiers for captured words are built by the nightly batch job, not on tap — see
+architecture.md §5b.
+
 ### 3. Anchor prompt
 
 Free-text input, single attempt. Needs a **visible, unapologetic skip** — §4 marks the
