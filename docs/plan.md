@@ -82,6 +82,9 @@ interaction before any LLM spend.
 - [ ] **2.11** Session-resume behaviour: app closed mid-dossier, reopened later.
       Resume in place or discard — decide, then implement — **S**
 - [ ] **2.12** Empty-log and no-search-results states — **H**
+- [ ] **2.13** Level selector reached from the settings gear on the log header; level
+      changes never touch the queue (ui.md screen 9) — **H**
+- [ ] **2.14** First run: single level question, B2 preselected, one button — **H**
 
 See [ui.md](ui.md) for the full screen and state inventory, and the design review tracker.
 

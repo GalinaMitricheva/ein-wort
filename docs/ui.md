@@ -19,11 +19,14 @@ no interactivity. Resume from the first row that isn't ✅.
 | 3 | Anchor prompt | ✅ Approved |
 | 4 | Anchor feedback | ✅ Approved |
 | 5 | Session complete | ✅ Approved |
-| 6 | Words met (log) | 🔵 In review |
-| 7 | Log detail | ⬜ Not started |
+| 6 | Words met (log) | ✅ Approved |
+| 7 | Log detail | ✅ Approved |
 | ~~8~~ | ~~Search~~ | Merged into screen 6 as a state |
-| 9 | Level selector | ⬜ Not started |
-| 10 | First run | ⬜ Not started |
+| 9 | Level selector | ✅ Approved |
+| 10 | First run | ✅ Approved |
+
+**All ten screens approved 2026-07-20.** The states table below is not sketched — those
+are implementation-time decisions against the design language in the next section.
 
 Legend: ⬜ not started · 🔵 in review · ✅ approved
 
@@ -237,7 +240,59 @@ it looks like a bug.
 
 ### 10. First run
 
-No level set yet. May be screen 9 with different framing rather than a distinct view.
+**Approved 2026-07-20.**
+
+- **One question, one button.** No carousel, no feature tour, no account, no email, no
+  permissions prompt. The app asks the single thing it can't infer, then gets out of the
+  way.
+- **B2 is preselected** — the target user is B2+ (§2), and it avoids a disabled button on
+  an empty selection. One tap to start.
+- **The tagline is the brief's own line, in German:** *Ein Wort pro Sitzung. Gelernt in
+  seinem natürlichen Umfeld, nicht auf einer Karteikarte.* Thesis and anti-thesis in one
+  breath; the only place the app explains itself.
+- **`Lässt sich jederzeit ändern`** removes the weight from a choice that feels
+  consequential only because you're making it cold.
+- **The only primary button outside a session**, justified as a threshold. Screens 5 and
+  7 look bare by deliberate contrast, not inconsistency.
+
+---
+
+## Design language
+
+Cross-cutting rules established across the ten reviews. These are the constraints an
+implementation brief should carry.
+
+**Layout.** Mobile-first, ~340px content column. Sections divided by 0.5px hairlines and
+12px muted labels — never by nested cards.
+
+**Typeface carries meaning:**
+
+| Face | Used for |
+|---|---|
+| Serif (`--font-voice`) | German content — headwords, examples, valency patterns, the learner's own writing, rewrites |
+| Mono | Reference data — verb forms, case tags |
+| Sans | Interface chrome — labels, buttons, glosses |
+
+English glosses are always smaller and more muted than the German they translate, so the
+eye reaches for the German first.
+
+**Accent colour appears exactly twice** in the whole app: Rektion case tags, and
+captured-word marks. Nothing else may claim it — its scarcity is what makes both legible
+at a glance.
+
+**Buttons signal direction.** A full-width 46px primary button means the session moves
+forward. History screens (5, 6, 7) end in quiet text links instead — the absence of a
+button is how a dead end is expressed. First run is the single exception.
+
+**Never displayed:** counts, totals, streaks, progress indicators, dates in the log,
+per-word CEFR levels, scores, grades, or praise. `level`, `source` and `frequency_rank`
+are engine data. Session dates stay queryable for §9 metrics but never surface.
+
+**Corrections use hierarchy, not red.** No strikethrough, no error colour, no inline
+diff. The native version is simply larger and darker than yours.
+
+**Interface copy is German throughout,** including structural labels. Claims stay weak
+and checkable — *steht jetzt in deinen Wörtern*, never *gelernt*.
 
 ---
 
