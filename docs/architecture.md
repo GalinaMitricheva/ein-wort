@@ -133,8 +133,10 @@ import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 const Dossier = z.object({
   meaning_de: z.string(),
   meaning_en: z.string(),
-  examples: z.array(z.object({ de: z.string(), en: z.string() })).min(2).max(3),
+  forms: z.array(z.object({ label: z.string(), value: z.string() })),      // Formen block; verb conjugation or noun declension
+  rektion: z.array(z.object({ pattern: z.string(), cases: z.string() })),  // Rektion block; [] for words that take no object
   collocations: z.array(z.object({ phrase: z.string(), gloss_en: z.string() })),
+  examples: z.array(z.object({ de: z.string(), en: z.string() })).min(2).max(3),
   register: z.enum(["formal", "neutral", "colloquial", "regional"]),
   register_note: z.string(),
   near_synonyms: z.array(z.object({ lemma: z.string(), distinction: z.string() })),
@@ -401,71 +403,74 @@ CREATE TABLE feedback_disputes (
 
 ---
 
-## 7b. Authentication (development)
+## 7b. Model access — provider abstraction, credentials deferred
 
-**No API key.** The app authenticates with a long-lived token minted from the existing
-Claude subscription:
+The app reaches Claude only through a provider interface, and ships a **fixture-backed
+implementation that needs no credential.** Consequence: the entire app — data layer,
+core loop, capture, log, the nightly job's plumbing — is buildable and fully usable in
+development with no Anthropic credential at all. Credentials become a Phase 3 concern,
+not a Phase 0 blocker.
 
-```
-claude setup-token            # one-time; requires a Claude subscription
-```
+### The subscription path is a dead end (investigated 2026-07-25)
 
-Export the result as `ANTHROPIC_AUTH_TOKEN`. The SDK reads it automatically — the client
-constructor stays bare:
+The original plan authenticated via the local Claude subscription (`claude setup-token`)
+to avoid an API key. It does not work for a standalone app:
 
-```ts
-const client = new Anthropic();   // no apiKey argument
-```
+- `setup-token` emits **no portable token.** It writes a Pro-subscription OAuth
+  credential into Claude Code's private store (`~/.claude/.credentials.json`) for Claude
+  Code's own use.
+- Consuming it would require reading that private store — **blocked by the Claude Code
+  safety classifier**, correctly, since it resembles credential theft — then injecting
+  the `anthropic-beta: oauth-2025-04-20` header the SDK doesn't send, then handling the
+  **~8-hour access-token expiry** by hand, since env-var tokens aren't auto-refreshed.
+- The nightly batch job (§5b) runs **unattended**; a credential that dies every 8 hours
+  can't drive it. Batch support on consumer OAuth scopes is also unverified.
 
-Resolution order, first match wins: `ANTHROPIC_API_KEY` → `ANTHROPIC_AUTH_TOKEN` →
-an OAuth profile from `ant auth login` → WIF env vars → the default profile on disk.
-We use slot two.
+A subscription is not an API credential. **Do not re-attempt this path.** Real
+generation needs API billing — an `ANTHROPIC_API_KEY`, or an `ant auth login` profile —
+set up when it's actually needed.
 
-### What this does and does not change
+### The provider interface
 
-It removes key management. It does **not** make calls local or free — there is no local
-inference endpoint and the Claude desktop app exposes no API. Requests still go to
-`api.anthropic.com`.
+`core/llm/` defines one interface — `generateDossier`, `assessAnchor` — and a factory
+selects the implementation from config via `EIN_WORT_LLM`:
 
-`claude auth login` alone is **not** sufficient: it authenticates Claude Code and stores
-credentials in `~/.claude/.credentials.json`, which the SDK does not read. `setup-token`
-is the bridge between the two.
+| Mode | When | Credential |
+|---|---|---|
+| `fixture` | Default. Development, the whole loop, tests, demos. | none |
+| `anthropic` | Real generation, once API billing exists (Phase 3). | `ANTHROPIC_API_KEY` |
 
-### Consequences of the subscription path
+The factory defaults to `fixture` and returns `anthropic` only when the flag is set
+**and** a credential is present — a missing credential degrades to fixtures rather than
+crashing. The `anthropic` implementation is a documented seam until Phase 3: the
+interface is real now, the API-calling body is written and tested when a credential
+exists to test it against.
 
-- **Usage runs against subscription limits, not metered per-token billing.** This
-  changes the cost-estimation plan: there will be no per-token spend figures to
-  extrapolate from, only whether limits are hit. Revisiting this decision later means
-  moving to an API key or `ant` profile to get those numbers.
-- **Batch API support is unverified.** The nightly capture job (§5b) depends on
-  `messages.batches.create()`. Whether that endpoint accepts a subscription-derived
-  token has not been confirmed — verify before building task 3.11, not after.
-- **Appropriateness for a separate application is unconfirmed.** `setup-token` is a
-  Claude Code feature. Using it to power an unrelated app may or may not be intended;
-  worth checking the terms before this becomes more than a local dev tool.
+### What fixture mode gives up
 
-### Traps
+Fixtures are canned: a word always yields the same dossier, and the anchor "assessment"
+is a fixed response, not a real judgement. That is enough to build and demonstrate the
+loop, wire the capture queue, and exercise the nightly job's plumbing. It says **nothing
+about dossier quality** — the §11 risk (register accuracy, invented collocations) can
+only be evaluated against the real provider. The fixture proves the machine runs, not
+that its output is trustworthy.
 
-1. **Never set both `ANTHROPIC_API_KEY` and `ANTHROPIC_AUTH_TOKEN`** — the SDK sends
-   both headers and the API rejects the request.
-2. **An empty `ANTHROPIC_API_KEY` still wins its precedence slot** and authenticates with
-   an empty key. The variable must be genuinely absent, so it must not appear in
-   `.env.example` at all.
-3. **Fail loudly on a missing token.** `.env.example` carries an obviously-fake
-   placeholder rather than an empty assignment, and the app validates presence at
-   startup — an unset token should not surface as a confusing 401 mid-session.
-4. **The token is long-lived, not eternal.** When previously working auth starts
-   failing, re-run `claude setup-token` before debugging anything else.
-5. **The token is a secret.** `.env` is gitignored; the token never enters the repo,
-   a commit message, or a log line.
+### Credential hygiene, for when the real provider arrives
 
-`claude auth status` reports Claude Code's own auth state. Note it describes Claude
-Code's credential, not the app's — the two are separate stores.
+- **Never set both `ANTHROPIC_API_KEY` and `ANTHROPIC_AUTH_TOKEN`** — the SDK sends both
+  headers and the API rejects the request. The conflict guard in `core/config` enforces
+  this at startup.
+- **An empty `ANTHROPIC_API_KEY` still wins its precedence slot** and authenticates with
+  an empty key, so it must not appear in `.env.example` at all.
+- **The key is a secret.** `.env` is gitignored; it never enters the repo, a commit
+  message, or a log line.
 
 ### Revisit when
 
-A development and testing decision. Revisit once the app is polished, or sooner if the
-Batch API turns out not to work on this credential.
+Real credentials are set up at the start of Phase 3, when dossier quality first needs
+evaluating. That is also when the cost-attribution question from the brief becomes
+answerable — an API key scoped to its own workspace yields the per-token figures a
+subscription never would.
 
 ---
 

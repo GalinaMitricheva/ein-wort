@@ -39,16 +39,26 @@ Fully mechanical. All parallelizable.
       ⚠️ `.env.example` must **not** contain `ANTHROPIC_API_KEY`. An empty value still
       occupies its precedence slot and authenticates with an empty key, silently
       overriding the OAuth profile. See architecture.md §7b.
-- [ ] **0.5** One-time `claude setup-token`; export the result as `ANTHROPIC_AUTH_TOKEN`
-      in a gitignored `.env`. `claude auth login` alone is not enough — it authenticates
-      Claude Code into `~/.claude/.credentials.json`, which the SDK does not read
-      (architecture.md §7b) — **M** · ⏳ blocked on you (subscription login)
-- [ ] **0.6** **Credential smoke test — do this before anything depends on it.** Confirm
-      the token works for (a) a plain `messages.create()` call and (b) a
-      `messages.batches.create()` call. Batch support on a subscription-derived token is
-      unverified, and the nightly capture job (task 3.11) is built on it. Finding out
-      here costs minutes; finding out at 3.11 costs a redesign — **S**
-      · ⏳ written (`npm run smoke`), waiting on 0.5
+- [x] **0.5** ~~`claude setup-token`~~ **Decided: subscription path rejected, dev runs on
+      fixtures.** setup-token writes a Pro-subscription OAuth credential into Claude
+      Code's private store — no portable token, ~8h expiry, unusable for the unattended
+      nightly job, and reading it is (rightly) classifier-blocked. Real credentials
+      deferred to Phase 3 (architecture.md §7b) — **M**
+- [x] **0.6** **Credential smoke test — superseded by the provider abstraction.** The
+      `messages.batches.create` question moves to Phase 3, when the Anthropic provider is
+      built against real billing. The credential-free equivalent — fixture provider
+      returns schema-valid dossiers and both anchor states — is verified. `scripts/smoke-test.ts`
+      is kept for that Phase 3 check — **S**
+
+### Provider abstraction (architecture.md §7b) — done this session
+
+- [x] **P.1** `core/llm` seam: `LlmProvider` interface, `FixtureProvider`, `selectProvider`
+      factory (fixtures by default; degrades to fixtures if `anthropic` requested without a
+      credential). `AnthropicProvider` is a marked Phase-3 seam — **S**
+- [x] **P.2** Dossier + AnchorFeedback Zod schemas, reconciled with the approved screens
+      (Formen + Rektion). *Pulls task 3.1 forward.* — **S**
+- [x] **P.3** `erörtern` fixture (the worked example from the mockups) + thin placeholder
+      for any other word. *Covers task 2.6.* — **H**
 - [x] **0.2** `.gitattributes` with `* text=auto` to settle the CRLF warning — **H** · inline
 - [x] **0.3** Fastify server booting on :3000 with a health route — **H**
 - [x] **0.4** htmx + base HTML layout template, no styling yet — **H**
@@ -80,7 +90,7 @@ interaction before any LLM spend.
 - [ ] **2.4** Dossier display view — the typographically dense one; §6 chose a web app for this — **S**
 - [ ] **2.5** Anchor input; sets `sessions.anchor_completed` only. The sentence itself is
       never written to the database (architecture.md §7) — **S**
-- [ ] **2.6** Stub dossier fixture matching the §5 schema shape — **H**
+- [x] **2.6** Stub dossier fixture matching the §5 schema shape — **H** · done as P.3
 - [ ] **2.7** Level selector (self-declared, changeable anytime) — **H**
 - [ ] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
 - [ ] **2.9** Level-exhausted state — guaranteed to fire with the 20-word fixture,
@@ -103,7 +113,7 @@ See [ui.md](ui.md) for the full screen and state inventory, and the design revie
 The quality core. Prompt authoring is **O** — it's where §11's stated risk actually
 lives, and a bad register label is exactly the "cheap wrong answer" worth paying to avoid.
 
-- [ ] **3.1** Zod dossier schema per architecture.md §5 — **S**
+- [x] **3.1** Zod dossier schema per architecture.md §5 — **S** · done as P.2
 - [ ] **3.2** **Dossier prompt authoring** — meaning, examples, collocations, register,
       near-synonym distinctions. Needs real judgment about what makes usage guidance
       trustworthy for a B2+ learner — **O**
