@@ -1,0 +1,29 @@
+{
+  "list_version": "fixture-1",
+  "source": "hand-fixture",
+  "note": "20 hand-entered words for development. lemma is the bare dictionary form (nouns carry their gender in `article`, not in the lemma, so capture resolution can match a bare surface form). Genders, plurals, and verb forms are from the author's own German; per plan.md 1.4 they still want a Duden spot-check before being trusted. key_forms are {present, past, perfect} 3rd-person singular, verbs only.",
+  "words": [
+    { "lemma": "Gewohnheit", "pos": "noun", "article": "die", "plural": "Gewohnheiten", "level": "B1", "frequency_rank": 1 },
+    { "lemma": "Vorschlag", "pos": "noun", "article": "der", "plural": "Vorschläge", "level": "B1", "frequency_rank": 2 },
+    { "lemma": "Erfahrung", "pos": "noun", "article": "die", "plural": "Erfahrungen", "level": "B1", "frequency_rank": 3 },
+    { "lemma": "Umgebung", "pos": "noun", "article": "die", "plural": "Umgebungen", "level": "B1", "frequency_rank": 4 },
+    { "lemma": "entscheiden", "pos": "verb", "key_forms": { "present": "entscheidet", "past": "entschied", "perfect": "hat entschieden" }, "level": "B1", "frequency_rank": 5 },
+    { "lemma": "verbessern", "pos": "verb", "key_forms": { "present": "verbessert", "past": "verbesserte", "perfect": "hat verbessert" }, "level": "B1", "frequency_rank": 6 },
+    { "lemma": "deutlich", "pos": "adj", "level": "B1", "frequency_rank": 7 },
+
+    { "lemma": "Aufwand", "pos": "noun", "article": "der", "plural": "Aufwände", "level": "B2", "frequency_rank": 1 },
+    { "lemma": "Anspruch", "pos": "noun", "article": "der", "plural": "Ansprüche", "level": "B2", "frequency_rank": 2 },
+    { "lemma": "Voraussetzung", "pos": "noun", "article": "die", "plural": "Voraussetzungen", "level": "B2", "frequency_rank": 3 },
+    { "lemma": "beharren", "pos": "verb", "key_forms": { "present": "beharrt", "past": "beharrte", "perfect": "hat beharrt" }, "level": "B2", "frequency_rank": 4 },
+    { "lemma": "zumuten", "pos": "verb", "key_forms": { "present": "mutet zu", "past": "mutete zu", "perfect": "hat zugemutet" }, "level": "B2", "frequency_rank": 5 },
+    { "lemma": "bewältigen", "pos": "verb", "key_forms": { "present": "bewältigt", "past": "bewältigte", "perfect": "hat bewältigt" }, "level": "B2", "frequency_rank": 6 },
+    { "lemma": "ausführlich", "pos": "adj", "level": "B2", "frequency_rank": 7 },
+
+    { "lemma": "erörtern", "pos": "verb", "key_forms": { "present": "erörtert", "past": "erörterte", "perfect": "hat erörtert" }, "level": "C1", "frequency_rank": 1 },
+    { "lemma": "Gepflogenheit", "pos": "noun", "article": "die", "plural": "Gepflogenheiten", "level": "C1", "frequency_rank": 2 },
+    { "lemma": "Sachverhalt", "pos": "noun", "article": "der", "plural": "Sachverhalte", "level": "C1", "frequency_rank": 3 },
+    { "lemma": "Tragweite", "pos": "noun", "article": "die", "plural": "Tragweiten", "level": "C1", "frequency_rank": 4 },
+    { "lemma": "unabdingbar", "pos": "adj", "level": "C1", "frequency_rank": 5 },
+    { "lemma": "gewissermaßen", "pos": "adv", "level": "C1", "frequency_rank": 6 }
+  ]
+}

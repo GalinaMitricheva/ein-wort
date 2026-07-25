@@ -7,6 +7,10 @@ import { z } from "zod";
 // task validates what it writes, the fixture source validates its canned data,
 // so a malformed dossier fails the same way wherever it comes from.
 
+// Bumping this invalidates every stored dossier: the collection task rebuilds
+// them, and the app treats an older-versioned row as "not built yet" (§5).
+export const SCHEMA_VERSION = 1;
+
 export const Register = z.enum(["formal", "neutral", "colloquial", "regional"]);
 
 export const Dossier = z.object({

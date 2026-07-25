@@ -3,10 +3,12 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import Fastify from "fastify";
 import { loadConfig } from "./config.ts";
+import { bootstrapStore } from "./core/bootstrap.ts";
 import { layout } from "./views/layout.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const config = loadConfig();
+const { store, seeded } = bootstrapStore();
 
 // Vendored htmx, read once at boot. Serving this single asset via an explicit
 // route avoids a static-file dependency (and its path-traversal advisories) —
@@ -16,6 +18,7 @@ const htmx = readFileSync(
 );
 
 const app = Fastify({ logger: true });
+app.log.info({ words: store.countWords(), seeded }, "data layer ready");
 
 app.get("/vendor/htmx.min.js", async (_request, reply) => {
   reply.type("application/javascript").send(htmx);
