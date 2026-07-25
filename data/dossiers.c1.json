@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored dossiers for the C1 word list (data/words.c1.json), batch 1. Keyed by lemma. Spot-check against DWDS/Duden per plan.md 7.1. More batches to follow — run `npm run collect` to see which C1 words still need a dossier.",
+  "dossiers": {
+    "Konsens": {
+      "meaning_de": "eine Übereinstimmung, die alle Beteiligten mittragen",
+      "meaning_en": "consensus; general agreement",
+      "forms": [
+        { "label": "Genitiv", "value": "des Konsenses" },
+        { "label": "Plural", "value": "die Konsense" }
+      ],
+      "rektion": [
+        { "pattern": "Konsens über etwas", "cases": "über + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Konsens finden", "gloss_en": "to reach a consensus" },
+        { "phrase": "einen Konsens erzielen", "gloss_en": "to achieve consensus" },
+        { "phrase": "im Konsens", "gloss_en": "by consensus" },
+        { "phrase": "der breite Konsens", "gloss_en": "the broad consensus" }
+      ],
+      "examples": [
+        { "de": "Die Parteien konnten keinen Konsens finden.", "en": "The parties couldn't reach a consensus." },
+        { "de": "Über diese Frage herrscht breiter Konsens.", "en": "There is broad consensus on this question." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Politik, Wissenschaft und Verhandlungen zu Hause.",
+      "near_synonyms": [
+        { "lemma": "die Einigung", "distinction": "konkreter, das Ergebnis eines Aushandelns" },
+        { "lemma": "das Einvernehmen", "distinction": "betont das gute Verhältnis, die Eintracht" }
+      ]
+    },
+    "Gremium": {
+      "meaning_de": "eine Gruppe von Personen, die gemeinsam über etwas berät oder entscheidet",
+      "meaning_en": "committee; panel; governing body",
+      "forms": [
+        { "label": "Genitiv", "value": "des Gremiums" },
+        { "label": "Plural", "value": "die Gremien" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein beratendes Gremium", "gloss_en": "an advisory body" },
+        { "phrase": "das zuständige Gremium", "gloss_en": "the responsible body" },
+        { "phrase": "in einem Gremium sitzen", "gloss_en": "to sit on a committee" },
+        { "phrase": "ein Gremium einberufen", "gloss_en": "to convene a committee" }
+      ],
+      "examples": [
+        { "de": "Das Gremium tagt einmal im Monat.", "en": "The committee meets once a month." },
+        { "de": "Die Entscheidung liegt beim zuständigen Gremium.", "en": "The decision rests with the responsible body." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und institutionell; typisch für Verwaltung, Universität und Unternehmen.",
+      "near_synonyms": [
+        { "lemma": "der Ausschuss", "distinction": "meist ein Unterorgan mit spezieller Aufgabe" },
+        { "lemma": "der Rat", "distinction": "oft ein festes, benanntes Beratungsorgan" }
+      ]
+    },
+    "Erörterung": {
+      "meaning_de": "das ausführliche, sachliche Besprechen einer Frage",
+      "meaning_en": "detailed discussion; examination of an issue",
+      "forms": [
+        { "label": "Genitiv", "value": "der Erörterung" },
+        { "label": "Plural", "value": "die Erörterungen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine ausführliche Erörterung", "gloss_en": "a detailed discussion" },
+        { "phrase": "die Erörterung des Themas", "gloss_en": "the examination of the topic" },
+        { "phrase": "nach eingehender Erörterung", "gloss_en": "after thorough discussion" },
+        { "phrase": "einer Erörterung bedürfen", "gloss_en": "to require examination" }
+      ],
+      "examples": [
+        { "de": "Nach langer Erörterung fiel die Entscheidung.", "en": "After lengthy discussion the decision was made." },
+        { "de": "Die Frage bedarf einer gründlichen Erörterung.", "en": "The question requires thorough examination." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; das Substantiv zu erörtern, häufig in Aufsätzen und Gutachten.",
+      "near_synonyms": [
+        { "lemma": "die Besprechung", "distinction": "neutraler und alltäglicher" },
+        { "lemma": "die Diskussion", "distinction": "setzt unterschiedliche Standpunkte voraus" }
+      ]
+    },
+    "Vorbehalt": {
+      "meaning_de": "ein Bedenken oder eine Einschränkung, die man gegen etwas geltend macht",
+      "meaning_en": "reservation; proviso; caveat",
+      "forms": [
+        { "label": "Genitiv", "value": "des Vorbehalts" },
+        { "label": "Plural", "value": "die Vorbehalte" }
+      ],
+      "rektion": [
+        { "pattern": "Vorbehalte gegen etwas", "cases": "gegen + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "Vorbehalte gegen etwas haben", "gloss_en": "to have reservations about something" },
+        { "phrase": "ohne Vorbehalt", "gloss_en": "without reservation" },
+        { "phrase": "unter dem Vorbehalt, dass", "gloss_en": "with the proviso that" },
+        { "phrase": "seine Vorbehalte äußern", "gloss_en": "to voice one's reservations" }
+      ],
+      "examples": [
+        { "de": "Sie stimmte nur unter Vorbehalt zu.", "en": "She agreed only with reservations." },
+        { "de": "Er hat Vorbehalte gegen den Plan.", "en": "He has reservations about the plan." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in juristischen und formellen Kontexten besonders geläufig.",
+      "near_synonyms": [
+        { "lemma": "das Bedenken", "distinction": "die Sorge selbst, weniger die Einschränkung" },
+        { "lemma": "der Einwand", "distinction": "aktiver vorgebracht, ein konkretes Gegenargument" }
+      ]
+    },
+    "Widerspruch": {
+      "meaning_de": "eine Aussage oder Haltung, die einer anderen entgegensteht; auch: förmlicher Einspruch",
+      "meaning_en": "contradiction; objection",
+      "forms": [
+        { "label": "Genitiv", "value": "des Widerspruchs" },
+        { "label": "Plural", "value": "die Widersprüche" }
+      ],
+      "rektion": [
+        { "pattern": "im Widerspruch zu etwas stehen", "cases": "zu + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "Widerspruch einlegen", "gloss_en": "to file an objection" },
+        { "phrase": "im Widerspruch zu etwas stehen", "gloss_en": "to contradict something" },
+        { "phrase": "auf Widerspruch stoßen", "gloss_en": "to meet with opposition" },
+        { "phrase": "ein innerer Widerspruch", "gloss_en": "an inner contradiction" }
+      ],
+      "examples": [
+        { "de": "Seine Worte stehen im Widerspruch zu seinen Taten.", "en": "His words contradict his deeds." },
+        { "de": "Gegen den Bescheid kann man Widerspruch einlegen.", "en": "You can file an objection against the decision." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; im juristischen Sinn (Einspruch) fest verankert.",
+      "near_synonyms": [
+        { "lemma": "der Einwand", "distinction": "ein einzelnes Gegenargument, weniger grundsätzlich" },
+        { "lemma": "der Gegensatz", "distinction": "zwei Dinge, die einander ausschließen, ohne Streit" }
+      ]
+    },
+    "Einwand": {
+      "meaning_de": "ein Argument, das man gegen eine Meinung oder einen Vorschlag vorbringt",
+      "meaning_en": "objection; point of criticism",
+      "forms": [
+        { "label": "Genitiv", "value": "des Einwands" },
+        { "label": "Plural", "value": "die Einwände" }
+      ],
+      "rektion": [
+        { "pattern": "Einwand gegen etwas", "cases": "gegen + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Einwand erheben", "gloss_en": "to raise an objection" },
+        { "phrase": "einen Einwand entkräften", "gloss_en": "to refute an objection" },
+        { "phrase": "berechtigte Einwände", "gloss_en": "valid objections" },
+        { "phrase": "gegen etwas Einwände haben", "gloss_en": "to have objections to something" }
+      ],
+      "examples": [
+        { "de": "Gegen diesen Vorschlag habe ich keine Einwände.", "en": "I have no objections to this proposal." },
+        { "de": "Sein Einwand war durchaus berechtigt.", "en": "His objection was quite valid." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlich und in Diskussionen aller Art gebräuchlich.",
+      "near_synonyms": [
+        { "lemma": "der Vorbehalt", "distinction": "zurückhaltender, oft ein Bedenken im Voraus" },
+        { "lemma": "die Kritik", "distinction": "umfassender und wertend" }
+      ]
+    },
+    "Ausmaß": {
+      "meaning_de": "die Größe oder der Grad, in dem etwas auftritt",
+      "meaning_en": "extent; scale; magnitude",
+      "forms": [
+        { "label": "Genitiv", "value": "des Ausmaßes" },
+        { "label": "Plural", "value": "die Ausmaße" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "das volle Ausmaß", "gloss_en": "the full extent" },
+        { "phrase": "in großem Ausmaß", "gloss_en": "on a large scale" },
+        { "phrase": "das Ausmaß der Schäden", "gloss_en": "the extent of the damage" },
+        { "phrase": "bedrohliche Ausmaße annehmen", "gloss_en": "to take on threatening proportions" }
+      ],
+      "examples": [
+        { "de": "Das Ausmaß der Zerstörung war enorm.", "en": "The extent of the destruction was enormous." },
+        { "de": "Die Krise nahm bedrohliche Ausmaße an.", "en": "The crisis took on threatening proportions." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; oft in Berichten über Schäden, Krisen und Entwicklungen.",
+      "near_synonyms": [
+        { "lemma": "der Umfang", "distinction": "eher die Menge oder Reichweite, neutraler" },
+        { "lemma": "die Tragweite", "distinction": "die Bedeutung der Folgen, nicht die bloße Größe" }
+      ]
+    },
+    "Spielraum": {
+      "meaning_de": "der Freiraum, innerhalb dessen man handeln oder entscheiden kann",
+      "meaning_en": "leeway; scope; room for manoeuvre",
+      "forms": [
+        { "label": "Genitiv", "value": "des Spielraums" },
+        { "label": "Plural", "value": "die Spielräume" }
+      ],
+      "rektion": [
+        { "pattern": "Spielraum für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "wenig Spielraum haben", "gloss_en": "to have little leeway" },
+        { "phrase": "Spielraum lassen", "gloss_en": "to leave room" },
+        { "phrase": "der finanzielle Spielraum", "gloss_en": "the financial scope" },
+        { "phrase": "den Spielraum nutzen", "gloss_en": "to use the leeway" }
+      ],
+      "examples": [
+        { "de": "Der Vertrag lässt kaum Spielraum für Ausnahmen.", "en": "The contract leaves little room for exceptions." },
+        { "de": "Wir haben hier einen gewissen Spielraum.", "en": "We have some leeway here." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; häufig in Wirtschaft, Recht und Verhandlungen.",
+      "near_synonyms": [
+        { "lemma": "der Freiraum", "distinction": "allgemeiner, oft persönlich oder kreativ" },
+        { "lemma": "die Handlungsfreiheit", "distinction": "betont die Freiheit zu handeln als solche" }
+      ]
+    },
+    "Anhaltspunkt": {
+      "meaning_de": "ein Hinweis, der als Grundlage für eine Vermutung oder Beurteilung dient",
+      "meaning_en": "clue; indication; point of reference",
+      "forms": [
+        { "label": "Genitiv", "value": "des Anhaltspunkts" },
+        { "label": "Plural", "value": "die Anhaltspunkte" }
+      ],
+      "rektion": [
+        { "pattern": "Anhaltspunkt für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "konkrete Anhaltspunkte", "gloss_en": "concrete evidence" },
+        { "phrase": "Anhaltspunkte liefern", "gloss_en": "to provide clues" },
+        { "phrase": "keinen Anhaltspunkt haben", "gloss_en": "to have no lead" },
+        { "phrase": "Anhaltspunkte für einen Verdacht", "gloss_en": "grounds for suspicion" }
+      ],
+      "examples": [
+        { "de": "Es gibt keine Anhaltspunkte für ein Verschulden.", "en": "There is no indication of any wrongdoing." },
+        { "de": "Die Spur lieferte den ersten Anhaltspunkt.", "en": "The trace provided the first clue." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Ermittlungen, Gutachten und sachliche Analysen.",
+      "near_synonyms": [
+        { "lemma": "der Hinweis", "distinction": "allgemeiner und alltäglicher" },
+        { "lemma": "das Indiz", "distinction": "stärker, oft juristisch - ein Beweisanzeichen" }
+      ]
+    },
+    "Beweggrund": {
+      "meaning_de": "der innere Grund, der jemanden zu einer Handlung bewegt",
+      "meaning_en": "motive; underlying reason",
+      "forms": [
+        { "label": "Genitiv", "value": "des Beweggrunds" },
+        { "label": "Plural", "value": "die Beweggründe" }
+      ],
+      "rektion": [
+        { "pattern": "Beweggrund für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "die wahren Beweggründe", "gloss_en": "the true motives" },
+        { "phrase": "aus persönlichen Beweggründen", "gloss_en": "for personal reasons" },
+        { "phrase": "die Beweggründe hinterfragen", "gloss_en": "to question the motives" },
+        { "phrase": "edle Beweggründe", "gloss_en": "noble motives" }
+      ],
+      "examples": [
+        { "de": "Seine Beweggründe blieben unklar.", "en": "His motives remained unclear." },
+        { "de": "Aus welchen Beweggründen hat sie das getan?", "en": "What were her motives for doing that?" }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als Grund, betont das Innere und Motivierende.",
+      "near_synonyms": [
+        { "lemma": "das Motiv", "distinction": "fast bedeutungsgleich, etwas neutraler" },
+        { "lemma": "der Anlass", "distinction": "der äußere Auslöser, nicht der innere Grund" }
+      ]
+    },
+    "erwägen": {
+      "meaning_de": "etwas gründlich bedenken und als Möglichkeit in Betracht ziehen",
+      "meaning_en": "to consider; to weigh up (an option)",
+      "forms": [
+        { "label": "Präsens", "value": "er erwägt" },
+        { "label": "Präteritum", "value": "er erwog" },
+        { "label": "Perfekt", "value": "er hat erwogen" },
+        { "label": "Konjunktiv II", "value": "er erwöge" }
+      ],
+      "rektion": [
+        { "pattern": "etwas erwägen", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Schritt erwägen", "gloss_en": "to consider a step" },
+        { "phrase": "ernsthaft erwägen", "gloss_en": "to consider seriously" },
+        { "phrase": "eine Möglichkeit erwägen", "gloss_en": "to consider a possibility" },
+        { "phrase": "das Für und Wider erwägen", "gloss_en": "to weigh the pros and cons" }
+      ],
+      "examples": [
+        { "de": "Wir erwägen, das Angebot anzunehmen.", "en": "We are considering accepting the offer." },
+        { "de": "Er erwog sogar, zu kündigen.", "en": "He even considered resigning." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bedächtiger und förmlicher als überlegen oder nachdenken.",
+      "near_synonyms": [
+        { "lemma": "in Betracht ziehen", "distinction": "gleiche Bedeutung, feste Wendung" },
+        { "lemma": "überlegen", "distinction": "neutral und alltäglich, weniger abwägend" }
+      ]
+    },
+    "abwägen": {
+      "meaning_de": "Vor- und Nachteile gegeneinander bedenken, um zu einer Entscheidung zu kommen",
+      "meaning_en": "to weigh up; to balance (pros and cons)",
+      "forms": [
+        { "label": "Präsens", "value": "er wägt ab" },
+        { "label": "Präteritum", "value": "er wog ab" },
+        { "label": "Perfekt", "value": "er hat abgewogen" },
+        { "label": "Konjunktiv II", "value": "er wöge ab" }
+      ],
+      "rektion": [
+        { "pattern": "etwas gegen etwas abwägen", "cases": "Akk. gegen Akk." }
+      ],
+      "collocations": [
+        { "phrase": "Vor- und Nachteile abwägen", "gloss_en": "to weigh up pros and cons" },
+        { "phrase": "sorgfältig abwägen", "gloss_en": "to weigh carefully" },
+        { "phrase": "die Risiken abwägen", "gloss_en": "to weigh the risks" },
+        { "phrase": "etwas gegeneinander abwägen", "gloss_en": "to weigh things against each other" }
+      ],
+      "examples": [
+        { "de": "Man muss Nutzen und Risiko abwägen.", "en": "You have to weigh up the benefit and the risk." },
+        { "de": "Nach reiflichem Abwägen entschied sie sich dagegen.", "en": "After careful deliberation she decided against it." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont den bedachten, ausgewogenen Entscheidungsprozess.",
+      "near_synonyms": [
+        { "lemma": "erwägen", "distinction": "eine Möglichkeit bedenken, nicht das Gegeneinander" },
+        { "lemma": "gegenüberstellen", "distinction": "zwei Dinge nebeneinanderlegen, ohne zu werten" }
+      ]
+    },
+    "befürworten": {
+      "meaning_de": "sich zustimmend für etwas aussprechen; etwas unterstützen",
+      "meaning_en": "to advocate; to be in favour of; to endorse",
+      "forms": [
+        { "label": "Präsens", "value": "er befürwortet" },
+        { "label": "Präteritum", "value": "er befürwortete" },
+        { "label": "Perfekt", "value": "er hat befürwortet" },
+        { "label": "Konjunktiv II", "value": "er befürwortete" }
+      ],
+      "rektion": [
+        { "pattern": "etwas befürworten", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Vorschlag befürworten", "gloss_en": "to support a proposal" },
+        { "phrase": "nachdrücklich befürworten", "gloss_en": "to strongly advocate" },
+        { "phrase": "eine Maßnahme befürworten", "gloss_en": "to endorse a measure" },
+        { "phrase": "einen Antrag befürworten", "gloss_en": "to back an application" }
+      ],
+      "examples": [
+        { "de": "Die Mehrheit befürwortet die Reform.", "en": "The majority supports the reform." },
+        { "de": "Ich würde einen anderen Weg befürworten.", "en": "I would advocate a different approach." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als für etwas sein, oft in Politik und Beruf.",
+      "near_synonyms": [
+        { "lemma": "unterstützen", "distinction": "breiter, auch mit Taten, nicht nur mit der Meinung" },
+        { "lemma": "gutheißen", "distinction": "betont die Billigung, das Einverstandensein" }
+      ]
+    },
+    "einräumen": {
+      "meaning_de": "etwas zugeben; auch: jemandem ein Recht oder eine Möglichkeit gewähren",
+      "meaning_en": "to concede; to admit; to grant",
+      "forms": [
+        { "label": "Präsens", "value": "er räumt ein" },
+        { "label": "Präteritum", "value": "er räumte ein" },
+        { "label": "Perfekt", "value": "er hat eingeräumt" },
+        { "label": "Konjunktiv II", "value": "er räumte ein" }
+      ],
+      "rektion": [
+        { "pattern": "etwas einräumen", "cases": "Akk." },
+        { "pattern": "jemandem etwas einräumen", "cases": "Dat. + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Fehler einräumen", "gloss_en": "to admit a mistake" },
+        { "phrase": "jemandem ein Recht einräumen", "gloss_en": "to grant someone a right" },
+        { "phrase": "eine Frist einräumen", "gloss_en": "to grant a deadline" },
+        { "phrase": "einen Vorteil einräumen", "gloss_en": "to concede an advantage" }
+      ],
+      "examples": [
+        { "de": "Er räumte ein, sich geirrt zu haben.", "en": "He conceded that he had been mistaken." },
+        { "de": "Man räumte ihr eine Bedenkzeit ein.", "en": "She was granted time to think it over." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im Sinne von zugeben wirkt es sachlich und distanziert.",
+      "near_synonyms": [
+        { "lemma": "zugeben", "distinction": "neutraler und alltäglicher" },
+        { "lemma": "gewähren", "distinction": "nur 'jemandem etwas geben', nicht 'zugeben'" }
+      ]
+    }
+  }
+}

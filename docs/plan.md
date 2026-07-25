@@ -126,6 +126,15 @@ needs no in-app credential; the app makes zero model calls.
       (`data/dossiers.seed.json`): meaning, forms, Rektion, collocations, examples,
       register, near-synonym distinctions. Produced by the collection task (Claude Code),
       not an API call. Still wants a DWDS/Duden spot-check (§7.1) — **O**
+
+### Hand-curated C1 word list (interim, while Phase 5 sources are blocked)
+
+- [x] **C1-list** 100 hand-curated C1 words (`data/words.c1.json`) with correct
+      article/plural/key_forms. Multi-file word/dossier loading wired. Wants a Duden
+      spot-check (§5.8) — **O**
+- [~] **C1-dossiers** Dossiers authored in batches (`data/dossiers.c1.json`). **Batch 1:
+      14 words done → 20 C1 words usable; ~81 still need a dossier** (`npm run collect`
+      reports the list). Continue in batches — **O**
 - [x] **3.3** The collection task (`core/collect.ts`, `npm run collect`): load authored
       dossiers into the store, work pending captures through the dedup gate, report what
       still needs content. Idempotent. No model call — content is authored by hand into

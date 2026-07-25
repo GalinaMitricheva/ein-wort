@@ -5,8 +5,16 @@ import type { Store, Level } from "./store.ts";
 import { Dossier } from "./dossier/schema.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
-export const FIXTURE_PATH = join(here, "..", "..", "data", "words.fixture.json");
-export const DOSSIERS_PATH = join(here, "..", "..", "data", "dossiers.seed.json");
+const dataFile = (name: string): string => join(here, "..", "..", "data", name);
+
+// Word lists and dossier files, loaded in order. Later files upsert over earlier
+// ones by (lemma, pos) / lemma, so a word or dossier can be refined in a newer file.
+export const WORD_FILES = [dataFile("words.fixture.json"), dataFile("words.c1.json")];
+export const DOSSIER_FILES = [dataFile("dossiers.seed.json"), dataFile("dossiers.c1.json")];
+
+// Back-compat single-file paths (used by tests).
+export const FIXTURE_PATH = WORD_FILES[0]!;
+export const DOSSIERS_PATH = DOSSIER_FILES[0]!;
 
 interface FixtureWord {
   lemma: string;
@@ -24,7 +32,23 @@ interface FixtureFile {
   words: FixtureWord[];
 }
 
-/** Load the hand-entered fixture (plan.md 1.4) into the words table. Idempotent. */
+/** Load every word list into the words table, in order. Idempotent. */
+export function seedAllWords(store: Store): number {
+  return WORD_FILES.reduce((n, path) => n + seedWordsFromFixture(store, path), 0);
+}
+
+/** Load every dossier file, aggregating counts and skips. Idempotent. */
+export function seedAllDossiers(store: Store): DossierSeedResult {
+  const out: DossierSeedResult = { loaded: 0, skipped: [] };
+  for (const path of DOSSIER_FILES) {
+    const r = seedDossiersFromFile(store, path);
+    out.loaded += r.loaded;
+    out.skipped.push(...r.skipped);
+  }
+  return out;
+}
+
+/** Load one hand-entered word list into the words table. Idempotent. */
 export function seedWordsFromFixture(store: Store, path: string = FIXTURE_PATH): number {
   const data = JSON.parse(readFileSync(path, "utf8")) as FixtureFile;
   for (const w of data.words) {
