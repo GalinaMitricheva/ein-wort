@@ -50,7 +50,22 @@ export interface SessionRow extends OpenSession {
   completed_at: string | null;
 }
 
+export interface CaptureRow {
+  id: number;
+  surface_form: string;
+  lemma: string | null;
+  word_id: number | null;
+  session_id: number | null;
+  captured_at: string;
+  status: CaptureStatus;
+}
+
 const now = (): string => new Date().toISOString();
+
+/** The word as it's learned: nouns carry their gender (der/die/das + lemma). */
+export function displayLemma(w: Pick<WordRow, "pos" | "article" | "lemma">): string {
+  return w.pos === "noun" && w.article ? `${w.article} ${w.lemma}` : w.lemma;
+}
 
 export class Store {
   constructor(private readonly db: Db) {}
@@ -204,14 +219,56 @@ export class Store {
 
   // ── captures ─────────────────────────────────────────────────────────────
 
-  /** The app's only job at tap time (§5b): save the tap as pending. */
-  insertCapture(surfaceForm: string, sessionId: number | null): number {
+  /**
+   * Save a tap (§5b) with whatever we could resolve. lemma/word_id are best-effort
+   * for the tray and the eventual collection task; the app never generates anything.
+   */
+  insertCapture(input: {
+    surfaceForm: string;
+    lemma: string | null;
+    wordId: number | null;
+    sessionId: number | null;
+  }): number {
     const row = this.db
       .prepare(
-        "INSERT INTO captures (surface_form, session_id, captured_at, status) VALUES (?, ?, ?, 'pending') RETURNING id",
+        `INSERT INTO captures (surface_form, lemma, word_id, session_id, captured_at, status)
+         VALUES (?, ?, ?, ?, ?, 'pending') RETURNING id`,
       )
-      .get(surfaceForm, sessionId, now()) as { id: number };
+      .get(input.surfaceForm, input.lemma, input.wordId, input.sessionId, now()) as { id: number };
     return row.id;
+  }
+
+  deleteCapture(id: number): void {
+    this.db.prepare("DELETE FROM captures WHERE id = ?").run(id);
+  }
+
+  /** The active capture matching a tap, for toggle (undo on re-tap). Keyed by lemma
+   *  when resolved (respecting the unique index), else by surface form. */
+  activeCapture(surface: string, lemma: string | null): CaptureRow | undefined {
+    const active = "status IN ('pending', 'resolved', 'queued')";
+    return lemma
+      ? (this.db.prepare(`SELECT * FROM captures WHERE lemma = ? AND ${active}`).get(lemma) as
+          | CaptureRow
+          | undefined)
+      : (this.db
+          .prepare(`SELECT * FROM captures WHERE surface_form = ? AND lemma IS NULL AND ${active}`)
+          .get(surface) as CaptureRow | undefined);
+  }
+
+  /** Active captures made during a session — drives the tray and the marked state. */
+  sessionActiveCaptures(sessionId: number): CaptureRow[] {
+    return this.db
+      .prepare(
+        "SELECT * FROM captures WHERE session_id = ? AND status IN ('pending', 'resolved', 'queued') ORDER BY id",
+      )
+      .all(sessionId) as CaptureRow[];
+  }
+
+  /** Exact-lemma lookup for capture resolution (tray display + word_id link). */
+  findWordByLemma(lemma: string): WordRow | undefined {
+    return this.db.prepare("SELECT * FROM words WHERE lemma = ? LIMIT 1").get(lemma) as
+      | WordRow
+      | undefined;
   }
 
   /** Screen 6 diagnostic: only pending captures (those not yet collected). */

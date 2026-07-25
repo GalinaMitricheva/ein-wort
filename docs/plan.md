@@ -135,19 +135,21 @@ needs no in-app credential; the app makes zero model calls.
 
 ### Word capture (architecture.md §5b)
 
-- [ ] **3.8** `captures` table migration — **H**
-- [ ] **3.9** Tap-to-capture in collocations and examples; marked state, undo on
-      re-tap, "Gemerkt für später" tray. **App only saves the tap (`pending`)** — no
-      generation, no automation — **S**
-- [ ] **3.10** Lemma resolution against `words.lemma` at capture time, for tray display — **S**
-- [ ] **3.10b** Dedup gate, applied by the collection task: self-tap, duplicate capture,
-      dossier already exists, already met, marked known. Plus the partial unique index
-      on active-capture lemma — **S**
-      Includes the `known_words` retraction: tapping a word previously answered
-      *Kenne ich* removes it from `known_words`, or it stays permanently unreachable.
-- [ ] **3.13** Capture dismissal path — drop a `pending` capture without offering it — **H**
+- [x] **3.8** `captures` table + partial unique index — done in migration 001 — **H**
+- [x] **3.9** Tap-to-capture (`core/capture.ts`, `views/screens.ts`, `POST /capture`):
+      every German word in collocations and examples is a tap target, marked state with
+      accent underline, undo on re-tap, live "Gemerkt für später" tray. App only saves the
+      tap (`pending`) — no generation. Verified server- and client-side — **S**
+- [x] **3.10** Lemma resolution at capture time (`resolveSurface`) — exact-match against
+      `words.lemma` with German case variants, best-effort for tray display + `word_id`
+      link. Plural→singular is the collection task's job (§5b) — **S**
+- [ ] **3.10b** Dedup gate, applied by the collection task (not the app): self-tap,
+      duplicate capture, dossier already exists, already met, marked known. Plus the
+      `known_words` retraction. **Belongs to the collection task, not yet built** — **S**
+- [~] **3.13** Dismissal: re-tapping a marked word un-captures it (undo). The separate
+      log-line dismissal (screen 6) is deferred to Phase 6 — **H**
 - [ ] **3.14** Selection engine: captured words with `status = 'queued'` outrank
-      frequency order — **S**
+      frequency order. Deferred — no `queued` captures exist until the collection task runs — **S**
 
 *Removed with the nightly-job design (architecture.md §5b): in-app batch generation
 (3.11), staleness-triggered scheduling (3.12), per-run caps, and the whole anchor step

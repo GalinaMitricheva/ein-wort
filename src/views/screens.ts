@@ -1,5 +1,5 @@
 import { escapeHtml as e } from "./layout.ts";
-import type { WordRow, Level, MetWord } from "../core/store.ts";
+import { displayLemma, type WordRow, type Level } from "../core/store.ts";
 import type { Dossier } from "../core/dossier/schema.ts";
 
 // Pure rendering. Each function returns the inner HTML for a screen; routes wrap
@@ -25,9 +25,21 @@ const LEVELS: { level: Level; desc: string }[] = [
   { level: "C1", desc: "Anspruchsvolle Texte, feine Nuancen, gehobene Sprache" },
 ];
 
-/** The word with its gender, the way it's learned (nouns carry their article). */
-function displayLemma(w: WordRow): string {
-  return w.pos === "noun" && w.article ? `${w.article} ${w.lemma}` : w.lemma;
+// Split German text into tap targets (ui.md screen 2): each word becomes a
+// <span class="w" data-s="…">, punctuation stays plain. Marked words (already
+// captured in this session) get the accent underline via .marked.
+function tappable(text: string, marked: Set<string>): string {
+  return text
+    .split(/(\s+)/)
+    .map((tok) => {
+      if (/^\s*$/.test(tok)) return tok;
+      const m = /^([^\p{L}]*)([\p{L}][\p{L}ß\-]*)?([^\p{L}]*)$/u.exec(tok);
+      if (!m || !m[2]) return e(tok);
+      const word = m[2];
+      const cls = marked.has(word) ? "w marked" : "w";
+      return `${e(m[1] ?? "")}<span class="${cls}" data-s="${e(word)}">${e(word)}</span>${e(m[3] ?? "")}`;
+    })
+    .join("");
 }
 
 function keyFormsLine(w: WordRow): string | null {
@@ -64,7 +76,7 @@ export function offerScreen(word: WordRow, sessionId: number, level: Level): str
   </div>`;
 }
 
-function dossierSections(d: Dossier): string {
+function dossierSections(d: Dossier, marked: Set<string>): string {
   const parts: string[] = [];
 
   parts.push(`<div class="meaning-de">${e(d.meaning_de)}</div>
@@ -84,16 +96,17 @@ function dossierSections(d: Dossier): string {
         .join(""));
   }
 
+  // Collocations and examples are the tap targets for word capture (ui.md screen 2).
   if (d.collocations.length) {
     parts.push(`<div class="divider"></div><div class="section-label">Wortverbindungen</div>
       <div class="chips">` +
-      d.collocations.map((c) => `<span class="chip">${e(c.phrase)}</span>`).join("") +
+      d.collocations.map((c) => `<span class="chip">${tappable(c.phrase, marked)}</span>`).join("") +
       `</div>`);
   }
 
   parts.push(`<div class="divider"></div><div class="section-label">Im Gebrauch</div>` +
     d.examples
-      .map((x) => `<div class="example-de">${e(x.de)}</div><div class="example-en">${e(x.en)}</div>`)
+      .map((x) => `<div class="example-de">${tappable(x.de, marked)}</div><div class="example-en">${e(x.en)}</div>`)
       .join(""));
 
   parts.push(`<div class="divider"></div><div class="section-label">Register</div>
@@ -109,21 +122,52 @@ function dossierSections(d: Dossier): string {
   return parts.join("\n");
 }
 
-export function dossierScreen(word: WordRow, dossier: Dossier, sessionId: number): string {
+/** Inner HTML of the "Gemerkt für später" tray. Empty string hides it (CSS :empty). */
+export function trayInner(entries: string[]): string {
+  if (!entries.length) return "";
+  return `<div class="tray-label">Gemerkt für später</div>
+    <div class="chips">${entries.map((x) => `<span class="tray-chip">${e(x)}</span>`).join("")}</div>`;
+}
+
+const captureScript = (sessionId: number) => `<script>
+(function(){
+  var sid=${sessionId};
+  document.addEventListener('click',function(ev){
+    var el=ev.target.closest('.w'); if(!el) return;
+    var s=el.getAttribute('data-s');
+    fetch('/capture',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({surface:s,session:sid})})
+      .then(function(r){return r.json()})
+      .then(function(d){
+        document.querySelectorAll('.w').forEach(function(w){ if(w.getAttribute('data-s')===s) w.classList.toggle('marked',d.marked); });
+        var t=document.getElementById('tray'); if(t) t.innerHTML=d.tray;
+      });
+  });
+})();
+</script>`;
+
+export function dossierScreen(
+  word: WordRow,
+  dossier: Dossier,
+  sessionId: number,
+  marked: Set<string>,
+  trayEntries: string[],
+): string {
   return `<div class="card">
     <div class="top">
       <div class="word word-md">${e(displayLemma(word))}</div>
       <span class="reg-badge">${e(REGISTER_LABEL[dossier.register] ?? dossier.register)}</span>
     </div>
     <div class="grow">
-      ${dossierSections(dossier)}
+      ${dossierSections(dossier, marked)}
+      <div id="tray" class="tray">${trayInner(trayEntries)}</div>
     </div>
     <form class="inline" method="post" action="/session/${sessionId}/complete">
       <div class="actions">
         <button class="btn-primary" type="submit">Weiter</button>
       </div>
     </form>
-  </div>`;
+  </div>
+  ${captureScript(sessionId)}`;
 }
 
 export function sessionCompleteScreen(word: WordRow): string {
