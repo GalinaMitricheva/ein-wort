@@ -1,7 +1,7 @@
 import { loadConfig } from "../config.ts";
 import { openMigrated } from "./db.ts";
 import { Store } from "./store.ts";
-import { seedWordsFromFixture, seedDossiersFromFile } from "./seed.ts";
+import { seedAllWords, seedAllDossiers } from "./seed.ts";
 
 // Open the migrated database and return a ready store. In development the
 // hand-entered word fixture (plan.md 1.4) and the hand-authored dossiers (the
@@ -20,9 +20,9 @@ export function bootstrapStore(): Bootstrap {
   const db = openMigrated(dbFile);
   const store = new Store(db);
 
-  const seededWords = store.countWords() === 0 ? seedWordsFromFixture(store) : 0;
+  const seededWords = store.countWords() === 0 ? seedAllWords(store) : 0;
   const dossierSeed =
-    store.countDossiers() === 0 ? seedDossiersFromFile(store) : { loaded: 0, skipped: [] };
+    store.countDossiers() === 0 ? seedAllDossiers(store) : { loaded: 0, skipped: [] as string[] };
 
   return {
     store,

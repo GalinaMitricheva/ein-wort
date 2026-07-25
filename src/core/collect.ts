@@ -1,5 +1,5 @@
 import { Store } from "./store.ts";
-import { seedDossiersFromFile } from "./seed.ts";
+import { seedAllDossiers } from "./seed.ts";
 import { resolveSurface } from "./capture.ts";
 import { SCHEMA_VERSION } from "./dossier/schema.ts";
 
@@ -20,7 +20,7 @@ export interface CollectReport {
 }
 
 export function runCollect(store: Store): CollectReport {
-  const seed = seedDossiersFromFile(store);
+  const seed = seedAllDossiers(store);
   const captures = processPendingCaptures(store);
   const wordsMissingDossier = store
     .wordsMissingDossier(SCHEMA_VERSION)
