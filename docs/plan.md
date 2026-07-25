@@ -35,22 +35,23 @@ project, and a wrong answer is costly to catch later.
 
 Fully mechanical. All parallelizable.
 
-- [ ] **0.1** `package.json`, `tsconfig.json`, `.gitignore`, `.env.example` — **H**
+- [x] **0.1** `package.json`, `tsconfig.json`, `.gitignore`, `.env.example` — **H**
       ⚠️ `.env.example` must **not** contain `ANTHROPIC_API_KEY`. An empty value still
       occupies its precedence slot and authenticates with an empty key, silently
       overriding the OAuth profile. See architecture.md §7b.
 - [ ] **0.5** One-time `claude setup-token`; export the result as `ANTHROPIC_AUTH_TOKEN`
       in a gitignored `.env`. `claude auth login` alone is not enough — it authenticates
       Claude Code into `~/.claude/.credentials.json`, which the SDK does not read
-      (architecture.md §7b) — **M**
+      (architecture.md §7b) — **M** · ⏳ blocked on you (subscription login)
 - [ ] **0.6** **Credential smoke test — do this before anything depends on it.** Confirm
       the token works for (a) a plain `messages.create()` call and (b) a
       `messages.batches.create()` call. Batch support on a subscription-derived token is
       unverified, and the nightly capture job (task 3.11) is built on it. Finding out
       here costs minutes; finding out at 3.11 costs a redesign — **S**
-- [ ] **0.2** `.gitattributes` with `* text=auto` to settle the CRLF warning — **H** · inline
-- [ ] **0.3** Fastify server booting on :3000 with a health route — **H**
-- [ ] **0.4** htmx + base HTML layout template, no styling yet — **H**
+      · ⏳ written (`npm run smoke`), waiting on 0.5
+- [x] **0.2** `.gitattributes` with `* text=auto` to settle the CRLF warning — **H** · inline
+- [x] **0.3** Fastify server booting on :3000 with a health route — **H**
+- [x] **0.4** htmx + base HTML layout template, no styling yet — **H**
 
 ---
 
