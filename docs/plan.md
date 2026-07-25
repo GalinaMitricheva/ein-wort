@@ -88,22 +88,25 @@ Fully mechanical. All parallelizable.
 Goal: the full §4 loop working end to end with fake dossier content. Proves the
 interaction before any LLM spend.
 
-- [ ] **2.1** `core/selection.ts` — next unoffered, unknown word at active level by frequency rank — **S**
-- [ ] **2.2** Session routes: start → calibrate → dossier → done (no anchor; §7) — **S**
-- [ ] **2.3** Offer + calibrate view (3 buttons; *Know it* marks known and re-offers immediately) — **S**
-- [ ] **2.4** Dossier display view — the typographically dense one; §6 chose a web app for this.
-      `Weiter` goes straight to session complete — **S**
+- [x] **2.1** `core/selection.ts` — next unoffered, unknown word at active level by frequency rank — **S**
+- [x] **2.2** Session routes (`adapters/http.ts`): first-run → offer/calibrate → dossier → done,
+      as server-rendered pages with Post/Redirect/Get so reloads never re-submit — **S**
+- [x] **2.3** Offer + calibrate view (3 buttons; *Kenne ich* marks known and re-offers immediately) — **S**
+- [x] **2.4** Dossier display view (the dense one), full design-language CSS. `Weiter` → session complete — **S**
 - [ ] ~~**2.5** Anchor input~~ — cut from MVP (anchor step deferred, architecture.md §7)
 - [x] **2.6** Stub dossier fixture matching the §5 schema shape — **H** · done as P.3
-- [ ] **2.7** Level selector (self-declared, changeable anytime) — **H**
-- [ ] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
-- [ ] **2.9** Level-exhausted state — guaranteed to fire with the 20-word fixture,
-      so build it now rather than hitting a crash — **S**
-- [ ] **2.10** *Know it* micro-confirmation — rapid rejection with no visual
-      acknowledgement reads as broken — **H**
-- [ ] **2.11** Session-resume behaviour: app closed mid-dossier, reopened later.
-      Resume in place or discard — decide, then implement — **S**
-- [ ] **2.12** Empty-log and no-search-results states — **H**
+- [x] **2.7** Level selector (first-run picker + `/settings`, changeable anytime) — **H**
+- [x] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
+- [x] **2.9** Level-exhausted state — shown when no unknown word remains at the active level — **S**
+- [ ] **2.10** *Kenne ich* micro-confirmation — functional (redirects to next word), but no
+      visual acknowledgement animation yet. Polish, deferred — **H**
+- [x] **2.11** Session-resume: `currentOpenSession()` resumes an open session in place
+      (offer or dossier) on `GET /` — decided *resume*, not discard — **S**
+- [x] **2.12** Empty-log state (log shows "Noch keine Wörter"). No-search-results N/A —
+      search is disabled until Phase 6 — **H**
+
+*This turn also built a minimal log screen (`/log`) so the session-complete exit isn't a
+dead link; the full Phase 6 version (search, distinct-by-recent, level-free rows) still stands.*
 - [ ] **2.13** Level selector reached from the settings gear on the log header; level
       changes never touch the queue (ui.md screen 9) — **H**
 - [ ] **2.14** First run: single level question, B2 preselected, one button — **H**

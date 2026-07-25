@@ -40,6 +40,16 @@ export interface MetWord {
   last_completed: string;
 }
 
+export interface OpenSession {
+  id: number;
+  word_id: number;
+  calibration: Calibration | null;
+}
+
+export interface SessionRow extends OpenSession {
+  completed_at: string | null;
+}
+
 const now = (): string => new Date().toISOString();
 
 export class Store {
@@ -127,10 +137,31 @@ export class Store {
     return row.id;
   }
 
-  completeSession(sessionId: number, calibration: Calibration): void {
-    this.db
-      .prepare("UPDATE sessions SET completed_at = ?, calibration = ? WHERE id = ?")
-      .run(now(), calibration, sessionId);
+  setCalibration(sessionId: number, calibration: Calibration): void {
+    this.db.prepare("UPDATE sessions SET calibration = ? WHERE id = ?").run(calibration, sessionId);
+  }
+
+  completeSession(sessionId: number): void {
+    this.db.prepare("UPDATE sessions SET completed_at = ? WHERE id = ?").run(now(), sessionId);
+  }
+
+  /**
+   * The one in-progress session, if any — started but not completed. Used to
+   * resume in place after the app is closed mid-loop (ui.md, "Session resumed"),
+   * and to avoid consuming a fresh word on every page reload.
+   */
+  currentOpenSession(): OpenSession | undefined {
+    return this.db
+      .prepare(
+        "SELECT id, word_id, calibration FROM sessions WHERE completed_at IS NULL ORDER BY id DESC LIMIT 1",
+      )
+      .get() as OpenSession | undefined;
+  }
+
+  getSession(id: number): SessionRow | undefined {
+    return this.db
+      .prepare("SELECT id, word_id, calibration, completed_at FROM sessions WHERE id = ?")
+      .get(id) as SessionRow | undefined;
   }
 
   /** The "Words met" log: distinct words by most recent completed session (§5b, screen 6). */
@@ -190,5 +221,31 @@ export class Store {
         n: number;
       }
     ).n;
+  }
+
+  // ── settings ─────────────────────────────────────────────────────────────
+
+  getSetting(key: string): string | undefined {
+    const row = this.db.prepare("SELECT value FROM settings WHERE key = ?").get(key) as
+      | { value: string }
+      | undefined;
+    return row?.value;
+  }
+
+  setSetting(key: string, value: string): void {
+    this.db
+      .prepare(
+        "INSERT INTO settings (key, value) VALUES (?, ?) ON CONFLICT (key) DO UPDATE SET value = excluded.value",
+      )
+      .run(key, value);
+  }
+
+  /** The active CEFR level, or undefined before first run (ui.md screens 9, 10). */
+  getActiveLevel(): Level | undefined {
+    return this.getSetting("active_level") as Level | undefined;
+  }
+
+  setActiveLevel(level: Level): void {
+    this.setSetting("active_level", level);
   }
 }
