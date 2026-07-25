@@ -106,20 +106,22 @@ export class Store {
 
   /**
    * The base selection rule (architecture.md §4): the highest-frequency word at
-   * `level` that is neither known nor already offered. Captured words that outrank
+   * `level` that is neither known nor already offered — and has a built dossier
+   * (§5: a word with no dossier is simply not offered). Captured words that outrank
    * frequency order are layered on top by core/selection (Phase 3).
    */
-  nextSeedWord(level: Level): WordRow | undefined {
+  nextSeedWord(level: Level, schemaVersion: number): WordRow | undefined {
     return this.db
       .prepare(
         `SELECT * FROM words w
          WHERE w.level = ?
            AND w.id NOT IN (SELECT word_id FROM known_words)
            AND w.id NOT IN (SELECT word_id FROM sessions)
+           AND EXISTS (SELECT 1 FROM dossiers d WHERE d.word_id = w.id AND d.schema_version = ?)
          ORDER BY (w.frequency_rank IS NULL), w.frequency_rank ASC, w.id ASC
          LIMIT 1`,
       )
-      .get(level) as WordRow | undefined;
+      .get(level, schemaVersion) as WordRow | undefined;
   }
 
   // ── known_words ──────────────────────────────────────────────────────────
@@ -204,6 +206,24 @@ export class Store {
     return row?.json ?? null;
   }
 
+  countDossiers(): number {
+    return (this.db.prepare("SELECT COUNT(*) AS n FROM dossiers").get() as { n: number }).n;
+  }
+
+  /** Word ids at a level that have no dossier at the given schema version — the
+   *  collection task's worklist for seed words. */
+  wordsMissingDossier(schemaVersion: number): WordRow[] {
+    return this.db
+      .prepare(
+        `SELECT w.* FROM words w
+         WHERE NOT EXISTS (
+           SELECT 1 FROM dossiers d WHERE d.word_id = w.id AND d.schema_version = ?
+         )
+         ORDER BY w.level, w.frequency_rank`,
+      )
+      .all(schemaVersion) as WordRow[];
+  }
+
   /** Written by the offline collection task after validating against the schema. */
   upsertDossier(wordId: number, schemaVersion: number, model: string, json: string): void {
     this.db
@@ -269,6 +289,32 @@ export class Store {
     return this.db.prepare("SELECT * FROM words WHERE lemma = ? LIMIT 1").get(lemma) as
       | WordRow
       | undefined;
+  }
+
+  /** The collection task's worklist: captures awaiting processing. */
+  pendingCaptures(): CaptureRow[] {
+    return this.db
+      .prepare("SELECT * FROM captures WHERE status = 'pending' ORDER BY id")
+      .all() as CaptureRow[];
+  }
+
+  setCaptureStatus(id: number, status: CaptureStatus): void {
+    this.db.prepare("UPDATE captures SET status = ? WHERE id = ?").run(status, id);
+  }
+
+  /** Record what the collection task resolved a capture to, and advance its status. */
+  resolveCapture(id: number, lemma: string | null, wordId: number | null, status: CaptureStatus): void {
+    this.db
+      .prepare("UPDATE captures SET lemma = ?, word_id = ?, status = ? WHERE id = ?")
+      .run(lemma, wordId, status, id);
+  }
+
+  /** The lemma of a session's offered word — for the self-tap check. */
+  sessionWordLemma(sessionId: number): string | undefined {
+    const row = this.db
+      .prepare("SELECT w.lemma FROM sessions s JOIN words w ON w.id = s.word_id WHERE s.id = ?")
+      .get(sessionId) as { lemma: string } | undefined;
+    return row?.lemma;
   }
 
   /** Screen 6 diagnostic: only pending captures (those not yet collected). */

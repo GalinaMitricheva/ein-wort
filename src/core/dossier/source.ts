@@ -5,6 +5,8 @@ import type { Dossier } from "./schema.ts";
 // network. `null` means "not built yet", in which case the word simply isn't offered.
 
 export interface WordInput {
+  /** When known (the app always has it), lets a store-backed source skip a lookup. */
+  id?: number;
   lemma: string;
   pos: string;
 }

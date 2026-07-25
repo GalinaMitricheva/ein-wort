@@ -2,9 +2,11 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import type { Store, Level } from "./store.ts";
+import { Dossier } from "./dossier/schema.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 export const FIXTURE_PATH = join(here, "..", "..", "data", "words.fixture.json");
+export const DOSSIERS_PATH = join(here, "..", "..", "data", "dossiers.seed.json");
 
 interface FixtureWord {
   lemma: string;
@@ -39,4 +41,41 @@ export function seedWordsFromFixture(store: Store, path: string = FIXTURE_PATH):
     });
   }
   return data.words.length;
+}
+
+interface DossiersFile {
+  schema_version: number;
+  model: string;
+  dossiers: Record<string, unknown>;
+}
+
+export interface DossierSeedResult {
+  loaded: number;
+  skipped: string[];
+}
+
+/**
+ * Load hand-authored dossiers into the dossiers table (the collection task's
+ * output). Each entry is validated against the schema before it's stored, and
+ * matched to a word by lemma; misses are reported, not silently dropped.
+ */
+export function seedDossiersFromFile(store: Store, path: string = DOSSIERS_PATH): DossierSeedResult {
+  const data = JSON.parse(readFileSync(path, "utf8")) as DossiersFile;
+  const skipped: string[] = [];
+  let loaded = 0;
+  for (const [lemma, raw] of Object.entries(data.dossiers)) {
+    const word = store.findWordByLemma(lemma);
+    if (!word) {
+      skipped.push(`${lemma} — no matching word`);
+      continue;
+    }
+    const parsed = Dossier.safeParse(raw);
+    if (!parsed.success) {
+      skipped.push(`${lemma} — invalid: ${parsed.error.issues[0]?.message ?? "schema"}`);
+      continue;
+    }
+    store.upsertDossier(word.id, data.schema_version, data.model, JSON.stringify(parsed.data));
+    loaded++;
+  }
+  return { loaded, skipped };
 }

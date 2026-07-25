@@ -38,7 +38,7 @@ export function registerRoutes(app: FastifyInstance, store: Store, dossiers: Dos
       if (open.calibration === null) {
         return reply.type("text/html").send(html(offerScreen(word, open.id, level)));
       }
-      const dossier = await dossiers.get({ lemma: word.lemma, pos: word.pos });
+      const dossier = await dossiers.get({ id: word.id, lemma: word.lemma, pos: word.pos });
       if (dossier) {
         const caps = store.sessionActiveCaptures(open.id);
         const marked = new Set(caps.map((c) => c.surface_form));
@@ -122,7 +122,7 @@ export function registerRoutes(app: FastifyInstance, store: Store, dossiers: Dos
     const met = store.recentMetWords(3);
     const entries: LogEntry[] = await Promise.all(
       met.map(async ({ word }) => {
-        const d = await dossiers.get({ lemma: word.lemma, pos: word.pos });
+        const d = await dossiers.get({ id: word.id, lemma: word.lemma, pos: word.pos });
         return { word, meaning_de: d?.meaning_de ?? "" };
       }),
     );

@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored dossiers for the seed words, produced by the collection task (Claude Code, not an in-app API call). Keyed by lemma. Register/Rektion/collocations reflect real usage; spot-check against DWDS/Duden per plan.md 7.1 before fully trusting.",
+  "dossiers": {
+    "erörtern": {
+      "meaning_de": "etwas ausführlich und sachlich besprechen, meist in einem formellen Rahmen",
+      "meaning_en": "to discuss in detail; to deliberate",
+      "forms": [
+        { "label": "Präsens", "value": "er erörtert" },
+        { "label": "Präteritum", "value": "er erörterte" },
+        { "label": "Perfekt", "value": "er hat erörtert" },
+        { "label": "Konjunktiv II", "value": "er erörterte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas erörtern", "cases": "Akk." },
+        { "pattern": "etwas mit jemandem erörtern", "cases": "Akk. + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "eine Frage erörtern", "gloss_en": "to discuss a question" },
+        { "phrase": "ein Thema erörtern", "gloss_en": "to discuss a topic" },
+        { "phrase": "ausführlich erörtern", "gloss_en": "to discuss in detail" },
+        { "phrase": "im Detail erörtern", "gloss_en": "to discuss in detail" }
+      ],
+      "examples": [
+        { "de": "Der Ausschuss erörterte die Vorschläge in einer mehrstündigen Sitzung.", "en": "The committee deliberated the proposals over a session lasting several hours." },
+        { "de": "Wir sollten die Frage in Ruhe erörtern.", "en": "We ought to discuss the question calmly." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und sachlich. Zu Hause in Sitzungen, Gutachten und akademischen Texten - unter Freunden klingt es steif.",
+      "near_synonyms": [
+        { "lemma": "besprechen", "distinction": "neutral, alltäglich - jede Art von Gespräch" },
+        { "lemma": "diskutieren", "distinction": "setzt unterschiedliche Standpunkte voraus" }
+      ]
+    },
+    "Gewohnheit": {
+      "meaning_de": "eine feste Verhaltensweise, die man durch häufige Wiederholung entwickelt hat",
+      "meaning_en": "a habit; an established, repeated behaviour",
+      "forms": [
+        { "label": "Genitiv", "value": "der Gewohnheit" },
+        { "label": "Plural", "value": "die Gewohnheiten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine Gewohnheit ablegen", "gloss_en": "to break a habit" },
+        { "phrase": "zur Gewohnheit werden", "gloss_en": "to become a habit" },
+        { "phrase": "aus Gewohnheit", "gloss_en": "out of habit" },
+        { "phrase": "schlechte Gewohnheiten", "gloss_en": "bad habits" }
+      ],
+      "examples": [
+        { "de": "Es ist ihm zur Gewohnheit geworden, jeden Morgen zu laufen.", "en": "It has become a habit for him to run every morning." },
+        { "de": "Alte Gewohnheiten lassen sich nur schwer ablegen.", "en": "Old habits are hard to break." }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprachlich und in jedem Kontext gebräuchlich.",
+      "near_synonyms": [
+        { "lemma": "die Angewohnheit", "distinction": "oft leicht negativ getönt" },
+        { "lemma": "der Brauch", "distinction": "eher kollektiv und kulturell, nicht individuell" }
+      ]
+    },
+    "Vorschlag": {
+      "meaning_de": "eine Idee oder ein Rat, den man jemandem zur Überlegung anbietet",
+      "meaning_en": "a suggestion; a proposal",
+      "forms": [
+        { "label": "Genitiv", "value": "des Vorschlags" },
+        { "label": "Plural", "value": "die Vorschläge" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "einen Vorschlag machen", "gloss_en": "to make a suggestion" },
+        { "phrase": "einen Vorschlag annehmen", "gloss_en": "to accept a proposal" },
+        { "phrase": "einen Vorschlag ablehnen", "gloss_en": "to reject a proposal" },
+        { "phrase": "auf einen Vorschlag eingehen", "gloss_en": "to take up a suggestion" }
+      ],
+      "examples": [
+        { "de": "Darf ich einen Vorschlag machen?", "en": "May I make a suggestion?" },
+        { "de": "Ihr Vorschlag wurde von allen begrüßt.", "en": "Her proposal was welcomed by everyone." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral, in Alltag und Beruf gleichermaßen üblich.",
+      "near_synonyms": [
+        { "lemma": "die Anregung", "distinction": "weicher, eher ein Denkanstoß" },
+        { "lemma": "der Antrag", "distinction": "formell, in Sitzungen und Behörden" }
+      ]
+    },
+    "Erfahrung": {
+      "meaning_de": "Wissen oder Können, das man durch eigenes Erleben gewonnen hat",
+      "meaning_en": "experience; practical knowledge gained from doing",
+      "forms": [
+        { "label": "Genitiv", "value": "der Erfahrung" },
+        { "label": "Plural", "value": "die Erfahrungen" }
+      ],
+      "rektion": [
+        { "pattern": "Erfahrung mit etwas", "cases": "mit + Dat." },
+        { "pattern": "Erfahrung in etwas", "cases": "in + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "Erfahrungen sammeln", "gloss_en": "to gain experience" },
+        { "phrase": "aus Erfahrung sprechen", "gloss_en": "to speak from experience" },
+        { "phrase": "praktische Erfahrung", "gloss_en": "practical experience" },
+        { "phrase": "eine gute Erfahrung machen", "gloss_en": "to have a good experience" }
+      ],
+      "examples": [
+        { "de": "Sie hat viel Erfahrung im Umgang mit Kunden.", "en": "She has a lot of experience dealing with customers." },
+        { "de": "Aus eigener Erfahrung weiß ich, wie schwer das ist.", "en": "From my own experience I know how hard that is." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral und universell verwendbar.",
+      "near_synonyms": [
+        { "lemma": "die Praxis", "distinction": "Betonung auf tatsächlichem Tun, Gegensatz zur Theorie" },
+        { "lemma": "das Erlebnis", "distinction": "ein einzelnes Ereignis, nicht das angesammelte Wissen" }
+      ]
+    },
+    "Umgebung": {
+      "meaning_de": "der räumliche oder soziale Bereich, der jemanden oder etwas umgibt",
+      "meaning_en": "surroundings; environment; vicinity",
+      "forms": [
+        { "label": "Genitiv", "value": "der Umgebung" },
+        { "label": "Plural", "value": "die Umgebungen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "die nähere Umgebung", "gloss_en": "the immediate vicinity" },
+        { "phrase": "in der Umgebung", "gloss_en": "in the area" },
+        { "phrase": "eine vertraute Umgebung", "gloss_en": "a familiar environment" },
+        { "phrase": "die Umgebung erkunden", "gloss_en": "to explore the area" }
+      ],
+      "examples": [
+        { "de": "In der Umgebung gibt es viele Wanderwege.", "en": "There are many hiking trails in the area." },
+        { "de": "Kinder lernen am besten in einer vertrauten Umgebung.", "en": "Children learn best in a familiar environment." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meint sowohl die geografische als auch die soziale Umgebung.",
+      "near_synonyms": [
+        { "lemma": "die Umwelt", "distinction": "meist im ökologischen Sinn - Natur, Umweltschutz" },
+        { "lemma": "die Nachbarschaft", "distinction": "die Menschen und Häuser in der Nähe" }
+      ]
+    },
+    "entscheiden": {
+      "meaning_de": "nach Abwägung eine Wahl treffen oder etwas endgültig bestimmen",
+      "meaning_en": "to decide; to determine",
+      "forms": [
+        { "label": "Präsens", "value": "er entscheidet" },
+        { "label": "Präteritum", "value": "er entschied" },
+        { "label": "Perfekt", "value": "er hat entschieden" },
+        { "label": "Konjunktiv II", "value": "er entschiede" }
+      ],
+      "rektion": [
+        { "pattern": "über etwas entscheiden", "cases": "über + Akk." },
+        { "pattern": "sich für etwas entscheiden", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "sich schnell entscheiden", "gloss_en": "to decide quickly" },
+        { "phrase": "über den Antrag entscheiden", "gloss_en": "to decide on the application" },
+        { "phrase": "sich anders entscheiden", "gloss_en": "to change one's mind" },
+        { "phrase": "endgültig entscheiden", "gloss_en": "to decide once and for all" }
+      ],
+      "examples": [
+        { "de": "Du musst dich bis morgen entscheiden.", "en": "You have to decide by tomorrow." },
+        { "de": "Der Richter entscheidet über den Fall.", "en": "The judge decides on the case." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sehr häufiges Verb in allen Kontexten.",
+      "near_synonyms": [
+        { "lemma": "beschließen", "distinction": "eher formell, ein förmlicher Beschluss" },
+        { "lemma": "sich festlegen", "distinction": "betont die Endgültigkeit, das Sich-Binden" }
+      ]
+    },
+    "verbessern": {
+      "meaning_de": "etwas besser machen; einen Fehler berichtigen",
+      "meaning_en": "to improve; to correct",
+      "forms": [
+        { "label": "Präsens", "value": "er verbessert" },
+        { "label": "Präteritum", "value": "er verbesserte" },
+        { "label": "Perfekt", "value": "er hat verbessert" },
+        { "label": "Konjunktiv II", "value": "er verbesserte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas verbessern", "cases": "Akk." },
+        { "pattern": "sich verbessern", "cases": "reflexiv" }
+      ],
+      "collocations": [
+        { "phrase": "die Lage verbessern", "gloss_en": "to improve the situation" },
+        { "phrase": "seine Noten verbessern", "gloss_en": "to improve one's grades" },
+        { "phrase": "einen Fehler verbessern", "gloss_en": "to correct a mistake" },
+        { "phrase": "sich deutlich verbessern", "gloss_en": "to improve noticeably" }
+      ],
+      "examples": [
+        { "de": "Er möchte sein Deutsch verbessern.", "en": "He wants to improve his German." },
+        { "de": "Die Situation hat sich deutlich verbessert.", "en": "The situation has clearly improved." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral und alltäglich.",
+      "near_synonyms": [
+        { "lemma": "optimieren", "distinction": "technischer, oft im beruflichen Kontext" },
+        { "lemma": "berichtigen", "distinction": "nur das Korrigieren von Fehlern, nicht das allgemeine Besserwerden" }
+      ]
+    },
+    "deutlich": {
+      "meaning_de": "gut erkennbar, klar und unmissverständlich",
+      "meaning_en": "clear; distinct; noticeable",
+      "forms": [
+        { "label": "Komparativ", "value": "deutlicher" },
+        { "label": "Superlativ", "value": "am deutlichsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "etwas deutlich machen", "gloss_en": "to make something clear" },
+        { "phrase": "ein deutlicher Unterschied", "gloss_en": "a clear difference" },
+        { "phrase": "deutlich sichtbar", "gloss_en": "clearly visible" },
+        { "phrase": "sich deutlich ausdrücken", "gloss_en": "to express oneself clearly" }
+      ],
+      "examples": [
+        { "de": "Sie hat ihre Meinung deutlich gesagt.", "en": "She stated her opinion clearly." },
+        { "de": "Der Unterschied ist deutlich zu erkennen.", "en": "The difference is clearly visible." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch als Adverb (deutlich mehr) sehr gebräuchlich.",
+      "near_synonyms": [
+        { "lemma": "klar", "distinction": "oft austauschbar, aber auch im Sinne von selbstverständlich" },
+        { "lemma": "eindeutig", "distinction": "stärker - lässt keinerlei Zweifel" }
+      ]
+    },
+    "Aufwand": {
+      "meaning_de": "der Einsatz von Zeit, Geld, Mühe oder Material für etwas",
+      "meaning_en": "effort; expense; expenditure",
+      "forms": [
+        { "label": "Genitiv", "value": "des Aufwands" },
+        { "label": "Plural", "value": "die Aufwände" }
+      ],
+      "rektion": [
+        { "pattern": "der Aufwand für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "großer Aufwand", "gloss_en": "great effort" },
+        { "phrase": "mit viel Aufwand", "gloss_en": "with a lot of effort" },
+        { "phrase": "der Aufwand lohnt sich", "gloss_en": "the effort pays off" },
+        { "phrase": "den Aufwand betreiben", "gloss_en": "to go to the effort" }
+      ],
+      "examples": [
+        { "de": "Der Aufwand für das Projekt war enorm.", "en": "The effort for the project was enormous." },
+        { "de": "Mit relativ wenig Aufwand lässt sich viel erreichen.", "en": "A lot can be achieved with relatively little effort." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral, häufig im beruflichen und organisatorischen Kontext.",
+      "near_synonyms": [
+        { "lemma": "die Mühe", "distinction": "stärker auf die persönliche Anstrengung bezogen" },
+        { "lemma": "der Einsatz", "distinction": "betont das aktive Sich-Einbringen" }
+      ]
+    },
+    "Anspruch": {
+      "meaning_de": "eine berechtigte Forderung; auch: ein hohes Maß an Erwartung oder Qualität",
+      "meaning_en": "claim; entitlement; (high) standard",
+      "forms": [
+        { "label": "Genitiv", "value": "des Anspruchs" },
+        { "label": "Plural", "value": "die Ansprüche" }
+      ],
+      "rektion": [
+        { "pattern": "Anspruch auf etwas", "cases": "auf + Akk." },
+        { "pattern": "etwas in Anspruch nehmen", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "Anspruch auf etwas haben", "gloss_en": "to be entitled to something" },
+        { "phrase": "hohe Ansprüche stellen", "gloss_en": "to set high standards" },
+        { "phrase": "etwas in Anspruch nehmen", "gloss_en": "to make use of something" },
+        { "phrase": "den Ansprüchen genügen", "gloss_en": "to meet the requirements" }
+      ],
+      "examples": [
+        { "de": "Sie hat Anspruch auf eine Rückerstattung.", "en": "She is entitled to a refund." },
+        { "de": "Das Buch erhebt keinen wissenschaftlichen Anspruch.", "en": "The book makes no scientific claim." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im juristischen und gehobenen Kontext besonders häufig.",
+      "near_synonyms": [
+        { "lemma": "die Forderung", "distinction": "konkreter, oft einmalig und direkt geäußert" },
+        { "lemma": "das Recht", "distinction": "die rechtliche Grundlage, nicht deren Geltendmachung" }
+      ]
+    },
+    "Voraussetzung": {
+      "meaning_de": "etwas, das gegeben sein muss, damit etwas anderes möglich wird",
+      "meaning_en": "prerequisite; precondition; requirement",
+      "forms": [
+        { "label": "Genitiv", "value": "der Voraussetzung" },
+        { "label": "Plural", "value": "die Voraussetzungen" }
+      ],
+      "rektion": [
+        { "pattern": "die Voraussetzung für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "die Voraussetzungen erfüllen", "gloss_en": "to meet the requirements" },
+        { "phrase": "eine Voraussetzung schaffen", "gloss_en": "to create a precondition" },
+        { "phrase": "unter der Voraussetzung, dass", "gloss_en": "on the condition that" },
+        { "phrase": "die nötigen Voraussetzungen", "gloss_en": "the necessary requirements" }
+      ],
+      "examples": [
+        { "de": "Ein Abitur ist die Voraussetzung für ein Studium.", "en": "A high-school diploma is the prerequisite for university." },
+        { "de": "Unter dieser Voraussetzung stimme ich zu.", "en": "On this condition I agree." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im formellen und akademischen Kontext sehr geläufig.",
+      "near_synonyms": [
+        { "lemma": "die Bedingung", "distinction": "oft ausgehandelt, an eine Zusage geknüpft" },
+        { "lemma": "die Grundlage", "distinction": "das Fundament, worauf etwas aufbaut" }
+      ]
+    },
+    "beharren": {
+      "meaning_de": "trotz Widerstands fest bei einer Meinung oder Forderung bleiben",
+      "meaning_en": "to insist (on); to persist",
+      "forms": [
+        { "label": "Präsens", "value": "er beharrt" },
+        { "label": "Präteritum", "value": "er beharrte" },
+        { "label": "Perfekt", "value": "er hat beharrt" },
+        { "label": "Konjunktiv II", "value": "er beharrte" }
+      ],
+      "rektion": [
+        { "pattern": "auf etwas beharren", "cases": "auf + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "auf seinem Standpunkt beharren", "gloss_en": "to insist on one's position" },
+        { "phrase": "auf seiner Meinung beharren", "gloss_en": "to insist on one's opinion" },
+        { "phrase": "hartnäckig beharren", "gloss_en": "to persist stubbornly" },
+        { "phrase": "darauf beharren, dass", "gloss_en": "to insist that" }
+      ],
+      "examples": [
+        { "de": "Er beharrte auf seiner Forderung.", "en": "He insisted on his demand." },
+        { "de": "Sie beharrt darauf, recht zu haben.", "en": "She insists that she is right." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; klingt entschiedener und förmlicher als bestehen auf.",
+      "near_synonyms": [
+        { "lemma": "bestehen auf", "distinction": "neutraler und alltäglicher, gleiche Rektion mit Dativ" },
+        { "lemma": "insistieren", "distinction": "bildungssprachlich, oft leicht negativ" }
+      ]
+    },
+    "zumuten": {
+      "meaning_de": "von jemandem etwas verlangen, das schwer, unangenehm oder belastend ist",
+      "meaning_en": "to expect or ask (something unreasonable or hard) of someone",
+      "forms": [
+        { "label": "Präsens", "value": "er mutet zu" },
+        { "label": "Präteritum", "value": "er mutete zu" },
+        { "label": "Perfekt", "value": "er hat zugemutet" },
+        { "label": "Konjunktiv II", "value": "er mutete zu" }
+      ],
+      "rektion": [
+        { "pattern": "jemandem etwas zumuten", "cases": "Dat. + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "jemandem zu viel zumuten", "gloss_en": "to ask too much of someone" },
+        { "phrase": "sich zu viel zumuten", "gloss_en": "to take on too much" },
+        { "phrase": "das kann man niemandem zumuten", "gloss_en": "you can't expect that of anyone" },
+        { "phrase": "eine Zumutung sein", "gloss_en": "to be an imposition" }
+      ],
+      "examples": [
+        { "de": "Diese lange Reise kann man den Kindern nicht zumuten.", "en": "You can't put the children through such a long journey." },
+        { "de": "Du mutest dir zu viel zu.", "en": "You're taking on too much." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; trägt meist einen Beiklang von Überforderung oder Unzumutbarkeit.",
+      "near_synonyms": [
+        { "lemma": "abverlangen", "distinction": "betont die Forderung, etwas weniger negativ" },
+        { "lemma": "aufbürden", "distinction": "bildhaft - jemandem eine Last auflegen" }
+      ]
+    },
+    "bewältigen": {
+      "meaning_de": "eine schwierige Aufgabe oder Situation erfolgreich meistern",
+      "meaning_en": "to cope with; to manage; to master",
+      "forms": [
+        { "label": "Präsens", "value": "er bewältigt" },
+        { "label": "Präteritum", "value": "er bewältigte" },
+        { "label": "Perfekt", "value": "er hat bewältigt" },
+        { "label": "Konjunktiv II", "value": "er bewältigte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas bewältigen", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "eine Aufgabe bewältigen", "gloss_en": "to manage a task" },
+        { "phrase": "eine Krise bewältigen", "gloss_en": "to overcome a crisis" },
+        { "phrase": "das Pensum bewältigen", "gloss_en": "to get through the workload" },
+        { "phrase": "die Vergangenheit bewältigen", "gloss_en": "to come to terms with the past" }
+      ],
+      "examples": [
+        { "de": "Sie hat die schwierige Situation gut bewältigt.", "en": "She managed the difficult situation well." },
+        { "de": "Das Arbeitspensum ist kaum zu bewältigen.", "en": "The workload is barely manageable." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis leicht gehoben; häufig für Aufgaben, Krisen und Mengen.",
+      "near_synonyms": [
+        { "lemma": "meistern", "distinction": "betont die Könnerschaft, den souveränen Umgang" },
+        { "lemma": "schaffen", "distinction": "umgangssprachlicher und allgemeiner" }
+      ]
+    },
+    "ausführlich": {
+      "meaning_de": "mit vielen Einzelheiten, gründlich und umfassend",
+      "meaning_en": "detailed; thorough; in depth",
+      "forms": [
+        { "label": "Komparativ", "value": "ausführlicher" },
+        { "label": "Superlativ", "value": "am ausführlichsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ausführlich berichten", "gloss_en": "to report in detail" },
+        { "phrase": "eine ausführliche Erklärung", "gloss_en": "a detailed explanation" },
+        { "phrase": "etwas ausführlich besprechen", "gloss_en": "to discuss something at length" },
+        { "phrase": "ausführlich auf etwas eingehen", "gloss_en": "to go into something in detail" }
+      ],
+      "examples": [
+        { "de": "Er hat das Thema sehr ausführlich behandelt.", "en": "He covered the topic in great detail." },
+        { "de": "In einem ausführlichen Gespräch klärten sie alles.", "en": "In a lengthy conversation they cleared everything up." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch adverbial (ausführlich erklären) sehr gebräuchlich.",
+      "near_synonyms": [
+        { "lemma": "detailliert", "distinction": "betont die einzelnen Details, oft technischer" },
+        { "lemma": "gründlich", "distinction": "betont die Sorgfalt, nicht die Länge" }
+      ]
+    },
+    "Gepflogenheit": {
+      "meaning_de": "eine übliche, eingespielte Verhaltensweise innerhalb einer Gruppe",
+      "meaning_en": "custom; established practice; convention",
+      "forms": [
+        { "label": "Genitiv", "value": "der Gepflogenheit" },
+        { "label": "Plural", "value": "die Gepflogenheiten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "gesellschaftliche Gepflogenheiten", "gloss_en": "social conventions" },
+        { "phrase": "nach alter Gepflogenheit", "gloss_en": "according to old custom" },
+        { "phrase": "die üblichen Gepflogenheiten", "gloss_en": "the usual conventions" },
+        { "phrase": "den Gepflogenheiten entsprechen", "gloss_en": "to conform to the conventions" }
+      ],
+      "examples": [
+        { "de": "Es entspricht nicht den Gepflogenheiten, so früh zu gehen.", "en": "It isn't customary to leave so early." },
+        { "de": "Er kennt die Gepflogenheiten des Hauses genau.", "en": "He knows the customs of the house precisely." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; meist im Plural und in formellen oder beschreibenden Kontexten.",
+      "near_synonyms": [
+        { "lemma": "der Brauch", "distinction": "stärker traditionell, oft festlich" },
+        { "lemma": "die Sitte", "distinction": "moralisch getönt, eine gesellschaftliche Norm" }
+      ]
+    },
+    "Sachverhalt": {
+      "meaning_de": "die Gesamtheit der Tatsachen, um die es in einer Angelegenheit geht",
+      "meaning_en": "the facts of a matter; state of affairs",
+      "forms": [
+        { "label": "Genitiv", "value": "des Sachverhalts" },
+        { "label": "Plural", "value": "die Sachverhalte" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "den Sachverhalt klären", "gloss_en": "to clarify the facts" },
+        { "phrase": "den Sachverhalt schildern", "gloss_en": "to describe the facts" },
+        { "phrase": "ein komplexer Sachverhalt", "gloss_en": "a complex matter" },
+        { "phrase": "den Sachverhalt darstellen", "gloss_en": "to set out the facts" }
+      ],
+      "examples": [
+        { "de": "Bitte schildern Sie den Sachverhalt genau.", "en": "Please describe the facts precisely." },
+        { "de": "Der Sachverhalt ist komplizierter, als er scheint.", "en": "The matter is more complicated than it seems." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und sachlich; zu Hause in Recht, Verwaltung und akademischen Texten.",
+      "near_synonyms": [
+        { "lemma": "der Tatbestand", "distinction": "stärker juristisch - Tatsachen als Grundlage einer rechtlichen Wertung" },
+        { "lemma": "die Sachlage", "distinction": "die Situation als Ganzes, wie sie gerade ist" }
+      ]
+    },
+    "Tragweite": {
+      "meaning_de": "das Ausmaß der Folgen oder die Bedeutung einer Sache",
+      "meaning_en": "significance; scope; far-reaching consequences",
+      "forms": [
+        { "label": "Genitiv", "value": "der Tragweite" },
+        { "label": "Plural", "value": "die Tragweiten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "die Tragweite einer Entscheidung", "gloss_en": "the significance of a decision" },
+        { "phrase": "von großer Tragweite", "gloss_en": "of great consequence" },
+        { "phrase": "die Tragweite ermessen", "gloss_en": "to gauge the significance" },
+        { "phrase": "die volle Tragweite erkennen", "gloss_en": "to grasp the full significance" }
+      ],
+      "examples": [
+        { "de": "Ihm war die Tragweite seiner Worte nicht bewusst.", "en": "He wasn't aware of the significance of his words." },
+        { "de": "Diese Entscheidung ist von enormer Tragweite.", "en": "This decision is of enormous consequence." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fast nur im Singular und in bedeutungsschweren Zusammenhängen.",
+      "near_synonyms": [
+        { "lemma": "die Bedeutung", "distinction": "allgemeiner und neutraler" },
+        { "lemma": "die Reichweite", "distinction": "eher räumlich oder auf Wirkung bezogen, weniger auf Folgen" }
+      ]
+    },
+    "unabdingbar": {
+      "meaning_de": "unbedingt notwendig; nicht verzichtbar",
+      "meaning_en": "indispensable; essential; non-negotiable",
+      "forms": [],
+      "rektion": [
+        { "pattern": "unabdingbar für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "eine unabdingbare Voraussetzung", "gloss_en": "an indispensable prerequisite" },
+        { "phrase": "unabdingbar für den Erfolg", "gloss_en": "essential to success" },
+        { "phrase": "als unabdingbar gelten", "gloss_en": "to be considered essential" },
+        { "phrase": "unabdingbare Rechte", "gloss_en": "inalienable rights" }
+      ],
+      "examples": [
+        { "de": "Vertrauen ist für eine gute Zusammenarbeit unabdingbar.", "en": "Trust is indispensable for good collaboration." },
+        { "de": "Diese Bedingung ist unabdingbar.", "en": "This condition is non-negotiable." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stärker und endgültiger als notwendig. Wird kaum gesteigert.",
+      "near_synonyms": [
+        { "lemma": "unerlässlich", "distinction": "fast bedeutungsgleich, ebenfalls gehoben" },
+        { "lemma": "notwendig", "distinction": "neutral und alltäglich, weniger absolut" }
+      ]
+    },
+    "gewissermaßen": {
+      "meaning_de": "in gewisser Weise; sozusagen - schränkt eine Aussage leicht ein",
+      "meaning_en": "so to speak; in a way; to a certain extent",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "gewissermaßen als Vorbild", "gloss_en": "as a role model, so to speak" },
+        { "phrase": "gewissermaßen die Krönung", "gloss_en": "the crowning touch, in a way" }
+      ],
+      "examples": [
+        { "de": "Er ist gewissermaßen der Kopf des Projekts.", "en": "He is, so to speak, the head of the project." },
+        { "de": "Damit war die Sache gewissermaßen entschieden.", "en": "With that the matter was, in a way, decided." }
+      ],
+      "register": "neutral",
+      "register_note": "Gehoben-neutral; relativiert eine Aussage und wirkt reflektiert.",
+      "near_synonyms": [
+        { "lemma": "sozusagen", "distinction": "etwas umgangssprachlicher, gleiche Funktion" },
+        { "lemma": "quasi", "distinction": "lockerer, oft gesprochen" }
+      ]
+    }
+  }
+}

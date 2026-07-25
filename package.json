@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
+    "collect": "tsx scripts/collect.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

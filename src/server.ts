@@ -10,8 +10,8 @@ import { registerRoutes } from "./adapters/http.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const config = loadConfig();
-const { store, seeded } = bootstrapStore();
-const dossiers = getDossierSource();
+const { store, seededWords, seededDossiers, skippedDossiers } = bootstrapStore();
+const dossiers = getDossierSource(store);
 
 // Vendored htmx, read once at boot. Serving this single asset via an explicit
 // route avoids a static-file dependency (and its path-traversal advisories) —
@@ -21,7 +21,11 @@ const htmx = readFileSync(
 );
 
 const app = Fastify({ logger: true });
-app.log.info({ words: store.countWords(), seeded, dossiers: dossiers.kind }, "data layer ready");
+app.log.info(
+  { words: store.countWords(), dossiers: store.countDossiers(), seededWords, seededDossiers, source: dossiers.kind },
+  "data layer ready",
+);
+if (skippedDossiers.length) app.log.warn({ skippedDossiers }, "some dossiers were not loaded");
 
 await app.register(formbody); // parse application/x-www-form-urlencoded form posts
 
