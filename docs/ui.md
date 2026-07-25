@@ -16,8 +16,8 @@ no interactivity. Resume from the first row that isn't ✅.
 |---|---|---|
 | 1 | Offer + Calibrate | ✅ Approved |
 | 2 | Dossier | ✅ Approved |
-| 3 | Anchor prompt | ✅ Approved |
-| 4 | Anchor feedback | ✅ Approved |
+| ~~3~~ | ~~Anchor prompt~~ | Cut from MVP — anchor step deferred (architecture.md §7) |
+| ~~4~~ | ~~Anchor feedback~~ | Cut from MVP — anchor step deferred (architecture.md §7) |
 | 5 | Session complete | ✅ Approved |
 | 6 | Words met (log) | ✅ Approved |
 | 7 | Log detail | ✅ Approved |
@@ -25,8 +25,11 @@ no interactivity. Resume from the first row that isn't ✅.
 | 9 | Level selector | ✅ Approved |
 | 10 | First run | ✅ Approved |
 
-**All ten screens approved 2026-07-20.** The states table below is not sketched — those
-are implementation-time decisions against the design language in the next section.
+**MVP is seven screens.** The core loop is offer/calibrate → dossier → done; screens 3
+and 4 (the anchor step) were designed and approved, then cut from MVP when no fast,
+reliable local feedback proved possible (architecture.md §7). Their approved design is
+kept below for when the step returns. The states table is not sketched — those are
+implementation-time decisions against the design language in the next section.
 
 Legend: ⬜ not started · 🔵 in review · ✅ approved
 
@@ -78,7 +81,10 @@ same cached artifact, different presentation. This is the resolution of open que
   derivable. Nouns show declension (genitive singular + plural) in the same slot.
 - **Rektion block** — valency patterns with case tags (`Akk.`, `Akk. + Dat.`), carrying
   the screen's only accent color. This is the block that enables production rather than
-  recognition, which is what the anchor step asks for two screens later.
+  mere recognition.
+- **`Weiter` ends the session.** With the anchor step cut (screens 3–4, architecture.md
+  §7), the dossier's button goes straight to session complete (screen 5). The MVP loop
+  is offer/calibrate → dossier → done.
 - **Word capture** — any word in the collocations or examples is a tap target. Tap to
   mark, tap again to undo; only marked words get visual treatment, so no dotted
   underlines litter the screen. Marked words appear lemmatized in a "Gemerkt für später"
@@ -88,39 +94,25 @@ Tap rather than text selection: mobile selection means OS magnifiers, drag handl
 a system context menu that can't be reliably hooked on iOS Safari. The dossier is
 otherwise a passive page, so every word can simply be a tap target.
 
-Dossiers for captured words are built by the nightly batch job, not on tap — see
+Dossiers for captured words are built by the scheduled collection task, not on tap — see
 architecture.md §5b.
 
-### 3. Anchor prompt
+### 3 & 4. Anchor prompt + feedback — CUT FROM MVP
 
-Free-text input, single attempt. **Approved 2026-07-20.**
+**Designed and approved 2026-07-20, then cut from MVP scope** (architecture.md §7): the
+step is only worth having with fast, reliable feedback, and no in-budget local model on
+this machine delivered both (gemma4 accurate but 65–90 s/check; mistral-nemo slower still
+and it misdiagnosed a correct sentence). The app makes no API calls, so there was no other
+source. Deferred to post-MVP; the dossier's `Weiter` now goes straight to session complete.
 
-- **Skip is a real option, not a fire escape** — 14px `text-secondary`, centred under the
-  primary button. An 11px muted link would make skipping feel like failing, and the ≥70%
-  completion metric (§9) would measure guilt rather than engagement.
-- **The Rektion pattern stays visible** above the input. The anchor is acquisition, not
-  assessment (§7 rules out grading), so there's no reason to withhold the one fact that
-  makes a correct sentence possible.
-- **What you type is set in serif** — writing, not form-filling.
-- No character counter, no word limit, no sentence-count enforcement: all grading
-  machinery in disguise.
-- Open: don't autofocus (the keyboard would cover the skip); empty submit behaves as
-  skip rather than raising a validation error.
+The approved design, preserved for when the step returns:
 
-### 4. Anchor feedback
-
-**Approved 2026-07-20.** Two states — rewrite, or unchanged.
-
-- **No red pen.** No strikethrough, no error colour, no inline diff. Your sentence sits
-  in `text-secondary`, the native version larger in `text-primary`; hierarchy carries the
-  message without marking anything wrong.
-- **"Ein Deutscher würde schreiben"**, not "Besser" or "Korrekt" — demonstrative, not
-  evaluative. A comparative smuggles the scale back in.
-- **The delta is deliberately not highlighted**, because accent underline is reserved for
-  word capture. Words in the rewrite are themselves tappable for capture.
-- **The unchanged state is bare** — sentence, *Klingt natürlich*, done. No checkmark, no
-  praise, no badge: all reward mechanics (§7).
-- *"Das war Absicht"* appears only when there is a rewrite to dispute.
+- **Anchor prompt** — free-text, single attempt, serif input (writing, not form-filling);
+  a real, unapologetic skip (skipping mustn't feel like failing); the Rektion pattern kept
+  visible; no counter or sentence-count enforcement.
+- **Anchor feedback** — rewrite plus one-line note, never a verdict; no red pen (hierarchy,
+  not strikethrough); *"Ein Deutscher würde schreiben"*, not "Besser"; the unchanged state
+  bare (*Klingt natürlich*, no praise); the whole step ephemeral, nothing stored.
 
 ### 5. Session complete
 
@@ -135,7 +127,8 @@ Free-text input, single attempt. **Approved 2026-07-20.**
 - **No count, no total, no weekly tally.** Each is a streak in disguise.
 - **The captured-words block earns its place** by answering "what happened to the words I
   tapped?" and showing the queue is real. `Kommen in den nächsten Tagen dran` is vague on
-  purpose — the nightly job only runs when the laptop is awake.
+  purpose — captures are collected when you next schedule the Claude Code task (§5b), not
+  on a timer.
 - *"steht jetzt in deinen Wörtern"* is a deliberately weak claim. Not *gelernt* — the app
   can't know that, and flattery would be obvious.
 
@@ -158,28 +151,25 @@ awaiting their turn, and the three most recent words with their meanings.
   words."
 - **Search covers met words only.** Captured and queued words haven't been learned, so
   they are not history and are excluded from both the list and the results. They also
-  have no dossier until the nightly job runs, so a result would open onto nothing.
+  have no dossier until collection runs, so a result would open onto nothing.
 - **No level indicator per row, and none in this screen's header.** `level`, `source` and
   `frequency_rank` are engine data: they drive selection and are versioned like code
   (§5), but the learner never sees them. The active-level badge stays on the session
-  screens (1, 3, 5), where what you're being served is relevant.
+  screens (1, 5), where what you're being served is relevant.
 - **No counts of any kind** — no total, no per-week tally. Week grouping is chronology; a
   number beside it is a score.
 - **Nouns keep their article** (`die Gepflogenheit`), since a stripped headword teaches
   the wrong form on every scan.
 
 **The captured-words line stays, as a diagnostic.** It is the one element on this screen
-that isn't history, kept deliberately: it's the only visible health signal for the
-nightly job (architecture.md §5b). If the number climbs day over day, the job isn't
-running — which on a laptop that sleeps is a live failure mode, not a hypothetical.
+that isn't history, kept deliberately: it's the visible signal for whether collection is
+keeping up (architecture.md §5b). If the number climbs run over run, you haven't scheduled
+the collection task recently — it's a reminder to, not an automated promise.
 
-For that to work it must **count `pending` captures only** — those not yet processed by
-the job. Words already at `queued` have their dossiers built and are waiting on *you* to
-do a session, so counting them would make the number grow during any normal busy week
-and produce a false alarm. Counting the wrong status turns the diagnostic into noise.
-
-Revisit once the job has proven stable; at that point this line has no remaining purpose
-on a history screen.
+For that to work it must **count `pending` captures only** — those not yet collected.
+Words already at `queued` have their dossiers built and are waiting on *you* to do a
+session, so counting them would make the number grow during any normal busy week and
+produce a false alarm. Counting the wrong status turns the diagnostic into noise.
 
 Session dates are still recorded in `sessions` and remain queryable for the §9 metrics —
 they are simply never displayed. You can check whether the product is working without
@@ -269,7 +259,7 @@ implementation brief should carry.
 
 | Face | Used for |
 |---|---|
-| Serif (`--font-voice`) | German content — headwords, examples, valency patterns, the learner's own writing, rewrites |
+| Serif (`--font-voice`) | German content — headwords, examples, valency patterns |
 | Mono | Reference data — verb forms, case tags |
 | Sans | Interface chrome — labels, buttons, glosses |
 
@@ -281,15 +271,13 @@ captured-word marks. Nothing else may claim it — its scarcity is what makes bo
 at a glance.
 
 **Buttons signal direction.** A full-width 46px primary button means the session moves
-forward. History screens (5, 6, 7) end in quiet text links instead — the absence of a
-button is how a dead end is expressed. First run is the single exception.
+forward (offer/calibrate → dossier → done). History screens (5, 6, 7) end in quiet text
+links instead — the absence of a button is how a dead end is expressed. First run is the
+single exception.
 
 **Never displayed:** counts, totals, streaks, progress indicators, dates in the log,
 per-word CEFR levels, scores, grades, or praise. `level`, `source` and `frequency_rank`
 are engine data. Session dates stay queryable for §9 metrics but never surface.
-
-**Corrections use hierarchy, not red.** No strikethrough, no error colour, no inline
-diff. The native version is simply larger and darker than yours.
 
 **Interface copy is German throughout,** including structural labels. Claims stay weak
 and checkable — *steht jetzt in deinen Wörtern*, never *gelernt*.
@@ -303,30 +291,22 @@ otherwise discovered one at a time during implementation.
 
 | State | Screen | Notes |
 |---|---|---|
-| Dossier generating | 2 | Cache miss with adaptive thinking is a real wait. Largely avoidable — see Pre-generation below. |
-| Dossier generation failed | 2 | API error, network, or refusal. Must not lose the session: offer retry or skip to another word. |
-| Anchor feedback pending | 4 | Short, not instant. |
-| Anchor feedback failed | 4 | The word still lands in the log. Feedback is optional; the session record is not. |
+| Dossier missing | — | Never surfaces: a word with no stored dossier isn't offered (architecture.md §5). Dossiers are pre-built and read from storage, so there's no in-app generation, no spinner, no failure state. |
 | Know it → next word | 1 | A transition, not a screen. Rapid rejection with no acknowledgement reads as broken — needs a micro-confirmation. |
 | Level exhausted | 1 | No unknown words remain at the active level. Guaranteed with the 20-word fixture, so build it in Phase 2 rather than hitting a crash. |
 | Session resumed | any | App closed mid-dossier, reopened later. Resume in place or discard — needs a decision. |
 | Empty log | 6 | Before the first completed session. |
-| No search results | 8 | |
+| No search results | 6 | Search is a state of the log screen. |
 | Error report submitted | 2, 7 | Confirmation for the §11 affordance. |
 | Server unreachable | all | The laptop-asleep case — see below. |
 
 ---
 
-## Two decisions that shape the screens
+## One decision that shapes the screens
 
-### Pre-generation removes the loading state
-
-The selection engine picks the next word deterministically, so its dossier can be
-generated and cached in the background as soon as a session ends. The next session then
-opens instantly, and the spinner becomes a rare fallback rather than a normal part of
-the flow.
-
-This materially changes how screen 2 feels and is cheaper to build now than to retrofit.
+There's no loading state to design: dossiers are pre-built and read from storage
+(architecture.md §5), so a session opens instantly or the word isn't offered. The app
+makes no model calls at runtime, so there is no spinner and no generation-failure state.
 
 ### Server unreachable needs a decision
 
