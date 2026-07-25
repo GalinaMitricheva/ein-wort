@@ -21,13 +21,9 @@ app.get("/vendor/htmx.min.js", async (_request, reply) => {
   reply.type("application/javascript").send(htmx);
 });
 
-// Liveness probe. Deliberately credential-free: the phone hits this over the
-// tailnet to tell "laptop asleep" (no response) from "app broken" (error). No
-// model call happens here, so it must work whether or not a token is set.
-app.get("/health", async () => ({
-  status: "ok",
-  credential: config.hasCredential ? "present" : "missing",
-}));
+// Liveness probe. The phone hits this over the tailnet to tell "laptop asleep"
+// (no response) from "app broken" (error).
+app.get("/health", async () => ({ status: "ok" }));
 
 app.get("/", async (_request, reply) => {
   reply.type("text/html").send(
@@ -36,16 +32,6 @@ app.get("/", async (_request, reply) => {
     }),
   );
 });
-
-if (!config.hasCredential) {
-  // A warning now, not a hard failure: phase 0 makes no model calls. Once the
-  // loop exists this becomes fatal at startup (architecture.md 7b, trap 3) so a
-  // missing token never surfaces as a confusing 401 mid-session.
-  app.log.warn(
-    "No Anthropic credential found. Run `claude setup-token` and set " +
-      "ANTHROPIC_AUTH_TOKEN in .env before phase 3. Model calls will fail until then.",
-  );
-}
 
 try {
   await app.listen({ port: config.port, host: "0.0.0.0" });

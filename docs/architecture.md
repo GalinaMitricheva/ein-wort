@@ -65,13 +65,12 @@ CREATE TABLE known_words (
 );
 
 CREATE TABLE sessions (
-  id              INTEGER PRIMARY KEY,
-  word_id         INTEGER NOT NULL REFERENCES words(id),
-  started_at      TEXT NOT NULL,
-  completed_at    TEXT,
-  calibration      TEXT,                 -- know-it | vaguely | new
-  anchor_completed INTEGER NOT NULL DEFAULT 0
-);            -- nothing textual from the anchor step is stored at all — see §7
+  id           INTEGER PRIMARY KEY,
+  word_id      INTEGER NOT NULL REFERENCES words(id),
+  started_at   TEXT NOT NULL,
+  completed_at TEXT,
+  calibration  TEXT                      -- know-it | vaguely | new
+);            -- the anchor step is out of MVP scope (§7), so nothing from it is stored
 
 CREATE TABLE dossiers (
   word_id        INTEGER PRIMARY KEY REFERENCES words(id),
@@ -121,11 +120,22 @@ That's the whole MVP rule, and it satisfies §3.4 ("pitched just above what the 
 
 ---
 
-## 5. Dossier generation
+## 5. Dossier generation — built offline, read at runtime
 
-**Cache-with-regenerate** — resolving open question §10.1. Keyed by `(word_id, schema_version)`. One LLM call per word, ever; bumping `schema_version` invalidates the corpus and a CLI regenerates.
+**The app never generates a dossier.** Dossiers are built ahead of time by a Claude Code
+task (run on a schedule you set — see §5b) and stored; the app only ever reads them,
+keyed by `(word_id, schema_version)`. Consequence: **the app makes no model API calls and
+needs no Anthropic credential at all.** A word with no stored dossier is simply not
+offered yet.
 
-The schema is enforced, not requested. This is the direct mitigation for §11's core risk (invented collocations, wrong register labels) — a Zod schema passed through structured outputs means the model cannot return a dossier missing a register label or with a malformed collocation list:
+This is the resolution of open question §10.1 (cached vs. fresh) taken to its end: not
+cached-on-first-use, but pre-built. Bumping `schema_version` invalidates the corpus and
+the task rebuilds it.
+
+The schema is still enforced, not requested — the mitigation for §11's core risk
+(invented collocations, wrong register labels) is a Zod schema passed through structured
+outputs, so a dossier can't come back missing a register label or with a malformed
+collocation list. The generation call runs **in the scheduled task, not the app**:
 
 ```ts
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
@@ -151,48 +161,49 @@ const response = await client.messages.parse({
 });
 ```
 
-Adaptive thinking is worth it here — deciding whether *erörtern* is formal-only, and how it differs from *besprechen*, is exactly the judgment that benefits from reasoning. It's a one-time cost per word.
+Adaptive thinking is worth it here — deciding whether *erörtern* is formal-only, and how it differs from *besprechen*, is exactly the judgment that benefits from reasoning. It's a one-time cost per word, paid in the scheduled task.
 
-**`near_synonyms` answers open question §10.3.** Rather than branching the dossier on the "Vaguely" answer, generate the disambiguation always and surface it more prominently when calibration was *Vaguely*. One cached artifact, two presentations — no second generation path.
+**`near_synonyms` answers open question §10.3.** Rather than branching the dossier on the "Vaguely" answer, generate the disambiguation always and surface it more prominently when calibration was *Vaguely*. One stored artifact, two presentations — no second generation path.
 
-**Cost.** At Opus 4.8 rates ($5/$25 per MTok), a dossier of ~1.5k output tokens costs a couple of cents. A B1–C1 seed of several hundred words is a one-time spend well under $20, and thereafter sessions are free unless you regenerate. Prompt caching is *not* worth wiring up: Opus 4.8 needs a 4096-token cacheable prefix and the dossier system prompt won't reach it.
+**In development, the app reads fixtures instead of stored dossiers** (§7b) — so the whole loop runs before a single real dossier exists.
 
 **Open question §10.4 (real-content snippets) stays open, and should.** Live retrieval and curated corpora both carry copyright exposure that a single-user local app doesn't need to take on in week one. Ship the dossier without snippets; the collocations and register note already carry most of the "context is the product" weight.
 
 ---
 
-## 5b. Word capture and the nightly job
+## 5b. Word capture and dossier collection
 
 Tapping a word in a collocation or example (screens 2 and 7) records it as a capture.
 This is a narrow slice of brief §8's bring-your-own-word feature: capture is in scope,
 **on-demand dossier generation is not.**
 
-### Why batched, not on-tap
+### The app saves; a scheduled Claude Code task collects
 
-On-tap generation fires an unbounded number of expensive calls during a session that is
-supposed to last under five minutes (§9 anti-metric). Deferring instead:
+The app's only job at capture time is to **save the tap** (`status = 'pending'`) and
+move on. There is no in-app automation, no batch queue, no background job — the earlier
+nightly-job design (Message Batches API, staleness-triggered cron, per-run caps) is
+**dropped.** It required the app to hold an API credential and to run unattended work on
+a laptop that sleeps; both problems vanish if the app simply never generates anything.
 
-- **Halves the cost.** The Message Batches API runs at 50% of standard pricing and is
-  built for exactly this — asynchronous, latency-insensitive work. Most batches finish
-  within an hour.
-- **Bounds the spend per run** rather than per tap.
-- **Keeps the session fast.** Nothing blocks on a model call mid-dossier.
-- **Leaves no un-dossiered words in the list.** By the next session every capture is
-  either complete or explicitly failed.
+Instead, dossier collection is a **Claude Code task you schedule** (a routine, or an
+ad-hoc "go through the queue" request). When it runs, Claude — with full reasoning, not a
+constrained in-app call — works the pending captures and writes finished dossiers back to
+the store. You control the cadence; nothing depends on the laptop being awake at 3am.
 
-### Job stages
+### What the collection task does
 
-Run over all captures with `status = 'pending'`:
+Over all captures with `status = 'pending'`:
 
-1. **Resolve lemma.** Match `surface_form` against `words.lemma` first — free and
-   instant. On a miss, the model resolves it in stage 3's batch.
-2. **Apply the dedup gate** (below). Most captures never reach stage 3.
+1. **Resolve lemma.** Match `surface_form` against `words.lemma`; resolve misses directly.
+2. **Apply the dedup gate** (below). Most captures never reach step 4.
 3. **Assign level and source.** Captures not already in the word list get a CEFR level
    estimate and `source = 'capture'`, keeping §5's per-word provenance honest.
-4. **Generate dossiers** — one batch request per surviving capture, same schema and
-   prompt as §5, submitted through `client.messages.batches.create()`.
+4. **Build the dossier** — same schema as §5, written to the `dossiers` store.
 5. **Mark `queued`.** The word is now eligible for selection with its dossier already
-   cached, so it opens instantly.
+   built, so it opens instantly.
+
+The same task builds dossiers for the seed word list (§6) — collection and seeding are
+one mechanism, run by Claude on demand rather than by the app on a timer.
 
 ### Dedup gate
 
@@ -203,7 +214,7 @@ checks have to run before anything is scheduled for generation:
 |---|---|---|
 | **Self-tap** | Captured lemma equals the source session's word | Drop. Tapping `erörtern` inside its own examples is a misfire, not a signal. |
 | **Duplicate capture** | An active capture with the same lemma already exists | Merge into the existing row; don't create a second. |
-| **Dossier already exists** | Row present in `dossiers` at the current `schema_version` | Skip generation entirely, jump to `queued`. Paying twice for the same dossier is the exact waste batching was meant to avoid. |
+| **Dossier already exists** | Row present in `dossiers` at the current `schema_version` | Skip generation entirely, jump to `queued`. Building the same dossier twice is pure waste. |
 | **Already met** | Lemma appears in a completed `sessions` row | Don't re-offer as new. Surface the existing log entry instead — you've seen it before and the app should say so. |
 | **Marked known** | Lemma is in `known_words` | **Remove it from `known_words`,** then queue. |
 
@@ -221,8 +232,8 @@ CREATE UNIQUE INDEX captures_active_lemma
   WHERE status IN ('pending', 'resolved', 'queued');
 ```
 
-Stage 4 means capture composes with the pre-generation design in §5: by the time a
-captured word is offered, its dossier is already warm.
+By the time a captured word is offered, the collection task has already built and stored
+its dossier — so it opens instantly, same as any seed word.
 
 ### Retraction: *"Kenne ich doch nicht"*
 
@@ -258,19 +269,18 @@ retracted-then-remet word appears twice.
 *Kommt wieder dran* rather than opening a dialog. It's cheap to reverse — the word simply
 comes round again — so a confirmation step would cost more than the mistake.
 
-### Scheduling
+### Scheduling and observability
 
-**Trigger on app start when the last successful run is older than ~24h**, not on a
-wall-clock cron. The host laptop sleeps (§10), so a fixed 03:00 job would simply be
-missed with no catch-up. A staleness check runs whenever the machine is actually awake,
-which is the only time it can run at all.
+You decide when collection runs — a scheduled Claude Code routine, or an ad-hoc request.
+Because nothing is automated, the **pending-capture count on screen 6 is the health
+signal**: if it climbs run over run, collection hasn't happened recently and you schedule
+it. That count is `status = 'pending'` only — words already `queued` have dossiers and are
+just waiting on you to do a session, so counting them would produce a false alarm.
 
 ### Guards
 
-- **Cap words per run** (~50). A tap-happy week shouldn't produce a surprise bill.
-- **Per-item failure isolation.** Batch results are keyed by `custom_id` and arrive in
-  any order; a failed item stays `pending` and is retried next run rather than failing
-  the batch.
+- **The collection task is idempotent.** A capture that isn't finished stays `pending`
+  and is picked up next run; re-running is always safe.
 - **Dismissal path.** Captures can be dropped without ever being offered — a tap is a
   cheap gesture and should stay reversible.
 
@@ -303,174 +313,83 @@ Budget the majority of pipeline time here. A wrong normalizer produces a list th
 
 ---
 
-## 7. Anchor step — correctness assessment
+## 7. Anchor step — deferred to post-MVP
 
-Every sentence is novel, so nothing here is cacheable.
+The brief's §4 step 4 (write a sentence, get naturalness feedback) is **out of MVP
+scope.** The MVP core loop is: offer/calibrate → dossier → done. Screens 3 and 4 leave
+the MVP with it.
 
-### Rewrite, not verdict
+### Why it's out
 
-The obvious design — correct / unidiomatic / wrong — is a grading scale wearing a
-disguise, and §4 and §7 both rule those out. Instead the model returns a rewrite and a
-one-line note:
+The step is only worth having if feedback is fast *and* reliable, and neither holds:
 
-```ts
-const AnchorFeedback = z.object({
-  rewrite: z.string(),   // what a German would write; may equal the input
-  note: z.string(),      // one sentence on what changed and why
-});
-```
+- **The app makes no API calls** (§7b), so the only in-app option was a local model via
+  Ollama. Benchmarked on this machine (2026-07-25): `gemma4` gave good, correctly-explained
+  German corrections but took **65–90 s per check** — far too slow for a step in a
+  sub-five-minute session (§9 anti-metric). `mistral-nemo` was worse on both counts: ~390 s
+  per call, and it *misdiagnosed* a correct rewrite (called a superfluous preposition a
+  "missing article"). The machine is CPU-bound; no in-budget model clears both bars.
+- A confidently wrong correction is the **uniquely bad** failure — it teaches false German
+  at the moment of maximum receptiveness, and the learner can't overrule it, since not
+  having that intuition is why they're here. Better no feedback than unreliable feedback.
 
-If the rewrite is identical to the input, the UI shows *Klingt natürlich* and nothing
-else. If it differs, both lines appear with the note. Feedback becomes **demonstrative
-rather than evaluative** — you learn from the delta, not from a label — which is also a
-closer match to "naturalness" than any verdict could be.
+So the step doesn't earn its place in the MVP. Removing it also deletes real complexity:
+no `anchor_completed` column, no `feedback_disputes` table, no dispute affordance, and the
+§9 anchor-completion metric drops.
 
-### Grounded in the dossier
+### The design, preserved for when it returns
 
-The call receives the **cached dossier as context** — register, Rektion, collocations.
-Without it, the feedback model judges the sentence from scratch and can contradict what
-the learner read ninety seconds earlier: the dossier calls `erörtern` formal, and the
-feedback rewrites the sentence into something colloquial. One source of truth for both,
-or the app argues with itself.
-
-It also lets the note be specific rather than generic: *"`erörtern` verlangt den
-Akkusativ — `über das Thema` gehört zu `diskutieren`."*
-
-### Model — revised
-
-Originally specified as `effort: "low"` on the grounds that it's a small bounded task.
-That was reasoning about size rather than stakes.
-
-**The failure mode is uniquely bad: confidently correcting a sentence that was already
-correct.** That doesn't waste a session, it teaches something false about German at the
-moment of maximum receptiveness — and the learner has no way to overrule it, since not
-having that intuition is why they're here.
-
-So: `claude-opus-4-8`, adaptive thinking, `effort: "medium"`. Volume makes the cost
-argument moot — roughly 500 input and 200 output tokens per anchor at four sessions a
-week is cents per month. Economising there to save a fraction of a cent while risking
-wrong German taught with confidence is a false economy.
-
-### The main guard: bias toward leaving it alone
-
-The dominant risk is **over-correction** — models asked to review tend to find something
-to improve. The prompt must explicitly require returning the sentence unchanged unless
-there is a genuine grammatical error or something a native speaker would not say.
-Stylistic preference is not grounds for a rewrite.
-
-This is the hardest part of the prompt to get right, and the reason authoring it is an
-Opus task rather than a template.
-
-### The whole step is ephemeral
-
-**Nothing textual survives the anchor step** — not the rewrite, not the note, and not
-the learner's own sentence. `sessions` records a single `anchor_completed` flag and
-nothing more.
-
-The reasoning generalises from the rewrite to the sentence. Stored corrections are one
-query away from being a review list, which §7 rules out permanently. But a stored
-sentence *without* its correction is worse in a different way: the log would preserve
-`über das Thema erörtern` forever, uncorrected, quietly reinforcing the error it was
-meant to fix. Keeping neither is the only consistent position — the anchor is a moment
-of production, not an artefact.
-
-This makes the review queue structurally impossible rather than merely a matter of
-restraint. There is no table to query.
-
-**One exception, opt-in and quarantined:** disputing a rewrite stores the full triple —
-sentence, rewrite, note — in a separate `feedback_disputes` table. A dispute without
-content is useless as a quality signal, and an explicit tap is explicit consent to
-record that one instance. It lives outside `sessions` deliberately, so no log query can
-reach it by accident.
-
-```sql
-CREATE TABLE feedback_disputes (
-  id           INTEGER PRIMARY KEY,
-  session_id   INTEGER REFERENCES sessions(id),
-  anchor_text  TEXT NOT NULL,
-  rewrite      TEXT NOT NULL,
-  note         TEXT NOT NULL,
-  disputed_at  TEXT NOT NULL
-);
-```
-
-### Practical
-
-- **Failure is non-fatal.** If the call errors, the word still lands in the log and
-  `anchor_completed` is still set. Feedback is optional; the session record is not.
-- **The §9 anchor-completion metric** reads `anchor_completed` directly.
-- **The log shows words, never writing.** Screen 7 renders the dossier alone.
+When revisited (faster hardware, or an API credential), the design already settled in
+review is: a **rewrite plus a one-line note, never a verdict** (correct/wrong is a grading
+scale, which §7 rules out); the rewrite equals the input when the sentence is fine
+(*Klingt natürlich*); the model is **biased hard toward leaving the sentence alone**;
+the **dossier is passed as context** so feedback can't contradict what was just taught;
+and the **whole step is ephemeral** — nothing textual is ever stored, which is what keeps
+a review queue structurally impossible (§7 non-goals). That bar — reliable enough not to
+teach false German — is exactly what the local benchmark failed to clear.
 
 ---
 
-## 7b. Model access — provider abstraction, credentials deferred
+## 7b. Model access — the app makes no API calls
 
-The app reaches Claude only through a provider interface, and ships a **fixture-backed
-implementation that needs no credential.** Consequence: the entire app — data layer,
-core loop, capture, log, the nightly job's plumbing — is buildable and fully usable in
-development with no Anthropic credential at all. Credentials become a Phase 3 concern,
-not a Phase 0 blocker.
+The app never calls a model at runtime. Dossiers are pre-built by the scheduled
+collection task (§5, §5b) and read from storage; the anchor step, the only other model
+consumer, is out of scope (§7). **The running app therefore needs no Anthropic credential
+of any kind** — no key, no token, no Ollama. This dissolves the entire authentication
+problem rather than deferring it.
 
 ### The subscription path is a dead end (investigated 2026-07-25)
 
-The original plan authenticated via the local Claude subscription (`claude setup-token`)
-to avoid an API key. It does not work for a standalone app:
+An earlier plan tried to authenticate the app via the local Claude subscription (`claude
+setup-token`). Recorded here so it isn't re-attempted: `setup-token` emits **no portable
+token** — it writes a Pro-subscription OAuth credential into Claude Code's private store
+for Claude Code's own use. Consuming it would mean reading that store (**blocked by the
+safety classifier**, correctly), injecting a beta header the SDK doesn't send, and
+handling an **~8-hour expiry** with no env-var refresh. A subscription is not an API
+credential. It's also moot now: the app calls nothing.
 
-- `setup-token` emits **no portable token.** It writes a Pro-subscription OAuth
-  credential into Claude Code's private store (`~/.claude/.credentials.json`) for Claude
-  Code's own use.
-- Consuming it would require reading that private store — **blocked by the Claude Code
-  safety classifier**, correctly, since it resembles credential theft — then injecting
-  the `anthropic-beta: oauth-2025-04-20` header the SDK doesn't send, then handling the
-  **~8-hour access-token expiry** by hand, since env-var tokens aren't auto-refreshed.
-- The nightly batch job (§5b) runs **unattended**; a credential that dies every 8 hours
-  can't drive it. Batch support on consumer OAuth scopes is also unverified.
+### The dossier source (dev vs. real)
 
-A subscription is not an API credential. **Do not re-attempt this path.** Real
-generation needs API billing — an `ANTHROPIC_API_KEY`, or an `ant auth login` profile —
-set up when it's actually needed.
+`core/dossier/` defines a `DossierSource` — `get(word) → Dossier | null` — with two
+implementations:
 
-### The provider interface
-
-`core/llm/` defines one interface — `generateDossier`, `assessAnchor` — and a factory
-selects the implementation from config via `EIN_WORT_LLM`:
-
-| Mode | When | Credential |
+| Source | When | Needs |
 |---|---|---|
-| `fixture` | Default. Development, the whole loop, tests, demos. | none |
-| `anthropic` | Real generation, once API billing exists (Phase 3). | `ANTHROPIC_API_KEY` |
+| `FixtureDossierSource` | Default. Development, the whole loop, tests, demos. | nothing |
+| Stored source | Real content, once dossiers exist in the store. | the SQLite store (Phase 1) |
 
-The factory defaults to `fixture` and returns `anthropic` only when the flag is set
-**and** a credential is present — a missing credential degrades to fixtures rather than
-crashing. The `anthropic` implementation is a documented seam until Phase 3: the
-interface is real now, the API-calling body is written and tested when a credential
-exists to test it against.
+Neither reads a network. `null` means "not built yet" — the word simply isn't offered.
+The seam is the same one the collection task writes *into*: Claude builds dossiers offline
+and stores them; the app reads them back. In dev, fixtures stand in so the loop runs
+before any real dossier exists.
 
-### What fixture mode gives up
+### Where the credential actually lives
 
-Fixtures are canned: a word always yields the same dossier, and the anchor "assessment"
-is a fixed response, not a real judgement. That is enough to build and demonstrate the
-loop, wire the capture queue, and exercise the nightly job's plumbing. It says **nothing
-about dossier quality** — the §11 risk (register accuracy, invented collocations) can
-only be evaluated against the real provider. The fixture proves the machine runs, not
-that its output is trustworthy.
-
-### Credential hygiene, for when the real provider arrives
-
-- **Never set both `ANTHROPIC_API_KEY` and `ANTHROPIC_AUTH_TOKEN`** — the SDK sends both
-  headers and the API rejects the request. The conflict guard in `core/config` enforces
-  this at startup.
-- **An empty `ANTHROPIC_API_KEY` still wins its precedence slot** and authenticates with
-  an empty key, so it must not appear in `.env.example` at all.
-- **The key is a secret.** `.env` is gitignored; it never enters the repo, a commit
-  message, or a log line.
-
-### Revisit when
-
-Real credentials are set up at the start of Phase 3, when dossier quality first needs
-evaluating. That is also when the cost-attribution question from the brief becomes
-answerable — an API key scoped to its own workspace yields the per-token figures a
-subscription never would.
+Only the **offline collection task** (§5b) uses Claude, and it runs *as Claude Code* —
+your existing session — not as the app. There is no `ANTHROPIC_API_KEY` in the project,
+no `.env` credential, nothing to rotate or leak. The one remaining relevance of API
+billing is the brief's cost-attribution question, which is now trivial: the app's runtime
+cost is zero, and collection cost is whatever your scheduled Claude Code runs consume.
 
 ---
 
@@ -486,8 +405,8 @@ The manifest matters more than it looks. §6 rules out notifications and §7 rul
 ## 9. Build order
 
 1. Schema + migrations + a hand-entered 20-word fixture
-2. Core loop end to end with a stubbed dossier — offer, calibrate, display, anchor, log
-3. Real dossier generation + cache + regenerate CLI
+2. Core loop end to end on fixtures — offer, calibrate, dossier, done (no anchor; §7)
+3. The dossier collection task: pending captures → stored dossiers, run as Claude Code
 4. Tailscale + manifest — get it on the phone, start using it daily
 5. The composite word-list pipeline
 6. "Words met" log and search

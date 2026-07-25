@@ -1,11 +1,11 @@
 import type { Dossier } from "./schema.ts";
-import type { WordInput } from "./provider.ts";
+import type { WordInput } from "./source.ts";
 
-// Canned dossiers for fixture mode. The erörtern entry is the full worked example
+// Canned dossiers for development. The erörtern entry is the full worked example
 // from the design mockups (ui.md screens 2/7) — it doubles as the reference for
 // what a complete, well-shaped dossier looks like. Anything else gets a valid but
 // deliberately thin placeholder, so the loop works for any word while making clear
-// (by its emptiness) that no real generation happened.
+// (by its emptiness) that no real dossier has been collected for it yet.
 
 export const EROERTERN: Dossier = {
   meaning_de: "etwas ausführlich und sachlich besprechen, meist in einem formellen Rahmen",

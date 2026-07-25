@@ -1,11 +1,11 @@
 import { z } from "zod";
 
 // The dossier schema (architecture.md §5), reconciled with the approved screens
-// (ui.md screens 2 and 7): Formen and Rektion blocks included. Enforced, not
-// requested — under the real provider this is passed through structured outputs,
-// so the model cannot return a dossier missing a register label or a malformed
-// block. The fixture provider validates its canned data against the same schema,
-// so a bad fixture fails exactly where a bad generation would.
+// (ui.md screens 2 and 7): Formen and Rektion blocks included. The app never
+// generates dossiers — they are pre-built by the offline collection task (§5b)
+// and read from storage. This schema is the contract for both: the collection
+// task validates what it writes, the fixture source validates its canned data,
+// so a malformed dossier fails the same way wherever it comes from.
 
 export const Register = z.enum(["formal", "neutral", "colloquial", "regional"]);
 
@@ -24,13 +24,5 @@ export const Dossier = z.object({
   near_synonyms: z.array(z.object({ lemma: z.string(), distinction: z.string() })),
 });
 
-// Rewrite plus one-line note, never a verdict (architecture.md §7). A rewrite equal
-// to the input renders as "Klingt natürlich"; the whole thing is discarded after render.
-export const AnchorFeedback = z.object({
-  rewrite: z.string(),
-  note: z.string(),
-});
-
 export type Dossier = z.infer<typeof Dossier>;
-export type AnchorFeedback = z.infer<typeof AnchorFeedback>;
 export type Register = z.infer<typeof Register>;

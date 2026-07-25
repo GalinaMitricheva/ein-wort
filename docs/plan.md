@@ -85,11 +85,11 @@ Goal: the full §4 loop working end to end with fake dossier content. Proves the
 interaction before any LLM spend.
 
 - [ ] **2.1** `core/selection.ts` — next unoffered, unknown word at active level by frequency rank — **S**
-- [ ] **2.2** Session routes: start → calibrate → dossier → anchor → done — **S**
+- [ ] **2.2** Session routes: start → calibrate → dossier → done (no anchor; §7) — **S**
 - [ ] **2.3** Offer + calibrate view (3 buttons; *Know it* marks known and re-offers immediately) — **S**
-- [ ] **2.4** Dossier display view — the typographically dense one; §6 chose a web app for this — **S**
-- [ ] **2.5** Anchor input; sets `sessions.anchor_completed` only. The sentence itself is
-      never written to the database (architecture.md §7) — **S**
+- [ ] **2.4** Dossier display view — the typographically dense one; §6 chose a web app for this.
+      `Weiter` goes straight to session complete — **S**
+- [ ] ~~**2.5** Anchor input~~ — cut from MVP (anchor step deferred, architecture.md §7)
 - [x] **2.6** Stub dossier fixture matching the §5 schema shape — **H** · done as P.3
 - [ ] **2.7** Level selector (self-declared, changeable anytime) — **H**
 - [ ] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
@@ -108,53 +108,43 @@ See [ui.md](ui.md) for the full screen and state inventory, and the design revie
 
 ---
 
-## Phase 3 — LLM integration
+## Phase 3 — Dossier collection (Claude Code task, not in-app)
 
-The quality core. Prompt authoring is **O** — it's where §11's stated risk actually
-lives, and a bad register label is exactly the "cheap wrong answer" worth paying to avoid.
+The app never generates dossiers (architecture.md §5b) — it reads them. This phase is the
+offline collection task that *builds* them, run as Claude Code on a schedule you set. It
+needs no in-app credential; the app makes zero model calls.
 
 - [x] **3.1** Zod dossier schema per architecture.md §5 — **S** · done as P.2
 - [ ] **3.2** **Dossier prompt authoring** — meaning, examples, collocations, register,
       near-synonym distinctions. Needs real judgment about what makes usage guidance
       trustworthy for a B2+ learner — **O**
-- [ ] **3.3** `core/dossier.ts` — `messages.parse()` + `zodOutputFormat`, adaptive thinking,
-      cache on `(word_id, schema_version)` — **S**
-- [ ] **3.3b** Background pre-generation of the *next* word's dossier on session end.
-      Turns the loading state into a rare fallback instead of a normal step — **S**
-- [ ] **3.3c** Dossier-generation failure state: retry or skip, never lose the session — **S**
-- [ ] **3.4** `regenerate` CLI: one word / all words / by level — **H**
-- [ ] **3.5** **Anchor feedback prompt** — rewrite-plus-note, no verdict. Must bias hard
-      toward returning the sentence unchanged: over-correction teaches false German at
-      the moment of maximum receptiveness (architecture.md §7) — **O**
-- [ ] **3.6** `core/anchor.ts` — `claude-opus-4-8`, adaptive thinking, `effort: "medium"`,
-      cached dossier passed as context so feedback can't contradict the dossier.
-      *Revised from `effort: "low"`: that was sizing the task, not the stakes* — **S**
-- [ ] **3.6b** Dispute affordance (*"Das war Absicht"*) writing to a separate
-      `feedback_disputes` table. The anchor step is otherwise fully ephemeral — sentence,
-      rewrite and note all discarded after render. The dispute path is the single opt-in
-      exception, and lives outside `sessions` so no log query can reach it — **H**
+- [ ] **3.3** The collection task: read `pending` captures + seed words lacking a dossier,
+      build each with `messages.parse()` + `zodOutputFormat` + adaptive thinking, write to
+      the `dossiers` store, mark `queued`. Idempotent — re-runnable, unfinished items stay
+      `pending`. This is the same mechanism that seeds the word list (§6) — **O**
+- [ ] **3.4** `DossierSource` real implementation: read stored dossiers from SQLite
+      (fixture source already exists as P.1). `null` when not yet built → word not offered — **S**
 - [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
 
 ### Word capture (architecture.md §5b)
 
 - [ ] **3.8** `captures` table migration — **H**
 - [ ] **3.9** Tap-to-capture in collocations and examples; marked state, undo on
-      re-tap, "Gemerkt für später" tray — **S**
+      re-tap, "Gemerkt für später" tray. **App only saves the tap (`pending`)** — no
+      generation, no automation — **S**
 - [ ] **3.10** Lemma resolution against `words.lemma` at capture time, for tray display — **S**
-- [ ] **3.10b** Dedup gate before scheduling generation: self-tap, duplicate capture,
+- [ ] **3.10b** Dedup gate, applied by the collection task: self-tap, duplicate capture,
       dossier already exists, already met, marked known. Plus the partial unique index
       on active-capture lemma — **S**
       Includes the `known_words` retraction: tapping a word previously answered
       *Kenne ich* removes it from `known_words`, or it stays permanently unreachable.
-- [ ] **3.11** Nightly job: resolve → dedup gate → level/source assign → batch dossier
-      generation via `messages.batches.create()` → mark `queued`. Per-item failure
-      isolation keyed on `custom_id` — **S**
-- [ ] **3.12** Staleness-triggered scheduling — run on app start if last successful run
-      is >24h old. Not a wall-clock cron: the laptop sleeps and a fixed-time job would
-      silently never fire — **S**
-- [ ] **3.13** Per-run word cap (~50) and capture dismissal path — **H**
+- [ ] **3.13** Capture dismissal path — drop a `pending` capture without offering it — **H**
 - [ ] **3.14** Selection engine: captured words with `status = 'queued'` outrank
       frequency order — **S**
+
+*Removed with the nightly-job design (architecture.md §5b): in-app batch generation
+(3.11), staleness-triggered scheduling (3.12), per-run caps, and the whole anchor step
+(3.5, 3.6, 3.6b — deferred to post-MVP, §7).*
 
 ---
 
@@ -203,13 +193,13 @@ The largest chunk. 5.1 gates everything else. 5.2/5.3 parallelize; 5.4 is the re
       sends it straight to `queued`, dossier already built). Inline
       *Kommt wieder dran* confirmation, no dialog — **S**
 - [ ] **6.1c** Captured-words line counts `pending` only, not `queued` — it's the
-      nightly-job health signal, and counting `queued` produces false alarms during
+      collection health signal, and counting `queued` produces false alarms during
       normal busy weeks (ui.md screen 6) — **H**
 - [ ] **6.2** Search (SQLite FTS5 over lemma + meaning), **scoped to words with a
       completed session**. Captured and queued words are excluded — they aren't history,
-      and have no dossier to open until the nightly job runs — **S**
-- [ ] **6.3** Metrics query for §9: sessions/week, *Know it* rejection rate, anchor
-      completion rate, median session length — **H**
+      and have no dossier to open until collection runs — **S**
+- [ ] **6.3** Metrics query for §9: sessions/week, *Know it* rejection rate, median
+      session length. (Anchor-completion metric dropped with the step, §7) — **H**
 
 ---
 
@@ -230,21 +220,28 @@ Where independent workstreams can run concurrently, each with its own brief:
 |---|---|
 | 0.1 | 0.2, 0.3, 0.4 |
 | 1.1 | 1.2, 1.3, 1.4 |
-| 2.2 | 2.3, 2.4, 2.5, 2.7 |
-| 3.1 | 3.3, 3.4, 3.7 |
+| 2.2 | 2.3, 2.4, 2.7 |
+| 3.2 | 3.4, 3.7 |
 | 5.1 | 5.2, 5.3 |
 | — | Phase 4 runs alongside Phase 5 entirely |
 
-Do **not** parallelize within a single file — 2.3/2.4/2.5 touch separate templates and
+Do **not** parallelize within a single file — 2.3/2.4 touch separate templates and
 routes, but if they start sharing a layout file, serialize them instead.
 
 ---
 
 ## Deliberately not in scope
 
+**The running app makes no model API calls and needs no credential** (architecture.md §7b).
+Dossiers are pre-built by the scheduled collection task; the anchor step is deferred.
+
 From brief §7, permanent: spaced repetition, review scheduling, streaks, points,
 gamification, a learning-strategies layer. From §6, deferred: accounts/multi-user,
 A1–A2 content, audio, offline mode, native app, notifications.
+
+**Deferred to post-MVP:** the anchor step (write a sentence, get feedback). Designed and
+approved, then cut when no fast, reliable local feedback proved possible on this hardware
+(architecture.md §7). Returns with faster hardware or an API credential.
 
 Open question §10.4 (real-content snippets) stays open on copyright grounds — see
 architecture.md §5.
