@@ -69,13 +69,17 @@ Fully mechanical. All parallelizable.
 
 1.1 must land before the rest; 1.2–1.4 can then run in parallel.
 
-- [ ] **1.1** Migration runner (numbered `.sql` files, `schema_migrations` table) — **S**
-- [ ] **1.2** Initial migration: `words`, `known_words`, `sessions`, `dossiers` — transcribe verbatim from architecture.md §3 — **H**
-- [ ] **1.3** `core/store.ts` — typed accessors for each table — **S**
-- [ ] **1.4** 20-word hand-checked fixture across B1/B2/C1 — **S**
-      ⚠️ Articles, plurals, and verb forms must be right. Wrong gender data reads as an
-      engine bug and poisons trust in calibration. Spot-check every row against Duden
-      before committing — this is cheap at 20 words and expensive to discover later.
+- [x] **1.1** Migration runner (`core/db.ts`) — numbered `.sql` files, `schema_migrations`
+      table, each applied in its own transaction. `better-sqlite3` (prebuilt binary, no
+      compile) — **S**
+- [x] **1.2** Initial migration (`migrations/001_init.sql`): `words`, `known_words`,
+      `sessions`, `dossiers`, `captures` + the `captures_active_lemma` partial unique index.
+      Reflects the current §3 schema (no anchor columns, no `feedback_disputes`) — **H**
+- [x] **1.3** `core/store.ts` — typed accessors for every table, plus `bootstrap.ts`
+      (open → migrate → seed-if-empty) wired into server boot — **S**
+- [x] **1.4** 20-word fixture across B1/B2/C1 (`data/words.fixture.json`) — bare-lemma
+      nouns with `article`/`plural`, verbs with `key_forms`. **Still wants a Duden
+      spot-check** (own-German, not yet verified) before it's trusted — **S**
 
 ---
 
