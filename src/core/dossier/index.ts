@@ -1,12 +1,15 @@
+import type { Store } from "../store.ts";
 import type { DossierSource } from "./source.ts";
-import { FixtureDossierSource } from "./fixture.ts";
+import { StoredDossierSource } from "./stored.ts";
 
 export type { DossierSource, WordInput } from "./source.ts";
-export { Dossier, Register } from "./schema.ts";
+export { Dossier, Register, SCHEMA_VERSION } from "./schema.ts";
+export { FixtureDossierSource } from "./fixture.ts";
+export { StoredDossierSource } from "./stored.ts";
 
-// The app reads dossiers through this. Fixtures in development; the stored,
-// SQLite-backed source arrives with the data layer (Phase 1/3). Neither touches
-// the network — the app makes no model calls (architecture.md §7b).
-export function getDossierSource(): DossierSource {
-  return new FixtureDossierSource();
+// The app reads real dossiers from the store — built offline by the collection
+// task and seeded on boot. FixtureDossierSource stays available for tests that
+// run without a database.
+export function getDossierSource(store: Store): DossierSource {
+  return new StoredDossierSource(store);
 }

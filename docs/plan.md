@@ -122,15 +122,17 @@ offline collection task that *builds* them, run as Claude Code on a schedule you
 needs no in-app credential; the app makes zero model calls.
 
 - [x] **3.1** Zod dossier schema per architecture.md §5 — **S** · done as P.2
-- [ ] **3.2** **Dossier prompt authoring** — meaning, examples, collocations, register,
-      near-synonym distinctions. Needs real judgment about what makes usage guidance
-      trustworthy for a B2+ learner — **O**
-- [ ] **3.3** The collection task: read `pending` captures + seed words lacking a dossier,
-      build each with `messages.parse()` + `zodOutputFormat` + adaptive thinking, write to
-      the `dossiers` store, mark `queued`. Idempotent — re-runnable, unfinished items stay
-      `pending`. This is the same mechanism that seeds the word list (§6) — **O**
-- [ ] **3.4** `DossierSource` real implementation: read stored dossiers from SQLite
-      (fixture source already exists as P.1). `null` when not yet built → word not offered — **S**
+- [x] **3.2** **Dossier authoring** — real, hand-authored dossiers for all 20 seed words
+      (`data/dossiers.seed.json`): meaning, forms, Rektion, collocations, examples,
+      register, near-synonym distinctions. Produced by the collection task (Claude Code),
+      not an API call. Still wants a DWDS/Duden spot-check (§7.1) — **O**
+- [x] **3.3** The collection task (`core/collect.ts`, `npm run collect`): load authored
+      dossiers into the store, work pending captures through the dedup gate, report what
+      still needs content. Idempotent. No model call — content is authored by hand into
+      the seed files, then loaded — **O**
+- [x] **3.4** `StoredDossierSource`: reads stored dossiers from SQLite, validates on the
+      way out; `null` when not built → word not offered. Selection now requires a current
+      dossier (`nextSeedWord`) so no word is ever offered without one — **S**
 - [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
 
 ### Word capture (architecture.md §5b)
@@ -143,11 +145,12 @@ needs no in-app credential; the app makes zero model calls.
 - [x] **3.10** Lemma resolution at capture time (`resolveSurface`) — exact-match against
       `words.lemma` with German case variants, best-effort for tray display + `word_id`
       link. Plural→singular is the collection task's job (§5b) — **S**
-- [ ] **3.10b** Dedup gate, applied by the collection task (not the app): self-tap,
-      duplicate capture, dossier already exists, already met, marked known. Plus the
-      `known_words` retraction. **Belongs to the collection task, not yet built** — **S**
-- [~] **3.13** Dismissal: re-tapping a marked word un-captures it (undo). The separate
-      log-line dismissal (screen 6) is deferred to Phase 6 — **H**
+- [x] **3.10b** Dedup gate in the collection task (`core/collect.ts`): self-tap dismissed,
+      duplicate dismissed, `known_words` retraction on re-capture, resolved-with-dossier →
+      `queued`, otherwise flagged as needing an authored dossier — **S**
+- [~] **3.13** Dismissal: re-tapping a marked word un-captures it (undo); the collection
+      task dismisses self-taps and duplicates. The log-line dismissal (screen 6) is
+      deferred to Phase 6 — **H**
 - [ ] **3.14** Selection engine: captured words with `status = 'queued'` outrank
       frequency order. Deferred — no `queued` captures exist until the collection task runs — **S**
 
