@@ -114,6 +114,12 @@ form.inline { margin: 0; display: contents; }
 }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { font-size: 13px; color: var(--text); background: var(--bg); padding: 5px 10px; border-radius: var(--radius); }
+.w { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.w.marked { border-bottom: 2px solid var(--accent); }
+.tray { background: var(--bg); border-radius: var(--radius); padding: 12px 14px; margin-top: 24px; }
+.tray:empty { display: none; }
+.tray-label { font-size: 12px; color: var(--text-muted); margin-bottom: 10px; }
+.tray-chip { font-size: 13px; color: var(--accent-text); background: var(--accent-bg); padding: 4px 9px; border-radius: var(--radius); }
 .example-de { font-family: var(--font-serif); font-size: 15px; color: var(--text); line-height: 1.65; margin-bottom: 6px; }
 .example-en { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 18px; }
 .example-en:last-child { margin-bottom: 0; }

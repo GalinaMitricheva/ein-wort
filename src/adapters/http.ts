@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import type { Store, Level, Calibration } from "../core/store.ts";
 import type { DossierSource } from "../core/dossier/index.ts";
 import { selectNextWord } from "../core/selection.ts";
+import { toggleCapture, captureDisplay } from "../core/capture.ts";
 import { layout } from "../views/layout.ts";
 import {
   offerScreen,
@@ -11,6 +12,7 @@ import {
   firstRunScreen,
   levelSelectorScreen,
   logScreen,
+  trayInner,
   type LogEntry,
 } from "../views/screens.ts";
 
@@ -38,7 +40,10 @@ export function registerRoutes(app: FastifyInstance, store: Store, dossiers: Dos
       }
       const dossier = await dossiers.get({ lemma: word.lemma, pos: word.pos });
       if (dossier) {
-        return reply.type("text/html").send(html(dossierScreen(word, dossier, open.id)));
+        const caps = store.sessionActiveCaptures(open.id);
+        const marked = new Set(caps.map((c) => c.surface_form));
+        const tray = caps.map((c) => captureDisplay(store, c));
+        return reply.type("text/html").send(html(dossierScreen(word, dossier, open.id, marked, tray)));
       }
       // No dossier built yet (shouldn't happen on fixtures): close the session, move on.
       store.completeSession(open.id);
@@ -69,6 +74,20 @@ export function registerRoutes(app: FastifyInstance, store: Store, dossiers: Dos
       return reply.redirect("/", 303); // → next word, or the dossier for this one
     },
   );
+
+  // Word capture: tapping a word in the dossier toggles a pending capture and
+  // returns the refreshed tray. The app only saves the tap (§5b) — no generation.
+  app.post<{ Body: { surface?: unknown; session?: unknown } }>("/capture", async (req, reply) => {
+    const surface = typeof req.body.surface === "string" ? req.body.surface.trim() : "";
+    const sessionId = Number(req.body.session);
+    if (!surface || !Number.isInteger(sessionId)) return reply.code(400).send({ error: "bad request" });
+    const session = store.getSession(sessionId);
+    if (!session) return reply.code(404).send({ error: "no such session" });
+
+    const { marked } = toggleCapture(store, surface, sessionId);
+    const caps = store.sessionActiveCaptures(sessionId);
+    return reply.send({ marked, tray: trayInner(caps.map((c) => captureDisplay(store, c))) });
+  });
 
   // "Weiter" on the dossier: the word lands in the log, session ends.
   app.post<{ Params: { id: string } }>("/session/:id/complete", async (req, reply) => {
