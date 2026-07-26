@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored C1 dossiers, batch 2 (nouns, frequency_rank 13-27). Spot-check against DWDS/Duden per plan.md 7.1.",
+  "dossiers": {
+    "Zurückhaltung": {
+      "meaning_de": "zurückhaltendes, vorsichtiges oder unaufdringliches Verhalten",
+      "meaning_en": "restraint; reticence; reserve",
+      "forms": [
+        { "label": "Genitiv", "value": "der Zurückhaltung" }
+      ],
+      "rektion": [
+        { "pattern": "Zurückhaltung bei etwas", "cases": "bei + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "Zurückhaltung üben", "gloss_en": "to exercise restraint" },
+        { "phrase": "mit Zurückhaltung reagieren", "gloss_en": "to react with reserve" },
+        { "phrase": "höfliche Zurückhaltung", "gloss_en": "polite reticence" },
+        { "phrase": "sich in Zurückhaltung üben", "gloss_en": "to practise restraint" }
+      ],
+      "examples": [
+        { "de": "Die Behörde übte auffällige Zurückhaltung.", "en": "The authority exercised notable restraint." },
+        { "de": "Er reagierte mit vornehmer Zurückhaltung.", "en": "He responded with dignified reserve." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; beschreibt bewusstes Maßhalten in Wort und Handeln.",
+      "near_synonyms": [
+        { "lemma": "die Reserviertheit", "distinction": "betont die kühle Distanz" },
+        { "lemma": "die Vorsicht", "distinction": "die Wachsamkeit vor Risiken, nicht das Unaufdringliche" }
+      ]
+    },
+    "Gegebenheit": {
+      "meaning_de": "ein tatsächlich vorhandener Umstand, mit dem man rechnen muss",
+      "meaning_en": "given circumstance; fact; reality",
+      "forms": [
+        { "label": "Genitiv", "value": "der Gegebenheit" },
+        { "label": "Plural", "value": "die Gegebenheiten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "die örtlichen Gegebenheiten", "gloss_en": "the local conditions" },
+        { "phrase": "sich den Gegebenheiten anpassen", "gloss_en": "to adapt to circumstances" },
+        { "phrase": "die realen Gegebenheiten", "gloss_en": "the actual realities" },
+        { "phrase": "die tatsächlichen Gegebenheiten", "gloss_en": "the factual circumstances" }
+      ],
+      "examples": [
+        { "de": "Man muss sich den Gegebenheiten anpassen.", "en": "You have to adapt to the circumstances." },
+        { "de": "Die örtlichen Gegebenheiten erschwerten den Bau.", "en": "The local conditions made construction difficult." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; meist im Plural, für Umstände, die man als gegeben hinnimmt.",
+      "near_synonyms": [
+        { "lemma": "der Umstand", "distinction": "allgemeiner, auch einzeln und neutral" },
+        { "lemma": "die Bedingung", "distinction": "etwas, das erfüllt sein muss, nicht bloß vorhanden ist" }
+      ]
+    },
+    "Missstand": {
+      "meaning_de": "ein schlechter Zustand, der Normen oder Erwartungen widerspricht",
+      "meaning_en": "deplorable state of affairs; abuse; malpractice",
+      "forms": [
+        { "label": "Genitiv", "value": "des Missstands" },
+        { "label": "Plural", "value": "die Missstände" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "Missstände aufdecken", "gloss_en": "to expose abuses" },
+        { "phrase": "Missstände beseitigen", "gloss_en": "to eliminate malpractices" },
+        { "phrase": "soziale Missstände", "gloss_en": "social ills" },
+        { "phrase": "auf Missstände hinweisen", "gloss_en": "to point out abuses" }
+      ],
+      "examples": [
+        { "de": "Die Zeitung deckte gravierende Missstände auf.", "en": "The paper exposed serious abuses." },
+        { "de": "Solche Missstände dürfen nicht toleriert werden.", "en": "Such malpractices must not be tolerated." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Politik, Verwaltung und kritische Berichterstattung.",
+      "near_synonyms": [
+        { "lemma": "der Übelstand", "distinction": "veraltet-gehoben, fast gleichbedeutend" },
+        { "lemma": "das Problem", "distinction": "neutral und allgemeiner" }
+      ]
+    },
+    "Zugeständnis": {
+      "meaning_de": "etwas, das man einem anderen zuliebe nachgibt oder einräumt",
+      "meaning_en": "concession",
+      "forms": [
+        { "label": "Genitiv", "value": "des Zugeständnisses" },
+        { "label": "Plural", "value": "die Zugeständnisse" }
+      ],
+      "rektion": [
+        { "pattern": "Zugeständnis an jemanden", "cases": "an + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "Zugeständnisse machen", "gloss_en": "to make concessions" },
+        { "phrase": "zu Zugeständnissen bereit sein", "gloss_en": "to be willing to compromise" },
+        { "phrase": "gegenseitige Zugeständnisse", "gloss_en": "mutual concessions" },
+        { "phrase": "ein Zugeständnis an die Kritiker", "gloss_en": "a concession to the critics" }
+      ],
+      "examples": [
+        { "de": "Beide Seiten mussten Zugeständnisse machen.", "en": "Both sides had to make concessions." },
+        { "de": "Das war ein Zugeständnis an die Kritiker.", "en": "That was a concession to the critics." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Verhandlungen, Politik und Diplomatie geläufig.",
+      "near_synonyms": [
+        { "lemma": "die Konzession", "distinction": "bildungssprachlich, fast gleichbedeutend" },
+        { "lemma": "das Entgegenkommen", "distinction": "die Haltung der Bereitschaft, weniger das konkrete Nachgeben" }
+      ]
+    },
+    "Umstand": {
+      "meaning_de": "eine besondere Bedingung oder ein Verhältnis, das für ein Geschehen bedeutsam ist",
+      "meaning_en": "circumstance; factor; (plural) fuss",
+      "forms": [
+        { "label": "Genitiv", "value": "des Umstands" },
+        { "label": "Plural", "value": "die Umstände" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "unter Umständen", "gloss_en": "possibly, under certain circumstances" },
+        { "phrase": "die näheren Umstände", "gloss_en": "the precise circumstances" },
+        { "phrase": "ein glücklicher Umstand", "gloss_en": "a fortunate circumstance" },
+        { "phrase": "unter keinen Umständen", "gloss_en": "under no circumstances" }
+      ],
+      "examples": [
+        { "de": "Unter diesen Umständen bleibe ich lieber.", "en": "Under these circumstances I'd rather stay." },
+        { "de": "Die genauen Umstände sind noch unklar.", "en": "The exact circumstances are still unclear." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Plural auch im Sinne von Aufwand oder Getue (viel Umstände machen).",
+      "near_synonyms": [
+        { "lemma": "die Gegebenheit", "distinction": "die vorhandene Bedingung, meist im Plural" },
+        { "lemma": "die Bedingung", "distinction": "etwas, das erfüllt sein muss" }
+      ]
+    },
+    "Erwägung": {
+      "meaning_de": "das prüfende Nachdenken über etwas oder verschiedene Möglichkeiten",
+      "meaning_en": "consideration; deliberation",
+      "forms": [
+        { "label": "Genitiv", "value": "der Erwägung" },
+        { "label": "Plural", "value": "die Erwägungen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "etwas in Erwägung ziehen", "gloss_en": "to take something into consideration" },
+        { "phrase": "aus praktischen Erwägungen", "gloss_en": "for practical reasons" },
+        { "phrase": "nach reiflicher Erwägung", "gloss_en": "after careful deliberation" },
+        { "phrase": "strategische Erwägungen", "gloss_en": "strategic considerations" }
+      ],
+      "examples": [
+        { "de": "Wir ziehen einen Umzug ernsthaft in Erwägung.", "en": "We are seriously considering a move." },
+        { "de": "Aus finanziellen Erwägungen wurde das Projekt gestoppt.", "en": "The project was stopped for financial reasons." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; das Substantiv zu erwägen, oft in der Wendung in Erwägung ziehen.",
+      "near_synonyms": [
+        { "lemma": "die Überlegung", "distinction": "neutraler und alltäglicher" },
+        { "lemma": "die Abwägung", "distinction": "das Gegeneinander von Vor- und Nachteilen" }
+      ]
+    },
+    "Auseinandersetzung": {
+      "meaning_de": "die kritische Beschäftigung mit etwas; auch: ein heftiger Streit",
+      "meaning_en": "engagement (with an issue); dispute; confrontation",
+      "forms": [
+        { "label": "Genitiv", "value": "der Auseinandersetzung" },
+        { "label": "Plural", "value": "die Auseinandersetzungen" }
+      ],
+      "rektion": [
+        { "pattern": "Auseinandersetzung mit etwas", "cases": "mit + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "die kritische Auseinandersetzung mit etwas", "gloss_en": "the critical engagement with something" },
+        { "phrase": "eine heftige Auseinandersetzung", "gloss_en": "a fierce dispute" },
+        { "phrase": "es kam zu einer Auseinandersetzung", "gloss_en": "a confrontation broke out" },
+        { "phrase": "die Auseinandersetzung suchen", "gloss_en": "to seek confrontation" }
+      ],
+      "examples": [
+        { "de": "Das Buch ist eine kritische Auseinandersetzung mit der Macht.", "en": "The book is a critical engagement with power." },
+        { "de": "Zwischen beiden kam es zu einer lautstarken Auseinandersetzung.", "en": "A loud dispute broke out between the two." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; changiert zwischen gedanklicher Beschäftigung und Streit - der Kontext entscheidet.",
+      "near_synonyms": [
+        { "lemma": "die Beschäftigung", "distinction": "nur die gedankliche Seite, neutral" },
+        { "lemma": "der Streit", "distinction": "nur die Konflikt-Seite, alltäglicher" }
+      ]
+    },
+    "Vorhaben": {
+      "meaning_de": "etwas, das man zu verwirklichen beabsichtigt",
+      "meaning_en": "undertaking; project; plan",
+      "forms": [
+        { "label": "Genitiv", "value": "des Vorhabens" },
+        { "label": "Plural", "value": "die Vorhaben" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein Vorhaben umsetzen", "gloss_en": "to carry out a project" },
+        { "phrase": "ein ehrgeiziges Vorhaben", "gloss_en": "an ambitious undertaking" },
+        { "phrase": "ein Vorhaben aufgeben", "gloss_en": "to abandon a plan" },
+        { "phrase": "an einem Vorhaben festhalten", "gloss_en": "to stick to a plan" }
+      ],
+      "examples": [
+        { "de": "Das Vorhaben scheiterte am Geld.", "en": "The project failed due to money." },
+        { "de": "Sie hielt an ihrem Vorhaben fest.", "en": "She stuck to her plan." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als Plan, oft für größere Projekte.",
+      "near_synonyms": [
+        { "lemma": "das Projekt", "distinction": "neutraler, oft organisiert und benannt" },
+        { "lemma": "die Absicht", "distinction": "nur der Wille, nicht das geplante Werk" }
+      ]
+    },
+    "Grundsatz": {
+      "meaning_de": "eine feste Regel, an der man sein Handeln ausrichtet",
+      "meaning_en": "principle; maxim; basic tenet",
+      "forms": [
+        { "label": "Genitiv", "value": "des Grundsatzes" },
+        { "label": "Plural", "value": "die Grundsätze" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "aus Grundsatz", "gloss_en": "on principle" },
+        { "phrase": "an einem Grundsatz festhalten", "gloss_en": "to hold to a principle" },
+        { "phrase": "gegen seine Grundsätze verstoßen", "gloss_en": "to violate one's principles" },
+        { "phrase": "ein eherner Grundsatz", "gloss_en": "an iron principle" }
+      ],
+      "examples": [
+        { "de": "Aus Grundsatz nimmt er keine Geschenke an.", "en": "On principle he accepts no gifts." },
+        { "de": "Das verstößt gegen meine Grundsätze.", "en": "That goes against my principles." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-neutral; in Ethik, Recht und Politik zentral.",
+      "near_synonyms": [
+        { "lemma": "das Prinzip", "distinction": "fast gleichbedeutend, etwas neutraler" },
+        { "lemma": "die Maxime", "distinction": "bildungssprachlich, eine persönliche Leitregel" }
+      ]
+    },
+    "Rücksicht": {
+      "meaning_de": "das rücksichtsvolle Beachten der Lage oder Gefühle anderer",
+      "meaning_en": "consideration; regard",
+      "forms": [
+        { "label": "Genitiv", "value": "der Rücksicht" },
+        { "label": "Plural", "value": "die Rücksichten" }
+      ],
+      "rektion": [
+        { "pattern": "Rücksicht auf jemanden/etwas", "cases": "auf + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "Rücksicht nehmen auf", "gloss_en": "to show consideration for" },
+        { "phrase": "aus Rücksicht auf", "gloss_en": "out of regard for" },
+        { "phrase": "ohne Rücksicht auf Verluste", "gloss_en": "regardless of the cost" },
+        { "phrase": "gegenseitige Rücksicht", "gloss_en": "mutual consideration" }
+      ],
+      "examples": [
+        { "de": "Nimm bitte Rücksicht auf die Nachbarn.", "en": "Please be considerate of the neighbours." },
+        { "de": "Ohne Rücksicht auf Verluste setzte er sich durch.", "en": "He prevailed regardless of the cost." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; die feste Wendung Rücksicht nehmen auf ist zentral.",
+      "near_synonyms": [
+        { "lemma": "die Rücksichtnahme", "distinction": "das konkrete Handeln des Rücksichtnehmens" },
+        { "lemma": "die Nachsicht", "distinction": "das Milde-Walten bei Fehlern, nicht das Beachten" }
+      ]
+    },
+    "Ansatz": {
+      "meaning_de": "ein erster Ausgangspunkt oder eine Herangehensweise an ein Problem",
+      "meaning_en": "approach; starting point; first sign",
+      "forms": [
+        { "label": "Genitiv", "value": "des Ansatzes" },
+        { "label": "Plural", "value": "die Ansätze" }
+      ],
+      "rektion": [
+        { "pattern": "Ansatz für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "ein vielversprechender Ansatz", "gloss_en": "a promising approach" },
+        { "phrase": "einen Ansatz verfolgen", "gloss_en": "to pursue an approach" },
+        { "phrase": "im Ansatz stecken bleiben", "gloss_en": "to remain in its early stages" },
+        { "phrase": "der richtige Ansatz", "gloss_en": "the right approach" }
+      ],
+      "examples": [
+        { "de": "Ihr Ansatz ist völlig neu.", "en": "Her approach is entirely new." },
+        { "de": "Das Problem wurde schon im Ansatz erstickt.", "en": "The problem was nipped in the bud." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Wissenschaft und Beruf für Methoden und Herangehensweisen.",
+      "near_synonyms": [
+        { "lemma": "die Herangehensweise", "distinction": "konkreter, das Wie des Vorgehens" },
+        { "lemma": "der Anfang", "distinction": "nur der zeitliche Beginn, nicht die Methode" }
+      ]
+    },
+    "Instanz": {
+      "meaning_de": "eine zuständige Stelle oder Autorität; im Recht: eine Gerichtsebene",
+      "meaning_en": "authority; decision-making body; (legal) level",
+      "forms": [
+        { "label": "Genitiv", "value": "der Instanz" },
+        { "label": "Plural", "value": "die Instanzen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "die letzte Instanz", "gloss_en": "the final authority" },
+        { "phrase": "die zuständige Instanz", "gloss_en": "the responsible body" },
+        { "phrase": "in erster Instanz", "gloss_en": "in the first instance" },
+        { "phrase": "eine höhere Instanz anrufen", "gloss_en": "to appeal to a higher authority" }
+      ],
+      "examples": [
+        { "de": "In erster Instanz wurde er freigesprochen.", "en": "He was acquitted in the first instance." },
+        { "de": "Sein Gewissen war für ihn die letzte Instanz.", "en": "His conscience was his final authority." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im juristischen und institutionellen Kontext fest verankert.",
+      "near_synonyms": [
+        { "lemma": "die Behörde", "distinction": "nur die amtliche Stelle, nicht die Gerichtsebene" },
+        { "lemma": "die Autorität", "distinction": "die anerkannte Geltung, abstrakter" }
+      ]
+    },
+    "Willkür": {
+      "meaning_de": "ein Handeln nach eigenem Belieben ohne Rücksicht auf Recht oder Vernunft",
+      "meaning_en": "arbitrariness; despotic caprice",
+      "forms": [
+        { "label": "Genitiv", "value": "der Willkür" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "reine Willkür", "gloss_en": "pure arbitrariness" },
+        { "phrase": "der Willkür ausgeliefert sein", "gloss_en": "to be at the mercy of caprice" },
+        { "phrase": "staatliche Willkür", "gloss_en": "state arbitrariness" },
+        { "phrase": "Willkür walten lassen", "gloss_en": "to act arbitrarily" }
+      ],
+      "examples": [
+        { "de": "Dieses Urteil ist reine Willkür.", "en": "This verdict is pure arbitrariness." },
+        { "de": "Die Bürger waren der Willkür der Beamten ausgeliefert.", "en": "The citizens were at the mercy of the officials' caprice." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stark negativ - Machtausübung ohne Regel oder Maß.",
+      "near_synonyms": [
+        { "lemma": "die Beliebigkeit", "distinction": "neutraler, das bloße Fehlen eines Kriteriums" },
+        { "lemma": "die Willkürherrschaft", "distinction": "die Herrschaftsform, nicht das einzelne Handeln" }
+      ]
+    },
+    "Zuversicht": {
+      "meaning_de": "der feste Glaube, dass etwas Positives eintreten wird",
+      "meaning_en": "confidence; optimism about the future",
+      "forms": [
+        { "label": "Genitiv", "value": "der Zuversicht" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "voller Zuversicht", "gloss_en": "full of confidence" },
+        { "phrase": "Zuversicht ausstrahlen", "gloss_en": "to radiate confidence" },
+        { "phrase": "die Zuversicht verlieren", "gloss_en": "to lose confidence" },
+        { "phrase": "mit Zuversicht in die Zukunft blicken", "gloss_en": "to look to the future with confidence" }
+      ],
+      "examples": [
+        { "de": "Sie blickt voller Zuversicht in die Zukunft.", "en": "She looks to the future with confidence." },
+        { "de": "Trotz allem verlor er seine Zuversicht nicht.", "en": "Despite everything he didn't lose his confidence." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; wärmer und ruhiger als der nüchterne Optimismus.",
+      "near_synonyms": [
+        { "lemma": "der Optimismus", "distinction": "nüchterner, eine Grundhaltung" },
+        { "lemma": "die Hoffnung", "distinction": "weniger sicher - ein Wünschen, kein fester Glaube" }
+      ]
+    }
+  }
+}
