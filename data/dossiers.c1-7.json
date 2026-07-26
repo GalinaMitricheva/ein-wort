@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored C1 dossiers, batch 7 (final nouns). Completes all C1 words. Spot-check against DWDS/Duden per plan.md 7.1.",
+  "dossiers": {
+    "Befangenheit": {
+      "meaning_de": "Voreingenommenheit, die eine unparteiische Beurteilung verhindert; auch: Gehemmtheit",
+      "meaning_en": "bias; prejudice; (also) self-consciousness",
+      "forms": [
+        { "label": "Genitiv", "value": "der Befangenheit" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "wegen Befangenheit", "gloss_en": "on grounds of bias" },
+        { "phrase": "einen Richter wegen Befangenheit ablehnen", "gloss_en": "to challenge a judge for bias" },
+        { "phrase": "aus Befangenheit", "gloss_en": "out of self-consciousness" },
+        { "phrase": "der Vorwurf der Befangenheit", "gloss_en": "the accusation of bias" }
+      ],
+      "examples": [
+        { "de": "Der Richter wurde wegen Befangenheit abgelehnt.", "en": "The judge was challenged for bias." },
+        { "de": "Ihre anfängliche Befangenheit legte sich rasch.", "en": "Her initial self-consciousness quickly subsided." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im juristischen Sinn (Voreingenommenheit) fest, daneben Gehemmtheit.",
+      "near_synonyms": [
+        { "lemma": "die Voreingenommenheit", "distinction": "nur die parteiische Haltung, klarer" },
+        { "lemma": "die Parteilichkeit", "distinction": "das aktive Bevorzugen einer Seite" }
+      ]
+    },
+    "Bestreben": {
+      "meaning_de": "das ernsthafte Bemühen, ein Ziel zu erreichen",
+      "meaning_en": "endeavour; effort; aspiration",
+      "forms": [
+        { "label": "Genitiv", "value": "des Bestrebens" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "das Bestreben, zu", "gloss_en": "the endeavour to" },
+        { "phrase": "in dem Bestreben", "gloss_en": "in the effort" },
+        { "phrase": "ein redliches Bestreben", "gloss_en": "an honest endeavour" },
+        { "phrase": "das Bestreben nach etwas", "gloss_en": "the striving for something" }
+      ],
+      "examples": [
+        { "de": "Sein Bestreben, allen zu gefallen, scheiterte.", "en": "His endeavour to please everyone failed." },
+        { "de": "In dem Bestreben zu helfen, machte sie alles nur schlimmer.", "en": "In her effort to help, she only made things worse." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; meist im Singular, oft in der Wendung in dem Bestreben, zu.",
+      "near_synonyms": [
+        { "lemma": "das Bemühen", "distinction": "fast gleichbedeutend, betont die Mühe" },
+        { "lemma": "das Streben", "distinction": "das dauerhafte Ausgerichtetsein auf ein Ziel" }
+      ]
+    },
+    "Hemmung": {
+      "meaning_de": "eine innere Scheu, die das Handeln zurückhält; auch: das Aufhalten eines Ablaufs",
+      "meaning_en": "inhibition; reservation; (also) impediment",
+      "forms": [
+        { "label": "Genitiv", "value": "der Hemmung" },
+        { "label": "Plural", "value": "die Hemmungen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "keine Hemmungen haben", "gloss_en": "to have no inhibitions" },
+        { "phrase": "seine Hemmungen überwinden", "gloss_en": "to overcome one's inhibitions" },
+        { "phrase": "ohne Hemmungen", "gloss_en": "without inhibition" },
+        { "phrase": "moralische Hemmungen", "gloss_en": "moral scruples" }
+      ],
+      "examples": [
+        { "de": "Er hat keinerlei Hemmungen, das zu sagen.", "en": "He has no reservations about saying that." },
+        { "de": "Mit etwas Alkohol fallen die Hemmungen.", "en": "With a little alcohol the inhibitions drop." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meist im Plural für innere Scheu; im Singular auch technisch (Aufhaltung).",
+      "near_synonyms": [
+        { "lemma": "die Scheu", "distinction": "betont die Ängstlichkeit" },
+        { "lemma": "der Skrupel", "distinction": "moralisches Bedenken vor einer Tat" }
+      ]
+    },
+    "Nuance": {
+      "meaning_de": "ein feiner, kaum merklicher Unterschied",
+      "meaning_en": "nuance; subtle shade of difference",
+      "forms": [
+        { "label": "Genitiv", "value": "der Nuance" },
+        { "label": "Plural", "value": "die Nuancen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "feine Nuancen", "gloss_en": "subtle nuances" },
+        { "phrase": "eine Nuance heller", "gloss_en": "a shade lighter" },
+        { "phrase": "die Nuancen erfassen", "gloss_en": "to grasp the nuances" },
+        { "phrase": "in allen Nuancen", "gloss_en": "in every nuance" }
+      ],
+      "examples": [
+        { "de": "Sie hört jede Nuance im Ton heraus.", "en": "She picks up on every nuance in the tone." },
+        { "de": "Der Text ist um eine Nuance zu scharf.", "en": "The text is a shade too harsh." }
+      ],
+      "register": "formal",
+      "register_note": "Bildungssprachlich; auch adverbial (eine Nuance zu ...) für feine Grade.",
+      "near_synonyms": [
+        { "lemma": "die Abstufung", "distinction": "betont die Reihung feiner Grade" },
+        { "lemma": "die Feinheit", "distinction": "das feine Detail, allgemeiner" }
+      ]
+    },
+    "Beleg": {
+      "meaning_de": "ein Nachweis oder Beweisstück für etwas; auch: eine Quittung",
+      "meaning_en": "proof; piece of evidence; receipt",
+      "forms": [
+        { "label": "Genitiv", "value": "des Belegs" },
+        { "label": "Plural", "value": "die Belege" }
+      ],
+      "rektion": [
+        { "pattern": "Beleg für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Beleg für etwas liefern", "gloss_en": "to provide proof of something" },
+        { "phrase": "als Beleg dienen", "gloss_en": "to serve as evidence" },
+        { "phrase": "einen Beleg aufbewahren", "gloss_en": "to keep a receipt" },
+        { "phrase": "der schriftliche Beleg", "gloss_en": "the written record" }
+      ],
+      "examples": [
+        { "de": "Haben Sie einen Beleg für den Kauf?", "en": "Do you have a receipt for the purchase?" },
+        { "de": "Die Studie liefert einen Beleg für die These.", "en": "The study provides evidence for the thesis." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; von der alltäglichen Quittung bis zum wissenschaftlichen Nachweis.",
+      "near_synonyms": [
+        { "lemma": "der Nachweis", "distinction": "betont das Nachweisen, förmlicher" },
+        { "lemma": "die Quittung", "distinction": "nur der Zahlungsbeleg" }
+      ]
+    },
+    "Zumutung": {
+      "meaning_de": "etwas Unzumutbares, das man jemandem abverlangt",
+      "meaning_en": "imposition; unreasonable demand; outrage",
+      "forms": [
+        { "label": "Genitiv", "value": "der Zumutung" },
+        { "label": "Plural", "value": "die Zumutungen" }
+      ],
+      "rektion": [
+        { "pattern": "eine Zumutung für jemanden", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "eine reine Zumutung", "gloss_en": "an absolute imposition" },
+        { "phrase": "das ist eine Zumutung", "gloss_en": "that is an outrage" },
+        { "phrase": "eine Zumutung für jemanden", "gloss_en": "an imposition on someone" },
+        { "phrase": "als Zumutung empfinden", "gloss_en": "to regard as an imposition" }
+      ],
+      "examples": [
+        { "de": "Dieser Lärm ist eine Zumutung.", "en": "This noise is an outrage." },
+        { "de": "Die langen Wartezeiten sind eine Zumutung für die Kunden.", "en": "The long waiting times are an imposition on customers." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Substantiv zu zumuten, meist empört (das ist eine Zumutung).",
+      "near_synonyms": [
+        { "lemma": "die Frechheit", "distinction": "umgangssprachlicher, betont die Dreistigkeit" },
+        { "lemma": "die Unverschämtheit", "distinction": "stärker, moralisch wertend" }
+      ]
+    },
+    "Sachzwang": {
+      "meaning_de": "ein Zwang, der sich aus den Umständen selbst ergibt, nicht aus Absicht",
+      "meaning_en": "practical constraint; inherent necessity",
+      "forms": [
+        { "label": "Genitiv", "value": "des Sachzwangs" },
+        { "label": "Plural", "value": "die Sachzwänge" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "wirtschaftliche Sachzwänge", "gloss_en": "economic constraints" },
+        { "phrase": "sich auf Sachzwänge berufen", "gloss_en": "to invoke practical constraints" },
+        { "phrase": "unter dem Druck von Sachzwängen", "gloss_en": "under the pressure of necessity" },
+        { "phrase": "vermeintliche Sachzwänge", "gloss_en": "supposed constraints" }
+      ],
+      "examples": [
+        { "de": "Er rechtfertigte die Kürzungen mit Sachzwängen.", "en": "He justified the cuts by citing practical constraints." },
+        { "de": "Solche Sachzwänge lassen kaum Wahl.", "en": "Such constraints leave little choice." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Politik und Wirtschaft, oft als Rechtfertigung angeführt.",
+      "near_synonyms": [
+        { "lemma": "die Notwendigkeit", "distinction": "allgemeiner, das Nötigsein" },
+        { "lemma": "der Zwang", "distinction": "allgemeiner, auch von außen auferlegt" }
+      ]
+    },
+    "Unterfangen": {
+      "meaning_de": "ein schwieriges oder gewagtes Vorhaben",
+      "meaning_en": "undertaking; venture; enterprise",
+      "forms": [
+        { "label": "Genitiv", "value": "des Unterfangens" },
+        { "label": "Plural", "value": "die Unterfangen" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein schwieriges Unterfangen", "gloss_en": "a difficult undertaking" },
+        { "phrase": "ein gewagtes Unterfangen", "gloss_en": "a daring venture" },
+        { "phrase": "ein aussichtsloses Unterfangen", "gloss_en": "a hopeless enterprise" },
+        { "phrase": "sich an ein Unterfangen wagen", "gloss_en": "to venture into an undertaking" }
+      ],
+      "examples": [
+        { "de": "Den Berg im Winter zu besteigen ist ein riskantes Unterfangen.", "en": "Climbing the mountain in winter is a risky undertaking." },
+        { "de": "Das erwies sich als hoffnungsloses Unterfangen.", "en": "That turned out to be a hopeless enterprise." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fast nur für schwierige oder gewagte Vorhaben, oft leicht ironisch.",
+      "near_synonyms": [
+        { "lemma": "das Vorhaben", "distinction": "neutraler, ohne den Beiklang des Gewagten" },
+        { "lemma": "das Wagnis", "distinction": "betont das Risiko selbst" }
+      ]
+    },
+    "Gewissen": {
+      "meaning_de": "das innere Bewusstsein von Gut und Böse im eigenen Handeln",
+      "meaning_en": "conscience",
+      "forms": [
+        { "label": "Genitiv", "value": "des Gewissens" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein schlechtes Gewissen", "gloss_en": "a guilty conscience" },
+        { "phrase": "das Gewissen erleichtern", "gloss_en": "to ease one's conscience" },
+        { "phrase": "mit gutem Gewissen", "gloss_en": "in good conscience" },
+        { "phrase": "etwas auf dem Gewissen haben", "gloss_en": "to have something on one's conscience" }
+      ],
+      "examples": [
+        { "de": "Er hatte ein schlechtes Gewissen deswegen.", "en": "He had a guilty conscience about it." },
+        { "de": "Mit gutem Gewissen kann ich das nicht empfehlen.", "en": "In good conscience I can't recommend that." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; zentral in Moral und Alltag, in vielen festen Wendungen.",
+      "near_synonyms": [
+        { "lemma": "das Schuldbewusstsein", "distinction": "nur das Gefühl der Schuld, enger" },
+        { "lemma": "das Verantwortungsgefühl", "distinction": "das Gefühl für Verantwortung, nicht für Gut und Böse" }
+      ]
+    },
+    "Maßstab": {
+      "meaning_de": "eine Bezugsgröße, an der man etwas misst oder beurteilt",
+      "meaning_en": "standard; benchmark; (map) scale",
+      "forms": [
+        { "label": "Genitiv", "value": "des Maßstabs" },
+        { "label": "Plural", "value": "die Maßstäbe" }
+      ],
+      "rektion": [
+        { "pattern": "Maßstab für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "hohe Maßstäbe anlegen", "gloss_en": "to apply high standards" },
+        { "phrase": "als Maßstab dienen", "gloss_en": "to serve as a benchmark" },
+        { "phrase": "neue Maßstäbe setzen", "gloss_en": "to set new standards" },
+        { "phrase": "andere Maßstäbe anlegen", "gloss_en": "to apply different standards" }
+      ],
+      "examples": [
+        { "de": "Sie legt an sich selbst die höchsten Maßstäbe an.", "en": "She holds herself to the highest standards." },
+        { "de": "Das Produkt setzt neue Maßstäbe.", "en": "The product sets new standards." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; von der Kartografie (Maßstab 1:1000) bis zur übertragenen Beurteilung.",
+      "near_synonyms": [
+        { "lemma": "das Kriterium", "distinction": "ein einzelnes Merkmal der Beurteilung" },
+        { "lemma": "die Richtschnur", "distinction": "eine Leitlinie fürs Handeln, bildhaft" }
+      ]
+    },
+    "Verhältnis": {
+      "meaning_de": "eine Beziehung zwischen Dingen oder Personen; im Plural: Lebensumstände",
+      "meaning_en": "relationship; ratio; (plural) circumstances",
+      "forms": [
+        { "label": "Genitiv", "value": "des Verhältnisses" },
+        { "label": "Plural", "value": "die Verhältnisse" }
+      ],
+      "rektion": [
+        { "pattern": "Verhältnis zu jemandem/etwas", "cases": "zu + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "ein gutes Verhältnis zu jemandem", "gloss_en": "a good relationship with someone" },
+        { "phrase": "im Verhältnis zu", "gloss_en": "in relation to" },
+        { "phrase": "in bescheidenen Verhältnissen", "gloss_en": "in modest circumstances" },
+        { "phrase": "das Verhältnis von Preis und Leistung", "gloss_en": "the price-performance ratio" }
+      ],
+      "examples": [
+        { "de": "Sie hat ein gutes Verhältnis zu ihren Kollegen.", "en": "She has a good relationship with her colleagues." },
+        { "de": "Er wuchs in einfachen Verhältnissen auf.", "en": "He grew up in modest circumstances." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sehr vielseitig - Beziehung, Zahlenverhältnis und (Plural) Lebensumstände.",
+      "near_synonyms": [
+        { "lemma": "die Beziehung", "distinction": "nur der persönliche oder sachliche Bezug" },
+        { "lemma": "die Relation", "distinction": "bildungssprachlich, das Zahlenverhältnis" }
+      ]
+    },
+    "Bedenken": {
+      "meaning_de": "ein Zweifel oder eine Sorge, die gegen etwas spricht",
+      "meaning_en": "misgiving; reservation; doubt",
+      "forms": [
+        { "label": "Genitiv", "value": "des Bedenkens" },
+        { "label": "Plural", "value": "die Bedenken" }
+      ],
+      "rektion": [
+        { "pattern": "Bedenken gegen etwas", "cases": "gegen + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "Bedenken haben", "gloss_en": "to have misgivings" },
+        { "phrase": "Bedenken äußern", "gloss_en": "to voice reservations" },
+        { "phrase": "moralische Bedenken", "gloss_en": "moral scruples" },
+        { "phrase": "Bedenken gegen etwas", "gloss_en": "reservations about something" }
+      ],
+      "examples": [
+        { "de": "Ich habe erhebliche Bedenken gegen den Plan.", "en": "I have serious misgivings about the plan." },
+        { "de": "Ohne Bedenken stimmte sie zu.", "en": "She agreed without reservation." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-neutral; meist im Plural, für sachliche oder moralische Zweifel.",
+      "near_synonyms": [
+        { "lemma": "der Vorbehalt", "distinction": "die Einschränkung selbst, weniger die Sorge" },
+        { "lemma": "der Zweifel", "distinction": "das Nicht-sicher-Sein, allgemeiner" }
+      ]
+    },
+    "Tendenz": {
+      "meaning_de": "eine erkennbare Neigung oder Entwicklungsrichtung",
+      "meaning_en": "tendency; trend; inclination",
+      "forms": [
+        { "label": "Genitiv", "value": "der Tendenz" },
+        { "label": "Plural", "value": "die Tendenzen" }
+      ],
+      "rektion": [
+        { "pattern": "Tendenz zu etwas", "cases": "zu + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "eine steigende Tendenz", "gloss_en": "an upward trend" },
+        { "phrase": "die Tendenz zu etwas", "gloss_en": "the tendency towards something" },
+        { "phrase": "Tendenz steigend", "gloss_en": "trend rising" },
+        { "phrase": "eine besorgniserregende Tendenz", "gloss_en": "a worrying trend" }
+      ],
+      "examples": [
+        { "de": "Die Preise zeigen eine steigende Tendenz.", "en": "Prices show an upward trend." },
+        { "de": "Er hat die Tendenz, alles aufzuschieben.", "en": "He has a tendency to put everything off." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlich, für statistische Trends und persönliche Neigungen.",
+      "near_synonyms": [
+        { "lemma": "der Trend", "distinction": "betont die zeitliche Entwicklung, moderner" },
+        { "lemma": "die Neigung", "distinction": "die persönliche Vorliebe, innerlicher" }
+      ]
+    }
+  }
+}
