@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored C1 dossiers, batch 3 (verbs). Spot-check against DWDS/Duden per plan.md 7.1.",
+  "dossiers": {
+    "hervorheben": {
+      "meaning_de": "etwas besonders betonen oder deutlich sichtbar machen",
+      "meaning_en": "to emphasize; to highlight; to single out",
+      "forms": [
+        { "label": "Präsens", "value": "er hebt hervor" },
+        { "label": "Präteritum", "value": "er hob hervor" },
+        { "label": "Perfekt", "value": "er hat hervorgehoben" },
+        { "label": "Konjunktiv II", "value": "er höbe hervor" }
+      ],
+      "rektion": [
+        { "pattern": "etwas hervorheben", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "besonders hervorheben", "gloss_en": "to emphasize particularly" },
+        { "phrase": "die Bedeutung hervorheben", "gloss_en": "to stress the importance" },
+        { "phrase": "einen Aspekt hervorheben", "gloss_en": "to highlight an aspect" },
+        { "phrase": "lobend hervorheben", "gloss_en": "to single out for praise" }
+      ],
+      "examples": [
+        { "de": "Der Redner hob die Verdienste seiner Kollegin hervor.", "en": "The speaker highlighted his colleague's achievements." },
+        { "de": "Es sei besonders hervorgehoben, dass alle mitgeholfen haben.", "en": "It should be especially emphasized that everyone helped." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont das bewusste Herausstellen, oft in Reden und Texten.",
+      "near_synonyms": [
+        { "lemma": "betonen", "distinction": "neutraler und alltäglicher" },
+        { "lemma": "unterstreichen", "distinction": "bildhaft, mit Nachdruck bekräftigen" }
+      ]
+    },
+    "beanstanden": {
+      "meaning_de": "etwas als fehlerhaft oder mangelhaft bemängeln und zurückweisen",
+      "meaning_en": "to object to; to take issue with; to complain about",
+      "forms": [
+        { "label": "Präsens", "value": "er beanstandet" },
+        { "label": "Präteritum", "value": "er beanstandete" },
+        { "label": "Perfekt", "value": "er hat beanstandet" },
+        { "label": "Konjunktiv II", "value": "er beanstandete" }
+      ],
+      "rektion": [
+        { "pattern": "etwas beanstanden", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "die Qualität beanstanden", "gloss_en": "to object to the quality" },
+        { "phrase": "einen Mangel beanstanden", "gloss_en": "to complain about a defect" },
+        { "phrase": "etwas zu beanstanden haben", "gloss_en": "to have something to criticize" },
+        { "phrase": "die Rechnung beanstanden", "gloss_en": "to dispute the invoice" }
+      ],
+      "examples": [
+        { "de": "Der Kunde beanstandete die schlechte Verarbeitung.", "en": "The customer complained about the poor workmanship." },
+        { "de": "An ihrer Arbeit gab es nichts zu beanstanden.", "en": "There was nothing to fault in her work." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; sachlich-förmlich, typisch für Prüfungen, Reklamationen und Kontrollen.",
+      "near_synonyms": [
+        { "lemma": "bemängeln", "distinction": "fast gleichbedeutend, etwas weniger förmlich" },
+        { "lemma": "reklamieren", "distinction": "nur bei Waren, das förmliche Zurückgeben" }
+      ]
+    },
+    "relativieren": {
+      "meaning_de": "etwas in Bezug zu anderem setzen und dadurch einschränken oder abschwächen",
+      "meaning_en": "to relativize; to put into perspective; to qualify",
+      "forms": [
+        { "label": "Präsens", "value": "er relativiert" },
+        { "label": "Präteritum", "value": "er relativierte" },
+        { "label": "Perfekt", "value": "er hat relativiert" },
+        { "label": "Konjunktiv II", "value": "er relativierte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas relativieren", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "eine Aussage relativieren", "gloss_en": "to qualify a statement" },
+        { "phrase": "seine Kritik relativieren", "gloss_en": "to soften one's criticism" },
+        { "phrase": "etwas relativieren müssen", "gloss_en": "to have to put something in perspective" },
+        { "phrase": "im Nachhinein relativieren", "gloss_en": "to qualify in hindsight" }
+      ],
+      "examples": [
+        { "de": "Er relativierte seine harte Kritik später.", "en": "He later qualified his harsh criticism." },
+        { "de": "Diese Zahlen muss man relativieren.", "en": "These figures need to be put into perspective." }
+      ],
+      "register": "formal",
+      "register_note": "Bildungssprachlich; oft mit dem Beiklang, eine zu starke Aussage abzumildern.",
+      "near_synonyms": [
+        { "lemma": "abschwächen", "distinction": "nur das Mildern, ohne den Bezug zu anderem" },
+        { "lemma": "einschränken", "distinction": "das Setzen von Grenzen, konkreter" }
+      ]
+    },
+    "untermauern": {
+      "meaning_de": "eine Behauptung durch Argumente oder Belege stützen",
+      "meaning_en": "to underpin; to substantiate; to back up with evidence",
+      "forms": [
+        { "label": "Präsens", "value": "er untermauert" },
+        { "label": "Präteritum", "value": "er untermauerte" },
+        { "label": "Perfekt", "value": "er hat untermauert" },
+        { "label": "Konjunktiv II", "value": "er untermauerte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas mit etwas untermauern", "cases": "Akk. + mit Dat." }
+      ],
+      "collocations": [
+        { "phrase": "eine These untermauern", "gloss_en": "to substantiate a thesis" },
+        { "phrase": "mit Zahlen untermauern", "gloss_en": "to back up with figures" },
+        { "phrase": "eine Forderung untermauern", "gloss_en": "to bolster a demand" },
+        { "phrase": "wissenschaftlich untermauern", "gloss_en": "to substantiate scientifically" }
+      ],
+      "examples": [
+        { "de": "Sie untermauerte ihre These mit Statistiken.", "en": "She backed up her thesis with statistics." },
+        { "de": "Die Behauptung ist durch nichts untermauert.", "en": "The claim is not substantiated by anything." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildhaft (eine Mauer stützen), typisch für Argumentation und Wissenschaft.",
+      "near_synonyms": [
+        { "lemma": "belegen", "distinction": "mit einem konkreten Nachweis, direkter" },
+        { "lemma": "stützen", "distinction": "allgemeiner, auch ohne Belege" }
+      ]
+    },
+    "schmälern": {
+      "meaning_de": "etwas geringer machen oder seinen Wert mindern",
+      "meaning_en": "to diminish; to detract from; to reduce",
+      "forms": [
+        { "label": "Präsens", "value": "er schmälert" },
+        { "label": "Präteritum", "value": "er schmälerte" },
+        { "label": "Perfekt", "value": "er hat geschmälert" },
+        { "label": "Konjunktiv II", "value": "er schmälerte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas schmälern", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "den Verdienst schmälern", "gloss_en": "to detract from the merit" },
+        { "phrase": "die Freude schmälern", "gloss_en": "to dampen the joy" },
+        { "phrase": "den Gewinn schmälern", "gloss_en": "to reduce the profit" },
+        { "phrase": "das Ansehen schmälern", "gloss_en": "to diminish the reputation" }
+      ],
+      "examples": [
+        { "de": "Das soll seine Leistung nicht schmälern.", "en": "That's not to diminish his achievement." },
+        { "de": "Der Zwischenfall schmälerte die Freude erheblich.", "en": "The incident considerably dampened the joy." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft in der Wendung das soll nicht schmälern, um Anerkennung zu wahren.",
+      "near_synonyms": [
+        { "lemma": "mindern", "distinction": "neutraler und allgemeiner" },
+        { "lemma": "beeinträchtigen", "distinction": "stärker - eine Störung, nicht nur Verringerung" }
+      ]
+    },
+    "eindämmen": {
+      "meaning_de": "die Ausbreitung von etwas begrenzen oder aufhalten",
+      "meaning_en": "to contain; to curb; to stem",
+      "forms": [
+        { "label": "Präsens", "value": "er dämmt ein" },
+        { "label": "Präteritum", "value": "er dämmte ein" },
+        { "label": "Perfekt", "value": "er hat eingedämmt" },
+        { "label": "Konjunktiv II", "value": "er dämmte ein" }
+      ],
+      "rektion": [
+        { "pattern": "etwas eindämmen", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "eine Epidemie eindämmen", "gloss_en": "to contain an epidemic" },
+        { "phrase": "die Kosten eindämmen", "gloss_en": "to curb the costs" },
+        { "phrase": "einen Brand eindämmen", "gloss_en": "to bring a fire under control" },
+        { "phrase": "die Ausbreitung eindämmen", "gloss_en": "to stem the spread" }
+      ],
+      "examples": [
+        { "de": "Die Behörden versuchten, die Seuche einzudämmen.", "en": "The authorities tried to contain the epidemic." },
+        { "de": "Man muss die steigenden Kosten eindämmen.", "en": "The rising costs must be curbed." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; bildhaft (einen Damm setzen), oft bei Gefahren und Kosten.",
+      "near_synonyms": [
+        { "lemma": "begrenzen", "distinction": "das Setzen einer Grenze, neutraler" },
+        { "lemma": "bekämpfen", "distinction": "das aktive Angehen, nicht nur Begrenzen" }
+      ]
+    },
+    "verankern": {
+      "meaning_de": "etwas fest und dauerhaft in etwas festlegen oder verwurzeln",
+      "meaning_en": "to anchor; to enshrine; to embed",
+      "forms": [
+        { "label": "Präsens", "value": "er verankert" },
+        { "label": "Präteritum", "value": "er verankerte" },
+        { "label": "Perfekt", "value": "er hat verankert" },
+        { "label": "Konjunktiv II", "value": "er verankerte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas in etwas verankern", "cases": "Akk. + in Dat." }
+      ],
+      "collocations": [
+        { "phrase": "gesetzlich verankern", "gloss_en": "to enshrine in law" },
+        { "phrase": "ein Recht verankern", "gloss_en": "to establish a right" },
+        { "phrase": "im Bewusstsein verankern", "gloss_en": "to embed in the consciousness" },
+        { "phrase": "in der Verfassung verankern", "gloss_en": "to enshrine in the constitution" }
+      ],
+      "examples": [
+        { "de": "Das Recht auf Bildung ist im Gesetz verankert.", "en": "The right to education is enshrined in law." },
+        { "de": "Die Werte sind tief in der Kultur verankert.", "en": "The values are deeply embedded in the culture." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildhaft (einen Anker setzen), typisch für Recht, Politik und Werte.",
+      "near_synonyms": [
+        { "lemma": "festschreiben", "distinction": "nur schriftlich-formell festlegen" },
+        { "lemma": "verwurzeln", "distinction": "das organische Festwachsen, meist reflexiv" }
+      ]
+    },
+    "bekräftigen": {
+      "meaning_de": "eine Aussage oder Zusage nachdrücklich bestätigen",
+      "meaning_en": "to affirm; to reaffirm; to reinforce",
+      "forms": [
+        { "label": "Präsens", "value": "er bekräftigt" },
+        { "label": "Präteritum", "value": "er bekräftigte" },
+        { "label": "Perfekt", "value": "er hat bekräftigt" },
+        { "label": "Konjunktiv II", "value": "er bekräftigte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas bekräftigen", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "eine Zusage bekräftigen", "gloss_en": "to reaffirm a commitment" },
+        { "phrase": "seinen Standpunkt bekräftigen", "gloss_en": "to reinforce one's position" },
+        { "phrase": "mit einem Handschlag bekräftigen", "gloss_en": "to seal with a handshake" },
+        { "phrase": "nachdrücklich bekräftigen", "gloss_en": "to affirm emphatically" }
+      ],
+      "examples": [
+        { "de": "Der Minister bekräftigte seine Zusage.", "en": "The minister reaffirmed his commitment." },
+        { "de": "Sie bekräftigte, dass sie zu ihrem Wort stehe.", "en": "She affirmed that she stood by her word." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stärker und feierlicher als bloßes bestätigen.",
+      "near_synonyms": [
+        { "lemma": "bestätigen", "distinction": "neutraler, einfach für richtig erklären" },
+        { "lemma": "beteuern", "distinction": "mit Nachdruck versichern, oft gegen Zweifel" }
+      ]
+    },
+    "entkräften": {
+      "meaning_de": "ein Argument widerlegen oder seine Wirkung aufheben",
+      "meaning_en": "to refute; to invalidate; to disprove",
+      "forms": [
+        { "label": "Präsens", "value": "er entkräftet" },
+        { "label": "Präteritum", "value": "er entkräftete" },
+        { "label": "Perfekt", "value": "er hat entkräftet" },
+        { "label": "Konjunktiv II", "value": "er entkräftete" }
+      ],
+      "rektion": [
+        { "pattern": "etwas entkräften", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Vorwurf entkräften", "gloss_en": "to refute an accusation" },
+        { "phrase": "ein Argument entkräften", "gloss_en": "to invalidate an argument" },
+        { "phrase": "einen Verdacht entkräften", "gloss_en": "to dispel a suspicion" },
+        { "phrase": "einen Einwand entkräften", "gloss_en": "to counter an objection" }
+      ],
+      "examples": [
+        { "de": "Er konnte den Vorwurf mühelos entkräften.", "en": "He easily refuted the accusation." },
+        { "de": "Diese Belege entkräften die These.", "en": "This evidence disproves the thesis." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; sachlich-argumentativ, in Debatte, Recht und Wissenschaft.",
+      "near_synonyms": [
+        { "lemma": "widerlegen", "distinction": "fast gleichbedeutend, betont den Gegenbeweis" },
+        { "lemma": "entgegnen", "distinction": "nur das Antworten, ohne notwendige Widerlegung" }
+      ]
+    },
+    "nahelegen": {
+      "meaning_de": "jemandem etwas eindringlich empfehlen; auch: etwas als Schluss nahelegen",
+      "meaning_en": "to suggest; to urge; to imply",
+      "forms": [
+        { "label": "Präsens", "value": "er legt nahe" },
+        { "label": "Präteritum", "value": "er legte nahe" },
+        { "label": "Perfekt", "value": "er hat nahegelegt" },
+        { "label": "Konjunktiv II", "value": "er legte nahe" }
+      ],
+      "rektion": [
+        { "pattern": "jemandem etwas nahelegen", "cases": "Dat. + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Rücktritt nahelegen", "gloss_en": "to urge a resignation" },
+        { "phrase": "eine Vermutung nahelegen", "gloss_en": "to suggest a supposition" },
+        { "phrase": "es liegt nahe, dass", "gloss_en": "it stands to reason that" },
+        { "phrase": "einen Schluss nahelegen", "gloss_en": "to suggest a conclusion" }
+      ],
+      "examples": [
+        { "de": "Man legte ihm den Rücktritt nahe.", "en": "He was urged to resign." },
+        { "de": "Die Indizien legen einen Zusammenhang nahe.", "en": "The evidence suggests a connection." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; zwischen dringender Empfehlung und logischem Nahelegen - der Kontext entscheidet.",
+      "near_synonyms": [
+        { "lemma": "empfehlen", "distinction": "neutraler, weniger dringlich" },
+        { "lemma": "andeuten", "distinction": "nur das vage Anklingenlassen, nicht das Empfehlen" }
+      ]
+    },
+    "eingestehen": {
+      "meaning_de": "etwas Unangenehmes offen zugeben",
+      "meaning_en": "to admit; to confess; to own up to",
+      "forms": [
+        { "label": "Präsens", "value": "er gesteht ein" },
+        { "label": "Präteritum", "value": "er gestand ein" },
+        { "label": "Perfekt", "value": "er hat eingestanden" },
+        { "label": "Konjunktiv II", "value": "er gestünde ein" }
+      ],
+      "rektion": [
+        { "pattern": "etwas eingestehen", "cases": "Akk." },
+        { "pattern": "sich etwas eingestehen", "cases": "Dat. + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Fehler eingestehen", "gloss_en": "to admit a mistake" },
+        { "phrase": "sich die Niederlage eingestehen", "gloss_en": "to admit defeat to oneself" },
+        { "phrase": "offen eingestehen", "gloss_en": "to admit openly" },
+        { "phrase": "seine Schuld eingestehen", "gloss_en": "to confess one's guilt" }
+      ],
+      "examples": [
+        { "de": "Er gestand seinen Irrtum offen ein.", "en": "He openly admitted his mistake." },
+        { "de": "Sie musste sich eingestehen, dass sie sich geirrt hatte.", "en": "She had to admit to herself that she had been wrong." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont das Überwinden innerer Widerstände beim Zugeben.",
+      "near_synonyms": [
+        { "lemma": "zugeben", "distinction": "neutraler und alltäglicher" },
+        { "lemma": "gestehen", "distinction": "stärker, oft eine Tat oder Schuld" }
+      ]
+    },
+    "gewährleisten": {
+      "meaning_de": "dafür sorgen, dass etwas sicher gegeben ist",
+      "meaning_en": "to ensure; to guarantee",
+      "forms": [
+        { "label": "Präsens", "value": "er gewährleistet" },
+        { "label": "Präteritum", "value": "er gewährleistete" },
+        { "label": "Perfekt", "value": "er hat gewährleistet" },
+        { "label": "Konjunktiv II", "value": "er gewährleistete" }
+      ],
+      "rektion": [
+        { "pattern": "etwas gewährleisten", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "die Sicherheit gewährleisten", "gloss_en": "to ensure safety" },
+        { "phrase": "die Qualität gewährleisten", "gloss_en": "to guarantee quality" },
+        { "phrase": "einen reibungslosen Ablauf gewährleisten", "gloss_en": "to ensure a smooth process" },
+        { "phrase": "gewährleisten, dass", "gloss_en": "to ensure that" }
+      ],
+      "examples": [
+        { "de": "Die Firma gewährleistet einen schnellen Service.", "en": "The company guarantees a fast service." },
+        { "de": "Nur so ist die Versorgung gewährleistet.", "en": "Only in this way is the supply ensured." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als sicherstellen, häufig in Wirtschaft, Technik und Recht.",
+      "near_synonyms": [
+        { "lemma": "sicherstellen", "distinction": "neutraler, fast gleichbedeutend" },
+        { "lemma": "garantieren", "distinction": "stärker, oft mit einer verbindlichen Zusage" }
+      ]
+    },
+    "bemängeln": {
+      "meaning_de": "an etwas einen Mangel feststellen und ihn kritisieren",
+      "meaning_en": "to criticize; to find fault with",
+      "forms": [
+        { "label": "Präsens", "value": "er bemängelt" },
+        { "label": "Präteritum", "value": "er bemängelte" },
+        { "label": "Perfekt", "value": "er hat bemängelt" },
+        { "label": "Konjunktiv II", "value": "er bemängelte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas bemängeln", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "die Organisation bemängeln", "gloss_en": "to criticize the organization" },
+        { "phrase": "einen Mangel bemängeln", "gloss_en": "to point out a shortcoming" },
+        { "phrase": "zu Recht bemängeln", "gloss_en": "to rightly criticize" },
+        { "phrase": "die fehlende Sorgfalt bemängeln", "gloss_en": "to criticize the lack of care" }
+      ],
+      "examples": [
+        { "de": "Die Prüfer bemängelten die Buchführung.", "en": "The auditors criticized the bookkeeping." },
+        { "de": "Sie bemängelte, dass niemand informiert worden war.", "en": "She complained that no one had been informed." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; sachlich, oft in Prüf- und Bewertungskontexten. Nah an beanstanden.",
+      "near_synonyms": [
+        { "lemma": "beanstanden", "distinction": "fast gleichbedeutend, noch etwas förmlicher" },
+        { "lemma": "kritisieren", "distinction": "allgemeiner und stärker wertend" }
+      ]
+    },
+    "verdeutlichen": {
+      "meaning_de": "etwas klarer und verständlicher machen",
+      "meaning_en": "to clarify; to make clear; to illustrate",
+      "forms": [
+        { "label": "Präsens", "value": "er verdeutlicht" },
+        { "label": "Präteritum", "value": "er verdeutlichte" },
+        { "label": "Perfekt", "value": "er hat verdeutlicht" },
+        { "label": "Konjunktiv II", "value": "er verdeutlichte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas verdeutlichen", "cases": "Akk." },
+        { "pattern": "jemandem etwas verdeutlichen", "cases": "Dat. + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "an einem Beispiel verdeutlichen", "gloss_en": "to illustrate with an example" },
+        { "phrase": "seinen Standpunkt verdeutlichen", "gloss_en": "to make one's position clear" },
+        { "phrase": "grafisch verdeutlichen", "gloss_en": "to illustrate graphically" },
+        { "phrase": "die Zusammenhänge verdeutlichen", "gloss_en": "to clarify the connections" }
+      ],
+      "examples": [
+        { "de": "Ein Beispiel soll das verdeutlichen.", "en": "An example should make this clear." },
+        { "de": "Die Grafik verdeutlicht den Trend.", "en": "The chart illustrates the trend." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-neutral; förmlicher als klarmachen, typisch für Erklärungen und Vorträge.",
+      "near_synonyms": [
+        { "lemma": "veranschaulichen", "distinction": "betont das Bildhafte, mit Beispiel oder Bild" },
+        { "lemma": "erläutern", "distinction": "das ausführliche Erklären, nicht nur Klarermachen" }
+      ]
+    }
+  }
+}
