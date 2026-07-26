@@ -184,13 +184,15 @@ export function sessionCompleteScreen(word: WordRow): string {
 }
 
 export function levelExhaustedScreen(level: Level): string {
+  // A first-class, expected end state (not an edge case): the learner has met or
+  // dismissed every word in the pool at this level. The pool grows over time.
   return `<div class="card">
     <div class="top"><span class="brand">Ein Wort</span><a class="level-badge" href="/settings">${e(level)}</a></div>
     <div class="grow" style="justify-content:center; display:flex; flex-direction:column">
-      <div class="title" style="margin-bottom:10px">Für heute nichts Neues.</div>
-      <div class="register-note">Auf Niveau ${e(level)} sind alle Wörter durch. Du kannst dein Niveau ändern.</div>
+      <div class="title" style="margin-bottom:10px">Du hast alle Wörter kennengelernt.</div>
+      <div class="register-note">Auf Niveau ${e(level)} gibt es im Moment nichts Neues. Wechsle das Niveau — oder die Liste wächst mit der Zeit.</div>
     </div>
-    <div class="center"><a class="linkish" href="/settings">Niveau ändern</a></div>
+    <div class="center"><a class="linkish" href="/settings">Niveau wechseln</a></div>
   </div>`;
 }
 

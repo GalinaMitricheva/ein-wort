@@ -286,9 +286,14 @@ just waiting on you to do a session, so counting them would produce a false alar
 
 ---
 
-## 6. Word-list build pipeline
+## 6. Word-list build pipeline — ABANDONED
 
-The chosen path, and the part most likely to consume the first weekend.
+**Superseded by decision (2026-07-26):** the app uses **no published or copyrighted word
+lists** and is not exam prep, so the composite pipeline below is not built. The word list
+is a hand-curated pool (`data/words.*.json`) grown by hand with dossiers; see plan.md
+Phase 5. The rest of this section is kept only as a record of the original plan.
+
+_Original plan (not implemented):_ the chosen path, and the part most likely to consume the first weekend.
 
 ```
 data/build/
