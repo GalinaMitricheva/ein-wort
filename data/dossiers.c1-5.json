@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored C1 dossiers, batch 5 (adjectives). Absolute adjectives (no comparison) have empty forms. Spot-check against DWDS/Duden per plan.md 7.1.",
+  "dossiers": {
+    "plausibel": {
+      "meaning_de": "einleuchtend und glaubhaft",
+      "meaning_en": "plausible; believable",
+      "forms": [
+        { "label": "Komparativ", "value": "plausibler" },
+        { "label": "Superlativ", "value": "am plausibelsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine plausible Erklärung", "gloss_en": "a plausible explanation" },
+        { "phrase": "plausibel klingen", "gloss_en": "to sound plausible" },
+        { "phrase": "kaum plausibel", "gloss_en": "hardly plausible" },
+        { "phrase": "eine plausible Begründung", "gloss_en": "a plausible justification" }
+      ],
+      "examples": [
+        { "de": "Seine Ausrede klang durchaus plausibel.", "en": "His excuse sounded quite plausible." },
+        { "de": "Das ist die plausibelste Erklärung.", "en": "That's the most plausible explanation." }
+      ],
+      "register": "neutral",
+      "register_note": "Bildungssprachlich; für Erklärungen und Annahmen, die glaubhaft wirken.",
+      "near_synonyms": [
+        { "lemma": "einleuchtend", "distinction": "stärker auf das unmittelbare Verstehen bezogen" },
+        { "lemma": "glaubwürdig", "distinction": "bezieht sich mehr auf Personen und Vertrauen" }
+      ]
+    },
+    "gravierend": {
+      "meaning_de": "schwerwiegend und mit erheblichen Folgen",
+      "meaning_en": "serious; grave; severe",
+      "forms": [
+        { "label": "Komparativ", "value": "gravierender" },
+        { "label": "Superlativ", "value": "am gravierendsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein gravierender Fehler", "gloss_en": "a serious mistake" },
+        { "phrase": "gravierende Folgen", "gloss_en": "serious consequences" },
+        { "phrase": "gravierende Mängel", "gloss_en": "serious defects" },
+        { "phrase": "gravierende Unterschiede", "gloss_en": "considerable differences" }
+      ],
+      "examples": [
+        { "de": "Das war ein gravierender Fehler.", "en": "That was a serious mistake." },
+        { "de": "Die Unterschiede sind gravierend.", "en": "The differences are considerable." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stärker als ernst, betont die Schwere der Folgen.",
+      "near_synonyms": [
+        { "lemma": "schwerwiegend", "distinction": "fast gleichbedeutend, etwas neutraler" },
+        { "lemma": "erheblich", "distinction": "betont die Größe, nicht die Bedenklichkeit" }
+      ]
+    },
+    "differenziert": {
+      "meaning_de": "fein unterscheidend und vielschichtig",
+      "meaning_en": "nuanced; differentiated; sophisticated",
+      "forms": [
+        { "label": "Komparativ", "value": "differenzierter" },
+        { "label": "Superlativ", "value": "am differenziertesten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine differenzierte Betrachtung", "gloss_en": "a nuanced consideration" },
+        { "phrase": "differenziert argumentieren", "gloss_en": "to argue in a nuanced way" },
+        { "phrase": "ein differenziertes Bild", "gloss_en": "a differentiated picture" },
+        { "phrase": "differenziert urteilen", "gloss_en": "to judge in a nuanced way" }
+      ],
+      "examples": [
+        { "de": "Sie betrachtet das Thema sehr differenziert.", "en": "She views the topic in a very nuanced way." },
+        { "de": "Wir brauchen eine differenziertere Analyse.", "en": "We need a more differentiated analysis." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; Lob für vielschichtiges, nicht pauschales Denken.",
+      "near_synonyms": [
+        { "lemma": "nuanciert", "distinction": "betont die feinen Abstufungen" },
+        { "lemma": "vielschichtig", "distinction": "betont die Mehrdimensionalität" }
+      ]
+    },
+    "nachvollziehbar": {
+      "meaning_de": "so, dass man es gedanklich verstehen und mitverfolgen kann",
+      "meaning_en": "understandable; comprehensible; relatable",
+      "forms": [
+        { "label": "Komparativ", "value": "nachvollziehbarer" },
+        { "label": "Superlativ", "value": "am nachvollziehbarsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "gut nachvollziehbar", "gloss_en": "easy to follow" },
+        { "phrase": "eine nachvollziehbare Entscheidung", "gloss_en": "an understandable decision" },
+        { "phrase": "für jeden nachvollziehbar", "gloss_en": "comprehensible to everyone" },
+        { "phrase": "durchaus nachvollziehbar", "gloss_en": "quite understandable" }
+      ],
+      "examples": [
+        { "de": "Ihre Reaktion ist durchaus nachvollziehbar.", "en": "Her reaction is quite understandable." },
+        { "de": "Die Rechnung ist für Laien kaum nachvollziehbar.", "en": "The calculation is hardly comprehensible to laypeople." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlich, betont das gedankliche Mitverfolgen einer Begründung.",
+      "near_synonyms": [
+        { "lemma": "verständlich", "distinction": "allgemeiner, auch sprachlich klar" },
+        { "lemma": "einsichtig", "distinction": "betont die Zustimmung des Verstehenden" }
+      ]
+    },
+    "beträchtlich": {
+      "meaning_de": "in Menge oder Ausmaß bedeutend groß",
+      "meaning_en": "considerable; substantial",
+      "forms": [
+        { "label": "Komparativ", "value": "beträchtlicher" },
+        { "label": "Superlativ", "value": "am beträchtlichsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein beträchtlicher Betrag", "gloss_en": "a considerable sum" },
+        { "phrase": "beträchtliche Schäden", "gloss_en": "substantial damage" },
+        { "phrase": "beträchtlich steigen", "gloss_en": "to rise considerably" },
+        { "phrase": "ein beträchtlicher Teil", "gloss_en": "a considerable part" }
+      ],
+      "examples": [
+        { "de": "Die Kosten sind beträchtlich gestiegen.", "en": "The costs have risen considerably." },
+        { "de": "Ein beträchtlicher Teil fehlt noch.", "en": "A considerable part is still missing." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; auch adverbial (beträchtlich mehr) häufig.",
+      "near_synonyms": [
+        { "lemma": "erheblich", "distinction": "fast gleichbedeutend" },
+        { "lemma": "ansehnlich", "distinction": "positiver getönt, oft von Summen" }
+      ]
+    },
+    "einschlägig": {
+      "meaning_de": "zu einem bestimmten Gebiet gehörend und dafür maßgeblich",
+      "meaning_en": "relevant; pertinent; specialist",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "die einschlägige Literatur", "gloss_en": "the relevant literature" },
+        { "phrase": "einschlägige Erfahrung", "gloss_en": "relevant experience" },
+        { "phrase": "einschlägige Vorschriften", "gloss_en": "the applicable regulations" },
+        { "phrase": "einschlägig vorbestraft", "gloss_en": "with relevant previous convictions" }
+      ],
+      "examples": [
+        { "de": "Er hat einschlägige Erfahrung auf dem Gebiet.", "en": "He has relevant experience in the field." },
+        { "de": "Lesen Sie die einschlägige Literatur.", "en": "Read the pertinent literature." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich - zum Thema gehörig. In einschlägig vorbestraft juristisch.",
+      "near_synonyms": [
+        { "lemma": "relevant", "distinction": "allgemeiner, wichtig für" },
+        { "lemma": "fachspezifisch", "distinction": "betont die Zugehörigkeit zu einem Fach" }
+      ]
+    },
+    "schlüssig": {
+      "meaning_de": "logisch zusammenhängend und überzeugend",
+      "meaning_en": "conclusive; coherent; cogent",
+      "forms": [
+        { "label": "Komparativ", "value": "schlüssiger" },
+        { "label": "Superlativ", "value": "am schlüssigsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine schlüssige Argumentation", "gloss_en": "a coherent argument" },
+        { "phrase": "schlüssig beweisen", "gloss_en": "to prove conclusively" },
+        { "phrase": "nicht schlüssig sein", "gloss_en": "to not add up" },
+        { "phrase": "ein schlüssiges Konzept", "gloss_en": "a coherent concept" }
+      ],
+      "examples": [
+        { "de": "Ihre Argumentation ist völlig schlüssig.", "en": "Her argument is entirely coherent." },
+        { "de": "Der Beweis ist nicht ganz schlüssig.", "en": "The proof is not entirely conclusive." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont die innere Logik, das Widerspruchsfreie.",
+      "near_synonyms": [
+        { "lemma": "stichhaltig", "distinction": "betont das Standhalten gegen Einwände" },
+        { "lemma": "folgerichtig", "distinction": "betont die logische Abfolge" }
+      ]
+    },
+    "weitreichend": {
+      "meaning_de": "mit umfassenden Auswirkungen; über den unmittelbaren Bereich hinausgehend",
+      "meaning_en": "far-reaching; extensive; sweeping",
+      "forms": [
+        { "label": "Komparativ", "value": "weitreichender" },
+        { "label": "Superlativ", "value": "am weitreichendsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "weitreichende Folgen", "gloss_en": "far-reaching consequences" },
+        { "phrase": "eine weitreichende Entscheidung", "gloss_en": "a far-reaching decision" },
+        { "phrase": "weitreichende Befugnisse", "gloss_en": "extensive powers" },
+        { "phrase": "weitreichende Konsequenzen", "gloss_en": "sweeping consequences" }
+      ],
+      "examples": [
+        { "de": "Die Reform hat weitreichende Folgen.", "en": "The reform has far-reaching consequences." },
+        { "de": "Er erhielt weitreichende Vollmachten.", "en": "He was given extensive powers." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont die Reichweite der Wirkung, oft bei Entscheidungen.",
+      "near_synonyms": [
+        { "lemma": "umfassend", "distinction": "betont die Vollständigkeit, nicht die Reichweite" },
+        { "lemma": "folgenschwer", "distinction": "betont die Schwere der Folgen" }
+      ]
+    },
+    "unumgänglich": {
+      "meaning_de": "so, dass es sich nicht vermeiden lässt",
+      "meaning_en": "unavoidable; inevitable; imperative",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "unumgänglich sein", "gloss_en": "to be unavoidable" },
+        { "phrase": "eine unumgängliche Maßnahme", "gloss_en": "an unavoidable measure" },
+        { "phrase": "es ist unumgänglich, zu", "gloss_en": "it is imperative to" },
+        { "phrase": "sich als unumgänglich erweisen", "gloss_en": "to prove unavoidable" }
+      ],
+      "examples": [
+        { "de": "Eine Reform ist unumgänglich geworden.", "en": "A reform has become unavoidable." },
+        { "de": "Es ist unumgänglich, jetzt zu handeln.", "en": "It is imperative to act now." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stärker als nötig, betont die Unvermeidbarkeit.",
+      "near_synonyms": [
+        { "lemma": "unvermeidlich", "distinction": "fast gleichbedeutend" },
+        { "lemma": "zwingend", "distinction": "betont die Notwendigkeit als Zwang" }
+      ]
+    },
+    "hinlänglich": {
+      "meaning_de": "ausreichend, in genügendem Maße",
+      "meaning_en": "sufficient; adequate; amply",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "hinlänglich bekannt", "gloss_en": "well enough known" },
+        { "phrase": "hinlänglich bewiesen", "gloss_en": "amply proven" },
+        { "phrase": "hinlänglich Gelegenheit", "gloss_en": "ample opportunity" },
+        { "phrase": "hinlänglich versorgt", "gloss_en": "adequately provided for" }
+      ],
+      "examples": [
+        { "de": "Das Problem ist hinlänglich bekannt.", "en": "The problem is well enough known." },
+        { "de": "Wir hatten hinlänglich Zeit.", "en": "We had ample time." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; meist adverbial (hinlänglich bekannt), etwas altmodisch-elegant.",
+      "near_synonyms": [
+        { "lemma": "ausreichend", "distinction": "neutral und alltäglich" },
+        { "lemma": "genügend", "distinction": "neutraler, betont die Menge" }
+      ]
+    },
+    "voreilig": {
+      "meaning_de": "zu schnell und ohne genügende Überlegung",
+      "meaning_en": "hasty; rash; premature",
+      "forms": [
+        { "label": "Komparativ", "value": "voreiliger" },
+        { "label": "Superlativ", "value": "am voreiligsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein voreiliger Schluss", "gloss_en": "a hasty conclusion" },
+        { "phrase": "voreilig handeln", "gloss_en": "to act rashly" },
+        { "phrase": "voreilige Schlüsse ziehen", "gloss_en": "to jump to conclusions" },
+        { "phrase": "voreilig urteilen", "gloss_en": "to judge prematurely" }
+      ],
+      "examples": [
+        { "de": "Zieh keine voreiligen Schlüsse.", "en": "Don't jump to conclusions." },
+        { "de": "Das war eine voreilige Entscheidung.", "en": "That was a rash decision." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; leicht negativ, oft in der Wendung voreilige Schlüsse.",
+      "near_synonyms": [
+        { "lemma": "übereilt", "distinction": "fast gleichbedeutend, betont die Hast" },
+        { "lemma": "unüberlegt", "distinction": "betont das fehlende Nachdenken" }
+      ]
+    },
+    "bezeichnend": {
+      "meaning_de": "typisch und aufschlussreich für etwas",
+      "meaning_en": "telling; revealing; characteristic",
+      "forms": [
+        { "label": "Komparativ", "value": "bezeichnender" },
+        { "label": "Superlativ", "value": "am bezeichnendsten" }
+      ],
+      "rektion": [
+        { "pattern": "bezeichnend für etwas", "cases": "für + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "bezeichnend für etwas sein", "gloss_en": "to be characteristic of something" },
+        { "phrase": "ein bezeichnendes Beispiel", "gloss_en": "a telling example" },
+        { "phrase": "bezeichnenderweise", "gloss_en": "tellingly" },
+        { "phrase": "es ist bezeichnend, dass", "gloss_en": "it is telling that" }
+      ],
+      "examples": [
+        { "de": "Sein Schweigen ist bezeichnend.", "en": "His silence is telling." },
+        { "de": "Bezeichnend ist, dass niemand widersprach.", "en": "It's telling that no one objected." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft mit für (bezeichnend für) und als Adverb bezeichnenderweise.",
+      "near_synonyms": [
+        { "lemma": "aufschlussreich", "distinction": "betont den Erkenntnisgewinn" },
+        { "lemma": "typisch", "distinction": "neutraler, charakteristisch" }
+      ]
+    },
+    "unbestreitbar": {
+      "meaning_de": "so, dass man es nicht bestreiten kann; zweifellos",
+      "meaning_en": "indisputable; undeniable",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine unbestreitbare Tatsache", "gloss_en": "an indisputable fact" },
+        { "phrase": "unbestreitbar sein", "gloss_en": "to be undeniable" },
+        { "phrase": "unbestreitbare Verdienste", "gloss_en": "undeniable merits" },
+        { "phrase": "es ist unbestreitbar, dass", "gloss_en": "it is indisputable that" }
+      ],
+      "examples": [
+        { "de": "Ihr Talent ist unbestreitbar.", "en": "Her talent is undeniable." },
+        { "de": "Es ist unbestreitbar, dass sich viel geändert hat.", "en": "It is indisputable that much has changed." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; auch adverbial, stärker als sicher.",
+      "near_synonyms": [
+        { "lemma": "unbestritten", "distinction": "betont, dass niemand es bestreitet - faktisch" },
+        { "lemma": "zweifellos", "distinction": "betont das Fehlen von Zweifel" }
+      ]
+    },
+    "tragfähig": {
+      "meaning_de": "belastbar und dauerhaft brauchbar",
+      "meaning_en": "viable; sustainable; load-bearing",
+      "forms": [
+        { "label": "Komparativ", "value": "tragfähiger" },
+        { "label": "Superlativ", "value": "am tragfähigsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein tragfähiges Konzept", "gloss_en": "a viable concept" },
+        { "phrase": "eine tragfähige Lösung", "gloss_en": "a viable solution" },
+        { "phrase": "eine tragfähige Grundlage", "gloss_en": "a sound basis" },
+        { "phrase": "tragfähige Kompromisse", "gloss_en": "workable compromises" }
+      ],
+      "examples": [
+        { "de": "Wir brauchen eine tragfähige Lösung.", "en": "We need a viable solution." },
+        { "de": "Das Fundament ist tragfähig.", "en": "The foundation is load-bearing." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildhaft (Last tragen), oft für Konzepte, Lösungen und Grundlagen.",
+      "near_synonyms": [
+        { "lemma": "belastbar", "distinction": "betont die Widerstandsfähigkeit" },
+        { "lemma": "haltbar", "distinction": "betont die Dauer, nicht die Belastung" }
+      ]
+    },
+    "zwiespältig": {
+      "meaning_de": "widersprüchlich; gemischte Gefühle hervorrufend",
+      "meaning_en": "ambivalent; conflicting; mixed",
+      "forms": [
+        { "label": "Komparativ", "value": "zwiespältiger" },
+        { "label": "Superlativ", "value": "am zwiespältigsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein zwiespältiges Gefühl", "gloss_en": "a mixed feeling" },
+        { "phrase": "zwiespältig sein", "gloss_en": "to be ambivalent" },
+        { "phrase": "ein zwiespältiger Eindruck", "gloss_en": "a mixed impression" },
+        { "phrase": "zwiespältige Gefühle", "gloss_en": "mixed emotions" }
+      ],
+      "examples": [
+        { "de": "Ich habe ein zwiespältiges Gefühl dabei.", "en": "I have mixed feelings about it." },
+        { "de": "Die Reaktionen waren zwiespältig.", "en": "The reactions were ambivalent." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; für widersprüchliche Gefühle und Eindrücke.",
+      "near_synonyms": [
+        { "lemma": "ambivalent", "distinction": "bildungssprachlich, fast gleichbedeutend" },
+        { "lemma": "widersprüchlich", "distinction": "betont den logischen Widerspruch, nicht das Gefühl" }
+      ]
+    },
+    "eklatant": {
+      "meaning_de": "offenkundig und in negativer Weise auffällig",
+      "meaning_en": "blatant; glaring; flagrant",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein eklatanter Widerspruch", "gloss_en": "a glaring contradiction" },
+        { "phrase": "ein eklatanter Verstoß", "gloss_en": "a flagrant breach" },
+        { "phrase": "eklatantes Versagen", "gloss_en": "blatant failure" },
+        { "phrase": "ein eklatanter Fall", "gloss_en": "a glaring case" }
+      ],
+      "examples": [
+        { "de": "Das ist ein eklatanter Widerspruch.", "en": "That's a glaring contradiction." },
+        { "de": "Es war ein eklatanter Verstoß gegen die Regeln.", "en": "It was a flagrant breach of the rules." }
+      ],
+      "register": "formal",
+      "register_note": "Bildungssprachlich; fast nur negativ, für auffällige Missstände und Verstöße.",
+      "near_synonyms": [
+        { "lemma": "offenkundig", "distinction": "neutraler, klar erkennbar" },
+        { "lemma": "krass", "distinction": "umgangssprachlicher, für starke Auffälligkeit" }
+      ]
+    },
+    "fadenscheinig": {
+      "meaning_de": "leicht durchschaubar und wenig glaubhaft",
+      "meaning_en": "flimsy; threadbare; specious",
+      "forms": [
+        { "label": "Komparativ", "value": "fadenscheiniger" },
+        { "label": "Superlativ", "value": "am fadenscheinigsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "eine fadenscheinige Ausrede", "gloss_en": "a flimsy excuse" },
+        { "phrase": "ein fadenscheiniger Vorwand", "gloss_en": "a specious pretext" },
+        { "phrase": "fadenscheinige Argumente", "gloss_en": "threadbare arguments" },
+        { "phrase": "fadenscheinige Gründe", "gloss_en": "flimsy reasons" }
+      ],
+      "examples": [
+        { "de": "Das ist eine fadenscheinige Ausrede.", "en": "That's a flimsy excuse." },
+        { "de": "Seine Begründung war reichlich fadenscheinig.", "en": "His justification was rather threadbare." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildhaft (dünn wie abgetragener Stoff), abwertend für Ausreden.",
+      "near_synonyms": [
+        { "lemma": "vorgeschoben", "distinction": "betont, dass es nur ein Vorwand ist" },
+        { "lemma": "durchsichtig", "distinction": "betont die leichte Durchschaubarkeit" }
+      ]
+    }
+  }
+}
