@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored C1 dossiers, batch 6 (adverbs / connectors). Adverbs have no forms or Rektion. Spot-check against DWDS/Duden per plan.md 7.1.",
+  "dossiers": {
+    "mithin": {
+      "meaning_de": "folglich; als logische Konsequenz",
+      "meaning_en": "consequently; therefore; hence",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "mithin ist", "gloss_en": "hence ... is" },
+        { "phrase": "und mithin", "gloss_en": "and therefore" },
+        { "phrase": "mithin folgt", "gloss_en": "it follows that" },
+        { "phrase": "mithin gilt", "gloss_en": "therefore it holds" }
+      ],
+      "examples": [
+        { "de": "Er war krank und mithin verhindert.", "en": "He was ill and consequently unable to attend." },
+        { "de": "Die Prämisse ist falsch, mithin auch der Schluss.", "en": "The premise is false, hence the conclusion too." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachliches Schlussfolgerungswort, seltener als also.",
+      "near_synonyms": [
+        { "lemma": "folglich", "distinction": "neutraler, häufiger" },
+        { "lemma": "somit", "distinction": "betont das Ergebnis, alltäglicher" }
+      ]
+    },
+    "zusehends": {
+      "meaning_de": "in deutlich wahrnehmbarem Maße; immer mehr",
+      "meaning_en": "visibly; increasingly; noticeably",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "zusehends schlechter", "gloss_en": "visibly worse" },
+        { "phrase": "zusehends verfallen", "gloss_en": "to decay visibly" },
+        { "phrase": "zusehends an Bedeutung gewinnen", "gloss_en": "to gain ever more importance" },
+        { "phrase": "es wird zusehends", "gloss_en": "it is increasingly becoming" }
+      ],
+      "examples": [
+        { "de": "Sein Zustand verschlechterte sich zusehends.", "en": "His condition deteriorated visibly." },
+        { "de": "Die Vorräte schwinden zusehends.", "en": "The supplies are dwindling noticeably." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; für allmähliche, aber sichtbare Veränderungen.",
+      "near_synonyms": [
+        { "lemma": "merklich", "distinction": "betont die Wahrnehmbarkeit" },
+        { "lemma": "zunehmend", "distinction": "betont die Steigerung, neutraler" }
+      ]
+    },
+    "keineswegs": {
+      "meaning_de": "auf keinen Fall; ganz und gar nicht",
+      "meaning_en": "by no means; not at all",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "keineswegs selbstverständlich", "gloss_en": "by no means a given" },
+        { "phrase": "keineswegs sicher", "gloss_en": "by no means certain" },
+        { "phrase": "das ist keineswegs so", "gloss_en": "that is not at all the case" },
+        { "phrase": "keineswegs immer", "gloss_en": "by no means always" }
+      ],
+      "examples": [
+        { "de": "Das ist keineswegs selbstverständlich.", "en": "That is by no means a given." },
+        { "de": "Ich bin keineswegs überzeugt.", "en": "I am not at all convinced." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; nachdrückliche Verneinung, stärker als nicht.",
+      "near_synonyms": [
+        { "lemma": "keinesfalls", "distinction": "fast gleichbedeutend, noch etwas stärker" },
+        { "lemma": "durchaus nicht", "distinction": "betont den Widerspruch zur Erwartung" }
+      ]
+    },
+    "ohnehin": {
+      "meaning_de": "sowieso; unabhängig von allem anderen",
+      "meaning_en": "anyway; in any case; as it is",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "das war ohnehin klar", "gloss_en": "that was clear anyway" },
+        { "phrase": "ohnehin schon", "gloss_en": "already, as it is" },
+        { "phrase": "wir müssen ohnehin", "gloss_en": "we have to anyway" },
+        { "phrase": "ohnehin knapp", "gloss_en": "short as it is" }
+      ],
+      "examples": [
+        { "de": "Ich wollte ohnehin gehen.", "en": "I wanted to leave anyway." },
+        { "de": "Die Zeit ist ohnehin schon knapp.", "en": "Time is short as it is." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglich, drückt aus, dass etwas unabhängig gilt.",
+      "near_synonyms": [
+        { "lemma": "sowieso", "distinction": "umgangssprachlicher" },
+        { "lemma": "ohnedies", "distinction": "gehobener, seltener" }
+      ]
+    },
+    "gleichwohl": {
+      "meaning_de": "trotzdem; dennoch",
+      "meaning_en": "nevertheless; nonetheless",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "gleichwohl gilt", "gloss_en": "nevertheless it holds" },
+        { "phrase": "und gleichwohl", "gloss_en": "and yet" },
+        { "phrase": "gleichwohl bleibt", "gloss_en": "nonetheless there remains" },
+        { "phrase": "gleichwohl ist zu bedenken", "gloss_en": "nevertheless one must consider" }
+      ],
+      "examples": [
+        { "de": "Der Plan war riskant, gleichwohl setzte er ihn um.", "en": "The plan was risky; nevertheless he carried it out." },
+        { "de": "Gleichwohl bleibt ein Rest Unsicherheit.", "en": "Nonetheless a residue of uncertainty remains." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmliches trotzdem, in Argumentation und Schriftsprache.",
+      "near_synonyms": [
+        { "lemma": "dennoch", "distinction": "neutraler, häufiger" },
+        { "lemma": "nichtsdestotrotz", "distinction": "umgangssprachlich-emphatisch" }
+      ]
+    },
+    "folglich": {
+      "meaning_de": "als logische Folge; deshalb",
+      "meaning_en": "consequently; therefore; as a result",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "folglich muss", "gloss_en": "consequently ... must" },
+        { "phrase": "und folglich", "gloss_en": "and consequently" },
+        { "phrase": "folglich ergibt sich", "gloss_en": "it follows that" },
+        { "phrase": "folglich ist", "gloss_en": "therefore ... is" }
+      ],
+      "examples": [
+        { "de": "Er hatte keine Zeit, folglich sagte er ab.", "en": "He had no time, so he cancelled." },
+        { "de": "Die Nachfrage stieg, folglich stiegen die Preise.", "en": "Demand rose, consequently prices rose." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-neutral; sachliches Schlussfolgern, häufig in Argumenten.",
+      "near_synonyms": [
+        { "lemma": "daher", "distinction": "neutraler, alltäglicher" },
+        { "lemma": "somit", "distinction": "betont das Ergebnis" }
+      ]
+    },
+    "dementsprechend": {
+      "meaning_de": "entsprechend den genannten Umständen; demgemäß",
+      "meaning_en": "accordingly; correspondingly",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "dementsprechend handeln", "gloss_en": "to act accordingly" },
+        { "phrase": "dementsprechend hoch", "gloss_en": "correspondingly high" },
+        { "phrase": "und dementsprechend", "gloss_en": "and accordingly" },
+        { "phrase": "sich dementsprechend verhalten", "gloss_en": "to behave accordingly" }
+      ],
+      "examples": [
+        { "de": "Die Nachfrage ist groß, die Preise sind dementsprechend hoch.", "en": "Demand is high, and prices are correspondingly high." },
+        { "de": "Er ist Fachmann und wurde dementsprechend bezahlt.", "en": "He is an expert and was paid accordingly." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; verknüpft eine Folge mit einer zuvor genannten Bedingung.",
+      "near_synonyms": [
+        { "lemma": "entsprechend", "distinction": "kürzer, oft mit Bezugswort" },
+        { "lemma": "demgemäß", "distinction": "gehobener, seltener" }
+      ]
+    },
+    "vorwiegend": {
+      "meaning_de": "überwiegend; hauptsächlich",
+      "meaning_en": "predominantly; mainly; chiefly",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "vorwiegend männlich", "gloss_en": "predominantly male" },
+        { "phrase": "vorwiegend aus", "gloss_en": "mainly from" },
+        { "phrase": "vorwiegend im Sommer", "gloss_en": "chiefly in summer" },
+        { "phrase": "vorwiegend positiv", "gloss_en": "predominantly positive" }
+      ],
+      "examples": [
+        { "de": "Die Gäste waren vorwiegend junge Leute.", "en": "The guests were predominantly young people." },
+        { "de": "Es regnet vorwiegend im Herbst.", "en": "It rains mainly in autumn." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlich, gibt den überwiegenden Anteil an.",
+      "near_synonyms": [
+        { "lemma": "hauptsächlich", "distinction": "betont die Hauptsache" },
+        { "lemma": "überwiegend", "distinction": "betont das Mehrheitliche" }
+      ]
+    },
+    "hingegen": {
+      "meaning_de": "im Gegensatz dazu; dagegen",
+      "meaning_en": "however; on the other hand; whereas",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "er hingegen", "gloss_en": "he, on the other hand" },
+        { "phrase": "sie war müde, er hingegen", "gloss_en": "she was tired; he, however" },
+        { "phrase": "hingegen zeigte sich", "gloss_en": "however, it emerged" },
+        { "phrase": "ganz anders hingegen", "gloss_en": "quite differently, however" }
+      ],
+      "examples": [
+        { "de": "Die einen freuten sich, die anderen hingegen ärgerten sich.", "en": "Some were pleased; the others, however, were annoyed." },
+        { "de": "Der Norden ist kühl, der Süden hingegen warm.", "en": "The north is cool, whereas the south is warm." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-neutral; stellt einen Gegensatz her, oft nachgestellt (er hingegen).",
+      "near_synonyms": [
+        { "lemma": "dagegen", "distinction": "neutraler, häufiger" },
+        { "lemma": "wohingegen", "distinction": "als Konjunktion, verbindet zwei Sätze" }
+      ]
+    }
+  }
+}
