@@ -1,16 +1,21 @@
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import type { Store, Level } from "./store.ts";
 import { Dossier } from "./dossier/schema.ts";
 
 const here = dirname(fileURLToPath(import.meta.url));
-const dataFile = (name: string): string => join(here, "..", "..", "data", name);
+const dataDir = join(here, "..", "..", "data");
+const dataFile = (name: string): string => join(dataDir, name);
 
-// Word lists and dossier files, loaded in order. Later files upsert over earlier
-// ones by (lemma, pos) / lemma, so a word or dossier can be refined in a newer file.
+// Word lists load in a fixed order (later files upsert over earlier ones by
+// lemma+pos). Dossier files are globbed, so a new authored batch (dossiers.*.json)
+// is picked up automatically — dossiers are keyed by lemma, so order doesn't matter.
 export const WORD_FILES = [dataFile("words.fixture.json"), dataFile("words.c1.json")];
-export const DOSSIER_FILES = [dataFile("dossiers.seed.json"), dataFile("dossiers.c1.json")];
+export const DOSSIER_FILES = readdirSync(dataDir)
+  .filter((f) => /^dossiers.*\.json$/.test(f))
+  .sort()
+  .map((f) => join(dataDir, f));
 
 // Back-compat single-file paths (used by tests).
 export const FIXTURE_PATH = WORD_FILES[0]!;
