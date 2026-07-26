@@ -132,9 +132,9 @@ needs no in-app credential; the app makes zero model calls.
 - [x] **C1-list** 100 hand-curated C1 words (`data/words.c1.json`) with correct
       article/plural/key_forms. Multi-file word/dossier loading wired. Wants a Duden
       spot-check (§5.8) — **O**
-- [~] **C1-dossiers** Dossiers authored in batches (`data/dossiers.c1*.json`, glob-loaded).
-      **34 C1 words usable so far** (batch 1: 14 words; batch 2: 14 nouns). ~67 still need a
-      dossier (`npm run collect` reports the list). Continue in batches — **O**
+- [x] **C1-dossiers** Dossiers for **all 101 C1 words** authored (7 batches,
+      `data/dossiers.c1*.json`, glob-loaded). `npm run collect` reports zero missing.
+      Content wants a DWDS/Duden spot-check (§7.1); genders/plurals partly Wiktionary-verified — **O**
 - [x] **dossier-verification** Spot-checked all 37 noun genders/plurals against German
       Wiktionary — all correct. (Remaining metadata unchecked; do via a local script, not
       per-word web lookups, to avoid token cost.)
