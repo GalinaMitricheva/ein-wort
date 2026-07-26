@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored C1 dossiers, batch 4 (remaining verbs + first adjectives). Spot-check against DWDS/Duden per plan.md 7.1.",
+  "dossiers": {
+    "zutreffen": {
+      "meaning_de": "richtig sein; auf jemanden oder etwas passen",
+      "meaning_en": "to apply; to be true; to be the case",
+      "forms": [
+        { "label": "Präsens", "value": "er trifft zu" },
+        { "label": "Präteritum", "value": "er traf zu" },
+        { "label": "Perfekt", "value": "er hat zugetroffen" },
+        { "label": "Konjunktiv II", "value": "er träfe zu" }
+      ],
+      "rektion": [
+        { "pattern": "auf jemanden/etwas zutreffen", "cases": "auf + Akk." }
+      ],
+      "collocations": [
+        { "phrase": "das trifft zu", "gloss_en": "that is correct" },
+        { "phrase": "auf jemanden zutreffen", "gloss_en": "to apply to someone" },
+        { "phrase": "Zutreffendes ankreuzen", "gloss_en": "tick as applicable" },
+        { "phrase": "das trifft nicht ganz zu", "gloss_en": "that isn't quite right" }
+      ],
+      "examples": [
+        { "de": "Diese Beschreibung trifft genau auf ihn zu.", "en": "This description fits him exactly." },
+        { "de": "Falls das zutrifft, ändert sich alles.", "en": "If that is the case, everything changes." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlich, häufig in Formularen (Zutreffendes ankreuzen) und Analysen.",
+      "near_synonyms": [
+        { "lemma": "stimmen", "distinction": "umgangssprachlicher, für richtig sein" },
+        { "lemma": "gelten", "distinction": "Gültigkeit haben, etwas abstrakter" }
+      ]
+    },
+    "einleuchten": {
+      "meaning_de": "sofort verständlich und einsichtig sein",
+      "meaning_en": "to make sense; to be obvious; to be plausible",
+      "forms": [
+        { "label": "Präsens", "value": "er leuchtet ein" },
+        { "label": "Präteritum", "value": "er leuchtete ein" },
+        { "label": "Perfekt", "value": "er hat eingeleuchtet" },
+        { "label": "Konjunktiv II", "value": "er leuchtete ein" }
+      ],
+      "rektion": [
+        { "pattern": "jemandem einleuchten", "cases": "Dat." }
+      ],
+      "collocations": [
+        { "phrase": "das leuchtet mir ein", "gloss_en": "that makes sense to me" },
+        { "phrase": "unmittelbar einleuchten", "gloss_en": "to be immediately obvious" },
+        { "phrase": "ein einleuchtendes Argument", "gloss_en": "a plausible argument" },
+        { "phrase": "das will mir nicht einleuchten", "gloss_en": "that doesn't make sense to me" }
+      ],
+      "examples": [
+        { "de": "Seine Begründung leuchtet mir ein.", "en": "His reasoning makes sense to me." },
+        { "de": "Es leuchtet ein, dass man vorsichtig sein muss.", "en": "It's obvious that one has to be careful." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; oft mit Dativ (mir leuchtet ein), auch als Adjektiv einleuchtend.",
+      "near_synonyms": [
+        { "lemma": "überzeugen", "distinction": "stärker, jemanden für etwas gewinnen" },
+        { "lemma": "einsehen", "distinction": "die Perspektive des Verstehenden, nicht der Sache" }
+      ]
+    },
+    "beziffern": {
+      "meaning_de": "eine Menge oder Summe zahlenmäßig angeben",
+      "meaning_en": "to put a figure on; to estimate numerically",
+      "forms": [
+        { "label": "Präsens", "value": "er beziffert" },
+        { "label": "Präteritum", "value": "er bezifferte" },
+        { "label": "Perfekt", "value": "er hat beziffert" },
+        { "label": "Konjunktiv II", "value": "er bezifferte" }
+      ],
+      "rektion": [
+        { "pattern": "etwas auf etwas beziffern", "cases": "Akk. + auf Akk." }
+      ],
+      "collocations": [
+        { "phrase": "den Schaden beziffern", "gloss_en": "to put a figure on the damage" },
+        { "phrase": "die Kosten beziffern auf", "gloss_en": "to estimate the costs at" },
+        { "phrase": "sich beziffern lassen", "gloss_en": "to be quantifiable" },
+        { "phrase": "auf Millionen beziffern", "gloss_en": "to estimate at millions" }
+      ],
+      "examples": [
+        { "de": "Der Schaden wird auf 10 Millionen beziffert.", "en": "The damage is estimated at 10 million." },
+        { "de": "Die Verluste lassen sich kaum beziffern.", "en": "The losses can hardly be quantified." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; sachlich-quantitativ, typisch für Wirtschaft und Berichterstattung.",
+      "near_synonyms": [
+        { "lemma": "schätzen", "distinction": "das ungefähre Angeben, ohne feste Zahl" },
+        { "lemma": "veranschlagen", "distinction": "das Ansetzen im Voraus, meist bei Kosten" }
+      ]
+    },
+    "auslegen": {
+      "meaning_de": "etwas deuten und in seinem Sinn verstehen; auch: etwas hinlegen",
+      "meaning_en": "to interpret; to construe; (also) to lay out",
+      "forms": [
+        { "label": "Präsens", "value": "er legt aus" },
+        { "label": "Präteritum", "value": "er legte aus" },
+        { "label": "Perfekt", "value": "er hat ausgelegt" },
+        { "label": "Konjunktiv II", "value": "er legte aus" }
+      ],
+      "rektion": [
+        { "pattern": "etwas als etwas auslegen", "cases": "Akk. + als Akk." }
+      ],
+      "collocations": [
+        { "phrase": "ein Gesetz auslegen", "gloss_en": "to interpret a law" },
+        { "phrase": "etwas falsch auslegen", "gloss_en": "to misconstrue something" },
+        { "phrase": "etwas zu seinen Gunsten auslegen", "gloss_en": "to interpret in one's favour" },
+        { "phrase": "einen Text auslegen", "gloss_en": "to expound a text" }
+      ],
+      "examples": [
+        { "de": "Man kann diesen Satz unterschiedlich auslegen.", "en": "This sentence can be interpreted in different ways." },
+        { "de": "Sie legte sein Schweigen als Zustimmung aus.", "en": "She construed his silence as agreement." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Sinne von deuten gehoben, in Recht und Textkritik zentral.",
+      "near_synonyms": [
+        { "lemma": "deuten", "distinction": "neutraler, allgemeiner" },
+        { "lemma": "interpretieren", "distinction": "bildungssprachlich, fast gleichbedeutend" }
+      ]
+    },
+    "unterbinden": {
+      "meaning_de": "etwas mit Nachdruck verhindern oder unmöglich machen",
+      "meaning_en": "to prevent; to put a stop to; to suppress",
+      "forms": [
+        { "label": "Präsens", "value": "er unterbindet" },
+        { "label": "Präteritum", "value": "er unterband" },
+        { "label": "Perfekt", "value": "er hat unterbunden" },
+        { "label": "Konjunktiv II", "value": "er unterbände" }
+      ],
+      "rektion": [
+        { "pattern": "etwas unterbinden", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "einen Missbrauch unterbinden", "gloss_en": "to stop an abuse" },
+        { "phrase": "jeden Widerspruch unterbinden", "gloss_en": "to suppress all objection" },
+        { "phrase": "energisch unterbinden", "gloss_en": "to firmly put a stop to" },
+        { "phrase": "etwas von vornherein unterbinden", "gloss_en": "to prevent something from the outset" }
+      ],
+      "examples": [
+        { "de": "Die Leitung unterband jede Diskussion.", "en": "Management stopped any discussion." },
+        { "de": "Solche Praktiken müssen unterbunden werden.", "en": "Such practices must be stopped." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; nachdrücklicher als verhindern, oft von Autoritäten.",
+      "near_synonyms": [
+        { "lemma": "verhindern", "distinction": "neutraler, allgemeiner" },
+        { "lemma": "untersagen", "distinction": "das förmliche Verbieten, nicht das faktische Stoppen" }
+      ]
+    },
+    "beruhen": {
+      "meaning_de": "seine Grundlage in etwas haben; auf etwas basieren",
+      "meaning_en": "to be based on; to rest on",
+      "forms": [
+        { "label": "Präsens", "value": "er beruht" },
+        { "label": "Präteritum", "value": "er beruhte" },
+        { "label": "Perfekt", "value": "er hat beruht" },
+        { "label": "Konjunktiv II", "value": "er beruhte" }
+      ],
+      "rektion": [
+        { "pattern": "auf etwas beruhen", "cases": "auf + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "auf einem Irrtum beruhen", "gloss_en": "to be based on a mistake" },
+        { "phrase": "auf Gegenseitigkeit beruhen", "gloss_en": "to be mutual" },
+        { "phrase": "auf Tatsachen beruhen", "gloss_en": "to be based on facts" },
+        { "phrase": "etwas auf sich beruhen lassen", "gloss_en": "to let a matter rest" }
+      ],
+      "examples": [
+        { "de": "Der Vorwurf beruht auf einem Missverständnis.", "en": "The accusation is based on a misunderstanding." },
+        { "de": "Ihre Freundschaft beruht auf Vertrauen.", "en": "Their friendship rests on trust." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; die Wendung etwas auf sich beruhen lassen (nicht weiterverfolgen) ist fest.",
+      "near_synonyms": [
+        { "lemma": "basieren auf", "distinction": "bildungssprachlich, fast gleichbedeutend" },
+        { "lemma": "sich gründen auf", "distinction": "betont das Fundament, gehoben" }
+      ]
+    },
+    "anzweifeln": {
+      "meaning_de": "die Richtigkeit von etwas in Frage stellen",
+      "meaning_en": "to question; to cast doubt on; to challenge",
+      "forms": [
+        { "label": "Präsens", "value": "er zweifelt an" },
+        { "label": "Präteritum", "value": "er zweifelte an" },
+        { "label": "Perfekt", "value": "er hat angezweifelt" },
+        { "label": "Konjunktiv II", "value": "er zweifelte an" }
+      ],
+      "rektion": [
+        { "pattern": "etwas anzweifeln", "cases": "Akk." }
+      ],
+      "collocations": [
+        { "phrase": "die Echtheit anzweifeln", "gloss_en": "to doubt the authenticity" },
+        { "phrase": "eine Aussage anzweifeln", "gloss_en": "to question a statement" },
+        { "phrase": "ernsthaft anzweifeln", "gloss_en": "to seriously doubt" },
+        { "phrase": "das Ergebnis anzweifeln", "gloss_en": "to challenge the result" }
+      ],
+      "examples": [
+        { "de": "Niemand zweifelte ihre Kompetenz an.", "en": "No one questioned her competence." },
+        { "de": "Die Studie wird von Experten angezweifelt.", "en": "The study is being challenged by experts." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; sachlich, betont das Infragestellen der Richtigkeit.",
+      "near_synonyms": [
+        { "lemma": "bezweifeln", "distinction": "fast gleichbedeutend, etwas weniger konfrontativ" },
+        { "lemma": "infrage stellen", "distinction": "umfassender, auch grundsätzlich" }
+      ]
+    },
+    "herrühren": {
+      "meaning_de": "seinen Ursprung in etwas haben; von etwas kommen",
+      "meaning_en": "to stem from; to originate from; to be due to",
+      "forms": [
+        { "label": "Präsens", "value": "er rührt her" },
+        { "label": "Präteritum", "value": "er rührte her" },
+        { "label": "Perfekt", "value": "er hat hergerührt" },
+        { "label": "Konjunktiv II", "value": "er rührte her" }
+      ],
+      "rektion": [
+        { "pattern": "von etwas herrühren", "cases": "von + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "von etwas herrühren", "gloss_en": "to stem from something" },
+        { "phrase": "daher rühren, dass", "gloss_en": "to be due to the fact that" },
+        { "phrase": "die Probleme rühren von", "gloss_en": "the problems stem from" },
+        { "phrase": "aus alter Zeit herrühren", "gloss_en": "to date back to old times" }
+      ],
+      "examples": [
+        { "de": "Die Schmerzen rühren von einer alten Verletzung her.", "en": "The pain stems from an old injury." },
+        { "de": "Sein Misstrauen rührt von schlechten Erfahrungen her.", "en": "His distrust comes from bad experiences." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; erklärt die Herkunft einer Wirkung, meist mit von.",
+      "near_synonyms": [
+        { "lemma": "stammen von", "distinction": "fast gleichbedeutend, neutraler" },
+        { "lemma": "zurückgehen auf", "distinction": "die Rückverfolgung zu einem Ursprung" }
+      ]
+    },
+    "vorbeugen": {
+      "meaning_de": "durch rechtzeitiges Handeln etwas Unerwünschtem entgegenwirken",
+      "meaning_en": "to prevent; to take precautions against",
+      "forms": [
+        { "label": "Präsens", "value": "er beugt vor" },
+        { "label": "Präteritum", "value": "er beugte vor" },
+        { "label": "Perfekt", "value": "er hat vorgebeugt" },
+        { "label": "Konjunktiv II", "value": "er beugte vor" }
+      ],
+      "rektion": [
+        { "pattern": "einer Sache vorbeugen", "cases": "Dat." }
+      ],
+      "collocations": [
+        { "phrase": "einer Krankheit vorbeugen", "gloss_en": "to prevent an illness" },
+        { "phrase": "Missverständnissen vorbeugen", "gloss_en": "to prevent misunderstandings" },
+        { "phrase": "rechtzeitig vorbeugen", "gloss_en": "to take precautions in time" },
+        { "phrase": "Vorbeugen ist besser als Heilen", "gloss_en": "prevention is better than cure" }
+      ],
+      "examples": [
+        { "de": "Regelmäßiger Sport beugt Krankheiten vor.", "en": "Regular exercise prevents illness." },
+        { "de": "Um Missverständnissen vorzubeugen, hier eine Klarstellung.", "en": "To prevent misunderstandings, a clarification here." }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; verlangt den Dativ, häufig in Medizin und Organisation.",
+      "near_synonyms": [
+        { "lemma": "verhindern", "distinction": "das direkte Aufhalten, nicht das vorsorgliche" },
+        { "lemma": "vermeiden", "distinction": "das Umgehen, nicht das aktive Entgegenwirken" }
+      ]
+    },
+    "absehen": {
+      "meaning_de": "etwas im Voraus erkennen; auch: auf etwas verzichten (von etwas absehen)",
+      "meaning_en": "to foresee; (von etwas) to refrain from",
+      "forms": [
+        { "label": "Präsens", "value": "er sieht ab" },
+        { "label": "Präteritum", "value": "er sah ab" },
+        { "label": "Perfekt", "value": "er hat abgesehen" },
+        { "label": "Konjunktiv II", "value": "er sähe ab" }
+      ],
+      "rektion": [
+        { "pattern": "von etwas absehen", "cases": "von + Dat." }
+      ],
+      "collocations": [
+        { "phrase": "von einer Strafe absehen", "gloss_en": "to refrain from a penalty" },
+        { "phrase": "das Ende ist nicht abzusehen", "gloss_en": "the end is not in sight" },
+        { "phrase": "abgesehen von", "gloss_en": "apart from" },
+        { "phrase": "von etwas absehen", "gloss_en": "to refrain from something" }
+      ],
+      "examples": [
+        { "de": "Das Gericht sah von einer Strafe ab.", "en": "The court refrained from a penalty." },
+        { "de": "Es ist noch nicht abzusehen, wie es ausgeht.", "en": "It's not yet foreseeable how it will end." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; die Wendungen von etwas absehen (verzichten) und abgesehen von (außer) sind fest.",
+      "near_synonyms": [
+        { "lemma": "verzichten auf", "distinction": "das Aufgeben eines Anspruchs, direkter" },
+        { "lemma": "voraussehen", "distinction": "nur die Bedeutung im Voraus erkennen" }
+      ]
+    },
+    "obliegen": {
+      "meaning_de": "jemandes Aufgabe oder Pflicht sein",
+      "meaning_en": "to be incumbent on; to be someone's responsibility",
+      "forms": [
+        { "label": "Präsens", "value": "es obliegt" },
+        { "label": "Präteritum", "value": "es oblag" },
+        { "label": "Perfekt", "value": "es hat oblegen" },
+        { "label": "Konjunktiv II", "value": "es obläge" }
+      ],
+      "rektion": [
+        { "pattern": "jemandem obliegen", "cases": "Dat." }
+      ],
+      "collocations": [
+        { "phrase": "die Entscheidung obliegt", "gloss_en": "the decision rests with" },
+        { "phrase": "es obliegt ihm, zu", "gloss_en": "it is incumbent on him to" },
+        { "phrase": "die Verantwortung obliegt", "gloss_en": "the responsibility lies with" },
+        { "phrase": "die Pflicht obliegt jemandem", "gloss_en": "the duty falls to someone" }
+      ],
+      "examples": [
+        { "de": "Die Entscheidung obliegt allein der Leitung.", "en": "The decision rests solely with management." },
+        { "de": "Es obliegt dir, die Frist einzuhalten.", "en": "It is your responsibility to meet the deadline." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stark förmlich-juristisch, meist unpersönlich (es obliegt jemandem).",
+      "near_synonyms": [
+        { "lemma": "zufallen", "distinction": "das Zuteilwerden, oft unverdient" },
+        { "lemma": "zustehen", "distinction": "das Recht auf etwas, nicht die Pflicht" }
+      ]
+    },
+    "zugrunde liegen": {
+      "meaning_de": "die Grundlage von etwas bilden",
+      "meaning_en": "to underlie; to form the basis of",
+      "forms": [
+        { "label": "Präsens", "value": "es liegt zugrunde" },
+        { "label": "Präteritum", "value": "es lag zugrunde" },
+        { "label": "Perfekt", "value": "es hat zugrunde gelegen" },
+        { "label": "Konjunktiv II", "value": "es läge zugrunde" }
+      ],
+      "rektion": [
+        { "pattern": "einer Sache zugrunde liegen", "cases": "Dat." }
+      ],
+      "collocations": [
+        { "phrase": "einer Untersuchung zugrunde liegen", "gloss_en": "to underlie a study" },
+        { "phrase": "die zugrunde liegenden Daten", "gloss_en": "the underlying data" },
+        { "phrase": "ein Konzept liegt zugrunde", "gloss_en": "a concept forms the basis" },
+        { "phrase": "die zugrunde liegende Idee", "gloss_en": "the underlying idea" }
+      ],
+      "examples": [
+        { "de": "Dieser Studie liegen 500 Interviews zugrunde.", "en": "This study is based on 500 interviews." },
+        { "de": "Welches Prinzip liegt dem System zugrunde?", "en": "What principle underlies the system?" }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; verlangt den Dativ, häufig in Wissenschaft und Analyse.",
+      "near_synonyms": [
+        { "lemma": "zugrunde legen", "distinction": "aktiv: etwas als Basis nehmen" },
+        { "lemma": "basieren auf", "distinction": "aus Sicht des Aufbauenden, nicht der Grundlage" }
+      ]
+    },
+    "maßgeblich": {
+      "meaning_de": "entscheidend und richtungweisend; von großem Einfluss",
+      "meaning_en": "decisive; authoritative; significant",
+      "forms": [
+        { "label": "Komparativ", "value": "maßgeblicher" },
+        { "label": "Superlativ", "value": "am maßgeblichsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "maßgeblich beteiligt sein", "gloss_en": "to be significantly involved" },
+        { "phrase": "eine maßgebliche Rolle", "gloss_en": "a decisive role" },
+        { "phrase": "maßgeblichen Einfluss haben", "gloss_en": "to have a decisive influence" },
+        { "phrase": "die maßgebliche Instanz", "gloss_en": "the authoritative body" }
+      ],
+      "examples": [
+        { "de": "Sie war maßgeblich am Erfolg beteiligt.", "en": "She was significantly involved in the success." },
+        { "de": "Seine Meinung ist hier nicht maßgeblich.", "en": "His opinion is not authoritative here." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; auch adverbial (maßgeblich beitragen) sehr häufig.",
+      "near_synonyms": [
+        { "lemma": "entscheidend", "distinction": "betont das Ausschlaggebende" },
+        { "lemma": "wesentlich", "distinction": "betont die Wichtigkeit, weniger die Autorität" }
+      ]
+    },
+    "stichhaltig": {
+      "meaning_de": "einer Prüfung standhaltend; logisch überzeugend",
+      "meaning_en": "valid; sound; cogent (of an argument)",
+      "forms": [
+        { "label": "Komparativ", "value": "stichhaltiger" },
+        { "label": "Superlativ", "value": "am stichhaltigsten" }
+      ],
+      "rektion": [],
+      "collocations": [
+        { "phrase": "ein stichhaltiges Argument", "gloss_en": "a sound argument" },
+        { "phrase": "ein stichhaltiger Beweis", "gloss_en": "a solid proof" },
+        { "phrase": "nicht stichhaltig sein", "gloss_en": "to not hold up" },
+        { "phrase": "stichhaltige Gründe", "gloss_en": "valid reasons" }
+      ],
+      "examples": [
+        { "de": "Sein Argument ist durchaus stichhaltig.", "en": "His argument is quite sound." },
+        { "de": "Die Beweise erwiesen sich als nicht stichhaltig.", "en": "The evidence turned out not to hold up." }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fast nur für Argumente, Beweise und Gründe.",
+      "near_synonyms": [
+        { "lemma": "schlüssig", "distinction": "betont die innere Logik, das Zwingende" },
+        { "lemma": "überzeugend", "distinction": "die Wirkung auf andere, allgemeiner" }
+      ]
+    }
+  }
+}
