@@ -1,10 +1,39 @@
 # Ein Wort — Development Plan & Tracker
 
-**Status:** Active · **Last updated:** 2026-07-20 · Companion to [architecture.md](architecture.md)
+**Status:** Active · **Last updated:** 2026-07-26 · Companion to [architecture.md](architecture.md)
 
-This is the working tracker. Check tasks off as they land. Phases follow the build
-order in architecture.md §9 — the loop gets onto the phone before the word pipeline
-is built, so daily use starts early.
+This is the working tracker. Check tasks off as they land.
+
+---
+
+## ▶ NEXT SESSION — START HERE
+
+**The app works end to end and runs on real content.** `cd C:/Users/fanof/Projects/ein-wort
+&& npm start` → http://localhost:3000 (add `rm -f data/ein-wort.db*` first for a clean
+first run). Everything is committed to `main` (github.com/GalinaMitricheva/ein-wort).
+
+**What's done:** core loop (offer/calibrate → dossier → done), word capture (tap to save),
+the collection task (`npm run collect`), and **all 101 C1 words with real dossiers**.
+B1/B2 are still just the 14 hand-fixture words.
+
+**Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
+lists ever.** The word list is a hand-curated pool we grow together; specific coverage
+doesn't matter — only skipping known words and capturing unknown ones. Phase 5 (composite
+pipeline) is abandoned.
+
+**Pick up with one of these:**
+1. **Grow the pool** — author more words + dossiers in batches (like the C1 set). Add B1/B2
+   depth, or more C1. Workflow: add words to a `data/words.*.json` file, author dossiers in a
+   `data/dossiers.*.json` file (glob-loaded), run `npm run collect` to confirm none are missing.
+2. **Quality spot-check** the C1 dossiers (task 7.1) — register/Rektion/examples are unverified
+   author's-German. Do metadata via a **local script** (curl Wiktionary), not per-word WebFetch
+   (that burned a quota — see 2026-07-26 note below).
+3. **Phase 4** — get it on the phone (Tailscale is yours; manifest + mobile polish are mine).
+
+**Cost note (learned the hard way 2026-07-26):** verifying words via many parallel `WebFetch`
+calls in a large context is extremely token-expensive. Do bulk lookups as a single local
+script instead. Keep content batches meaningful (one file, one verify, one commit) rather than
+many tiny turns — each turn re-pays the full context cost.
 
 ---
 
@@ -127,7 +156,7 @@ needs no in-app credential; the app makes zero model calls.
       register, near-synonym distinctions. Produced by the collection task (Claude Code),
       not an API call. Still wants a DWDS/Duden spot-check (§7.1) — **O**
 
-### Hand-curated C1 word list (interim, while Phase 5 sources are blocked)
+### Hand-curated C1 word list (this is the model now — no published lists, see Phase 5)
 
 - [x] **C1-list** 100 hand-curated C1 words (`data/words.c1.json`) with correct
       article/plural/key_forms. Multi-file word/dossier loading wired. Wants a Duden
@@ -184,26 +213,17 @@ After this phase you're using it daily and the §9 metric starts counting.
 
 ---
 
-## Phase 5 — Composite word list (§5 of the brief)
+## Phase 5 — ~~Composite word list~~ ABANDONED
 
-The largest chunk. 5.1 gates everything else. 5.2/5.3 parallelize; 5.4 is the real work.
+**Dropped by decision (2026-07-26).** The app is a personal vocabulary tool, not
+exam prep, and will use **no published or copyrighted word lists** (Goethe, publisher,
+Telc, frequency corpora). The specific vocabulary doesn't matter — only that the learner
+skips words they know and captures words they don't. So there is no composite pipeline,
+no source-licensing gate, and no CEFR-fidelity requirement.
 
-- [ ] **5.1** **Acquire sources + verify license terms** for each non-Goethe list
-      (publisher B2/C1, Telc, frequency corpus). Confirm against actual license text,
-      not assumption — some are non-commercial. Blocks publishing any word data — **M**
-- [ ] **5.2** `01-extract-goethe.ts` — B1 PDF → structured rows — **S**
-- [ ] **5.3** `02-extract-publisher.ts` — B2/C1 + Telc sources — **S**
-- [ ] **5.4** **`03-normalize.ts`** — the hard part, per architecture.md §6: verb
-      principal parts, separable prefixes (`anrufen`/`ruft an`), reflexives
-      (`sich erinnern`), noun headword variance, ß/ss. A wrong normalizer produces a
-      list that looks correct and silently offers the same word twice — **O**
-- [ ] **5.5** `04-dedupe.ts` against the A1–B1 base — **S**
-- [ ] **5.6** `05-rank.ts` — join frequency data → `frequency_rank` — **H**
-- [ ] **5.7** `06-emit.ts` → `words.seed.json`, with a build-time assertion that no two
-      rows share a normalized key — **S**
-- [ ] **5.8** **Review level assignments** at the B2/C1 boundary. §5 calls these editorial
-      judgments versioned like code — a model can propose, only you can ratify — **M**
-- [ ] **5.9** Seed importer: `words.seed.json` → `words` table, idempotent — **S**
+The word list is simply a **hand-curated pool** we grow together (the `data/words.*.json`
+files + authored dossiers, loaded by the collection task). Levels (B1/B2/C1) remain only
+as a coarse starting filter the learner picks, not as a claim of official coverage.
 
 ---
 
