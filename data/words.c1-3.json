@@ -1,0 +1,189 @@
+{
+  "list_version": "c1-hand-3",
+  "source": "hand-curated",
+  "note": "C1 supplement (batch 3) — rounds the pool to 1000. Author's German; wants a Wiktionary/Duden spot-check (plan.md 7.1).",
+  "words": [
+    {
+      "lemma": "Gemengelage",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gemengelagen",
+      "level": "C1",
+      "frequency_rank": 572
+    },
+    {
+      "lemma": "Zwiespalt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zwiespälte",
+      "level": "C1",
+      "frequency_rank": 573
+    },
+    {
+      "lemma": "Flickenteppich",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Flickenteppiche",
+      "level": "C1",
+      "frequency_rank": 574
+    },
+    {
+      "lemma": "Gratwanderung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gratwanderungen",
+      "level": "C1",
+      "frequency_rank": 575
+    },
+    {
+      "lemma": "Prüfstein",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Prüfsteine",
+      "level": "C1",
+      "frequency_rank": 576
+    },
+    {
+      "lemma": "Zerreißprobe",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zerreißproben",
+      "level": "C1",
+      "frequency_rank": 577
+    },
+    {
+      "lemma": "Nährboden",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Nährböden",
+      "level": "C1",
+      "frequency_rank": 578
+    },
+    {
+      "lemma": "Blaupause",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Blaupausen",
+      "level": "C1",
+      "frequency_rank": 579
+    },
+    {
+      "lemma": "Zwickmühle",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zwickmühlen",
+      "level": "C1",
+      "frequency_rank": 580
+    },
+    {
+      "lemma": "Politikum",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Politika",
+      "level": "C1",
+      "frequency_rank": 581
+    },
+    {
+      "lemma": "Sollbruchstelle",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Sollbruchstellen",
+      "level": "C1",
+      "frequency_rank": 582
+    },
+    {
+      "lemma": "Kraftakt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kraftakte",
+      "level": "C1",
+      "frequency_rank": 583
+    },
+    {
+      "lemma": "Novum",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Nova",
+      "level": "C1",
+      "frequency_rank": 584
+    },
+    {
+      "lemma": "Chiffre",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Chiffren",
+      "level": "C1",
+      "frequency_rank": 585
+    },
+    {
+      "lemma": "Maxime",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Maximen",
+      "level": "C1",
+      "frequency_rank": 586
+    },
+    {
+      "lemma": "Widerhall",
+      "pos": "noun",
+      "article": "der",
+      "level": "C1",
+      "frequency_rank": 587
+    },
+    {
+      "lemma": "ausloten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "lotet aus",
+        "past": "lotete aus",
+        "perfect": "hat ausgelotet"
+      },
+      "level": "C1",
+      "frequency_rank": 588
+    },
+    {
+      "lemma": "konvergieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "konvergiert",
+        "past": "konvergierte",
+        "perfect": "ist konvergiert"
+      },
+      "level": "C1",
+      "frequency_rank": 589
+    },
+    {
+      "lemma": "divergieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "divergiert",
+        "past": "divergierte",
+        "perfect": "ist divergiert"
+      },
+      "level": "C1",
+      "frequency_rank": 590
+    },
+    {
+      "lemma": "kulminieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "kulminiert",
+        "past": "kulminierte",
+        "perfect": "ist kulminiert"
+      },
+      "level": "C1",
+      "frequency_rank": 591
+    },
+    {
+      "lemma": "antizipieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "antizipiert",
+        "past": "antizipierte",
+        "perfect": "hat antizipiert"
+      },
+      "level": "C1",
+      "frequency_rank": 592
+    }
+  ]
+}

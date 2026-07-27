@@ -1,0 +1,3072 @@
+{
+  "list_version": "c1-hand-2",
+  "source": "hand-curated",
+  "note": "Hand-curated C1 words, batch 2 (extends words.c1.json). Authored in disjoint domain batches; diversifies beyond the argumentation nouns of batch 1. Wants a Wiktionary/Duden spot-check (plan.md 7.1). frequency_rank continues after batch 1.",
+  "words": [
+    {
+      "lemma": "Hypothese",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hypothesen",
+      "level": "C1",
+      "frequency_rank": 201
+    },
+    {
+      "lemma": "Erkenntnis",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Erkenntnisse",
+      "level": "C1",
+      "frequency_rank": 202
+    },
+    {
+      "lemma": "Stichprobe",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Stichproben",
+      "level": "C1",
+      "frequency_rank": 203
+    },
+    {
+      "lemma": "Experiment",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Experimente",
+      "level": "C1",
+      "frequency_rank": 204
+    },
+    {
+      "lemma": "Korrelation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Korrelationen",
+      "level": "C1",
+      "frequency_rank": 205
+    },
+    {
+      "lemma": "Signifikanz",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 206
+    },
+    {
+      "lemma": "Validität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 207
+    },
+    {
+      "lemma": "Reliabilität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 208
+    },
+    {
+      "lemma": "Theorie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Theorien",
+      "level": "C1",
+      "frequency_rank": 209
+    },
+    {
+      "lemma": "These",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Thesen",
+      "level": "C1",
+      "frequency_rank": 210
+    },
+    {
+      "lemma": "Analyse",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Analysen",
+      "level": "C1",
+      "frequency_rank": 211
+    },
+    {
+      "lemma": "Auswertung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Auswertungen",
+      "level": "C1",
+      "frequency_rank": 212
+    },
+    {
+      "lemma": "Paradigma",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Paradigmen",
+      "level": "C1",
+      "frequency_rank": 213
+    },
+    {
+      "lemma": "Fragestellung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fragestellungen",
+      "level": "C1",
+      "frequency_rank": 214
+    },
+    {
+      "lemma": "Forschungsgegenstand",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Forschungsgegenstände",
+      "level": "C1",
+      "frequency_rank": 215
+    },
+    {
+      "lemma": "Falsifizierbarkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 216
+    },
+    {
+      "lemma": "Verallgemeinerung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verallgemeinerungen",
+      "level": "C1",
+      "frequency_rank": 217
+    },
+    {
+      "lemma": "Nachweis",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Nachweise",
+      "level": "C1",
+      "frequency_rank": 218
+    },
+    {
+      "lemma": "Beobachtung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Beobachtungen",
+      "level": "C1",
+      "frequency_rank": 219
+    },
+    {
+      "lemma": "Postulat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Postulate",
+      "level": "C1",
+      "frequency_rank": 220
+    },
+    {
+      "lemma": "Prämisse",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Prämissen",
+      "level": "C1",
+      "frequency_rank": 221
+    },
+    {
+      "lemma": "Deduktion",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Deduktionen",
+      "level": "C1",
+      "frequency_rank": 222
+    },
+    {
+      "lemma": "Induktion",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Induktionen",
+      "level": "C1",
+      "frequency_rank": 223
+    },
+    {
+      "lemma": "Kausalität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 224
+    },
+    {
+      "lemma": "Empirie",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 225
+    },
+    {
+      "lemma": "Objektivität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 226
+    },
+    {
+      "lemma": "Fallstudie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fallstudien",
+      "level": "C1",
+      "frequency_rank": 227
+    },
+    {
+      "lemma": "Dissertation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Dissertationen",
+      "level": "C1",
+      "frequency_rank": 228
+    },
+    {
+      "lemma": "Gutachten",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gutachten",
+      "level": "C1",
+      "frequency_rank": 229
+    },
+    {
+      "lemma": "forschen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "forscht",
+        "past": "forschte",
+        "perfect": "hat geforscht"
+      },
+      "level": "C1",
+      "frequency_rank": 230
+    },
+    {
+      "lemma": "nachweisen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "weist nach",
+        "past": "wies nach",
+        "perfect": "hat nachgewiesen"
+      },
+      "level": "C1",
+      "frequency_rank": 231
+    },
+    {
+      "lemma": "widerlegen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "widerlegt",
+        "past": "widerlegte",
+        "perfect": "hat widerlegt"
+      },
+      "level": "C1",
+      "frequency_rank": 232
+    },
+    {
+      "lemma": "verifizieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verifiziert",
+        "past": "verifizierte",
+        "perfect": "hat verifiziert"
+      },
+      "level": "C1",
+      "frequency_rank": 233
+    },
+    {
+      "lemma": "falsifizieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "falsifiziert",
+        "past": "falsifizierte",
+        "perfect": "hat falsifiziert"
+      },
+      "level": "C1",
+      "frequency_rank": 234
+    },
+    {
+      "lemma": "interpretieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "interpretiert",
+        "past": "interpretierte",
+        "perfect": "hat interpretiert"
+      },
+      "level": "C1",
+      "frequency_rank": 235
+    },
+    {
+      "lemma": "auswerten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "wertet aus",
+        "past": "wertete aus",
+        "perfect": "hat ausgewertet"
+      },
+      "level": "C1",
+      "frequency_rank": 236
+    },
+    {
+      "lemma": "erheben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "erhebt",
+        "past": "erhob",
+        "perfect": "hat erhoben"
+      },
+      "level": "C1",
+      "frequency_rank": 237
+    },
+    {
+      "lemma": "promovieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "promoviert",
+        "past": "promovierte",
+        "perfect": "hat promoviert"
+      },
+      "level": "C1",
+      "frequency_rank": 238
+    },
+    {
+      "lemma": "replizieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "repliziert",
+        "past": "replizierte",
+        "perfect": "hat repliziert"
+      },
+      "level": "C1",
+      "frequency_rank": 239
+    },
+    {
+      "lemma": "operationalisieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "operationalisiert",
+        "past": "operationalisierte",
+        "perfect": "hat operationalisiert"
+      },
+      "level": "C1",
+      "frequency_rank": 240
+    },
+    {
+      "lemma": "empirisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 241
+    },
+    {
+      "lemma": "signifikant",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 242
+    },
+    {
+      "lemma": "reproduzierbar",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 243
+    },
+    {
+      "lemma": "interdisziplinär",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 244
+    },
+    {
+      "lemma": "quantitativ",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 245
+    },
+    {
+      "lemma": "qualitativ",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 246
+    },
+    {
+      "lemma": "kausal",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 247
+    },
+    {
+      "lemma": "evidenzbasiert",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 248
+    },
+    {
+      "lemma": "Rechtsprechung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 249
+    },
+    {
+      "lemma": "Rechtsstreit",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Rechtsstreite",
+      "level": "C1",
+      "frequency_rank": 250
+    },
+    {
+      "lemma": "Klageschrift",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Klageschriften",
+      "level": "C1",
+      "frequency_rank": 251
+    },
+    {
+      "lemma": "Beweisaufnahme",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 252
+    },
+    {
+      "lemma": "Beweislast",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 253
+    },
+    {
+      "lemma": "Beweisantrag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Beweisanträge",
+      "level": "C1",
+      "frequency_rank": 254
+    },
+    {
+      "lemma": "Revision",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Revisionen",
+      "level": "C1",
+      "frequency_rank": 255
+    },
+    {
+      "lemma": "Zwangsvollstreckung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 256
+    },
+    {
+      "lemma": "Gerichtsvollzieher",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Gerichtsvollzieher",
+      "level": "C1",
+      "frequency_rank": 257
+    },
+    {
+      "lemma": "Verjährungsfrist",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verjährungsfristen",
+      "level": "C1",
+      "frequency_rank": 258
+    },
+    {
+      "lemma": "Plädoyer",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Plädoyers",
+      "level": "C1",
+      "frequency_rank": 259
+    },
+    {
+      "lemma": "Anklageschrift",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anklageschriften",
+      "level": "C1",
+      "frequency_rank": 260
+    },
+    {
+      "lemma": "Staatsanwaltschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Staatsanwaltschaften",
+      "level": "C1",
+      "frequency_rank": 261
+    },
+    {
+      "lemma": "Rechtsbehelf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Rechtsbehelfe",
+      "level": "C1",
+      "frequency_rank": 262
+    },
+    {
+      "lemma": "Rechtsmittel",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Rechtsmittel",
+      "level": "C1",
+      "frequency_rank": 263
+    },
+    {
+      "lemma": "Unschuldsvermutung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 264
+    },
+    {
+      "lemma": "Rechtskraft",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 265
+    },
+    {
+      "lemma": "Rechtsgrundlage",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Rechtsgrundlagen",
+      "level": "C1",
+      "frequency_rank": 266
+    },
+    {
+      "lemma": "Rechtsverordnung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Rechtsverordnungen",
+      "level": "C1",
+      "frequency_rank": 267
+    },
+    {
+      "lemma": "Novelle",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Novellen",
+      "level": "C1",
+      "frequency_rank": 268
+    },
+    {
+      "lemma": "Erlass",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Erlasse",
+      "level": "C1",
+      "frequency_rank": 269
+    },
+    {
+      "lemma": "Gewaltenteilung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 270
+    },
+    {
+      "lemma": "Aufsichtsbehörde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Aufsichtsbehörden",
+      "level": "C1",
+      "frequency_rank": 271
+    },
+    {
+      "lemma": "Verwaltungsakt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Verwaltungsakte",
+      "level": "C1",
+      "frequency_rank": 272
+    },
+    {
+      "lemma": "Ermessen",
+      "pos": "noun",
+      "article": "das",
+      "level": "C1",
+      "frequency_rank": 273
+    },
+    {
+      "lemma": "Verfassungsbeschwerde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verfassungsbeschwerden",
+      "level": "C1",
+      "frequency_rank": 274
+    },
+    {
+      "lemma": "Legislative",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 275
+    },
+    {
+      "lemma": "Exekutive",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 276
+    },
+    {
+      "lemma": "anklagen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "klagt an",
+        "past": "klagte an",
+        "perfect": "hat angeklagt"
+      },
+      "level": "C1",
+      "frequency_rank": 277
+    },
+    {
+      "lemma": "vollstrecken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vollstreckt",
+        "past": "vollstreckte",
+        "perfect": "hat vollstreckt"
+      },
+      "level": "C1",
+      "frequency_rank": 278
+    },
+    {
+      "lemma": "verjähren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verjährt",
+        "past": "verjährte",
+        "perfect": "ist verjährt"
+      },
+      "level": "C1",
+      "frequency_rank": 279
+    },
+    {
+      "lemma": "anfechten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "ficht an",
+        "past": "focht an",
+        "perfect": "hat angefochten"
+      },
+      "level": "C1",
+      "frequency_rank": 280
+    },
+    {
+      "lemma": "widerrufen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "widerruft",
+        "past": "widerrief",
+        "perfect": "hat widerrufen"
+      },
+      "level": "C1",
+      "frequency_rank": 281
+    },
+    {
+      "lemma": "erlassen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "erlässt",
+        "past": "erließ",
+        "perfect": "hat erlassen"
+      },
+      "level": "C1",
+      "frequency_rank": 282
+    },
+    {
+      "lemma": "inhaftieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "inhaftiert",
+        "past": "inhaftierte",
+        "perfect": "hat inhaftiert"
+      },
+      "level": "C1",
+      "frequency_rank": 283
+    },
+    {
+      "lemma": "vernehmen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vernimmt",
+        "past": "vernahm",
+        "perfect": "hat vernommen"
+      },
+      "level": "C1",
+      "frequency_rank": 284
+    },
+    {
+      "lemma": "ratifizieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "ratifiziert",
+        "past": "ratifizierte",
+        "perfect": "hat ratifiziert"
+      },
+      "level": "C1",
+      "frequency_rank": 285
+    },
+    {
+      "lemma": "kodifizieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "kodifiziert",
+        "past": "kodifizierte",
+        "perfect": "hat kodifiziert"
+      },
+      "level": "C1",
+      "frequency_rank": 286
+    },
+    {
+      "lemma": "ermächtigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "ermächtigt",
+        "past": "ermächtigte",
+        "perfect": "hat ermächtigt"
+      },
+      "level": "C1",
+      "frequency_rank": 287
+    },
+    {
+      "lemma": "pfänden",
+      "pos": "verb",
+      "key_forms": {
+        "present": "pfändet",
+        "past": "pfändete",
+        "perfect": "hat gepfändet"
+      },
+      "level": "C1",
+      "frequency_rank": 288
+    },
+    {
+      "lemma": "vollstreckbar",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 289
+    },
+    {
+      "lemma": "verfassungswidrig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 290
+    },
+    {
+      "lemma": "behördlich",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 291
+    },
+    {
+      "lemma": "nichtig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 292
+    },
+    {
+      "lemma": "Konjunktur",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 293
+    },
+    {
+      "lemma": "Rezession",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Rezessionen",
+      "level": "C1",
+      "frequency_rank": 294
+    },
+    {
+      "lemma": "Leitzins",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Leitzinsen",
+      "level": "C1",
+      "frequency_rank": 295
+    },
+    {
+      "lemma": "Staatsverschuldung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 296
+    },
+    {
+      "lemma": "Haushaltsüberschuss",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Haushaltsüberschüsse",
+      "level": "C1",
+      "frequency_rank": 297
+    },
+    {
+      "lemma": "Haushaltsdefizit",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Haushaltsdefizite",
+      "level": "C1",
+      "frequency_rank": 298
+    },
+    {
+      "lemma": "Aufschwung",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Aufschwünge",
+      "level": "C1",
+      "frequency_rank": 299
+    },
+    {
+      "lemma": "Geldpolitik",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 300
+    },
+    {
+      "lemma": "Kapitalmarkt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kapitalmärkte",
+      "level": "C1",
+      "frequency_rank": 301
+    },
+    {
+      "lemma": "Zahlungsbilanz",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zahlungsbilanzen",
+      "level": "C1",
+      "frequency_rank": 302
+    },
+    {
+      "lemma": "Exportquote",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Exportquoten",
+      "level": "C1",
+      "frequency_rank": 303
+    },
+    {
+      "lemma": "Protektionismus",
+      "pos": "noun",
+      "article": "der",
+      "level": "C1",
+      "frequency_rank": 304
+    },
+    {
+      "lemma": "Subvention",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Subventionen",
+      "level": "C1",
+      "frequency_rank": 305
+    },
+    {
+      "lemma": "Bonität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 306
+    },
+    {
+      "lemma": "Rendite",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Renditen",
+      "level": "C1",
+      "frequency_rank": 307
+    },
+    {
+      "lemma": "Börsengang",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Börsengänge",
+      "level": "C1",
+      "frequency_rank": 308
+    },
+    {
+      "lemma": "Aufsichtsrat",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Aufsichtsräte",
+      "level": "C1",
+      "frequency_rank": 309
+    },
+    {
+      "lemma": "Hauptversammlung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hauptversammlungen",
+      "level": "C1",
+      "frequency_rank": 310
+    },
+    {
+      "lemma": "Fusion",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fusionen",
+      "level": "C1",
+      "frequency_rank": 311
+    },
+    {
+      "lemma": "Zusammenschluss",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zusammenschlüsse",
+      "level": "C1",
+      "frequency_rank": 312
+    },
+    {
+      "lemma": "Volatilität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 313
+    },
+    {
+      "lemma": "Legislaturperiode",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Legislaturperioden",
+      "level": "C1",
+      "frequency_rank": 314
+    },
+    {
+      "lemma": "Gesetzentwurf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Gesetzentwürfe",
+      "level": "C1",
+      "frequency_rank": 315
+    },
+    {
+      "lemma": "Souveränität",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 316
+    },
+    {
+      "lemma": "Ratifizierung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ratifizierungen",
+      "level": "C1",
+      "frequency_rank": 317
+    },
+    {
+      "lemma": "Referendum",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Referenden",
+      "level": "C1",
+      "frequency_rank": 318
+    },
+    {
+      "lemma": "florieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "floriert",
+        "past": "florierte",
+        "perfect": "hat floriert"
+      },
+      "level": "C1",
+      "frequency_rank": 319
+    },
+    {
+      "lemma": "stagnieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "stagniert",
+        "past": "stagnierte",
+        "perfect": "hat stagniert"
+      },
+      "level": "C1",
+      "frequency_rank": 320
+    },
+    {
+      "lemma": "subventionieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "subventioniert",
+        "past": "subventionierte",
+        "perfect": "hat subventioniert"
+      },
+      "level": "C1",
+      "frequency_rank": 321
+    },
+    {
+      "lemma": "privatisieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "privatisiert",
+        "past": "privatisierte",
+        "perfect": "hat privatisiert"
+      },
+      "level": "C1",
+      "frequency_rank": 322
+    },
+    {
+      "lemma": "verstaatlichen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verstaatlicht",
+        "past": "verstaatlichte",
+        "perfect": "hat verstaatlicht"
+      },
+      "level": "C1",
+      "frequency_rank": 323
+    },
+    {
+      "lemma": "liberalisieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "liberalisiert",
+        "past": "liberalisierte",
+        "perfect": "hat liberalisiert"
+      },
+      "level": "C1",
+      "frequency_rank": 324
+    },
+    {
+      "lemma": "deregulieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "dereguliert",
+        "past": "deregulierte",
+        "perfect": "hat dereguliert"
+      },
+      "level": "C1",
+      "frequency_rank": 325
+    },
+    {
+      "lemma": "fusionieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "fusioniert",
+        "past": "fusionierte",
+        "perfect": "ist fusioniert"
+      },
+      "level": "C1",
+      "frequency_rank": 326
+    },
+    {
+      "lemma": "boykottieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "boykottiert",
+        "past": "boykottierte",
+        "perfect": "hat boykottiert"
+      },
+      "level": "C1",
+      "frequency_rank": 327
+    },
+    {
+      "lemma": "annektieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "annektiert",
+        "past": "annektierte",
+        "perfect": "hat annektiert"
+      },
+      "level": "C1",
+      "frequency_rank": 328
+    },
+    {
+      "lemma": "sanktionieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "sanktioniert",
+        "past": "sanktionierte",
+        "perfect": "hat sanktioniert"
+      },
+      "level": "C1",
+      "frequency_rank": 329
+    },
+    {
+      "lemma": "eskalieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "eskaliert",
+        "past": "eskalierte",
+        "perfect": "ist eskaliert"
+      },
+      "level": "C1",
+      "frequency_rank": 330
+    },
+    {
+      "lemma": "konjunkturell",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 331
+    },
+    {
+      "lemma": "inflationär",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 332
+    },
+    {
+      "lemma": "fiskalisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 333
+    },
+    {
+      "lemma": "geldpolitisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 334
+    },
+    {
+      "lemma": "wettbewerbsfähig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 335
+    },
+    {
+      "lemma": "multilateral",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 336
+    },
+    {
+      "lemma": "autokratisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 337
+    },
+    {
+      "lemma": "Wahrnehmung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wahrnehmungen",
+      "level": "C1",
+      "frequency_rank": 338
+    },
+    {
+      "lemma": "Antrieb",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Antriebe",
+      "level": "C1",
+      "frequency_rank": 339
+    },
+    {
+      "lemma": "Impuls",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Impulse",
+      "level": "C1",
+      "frequency_rank": 340
+    },
+    {
+      "lemma": "Empathie",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 341
+    },
+    {
+      "lemma": "Achtsamkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 342
+    },
+    {
+      "lemma": "Verhaltensweise",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verhaltensweisen",
+      "level": "C1",
+      "frequency_rank": 343
+    },
+    {
+      "lemma": "Trieb",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Triebe",
+      "level": "C1",
+      "frequency_rank": 344
+    },
+    {
+      "lemma": "Verzerrung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verzerrungen",
+      "level": "C1",
+      "frequency_rank": 345
+    },
+    {
+      "lemma": "Voreingenommenheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 346
+    },
+    {
+      "lemma": "Vorurteil",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Vorurteile",
+      "level": "C1",
+      "frequency_rank": 347
+    },
+    {
+      "lemma": "Selbstwirksamkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 348
+    },
+    {
+      "lemma": "Resilienz",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 349
+    },
+    {
+      "lemma": "Groll",
+      "pos": "noun",
+      "article": "der",
+      "level": "C1",
+      "frequency_rank": 350
+    },
+    {
+      "lemma": "Erschöpfung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 351
+    },
+    {
+      "lemma": "Verunsicherung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 352
+    },
+    {
+      "lemma": "Selbstwertgefühl",
+      "pos": "noun",
+      "article": "das",
+      "level": "C1",
+      "frequency_rank": 353
+    },
+    {
+      "lemma": "Kränkung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kränkungen",
+      "level": "C1",
+      "frequency_rank": 354
+    },
+    {
+      "lemma": "Argwohn",
+      "pos": "noun",
+      "article": "der",
+      "level": "C1",
+      "frequency_rank": 355
+    },
+    {
+      "lemma": "Misstrauen",
+      "pos": "noun",
+      "article": "das",
+      "level": "C1",
+      "frequency_rank": 356
+    },
+    {
+      "lemma": "Übersprungshandlung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Übersprungshandlungen",
+      "level": "C1",
+      "frequency_rank": 357
+    },
+    {
+      "lemma": "Verinnerlichung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verinnerlichungen",
+      "level": "C1",
+      "frequency_rank": 358
+    },
+    {
+      "lemma": "Impulskontrolle",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 359
+    },
+    {
+      "lemma": "Triebfeder",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Triebfedern",
+      "level": "C1",
+      "frequency_rank": 360
+    },
+    {
+      "lemma": "Gemütszustand",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Gemütszustände",
+      "level": "C1",
+      "frequency_rank": 361
+    },
+    {
+      "lemma": "Zwangsvorstellung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zwangsvorstellungen",
+      "level": "C1",
+      "frequency_rank": 362
+    },
+    {
+      "lemma": "Selbsttäuschung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Selbsttäuschungen",
+      "level": "C1",
+      "frequency_rank": 363
+    },
+    {
+      "lemma": "Gruppendynamik",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 364
+    },
+    {
+      "lemma": "verdrängen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verdrängt",
+        "past": "verdrängte",
+        "perfect": "hat verdrängt"
+      },
+      "level": "C1",
+      "frequency_rank": 365
+    },
+    {
+      "lemma": "wahrnehmen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "nimmt wahr",
+        "past": "nahm wahr",
+        "perfect": "hat wahrgenommen"
+      },
+      "level": "C1",
+      "frequency_rank": 366
+    },
+    {
+      "lemma": "empfinden",
+      "pos": "verb",
+      "key_forms": {
+        "present": "empfindet",
+        "past": "empfand",
+        "perfect": "hat empfunden"
+      },
+      "level": "C1",
+      "frequency_rank": 367
+    },
+    {
+      "lemma": "entfremden",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entfremdet",
+        "past": "entfremdete",
+        "perfect": "hat entfremdet"
+      },
+      "level": "C1",
+      "frequency_rank": 368
+    },
+    {
+      "lemma": "konditionieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "konditioniert",
+        "past": "konditionierte",
+        "perfect": "hat konditioniert"
+      },
+      "level": "C1",
+      "frequency_rank": 369
+    },
+    {
+      "lemma": "verunsichern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verunsichert",
+        "past": "verunsicherte",
+        "perfect": "hat verunsichert"
+      },
+      "level": "C1",
+      "frequency_rank": 370
+    },
+    {
+      "lemma": "resignieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "resigniert",
+        "past": "resignierte",
+        "perfect": "hat resigniert"
+      },
+      "level": "C1",
+      "frequency_rank": 371
+    },
+    {
+      "lemma": "grübeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "grübelt",
+        "past": "grübelte",
+        "perfect": "hat gegrübelt"
+      },
+      "level": "C1",
+      "frequency_rank": 372
+    },
+    {
+      "lemma": "hadern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "hadert",
+        "past": "haderte",
+        "perfect": "hat gehadert"
+      },
+      "level": "C1",
+      "frequency_rank": 373
+    },
+    {
+      "lemma": "empfänglich",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 374
+    },
+    {
+      "lemma": "unterschwellig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 375
+    },
+    {
+      "lemma": "empathisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 376
+    },
+    {
+      "lemma": "selbstbezogen",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 377
+    },
+    {
+      "lemma": "fremdbestimmt",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 378
+    },
+    {
+      "lemma": "zwanghaft",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 379
+    },
+    {
+      "lemma": "feindselig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 380
+    },
+    {
+      "lemma": "Ästhetik",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 381
+    },
+    {
+      "lemma": "Deutungshoheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 382
+    },
+    {
+      "lemma": "Sprachbild",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Sprachbilder",
+      "level": "C1",
+      "frequency_rank": 383
+    },
+    {
+      "lemma": "Metapher",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Metaphern",
+      "level": "C1",
+      "frequency_rank": 384
+    },
+    {
+      "lemma": "Allegorie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Allegorien",
+      "level": "C1",
+      "frequency_rank": 385
+    },
+    {
+      "lemma": "Rezension",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Rezensionen",
+      "level": "C1",
+      "frequency_rank": 386
+    },
+    {
+      "lemma": "Rezensent",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Rezensenten",
+      "level": "C1",
+      "frequency_rank": 387
+    },
+    {
+      "lemma": "Regisseur",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Regisseure",
+      "level": "C1",
+      "frequency_rank": 388
+    },
+    {
+      "lemma": "Dramaturgie",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 389
+    },
+    {
+      "lemma": "Lyrik",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 390
+    },
+    {
+      "lemma": "Prosa",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 391
+    },
+    {
+      "lemma": "Sujet",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Sujets",
+      "level": "C1",
+      "frequency_rank": 392
+    },
+    {
+      "lemma": "Symbolik",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 393
+    },
+    {
+      "lemma": "Erzählperspektive",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Erzählperspektiven",
+      "level": "C1",
+      "frequency_rank": 394
+    },
+    {
+      "lemma": "Feuilleton",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Feuilletons",
+      "level": "C1",
+      "frequency_rank": 395
+    },
+    {
+      "lemma": "Pathos",
+      "pos": "noun",
+      "article": "das",
+      "level": "C1",
+      "frequency_rank": 396
+    },
+    {
+      "lemma": "Rhetorik",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 397
+    },
+    {
+      "lemma": "Eloquenz",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 398
+    },
+    {
+      "lemma": "Topos",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Topoi",
+      "level": "C1",
+      "frequency_rank": 399
+    },
+    {
+      "lemma": "Kunstgriff",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kunstgriffe",
+      "level": "C1",
+      "frequency_rank": 400
+    },
+    {
+      "lemma": "Wortspiel",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Wortspiele",
+      "level": "C1",
+      "frequency_rank": 401
+    },
+    {
+      "lemma": "Gattung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gattungen",
+      "level": "C1",
+      "frequency_rank": 402
+    },
+    {
+      "lemma": "Zeitgeist",
+      "pos": "noun",
+      "article": "der",
+      "level": "C1",
+      "frequency_rank": 403
+    },
+    {
+      "lemma": "Bildsprache",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 404
+    },
+    {
+      "lemma": "Anthologie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anthologien",
+      "level": "C1",
+      "frequency_rank": 405
+    },
+    {
+      "lemma": "Fälschung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fälschungen",
+      "level": "C1",
+      "frequency_rank": 406
+    },
+    {
+      "lemma": "Bildungsroman",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Bildungsromane",
+      "level": "C1",
+      "frequency_rank": 407
+    },
+    {
+      "lemma": "Zäsur",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zäsuren",
+      "level": "C1",
+      "frequency_rank": 408
+    },
+    {
+      "lemma": "inszenieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "inszeniert",
+        "past": "inszenierte",
+        "perfect": "hat inszeniert"
+      },
+      "level": "C1",
+      "frequency_rank": 409
+    },
+    {
+      "lemma": "rezensieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "rezensiert",
+        "past": "rezensierte",
+        "perfect": "hat rezensiert"
+      },
+      "level": "C1",
+      "frequency_rank": 410
+    },
+    {
+      "lemma": "verfilmen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verfilmt",
+        "past": "verfilmte",
+        "perfect": "hat verfilmt"
+      },
+      "level": "C1",
+      "frequency_rank": 411
+    },
+    {
+      "lemma": "vertonen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vertont",
+        "past": "vertonte",
+        "perfect": "hat vertont"
+      },
+      "level": "C1",
+      "frequency_rank": 412
+    },
+    {
+      "lemma": "deuten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "deutet",
+        "past": "deutete",
+        "perfect": "hat gedeutet"
+      },
+      "level": "C1",
+      "frequency_rank": 413
+    },
+    {
+      "lemma": "rezitieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "rezitiert",
+        "past": "rezitierte",
+        "perfect": "hat rezitiert"
+      },
+      "level": "C1",
+      "frequency_rank": 414
+    },
+    {
+      "lemma": "persiflieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "persifliert",
+        "past": "persiflierte",
+        "perfect": "hat persifliert"
+      },
+      "level": "C1",
+      "frequency_rank": 415
+    },
+    {
+      "lemma": "plagiieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "plagiiert",
+        "past": "plagiierte",
+        "perfect": "hat plagiiert"
+      },
+      "level": "C1",
+      "frequency_rank": 416
+    },
+    {
+      "lemma": "publizieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "publiziert",
+        "past": "publizierte",
+        "perfect": "hat publiziert"
+      },
+      "level": "C1",
+      "frequency_rank": 417
+    },
+    {
+      "lemma": "vielschichtig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 418
+    },
+    {
+      "lemma": "schwülstig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 419
+    },
+    {
+      "lemma": "sprachgewaltig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 420
+    },
+    {
+      "lemma": "stilprägend",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 421
+    },
+    {
+      "lemma": "kunstvoll",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 422
+    },
+    {
+      "lemma": "epochal",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 423
+    },
+    {
+      "lemma": "eklektisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 424
+    },
+    {
+      "lemma": "kontrovers",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 425
+    },
+    {
+      "lemma": "gehaltvoll",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 426
+    },
+    {
+      "lemma": "kitschig",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 427
+    },
+    {
+      "lemma": "Weltanschauung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Weltanschauungen",
+      "level": "C1",
+      "frequency_rank": 428
+    },
+    {
+      "lemma": "Epoche",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Epochen",
+      "level": "C1",
+      "frequency_rank": 429
+    },
+    {
+      "lemma": "Umbruch",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Umbrüche",
+      "level": "C1",
+      "frequency_rank": 430
+    },
+    {
+      "lemma": "Ideologie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ideologien",
+      "level": "C1",
+      "frequency_rank": 431
+    },
+    {
+      "lemma": "Legitimation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Legitimationen",
+      "level": "C1",
+      "frequency_rank": 432
+    },
+    {
+      "lemma": "Weltordnung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Weltordnungen",
+      "level": "C1",
+      "frequency_rank": 433
+    },
+    {
+      "lemma": "Entkolonialisierung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 434
+    },
+    {
+      "lemma": "Vergangenheitsbewältigung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 435
+    },
+    {
+      "lemma": "Barbarei",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 436
+    },
+    {
+      "lemma": "Menschenwürde",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 437
+    },
+    {
+      "lemma": "Gemeinwohl",
+      "pos": "noun",
+      "article": "das",
+      "level": "C1",
+      "frequency_rank": 438
+    },
+    {
+      "lemma": "Ungerechtigkeit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ungerechtigkeiten",
+      "level": "C1",
+      "frequency_rank": 439
+    },
+    {
+      "lemma": "Tugend",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Tugenden",
+      "level": "C1",
+      "frequency_rank": 440
+    },
+    {
+      "lemma": "Laster",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Laster",
+      "level": "C1",
+      "frequency_rank": 441
+    },
+    {
+      "lemma": "Mündigkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 442
+    },
+    {
+      "lemma": "Entmündigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Entmündigungen",
+      "level": "C1",
+      "frequency_rank": 443
+    },
+    {
+      "lemma": "Beliebigkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 444
+    },
+    {
+      "lemma": "Doktrin",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Doktrinen",
+      "level": "C1",
+      "frequency_rank": 445
+    },
+    {
+      "lemma": "Utopie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Utopien",
+      "level": "C1",
+      "frequency_rank": 446
+    },
+    {
+      "lemma": "Dystopie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Dystopien",
+      "level": "C1",
+      "frequency_rank": 447
+    },
+    {
+      "lemma": "Umsturz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Umstürze",
+      "level": "C1",
+      "frequency_rank": 448
+    },
+    {
+      "lemma": "Repression",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Repressionen",
+      "level": "C1",
+      "frequency_rank": 449
+    },
+    {
+      "lemma": "Unterdrückung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Unterdrückungen",
+      "level": "C1",
+      "frequency_rank": 450
+    },
+    {
+      "lemma": "Restauration",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Restaurationen",
+      "level": "C1",
+      "frequency_rank": 451
+    },
+    {
+      "lemma": "Säkularisierung",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 452
+    },
+    {
+      "lemma": "Leibeigenschaft",
+      "pos": "noun",
+      "article": "die",
+      "level": "C1",
+      "frequency_rank": 453
+    },
+    {
+      "lemma": "Feudalismus",
+      "pos": "noun",
+      "article": "der",
+      "level": "C1",
+      "frequency_rank": 454
+    },
+    {
+      "lemma": "Ständegesellschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ständegesellschaften",
+      "level": "C1",
+      "frequency_rank": 455
+    },
+    {
+      "lemma": "sich emanzipieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "emanzipiert sich",
+        "past": "emanzipierte sich",
+        "perfect": "hat sich emanzipiert"
+      },
+      "level": "C1",
+      "frequency_rank": 456
+    },
+    {
+      "lemma": "entzweien",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entzweit",
+        "past": "entzweite",
+        "perfect": "hat entzweit"
+      },
+      "level": "C1",
+      "frequency_rank": 457
+    },
+    {
+      "lemma": "verrohen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verroht",
+        "past": "verrohte",
+        "perfect": "ist verroht"
+      },
+      "level": "C1",
+      "frequency_rank": 458
+    },
+    {
+      "lemma": "huldigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "huldigt",
+        "past": "huldigte",
+        "perfect": "hat gehuldigt"
+      },
+      "level": "C1",
+      "frequency_rank": 459
+    },
+    {
+      "lemma": "unterjochen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "unterjocht",
+        "past": "unterjochte",
+        "perfect": "hat unterjocht"
+      },
+      "level": "C1",
+      "frequency_rank": 460
+    },
+    {
+      "lemma": "entmündigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entmündigt",
+        "past": "entmündigte",
+        "perfect": "hat entmündigt"
+      },
+      "level": "C1",
+      "frequency_rank": 461
+    },
+    {
+      "lemma": "bevormunden",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bevormundet",
+        "past": "bevormundete",
+        "perfect": "hat bevormundet"
+      },
+      "level": "C1",
+      "frequency_rank": 462
+    },
+    {
+      "lemma": "verklären",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verklärt",
+        "past": "verklärte",
+        "perfect": "hat verklärt"
+      },
+      "level": "C1",
+      "frequency_rank": 463
+    },
+    {
+      "lemma": "säkularisieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "säkularisiert",
+        "past": "säkularisierte",
+        "perfect": "hat säkularisiert"
+      },
+      "level": "C1",
+      "frequency_rank": 464
+    },
+    {
+      "lemma": "sich auflehnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "lehnt sich auf",
+        "past": "lehnte sich auf",
+        "perfect": "hat sich aufgelehnt"
+      },
+      "level": "C1",
+      "frequency_rank": 465
+    },
+    {
+      "lemma": "entmachten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entmachtet",
+        "past": "entmachtete",
+        "perfect": "hat entmachtet"
+      },
+      "level": "C1",
+      "frequency_rank": 466
+    },
+    {
+      "lemma": "instrumentalisieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "instrumentalisiert",
+        "past": "instrumentalisierte",
+        "perfect": "hat instrumentalisiert"
+      },
+      "level": "C1",
+      "frequency_rank": 467
+    },
+    {
+      "lemma": "umwälzend",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 468
+    },
+    {
+      "lemma": "weltanschaulich",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 469
+    },
+    {
+      "lemma": "totalitär",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 470
+    },
+    {
+      "lemma": "autoritär",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 471
+    },
+    {
+      "lemma": "emanzipatorisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 472
+    },
+    {
+      "lemma": "anachronistisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 473
+    },
+    {
+      "lemma": "menschenverachtend",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 474
+    },
+    {
+      "lemma": "verharren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verharrt",
+        "past": "verharrte",
+        "perfect": "hat verharrt"
+      },
+      "level": "C1",
+      "frequency_rank": 475
+    },
+    {
+      "lemma": "sich abzeichnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zeichnet sich ab",
+        "past": "zeichnete sich ab",
+        "perfect": "hat sich abgezeichnet"
+      },
+      "level": "C1",
+      "frequency_rank": 476
+    },
+    {
+      "lemma": "anstreben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "strebt an",
+        "past": "strebte an",
+        "perfect": "hat angestrebt"
+      },
+      "level": "C1",
+      "frequency_rank": 477
+    },
+    {
+      "lemma": "aufzeigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zeigt auf",
+        "past": "zeigte auf",
+        "perfect": "hat aufgezeigt"
+      },
+      "level": "C1",
+      "frequency_rank": 478
+    },
+    {
+      "lemma": "ausräumen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "räumt aus",
+        "past": "räumte aus",
+        "perfect": "hat ausgeräumt"
+      },
+      "level": "C1",
+      "frequency_rank": 479
+    },
+    {
+      "lemma": "begünstigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "begünstigt",
+        "past": "begünstigte",
+        "perfect": "hat begünstigt"
+      },
+      "level": "C1",
+      "frequency_rank": 480
+    },
+    {
+      "lemma": "sich bewähren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bewährt sich",
+        "past": "bewährte sich",
+        "perfect": "hat sich bewährt"
+      },
+      "level": "C1",
+      "frequency_rank": 481
+    },
+    {
+      "lemma": "einbüßen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "büßt ein",
+        "past": "büßte ein",
+        "perfect": "hat eingebüßt"
+      },
+      "level": "C1",
+      "frequency_rank": 482
+    },
+    {
+      "lemma": "sich erübrigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "erübrigt sich",
+        "past": "erübrigte sich",
+        "perfect": "hat sich erübrigt"
+      },
+      "level": "C1",
+      "frequency_rank": 483
+    },
+    {
+      "lemma": "herbeiführen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "führt herbei",
+        "past": "führte herbei",
+        "perfect": "hat herbeigeführt"
+      },
+      "level": "C1",
+      "frequency_rank": 484
+    },
+    {
+      "lemma": "sich verschärfen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verschärft sich",
+        "past": "verschärfte sich",
+        "perfect": "hat sich verschärft"
+      },
+      "level": "C1",
+      "frequency_rank": 485
+    },
+    {
+      "lemma": "vollziehen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vollzieht",
+        "past": "vollzog",
+        "perfect": "hat vollzogen"
+      },
+      "level": "C1",
+      "frequency_rank": 486
+    },
+    {
+      "lemma": "vorherrschen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "herrscht vor",
+        "past": "herrschte vor",
+        "perfect": "hat vorgeherrscht"
+      },
+      "level": "C1",
+      "frequency_rank": 487
+    },
+    {
+      "lemma": "widerspiegeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "spiegelt wider",
+        "past": "spiegelte wider",
+        "perfect": "hat widergespiegelt"
+      },
+      "level": "C1",
+      "frequency_rank": 488
+    },
+    {
+      "lemma": "zeugen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zeugt",
+        "past": "zeugte",
+        "perfect": "hat gezeugt"
+      },
+      "level": "C1",
+      "frequency_rank": 489
+    },
+    {
+      "lemma": "abzielen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zielt ab",
+        "past": "zielte ab",
+        "perfect": "hat abgezielt"
+      },
+      "level": "C1",
+      "frequency_rank": 490
+    },
+    {
+      "lemma": "sich anbahnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bahnt sich an",
+        "past": "bahnte sich an",
+        "perfect": "hat sich angebahnt"
+      },
+      "level": "C1",
+      "frequency_rank": 491
+    },
+    {
+      "lemma": "aufgreifen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "greift auf",
+        "past": "griff auf",
+        "perfect": "hat aufgegriffen"
+      },
+      "level": "C1",
+      "frequency_rank": 492
+    },
+    {
+      "lemma": "sich ausweiten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "weitet sich aus",
+        "past": "weitete sich aus",
+        "perfect": "hat sich ausgeweitet"
+      },
+      "level": "C1",
+      "frequency_rank": 493
+    },
+    {
+      "lemma": "entgegenwirken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "wirkt entgegen",
+        "past": "wirkte entgegen",
+        "perfect": "hat entgegengewirkt"
+      },
+      "level": "C1",
+      "frequency_rank": 494
+    },
+    {
+      "lemma": "bemessen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bemisst",
+        "past": "bemaß",
+        "perfect": "hat bemessen"
+      },
+      "level": "C1",
+      "frequency_rank": 495
+    },
+    {
+      "lemma": "beschwören",
+      "pos": "verb",
+      "key_forms": {
+        "present": "beschwört",
+        "past": "beschwor",
+        "perfect": "hat beschworen"
+      },
+      "level": "C1",
+      "frequency_rank": 496
+    },
+    {
+      "lemma": "bewahren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bewahrt",
+        "past": "bewahrte",
+        "perfect": "hat bewahrt"
+      },
+      "level": "C1",
+      "frequency_rank": 497
+    },
+    {
+      "lemma": "bündeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bündelt",
+        "past": "bündelte",
+        "perfect": "hat gebündelt"
+      },
+      "level": "C1",
+      "frequency_rank": 498
+    },
+    {
+      "lemma": "sich einbürgern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bürgert sich ein",
+        "past": "bürgerte sich ein",
+        "perfect": "hat sich eingebürgert"
+      },
+      "level": "C1",
+      "frequency_rank": 499
+    },
+    {
+      "lemma": "einwirken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "wirkt ein",
+        "past": "wirkte ein",
+        "perfect": "hat eingewirkt"
+      },
+      "level": "C1",
+      "frequency_rank": 500
+    },
+    {
+      "lemma": "entbehren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entbehrt",
+        "past": "entbehrte",
+        "perfect": "hat entbehrt"
+      },
+      "level": "C1",
+      "frequency_rank": 501
+    },
+    {
+      "lemma": "entfalten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entfaltet",
+        "past": "entfaltete",
+        "perfect": "hat entfaltet"
+      },
+      "level": "C1",
+      "frequency_rank": 502
+    },
+    {
+      "lemma": "entstammen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entstammt",
+        "past": "entstammte",
+        "perfect": "ist entstammt"
+      },
+      "level": "C1",
+      "frequency_rank": 503
+    },
+    {
+      "lemma": "erwirken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "erwirkt",
+        "past": "erwirkte",
+        "perfect": "hat erwirkt"
+      },
+      "level": "C1",
+      "frequency_rank": 504
+    },
+    {
+      "lemma": "sich etablieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "etabliert sich",
+        "past": "etablierte sich",
+        "perfect": "hat sich etabliert"
+      },
+      "level": "C1",
+      "frequency_rank": 505
+    },
+    {
+      "lemma": "hervorbringen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bringt hervor",
+        "past": "brachte hervor",
+        "perfect": "hat hervorgebracht"
+      },
+      "level": "C1",
+      "frequency_rank": 506
+    },
+    {
+      "lemma": "innewohnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "wohnt inne",
+        "past": "wohnte inne",
+        "perfect": "hat innegewohnt"
+      },
+      "level": "C1",
+      "frequency_rank": 507
+    },
+    {
+      "lemma": "konstatieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "konstatiert",
+        "past": "konstatierte",
+        "perfect": "hat konstatiert"
+      },
+      "level": "C1",
+      "frequency_rank": 508
+    },
+    {
+      "lemma": "mahnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "mahnt",
+        "past": "mahnte",
+        "perfect": "hat gemahnt"
+      },
+      "level": "C1",
+      "frequency_rank": 509
+    },
+    {
+      "lemma": "postulieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "postuliert",
+        "past": "postulierte",
+        "perfect": "hat postuliert"
+      },
+      "level": "C1",
+      "frequency_rank": 510
+    },
+    {
+      "lemma": "präzisieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "präzisiert",
+        "past": "präzisierte",
+        "perfect": "hat präzisiert"
+      },
+      "level": "C1",
+      "frequency_rank": 511
+    },
+    {
+      "lemma": "rechtfertigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "rechtfertigt",
+        "past": "rechtfertigte",
+        "perfect": "hat gerechtfertigt"
+      },
+      "level": "C1",
+      "frequency_rank": 512
+    },
+    {
+      "lemma": "resultieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "resultiert",
+        "past": "resultierte",
+        "perfect": "hat resultiert"
+      },
+      "level": "C1",
+      "frequency_rank": 513
+    },
+    {
+      "lemma": "skizzieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "skizziert",
+        "past": "skizzierte",
+        "perfect": "hat skizziert"
+      },
+      "level": "C1",
+      "frequency_rank": 514
+    },
+    {
+      "lemma": "stiften",
+      "pos": "verb",
+      "key_forms": {
+        "present": "stiftet",
+        "past": "stiftete",
+        "perfect": "hat gestiftet"
+      },
+      "level": "C1",
+      "frequency_rank": 515
+    },
+    {
+      "lemma": "tendieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "tendiert",
+        "past": "tendierte",
+        "perfect": "hat tendiert"
+      },
+      "level": "C1",
+      "frequency_rank": 516
+    },
+    {
+      "lemma": "überdauern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "überdauert",
+        "past": "überdauerte",
+        "perfect": "hat überdauert"
+      },
+      "level": "C1",
+      "frequency_rank": 517
+    },
+    {
+      "lemma": "sich vergegenwärtigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vergegenwärtigt sich",
+        "past": "vergegenwärtigte sich",
+        "perfect": "hat sich vergegenwärtigt"
+      },
+      "level": "C1",
+      "frequency_rank": 518
+    },
+    {
+      "lemma": "verheißen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verheißt",
+        "past": "verhieß",
+        "perfect": "hat verheißen"
+      },
+      "level": "C1",
+      "frequency_rank": 519
+    },
+    {
+      "lemma": "verkennen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verkennt",
+        "past": "verkannte",
+        "perfect": "hat verkannt"
+      },
+      "level": "C1",
+      "frequency_rank": 520
+    },
+    {
+      "lemma": "veranlassen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "veranlasst",
+        "past": "veranlasste",
+        "perfect": "hat veranlasst"
+      },
+      "level": "C1",
+      "frequency_rank": 521
+    },
+    {
+      "lemma": "zeitigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zeitigt",
+        "past": "zeitigte",
+        "perfect": "hat gezeitigt"
+      },
+      "level": "C1",
+      "frequency_rank": 522
+    },
+    {
+      "lemma": "akribisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 523
+    },
+    {
+      "lemma": "prekär",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 524
+    },
+    {
+      "lemma": "paradox",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 525
+    },
+    {
+      "lemma": "ambivalent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 526
+    },
+    {
+      "lemma": "autark",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 527
+    },
+    {
+      "lemma": "dogmatisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 528
+    },
+    {
+      "lemma": "euphorisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 529
+    },
+    {
+      "lemma": "exzessiv",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 530
+    },
+    {
+      "lemma": "hedonistisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 531
+    },
+    {
+      "lemma": "immanent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 532
+    },
+    {
+      "lemma": "inhärent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 533
+    },
+    {
+      "lemma": "irreversibel",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 534
+    },
+    {
+      "lemma": "kohärent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 535
+    },
+    {
+      "lemma": "latent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 536
+    },
+    {
+      "lemma": "lukrativ",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 537
+    },
+    {
+      "lemma": "notorisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 538
+    },
+    {
+      "lemma": "obsolet",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 539
+    },
+    {
+      "lemma": "opportun",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 540
+    },
+    {
+      "lemma": "penibel",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 541
+    },
+    {
+      "lemma": "polarisierend",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 542
+    },
+    {
+      "lemma": "profan",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 543
+    },
+    {
+      "lemma": "provisorisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 544
+    },
+    {
+      "lemma": "redundant",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 545
+    },
+    {
+      "lemma": "rigoros",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 546
+    },
+    {
+      "lemma": "sakrosankt",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 547
+    },
+    {
+      "lemma": "skrupellos",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 548
+    },
+    {
+      "lemma": "souverän",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 549
+    },
+    {
+      "lemma": "subversiv",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 550
+    },
+    {
+      "lemma": "suggestiv",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 551
+    },
+    {
+      "lemma": "transzendent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 552
+    },
+    {
+      "lemma": "utopisch",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 553
+    },
+    {
+      "lemma": "verwerflich",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 554
+    },
+    {
+      "lemma": "virulent",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 555
+    },
+    {
+      "lemma": "fragil",
+      "pos": "adjective",
+      "level": "C1",
+      "frequency_rank": 556
+    },
+    {
+      "lemma": "infolgedessen",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 557
+    },
+    {
+      "lemma": "nichtsdestotrotz",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 558
+    },
+    {
+      "lemma": "immerhin",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 559
+    },
+    {
+      "lemma": "fortan",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 560
+    },
+    {
+      "lemma": "unterdessen",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 561
+    },
+    {
+      "lemma": "schlechthin",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 562
+    },
+    {
+      "lemma": "vielmehr",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 563
+    },
+    {
+      "lemma": "zugegebenermaßen",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 564
+    },
+    {
+      "lemma": "überaus",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 565
+    },
+    {
+      "lemma": "insofern",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 566
+    },
+    {
+      "lemma": "geradezu",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 567
+    },
+    {
+      "lemma": "bekanntlich",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 568
+    },
+    {
+      "lemma": "erwiesenermaßen",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 569
+    },
+    {
+      "lemma": "keinesfalls",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 570
+    },
+    {
+      "lemma": "letztendlich",
+      "pos": "adverb",
+      "level": "C1",
+      "frequency_rank": 571
+    }
+  ]
+}

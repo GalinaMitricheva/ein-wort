@@ -8,17 +8,24 @@ const here = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(here, "..", "..", "data");
 const dataFile = (name: string): string => join(dataDir, name);
 
-// Word lists load in a fixed order (later files upsert over earlier ones by
-// lemma+pos). Dossier files are globbed, so a new authored batch (dossiers.*.json)
-// is picked up automatically — dossiers are keyed by lemma, so order doesn't matter.
-export const WORD_FILES = [dataFile("words.fixture.json"), dataFile("words.c1.json")];
+// Word lists and dossier files are both globbed, so a new authored batch
+// (words.*.json / dossiers.*.json) is picked up automatically. Word lists load
+// with words.fixture.json as the base layer, then the rest alphabetically; later
+// files upsert over earlier ones by lemma+pos (so a curated words.c1*.json wins
+// over the fixture for any shared lemma). Dossiers are keyed by lemma, so order
+// doesn't matter there.
+const wordFileNames = readdirSync(dataDir).filter((f) => /^words.*\.json$/.test(f));
+export const WORD_FILES = [
+  ...wordFileNames.filter((f) => f === "words.fixture.json"),
+  ...wordFileNames.filter((f) => f !== "words.fixture.json").sort(),
+].map((f) => join(dataDir, f));
 export const DOSSIER_FILES = readdirSync(dataDir)
   .filter((f) => /^dossiers.*\.json$/.test(f))
   .sort()
   .map((f) => join(dataDir, f));
 
 // Back-compat single-file paths (used by tests).
-export const FIXTURE_PATH = WORD_FILES[0]!;
+export const FIXTURE_PATH = dataFile("words.fixture.json");
 export const DOSSIERS_PATH = DOSSIER_FILES[0]!;
 
 interface FixtureWord {

@@ -1,0 +1,4088 @@
+{
+  "list_version": "b2-hand-1",
+  "source": "hand-curated",
+  "note": "Hand-curated B2 words authored in disjoint semantic-domain batches (parallel sub-agents). Genders/plurals/verb forms are author's German and want a Wiktionary/Duden spot-check (plan.md 7.1) before fully trusted. frequency_rank is a rough ordering.",
+  "words": [
+    {
+      "lemma": "Arbeitgeber",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Arbeitgeber",
+      "level": "B2",
+      "frequency_rank": 1
+    },
+    {
+      "lemma": "Arbeitnehmer",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Arbeitnehmer",
+      "level": "B2",
+      "frequency_rank": 2
+    },
+    {
+      "lemma": "Arbeitsvertrag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Arbeitsverträge",
+      "level": "B2",
+      "frequency_rank": 3
+    },
+    {
+      "lemma": "Bewerbung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Bewerbungen",
+      "level": "B2",
+      "frequency_rank": 4
+    },
+    {
+      "lemma": "Lebenslauf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Lebensläufe",
+      "level": "B2",
+      "frequency_rank": 5
+    },
+    {
+      "lemma": "Vorstellungsgespräch",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Vorstellungsgespräche",
+      "level": "B2",
+      "frequency_rank": 6
+    },
+    {
+      "lemma": "Kündigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kündigungen",
+      "level": "B2",
+      "frequency_rank": 7
+    },
+    {
+      "lemma": "Kollege",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kollegen",
+      "level": "B2",
+      "frequency_rank": 8
+    },
+    {
+      "lemma": "Gehaltserhöhung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gehaltserhöhungen",
+      "level": "B2",
+      "frequency_rank": 9
+    },
+    {
+      "lemma": "Führungskraft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Führungskräfte",
+      "level": "B2",
+      "frequency_rank": 10
+    },
+    {
+      "lemma": "Betriebsrat",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Betriebsräte",
+      "level": "B2",
+      "frequency_rank": 11
+    },
+    {
+      "lemma": "Weiterbildung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Weiterbildungen",
+      "level": "B2",
+      "frequency_rank": 12
+    },
+    {
+      "lemma": "Arbeitsplatz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Arbeitsplätze",
+      "level": "B2",
+      "frequency_rank": 13
+    },
+    {
+      "lemma": "Arbeitszeit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Arbeitszeiten",
+      "level": "B2",
+      "frequency_rank": 14
+    },
+    {
+      "lemma": "Feierabend",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 15
+    },
+    {
+      "lemma": "Probezeit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Probezeiten",
+      "level": "B2",
+      "frequency_rank": 16
+    },
+    {
+      "lemma": "Zeitdruck",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 17
+    },
+    {
+      "lemma": "Fachkraft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fachkräfte",
+      "level": "B2",
+      "frequency_rank": 18
+    },
+    {
+      "lemma": "Personalabteilung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Personalabteilungen",
+      "level": "B2",
+      "frequency_rank": 19
+    },
+    {
+      "lemma": "Gehalt",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gehälter",
+      "level": "B2",
+      "frequency_rank": 20
+    },
+    {
+      "lemma": "Überstunde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Überstunden",
+      "level": "B2",
+      "frequency_rank": 21
+    },
+    {
+      "lemma": "Kündigungsfrist",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kündigungsfristen",
+      "level": "B2",
+      "frequency_rank": 22
+    },
+    {
+      "lemma": "Betriebsklima",
+      "pos": "noun",
+      "article": "das",
+      "level": "B2",
+      "frequency_rank": 23
+    },
+    {
+      "lemma": "Zuständigkeitsbereich",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zuständigkeitsbereiche",
+      "level": "B2",
+      "frequency_rank": 24
+    },
+    {
+      "lemma": "Fachkompetenz",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fachkompetenzen",
+      "level": "B2",
+      "frequency_rank": 25
+    },
+    {
+      "lemma": "Ausbildungsplatz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Ausbildungsplätze",
+      "level": "B2",
+      "frequency_rank": 26
+    },
+    {
+      "lemma": "Praktikant",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Praktikanten",
+      "level": "B2",
+      "frequency_rank": 27
+    },
+    {
+      "lemma": "Tarifvertrag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Tarifverträge",
+      "level": "B2",
+      "frequency_rank": 28
+    },
+    {
+      "lemma": "Gewerkschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gewerkschaften",
+      "level": "B2",
+      "frequency_rank": 29
+    },
+    {
+      "lemma": "Streik",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Streiks",
+      "level": "B2",
+      "frequency_rank": 30
+    },
+    {
+      "lemma": "Abfindung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Abfindungen",
+      "level": "B2",
+      "frequency_rank": 31
+    },
+    {
+      "lemma": "Festanstellung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Festanstellungen",
+      "level": "B2",
+      "frequency_rank": 32
+    },
+    {
+      "lemma": "Mindestlohn",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Mindestlöhne",
+      "level": "B2",
+      "frequency_rank": 33
+    },
+    {
+      "lemma": "Arbeitszeugnis",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Arbeitszeugnisse",
+      "level": "B2",
+      "frequency_rank": 34
+    },
+    {
+      "lemma": "sich bewerben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bewirbt sich",
+        "past": "bewarb sich",
+        "perfect": "hat sich beworben"
+      },
+      "level": "B2",
+      "frequency_rank": 35
+    },
+    {
+      "lemma": "einstellen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "stellt ein",
+        "past": "stellte ein",
+        "perfect": "hat eingestellt"
+      },
+      "level": "B2",
+      "frequency_rank": 36
+    },
+    {
+      "lemma": "kündigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "kündigt",
+        "past": "kündigte",
+        "perfect": "hat gekündigt"
+      },
+      "level": "B2",
+      "frequency_rank": 37
+    },
+    {
+      "lemma": "entlassen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entlässt",
+        "past": "entließ",
+        "perfect": "hat entlassen"
+      },
+      "level": "B2",
+      "frequency_rank": 38
+    },
+    {
+      "lemma": "befördern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "befördert",
+        "past": "beförderte",
+        "perfect": "hat befördert"
+      },
+      "level": "B2",
+      "frequency_rank": 39
+    },
+    {
+      "lemma": "verhandeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verhandelt",
+        "past": "verhandelte",
+        "perfect": "hat verhandelt"
+      },
+      "level": "B2",
+      "frequency_rank": 40
+    },
+    {
+      "lemma": "sich einarbeiten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "arbeitet sich ein",
+        "past": "arbeitete sich ein",
+        "perfect": "hat sich eingearbeitet"
+      },
+      "level": "B2",
+      "frequency_rank": 41
+    },
+    {
+      "lemma": "leiten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "leitet",
+        "past": "leitete",
+        "perfect": "hat geleitet"
+      },
+      "level": "B2",
+      "frequency_rank": 42
+    },
+    {
+      "lemma": "koordinieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "koordiniert",
+        "past": "koordinierte",
+        "perfect": "hat koordiniert"
+      },
+      "level": "B2",
+      "frequency_rank": 43
+    },
+    {
+      "lemma": "streiken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "streikt",
+        "past": "streikte",
+        "perfect": "hat gestreikt"
+      },
+      "level": "B2",
+      "frequency_rank": 44
+    },
+    {
+      "lemma": "abwerben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "wirbt ab",
+        "past": "warb ab",
+        "perfect": "hat abgeworben"
+      },
+      "level": "B2",
+      "frequency_rank": 45
+    },
+    {
+      "lemma": "belastbar",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 46
+    },
+    {
+      "lemma": "eigenverantwortlich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 47
+    },
+    {
+      "lemma": "teamfähig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 48
+    },
+    {
+      "lemma": "befristet",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 49
+    },
+    {
+      "lemma": "unbefristet",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 50
+    },
+    {
+      "lemma": "Entzündung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Entzündungen",
+      "level": "B2",
+      "frequency_rank": 51
+    },
+    {
+      "lemma": "Impfung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Impfungen",
+      "level": "B2",
+      "frequency_rank": 52
+    },
+    {
+      "lemma": "Behandlung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Behandlungen",
+      "level": "B2",
+      "frequency_rank": 53
+    },
+    {
+      "lemma": "Untersuchung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Untersuchungen",
+      "level": "B2",
+      "frequency_rank": 54
+    },
+    {
+      "lemma": "Befund",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Befunde",
+      "level": "B2",
+      "frequency_rank": 55
+    },
+    {
+      "lemma": "Diagnose",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Diagnosen",
+      "level": "B2",
+      "frequency_rank": 56
+    },
+    {
+      "lemma": "Therapie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Therapien",
+      "level": "B2",
+      "frequency_rank": 57
+    },
+    {
+      "lemma": "Medikament",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Medikamente",
+      "level": "B2",
+      "frequency_rank": 58
+    },
+    {
+      "lemma": "Nebenwirkung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Nebenwirkungen",
+      "level": "B2",
+      "frequency_rank": 59
+    },
+    {
+      "lemma": "Verletzung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verletzungen",
+      "level": "B2",
+      "frequency_rank": 60
+    },
+    {
+      "lemma": "Blutdruck",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 61
+    },
+    {
+      "lemma": "Ansteckung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ansteckungen",
+      "level": "B2",
+      "frequency_rank": 62
+    },
+    {
+      "lemma": "Erreger",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Erreger",
+      "level": "B2",
+      "frequency_rank": 63
+    },
+    {
+      "lemma": "Symptom",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Symptome",
+      "level": "B2",
+      "frequency_rank": 64
+    },
+    {
+      "lemma": "Genesung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 65
+    },
+    {
+      "lemma": "Rückfall",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Rückfälle",
+      "level": "B2",
+      "frequency_rank": 66
+    },
+    {
+      "lemma": "Notarzt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Notärzte",
+      "level": "B2",
+      "frequency_rank": 67
+    },
+    {
+      "lemma": "Narkose",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Narkosen",
+      "level": "B2",
+      "frequency_rank": 68
+    },
+    {
+      "lemma": "Operation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Operationen",
+      "level": "B2",
+      "frequency_rank": 69
+    },
+    {
+      "lemma": "Eingriff",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Eingriffe",
+      "level": "B2",
+      "frequency_rank": 70
+    },
+    {
+      "lemma": "Allergie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Allergien",
+      "level": "B2",
+      "frequency_rank": 71
+    },
+    {
+      "lemma": "Kreislauf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kreisläufe",
+      "level": "B2",
+      "frequency_rank": 72
+    },
+    {
+      "lemma": "Atmung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 73
+    },
+    {
+      "lemma": "Puls",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Pulse",
+      "level": "B2",
+      "frequency_rank": 74
+    },
+    {
+      "lemma": "Verstauchung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verstauchungen",
+      "level": "B2",
+      "frequency_rank": 75
+    },
+    {
+      "lemma": "Knochenbruch",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Knochenbrüche",
+      "level": "B2",
+      "frequency_rank": 76
+    },
+    {
+      "lemma": "Prellung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Prellungen",
+      "level": "B2",
+      "frequency_rank": 77
+    },
+    {
+      "lemma": "Übelkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 78
+    },
+    {
+      "lemma": "Schwindel",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 79
+    },
+    {
+      "lemma": "Facharzt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Fachärzte",
+      "level": "B2",
+      "frequency_rank": 80
+    },
+    {
+      "lemma": "Sprechstunde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Sprechstunden",
+      "level": "B2",
+      "frequency_rank": 81
+    },
+    {
+      "lemma": "Praxis",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Praxen",
+      "level": "B2",
+      "frequency_rank": 82
+    },
+    {
+      "lemma": "Wirkstoff",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wirkstoffe",
+      "level": "B2",
+      "frequency_rank": 83
+    },
+    {
+      "lemma": "Beschwerde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Beschwerden",
+      "level": "B2",
+      "frequency_rank": 84
+    },
+    {
+      "lemma": "Krankenversicherung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Krankenversicherungen",
+      "level": "B2",
+      "frequency_rank": 85
+    },
+    {
+      "lemma": "behandeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "behandelt",
+        "past": "behandelte",
+        "perfect": "hat behandelt"
+      },
+      "level": "B2",
+      "frequency_rank": 86
+    },
+    {
+      "lemma": "untersuchen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "untersucht",
+        "past": "untersuchte",
+        "perfect": "hat untersucht"
+      },
+      "level": "B2",
+      "frequency_rank": 87
+    },
+    {
+      "lemma": "heilen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "heilt",
+        "past": "heilte",
+        "perfect": "hat geheilt"
+      },
+      "level": "B2",
+      "frequency_rank": 88
+    },
+    {
+      "lemma": "impfen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "impft",
+        "past": "impfte",
+        "perfect": "hat geimpft"
+      },
+      "level": "B2",
+      "frequency_rank": 89
+    },
+    {
+      "lemma": "operieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "operiert",
+        "past": "operierte",
+        "perfect": "hat operiert"
+      },
+      "level": "B2",
+      "frequency_rank": 90
+    },
+    {
+      "lemma": "verschreiben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verschreibt",
+        "past": "verschrieb",
+        "perfect": "hat verschrieben"
+      },
+      "level": "B2",
+      "frequency_rank": 91
+    },
+    {
+      "lemma": "bluten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "blutet",
+        "past": "blutete",
+        "perfect": "hat geblutet"
+      },
+      "level": "B2",
+      "frequency_rank": 92
+    },
+    {
+      "lemma": "schwellen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "schwillt",
+        "past": "schwoll",
+        "perfect": "ist geschwollen"
+      },
+      "level": "B2",
+      "frequency_rank": 93
+    },
+    {
+      "lemma": "genesen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "genest",
+        "past": "genas",
+        "perfect": "ist genesen"
+      },
+      "level": "B2",
+      "frequency_rank": 94
+    },
+    {
+      "lemma": "lindern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "lindert",
+        "past": "linderte",
+        "perfect": "hat gelindert"
+      },
+      "level": "B2",
+      "frequency_rank": 95
+    },
+    {
+      "lemma": "ansteckend",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 96
+    },
+    {
+      "lemma": "chronisch",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 97
+    },
+    {
+      "lemma": "akut",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 98
+    },
+    {
+      "lemma": "schmerzhaft",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 99
+    },
+    {
+      "lemma": "bewusstlos",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 100
+    },
+    {
+      "lemma": "Klimawandel",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 101
+    },
+    {
+      "lemma": "Erderwärmung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 102
+    },
+    {
+      "lemma": "Treibhauseffekt",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 103
+    },
+    {
+      "lemma": "Nachhaltigkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 104
+    },
+    {
+      "lemma": "Naturschutz",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 105
+    },
+    {
+      "lemma": "Artenvielfalt",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 106
+    },
+    {
+      "lemma": "Aussterben",
+      "pos": "noun",
+      "article": "das",
+      "level": "B2",
+      "frequency_rank": 107
+    },
+    {
+      "lemma": "Dürre",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Dürren",
+      "level": "B2",
+      "frequency_rank": 108
+    },
+    {
+      "lemma": "Überschwemmung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Überschwemmungen",
+      "level": "B2",
+      "frequency_rank": 109
+    },
+    {
+      "lemma": "Gewitter",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gewitter",
+      "level": "B2",
+      "frequency_rank": 110
+    },
+    {
+      "lemma": "Lebensraum",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Lebensräume",
+      "level": "B2",
+      "frequency_rank": 111
+    },
+    {
+      "lemma": "Ökosystem",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Ökosysteme",
+      "level": "B2",
+      "frequency_rank": 112
+    },
+    {
+      "lemma": "Rohstoff",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Rohstoffe",
+      "level": "B2",
+      "frequency_rank": 113
+    },
+    {
+      "lemma": "Energiewende",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 114
+    },
+    {
+      "lemma": "Windkraft",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 115
+    },
+    {
+      "lemma": "Meeresspiegel",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 116
+    },
+    {
+      "lemma": "Gletscher",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Gletscher",
+      "level": "B2",
+      "frequency_rank": 117
+    },
+    {
+      "lemma": "Emission",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Emissionen",
+      "level": "B2",
+      "frequency_rank": 118
+    },
+    {
+      "lemma": "Schadstoff",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Schadstoffe",
+      "level": "B2",
+      "frequency_rank": 119
+    },
+    {
+      "lemma": "Mülltrennung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 120
+    },
+    {
+      "lemma": "Artenschutz",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 121
+    },
+    {
+      "lemma": "Bestand",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Bestände",
+      "level": "B2",
+      "frequency_rank": 122
+    },
+    {
+      "lemma": "Population",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Populationen",
+      "level": "B2",
+      "frequency_rank": 123
+    },
+    {
+      "lemma": "Gehege",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gehege",
+      "level": "B2",
+      "frequency_rank": 124
+    },
+    {
+      "lemma": "Schwarm",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Schwärme",
+      "level": "B2",
+      "frequency_rank": 125
+    },
+    {
+      "lemma": "Zugvogel",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zugvögel",
+      "level": "B2",
+      "frequency_rank": 126
+    },
+    {
+      "lemma": "Raubtier",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Raubtiere",
+      "level": "B2",
+      "frequency_rank": 127
+    },
+    {
+      "lemma": "Bodenerosion",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 128
+    },
+    {
+      "lemma": "Permafrost",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 129
+    },
+    {
+      "lemma": "Eisscholle",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Eisschollen",
+      "level": "B2",
+      "frequency_rank": 130
+    },
+    {
+      "lemma": "Moor",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Moore",
+      "level": "B2",
+      "frequency_rank": 131
+    },
+    {
+      "lemma": "Feuchtgebiet",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Feuchtgebiete",
+      "level": "B2",
+      "frequency_rank": 132
+    },
+    {
+      "lemma": "aussterben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "stirbt aus",
+        "past": "starb aus",
+        "perfect": "ist ausgestorben"
+      },
+      "level": "B2",
+      "frequency_rank": 133
+    },
+    {
+      "lemma": "gefährden",
+      "pos": "verb",
+      "key_forms": {
+        "present": "gefährdet",
+        "past": "gefährdete",
+        "perfect": "hat gefährdet"
+      },
+      "level": "B2",
+      "frequency_rank": 134
+    },
+    {
+      "lemma": "verschmutzen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verschmutzt",
+        "past": "verschmutzte",
+        "perfect": "hat verschmutzt"
+      },
+      "level": "B2",
+      "frequency_rank": 135
+    },
+    {
+      "lemma": "aufforsten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "forstet auf",
+        "past": "forstete auf",
+        "perfect": "hat aufgeforstet"
+      },
+      "level": "B2",
+      "frequency_rank": 136
+    },
+    {
+      "lemma": "abholzen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "holzt ab",
+        "past": "holzte ab",
+        "perfect": "hat abgeholzt"
+      },
+      "level": "B2",
+      "frequency_rank": 137
+    },
+    {
+      "lemma": "recyceln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "recycelt",
+        "past": "recycelte",
+        "perfect": "hat recycelt"
+      },
+      "level": "B2",
+      "frequency_rank": 138
+    },
+    {
+      "lemma": "bewässern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bewässert",
+        "past": "bewässerte",
+        "perfect": "hat bewässert"
+      },
+      "level": "B2",
+      "frequency_rank": 139
+    },
+    {
+      "lemma": "verdunsten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verdunstet",
+        "past": "verdunstete",
+        "perfect": "ist verdunstet"
+      },
+      "level": "B2",
+      "frequency_rank": 140
+    },
+    {
+      "lemma": "brüten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "brütet",
+        "past": "brütete",
+        "perfect": "hat gebrütet"
+      },
+      "level": "B2",
+      "frequency_rank": 141
+    },
+    {
+      "lemma": "nisten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "nistet",
+        "past": "nistete",
+        "perfect": "hat genistet"
+      },
+      "level": "B2",
+      "frequency_rank": 142
+    },
+    {
+      "lemma": "gedeihen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "gedeiht",
+        "past": "gedieh",
+        "perfect": "ist gediehen"
+      },
+      "level": "B2",
+      "frequency_rank": 143
+    },
+    {
+      "lemma": "schmelzen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "schmilzt",
+        "past": "schmolz",
+        "perfect": "ist geschmolzen"
+      },
+      "level": "B2",
+      "frequency_rank": 144
+    },
+    {
+      "lemma": "nachhaltig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 145
+    },
+    {
+      "lemma": "umweltfreundlich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 146
+    },
+    {
+      "lemma": "erneuerbar",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 147
+    },
+    {
+      "lemma": "klimaneutral",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 148
+    },
+    {
+      "lemma": "artenreich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 149
+    },
+    {
+      "lemma": "unberührt",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 150
+    },
+    {
+      "lemma": "Bildschirm",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Bildschirme",
+      "level": "B2",
+      "frequency_rank": 151
+    },
+    {
+      "lemma": "Tastatur",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Tastaturen",
+      "level": "B2",
+      "frequency_rank": 152
+    },
+    {
+      "lemma": "Anschluss",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Anschlüsse",
+      "level": "B2",
+      "frequency_rank": 153
+    },
+    {
+      "lemma": "Gerät",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Geräte",
+      "level": "B2",
+      "frequency_rank": 154
+    },
+    {
+      "lemma": "Akku",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Akkus",
+      "level": "B2",
+      "frequency_rank": 155
+    },
+    {
+      "lemma": "Speicher",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Speicher",
+      "level": "B2",
+      "frequency_rank": 156
+    },
+    {
+      "lemma": "Netzwerk",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Netzwerke",
+      "level": "B2",
+      "frequency_rank": 157
+    },
+    {
+      "lemma": "Übertragung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Übertragungen",
+      "level": "B2",
+      "frequency_rank": 158
+    },
+    {
+      "lemma": "Absturz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Abstürze",
+      "level": "B2",
+      "frequency_rank": 159
+    },
+    {
+      "lemma": "Störung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Störungen",
+      "level": "B2",
+      "frequency_rank": 160
+    },
+    {
+      "lemma": "Anbieter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Anbieter",
+      "level": "B2",
+      "frequency_rank": 161
+    },
+    {
+      "lemma": "Anwendung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anwendungen",
+      "level": "B2",
+      "frequency_rank": 162
+    },
+    {
+      "lemma": "Aktualisierung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Aktualisierungen",
+      "level": "B2",
+      "frequency_rank": 163
+    },
+    {
+      "lemma": "Zugriff",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zugriffe",
+      "level": "B2",
+      "frequency_rank": 164
+    },
+    {
+      "lemma": "Sicherheitslücke",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Sicherheitslücken",
+      "level": "B2",
+      "frequency_rank": 165
+    },
+    {
+      "lemma": "Virus",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Viren",
+      "level": "B2",
+      "frequency_rank": 166
+    },
+    {
+      "lemma": "Verschlüsselung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verschlüsselungen",
+      "level": "B2",
+      "frequency_rank": 167
+    },
+    {
+      "lemma": "Kennwort",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Kennwörter",
+      "level": "B2",
+      "frequency_rank": 168
+    },
+    {
+      "lemma": "Schnittstelle",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Schnittstellen",
+      "level": "B2",
+      "frequency_rank": 169
+    },
+    {
+      "lemma": "Algorithmus",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Algorithmen",
+      "level": "B2",
+      "frequency_rank": 170
+    },
+    {
+      "lemma": "Datenbank",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Datenbanken",
+      "level": "B2",
+      "frequency_rank": 171
+    },
+    {
+      "lemma": "Sender",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Sender",
+      "level": "B2",
+      "frequency_rank": 172
+    },
+    {
+      "lemma": "Empfänger",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Empfänger",
+      "level": "B2",
+      "frequency_rank": 173
+    },
+    {
+      "lemma": "Anhang",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Anhänge",
+      "level": "B2",
+      "frequency_rank": 174
+    },
+    {
+      "lemma": "Postfach",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Postfächer",
+      "level": "B2",
+      "frequency_rank": 175
+    },
+    {
+      "lemma": "Benachrichtigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Benachrichtigungen",
+      "level": "B2",
+      "frequency_rank": 176
+    },
+    {
+      "lemma": "Redaktion",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Redaktionen",
+      "level": "B2",
+      "frequency_rank": 177
+    },
+    {
+      "lemma": "Berichterstattung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 178
+    },
+    {
+      "lemma": "Rundfunk",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 179
+    },
+    {
+      "lemma": "Sendung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Sendungen",
+      "level": "B2",
+      "frequency_rank": 180
+    },
+    {
+      "lemma": "Auflage",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Auflagen",
+      "level": "B2",
+      "frequency_rank": 181
+    },
+    {
+      "lemma": "Plattform",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Plattformen",
+      "level": "B2",
+      "frequency_rank": 182
+    },
+    {
+      "lemma": "herunterladen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "lädt herunter",
+        "past": "lud herunter",
+        "perfect": "hat heruntergeladen"
+      },
+      "level": "B2",
+      "frequency_rank": 183
+    },
+    {
+      "lemma": "hochladen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "lädt hoch",
+        "past": "lud hoch",
+        "perfect": "hat hochgeladen"
+      },
+      "level": "B2",
+      "frequency_rank": 184
+    },
+    {
+      "lemma": "installieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "installiert",
+        "past": "installierte",
+        "perfect": "hat installiert"
+      },
+      "level": "B2",
+      "frequency_rank": 185
+    },
+    {
+      "lemma": "formatieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "formatiert",
+        "past": "formatierte",
+        "perfect": "hat formatiert"
+      },
+      "level": "B2",
+      "frequency_rank": 186
+    },
+    {
+      "lemma": "entschlüsseln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entschlüsselt",
+        "past": "entschlüsselte",
+        "perfect": "hat entschlüsselt"
+      },
+      "level": "B2",
+      "frequency_rank": 187
+    },
+    {
+      "lemma": "hacken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "hackt",
+        "past": "hackte",
+        "perfect": "hat gehackt"
+      },
+      "level": "B2",
+      "frequency_rank": 188
+    },
+    {
+      "lemma": "programmieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "programmiert",
+        "past": "programmierte",
+        "perfect": "hat programmiert"
+      },
+      "level": "B2",
+      "frequency_rank": 189
+    },
+    {
+      "lemma": "streamen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "streamt",
+        "past": "streamte",
+        "perfect": "hat gestreamt"
+      },
+      "level": "B2",
+      "frequency_rank": 190
+    },
+    {
+      "lemma": "veröffentlichen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "veröffentlicht",
+        "past": "veröffentlichte",
+        "perfect": "hat veröffentlicht"
+      },
+      "level": "B2",
+      "frequency_rank": 191
+    },
+    {
+      "lemma": "ausstrahlen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "strahlt aus",
+        "past": "strahlte aus",
+        "perfect": "hat ausgestrahlt"
+      },
+      "level": "B2",
+      "frequency_rank": 192
+    },
+    {
+      "lemma": "abonnieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "abonniert",
+        "past": "abonnierte",
+        "perfect": "hat abonniert"
+      },
+      "level": "B2",
+      "frequency_rank": 193
+    },
+    {
+      "lemma": "recherchieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "recherchiert",
+        "past": "recherchierte",
+        "perfect": "hat recherchiert"
+      },
+      "level": "B2",
+      "frequency_rank": 194
+    },
+    {
+      "lemma": "digital",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 195
+    },
+    {
+      "lemma": "virtuell",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 196
+    },
+    {
+      "lemma": "drahtlos",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 197
+    },
+    {
+      "lemma": "interaktiv",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 198
+    },
+    {
+      "lemma": "benutzerfreundlich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 199
+    },
+    {
+      "lemma": "leistungsstark",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 200
+    },
+    {
+      "lemma": "Kaution",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kautionen",
+      "level": "B2",
+      "frequency_rank": 201
+    },
+    {
+      "lemma": "Mietvertrag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Mietverträge",
+      "level": "B2",
+      "frequency_rank": 202
+    },
+    {
+      "lemma": "Vermieter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Vermieter",
+      "level": "B2",
+      "frequency_rank": 203
+    },
+    {
+      "lemma": "Eigentumswohnung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Eigentumswohnungen",
+      "level": "B2",
+      "frequency_rank": 204
+    },
+    {
+      "lemma": "Grundriss",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Grundrisse",
+      "level": "B2",
+      "frequency_rank": 205
+    },
+    {
+      "lemma": "Wohngemeinschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wohngemeinschaften",
+      "level": "B2",
+      "frequency_rank": 206
+    },
+    {
+      "lemma": "Untermieter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Untermieter",
+      "level": "B2",
+      "frequency_rank": 207
+    },
+    {
+      "lemma": "Renovierung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Renovierungen",
+      "level": "B2",
+      "frequency_rank": 208
+    },
+    {
+      "lemma": "Besichtigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Besichtigungen",
+      "level": "B2",
+      "frequency_rank": 209
+    },
+    {
+      "lemma": "Wohnungssuche",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 210
+    },
+    {
+      "lemma": "Wohnungsmarkt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wohnungsmärkte",
+      "level": "B2",
+      "frequency_rank": 211
+    },
+    {
+      "lemma": "Mieterhöhung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Mieterhöhungen",
+      "level": "B2",
+      "frequency_rank": 212
+    },
+    {
+      "lemma": "Mietspiegel",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Mietspiegel",
+      "level": "B2",
+      "frequency_rank": 213
+    },
+    {
+      "lemma": "Hausordnung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hausordnungen",
+      "level": "B2",
+      "frequency_rank": 214
+    },
+    {
+      "lemma": "Instandhaltung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 215
+    },
+    {
+      "lemma": "Hausmeister",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Hausmeister",
+      "level": "B2",
+      "frequency_rank": 216
+    },
+    {
+      "lemma": "Hausgemeinschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hausgemeinschaften",
+      "level": "B2",
+      "frequency_rank": 217
+    },
+    {
+      "lemma": "Zusammenleben",
+      "pos": "noun",
+      "article": "das",
+      "level": "B2",
+      "frequency_rank": 218
+    },
+    {
+      "lemma": "Ruhestörung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ruhestörungen",
+      "level": "B2",
+      "frequency_rank": 219
+    },
+    {
+      "lemma": "Lärmbelästigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Lärmbelästigungen",
+      "level": "B2",
+      "frequency_rank": 220
+    },
+    {
+      "lemma": "Hausrat",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 221
+    },
+    {
+      "lemma": "Hausratversicherung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hausratversicherungen",
+      "level": "B2",
+      "frequency_rank": 222
+    },
+    {
+      "lemma": "Reklamation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Reklamationen",
+      "level": "B2",
+      "frequency_rank": 223
+    },
+    {
+      "lemma": "Mangel",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Mängel",
+      "level": "B2",
+      "frequency_rank": 224
+    },
+    {
+      "lemma": "Anschaffung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anschaffungen",
+      "level": "B2",
+      "frequency_rank": 225
+    },
+    {
+      "lemma": "Kostenvoranschlag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kostenvoranschläge",
+      "level": "B2",
+      "frequency_rank": 226
+    },
+    {
+      "lemma": "Handwerker",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Handwerker",
+      "level": "B2",
+      "frequency_rank": 227
+    },
+    {
+      "lemma": "Reparatur",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Reparaturen",
+      "level": "B2",
+      "frequency_rank": 228
+    },
+    {
+      "lemma": "Wartung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wartungen",
+      "level": "B2",
+      "frequency_rank": 229
+    },
+    {
+      "lemma": "Alltag",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 230
+    },
+    {
+      "lemma": "Routine",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Routinen",
+      "level": "B2",
+      "frequency_rank": 231
+    },
+    {
+      "lemma": "Erledigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Erledigungen",
+      "level": "B2",
+      "frequency_rank": 232
+    },
+    {
+      "lemma": "vermieten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vermietet",
+        "past": "vermietete",
+        "perfect": "hat vermietet"
+      },
+      "level": "B2",
+      "frequency_rank": 233
+    },
+    {
+      "lemma": "entsorgen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "entsorgt",
+        "past": "entsorgte",
+        "perfect": "hat entsorgt"
+      },
+      "level": "B2",
+      "frequency_rank": 234
+    },
+    {
+      "lemma": "reklamieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "reklamiert",
+        "past": "reklamierte",
+        "perfect": "hat reklamiert"
+      },
+      "level": "B2",
+      "frequency_rank": 235
+    },
+    {
+      "lemma": "umtauschen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "tauscht um",
+        "past": "tauschte um",
+        "perfect": "hat umgetauscht"
+      },
+      "level": "B2",
+      "frequency_rank": 236
+    },
+    {
+      "lemma": "anschaffen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "schafft an",
+        "past": "schaffte an",
+        "perfect": "hat angeschafft"
+      },
+      "level": "B2",
+      "frequency_rank": 237
+    },
+    {
+      "lemma": "erledigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "erledigt",
+        "past": "erledigte",
+        "perfect": "hat erledigt"
+      },
+      "level": "B2",
+      "frequency_rank": 238
+    },
+    {
+      "lemma": "besichtigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "besichtigt",
+        "past": "besichtigte",
+        "perfect": "hat besichtigt"
+      },
+      "level": "B2",
+      "frequency_rank": 239
+    },
+    {
+      "lemma": "einrichten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "richtet ein",
+        "past": "richtete ein",
+        "perfect": "hat eingerichtet"
+      },
+      "level": "B2",
+      "frequency_rank": 240
+    },
+    {
+      "lemma": "geräumig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 241
+    },
+    {
+      "lemma": "hellhörig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 242
+    },
+    {
+      "lemma": "baufällig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 243
+    },
+    {
+      "lemma": "sanierungsbedürftig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 244
+    },
+    {
+      "lemma": "möbliert",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 245
+    },
+    {
+      "lemma": "barrierefrei",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 246
+    },
+    {
+      "lemma": "alltäglich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 247
+    },
+    {
+      "lemma": "gemeinschaftlich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 248
+    },
+    {
+      "lemma": "Antrag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Anträge",
+      "level": "B2",
+      "frequency_rank": 249
+    },
+    {
+      "lemma": "Behörde",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Behörden",
+      "level": "B2",
+      "frequency_rank": 250
+    },
+    {
+      "lemma": "Ausweis",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Ausweise",
+      "level": "B2",
+      "frequency_rank": 251
+    },
+    {
+      "lemma": "Genehmigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Genehmigungen",
+      "level": "B2",
+      "frequency_rank": 252
+    },
+    {
+      "lemma": "Vorschrift",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Vorschriften",
+      "level": "B2",
+      "frequency_rank": 253
+    },
+    {
+      "lemma": "Verordnung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verordnungen",
+      "level": "B2",
+      "frequency_rank": 254
+    },
+    {
+      "lemma": "Bescheid",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Bescheide",
+      "level": "B2",
+      "frequency_rank": 255
+    },
+    {
+      "lemma": "Formular",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Formulare",
+      "level": "B2",
+      "frequency_rank": 256
+    },
+    {
+      "lemma": "Unterschrift",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Unterschriften",
+      "level": "B2",
+      "frequency_rank": 257
+    },
+    {
+      "lemma": "Amt",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Ämter",
+      "level": "B2",
+      "frequency_rank": 258
+    },
+    {
+      "lemma": "Anmeldung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anmeldungen",
+      "level": "B2",
+      "frequency_rank": 259
+    },
+    {
+      "lemma": "Wohnsitz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wohnsitze",
+      "level": "B2",
+      "frequency_rank": 260
+    },
+    {
+      "lemma": "Verwaltung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verwaltungen",
+      "level": "B2",
+      "frequency_rank": 261
+    },
+    {
+      "lemma": "Klage",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Klagen",
+      "level": "B2",
+      "frequency_rank": 262
+    },
+    {
+      "lemma": "Gericht",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Gerichte",
+      "level": "B2",
+      "frequency_rank": 263
+    },
+    {
+      "lemma": "Richter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Richter",
+      "level": "B2",
+      "frequency_rank": 264
+    },
+    {
+      "lemma": "Urteil",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Urteile",
+      "level": "B2",
+      "frequency_rank": 265
+    },
+    {
+      "lemma": "Berufung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Berufungen",
+      "level": "B2",
+      "frequency_rank": 266
+    },
+    {
+      "lemma": "Anwalt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Anwälte",
+      "level": "B2",
+      "frequency_rank": 267
+    },
+    {
+      "lemma": "Vollmacht",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Vollmachten",
+      "level": "B2",
+      "frequency_rank": 268
+    },
+    {
+      "lemma": "Geldstrafe",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Geldstrafen",
+      "level": "B2",
+      "frequency_rank": 269
+    },
+    {
+      "lemma": "Verbrechen",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Verbrechen",
+      "level": "B2",
+      "frequency_rank": 270
+    },
+    {
+      "lemma": "Verfassung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Verfassungen",
+      "level": "B2",
+      "frequency_rank": 271
+    },
+    {
+      "lemma": "Grundrecht",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Grundrechte",
+      "level": "B2",
+      "frequency_rank": 272
+    },
+    {
+      "lemma": "Wahl",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Wahlen",
+      "level": "B2",
+      "frequency_rank": 273
+    },
+    {
+      "lemma": "Wähler",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wähler",
+      "level": "B2",
+      "frequency_rank": 274
+    },
+    {
+      "lemma": "Bürger",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Bürger",
+      "level": "B2",
+      "frequency_rank": 275
+    },
+    {
+      "lemma": "Staatsbürgerschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Staatsbürgerschaften",
+      "level": "B2",
+      "frequency_rank": 276
+    },
+    {
+      "lemma": "Einbürgerung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Einbürgerungen",
+      "level": "B2",
+      "frequency_rank": 277
+    },
+    {
+      "lemma": "Reisepass",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Reisepässe",
+      "level": "B2",
+      "frequency_rank": 278
+    },
+    {
+      "lemma": "Visum",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Visa",
+      "level": "B2",
+      "frequency_rank": 279
+    },
+    {
+      "lemma": "Aufenthaltsgenehmigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Aufenthaltsgenehmigungen",
+      "level": "B2",
+      "frequency_rank": 280
+    },
+    {
+      "lemma": "Abschiebung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Abschiebungen",
+      "level": "B2",
+      "frequency_rank": 281
+    },
+    {
+      "lemma": "Asylantrag",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Asylanträge",
+      "level": "B2",
+      "frequency_rank": 282
+    },
+    {
+      "lemma": "beantragen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "beantragt",
+        "past": "beantragte",
+        "perfect": "hat beantragt"
+      },
+      "level": "B2",
+      "frequency_rank": 283
+    },
+    {
+      "lemma": "genehmigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "genehmigt",
+        "past": "genehmigte",
+        "perfect": "hat genehmigt"
+      },
+      "level": "B2",
+      "frequency_rank": 284
+    },
+    {
+      "lemma": "verurteilen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verurteilt",
+        "past": "verurteilte",
+        "perfect": "hat verurteilt"
+      },
+      "level": "B2",
+      "frequency_rank": 285
+    },
+    {
+      "lemma": "freisprechen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "spricht frei",
+        "past": "sprach frei",
+        "perfect": "hat freigesprochen"
+      },
+      "level": "B2",
+      "frequency_rank": 286
+    },
+    {
+      "lemma": "verhaften",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verhaftet",
+        "past": "verhaftete",
+        "perfect": "hat verhaftet"
+      },
+      "level": "B2",
+      "frequency_rank": 287
+    },
+    {
+      "lemma": "vorladen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "lädt vor",
+        "past": "lud vor",
+        "perfect": "hat vorgeladen"
+      },
+      "level": "B2",
+      "frequency_rank": 288
+    },
+    {
+      "lemma": "einbürgern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bürgert ein",
+        "past": "bürgerte ein",
+        "perfect": "hat eingebürgert"
+      },
+      "level": "B2",
+      "frequency_rank": 289
+    },
+    {
+      "lemma": "beglaubigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "beglaubigt",
+        "past": "beglaubigte",
+        "perfect": "hat beglaubigt"
+      },
+      "level": "B2",
+      "frequency_rank": 290
+    },
+    {
+      "lemma": "abschieben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "schiebt ab",
+        "past": "schob ab",
+        "perfect": "hat abgeschoben"
+      },
+      "level": "B2",
+      "frequency_rank": 291
+    },
+    {
+      "lemma": "verpflichten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verpflichtet",
+        "past": "verpflichtete",
+        "perfect": "hat verpflichtet"
+      },
+      "level": "B2",
+      "frequency_rank": 292
+    },
+    {
+      "lemma": "rechtskräftig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 293
+    },
+    {
+      "lemma": "strafbar",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 294
+    },
+    {
+      "lemma": "zuständig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 295
+    },
+    {
+      "lemma": "amtlich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 296
+    },
+    {
+      "lemma": "volljährig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 297
+    },
+    {
+      "lemma": "minderjährig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 298
+    },
+    {
+      "lemma": "Zahlungsfrist",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zahlungsfristen",
+      "level": "B2",
+      "frequency_rank": 299
+    },
+    {
+      "lemma": "Stornierung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Stornierungen",
+      "level": "B2",
+      "frequency_rank": 300
+    },
+    {
+      "lemma": "Kredit",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kredite",
+      "level": "B2",
+      "frequency_rank": 301
+    },
+    {
+      "lemma": "Schuld",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Schulden",
+      "level": "B2",
+      "frequency_rank": 302
+    },
+    {
+      "lemma": "Kontostand",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Kontostände",
+      "level": "B2",
+      "frequency_rank": 303
+    },
+    {
+      "lemma": "Überweisung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Überweisungen",
+      "level": "B2",
+      "frequency_rank": 304
+    },
+    {
+      "lemma": "Gebühr",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Gebühren",
+      "level": "B2",
+      "frequency_rank": 305
+    },
+    {
+      "lemma": "Zins",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Zinsen",
+      "level": "B2",
+      "frequency_rank": 306
+    },
+    {
+      "lemma": "Versicherung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Versicherungen",
+      "level": "B2",
+      "frequency_rank": 307
+    },
+    {
+      "lemma": "Umsatz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Umsätze",
+      "level": "B2",
+      "frequency_rank": 308
+    },
+    {
+      "lemma": "Gewinn",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Gewinne",
+      "level": "B2",
+      "frequency_rank": 309
+    },
+    {
+      "lemma": "Verlust",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Verluste",
+      "level": "B2",
+      "frequency_rank": 310
+    },
+    {
+      "lemma": "Finanzamt",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Finanzämter",
+      "level": "B2",
+      "frequency_rank": 311
+    },
+    {
+      "lemma": "Rente",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Renten",
+      "level": "B2",
+      "frequency_rank": 312
+    },
+    {
+      "lemma": "Marktanteil",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Marktanteile",
+      "level": "B2",
+      "frequency_rank": 313
+    },
+    {
+      "lemma": "Lieferant",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Lieferanten",
+      "level": "B2",
+      "frequency_rank": 314
+    },
+    {
+      "lemma": "Lieferung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Lieferungen",
+      "level": "B2",
+      "frequency_rank": 315
+    },
+    {
+      "lemma": "Bestellung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Bestellungen",
+      "level": "B2",
+      "frequency_rank": 316
+    },
+    {
+      "lemma": "Filiale",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Filialen",
+      "level": "B2",
+      "frequency_rank": 317
+    },
+    {
+      "lemma": "Aktie",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Aktien",
+      "level": "B2",
+      "frequency_rank": 318
+    },
+    {
+      "lemma": "Sparbuch",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Sparbücher",
+      "level": "B2",
+      "frequency_rank": 319
+    },
+    {
+      "lemma": "Darlehen",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Darlehen",
+      "level": "B2",
+      "frequency_rank": 320
+    },
+    {
+      "lemma": "Bürgschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Bürgschaften",
+      "level": "B2",
+      "frequency_rank": 321
+    },
+    {
+      "lemma": "Insolvenz",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Insolvenzen",
+      "level": "B2",
+      "frequency_rank": 322
+    },
+    {
+      "lemma": "Rabatt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Rabatte",
+      "level": "B2",
+      "frequency_rank": 323
+    },
+    {
+      "lemma": "Finanzierung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Finanzierungen",
+      "level": "B2",
+      "frequency_rank": 324
+    },
+    {
+      "lemma": "Wechselkurs",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wechselkurse",
+      "level": "B2",
+      "frequency_rank": 325
+    },
+    {
+      "lemma": "Konzern",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Konzerne",
+      "level": "B2",
+      "frequency_rank": 326
+    },
+    {
+      "lemma": "Schuldner",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Schuldner",
+      "level": "B2",
+      "frequency_rank": 327
+    },
+    {
+      "lemma": "Gläubiger",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Gläubiger",
+      "level": "B2",
+      "frequency_rank": 328
+    },
+    {
+      "lemma": "investieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "investiert",
+        "past": "investierte",
+        "perfect": "hat investiert"
+      },
+      "level": "B2",
+      "frequency_rank": 329
+    },
+    {
+      "lemma": "sparen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "spart",
+        "past": "sparte",
+        "perfect": "hat gespart"
+      },
+      "level": "B2",
+      "frequency_rank": 330
+    },
+    {
+      "lemma": "abzahlen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zahlt ab",
+        "past": "zahlte ab",
+        "perfect": "hat abgezahlt"
+      },
+      "level": "B2",
+      "frequency_rank": 331
+    },
+    {
+      "lemma": "handeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "handelt",
+        "past": "handelte",
+        "perfect": "hat gehandelt"
+      },
+      "level": "B2",
+      "frequency_rank": 332
+    },
+    {
+      "lemma": "haften",
+      "pos": "verb",
+      "key_forms": {
+        "present": "haftet",
+        "past": "haftete",
+        "perfect": "hat gehaftet"
+      },
+      "level": "B2",
+      "frequency_rank": 333
+    },
+    {
+      "lemma": "verzinsen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verzinst",
+        "past": "verzinste",
+        "perfect": "hat verzinst"
+      },
+      "level": "B2",
+      "frequency_rank": 334
+    },
+    {
+      "lemma": "finanzieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "finanziert",
+        "past": "finanzierte",
+        "perfect": "hat finanziert"
+      },
+      "level": "B2",
+      "frequency_rank": 335
+    },
+    {
+      "lemma": "exportieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "exportiert",
+        "past": "exportierte",
+        "perfect": "hat exportiert"
+      },
+      "level": "B2",
+      "frequency_rank": 336
+    },
+    {
+      "lemma": "importieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "importiert",
+        "past": "importierte",
+        "perfect": "hat importiert"
+      },
+      "level": "B2",
+      "frequency_rank": 337
+    },
+    {
+      "lemma": "abheben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "hebt ab",
+        "past": "hob ab",
+        "perfect": "hat abgehoben"
+      },
+      "level": "B2",
+      "frequency_rank": 338
+    },
+    {
+      "lemma": "einzahlen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zahlt ein",
+        "past": "zahlte ein",
+        "perfect": "hat eingezahlt"
+      },
+      "level": "B2",
+      "frequency_rank": 339
+    },
+    {
+      "lemma": "überweisen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "überweist",
+        "past": "überwies",
+        "perfect": "hat überwiesen"
+      },
+      "level": "B2",
+      "frequency_rank": 340
+    },
+    {
+      "lemma": "rentabel",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 341
+    },
+    {
+      "lemma": "solvent",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 342
+    },
+    {
+      "lemma": "zahlungsfähig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 343
+    },
+    {
+      "lemma": "zahlungsunfähig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 344
+    },
+    {
+      "lemma": "steuerpflichtig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 345
+    },
+    {
+      "lemma": "gewinnbringend",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 346
+    },
+    {
+      "lemma": "Prüfung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Prüfungen",
+      "level": "B2",
+      "frequency_rank": 347
+    },
+    {
+      "lemma": "Klausur",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Klausuren",
+      "level": "B2",
+      "frequency_rank": 348
+    },
+    {
+      "lemma": "Zeugnis",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Zeugnisse",
+      "level": "B2",
+      "frequency_rank": 349
+    },
+    {
+      "lemma": "Abschluss",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Abschlüsse",
+      "level": "B2",
+      "frequency_rank": 350
+    },
+    {
+      "lemma": "Stipendium",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Stipendien",
+      "level": "B2",
+      "frequency_rank": 351
+    },
+    {
+      "lemma": "Vorlesung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Vorlesungen",
+      "level": "B2",
+      "frequency_rank": 352
+    },
+    {
+      "lemma": "Seminar",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Seminare",
+      "level": "B2",
+      "frequency_rank": 353
+    },
+    {
+      "lemma": "Lehrplan",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Lehrpläne",
+      "level": "B2",
+      "frequency_rank": 354
+    },
+    {
+      "lemma": "Studiengang",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Studiengänge",
+      "level": "B2",
+      "frequency_rank": 355
+    },
+    {
+      "lemma": "Fachrichtung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fachrichtungen",
+      "level": "B2",
+      "frequency_rank": 356
+    },
+    {
+      "lemma": "Wortschatz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wortschätze",
+      "level": "B2",
+      "frequency_rank": 357
+    },
+    {
+      "lemma": "Rechtschreibung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 358
+    },
+    {
+      "lemma": "Nachhilfe",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 359
+    },
+    {
+      "lemma": "Fachwissen",
+      "pos": "noun",
+      "article": "das",
+      "level": "B2",
+      "frequency_rank": 360
+    },
+    {
+      "lemma": "Allgemeinbildung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 361
+    },
+    {
+      "lemma": "Studienplatz",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Studienplätze",
+      "level": "B2",
+      "frequency_rank": 362
+    },
+    {
+      "lemma": "Zulassung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zulassungen",
+      "level": "B2",
+      "frequency_rank": 363
+    },
+    {
+      "lemma": "Auswendiglernen",
+      "pos": "noun",
+      "article": "das",
+      "level": "B2",
+      "frequency_rank": 364
+    },
+    {
+      "lemma": "Leistungsdruck",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 365
+    },
+    {
+      "lemma": "Immatrikulation",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Immatrikulationen",
+      "level": "B2",
+      "frequency_rank": 366
+    },
+    {
+      "lemma": "Skript",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Skripte",
+      "level": "B2",
+      "frequency_rank": 367
+    },
+    {
+      "lemma": "Hausarbeit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Hausarbeiten",
+      "level": "B2",
+      "frequency_rank": 368
+    },
+    {
+      "lemma": "Abschlussarbeit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Abschlussarbeiten",
+      "level": "B2",
+      "frequency_rank": 369
+    },
+    {
+      "lemma": "Dozent",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Dozenten",
+      "level": "B2",
+      "frequency_rank": 370
+    },
+    {
+      "lemma": "Referat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Referate",
+      "level": "B2",
+      "frequency_rank": 371
+    },
+    {
+      "lemma": "Fremdsprache",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Fremdsprachen",
+      "level": "B2",
+      "frequency_rank": 372
+    },
+    {
+      "lemma": "Sprachkurs",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Sprachkurse",
+      "level": "B2",
+      "frequency_rank": 373
+    },
+    {
+      "lemma": "Sprachniveau",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Sprachniveaus",
+      "level": "B2",
+      "frequency_rank": 374
+    },
+    {
+      "lemma": "Prüfungsangst",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 375
+    },
+    {
+      "lemma": "Bildungssystem",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Bildungssysteme",
+      "level": "B2",
+      "frequency_rank": 376
+    },
+    {
+      "lemma": "Nachschlagewerk",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Nachschlagewerke",
+      "level": "B2",
+      "frequency_rank": 377
+    },
+    {
+      "lemma": "Plagiat",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Plagiate",
+      "level": "B2",
+      "frequency_rank": 378
+    },
+    {
+      "lemma": "pauken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "paukt",
+        "past": "paukte",
+        "perfect": "hat gepaukt"
+      },
+      "level": "B2",
+      "frequency_rank": 379
+    },
+    {
+      "lemma": "büffeln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "büffelt",
+        "past": "büffelte",
+        "perfect": "hat gebüffelt"
+      },
+      "level": "B2",
+      "frequency_rank": 380
+    },
+    {
+      "lemma": "sich aneignen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "eignet sich an",
+        "past": "eignete sich an",
+        "perfect": "hat sich angeeignet"
+      },
+      "level": "B2",
+      "frequency_rank": 381
+    },
+    {
+      "lemma": "vertiefen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vertieft",
+        "past": "vertiefte",
+        "perfect": "hat vertieft"
+      },
+      "level": "B2",
+      "frequency_rank": 382
+    },
+    {
+      "lemma": "vermitteln",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vermittelt",
+        "past": "vermittelte",
+        "perfect": "hat vermittelt"
+      },
+      "level": "B2",
+      "frequency_rank": 383
+    },
+    {
+      "lemma": "durchfallen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "fällt durch",
+        "past": "fiel durch",
+        "perfect": "ist durchgefallen"
+      },
+      "level": "B2",
+      "frequency_rank": 384
+    },
+    {
+      "lemma": "bestehen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "besteht",
+        "past": "bestand",
+        "perfect": "hat bestanden"
+      },
+      "level": "B2",
+      "frequency_rank": 385
+    },
+    {
+      "lemma": "sich immatrikulieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "immatrikuliert sich",
+        "past": "immatrikulierte sich",
+        "perfect": "hat sich immatrikuliert"
+      },
+      "level": "B2",
+      "frequency_rank": 386
+    },
+    {
+      "lemma": "zitieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "zitiert",
+        "past": "zitierte",
+        "perfect": "hat zitiert"
+      },
+      "level": "B2",
+      "frequency_rank": 387
+    },
+    {
+      "lemma": "sich einprägen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "prägt sich ein",
+        "past": "prägte sich ein",
+        "perfect": "hat sich eingeprägt"
+      },
+      "level": "B2",
+      "frequency_rank": 388
+    },
+    {
+      "lemma": "verinnerlichen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verinnerlicht",
+        "past": "verinnerlichte",
+        "perfect": "hat verinnerlicht"
+      },
+      "level": "B2",
+      "frequency_rank": 389
+    },
+    {
+      "lemma": "absolvieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "absolviert",
+        "past": "absolvierte",
+        "perfect": "hat absolviert"
+      },
+      "level": "B2",
+      "frequency_rank": 390
+    },
+    {
+      "lemma": "lehrreich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 391
+    },
+    {
+      "lemma": "wissbegierig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 392
+    },
+    {
+      "lemma": "lernfähig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 393
+    },
+    {
+      "lemma": "sprachbegabt",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 394
+    },
+    {
+      "lemma": "fakultativ",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 395
+    },
+    {
+      "lemma": "prüfungsrelevant",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 396
+    },
+    {
+      "lemma": "Zuneigung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 397
+    },
+    {
+      "lemma": "Abneigung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Abneigungen",
+      "level": "B2",
+      "frequency_rank": 398
+    },
+    {
+      "lemma": "Eifersucht",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 399
+    },
+    {
+      "lemma": "Enttäuschung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Enttäuschungen",
+      "level": "B2",
+      "frequency_rank": 400
+    },
+    {
+      "lemma": "Gelassenheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 401
+    },
+    {
+      "lemma": "Bescheidenheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 402
+    },
+    {
+      "lemma": "Großzügigkeit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 403
+    },
+    {
+      "lemma": "Sturheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 404
+    },
+    {
+      "lemma": "Mitgefühl",
+      "pos": "noun",
+      "article": "das",
+      "level": "B2",
+      "frequency_rank": 405
+    },
+    {
+      "lemma": "Verachtung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 406
+    },
+    {
+      "lemma": "Sehnsucht",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Sehnsüchte",
+      "level": "B2",
+      "frequency_rank": 407
+    },
+    {
+      "lemma": "Geborgenheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 408
+    },
+    {
+      "lemma": "Vertrautheit",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 409
+    },
+    {
+      "lemma": "Partnerschaft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Partnerschaften",
+      "level": "B2",
+      "frequency_rank": 410
+    },
+    {
+      "lemma": "Versöhnung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Versöhnungen",
+      "level": "B2",
+      "frequency_rank": 411
+    },
+    {
+      "lemma": "Entfremdung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 412
+    },
+    {
+      "lemma": "Bindung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Bindungen",
+      "level": "B2",
+      "frequency_rank": 413
+    },
+    {
+      "lemma": "Charakterzug",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Charakterzüge",
+      "level": "B2",
+      "frequency_rank": 414
+    },
+    {
+      "lemma": "Selbstbeherrschung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 415
+    },
+    {
+      "lemma": "Herzenskälte",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 416
+    },
+    {
+      "lemma": "Schadenfreude",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 417
+    },
+    {
+      "lemma": "Reue",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 418
+    },
+    {
+      "lemma": "Neid",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 419
+    },
+    {
+      "lemma": "Missgunst",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 420
+    },
+    {
+      "lemma": "sich verlieben",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verliebt sich",
+        "past": "verliebte sich",
+        "perfect": "hat sich verliebt"
+      },
+      "level": "B2",
+      "frequency_rank": 421
+    },
+    {
+      "lemma": "vertrauen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "vertraut",
+        "past": "vertraute",
+        "perfect": "hat vertraut"
+      },
+      "level": "B2",
+      "frequency_rank": 422
+    },
+    {
+      "lemma": "misstrauen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "misstraut",
+        "past": "misstraute",
+        "perfect": "hat misstraut"
+      },
+      "level": "B2",
+      "frequency_rank": 423
+    },
+    {
+      "lemma": "sich streiten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "streitet sich",
+        "past": "stritt sich",
+        "perfect": "hat sich gestritten"
+      },
+      "level": "B2",
+      "frequency_rank": 424
+    },
+    {
+      "lemma": "sich versöhnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "versöhnt sich",
+        "past": "versöhnte sich",
+        "perfect": "hat sich versöhnt"
+      },
+      "level": "B2",
+      "frequency_rank": 425
+    },
+    {
+      "lemma": "kränken",
+      "pos": "verb",
+      "key_forms": {
+        "present": "kränkt",
+        "past": "kränkte",
+        "perfect": "hat gekränkt"
+      },
+      "level": "B2",
+      "frequency_rank": 426
+    },
+    {
+      "lemma": "enttäuschen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "enttäuscht",
+        "past": "enttäuschte",
+        "perfect": "hat enttäuscht"
+      },
+      "level": "B2",
+      "frequency_rank": 427
+    },
+    {
+      "lemma": "trösten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "tröstet",
+        "past": "tröstete",
+        "perfect": "hat getröstet"
+      },
+      "level": "B2",
+      "frequency_rank": 428
+    },
+    {
+      "lemma": "beneiden",
+      "pos": "verb",
+      "key_forms": {
+        "present": "beneidet",
+        "past": "beneidete",
+        "perfect": "hat beneidet"
+      },
+      "level": "B2",
+      "frequency_rank": 429
+    },
+    {
+      "lemma": "bewundern",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bewundert",
+        "past": "bewunderte",
+        "perfect": "hat bewundert"
+      },
+      "level": "B2",
+      "frequency_rank": 430
+    },
+    {
+      "lemma": "sich sehnen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "sehnt sich",
+        "past": "sehnte sich",
+        "perfect": "hat sich gesehnt"
+      },
+      "level": "B2",
+      "frequency_rank": 431
+    },
+    {
+      "lemma": "sich schämen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "schämt sich",
+        "past": "schämte sich",
+        "perfect": "hat sich geschämt"
+      },
+      "level": "B2",
+      "frequency_rank": 432
+    },
+    {
+      "lemma": "verzeihen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verzeiht",
+        "past": "verzieh",
+        "perfect": "hat verziehen"
+      },
+      "level": "B2",
+      "frequency_rank": 433
+    },
+    {
+      "lemma": "feinfühlig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 434
+    },
+    {
+      "lemma": "einfühlsam",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 435
+    },
+    {
+      "lemma": "taktvoll",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 436
+    },
+    {
+      "lemma": "rücksichtslos",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 437
+    },
+    {
+      "lemma": "gutmütig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 438
+    },
+    {
+      "lemma": "launisch",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 439
+    },
+    {
+      "lemma": "reizbar",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 440
+    },
+    {
+      "lemma": "aufgeschlossen",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 441
+    },
+    {
+      "lemma": "eigensinnig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 442
+    },
+    {
+      "lemma": "überheblich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 443
+    },
+    {
+      "lemma": "nachtragend",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 444
+    },
+    {
+      "lemma": "versöhnlich",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 445
+    },
+    {
+      "lemma": "vertrauenswürdig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 446
+    },
+    {
+      "lemma": "Unterkunft",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Unterkünfte",
+      "level": "B2",
+      "frequency_rank": 447
+    },
+    {
+      "lemma": "Sehenswürdigkeit",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Sehenswürdigkeiten",
+      "level": "B2",
+      "frequency_rank": 448
+    },
+    {
+      "lemma": "Verpflegung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 449
+    },
+    {
+      "lemma": "Veranstalter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Veranstalter",
+      "level": "B2",
+      "frequency_rank": 450
+    },
+    {
+      "lemma": "Buchung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Buchungen",
+      "level": "B2",
+      "frequency_rank": 451
+    },
+    {
+      "lemma": "Aufenthalt",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Aufenthalte",
+      "level": "B2",
+      "frequency_rank": 452
+    },
+    {
+      "lemma": "Anreise",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Anreisen",
+      "level": "B2",
+      "frequency_rank": 453
+    },
+    {
+      "lemma": "Abreise",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Abreisen",
+      "level": "B2",
+      "frequency_rank": 454
+    },
+    {
+      "lemma": "Reiseziel",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Reiseziele",
+      "level": "B2",
+      "frequency_rank": 455
+    },
+    {
+      "lemma": "Zeitvertreib",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 456
+    },
+    {
+      "lemma": "Freizeitgestaltung",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 457
+    },
+    {
+      "lemma": "Wettkampf",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wettkämpfe",
+      "level": "B2",
+      "frequency_rank": 458
+    },
+    {
+      "lemma": "Schiedsrichter",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Schiedsrichter",
+      "level": "B2",
+      "frequency_rank": 459
+    },
+    {
+      "lemma": "Niederlage",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Niederlagen",
+      "level": "B2",
+      "frequency_rank": 460
+    },
+    {
+      "lemma": "Ausdauer",
+      "pos": "noun",
+      "article": "die",
+      "level": "B2",
+      "frequency_rank": 461
+    },
+    {
+      "lemma": "Turnier",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Turniere",
+      "level": "B2",
+      "frequency_rank": 462
+    },
+    {
+      "lemma": "Wanderweg",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Wanderwege",
+      "level": "B2",
+      "frequency_rank": 463
+    },
+    {
+      "lemma": "Aufführung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Aufführungen",
+      "level": "B2",
+      "frequency_rank": 464
+    },
+    {
+      "lemma": "Inszenierung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Inszenierungen",
+      "level": "B2",
+      "frequency_rank": 465
+    },
+    {
+      "lemma": "Applaus",
+      "pos": "noun",
+      "article": "der",
+      "level": "B2",
+      "frequency_rank": 466
+    },
+    {
+      "lemma": "Kritik",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kritiken",
+      "level": "B2",
+      "frequency_rank": 467
+    },
+    {
+      "lemma": "Genuss",
+      "pos": "noun",
+      "article": "der",
+      "plural": "Genüsse",
+      "level": "B2",
+      "frequency_rank": 468
+    },
+    {
+      "lemma": "Delikatesse",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Delikatessen",
+      "level": "B2",
+      "frequency_rank": 469
+    },
+    {
+      "lemma": "Zutat",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Zutaten",
+      "level": "B2",
+      "frequency_rank": 470
+    },
+    {
+      "lemma": "Ausstellung",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Ausstellungen",
+      "level": "B2",
+      "frequency_rank": 471
+    },
+    {
+      "lemma": "Festspiel",
+      "pos": "noun",
+      "article": "das",
+      "plural": "Festspiele",
+      "level": "B2",
+      "frequency_rank": 472
+    },
+    {
+      "lemma": "Kulisse",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Kulissen",
+      "level": "B2",
+      "frequency_rank": 473
+    },
+    {
+      "lemma": "Warteschlange",
+      "pos": "noun",
+      "article": "die",
+      "plural": "Warteschlangen",
+      "level": "B2",
+      "frequency_rank": 474
+    },
+    {
+      "lemma": "übernachten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "übernachtet",
+        "past": "übernachtete",
+        "perfect": "hat übernachtet"
+      },
+      "level": "B2",
+      "frequency_rank": 475
+    },
+    {
+      "lemma": "buchen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "bucht",
+        "past": "buchte",
+        "perfect": "hat gebucht"
+      },
+      "level": "B2",
+      "frequency_rank": 476
+    },
+    {
+      "lemma": "stornieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "storniert",
+        "past": "stornierte",
+        "perfect": "hat storniert"
+      },
+      "level": "B2",
+      "frequency_rank": 477
+    },
+    {
+      "lemma": "verreisen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verreist",
+        "past": "verreiste",
+        "perfect": "ist verreist"
+      },
+      "level": "B2",
+      "frequency_rank": 478
+    },
+    {
+      "lemma": "trainieren",
+      "pos": "verb",
+      "key_forms": {
+        "present": "trainiert",
+        "past": "trainierte",
+        "perfect": "hat trainiert"
+      },
+      "level": "B2",
+      "frequency_rank": 479
+    },
+    {
+      "lemma": "siegen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "siegt",
+        "past": "siegte",
+        "perfect": "hat gesiegt"
+      },
+      "level": "B2",
+      "frequency_rank": 480
+    },
+    {
+      "lemma": "genießen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "genießt",
+        "past": "genoss",
+        "perfect": "hat genossen"
+      },
+      "level": "B2",
+      "frequency_rank": 481
+    },
+    {
+      "lemma": "verkosten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "verkostet",
+        "past": "verkostete",
+        "perfect": "hat verkostet"
+      },
+      "level": "B2",
+      "frequency_rank": 482
+    },
+    {
+      "lemma": "veranstalten",
+      "pos": "verb",
+      "key_forms": {
+        "present": "veranstaltet",
+        "past": "veranstaltete",
+        "perfect": "hat veranstaltet"
+      },
+      "level": "B2",
+      "frequency_rank": 483
+    },
+    {
+      "lemma": "aufführen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "führt auf",
+        "past": "führte auf",
+        "perfect": "hat aufgeführt"
+      },
+      "level": "B2",
+      "frequency_rank": 484
+    },
+    {
+      "lemma": "besteigen",
+      "pos": "verb",
+      "key_forms": {
+        "present": "besteigt",
+        "past": "bestieg",
+        "perfect": "hat bestiegen"
+      },
+      "level": "B2",
+      "frequency_rank": 485
+    },
+    {
+      "lemma": "sehenswert",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 486
+    },
+    {
+      "lemma": "erholsam",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 487
+    },
+    {
+      "lemma": "atemberaubend",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 488
+    },
+    {
+      "lemma": "malerisch",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 489
+    },
+    {
+      "lemma": "ausverkauft",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 490
+    },
+    {
+      "lemma": "hochkarätig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 491
+    },
+    {
+      "lemma": "deftig",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 492
+    },
+    {
+      "lemma": "hautnah",
+      "pos": "adjective",
+      "level": "B2",
+      "frequency_rank": 493
+    }
+  ]
+}

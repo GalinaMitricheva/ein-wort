@@ -13,8 +13,17 @@ This is the working tracker. Check tasks off as they land.
 first run). Everything is committed to `main` (github.com/GalinaMitricheva/ein-wort).
 
 **What's done:** core loop (offer/calibrate → dossier → done), word capture (tap to save),
-the collection task (`npm run collect`), and **all 101 C1 words with real dossiers**.
-B1/B2 are still just the 14 hand-fixture words.
+the collection task (`npm run collect`), **all 101 C1 words with real dossiers**, and a
+**1000-word curated pool** (see 2026-07-27 note below).
+
+**Word pool is now 1000 (2026-07-27):** 500 B2 · 493 C1 · 7 B1, no duplicate lemmas.
+`data/words.b2.json` (493 new B2), `data/words.c1-2.json` (371 new C1), `data/words.c1-3.json`
+(21 C1 top-up) joined the original `words.c1.json` (100) and `words.fixture.json` (20).
+`seed.ts` now **globs `words.*.json`** (was a hardcoded two-file list), so new batches load
+automatically like dossiers do. **Only word entries exist for the ~885 new words — no
+dossiers yet**, so none are offerable until authored (§3.4 requires a current dossier).
+Genders/plurals/verb-forms are author's German (parallel Sonnet sub-agents) and want the
+§7.1 Wiktionary/Duden spot-check before trusting — do it as a local script, not web lookups.
 
 **Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
 lists ever.** The word list is a hand-curated pool we grow together; specific coverage
@@ -22,9 +31,14 @@ doesn't matter — only skipping known words and capturing unknown ones. Phase 5
 pipeline) is abandoned.
 
 **Pick up with one of these:**
-1. **Grow the pool** — author more words + dossiers in batches (like the C1 set). Add B1/B2
-   depth, or more C1. Workflow: add words to a `data/words.*.json` file, author dossiers in a
-   `data/dossiers.*.json` file (glob-loaded), run `npm run collect` to confirm none are missing.
+1. **Author dossiers for the 1000-word pool** — the word entries exist; ~885 have no dossier
+   yet. This is the big remaining content campaign. Proven workflow from the word-pool build:
+   partition the pending words into **disjoint semantic-domain batches** (so parallel authors
+   can't collide), spawn one sub-agent per batch writing `data/dossiers.*.json` (glob-loaded,
+   keyed by lemma), then `npm run collect` to confirm none are missing. `npm run collect`
+   already lists exactly which lemmas still need a dossier. Batch meaningfully (one file → one
+   verify → one commit); dossiers are **O**-level (correctness-sensitive), unlike the word
+   entries which were fine at **S**.
 2. **Quality spot-check** the C1 dossiers (task 7.1) — register/Rektion/examples are unverified
    author's-German. Do metadata via a **local script** (curl Wiktionary), not per-word WebFetch
    (that burned a quota — see 2026-07-26 note below).
