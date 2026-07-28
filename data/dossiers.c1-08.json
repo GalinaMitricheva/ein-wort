@@ -1,0 +1,2565 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 formal adjectives & adverbs, batch c1-08. Keyed by lemma; gradable adjectives carry Komparativ/Superlativ, absolute adjectives and adverbs use forms:[].",
+  "dossiers": {
+    "akribisch": {
+      "meaning_de": "mit äußerster Sorgfalt und Genauigkeit, bis ins kleinste Detail",
+      "meaning_en": "meticulous; painstaking",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "akribischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am akribischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "akribische Genauigkeit",
+          "gloss_en": "meticulous accuracy"
+        },
+        {
+          "phrase": "akribisch recherchieren",
+          "gloss_en": "to research meticulously"
+        },
+        {
+          "phrase": "akribisch dokumentieren",
+          "gloss_en": "to document meticulously"
+        },
+        {
+          "phrase": "mit akribischer Sorgfalt",
+          "gloss_en": "with painstaking care"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ermittler haben jede Spur akribisch verfolgt.",
+          "en": "The investigators followed every lead meticulously."
+        },
+        {
+          "de": "Sie führt ein akribisch geordnetes Archiv.",
+          "en": "She keeps a meticulously ordered archive."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; lobend, oft für wissenschaftliche oder handwerkliche Präzision.",
+      "near_synonyms": [
+        {
+          "lemma": "penibel",
+          "distinction": "kann leicht abwertend klingen, betont übertriebene Genauigkeit"
+        },
+        {
+          "lemma": "peinlich genau",
+          "distinction": "umschreibend, hebt die Sorgfalt bis zur Kleinlichkeit hervor"
+        }
+      ]
+    },
+    "prekär": {
+      "meaning_de": "unsicher, heikel und schwer zu bewältigen",
+      "meaning_en": "precarious; delicate",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "prekärer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am prekärsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine prekäre Lage",
+          "gloss_en": "a precarious situation"
+        },
+        {
+          "phrase": "prekäre Beschäftigung",
+          "gloss_en": "precarious employment"
+        },
+        {
+          "phrase": "sich in einer prekären Situation befinden",
+          "gloss_en": "to be in a precarious situation"
+        },
+        {
+          "phrase": "prekäre Verhältnisse",
+          "gloss_en": "precarious circumstances"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die finanzielle Lage des Unternehmens ist prekär.",
+          "en": "The company's financial situation is precarious."
+        },
+        {
+          "de": "Viele leben in prekären Arbeitsverhältnissen.",
+          "en": "Many live in precarious employment conditions."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; häufig in Wirtschaft, Soziologie und Politik.",
+      "near_synonyms": [
+        {
+          "lemma": "heikel",
+          "distinction": "betont die Schwierigkeit im Umgang, weniger die Existenzbedrohung"
+        },
+        {
+          "lemma": "unsicher",
+          "distinction": "allgemeiner und neutraler, ohne die Konnotation der Bedrohung"
+        }
+      ]
+    },
+    "paradox": {
+      "meaning_de": "in sich widersprüchlich und dennoch scheinbar zutreffend",
+      "meaning_en": "paradoxical",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "paradoxer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am paradoxesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine paradoxe Situation",
+          "gloss_en": "a paradoxical situation"
+        },
+        {
+          "phrase": "paradox erscheinen",
+          "gloss_en": "to appear paradoxical"
+        },
+        {
+          "phrase": "so paradox es klingt",
+          "gloss_en": "paradoxical as it sounds"
+        },
+        {
+          "phrase": "ein paradoxer Effekt",
+          "gloss_en": "a paradoxical effect"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es klingt paradox, aber mehr Auswahl macht oft unzufriedener.",
+          "en": "It sounds paradoxical, but more choice often makes people less satisfied."
+        },
+        {
+          "de": "Sein Verhalten war geradezu paradox.",
+          "en": "His behaviour was downright paradoxical."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; Fremdwort, verbreitet in Philosophie, Logik und Alltagssprache der Gebildeten.",
+      "near_synonyms": [
+        {
+          "lemma": "widersprüchlich",
+          "distinction": "betont den logischen Widerspruch, ohne das Überraschende"
+        },
+        {
+          "lemma": "widersinnig",
+          "distinction": "hebt hervor, dass etwas dem gesunden Menschenverstand zuwiderläuft"
+        }
+      ]
+    },
+    "ambivalent": {
+      "meaning_de": "zwei gegensätzliche Gefühle oder Bewertungen zugleich enthaltend",
+      "meaning_en": "ambivalent; conflicted",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "ambivalenter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am ambivalentesten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ambivalent gegenüber jemandem/etwas",
+          "cases": "gegenüber + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ambivalente Gefühle",
+          "gloss_en": "ambivalent feelings"
+        },
+        {
+          "phrase": "eine ambivalente Haltung",
+          "gloss_en": "an ambivalent stance"
+        },
+        {
+          "phrase": "ambivalent bewerten",
+          "gloss_en": "to assess ambivalently"
+        },
+        {
+          "phrase": "ein ambivalentes Verhältnis",
+          "gloss_en": "an ambivalent relationship"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Verhältnis zur Heimat ist zutiefst ambivalent.",
+          "en": "Her relationship to her homeland is deeply ambivalent."
+        },
+        {
+          "de": "Die Kritik fiel ambivalent aus.",
+          "en": "The reviews were ambivalent."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Psychologie, Kritik und Feuilleton.",
+      "near_synonyms": [
+        {
+          "lemma": "zwiespältig",
+          "distinction": "deutscheres Wort, betont das innere Hin und Her"
+        },
+        {
+          "lemma": "gespalten",
+          "distinction": "stärker, oft für eine klar in zwei Lager geteilte Haltung"
+        }
+      ]
+    },
+    "autark": {
+      "meaning_de": "wirtschaftlich unabhängig und sich selbst versorgend",
+      "meaning_en": "self-sufficient; autarkic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "autarker"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am autarksten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "energetisch autark",
+          "gloss_en": "energy self-sufficient"
+        },
+        {
+          "phrase": "autark leben",
+          "gloss_en": "to live self-sufficiently"
+        },
+        {
+          "phrase": "sich autark versorgen",
+          "gloss_en": "to supply oneself autonomously"
+        },
+        {
+          "phrase": "eine autarke Region",
+          "gloss_en": "a self-sufficient region"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Dorf ist beim Strom weitgehend autark.",
+          "en": "The village is largely self-sufficient in electricity."
+        },
+        {
+          "de": "Sie träumen von einem autarken Leben ohne Supermarkt.",
+          "en": "They dream of a self-sufficient life without a supermarket."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; Fachwort aus Wirtschaft, Energie und Ökologie.",
+      "near_synonyms": [
+        {
+          "lemma": "unabhängig",
+          "distinction": "allgemeiner, nicht auf Selbstversorgung beschränkt"
+        },
+        {
+          "lemma": "selbstversorgend",
+          "distinction": "beschreibender, betont konkret die eigene Versorgung"
+        }
+      ]
+    },
+    "dogmatisch": {
+      "meaning_de": "starr an feststehenden Lehrsätzen festhaltend, ohne Zweifel zuzulassen",
+      "meaning_en": "dogmatic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "dogmatischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am dogmatischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "dogmatisch festhalten an",
+          "gloss_en": "to cling dogmatically to"
+        },
+        {
+          "phrase": "eine dogmatische Haltung",
+          "gloss_en": "a dogmatic attitude"
+        },
+        {
+          "phrase": "dogmatisch argumentieren",
+          "gloss_en": "to argue dogmatically"
+        },
+        {
+          "phrase": "dogmatische Verengung",
+          "gloss_en": "dogmatic narrowing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er verteidigt seine Thesen dogmatisch und lässt keine Einwände zu.",
+          "en": "He defends his theses dogmatically and admits no objections."
+        },
+        {
+          "de": "Man sollte nicht dogmatisch an einer einzigen Methode kleben.",
+          "en": "One shouldn't cling dogmatically to a single method."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; meist abwertend, in Politik, Wissenschaft und Theologie.",
+      "near_synonyms": [
+        {
+          "lemma": "starrsinnig",
+          "distinction": "bezieht sich auf die Person, betont die Unbelehrbarkeit"
+        },
+        {
+          "lemma": "doktrinär",
+          "distinction": "noch stärker abwertend, betont das Aufzwingen einer Doktrin"
+        }
+      ]
+    },
+    "euphorisch": {
+      "meaning_de": "von überschwänglicher Hochstimmung und Begeisterung erfüllt",
+      "meaning_en": "euphoric; elated",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "euphorischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am euphorischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "euphorische Stimmung",
+          "gloss_en": "euphoric mood"
+        },
+        {
+          "phrase": "euphorisch reagieren",
+          "gloss_en": "to react euphorically"
+        },
+        {
+          "phrase": "euphorisch gefeiert werden",
+          "gloss_en": "to be celebrated euphorically"
+        },
+        {
+          "phrase": "in euphorische Begeisterung verfallen",
+          "gloss_en": "to fall into euphoric enthusiasm"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Fans jubelten euphorisch, als das Tor fiel.",
+          "en": "The fans cheered euphorically when the goal was scored."
+        },
+        {
+          "de": "Anfangs war die Presse euphorisch, dann kam die Ernüchterung.",
+          "en": "At first the press was euphoric, then came the disillusionment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gebildet, aber alltagstauglich; passt zu Sport, Kultur und Börse.",
+      "near_synonyms": [
+        {
+          "lemma": "begeistert",
+          "distinction": "schwächer und alltäglicher, ohne das Überschwängliche"
+        },
+        {
+          "lemma": "überschwänglich",
+          "distinction": "betont das Maßlose des Gefühlsausdrucks"
+        }
+      ]
+    },
+    "exzessiv": {
+      "meaning_de": "das übliche Maß weit überschreitend, maßlos übertrieben",
+      "meaning_en": "excessive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "exzessiver"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am exzessivsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "exzessiver Konsum",
+          "gloss_en": "excessive consumption"
+        },
+        {
+          "phrase": "exzessiv trinken",
+          "gloss_en": "to drink to excess"
+        },
+        {
+          "phrase": "exzessive Nutzung",
+          "gloss_en": "excessive use"
+        },
+        {
+          "phrase": "ein exzessiver Lebensstil",
+          "gloss_en": "an excessive lifestyle"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Exzessiver Alkoholkonsum schädigt die Leber.",
+          "en": "Excessive alcohol consumption damages the liver."
+        },
+        {
+          "de": "Er nutzt sein Smartphone geradezu exzessiv.",
+          "en": "He uses his smartphone downright excessively."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft mit kritischem Unterton, in Medizin, Recht und Feuilleton.",
+      "near_synonyms": [
+        {
+          "lemma": "maßlos",
+          "distinction": "deutscheres Wort, betont das fehlende Maß beim Handelnden"
+        },
+        {
+          "lemma": "übermäßig",
+          "distinction": "schwächer und neutraler, einfach über das Nötige hinaus"
+        }
+      ]
+    },
+    "hedonistisch": {
+      "meaning_de": "den Lebensgenuss und das Streben nach Lust zum obersten Prinzip machend",
+      "meaning_en": "hedonistic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "hedonistischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am hedonistischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein hedonistischer Lebensstil",
+          "gloss_en": "a hedonistic lifestyle"
+        },
+        {
+          "phrase": "hedonistische Gesellschaft",
+          "gloss_en": "hedonistic society"
+        },
+        {
+          "phrase": "hedonistisch veranlagt",
+          "gloss_en": "hedonistically inclined"
+        },
+        {
+          "phrase": "rein hedonistische Motive",
+          "gloss_en": "purely hedonistic motives"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Kritik warf der Generation eine hedonistische Haltung vor.",
+          "en": "The criticism accused the generation of a hedonistic attitude."
+        },
+        {
+          "de": "Er lebt betont hedonistisch und plant nie voraus.",
+          "en": "He lives emphatically hedonistically and never plans ahead."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; Fachbegriff aus Philosophie und Soziologie, oft leicht wertend.",
+      "near_synonyms": [
+        {
+          "lemma": "genussfreudig",
+          "distinction": "positiver und alltäglicher, ohne den philosophischen Anspruch"
+        },
+        {
+          "lemma": "genusssüchtig",
+          "distinction": "deutlich abwertend, betont die übersteigerte Gier nach Genuss"
+        }
+      ]
+    },
+    "immanent": {
+      "meaning_de": "in einer Sache selbst enthalten, ihr innewohnend, nicht von außen kommend",
+      "meaning_en": "inherent; immanent",
+      "forms": [],
+      "rektion": [
+        {
+          "pattern": "einer Sache immanent sein",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein immanenter Widerspruch",
+          "gloss_en": "an immanent contradiction"
+        },
+        {
+          "phrase": "systemimmanente Zwänge",
+          "gloss_en": "constraints inherent to the system"
+        },
+        {
+          "phrase": "dem System immanent sein",
+          "gloss_en": "to be immanent to the system"
+        },
+        {
+          "phrase": "immanente Kritik",
+          "gloss_en": "immanent critique"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Spannung ist dem kapitalistischen System immanent.",
+          "en": "This tension is immanent to the capitalist system."
+        },
+        {
+          "de": "Der Fehler war der Konstruktion von Anfang an immanent.",
+          "en": "The flaw was inherent in the design from the outset."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; philosophisch-wissenschaftlicher Fachbegriff, Gegensatz zu 'transzendent'.",
+      "near_synonyms": [
+        {
+          "lemma": "inhärent",
+          "distinction": "nahezu bedeutungsgleich, etwas geläufiger im Alltag der Fachsprache"
+        },
+        {
+          "lemma": "innewohnend",
+          "distinction": "deutsche Entsprechung, weniger technisch klingend"
+        }
+      ]
+    },
+    "inhärent": {
+      "meaning_de": "einer Sache von Natur aus anhaftend und untrennbar mit ihr verbunden",
+      "meaning_en": "inherent; intrinsic",
+      "forms": [],
+      "rektion": [
+        {
+          "pattern": "einer Sache inhärent sein",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein inhärentes Risiko",
+          "gloss_en": "an inherent risk"
+        },
+        {
+          "phrase": "inhärente Widersprüche",
+          "gloss_en": "inherent contradictions"
+        },
+        {
+          "phrase": "dem Verfahren inhärent",
+          "gloss_en": "inherent in the procedure"
+        },
+        {
+          "phrase": "eine inhärente Eigenschaft",
+          "gloss_en": "an inherent property"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Jeder Investition ist ein gewisses Risiko inhärent.",
+          "en": "A certain risk is inherent in any investment."
+        },
+        {
+          "de": "Diese Schwäche ist dem Modell inhärent.",
+          "en": "This weakness is inherent in the model."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; Fachwort aus Wissenschaft, Technik und Recht.",
+      "near_synonyms": [
+        {
+          "lemma": "immanent",
+          "distinction": "philosophischer gefärbt, stärker auf ein System bezogen"
+        },
+        {
+          "lemma": "wesenseigen",
+          "distinction": "deutsches Wort, betont das zum Wesen Gehörende"
+        }
+      ]
+    },
+    "irreversibel": {
+      "meaning_de": "nicht mehr rückgängig zu machen, unumkehrbar",
+      "meaning_en": "irreversible",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "irreversible Schäden",
+          "gloss_en": "irreversible damage"
+        },
+        {
+          "phrase": "ein irreversibler Prozess",
+          "gloss_en": "an irreversible process"
+        },
+        {
+          "phrase": "irreversible Folgen",
+          "gloss_en": "irreversible consequences"
+        },
+        {
+          "phrase": "irreversibel geschädigt",
+          "gloss_en": "irreversibly damaged"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Erwärmung könnte irreversible Folgen für das Ökosystem haben.",
+          "en": "The warming could have irreversible consequences for the ecosystem."
+        },
+        {
+          "de": "Der Hirnschaden ist leider irreversibel.",
+          "en": "The brain damage is unfortunately irreversible."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; Fachwort aus Medizin, Physik und Umweltdebatte, Gegenteil von 'reversibel'.",
+      "near_synonyms": [
+        {
+          "lemma": "unumkehrbar",
+          "distinction": "deutsche Entsprechung, etwas weniger technisch"
+        },
+        {
+          "lemma": "endgültig",
+          "distinction": "allgemeiner, betont das Abgeschlossene statt die Unumkehrbarkeit eines Prozesses"
+        }
+      ]
+    },
+    "kohärent": {
+      "meaning_de": "in sich stimmig, logisch zusammenhängend und widerspruchsfrei",
+      "meaning_en": "coherent",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "kohärenter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am kohärentesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein kohärentes Konzept",
+          "gloss_en": "a coherent concept"
+        },
+        {
+          "phrase": "kohärent argumentieren",
+          "gloss_en": "to argue coherently"
+        },
+        {
+          "phrase": "eine kohärente Strategie",
+          "gloss_en": "a coherent strategy"
+        },
+        {
+          "phrase": "in sich kohärent",
+          "gloss_en": "internally coherent"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Aufsatz ist klar strukturiert und kohärent.",
+          "en": "The essay is clearly structured and coherent."
+        },
+        {
+          "de": "Es fehlt der Regierung an einer kohärenten Klimapolitik.",
+          "en": "The government lacks a coherent climate policy."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Wissenschaft, Argumentation und Politik, Gegenteil von 'inkohärent'.",
+      "near_synonyms": [
+        {
+          "lemma": "schlüssig",
+          "distinction": "deutscher, betont die logische Beweiskraft eines Gedankengangs"
+        },
+        {
+          "lemma": "stimmig",
+          "distinction": "alltäglicher, betont den harmonischen Gesamteindruck"
+        }
+      ]
+    },
+    "latent": {
+      "meaning_de": "vorhanden, aber verborgen und noch nicht offen in Erscheinung getreten",
+      "meaning_en": "latent",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "latenter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am latentesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine latente Gefahr",
+          "gloss_en": "a latent danger"
+        },
+        {
+          "phrase": "latenter Rassismus",
+          "gloss_en": "latent racism"
+        },
+        {
+          "phrase": "latent vorhanden sein",
+          "gloss_en": "to be present latently"
+        },
+        {
+          "phrase": "latente Spannungen",
+          "gloss_en": "latent tensions"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen den Nachbarn schwelt ein latenter Konflikt.",
+          "en": "A latent conflict simmers between the neighbours."
+        },
+        {
+          "de": "Die Krankheit blieb jahrelang latent.",
+          "en": "The disease remained latent for years."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; verbreitet in Medizin, Psychologie und Gesellschaftsanalyse, Gegenteil von 'manifest'.",
+      "near_synonyms": [
+        {
+          "lemma": "verborgen",
+          "distinction": "allgemeiner, betont das schlichte Nicht-Sichtbarsein"
+        },
+        {
+          "lemma": "unterschwellig",
+          "distinction": "betont, dass etwas unter der Wahrnehmungsschwelle wirkt"
+        }
+      ]
+    },
+    "lukrativ": {
+      "meaning_de": "hohen Gewinn oder Ertrag versprechend, einträglich",
+      "meaning_en": "lucrative; profitable",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "lukrativer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am lukrativsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein lukratives Geschäft",
+          "gloss_en": "a lucrative business"
+        },
+        {
+          "phrase": "ein lukrativer Auftrag",
+          "gloss_en": "a lucrative contract"
+        },
+        {
+          "phrase": "lukrative Nebeneinkünfte",
+          "gloss_en": "lucrative side income"
+        },
+        {
+          "phrase": "besonders lukrativ sein",
+          "gloss_en": "to be especially lucrative"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Handel mit Ersatzteilen ist überraschend lukrativ.",
+          "en": "Trading in spare parts is surprisingly lucrative."
+        },
+        {
+          "de": "Sie lehnte ein lukratives Angebot aus Prinzip ab.",
+          "en": "She turned down a lucrative offer on principle."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gehoben, aber alltagstauglich; typisch für Wirtschaft und Geschäftssprache.",
+      "near_synonyms": [
+        {
+          "lemma": "einträglich",
+          "distinction": "deutsche Entsprechung, etwas nüchterner"
+        },
+        {
+          "lemma": "gewinnbringend",
+          "distinction": "beschreibender, betont ausdrücklich den erzielten Gewinn"
+        }
+      ]
+    },
+    "notorisch": {
+      "meaning_de": "wegen einer negativen Eigenschaft allgemein bekannt und immer wieder auffällig",
+      "meaning_en": "notorious; chronic",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein notorischer Lügner",
+          "gloss_en": "a notorious liar"
+        },
+        {
+          "phrase": "notorisch unpünktlich",
+          "gloss_en": "notoriously unpunctual"
+        },
+        {
+          "phrase": "notorischer Querulant",
+          "gloss_en": "chronic troublemaker"
+        },
+        {
+          "phrase": "notorisch klamm sein",
+          "gloss_en": "to be chronically short of money"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er ist ein notorischer Zuspätkommer.",
+          "en": "He is a notorious latecomer."
+        },
+        {
+          "de": "Die Behörde ist notorisch unterbesetzt.",
+          "en": "The agency is chronically understaffed."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stets abwertend, für dauerhaft negative Eigenschaften. Nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "chronisch",
+          "distinction": "betont die Dauerhaftigkeit, ohne den Ruf-Aspekt"
+        },
+        {
+          "lemma": "berüchtigt",
+          "distinction": "betont den schlechten Ruf einer Person oder Sache, oft für Einzelfälle"
+        }
+      ]
+    },
+    "obsolet": {
+      "meaning_de": "nicht mehr gebräuchlich, überholt und dadurch überflüssig geworden",
+      "meaning_en": "obsolete",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "obsolet werden",
+          "gloss_en": "to become obsolete"
+        },
+        {
+          "phrase": "eine obsolete Regelung",
+          "gloss_en": "an obsolete regulation"
+        },
+        {
+          "phrase": "etwas obsolet machen",
+          "gloss_en": "to render something obsolete"
+        },
+        {
+          "phrase": "obsolete Technik",
+          "gloss_en": "obsolete technology"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Durch die neue Software ist das alte Verfahren obsolet geworden.",
+          "en": "The new software has made the old procedure obsolete."
+        },
+        {
+          "de": "Diese Vorschrift ist längst obsolet.",
+          "en": "This regulation has long been obsolete."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; verbreitet in Technik, Recht und Verwaltung. In der Regel nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "überholt",
+          "distinction": "deutsche Entsprechung, alltäglicher"
+        },
+        {
+          "lemma": "hinfällig",
+          "distinction": "betont, dass etwas seine Gültigkeit verloren hat und wegfällt"
+        }
+      ]
+    },
+    "opportun": {
+      "meaning_de": "in der gegebenen Lage vorteilhaft und zweckmäßig",
+      "meaning_en": "opportune; expedient",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "opportuner"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am opportunsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "opportun erscheinen",
+          "gloss_en": "to seem expedient"
+        },
+        {
+          "phrase": "es für opportun halten",
+          "gloss_en": "to consider it opportune"
+        },
+        {
+          "phrase": "politisch opportun",
+          "gloss_en": "politically expedient"
+        },
+        {
+          "phrase": "im opportunen Moment",
+          "gloss_en": "at the opportune moment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es erschien nicht opportun, das Thema jetzt anzusprechen.",
+          "en": "It did not seem opportune to raise the subject now."
+        },
+        {
+          "de": "Sie tat nur, was gerade opportun war.",
+          "en": "She only did what was expedient at the moment."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft in Politik, meist prädikativ ('es ist opportun'), gelegentlich mit kritischem Beiklang.",
+      "near_synonyms": [
+        {
+          "lemma": "angebracht",
+          "distinction": "alltäglicher, betont die sachliche Angemessenheit"
+        },
+        {
+          "lemma": "zweckmäßig",
+          "distinction": "betont den praktischen Nutzen, ohne den Aspekt des günstigen Zeitpunkts"
+        }
+      ]
+    },
+    "penibel": {
+      "meaning_de": "übertrieben genau und peinlich auf Ordnung und Sauberkeit bedacht",
+      "meaning_en": "fastidious; overly meticulous",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "penibler"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am penibelsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "penibel genau",
+          "gloss_en": "scrupulously precise"
+        },
+        {
+          "phrase": "penibel auf etwas achten",
+          "gloss_en": "to pay fastidious attention to something"
+        },
+        {
+          "phrase": "penible Ordnung",
+          "gloss_en": "fastidious tidiness"
+        },
+        {
+          "phrase": "peinlich penibel",
+          "gloss_en": "painstakingly fussy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hält ihre Küche penibel sauber.",
+          "en": "She keeps her kitchen fastidiously clean."
+        },
+        {
+          "de": "Er achtet penibel auf jede Kommastelle.",
+          "en": "He pays fastidious attention to every decimal place."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagstauglich; oft mit leicht kritischem Beiklang, im Unterschied zum lobenden 'akribisch'.",
+      "near_synonyms": [
+        {
+          "lemma": "pedantisch",
+          "distinction": "stärker abwertend, betont die kleinliche Regelverliebtheit"
+        },
+        {
+          "lemma": "akribisch",
+          "distinction": "durchweg positiv, lobt die sorgfältige Genauigkeit"
+        }
+      ]
+    },
+    "polarisierend": {
+      "meaning_de": "die Meinungen stark spaltend und in gegensätzliche Lager treibend",
+      "meaning_en": "polarizing; divisive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "polarisierender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am polarisierendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine polarisierende Figur",
+          "gloss_en": "a polarizing figure"
+        },
+        {
+          "phrase": "polarisierende Aussagen",
+          "gloss_en": "polarizing statements"
+        },
+        {
+          "phrase": "stark polarisierend wirken",
+          "gloss_en": "to have a strongly polarizing effect"
+        },
+        {
+          "phrase": "ein polarisierendes Thema",
+          "gloss_en": "a divisive topic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Politiker ist eine höchst polarisierende Figur.",
+          "en": "The politician is a highly polarizing figure."
+        },
+        {
+          "de": "Ihre Kolumnen sind bewusst polarisierend.",
+          "en": "Her columns are deliberately polarizing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gebildet, aber medientauglich; häufig im Journalismus über öffentliche Personen.",
+      "near_synonyms": [
+        {
+          "lemma": "spaltend",
+          "distinction": "deutsche Entsprechung, direkter und bildhafter"
+        },
+        {
+          "lemma": "kontrovers",
+          "distinction": "betont die Umstrittenheit, ohne zwingend zwei Lager zu bilden"
+        }
+      ]
+    },
+    "profan": {
+      "meaning_de": "alltäglich und weltlich, ohne höhere oder geistige Bedeutung",
+      "meaning_en": "mundane; profane",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "profaner"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am profansten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein profaner Grund",
+          "gloss_en": "a mundane reason"
+        },
+        {
+          "phrase": "aus rein profanen Motiven",
+          "gloss_en": "for purely mundane motives"
+        },
+        {
+          "phrase": "profane Alltagsdinge",
+          "gloss_en": "mundane everyday matters"
+        },
+        {
+          "phrase": "das Profane und das Sakrale",
+          "gloss_en": "the profane and the sacred"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Grund für die Verspätung war ganz profan: ein Stau.",
+          "en": "The reason for the delay was quite mundane: a traffic jam."
+        },
+        {
+          "de": "In profanen Bauten wurden keine Reliquien aufbewahrt.",
+          "en": "No relics were kept in secular buildings."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; zwei Nuancen: 'schlicht alltäglich' und, als Gegenteil von sakral, 'weltlich'.",
+      "near_synonyms": [
+        {
+          "lemma": "banal",
+          "distinction": "abwertender, betont die geistige Belanglosigkeit"
+        },
+        {
+          "lemma": "weltlich",
+          "distinction": "vor allem als Gegensatz zu geistlich/kirchlich"
+        }
+      ]
+    },
+    "provisorisch": {
+      "meaning_de": "nur vorläufig eingerichtet, bis eine dauerhafte Lösung gefunden ist",
+      "meaning_en": "provisional; makeshift",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine provisorische Lösung",
+          "gloss_en": "a provisional solution"
+        },
+        {
+          "phrase": "provisorisch reparieren",
+          "gloss_en": "to repair provisionally"
+        },
+        {
+          "phrase": "eine provisorische Unterkunft",
+          "gloss_en": "temporary accommodation"
+        },
+        {
+          "phrase": "nur provisorisch befestigt",
+          "gloss_en": "only fastened provisionally"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Dach wurde provisorisch mit einer Plane abgedeckt.",
+          "en": "The roof was covered provisionally with a tarpaulin."
+        },
+        {
+          "de": "Die Regierung amtiert vorerst nur provisorisch.",
+          "en": "The government is only holding office provisionally for now."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagstauglich; von Bauwesen bis Politik. In der Regel nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "vorläufig",
+          "distinction": "deutsche Entsprechung, etwas neutraler"
+        },
+        {
+          "lemma": "behelfsmäßig",
+          "distinction": "betont stärker das Notdürftige und Improvisierte"
+        }
+      ]
+    },
+    "redundant": {
+      "meaning_de": "überflüssig, weil mehrfach vorhanden oder ohne zusätzlichen Informationswert",
+      "meaning_en": "redundant",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "redundanter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am redundantesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "redundante Informationen",
+          "gloss_en": "redundant information"
+        },
+        {
+          "phrase": "redundant sein",
+          "gloss_en": "to be redundant"
+        },
+        {
+          "phrase": "Redundanz vermeiden",
+          "gloss_en": "to avoid redundancy"
+        },
+        {
+          "phrase": "redundant ausgelegt",
+          "gloss_en": "designed with redundancy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Passage ist redundant und kann gestrichen werden.",
+          "en": "This passage is redundant and can be deleted."
+        },
+        {
+          "de": "Das System ist redundant ausgelegt, um Ausfälle zu vermeiden.",
+          "en": "The system is designed redundantly to avoid failures."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; zwei Lesarten: negativ 'überflüssig' und, in der Technik, positiv 'mehrfach abgesichert'.",
+      "near_synonyms": [
+        {
+          "lemma": "überflüssig",
+          "distinction": "deutsche Entsprechung, breiter verwendbar"
+        },
+        {
+          "lemma": "doppelt",
+          "distinction": "schlicht mengenmäßig, ohne die Bewertung als unnötig"
+        }
+      ]
+    },
+    "rigoros": {
+      "meaning_de": "streng und unnachgiebig, ohne Rücksicht durchgesetzt",
+      "meaning_en": "rigorous; strict; drastic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "rigoroser"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am rigorosesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "rigorose Maßnahmen",
+          "gloss_en": "drastic measures"
+        },
+        {
+          "phrase": "rigoros durchgreifen",
+          "gloss_en": "to crack down rigorously"
+        },
+        {
+          "phrase": "ein rigoroses Vorgehen",
+          "gloss_en": "a rigorous approach"
+        },
+        {
+          "phrase": "rigoros ablehnen",
+          "gloss_en": "to reject categorically"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Stadt geht rigoros gegen Falschparker vor.",
+          "en": "The city cracks down rigorously on illegal parking."
+        },
+        {
+          "de": "Er kürzte das Budget rigoros.",
+          "en": "He cut the budget drastically."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont Härte und Kompromisslosigkeit, oft in Politik und Verwaltung.",
+      "near_synonyms": [
+        {
+          "lemma": "kompromisslos",
+          "distinction": "betont die fehlende Bereitschaft zum Nachgeben"
+        },
+        {
+          "lemma": "drastisch",
+          "distinction": "betont die Heftigkeit der Maßnahme, nicht die Strenge der Haltung"
+        }
+      ]
+    },
+    "sakrosankt": {
+      "meaning_de": "als unantastbar geltend und jeder Kritik oder Veränderung entzogen",
+      "meaning_en": "sacrosanct",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sakrosankt sein",
+          "gloss_en": "to be sacrosanct"
+        },
+        {
+          "phrase": "nichts ist sakrosankt",
+          "gloss_en": "nothing is sacrosanct"
+        },
+        {
+          "phrase": "als sakrosankt gelten",
+          "gloss_en": "to be regarded as sacrosanct"
+        },
+        {
+          "phrase": "ein sakrosanktes Prinzip",
+          "gloss_en": "a sacrosanct principle"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Reform ist kein einziger Posten sakrosankt.",
+          "en": "In the reform not a single item is sacrosanct."
+        },
+        {
+          "de": "Für ihn war die Sonntagsruhe sakrosankt.",
+          "en": "For him, Sunday's rest was sacrosanct."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und selten; oft rhetorisch, meist prädikativ. Nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "unantastbar",
+          "distinction": "deutsche Entsprechung, geläufiger und weniger pathetisch"
+        },
+        {
+          "lemma": "tabu",
+          "distinction": "betont das Verbot der Berührung, umgangssprachlicher"
+        }
+      ]
+    },
+    "skrupellos": {
+      "meaning_de": "ohne moralische Bedenken und rücksichtslos handelnd",
+      "meaning_en": "unscrupulous; ruthless",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "skrupelloser"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am skrupellosesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein skrupelloser Geschäftsmann",
+          "gloss_en": "an unscrupulous businessman"
+        },
+        {
+          "phrase": "skrupellos ausnutzen",
+          "gloss_en": "to exploit ruthlessly"
+        },
+        {
+          "phrase": "mit skrupelloser Härte",
+          "gloss_en": "with ruthless severity"
+        },
+        {
+          "phrase": "skrupellos vorgehen",
+          "gloss_en": "to act unscrupulously"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Betrüger nutzten die Notlage skrupellos aus.",
+          "en": "The fraudsters exploited the emergency ruthlessly."
+        },
+        {
+          "de": "Er verfolgt seine Ziele völlig skrupellos.",
+          "en": "He pursues his goals entirely without scruples."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagstauglich, stark wertend; für moralisch verwerfliches Handeln.",
+      "near_synonyms": [
+        {
+          "lemma": "gewissenlos",
+          "distinction": "betont das fehlende Gewissen, fast bedeutungsgleich"
+        },
+        {
+          "lemma": "rücksichtslos",
+          "distinction": "schwächer, betont nur die fehlende Rücksicht, nicht die Amoralität"
+        }
+      ]
+    },
+    "souverän": {
+      "meaning_de": "überlegen sicher und gelassen, eine Lage mühelos beherrschend",
+      "meaning_en": "assured; masterly; (of a state) sovereign",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "souveräner"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am souveränsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "souverän auftreten",
+          "gloss_en": "to come across as assured"
+        },
+        {
+          "phrase": "eine souveräne Leistung",
+          "gloss_en": "a masterly performance"
+        },
+        {
+          "phrase": "souverän mit etwas umgehen",
+          "gloss_en": "to handle something with assurance"
+        },
+        {
+          "phrase": "ein souveräner Staat",
+          "gloss_en": "a sovereign state"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie meisterte die schwierige Frage souverän.",
+          "en": "She handled the difficult question with complete assurance."
+        },
+        {
+          "de": "Die Mannschaft gewann souverän mit drei Toren Vorsprung.",
+          "en": "The team won convincingly with a three-goal lead."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gebildet, aber alltagstauglich; als Adjektiv meist lobend, daneben der staatsrechtliche Sinn 'unabhängig'.",
+      "near_synonyms": [
+        {
+          "lemma": "überlegen",
+          "distinction": "betont die Höherstellung gegenüber anderen"
+        },
+        {
+          "lemma": "gelassen",
+          "distinction": "betont nur die Ruhe, nicht die Meisterschaft"
+        }
+      ]
+    },
+    "subversiv": {
+      "meaning_de": "die bestehende Ordnung heimlich untergrabend und umstürzlerisch",
+      "meaning_en": "subversive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "subversiver"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am subversivsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "subversive Ideen",
+          "gloss_en": "subversive ideas"
+        },
+        {
+          "phrase": "subversive Kunst",
+          "gloss_en": "subversive art"
+        },
+        {
+          "phrase": "subversiv wirken",
+          "gloss_en": "to have a subversive effect"
+        },
+        {
+          "phrase": "subversive Tätigkeit",
+          "gloss_en": "subversive activity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Humor ist auf leise Weise subversiv.",
+          "en": "Her humour is subversive in a quiet way."
+        },
+        {
+          "de": "Das Regime verfolgte jede subversive Regung.",
+          "en": "The regime persecuted every subversive stirring."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Politik, Kunst und Kulturkritik, je nach Blickwinkel wertend oder anerkennend.",
+      "near_synonyms": [
+        {
+          "lemma": "umstürzlerisch",
+          "distinction": "deutscher, betont offen das Ziel des Umsturzes"
+        },
+        {
+          "lemma": "aufwieglerisch",
+          "distinction": "betont das Aufhetzen zum Widerstand, weniger das Verdeckte"
+        }
+      ]
+    },
+    "suggestiv": {
+      "meaning_de": "auf verdeckte Weise beeinflussend und eine bestimmte Antwort nahelegend",
+      "meaning_en": "suggestive; leading",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "suggestiver"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am suggestivsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine suggestive Frage",
+          "gloss_en": "a leading question"
+        },
+        {
+          "phrase": "suggestive Wirkung",
+          "gloss_en": "suggestive effect"
+        },
+        {
+          "phrase": "suggestiv formuliert",
+          "gloss_en": "worded suggestively"
+        },
+        {
+          "phrase": "eine suggestive Bildsprache",
+          "gloss_en": "an evocative imagery"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Reporter stellte lauter suggestive Fragen.",
+          "en": "The reporter asked nothing but leading questions."
+        },
+        {
+          "de": "Die Werbung nutzt suggestive Bilder.",
+          "en": "The advertisement uses suggestive imagery."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Rhetorik, Werbung und Methodik, meist mit kritischem Beiklang.",
+      "near_synonyms": [
+        {
+          "lemma": "manipulativ",
+          "distinction": "stärker abwertend, betont die absichtliche Steuerung"
+        },
+        {
+          "lemma": "beeinflussend",
+          "distinction": "neutraler und allgemeiner, ohne den verdeckten Charakter"
+        }
+      ]
+    },
+    "transzendent": {
+      "meaning_de": "die Grenzen der Erfahrung und des sinnlich Erfassbaren übersteigend",
+      "meaning_en": "transcendent",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine transzendente Erfahrung",
+          "gloss_en": "a transcendent experience"
+        },
+        {
+          "phrase": "das Transzendente",
+          "gloss_en": "the transcendent"
+        },
+        {
+          "phrase": "transzendente Wirklichkeit",
+          "gloss_en": "transcendent reality"
+        },
+        {
+          "phrase": "transzendent begründen",
+          "gloss_en": "to ground in the transcendent"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für Kant liegt das Ding an sich im transzendenten Bereich.",
+          "en": "For Kant the thing in itself lies in the transcendent realm."
+        },
+        {
+          "de": "Mystiker berichten von transzendenten Erfahrungen.",
+          "en": "Mystics report transcendent experiences."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; philosophisch-theologischer Fachbegriff, Gegenteil von 'immanent'. Nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "überirdisch",
+          "distinction": "alltäglicher und bildhafter, ohne den strengen Fachsinn"
+        },
+        {
+          "lemma": "jenseitig",
+          "distinction": "betont das Jenseits, stärker religiös gefärbt"
+        }
+      ]
+    },
+    "utopisch": {
+      "meaning_de": "auf einer idealen, aber praktisch nicht verwirklichbaren Vorstellung beruhend",
+      "meaning_en": "utopian",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "utopischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am utopischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine utopische Vorstellung",
+          "gloss_en": "a utopian notion"
+        },
+        {
+          "phrase": "utopische Forderungen",
+          "gloss_en": "utopian demands"
+        },
+        {
+          "phrase": "utopisch anmuten",
+          "gloss_en": "to seem utopian"
+        },
+        {
+          "phrase": "ein utopischer Entwurf",
+          "gloss_en": "a utopian design"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Ziel, alle Krankheiten zu besiegen, klingt utopisch.",
+          "en": "The goal of defeating all diseases sounds utopian."
+        },
+        {
+          "de": "Seine Pläne sind schön, aber völlig utopisch.",
+          "en": "His plans are lovely but utterly utopian."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gebildet, aber alltagstauglich; oft kritisch für Unrealistisches, daneben neutral für Utopien.",
+      "near_synonyms": [
+        {
+          "lemma": "unrealistisch",
+          "distinction": "nüchterner, betont schlicht die fehlende Umsetzbarkeit"
+        },
+        {
+          "lemma": "weltfremd",
+          "distinction": "abwertend gegenüber Personen, betont mangelnden Realitätssinn"
+        }
+      ]
+    },
+    "verwerflich": {
+      "meaning_de": "moralisch so schlecht, dass es entschieden zu verurteilen ist",
+      "meaning_en": "reprehensible; despicable",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "verwerflicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am verwerflichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "moralisch verwerflich",
+          "gloss_en": "morally reprehensible"
+        },
+        {
+          "phrase": "ein verwerfliches Verhalten",
+          "gloss_en": "reprehensible behaviour"
+        },
+        {
+          "phrase": "als verwerflich gelten",
+          "gloss_en": "to be regarded as reprehensible"
+        },
+        {
+          "phrase": "nichts Verwerfliches finden",
+          "gloss_en": "to find nothing objectionable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es ist zutiefst verwerflich, die Schwächsten auszunutzen.",
+          "en": "It is deeply reprehensible to exploit the weakest."
+        },
+        {
+          "de": "An diesem Vorgehen ist nichts Verwerfliches.",
+          "en": "There is nothing reprehensible about this approach."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; stark wertend, in ethischen, juristischen und moralischen Zusammenhängen.",
+      "near_synonyms": [
+        {
+          "lemma": "verabscheuungswürdig",
+          "distinction": "noch stärker, ruft aktiven Abscheu hervor"
+        },
+        {
+          "lemma": "verdammenswert",
+          "distinction": "gehoben, betont die moralische Verurteilung"
+        }
+      ]
+    },
+    "virulent": {
+      "meaning_de": "brisant und akut wirksam, sich rasch ausbreitend oder zuspitzend",
+      "meaning_en": "virulent; acute; pressing",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "virulenter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am virulentesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "wieder virulent werden",
+          "gloss_en": "to become acute again"
+        },
+        {
+          "phrase": "ein virulentes Problem",
+          "gloss_en": "a pressing problem"
+        },
+        {
+          "phrase": "virulente Konflikte",
+          "gloss_en": "virulent conflicts"
+        },
+        {
+          "phrase": "besonders virulent sein",
+          "gloss_en": "to be especially virulent"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Debatte um Datenschutz ist wieder virulent geworden.",
+          "en": "The debate about data protection has become acute again."
+        },
+        {
+          "de": "In der Region sind ethnische Spannungen weiterhin virulent.",
+          "en": "In the region ethnic tensions remain virulent."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; übertragen aus der Medizin ('ansteckend') auf gesellschaftliche Themen und Konflikte.",
+      "near_synonyms": [
+        {
+          "lemma": "akut",
+          "distinction": "betont die Dringlichkeit im Moment, ohne den Aspekt des Ausbreitens"
+        },
+        {
+          "lemma": "brisant",
+          "distinction": "betont die politische Brisanz und Sprengkraft"
+        }
+      ]
+    },
+    "anachronistisch": {
+      "meaning_de": "nicht in die Zeit passend, aus einer vergangenen Epoche stammend",
+      "meaning_en": "anachronistic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "anachronistischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am anachronistischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "anachronistisch wirken",
+          "gloss_en": "to seem anachronistic"
+        },
+        {
+          "phrase": "ein anachronistisches Relikt",
+          "gloss_en": "an anachronistic relic"
+        },
+        {
+          "phrase": "anachronistische Vorstellungen",
+          "gloss_en": "anachronistic notions"
+        },
+        {
+          "phrase": "geradezu anachronistisch",
+          "gloss_en": "downright anachronistic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Solche Standesregeln wirken heute anachronistisch.",
+          "en": "Such class rules seem anachronistic today."
+        },
+        {
+          "de": "Der Film enthält mehrere anachronistische Requisiten.",
+          "en": "The film contains several anachronistic props."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Geschichte, Kulturkritik und Literaturanalyse.",
+      "near_synonyms": [
+        {
+          "lemma": "überholt",
+          "distinction": "alltäglicher, betont das Veraltetsein ohne den Zeit-Bruch"
+        },
+        {
+          "lemma": "aus der Zeit gefallen",
+          "distinction": "bildhafte Umschreibung, betont das Unpassende zur Gegenwart"
+        }
+      ]
+    },
+    "fragil": {
+      "meaning_de": "zerbrechlich und leicht störbar, wenig belastbar",
+      "meaning_en": "fragile",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "fragiler"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am fragilsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein fragiles Gleichgewicht",
+          "gloss_en": "a fragile balance"
+        },
+        {
+          "phrase": "ein fragiler Frieden",
+          "gloss_en": "a fragile peace"
+        },
+        {
+          "phrase": "fragile Gesundheit",
+          "gloss_en": "fragile health"
+        },
+        {
+          "phrase": "fragil bleiben",
+          "gloss_en": "to remain fragile"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Waffenstillstand ist äußerst fragil.",
+          "en": "The ceasefire is extremely fragile."
+        },
+        {
+          "de": "Das Ökosystem des Riffs ist fragil.",
+          "en": "The reef's ecosystem is fragile."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft übertragen für Zustände und Beziehungen, gebildeter als 'zerbrechlich'.",
+      "near_synonyms": [
+        {
+          "lemma": "zerbrechlich",
+          "distinction": "deutscher, häufiger für konkrete Gegenstände"
+        },
+        {
+          "lemma": "labil",
+          "distinction": "betont die Anfälligkeit für Schwankungen und Zusammenbruch"
+        }
+      ]
+    },
+    "infolgedessen": {
+      "meaning_de": "als logische Folge des zuvor Genannten, deshalb",
+      "meaning_en": "consequently; as a result",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "infolgedessen musste",
+          "gloss_en": "consequently had to"
+        },
+        {
+          "phrase": "infolgedessen kam es zu",
+          "gloss_en": "as a result there occurred"
+        },
+        {
+          "phrase": "und infolgedessen",
+          "gloss_en": "and as a result"
+        },
+        {
+          "phrase": "infolgedessen scheiterte",
+          "gloss_en": "consequently failed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Nachfrage brach ein; infolgedessen wurde die Produktion gedrosselt.",
+          "en": "Demand collapsed; consequently production was cut back."
+        },
+        {
+          "de": "Er versäumte die Frist und konnte infolgedessen nicht teilnehmen.",
+          "en": "He missed the deadline and consequently could not take part."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein Konjunktionaladverb der Folge, typisch für Schrift- und Amtssprache.",
+      "near_synonyms": [
+        {
+          "lemma": "folglich",
+          "distinction": "etwas kürzer und geläufiger, gleiche Funktion"
+        },
+        {
+          "lemma": "deshalb",
+          "distinction": "alltäglich und neutral, weniger förmlich"
+        }
+      ]
+    },
+    "nichtsdestotrotz": {
+      "meaning_de": "trotz des zuvor Gesagten dennoch, ungeachtet dessen",
+      "meaning_en": "nevertheless; nonetheless",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "nichtsdestotrotz gilt",
+          "gloss_en": "nevertheless it holds"
+        },
+        {
+          "phrase": "nichtsdestotrotz versuchte er",
+          "gloss_en": "nonetheless he tried"
+        },
+        {
+          "phrase": "und nichtsdestotrotz",
+          "gloss_en": "and nonetheless"
+        },
+        {
+          "phrase": "nichtsdestotrotz bleibt",
+          "gloss_en": "nevertheless there remains"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Wetter war schlecht; nichtsdestotrotz fand das Fest statt.",
+          "en": "The weather was bad; nevertheless the festival took place."
+        },
+        {
+          "de": "Die Kritik war heftig, nichtsdestotrotz hielt sie an ihrem Plan fest.",
+          "en": "The criticism was fierce; nonetheless she stuck to her plan."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ursprünglich scherzhafte Mischung aus 'nichtsdestoweniger' und 'trotzdem', heute etabliert; gebildet-lässig.",
+      "near_synonyms": [
+        {
+          "lemma": "nichtsdestoweniger",
+          "distinction": "die förmlichere, ältere Variante gleicher Bedeutung"
+        },
+        {
+          "lemma": "dennoch",
+          "distinction": "kürzer und neutral, in jedem Register verwendbar"
+        }
+      ]
+    },
+    "immerhin": {
+      "meaning_de": "wenigstens, als tröstlicher oder anerkennender Rest trotz Einschränkungen",
+      "meaning_en": "at least; after all",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "immerhin etwas",
+          "gloss_en": "at least something"
+        },
+        {
+          "phrase": "immerhin haben wir",
+          "gloss_en": "at least we have"
+        },
+        {
+          "phrase": "es ist immerhin",
+          "gloss_en": "it is after all"
+        },
+        {
+          "phrase": "immerhin noch",
+          "gloss_en": "at least still"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir haben verloren, aber immerhin haben wir gut gespielt.",
+          "en": "We lost, but at least we played well."
+        },
+        {
+          "de": "Immerhin ist er der Chef, da sollte man höflich bleiben.",
+          "en": "After all, he is the boss, so one should stay polite."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagstauglich; als Abtönung mit zwei Nuancen: 'wenigstens' (tröstend) und 'schließlich' (begründend).",
+      "near_synonyms": [
+        {
+          "lemma": "wenigstens",
+          "distinction": "betont nur die tröstende Untergrenze, nicht die Begründung"
+        },
+        {
+          "lemma": "schließlich",
+          "distinction": "deckt vor allem die begründende Lesart ab"
+        }
+      ]
+    },
+    "fortan": {
+      "meaning_de": "von diesem Zeitpunkt an und in der ganzen folgenden Zeit",
+      "meaning_en": "from then on; henceforth",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "fortan galt",
+          "gloss_en": "from then on it held"
+        },
+        {
+          "phrase": "fortan sollte",
+          "gloss_en": "henceforth was to"
+        },
+        {
+          "phrase": "von nun an fortan",
+          "gloss_en": "from now on henceforth"
+        },
+        {
+          "phrase": "fortan lebte er",
+          "gloss_en": "from then on he lived"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Umzug hieß die Straße fortan anders.",
+          "en": "After the move the street was called differently from then on."
+        },
+        {
+          "de": "Fortan wollte sie ihr eigenes Geld verdienen.",
+          "en": "Henceforth she wanted to earn her own money."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und leicht literarisch; oft in Erzählungen und feierlichen Ankündigungen.",
+      "near_synonyms": [
+        {
+          "lemma": "künftig",
+          "distinction": "nüchterner und amtstauglich, für die Zukunft allgemein"
+        },
+        {
+          "lemma": "von nun an",
+          "distinction": "neutrale Umschreibung, alltagstauglicher"
+        }
+      ]
+    },
+    "unterdessen": {
+      "meaning_de": "in der Zwischenzeit, während etwas anderes geschieht",
+      "meaning_en": "meanwhile; in the meantime",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unterdessen wartete",
+          "gloss_en": "meanwhile waited"
+        },
+        {
+          "phrase": "unterdessen war",
+          "gloss_en": "in the meantime was"
+        },
+        {
+          "phrase": "unterdessen hatte sich",
+          "gloss_en": "meanwhile there had"
+        },
+        {
+          "phrase": "unterdessen ging es weiter",
+          "gloss_en": "meanwhile things continued"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er kochte; unterdessen deckte sie den Tisch.",
+          "en": "He cooked; meanwhile she set the table."
+        },
+        {
+          "de": "Unterdessen hatte sich die Lage vor Ort verschärft.",
+          "en": "In the meantime the situation on the ground had escalated."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; schriftsprachlich, im Gespräch sagt man eher 'inzwischen' oder 'währenddessen'.",
+      "near_synonyms": [
+        {
+          "lemma": "inzwischen",
+          "distinction": "alltäglicher, kann auch 'mittlerweile' im Sinne einer Veränderung bedeuten"
+        },
+        {
+          "lemma": "währenddessen",
+          "distinction": "betont die Gleichzeitigkeit zweier Vorgänge stärker"
+        }
+      ]
+    },
+    "schlechthin": {
+      "meaning_de": "in reinster, vollkommener Ausprägung; das Wesen einer Sache verkörpernd",
+      "meaning_en": "par excellence; absolutely; simply",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Klassiker schlechthin",
+          "gloss_en": "the classic par excellence"
+        },
+        {
+          "phrase": "das Symbol schlechthin",
+          "gloss_en": "the very symbol"
+        },
+        {
+          "phrase": "schlechthin unmöglich",
+          "gloss_en": "simply impossible"
+        },
+        {
+          "phrase": "der Inbegriff schlechthin",
+          "gloss_en": "the epitome par excellence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Dieses Lied ist der Sommerhit schlechthin.",
+          "en": "This song is the summer hit par excellence."
+        },
+        {
+          "de": "Eine solche Forderung ist schlechthin unerfüllbar.",
+          "en": "Such a demand is simply impossible to meet."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; steht nach dem Substantiv ('der ... schlechthin') oder verstärkend vor einem Adjektiv.",
+      "near_synonyms": [
+        {
+          "lemma": "schlichtweg",
+          "distinction": "deckt vor allem die verstärkende Lesart 'einfach, geradezu' ab"
+        },
+        {
+          "lemma": "geradezu",
+          "distinction": "betont die Steigerung, nicht die vorbildhafte Vollkommenheit"
+        }
+      ]
+    },
+    "vielmehr": {
+      "meaning_de": "im Gegenteil und genauer gesagt; zur Berichtigung des zuvor Gesagten",
+      "meaning_en": "rather; on the contrary",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "nicht ..., vielmehr ...",
+          "gloss_en": "not ..., but rather ..."
+        },
+        {
+          "phrase": "es geht vielmehr um",
+          "gloss_en": "it is rather a matter of"
+        },
+        {
+          "phrase": "vielmehr sollte man",
+          "gloss_en": "rather one should"
+        },
+        {
+          "phrase": "ganz im Gegenteil, vielmehr",
+          "gloss_en": "quite the opposite, rather"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es war kein Zufall, vielmehr sorgfältig geplant.",
+          "en": "It was no coincidence, but rather carefully planned."
+        },
+        {
+          "de": "Das Problem ist nicht das Geld; vielmehr fehlt der Wille.",
+          "en": "The problem is not the money; rather, the will is lacking."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein Adverb der Korrektur, häufig nach einer Verneinung, typisch für Argumentation.",
+      "near_synonyms": [
+        {
+          "lemma": "sondern",
+          "distinction": "Konjunktion, verbindet direkt nach 'nicht', braucht keine eigene Umstellung"
+        },
+        {
+          "lemma": "eher",
+          "distinction": "schwächer, drückt Tendenz statt entschiedene Berichtigung aus"
+        }
+      ]
+    },
+    "zugegebenermaßen": {
+      "meaning_de": "wie man einräumen muss; ein Zugeständnis kennzeichnend",
+      "meaning_en": "admittedly",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zugegebenermaßen etwas",
+          "gloss_en": "admittedly somewhat"
+        },
+        {
+          "phrase": "das war zugegebenermaßen",
+          "gloss_en": "that was admittedly"
+        },
+        {
+          "phrase": "zugegebenermaßen nicht ideal",
+          "gloss_en": "admittedly not ideal"
+        },
+        {
+          "phrase": "es ist zugegebenermaßen schwierig",
+          "gloss_en": "it is admittedly difficult"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Lösung ist zugegebenermaßen nicht perfekt.",
+          "en": "The solution is admittedly not perfect."
+        },
+        {
+          "de": "Ich habe mich zugegebenermaßen geirrt.",
+          "en": "I was, admittedly, mistaken."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gebildet, aber alltagstauglich; ein Kommentaradverb, das ein Eingeständnis einleitet.",
+      "near_synonyms": [
+        {
+          "lemma": "zugegeben",
+          "distinction": "kürzere, etwas lockerere Variante gleicher Funktion"
+        },
+        {
+          "lemma": "freilich",
+          "distinction": "gehoben, kann neben dem Zugeständnis auch bekräftigend wirken"
+        }
+      ]
+    },
+    "überaus": {
+      "meaning_de": "in sehr hohem Maße, außerordentlich",
+      "meaning_en": "exceedingly; extremely",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "überaus wichtig",
+          "gloss_en": "exceedingly important"
+        },
+        {
+          "phrase": "überaus erfolgreich",
+          "gloss_en": "extremely successful"
+        },
+        {
+          "phrase": "überaus freundlich",
+          "gloss_en": "exceedingly friendly"
+        },
+        {
+          "phrase": "sich überaus freuen",
+          "gloss_en": "to be exceedingly pleased"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vortrag war überaus aufschlussreich.",
+          "en": "The lecture was exceedingly informative."
+        },
+        {
+          "de": "Wir sind Ihnen überaus dankbar.",
+          "en": "We are extremely grateful to you."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein Steigerungsadverb, gepflegter als 'sehr' oder 'total'.",
+      "near_synonyms": [
+        {
+          "lemma": "äußerst",
+          "distinction": "nahezu bedeutungsgleich, ebenfalls gehoben"
+        },
+        {
+          "lemma": "ungemein",
+          "distinction": "gehoben, betont eine ungewöhnlich hohe Ausprägung"
+        }
+      ]
+    },
+    "insofern": {
+      "meaning_de": "in diesem Punkt, unter diesem Gesichtspunkt; in dem Maße, wie",
+      "meaning_en": "in this respect; insofar as",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "insofern hat er recht",
+          "gloss_en": "in this respect he is right"
+        },
+        {
+          "phrase": "insofern, als",
+          "gloss_en": "insofar as"
+        },
+        {
+          "phrase": "nur insofern",
+          "gloss_en": "only in this respect"
+        },
+        {
+          "phrase": "insofern ist es verständlich",
+          "gloss_en": "in that sense it is understandable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Insofern gebe ich dir recht, aber der Rest stimmt nicht.",
+          "en": "In that respect I agree with you, but the rest is wrong."
+        },
+        {
+          "de": "Der Plan ist gut, insofern er finanzierbar bleibt.",
+          "en": "The plan is good insofar as it remains affordable."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; als Adverb rückverweisend ('in dem Punkt') oder mit 'als' als Konjunktion des Grades.",
+      "near_synonyms": [
+        {
+          "lemma": "insoweit",
+          "distinction": "nahezu gleichbedeutend, noch etwas amtssprachlicher"
+        },
+        {
+          "lemma": "diesbezüglich",
+          "distinction": "bezieht sich auf einen Gegenstand, nicht auf einen Grad oder Aspekt"
+        }
+      ]
+    },
+    "geradezu": {
+      "meaning_de": "verstärkend: geradewegs, geradehin, fast schon; kennzeichnet eine treffende, kaum zu übertreffende Bezeichnung",
+      "meaning_en": "downright; virtually; almost",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "geradezu absurd",
+          "gloss_en": "downright absurd"
+        },
+        {
+          "phrase": "geradezu ideal",
+          "gloss_en": "virtually ideal"
+        },
+        {
+          "phrase": "geradezu ein Wunder",
+          "gloss_en": "almost a miracle"
+        },
+        {
+          "phrase": "geradezu zwingend",
+          "gloss_en": "downright compelling"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine Ruhe war geradezu unheimlich.",
+          "en": "His calm was downright eerie."
+        },
+        {
+          "de": "Das Angebot ist geradezu unschlagbar.",
+          "en": "The offer is virtually unbeatable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagstauglich; ein Gradadverb, das eine Aussage zuspitzt und als fast übertrieben markiert.",
+      "near_synonyms": [
+        {
+          "lemma": "regelrecht",
+          "distinction": "sehr ähnlich, betont, dass die Bezeichnung wirklich zutrifft"
+        },
+        {
+          "lemma": "förmlich",
+          "distinction": "gehoben, betont, dass etwas beinahe wörtlich so wirkt"
+        }
+      ]
+    },
+    "bekanntlich": {
+      "meaning_de": "wie allgemein bekannt ist, wie jeder weiß",
+      "meaning_en": "as is well known; as everyone knows",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "bekanntlich gilt",
+          "gloss_en": "as is well known, it holds"
+        },
+        {
+          "phrase": "wie bekanntlich",
+          "gloss_en": "as is well known"
+        },
+        {
+          "phrase": "bekanntlich ist",
+          "gloss_en": "as everyone knows, it is"
+        },
+        {
+          "phrase": "Zeit ist bekanntlich Geld",
+          "gloss_en": "time, as everyone knows, is money"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ausnahmen bestätigen bekanntlich die Regel.",
+          "en": "Exceptions, as everyone knows, prove the rule."
+        },
+        {
+          "de": "Der Winter ist hier bekanntlich lang.",
+          "en": "The winter here is, as is well known, long."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gebildet, aber alltagstauglich; ein Kommentaradverb, das Wissen als geteilt voraussetzt.",
+      "near_synonyms": [
+        {
+          "lemma": "bekanntermaßen",
+          "distinction": "nahezu gleichbedeutend, etwas förmlicher"
+        },
+        {
+          "lemma": "wie man weiß",
+          "distinction": "umschreibende, gesprächsnahe Variante"
+        }
+      ]
+    },
+    "erwiesenermaßen": {
+      "meaning_de": "in nachweisbarer, belegter Weise; wie bewiesen ist",
+      "meaning_en": "demonstrably; as has been proven",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "erwiesenermaßen falsch",
+          "gloss_en": "demonstrably false"
+        },
+        {
+          "phrase": "erwiesenermaßen schädlich",
+          "gloss_en": "demonstrably harmful"
+        },
+        {
+          "phrase": "erwiesenermaßen wirksam",
+          "gloss_en": "proven to be effective"
+        },
+        {
+          "phrase": "ist erwiesenermaßen",
+          "gloss_en": "has been proven to be"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Rauchen ist erwiesenermaßen gesundheitsschädlich.",
+          "en": "Smoking is demonstrably harmful to health."
+        },
+        {
+          "de": "Die Behauptung ist erwiesenermaßen unhaltbar.",
+          "en": "The claim is demonstrably untenable."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein Kommentaradverb, das eine Aussage als bewiesen kennzeichnet, oft in Wissenschaft und Recht.",
+      "near_synonyms": [
+        {
+          "lemma": "nachweislich",
+          "distinction": "nahezu gleichbedeutend, etwas geläufiger"
+        },
+        {
+          "lemma": "nachgewiesenermaßen",
+          "distinction": "sehr ähnlich, betont den erbrachten Nachweis noch expliziter"
+        }
+      ]
+    },
+    "keinesfalls": {
+      "meaning_de": "unter keinen Umständen, auf gar keinen Fall",
+      "meaning_en": "under no circumstances; by no means",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "keinesfalls dürfen",
+          "gloss_en": "must under no circumstances"
+        },
+        {
+          "phrase": "keinesfalls ausreichen",
+          "gloss_en": "to be by no means sufficient"
+        },
+        {
+          "phrase": "das ist keinesfalls sicher",
+          "gloss_en": "that is by no means certain"
+        },
+        {
+          "phrase": "keinesfalls hinnehmbar",
+          "gloss_en": "in no way acceptable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Tür darf keinesfalls unverschlossen bleiben.",
+          "en": "The door must under no circumstances be left unlocked."
+        },
+        {
+          "de": "Das ist keinesfalls ihre Schuld.",
+          "en": "That is by no means her fault."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein nachdrückliches Negationsadverb, stärker und förmlicher als 'nicht'.",
+      "near_synonyms": [
+        {
+          "lemma": "keineswegs",
+          "distinction": "nahezu gleichbedeutend, oft eher zur Zurückweisung einer Annahme"
+        },
+        {
+          "lemma": "auf keinen Fall",
+          "distinction": "alltäglichere Umschreibung gleicher Bedeutung"
+        }
+      ]
+    },
+    "letztendlich": {
+      "meaning_de": "wenn man alles bedenkt, am Ende und im Ergebnis",
+      "meaning_en": "ultimately; in the end",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "letztendlich entscheidend",
+          "gloss_en": "ultimately decisive"
+        },
+        {
+          "phrase": "es kommt letztendlich darauf an",
+          "gloss_en": "ultimately it comes down to"
+        },
+        {
+          "phrase": "letztendlich zählt",
+          "gloss_en": "in the end what counts is"
+        },
+        {
+          "phrase": "letztendlich scheitern",
+          "gloss_en": "to fail in the end"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Letztendlich zählt nur das Ergebnis.",
+          "en": "Ultimately only the result counts."
+        },
+        {
+          "de": "Die Entscheidung liegt letztendlich bei dir.",
+          "en": "The decision is ultimately yours."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagstauglich; fasst nach Abwägung ein Fazit zusammen, verstärkte Form von 'letztlich'.",
+      "near_synonyms": [
+        {
+          "lemma": "letztlich",
+          "distinction": "kürzer und etwas nüchterner, gleiche Funktion"
+        },
+        {
+          "lemma": "schließlich",
+          "distinction": "kann auch rein zeitlich 'zuletzt' bedeuten, nicht nur bilanzierend"
+        }
+      ]
+    }
+  }
+}

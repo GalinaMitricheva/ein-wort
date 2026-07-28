@@ -1,0 +1,2932 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1-Domäne 'Wissenschaft, Forschung & Methodik', Batch c1-01. Keyed by lemma.",
+  "dossiers": {
+    "Hypothese": {
+      "meaning_de": "eine vorläufige, noch zu überprüfende Annahme über einen Zusammenhang",
+      "meaning_en": "hypothesis; tentative assumption",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Hypothese"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hypothesen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Hypothese über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Hypothese aufstellen",
+          "gloss_en": "to formulate a hypothesis"
+        },
+        {
+          "phrase": "eine Hypothese überprüfen",
+          "gloss_en": "to test a hypothesis"
+        },
+        {
+          "phrase": "eine Hypothese bestätigen",
+          "gloss_en": "to confirm a hypothesis"
+        },
+        {
+          "phrase": "eine gewagte Hypothese",
+          "gloss_en": "a bold hypothesis"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Studie soll diese Hypothese empirisch überprüfen.",
+          "en": "The study is meant to test this hypothesis empirically."
+        },
+        {
+          "de": "Seine Hypothese ließ sich im Experiment nicht bestätigen.",
+          "en": "His hypothesis could not be confirmed in the experiment."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich in Wissenschaft und Forschung; noch nicht bewiesene Annahme.",
+      "near_synonyms": [
+        {
+          "lemma": "die These",
+          "distinction": "eine behauptete Position, die man verteidigt, nicht nur eine Vermutung"
+        },
+        {
+          "lemma": "die Annahme",
+          "distinction": "allgemeiner und alltäglicher, weniger methodisch"
+        }
+      ]
+    },
+    "Erkenntnis": {
+      "meaning_de": "das durch Denken oder Forschung gewonnene Wissen; eine gewonnene Einsicht",
+      "meaning_en": "insight; finding; knowledge gained",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Erkenntnis"
+        },
+        {
+          "label": "Plural",
+          "value": "die Erkenntnisse"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Erkenntnis über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zu einer Erkenntnis gelangen",
+          "gloss_en": "to arrive at an insight"
+        },
+        {
+          "phrase": "neue Erkenntnisse gewinnen",
+          "gloss_en": "to gain new findings"
+        },
+        {
+          "phrase": "wissenschaftliche Erkenntnisse",
+          "gloss_en": "scientific findings"
+        },
+        {
+          "phrase": "nach neuesten Erkenntnissen",
+          "gloss_en": "according to the latest findings"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Untersuchung lieferte überraschende Erkenntnisse.",
+          "en": "The investigation produced surprising findings."
+        },
+        {
+          "de": "Nach heutigen Erkenntnissen ist das nicht haltbar.",
+          "en": "By current knowledge that is not tenable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; im Plural oft konkrete Forschungsergebnisse.",
+      "near_synonyms": [
+        {
+          "lemma": "die Einsicht",
+          "distinction": "stärker das persönliche Verstehen, weniger das Ergebnis"
+        },
+        {
+          "lemma": "der Befund",
+          "distinction": "das konkrete, festgestellte Ergebnis einer Prüfung"
+        }
+      ]
+    },
+    "Stichprobe": {
+      "meaning_de": "eine ausgewählte Teilmenge, die stellvertretend für eine größere Gesamtheit untersucht wird",
+      "meaning_en": "sample (in statistics)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Stichprobe"
+        },
+        {
+          "label": "Plural",
+          "value": "die Stichproben"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine repräsentative Stichprobe",
+          "gloss_en": "a representative sample"
+        },
+        {
+          "phrase": "eine Stichprobe ziehen",
+          "gloss_en": "to draw a sample"
+        },
+        {
+          "phrase": "der Umfang der Stichprobe",
+          "gloss_en": "the sample size"
+        },
+        {
+          "phrase": "eine zufällige Stichprobe",
+          "gloss_en": "a random sample"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Stichprobe umfasste tausend Befragte.",
+          "en": "The sample comprised a thousand respondents."
+        },
+        {
+          "de": "Bei einer so kleinen Stichprobe sind die Ergebnisse wenig aussagekräftig.",
+          "en": "With such a small sample the results are not very meaningful."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Statistik und empirischen Sozialforschung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Auswahl",
+          "distinction": "allgemeiner, ohne den statistischen Bezug zur Grundgesamtheit"
+        },
+        {
+          "lemma": "das Sample",
+          "distinction": "englisches Lehnwort, gleichbedeutend, oft in der Fachliteratur"
+        }
+      ]
+    },
+    "Experiment": {
+      "meaning_de": "eine planmäßige Versuchsanordnung, um eine Annahme unter kontrollierten Bedingungen zu prüfen",
+      "meaning_en": "experiment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Experiments"
+        },
+        {
+          "label": "Plural",
+          "value": "die Experimente"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Experiment mit etwas",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Experiment durchführen",
+          "gloss_en": "to carry out an experiment"
+        },
+        {
+          "phrase": "ein kontrolliertes Experiment",
+          "gloss_en": "a controlled experiment"
+        },
+        {
+          "phrase": "das Experiment wiederholen",
+          "gloss_en": "to repeat the experiment"
+        },
+        {
+          "phrase": "im Experiment nachweisen",
+          "gloss_en": "to demonstrate in an experiment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Experiment bestätigte die theoretische Vorhersage.",
+          "en": "The experiment confirmed the theoretical prediction."
+        },
+        {
+          "de": "Erst nach vielen Experimenten war der Effekt reproduzierbar.",
+          "en": "Only after many experiments was the effect reproducible."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl fachsprachlich als auch übertragen ('ein gewagtes Experiment').",
+      "near_synonyms": [
+        {
+          "lemma": "der Versuch",
+          "distinction": "deutscher, etwas alltäglicher, oft für einzelne Testreihen"
+        },
+        {
+          "lemma": "der Test",
+          "distinction": "gezielte Prüfung einer Funktion, weniger als offene Untersuchung"
+        }
+      ]
+    },
+    "Korrelation": {
+      "meaning_de": "ein statistischer Zusammenhang zwischen zwei Größen, ohne dass eine die andere verursachen muss",
+      "meaning_en": "correlation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Korrelation"
+        },
+        {
+          "label": "Plural",
+          "value": "die Korrelationen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Korrelation zwischen zwei Größen",
+          "cases": "zwischen + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine hohe Korrelation",
+          "gloss_en": "a strong correlation"
+        },
+        {
+          "phrase": "eine Korrelation feststellen",
+          "gloss_en": "to find a correlation"
+        },
+        {
+          "phrase": "eine positive Korrelation",
+          "gloss_en": "a positive correlation"
+        },
+        {
+          "phrase": "Korrelation ist nicht Kausalität",
+          "gloss_en": "correlation is not causation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen beiden Werten besteht eine deutliche Korrelation.",
+          "en": "There is a clear correlation between the two values."
+        },
+        {
+          "de": "Eine Korrelation beweist noch keinen ursächlichen Zusammenhang.",
+          "en": "A correlation does not yet prove a causal link."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich in Statistik und empirischer Forschung.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zusammenhang",
+          "distinction": "allgemeiner Alltagsbegriff ohne statistische Präzision"
+        },
+        {
+          "lemma": "die Kausalität",
+          "distinction": "meint den echten Ursache-Wirkung-Zusammenhang, mehr als bloße Kovariation"
+        }
+      ]
+    },
+    "Signifikanz": {
+      "meaning_de": "die statistische Bedeutsamkeit eines Ergebnisses, das nicht bloß durch Zufall erklärbar ist",
+      "meaning_en": "(statistical) significance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Signifikanz"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "statistische Signifikanz",
+          "gloss_en": "statistical significance"
+        },
+        {
+          "phrase": "die Signifikanz nachweisen",
+          "gloss_en": "to demonstrate significance"
+        },
+        {
+          "phrase": "das Signifikanzniveau",
+          "gloss_en": "the significance level"
+        },
+        {
+          "phrase": "keine ausreichende Signifikanz",
+          "gloss_en": "insufficient significance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Unterschied erreichte statistische Signifikanz.",
+          "en": "The difference reached statistical significance."
+        },
+        {
+          "de": "Ohne ausreichende Signifikanz lässt sich keine Aussage treffen.",
+          "en": "Without sufficient significance no statement can be made."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Statistik; nicht mit 'Bedeutung' im Alltagssinn zu verwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "die Bedeutsamkeit",
+          "distinction": "allgemeiner, ohne den engen statistischen Bezug"
+        },
+        {
+          "lemma": "die Aussagekraft",
+          "distinction": "wie viel ein Ergebnis inhaltlich hergibt, nicht nur die Zufallswahrscheinlichkeit"
+        }
+      ]
+    },
+    "Validität": {
+      "meaning_de": "die Gültigkeit eines Verfahrens, also ob es wirklich das misst, was es messen soll",
+      "meaning_en": "validity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Validität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die interne Validität",
+          "gloss_en": "internal validity"
+        },
+        {
+          "phrase": "die Validität sicherstellen",
+          "gloss_en": "to ensure validity"
+        },
+        {
+          "phrase": "die Validität einer Messung",
+          "gloss_en": "the validity of a measurement"
+        },
+        {
+          "phrase": "die Validität anzweifeln",
+          "gloss_en": "to question the validity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Validität des Fragebogens wurde sorgfältig geprüft.",
+          "en": "The validity of the questionnaire was carefully tested."
+        },
+        {
+          "de": "Ohne Validität sind die Messwerte wertlos.",
+          "en": "Without validity the measurements are worthless."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Methodologischer Fachbegriff; oft im Gegensatzpaar mit Reliabilität genannt.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gültigkeit",
+          "distinction": "deutsche Entsprechung, etwas allgemeiner gebraucht"
+        },
+        {
+          "lemma": "die Reliabilität",
+          "distinction": "betrifft die Zuverlässigkeit, nicht ob das Richtige gemessen wird"
+        }
+      ]
+    },
+    "Reliabilität": {
+      "meaning_de": "die Zuverlässigkeit einer Messung, also ob sie bei Wiederholung gleiche Ergebnisse liefert",
+      "meaning_en": "reliability (of a measurement)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Reliabilität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine hohe Reliabilität",
+          "gloss_en": "high reliability"
+        },
+        {
+          "phrase": "die Reliabilität eines Tests",
+          "gloss_en": "the reliability of a test"
+        },
+        {
+          "phrase": "die Reliabilität bestimmen",
+          "gloss_en": "to determine reliability"
+        },
+        {
+          "phrase": "die Reliabilität steigern",
+          "gloss_en": "to increase reliability"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wiederholte Messungen belegen die hohe Reliabilität des Verfahrens.",
+          "en": "Repeated measurements confirm the high reliability of the method."
+        },
+        {
+          "de": "Eine geringe Reliabilität mindert die Aussagekraft der Studie.",
+          "en": "Low reliability reduces the study's explanatory power."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Methodologischer Fachbegriff der empirischen Forschung und Psychometrie.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zuverlässigkeit",
+          "distinction": "deutsche Entsprechung, auch im Alltag gebräuchlich"
+        },
+        {
+          "lemma": "die Validität",
+          "distinction": "betrifft die Gültigkeit, nicht die Wiederholbarkeit"
+        }
+      ]
+    },
+    "Theorie": {
+      "meaning_de": "ein System begründeter Aussagen, das Erscheinungen erklärt und Vorhersagen erlaubt",
+      "meaning_en": "theory",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Theorie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Theorien"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Theorie über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Theorie entwickeln",
+          "gloss_en": "to develop a theory"
+        },
+        {
+          "phrase": "eine Theorie untermauern",
+          "gloss_en": "to substantiate a theory"
+        },
+        {
+          "phrase": "in der Theorie",
+          "gloss_en": "in theory"
+        },
+        {
+          "phrase": "Theorie und Praxis",
+          "gloss_en": "theory and practice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Theorie erklärt die beobachteten Daten überzeugend.",
+          "en": "The theory explains the observed data convincingly."
+        },
+        {
+          "de": "In der Theorie klingt das einfach, in der Praxis nicht.",
+          "en": "In theory that sounds simple, but not in practice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; wissenschaftlich ein geprüftes Erklärungssystem, umgangssprachlich oft nur 'bloße Vermutung'.",
+      "near_synonyms": [
+        {
+          "lemma": "das Modell",
+          "distinction": "eine vereinfachte Abbildung, enger und konkreter als eine ganze Theorie"
+        },
+        {
+          "lemma": "die Hypothese",
+          "distinction": "eine einzelne, noch ungeprüfte Annahme, kein ganzes System"
+        }
+      ]
+    },
+    "These": {
+      "meaning_de": "eine behauptete Aussage, die man vertritt und begründet",
+      "meaning_en": "thesis; proposition; claim",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der These"
+        },
+        {
+          "label": "Plural",
+          "value": "die Thesen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine These vertreten",
+          "gloss_en": "to hold a thesis"
+        },
+        {
+          "phrase": "eine These aufstellen",
+          "gloss_en": "to put forward a thesis"
+        },
+        {
+          "phrase": "eine These belegen",
+          "gloss_en": "to back up a thesis"
+        },
+        {
+          "phrase": "eine gewagte These",
+          "gloss_en": "a bold claim"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Autor vertritt die These, dass Sprache das Denken formt.",
+          "en": "The author holds the thesis that language shapes thought."
+        },
+        {
+          "de": "Seine These stieß auf heftigen Widerspruch.",
+          "en": "His thesis met with fierce opposition."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; in Wissenschaft und Debatte eine zu verteidigende Behauptung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Hypothese",
+          "distinction": "stärker methodisch, eine überprüfbare Annahme in der Forschung"
+        },
+        {
+          "lemma": "die Behauptung",
+          "distinction": "allgemeiner und oft unbelegt, ohne Anspruch auf Begründung"
+        }
+      ]
+    },
+    "Analyse": {
+      "meaning_de": "die systematische Zerlegung und Untersuchung eines Sachverhalts in seine Bestandteile",
+      "meaning_en": "analysis",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Analyse"
+        },
+        {
+          "label": "Plural",
+          "value": "die Analysen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Analyse durchführen",
+          "gloss_en": "to carry out an analysis"
+        },
+        {
+          "phrase": "eine gründliche Analyse",
+          "gloss_en": "a thorough analysis"
+        },
+        {
+          "phrase": "die Analyse der Daten",
+          "gloss_en": "the analysis of the data"
+        },
+        {
+          "phrase": "zu dem Ergebnis der Analyse kommen",
+          "gloss_en": "to reach the result of the analysis"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Analyse der Daten dauerte mehrere Wochen.",
+          "en": "The analysis of the data took several weeks."
+        },
+        {
+          "de": "Eine genauere Analyse offenbarte den Fehler.",
+          "en": "A closer analysis revealed the error."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in vielen Fachgebieten geläufig, von Statistik bis Literaturwissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "die Untersuchung",
+          "distinction": "breiter, muss nicht zerlegend-analytisch vorgehen"
+        },
+        {
+          "lemma": "die Auswertung",
+          "distinction": "betont das Ziehen von Ergebnissen aus vorliegenden Daten"
+        }
+      ]
+    },
+    "Auswertung": {
+      "meaning_de": "das Aufbereiten und Auswerten von Daten, um Ergebnisse und Schlüsse zu gewinnen",
+      "meaning_en": "evaluation; analysis (of data/results)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Auswertung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Auswertungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Auswertung der Ergebnisse",
+          "gloss_en": "the evaluation of the results"
+        },
+        {
+          "phrase": "eine statistische Auswertung",
+          "gloss_en": "a statistical analysis"
+        },
+        {
+          "phrase": "die Auswertung vornehmen",
+          "gloss_en": "to carry out the evaluation"
+        },
+        {
+          "phrase": "nach der Auswertung der Daten",
+          "gloss_en": "after evaluating the data"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Auswertung der Fragebögen erfolgte anonym.",
+          "en": "The questionnaires were evaluated anonymously."
+        },
+        {
+          "de": "Erst die Auswertung zeigte den eigentlichen Trend.",
+          "en": "Only the evaluation revealed the actual trend."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch für empirische Forschung, Statistik und Berichtswesen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Analyse",
+          "distinction": "betont das Zerlegen, nicht nur das Ergebnisgewinnen aus Daten"
+        },
+        {
+          "lemma": "die Interpretation",
+          "distinction": "das Deuten der Ergebnisse, ein Schritt nach der Auswertung"
+        }
+      ]
+    },
+    "Paradigma": {
+      "meaning_de": "ein grundlegendes Denkmuster, das Fragestellungen und Methoden eines Fachs prägt",
+      "meaning_en": "paradigm",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Paradigmas"
+        },
+        {
+          "label": "Plural",
+          "value": "die Paradigmen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein neues Paradigma",
+          "gloss_en": "a new paradigm"
+        },
+        {
+          "phrase": "das herrschende Paradigma",
+          "gloss_en": "the prevailing paradigm"
+        },
+        {
+          "phrase": "ein Paradigmenwechsel",
+          "gloss_en": "a paradigm shift"
+        },
+        {
+          "phrase": "ein Paradigma ablösen",
+          "gloss_en": "to supersede a paradigm"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Entdeckung löste einen Paradigmenwechsel aus.",
+          "en": "The discovery triggered a paradigm shift."
+        },
+        {
+          "de": "Das alte Paradigma konnte die neuen Befunde nicht erklären.",
+          "en": "The old paradigm could not explain the new findings."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, wissenschaftstheoretisch; geprägt durch Thomas Kuhn.",
+      "near_synonyms": [
+        {
+          "lemma": "das Modell",
+          "distinction": "konkreter und enger, ein einzelner Erklärungsansatz"
+        },
+        {
+          "lemma": "der Ansatz",
+          "distinction": "eine bestimmte Herangehensweise, weniger umfassend als ein ganzes Denkmuster"
+        }
+      ]
+    },
+    "Fragestellung": {
+      "meaning_de": "die präzise formulierte Frage, die einer Untersuchung zugrunde liegt",
+      "meaning_en": "research question; the way a question is framed",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fragestellung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fragestellungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die zentrale Fragestellung",
+          "gloss_en": "the central research question"
+        },
+        {
+          "phrase": "eine Fragestellung formulieren",
+          "gloss_en": "to formulate a research question"
+        },
+        {
+          "phrase": "die Fragestellung eingrenzen",
+          "gloss_en": "to narrow down the question"
+        },
+        {
+          "phrase": "sich einer Fragestellung widmen",
+          "gloss_en": "to address a question"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Arbeit geht einer klar umrissenen Fragestellung nach.",
+          "en": "The paper pursues a clearly defined research question."
+        },
+        {
+          "de": "Diese Fragestellung ist für unser Fach von großer Bedeutung.",
+          "en": "This question is of great importance to our field."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, akademisch; die leitende Frage einer wissenschaftlichen Arbeit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Frage",
+          "distinction": "allgemein und alltäglich, ohne den methodischen Rahmen"
+        },
+        {
+          "lemma": "das Forschungsproblem",
+          "distinction": "betont die zu lösende Schwierigkeit hinter der Frage"
+        }
+      ]
+    },
+    "Forschungsgegenstand": {
+      "meaning_de": "das, was in einer wissenschaftlichen Untersuchung erforscht wird",
+      "meaning_en": "object of research; subject of study",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Forschungsgegenstands"
+        },
+        {
+          "label": "Plural",
+          "value": "die Forschungsgegenstände"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Forschungsgegenstand bestimmen",
+          "gloss_en": "to define the object of research"
+        },
+        {
+          "phrase": "der eigentliche Forschungsgegenstand",
+          "gloss_en": "the actual subject of study"
+        },
+        {
+          "phrase": "einen Forschungsgegenstand eingrenzen",
+          "gloss_en": "to delimit the research object"
+        },
+        {
+          "phrase": "sich einem Forschungsgegenstand nähern",
+          "gloss_en": "to approach a research object"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Forschungsgegenstand dieser Studie ist die Sprachentwicklung von Kindern.",
+          "en": "The object of research in this study is children's language development."
+        },
+        {
+          "de": "Zunächst muss der Forschungsgegenstand klar abgegrenzt werden.",
+          "en": "First the object of research must be clearly delimited."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, akademisch; typisch in Exposés und wissenschaftlichen Einleitungen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Untersuchungsobjekt",
+          "distinction": "fast gleichbedeutend, etwas technischer"
+        },
+        {
+          "lemma": "das Thema",
+          "distinction": "allgemeiner, muss nicht der methodisch erforschte Gegenstand sein"
+        }
+      ]
+    },
+    "Falsifizierbarkeit": {
+      "meaning_de": "die Eigenschaft einer Aussage, durch Beobachtung grundsätzlich widerlegbar zu sein",
+      "meaning_en": "falsifiability",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Falsifizierbarkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Kriterium der Falsifizierbarkeit",
+          "gloss_en": "the criterion of falsifiability"
+        },
+        {
+          "phrase": "die Falsifizierbarkeit einer Theorie",
+          "gloss_en": "the falsifiability of a theory"
+        },
+        {
+          "phrase": "an der Falsifizierbarkeit scheitern",
+          "gloss_en": "to fail the falsifiability test"
+        },
+        {
+          "phrase": "keine Falsifizierbarkeit aufweisen",
+          "gloss_en": "to exhibit no falsifiability"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach Popper ist die Falsifizierbarkeit das Merkmal wissenschaftlicher Aussagen.",
+          "en": "According to Popper, falsifiability is the hallmark of scientific statements."
+        },
+        {
+          "de": "Der Theorie fehlt es an Falsifizierbarkeit.",
+          "en": "The theory lacks falsifiability."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Wissenschaftstheoretischer Fachbegriff, geprägt durch Karl Popper.",
+      "near_synonyms": [
+        {
+          "lemma": "die Widerlegbarkeit",
+          "distinction": "deutsche Entsprechung, weniger technisch gebräuchlich"
+        },
+        {
+          "lemma": "die Überprüfbarkeit",
+          "distinction": "allgemeiner, meint jede Art der Prüfung, nicht nur Widerlegung"
+        }
+      ]
+    },
+    "Verallgemeinerung": {
+      "meaning_de": "die Übertragung eines Einzelbefunds auf allgemeine Fälle",
+      "meaning_en": "generalization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verallgemeinerung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verallgemeinerungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine unzulässige Verallgemeinerung",
+          "gloss_en": "an inadmissible generalization"
+        },
+        {
+          "phrase": "eine vorschnelle Verallgemeinerung",
+          "gloss_en": "a hasty generalization"
+        },
+        {
+          "phrase": "eine Verallgemeinerung zulassen",
+          "gloss_en": "to permit a generalization"
+        },
+        {
+          "phrase": "sich vor Verallgemeinerungen hüten",
+          "gloss_en": "to beware of generalizations"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine solche Verallgemeinerung ist wissenschaftlich nicht haltbar.",
+          "en": "Such a generalization is scientifically untenable."
+        },
+        {
+          "de": "Aus einem Einzelfall lässt sich keine Verallgemeinerung ableiten.",
+          "en": "No generalization can be derived from a single case."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; oft kritisch gebraucht, wenn eine Übertragung zu weit geht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Generalisierung",
+          "distinction": "das Fremdwort, fachsprachlich und weitgehend gleichbedeutend"
+        },
+        {
+          "lemma": "die Pauschalisierung",
+          "distinction": "abwertender, betont undifferenziertes Über-einen-Kamm-Scheren"
+        }
+      ]
+    },
+    "Nachweis": {
+      "meaning_de": "der Beleg, der etwas als wahr oder vorhanden erweist",
+      "meaning_en": "proof; evidence; detection",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Nachweises"
+        },
+        {
+          "label": "Plural",
+          "value": "die Nachweise"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Nachweis über etwas",
+          "cases": "über + Akk."
+        },
+        {
+          "pattern": "Nachweis für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Nachweis erbringen",
+          "gloss_en": "to furnish proof"
+        },
+        {
+          "phrase": "der wissenschaftliche Nachweis",
+          "gloss_en": "the scientific proof"
+        },
+        {
+          "phrase": "einen Nachweis führen",
+          "gloss_en": "to establish proof"
+        },
+        {
+          "phrase": "der Nachweis einer Substanz",
+          "gloss_en": "the detection of a substance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein eindeutiger Nachweis steht bislang aus.",
+          "en": "A clear proof is still lacking."
+        },
+        {
+          "de": "Die Studie erbringt den Nachweis für einen Zusammenhang.",
+          "en": "The study furnishes proof of a connection."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis formal; in Wissenschaft, Recht und Verwaltung gleichermaßen üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Beweis",
+          "distinction": "stärker, oft zwingend-schlüssig; Nachweis kann ein bloßer Beleg sein"
+        },
+        {
+          "lemma": "der Beleg",
+          "distinction": "ein einzelnes Belegstück, weniger als ein geführter Nachweis"
+        }
+      ]
+    },
+    "Beobachtung": {
+      "meaning_de": "das aufmerksame, gezielte Wahrnehmen eines Vorgangs sowie das dabei Festgestellte",
+      "meaning_en": "observation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Beobachtung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Beobachtungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Beobachtung machen",
+          "gloss_en": "to make an observation"
+        },
+        {
+          "phrase": "die systematische Beobachtung",
+          "gloss_en": "systematic observation"
+        },
+        {
+          "phrase": "etwas unter Beobachtung stellen",
+          "gloss_en": "to place something under observation"
+        },
+        {
+          "phrase": "die teilnehmende Beobachtung",
+          "gloss_en": "participant observation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Theorie stützt sich auf jahrelange Beobachtungen.",
+          "en": "The theory rests on years of observation."
+        },
+        {
+          "de": "Diese Beobachtung deckt sich mit früheren Befunden.",
+          "en": "This observation agrees with earlier findings."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in der empirischen Forschung eine eigenständige Erhebungsmethode.",
+      "near_synonyms": [
+        {
+          "lemma": "die Wahrnehmung",
+          "distinction": "das bloße Empfinden, weniger gezielt und methodisch"
+        },
+        {
+          "lemma": "die Feststellung",
+          "distinction": "das festgehaltene Ergebnis, betont das Konstatieren"
+        }
+      ]
+    },
+    "Postulat": {
+      "meaning_de": "eine grundlegende Forderung oder Voraussetzung, die man ohne Beweis annimmt",
+      "meaning_en": "postulate",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Postulats"
+        },
+        {
+          "label": "Plural",
+          "value": "die Postulate"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Postulat aufstellen",
+          "gloss_en": "to set up a postulate"
+        },
+        {
+          "phrase": "einem Postulat folgen",
+          "gloss_en": "to follow a postulate"
+        },
+        {
+          "phrase": "ein grundlegendes Postulat",
+          "gloss_en": "a fundamental postulate"
+        },
+        {
+          "phrase": "ein Postulat in Frage stellen",
+          "gloss_en": "to call a postulate into question"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Modell beruht auf einem fragwürdigen Postulat.",
+          "en": "The model rests on a questionable postulate."
+        },
+        {
+          "de": "Dieses Postulat wird als selbstverständlich vorausgesetzt.",
+          "en": "This postulate is assumed as self-evident."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, wissenschaftstheoretisch; eine unbewiesen angenommene Grundvoraussetzung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Prämisse",
+          "distinction": "die Voraussetzung eines Schlusses, enger an das Argument gebunden"
+        },
+        {
+          "lemma": "das Axiom",
+          "distinction": "ein als unbezweifelbar geltender Grundsatz, noch grundlegender"
+        }
+      ]
+    },
+    "Prämisse": {
+      "meaning_de": "eine Voraussetzung, aus der eine Schlussfolgerung gezogen wird",
+      "meaning_en": "premise",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Prämisse"
+        },
+        {
+          "label": "Plural",
+          "value": "die Prämissen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "von einer Prämisse ausgehen",
+          "gloss_en": "to proceed from a premise"
+        },
+        {
+          "phrase": "eine falsche Prämisse",
+          "gloss_en": "a false premise"
+        },
+        {
+          "phrase": "unter der Prämisse, dass",
+          "gloss_en": "on the premise that"
+        },
+        {
+          "phrase": "eine Prämisse hinterfragen",
+          "gloss_en": "to question a premise"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der ganze Schluss steht und fällt mit dieser Prämisse.",
+          "en": "The whole conclusion stands or falls with this premise."
+        },
+        {
+          "de": "Er argumentiert von einer fragwürdigen Prämisse aus.",
+          "en": "He argues from a questionable premise."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, logisch-philosophisch; die Ausgangsaussage eines Arguments.",
+      "near_synonyms": [
+        {
+          "lemma": "die Voraussetzung",
+          "distinction": "deutscher und allgemeiner, nicht nur in der Logik"
+        },
+        {
+          "lemma": "das Postulat",
+          "distinction": "eine unbewiesene Grundforderung, nicht auf einen Schluss bezogen"
+        }
+      ]
+    },
+    "Deduktion": {
+      "meaning_de": "das logische Ableiten des Einzelnen aus allgemeinen Sätzen",
+      "meaning_en": "deduction",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Deduktion"
+        },
+        {
+          "label": "Plural",
+          "value": "die Deduktionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Weg der Deduktion",
+          "gloss_en": "the deductive route"
+        },
+        {
+          "phrase": "eine logische Deduktion",
+          "gloss_en": "a logical deduction"
+        },
+        {
+          "phrase": "durch Deduktion gewinnen",
+          "gloss_en": "to obtain by deduction"
+        },
+        {
+          "phrase": "Deduktion und Induktion",
+          "gloss_en": "deduction and induction"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gesetz folgt der Einzelfall durch Deduktion.",
+          "en": "The particular case follows from the law by deduction."
+        },
+        {
+          "de": "Die Deduktion ist nur so sicher wie ihre Prämissen.",
+          "en": "A deduction is only as sound as its premises."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Logik und Wissenschaftstheorie; Gegenbegriff zur Induktion.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ableitung",
+          "distinction": "deutscher und allgemeiner, nicht nur der logische Schluss vom Allgemeinen"
+        },
+        {
+          "lemma": "die Induktion",
+          "distinction": "der umgekehrte Weg, vom Einzelnen zum Allgemeinen"
+        }
+      ]
+    },
+    "Induktion": {
+      "meaning_de": "das Schließen von Einzelbeobachtungen auf eine allgemeine Regel",
+      "meaning_en": "induction",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Induktion"
+        },
+        {
+          "label": "Plural",
+          "value": "die Induktionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Weg der Induktion",
+          "gloss_en": "the inductive route"
+        },
+        {
+          "phrase": "durch Induktion verallgemeinern",
+          "gloss_en": "to generalize by induction"
+        },
+        {
+          "phrase": "das Problem der Induktion",
+          "gloss_en": "the problem of induction"
+        },
+        {
+          "phrase": "die vollständige Induktion",
+          "gloss_en": "complete (mathematical) induction"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Durch Induktion gelangt man von Beobachtungen zu Gesetzen.",
+          "en": "Through induction one moves from observations to laws."
+        },
+        {
+          "de": "Die Induktion liefert keine logisch zwingenden Schlüsse.",
+          "en": "Induction does not yield logically compelling conclusions."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Logik; in der Mathematik meint 'vollständige Induktion' ein Beweisverfahren.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verallgemeinerung",
+          "distinction": "das Ergebnis, weniger das methodische Schlussverfahren"
+        },
+        {
+          "lemma": "die Deduktion",
+          "distinction": "der umgekehrte Weg, vom Allgemeinen zum Einzelnen"
+        }
+      ]
+    },
+    "Kausalität": {
+      "meaning_de": "der ursächliche Zusammenhang zwischen Ursache und Wirkung",
+      "meaning_en": "causality; causation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kausalität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Kausalität nachweisen",
+          "gloss_en": "to establish causality"
+        },
+        {
+          "phrase": "einen Zusammenhang von Kausalität",
+          "gloss_en": "a causal connection"
+        },
+        {
+          "phrase": "die Frage der Kausalität",
+          "gloss_en": "the question of causality"
+        },
+        {
+          "phrase": "keine Kausalität, nur Korrelation",
+          "gloss_en": "no causation, only correlation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus der Statistik allein lässt sich keine Kausalität ableiten.",
+          "en": "Causality cannot be derived from statistics alone."
+        },
+        {
+          "de": "Die Kausalität zwischen beiden Ereignissen ist umstritten.",
+          "en": "The causality between the two events is disputed."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, wissenschaftlich-philosophisch; oft dem Begriff der Korrelation gegenübergestellt.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ursächlichkeit",
+          "distinction": "deutsche Entsprechung, seltener gebraucht"
+        },
+        {
+          "lemma": "die Korrelation",
+          "distinction": "nur ein statistischer Zusammenhang, kein Ursache-Wirkung-Verhältnis"
+        }
+      ]
+    },
+    "Empirie": {
+      "meaning_de": "die auf Erfahrung und Beobachtung gestützte Erkenntnisgrundlage",
+      "meaning_en": "empirical evidence; empiricism",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Empirie"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "durch Empirie gestützt",
+          "gloss_en": "backed by empirical evidence"
+        },
+        {
+          "phrase": "sich auf die Empirie berufen",
+          "gloss_en": "to appeal to empirical data"
+        },
+        {
+          "phrase": "Theorie und Empirie",
+          "gloss_en": "theory and empirical evidence"
+        },
+        {
+          "phrase": "der Empirie standhalten",
+          "gloss_en": "to hold up to the evidence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die These wird von der Empirie nicht gestützt.",
+          "en": "The thesis is not supported by the empirical evidence."
+        },
+        {
+          "de": "Erst die Empirie entscheidet über die Gültigkeit des Modells.",
+          "en": "Only empirical evidence decides on the model's validity."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, wissenschaftstheoretisch; das Erfahrungswissen im Gegensatz zur reinen Theorie.",
+      "near_synonyms": [
+        {
+          "lemma": "die Erfahrung",
+          "distinction": "alltäglicher und persönlicher, ohne den wissenschaftlichen Anspruch"
+        },
+        {
+          "lemma": "die Datenlage",
+          "distinction": "konkreter, der vorliegende Bestand an Daten"
+        }
+      ]
+    },
+    "Objektivität": {
+      "meaning_de": "die von persönlichen Neigungen unabhängige, sachliche Betrachtung",
+      "meaning_en": "objectivity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Objektivität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "wissenschaftliche Objektivität",
+          "gloss_en": "scientific objectivity"
+        },
+        {
+          "phrase": "um Objektivität bemüht sein",
+          "gloss_en": "to strive for objectivity"
+        },
+        {
+          "phrase": "die Objektivität wahren",
+          "gloss_en": "to maintain objectivity"
+        },
+        {
+          "phrase": "an der Objektivität zweifeln",
+          "gloss_en": "to doubt the objectivity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Absolute Objektivität ist in der Forschung kaum zu erreichen.",
+          "en": "Absolute objectivity is hardly attainable in research."
+        },
+        {
+          "de": "Er bemühte sich um größtmögliche Objektivität.",
+          "en": "He strove for the greatest possible objectivity."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; methodisches Gütekriterium neben Validität und Reliabilität.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sachlichkeit",
+          "distinction": "die nüchterne Haltung, weniger das methodische Gütekriterium"
+        },
+        {
+          "lemma": "die Unvoreingenommenheit",
+          "distinction": "betont die Freiheit von Vorurteilen, nicht die Nachprüfbarkeit"
+        }
+      ]
+    },
+    "Befund": {
+      "meaning_de": "das festgestellte Ergebnis einer Untersuchung",
+      "meaning_en": "finding; result (of an examination)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Befunds"
+        },
+        {
+          "label": "Plural",
+          "value": "die Befunde"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Befund erheben",
+          "gloss_en": "to establish a finding"
+        },
+        {
+          "phrase": "ein eindeutiger Befund",
+          "gloss_en": "an unambiguous finding"
+        },
+        {
+          "phrase": "die empirischen Befunde",
+          "gloss_en": "the empirical findings"
+        },
+        {
+          "phrase": "ohne krankhaften Befund",
+          "gloss_en": "with no pathological findings"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Befunde der Studie sind widersprüchlich.",
+          "en": "The study's findings are contradictory."
+        },
+        {
+          "de": "Der ärztliche Befund war unauffällig.",
+          "en": "The medical findings were unremarkable."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Medizin, Wissenschaft und Recht das festgestellte Ergebnis.",
+      "near_synonyms": [
+        {
+          "lemma": "das Ergebnis",
+          "distinction": "allgemeiner und alltäglicher, ohne fachlichen Feststellungscharakter"
+        },
+        {
+          "lemma": "die Erkenntnis",
+          "distinction": "der gewonnene Wissenszuwachs, nicht nur die einzelne Feststellung"
+        }
+      ]
+    },
+    "Fallstudie": {
+      "meaning_de": "die eingehende Untersuchung eines einzelnen Falls als Beispiel",
+      "meaning_en": "case study",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fallstudie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fallstudien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Fallstudie durchführen",
+          "gloss_en": "to conduct a case study"
+        },
+        {
+          "phrase": "anhand einer Fallstudie",
+          "gloss_en": "on the basis of a case study"
+        },
+        {
+          "phrase": "eine exemplarische Fallstudie",
+          "gloss_en": "an exemplary case study"
+        },
+        {
+          "phrase": "die Ergebnisse der Fallstudie",
+          "gloss_en": "the results of the case study"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Fallstudie beleuchtet ein einzelnes Unternehmen im Detail.",
+          "en": "The case study examines a single company in detail."
+        },
+        {
+          "de": "Aus einer einzigen Fallstudie lassen sich keine Gesetze ableiten.",
+          "en": "No laws can be derived from a single case study."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der qualitativen Sozial- und Wirtschaftsforschung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Einzelfallstudie",
+          "distinction": "betont ausdrücklich den einzelnen Fall, weitgehend gleichbedeutend"
+        },
+        {
+          "lemma": "die Untersuchung",
+          "distinction": "allgemeiner, nicht auf einen exemplarischen Einzelfall beschränkt"
+        }
+      ]
+    },
+    "Dissertation": {
+      "meaning_de": "die wissenschaftliche Arbeit, mit der ein Doktorgrad erworben wird",
+      "meaning_en": "doctoral thesis; dissertation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Dissertation"
+        },
+        {
+          "label": "Plural",
+          "value": "die Dissertationen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Dissertation über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "an einer Dissertation arbeiten",
+          "gloss_en": "to work on a doctoral thesis"
+        },
+        {
+          "phrase": "die Dissertation einreichen",
+          "gloss_en": "to submit the dissertation"
+        },
+        {
+          "phrase": "eine Dissertation verteidigen",
+          "gloss_en": "to defend a dissertation"
+        },
+        {
+          "phrase": "die Dissertation verfassen",
+          "gloss_en": "to write the dissertation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie schreibt ihre Dissertation über mittelalterliche Handschriften.",
+          "en": "She is writing her dissertation on medieval manuscripts."
+        },
+        {
+          "de": "Die Dissertation wurde mit Auszeichnung bewertet.",
+          "en": "The dissertation was awarded distinction."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Akademischer Fachbegriff; umgangssprachlich oft 'Doktorarbeit'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Doktorarbeit",
+          "distinction": "das alltagssprachliche Wort für dasselbe"
+        },
+        {
+          "lemma": "die Habilitation",
+          "distinction": "die höhere, nach der Promotion angefertigte Qualifikationsschrift"
+        }
+      ]
+    },
+    "Gutachten": {
+      "meaning_de": "eine fachkundige, schriftliche Beurteilung einer Sache oder Frage",
+      "meaning_en": "expert opinion; report; assessment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gutachtens"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gutachten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Gutachten über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Gutachten erstellen",
+          "gloss_en": "to prepare an expert report"
+        },
+        {
+          "phrase": "ein Gutachten in Auftrag geben",
+          "gloss_en": "to commission an expert opinion"
+        },
+        {
+          "phrase": "das vernichtende Gutachten",
+          "gloss_en": "the damning report"
+        },
+        {
+          "phrase": "zu dem Schluss des Gutachtens kommen",
+          "gloss_en": "to arrive at the report's conclusion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gutachten bescheinigt dem Verfahren schwere Mängel.",
+          "en": "The report certifies serious flaws in the procedure."
+        },
+        {
+          "de": "Ein unabhängiges Gutachten soll die Frage klären.",
+          "en": "An independent expert opinion is to settle the question."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Wissenschaft, Recht und Verwaltung die fachliche Stellungnahme eines Sachverständigen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Expertise",
+          "distinction": "das Fremdwort, betont die Fachkenntnis des Verfassers"
+        },
+        {
+          "lemma": "die Stellungnahme",
+          "distinction": "kürzer und weniger formell, muss nicht von einem Sachverständigen stammen"
+        }
+      ]
+    },
+    "forschen": {
+      "meaning_de": "systematisch und wissenschaftlich nach neuen Erkenntnissen suchen",
+      "meaning_en": "to do research; to investigate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er forscht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er forschte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat geforscht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er forschte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "nach etwas forschen",
+          "cases": "nach + Dat."
+        },
+        {
+          "pattern": "über etwas / an etwas forschen",
+          "cases": "über + Akk. / an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "an einem Thema forschen",
+          "gloss_en": "to research a topic"
+        },
+        {
+          "phrase": "nach den Ursachen forschen",
+          "gloss_en": "to investigate the causes"
+        },
+        {
+          "phrase": "intensiv forschen",
+          "gloss_en": "to research intensively"
+        },
+        {
+          "phrase": "auf einem Gebiet forschen",
+          "gloss_en": "to do research in a field"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie forscht seit Jahren an einem Impfstoff.",
+          "en": "She has been researching a vaccine for years."
+        },
+        {
+          "de": "Das Team forscht nach den Ursachen der Erkrankung.",
+          "en": "The team is investigating the causes of the disease."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; kann auch übertragen 'suchend nachgehen' bedeuten ('in seinem Gedächtnis forschen').",
+      "near_synonyms": [
+        {
+          "lemma": "untersuchen",
+          "distinction": "prüft einen bestimmten Gegenstand, weniger das offene Erkenntnisstreben"
+        },
+        {
+          "lemma": "erforschen",
+          "distinction": "transitiv und zielgerichtet, ein Gebiet vollständig durchdringen"
+        }
+      ]
+    },
+    "untersuchen": {
+      "meaning_de": "etwas gründlich prüfen, um Beschaffenheit oder Ursachen festzustellen",
+      "meaning_en": "to examine; to investigate; to study",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er untersucht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er untersuchte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat untersucht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er untersuchte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas untersuchen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "etwas auf etwas untersuchen",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Frage untersuchen",
+          "gloss_en": "to investigate a question"
+        },
+        {
+          "phrase": "eine Probe untersuchen",
+          "gloss_en": "to examine a sample"
+        },
+        {
+          "phrase": "etwas auf Schadstoffe untersuchen",
+          "gloss_en": "to test something for pollutants"
+        },
+        {
+          "phrase": "genauer untersuchen",
+          "gloss_en": "to examine more closely"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Studie untersucht den Einfluss von Schlaf auf das Gedächtnis.",
+          "en": "The study investigates the influence of sleep on memory."
+        },
+        {
+          "de": "Das Wasser wurde auf Verunreinigungen untersucht.",
+          "en": "The water was tested for contaminants."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; breit verwendbar von Medizin über Technik bis Wissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "prüfen",
+          "distinction": "kürzer und gezielter, oft nur auf ein bestimmtes Merkmal hin"
+        },
+        {
+          "lemma": "erforschen",
+          "distinction": "umfassender und tiefer, ein ganzes Gebiet durchdringend"
+        }
+      ]
+    },
+    "nachweisen": {
+      "meaning_de": "durch Belege zeigen, dass etwas wahr oder vorhanden ist",
+      "meaning_en": "to prove; to demonstrate; to detect",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er weist nach"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er wies nach"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat nachgewiesen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er wiese nach"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas nachweisen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemandem etwas nachweisen",
+          "cases": "Dat. + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Zusammenhang nachweisen",
+          "gloss_en": "to prove a connection"
+        },
+        {
+          "phrase": "einen Effekt nachweisen",
+          "gloss_en": "to demonstrate an effect"
+        },
+        {
+          "phrase": "eine Substanz nachweisen",
+          "gloss_en": "to detect a substance"
+        },
+        {
+          "phrase": "zweifelsfrei nachweisen",
+          "gloss_en": "to prove beyond doubt"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Forscher konnten den Effekt zweifelsfrei nachweisen.",
+          "en": "The researchers were able to prove the effect beyond doubt."
+        },
+        {
+          "de": "Man konnte ihm keine Schuld nachweisen.",
+          "en": "No guilt could be proven against him."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis formal; trennbares Verb, in Wissenschaft und Recht zentral.",
+      "near_synonyms": [
+        {
+          "lemma": "beweisen",
+          "distinction": "stärker, oft zwingend-schlüssig; nachweisen kann auch bloßes Belegen sein"
+        },
+        {
+          "lemma": "belegen",
+          "distinction": "durch Quellen stützen, weniger als der volle Beweis"
+        }
+      ]
+    },
+    "widerlegen": {
+      "meaning_de": "durch Argumente oder Belege als falsch erweisen",
+      "meaning_en": "to refute; to disprove",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er widerlegt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er widerlegte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat widerlegt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er widerlegte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas widerlegen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine These widerlegen",
+          "gloss_en": "to refute a thesis"
+        },
+        {
+          "phrase": "ein Argument widerlegen",
+          "gloss_en": "to refute an argument"
+        },
+        {
+          "phrase": "schlüssig widerlegen",
+          "gloss_en": "to refute conclusively"
+        },
+        {
+          "phrase": "durch Fakten widerlegen",
+          "gloss_en": "to disprove with facts"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die neuen Daten widerlegen die alte Annahme.",
+          "en": "The new data disprove the old assumption."
+        },
+        {
+          "de": "Seine Behauptung ließ sich leicht widerlegen.",
+          "en": "His claim was easily refuted."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; untrennbares Verb, Gegenstück zu belegen oder bestätigen.",
+      "near_synonyms": [
+        {
+          "lemma": "entkräften",
+          "distinction": "die Kraft eines Arguments schwächen, nicht zwingend ganz falsch zeigen"
+        },
+        {
+          "lemma": "falsifizieren",
+          "distinction": "der wissenschaftstheoretische Fachbegriff für das Widerlegen einer Theorie"
+        }
+      ]
+    },
+    "verifizieren": {
+      "meaning_de": "die Richtigkeit einer Aussage überprüfen und bestätigen",
+      "meaning_en": "to verify; to confirm",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verifiziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verifizierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verifiziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verifizierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verifizieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Hypothese verifizieren",
+          "gloss_en": "to verify a hypothesis"
+        },
+        {
+          "phrase": "Angaben verifizieren",
+          "gloss_en": "to verify statements"
+        },
+        {
+          "phrase": "experimentell verifizieren",
+          "gloss_en": "to verify experimentally"
+        },
+        {
+          "phrase": "eine Aussage verifizieren",
+          "gloss_en": "to confirm a claim"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ergebnisse müssen unabhängig verifiziert werden.",
+          "en": "The results must be verified independently."
+        },
+        {
+          "de": "Bislang konnte die Annahme nicht verifiziert werden.",
+          "en": "So far the assumption could not be verified."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; Gegenbegriff zu falsifizieren, förmlicher als 'bestätigen'.",
+      "near_synonyms": [
+        {
+          "lemma": "bestätigen",
+          "distinction": "deutscher und alltäglicher, ohne den methodischen Prüfaspekt"
+        },
+        {
+          "lemma": "belegen",
+          "distinction": "durch Quellen stützen, nicht die Richtigkeit einer Aussage prüfen"
+        }
+      ]
+    },
+    "falsifizieren": {
+      "meaning_de": "eine Aussage oder Theorie durch Beobachtung als falsch erweisen",
+      "meaning_en": "to falsify; to refute (a theory)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er falsifiziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er falsifizierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat falsifiziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er falsifizierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas falsifizieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Theorie falsifizieren",
+          "gloss_en": "to falsify a theory"
+        },
+        {
+          "phrase": "eine Hypothese falsifizieren",
+          "gloss_en": "to refute a hypothesis"
+        },
+        {
+          "phrase": "empirisch falsifizieren",
+          "gloss_en": "to falsify empirically"
+        },
+        {
+          "phrase": "nicht zu falsifizieren sein",
+          "gloss_en": "to be unfalsifiable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein einziges Gegenbeispiel kann die Theorie falsifizieren.",
+          "en": "A single counterexample can falsify the theory."
+        },
+        {
+          "de": "Eine Aussage, die sich nicht falsifizieren lässt, ist unwissenschaftlich.",
+          "en": "A statement that cannot be falsified is unscientific."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Wissenschaftstheoretischer Fachbegriff nach Popper; nicht im Sinn von 'fälschen'.",
+      "near_synonyms": [
+        {
+          "lemma": "widerlegen",
+          "distinction": "allgemeiner, auch durch Argumente statt nur durch Beobachtung"
+        },
+        {
+          "lemma": "verifizieren",
+          "distinction": "das genaue Gegenteil, die Richtigkeit bestätigen"
+        }
+      ]
+    },
+    "interpretieren": {
+      "meaning_de": "etwas deuten und ihm einen Sinn oder eine Bedeutung zuschreiben",
+      "meaning_en": "to interpret",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er interpretiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er interpretierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat interpretiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er interpretierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas interpretieren",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "etwas als etwas interpretieren",
+          "cases": "als + Nom."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Daten interpretieren",
+          "gloss_en": "to interpret data"
+        },
+        {
+          "phrase": "ein Ergebnis interpretieren",
+          "gloss_en": "to interpret a result"
+        },
+        {
+          "phrase": "etwas falsch interpretieren",
+          "gloss_en": "to misinterpret something"
+        },
+        {
+          "phrase": "einen Text interpretieren",
+          "gloss_en": "to interpret a text"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ergebnisse lassen sich auf mehrere Weisen interpretieren.",
+          "en": "The results can be interpreted in several ways."
+        },
+        {
+          "de": "Er interpretierte ihr Schweigen als Zustimmung.",
+          "en": "He interpreted her silence as agreement."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Wissenschaft, Kunst und Alltag gleichermaßen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "deuten",
+          "distinction": "deutscher und etwas knapper, oft für Zeichen und Vorzeichen"
+        },
+        {
+          "lemma": "auslegen",
+          "distinction": "betont das Herausarbeiten des Sinns, oft bei Texten und Gesetzen"
+        }
+      ]
+    },
+    "auswerten": {
+      "meaning_de": "Daten oder Ergebnisse aufbereiten, um daraus Schlüsse zu ziehen",
+      "meaning_en": "to evaluate; to analyse (data)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er wertet aus"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er wertete aus"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat ausgewertet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er wertete aus"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas auswerten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Daten auswerten",
+          "gloss_en": "to evaluate data"
+        },
+        {
+          "phrase": "die Fragebögen auswerten",
+          "gloss_en": "to analyse the questionnaires"
+        },
+        {
+          "phrase": "statistisch auswerten",
+          "gloss_en": "to evaluate statistically"
+        },
+        {
+          "phrase": "die Ergebnisse auswerten",
+          "gloss_en": "to evaluate the results"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Umfrage wird derzeit statistisch ausgewertet.",
+          "en": "The survey is currently being analysed statistically."
+        },
+        {
+          "de": "Nachdem wir die Daten ausgewertet hatten, zeigte sich ein klares Muster.",
+          "en": "After we had evaluated the data, a clear pattern emerged."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; trennbares Verb, zentral in empirischer Forschung und Statistik.",
+      "near_synonyms": [
+        {
+          "lemma": "analysieren",
+          "distinction": "betont das Zerlegen, nicht nur das Ergebnisgewinnen aus Daten"
+        },
+        {
+          "lemma": "interpretieren",
+          "distinction": "das Deuten der Ergebnisse, ein Schritt nach dem Auswerten"
+        }
+      ]
+    },
+    "erheben": {
+      "meaning_de": "Daten systematisch sammeln; auch: nach oben bewegen oder geltend machen",
+      "meaning_en": "to collect (data); to raise; to levy",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er erhebt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er erhob"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat erhoben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er erhöbe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas erheben",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Daten erheben",
+          "gloss_en": "to collect data"
+        },
+        {
+          "phrase": "eine Gebühr erheben",
+          "gloss_en": "to charge a fee"
+        },
+        {
+          "phrase": "Einspruch erheben",
+          "gloss_en": "to lodge an objection"
+        },
+        {
+          "phrase": "Anklage erheben",
+          "gloss_en": "to bring charges"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Daten wurden in einer Online-Befragung erhoben.",
+          "en": "The data were collected in an online survey."
+        },
+        {
+          "de": "Gegen das Urteil wurde Beschwerde erhoben.",
+          "en": "An appeal was lodged against the ruling."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im Forschungssinn ('Daten erheben') fachsprachlich, daneben viele feste Wendungen.",
+      "near_synonyms": [
+        {
+          "lemma": "sammeln",
+          "distinction": "alltäglicher, ohne den methodisch-systematischen Anspruch"
+        },
+        {
+          "lemma": "ermitteln",
+          "distinction": "betont das Herausfinden eines konkreten Werts oder Sachverhalts"
+        }
+      ]
+    },
+    "promovieren": {
+      "meaning_de": "den Doktorgrad durch eine Dissertation erwerben",
+      "meaning_en": "to do a doctorate; to earn a PhD",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er promoviert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er promovierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat promoviert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er promovierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "über etwas promovieren",
+          "cases": "über + Akk."
+        },
+        {
+          "pattern": "bei jemandem promovieren",
+          "cases": "bei + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "in Physik promovieren",
+          "gloss_en": "to do a doctorate in physics"
+        },
+        {
+          "phrase": "über ein Thema promovieren",
+          "gloss_en": "to do a doctorate on a topic"
+        },
+        {
+          "phrase": "mit Auszeichnung promovieren",
+          "gloss_en": "to graduate with distinction"
+        },
+        {
+          "phrase": "bei einem Professor promovieren",
+          "gloss_en": "to do a doctorate under a professor"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat in Biologie promoviert.",
+          "en": "She earned a doctorate in biology."
+        },
+        {
+          "de": "Er promoviert derzeit über mittelalterliche Rechtsgeschichte.",
+          "en": "He is currently doing a doctorate on medieval legal history."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Akademischer Fachbegriff; 'jemanden promovieren' meint (seltener) den Grad verleihen.",
+      "near_synonyms": [
+        {
+          "lemma": "habilitieren",
+          "distinction": "die höhere Qualifikation nach der Promotion erwerben"
+        },
+        {
+          "lemma": "doktorieren",
+          "distinction": "schweizerische Variante mit gleicher Bedeutung"
+        }
+      ]
+    },
+    "replizieren": {
+      "meaning_de": "eine Studie unter gleichen Bedingungen wiederholen, um ihre Ergebnisse zu prüfen",
+      "meaning_en": "to replicate (a study)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er repliziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er replizierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat repliziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er replizierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas replizieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Studie replizieren",
+          "gloss_en": "to replicate a study"
+        },
+        {
+          "phrase": "ein Experiment replizieren",
+          "gloss_en": "to replicate an experiment"
+        },
+        {
+          "phrase": "Ergebnisse replizieren",
+          "gloss_en": "to replicate results"
+        },
+        {
+          "phrase": "erfolgreich replizieren",
+          "gloss_en": "to replicate successfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mehrere Labore konnten den Befund nicht replizieren.",
+          "en": "Several labs were unable to replicate the finding."
+        },
+        {
+          "de": "Erst wenn sich Ergebnisse replizieren lassen, gelten sie als robust.",
+          "en": "Only when results can be replicated are they considered robust."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich in der empirischen Forschung; auch 'antworten, erwidern' (gehoben, veraltend).",
+      "near_synonyms": [
+        {
+          "lemma": "reproduzieren",
+          "distinction": "oft synonym; enger die Ergebnisse mit denselben Daten nachbilden"
+        },
+        {
+          "lemma": "wiederholen",
+          "distinction": "allgemeiner, ohne den methodischen Prüfaspekt"
+        }
+      ]
+    },
+    "operationalisieren": {
+      "meaning_de": "einen abstrakten Begriff messbar machen, indem man ihn durch beobachtbare Indikatoren fasst",
+      "meaning_en": "to operationalize (make measurable)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er operationalisiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er operationalisierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat operationalisiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er operationalisierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas operationalisieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Konzept operationalisieren",
+          "gloss_en": "to operationalize a concept"
+        },
+        {
+          "phrase": "eine Variable operationalisieren",
+          "gloss_en": "to operationalize a variable"
+        },
+        {
+          "phrase": "messbar operationalisieren",
+          "gloss_en": "to operationalize measurably"
+        },
+        {
+          "phrase": "einen Begriff operationalisieren",
+          "gloss_en": "to operationalize a term"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Begriff 'Wohlstand' wurde über das Einkommen operationalisiert.",
+          "en": "The concept of 'prosperity' was operationalized via income."
+        },
+        {
+          "de": "Zunächst muss man klären, wie sich die Variable operationalisieren lässt.",
+          "en": "First one must clarify how the variable can be operationalized."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der empirischen Methodenlehre; setzt Vertrautheit mit Forschungsdesign voraus.",
+      "near_synonyms": [
+        {
+          "lemma": "messbar machen",
+          "distinction": "die umschreibende, weniger technische Formulierung"
+        },
+        {
+          "lemma": "definieren",
+          "distinction": "legt die Bedeutung fest, ohne sie in messbare Indikatoren zu überführen"
+        }
+      ]
+    },
+    "empirisch": {
+      "meaning_de": "auf Erfahrung, Beobachtung oder Experiment gestützt",
+      "meaning_en": "empirical",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "empirische Forschung",
+          "gloss_en": "empirical research"
+        },
+        {
+          "phrase": "empirische Daten",
+          "gloss_en": "empirical data"
+        },
+        {
+          "phrase": "empirisch belegt",
+          "gloss_en": "empirically supported"
+        },
+        {
+          "phrase": "eine empirische Untersuchung",
+          "gloss_en": "an empirical study"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Behauptung ist empirisch gut abgesichert.",
+          "en": "The claim is well supported empirically."
+        },
+        {
+          "de": "Diese Arbeit verfolgt einen rein empirischen Ansatz.",
+          "en": "This work pursues a purely empirical approach."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; nicht steigerbar, daher keine Komparativformen.",
+      "near_synonyms": [
+        {
+          "lemma": "erfahrungsbasiert",
+          "distinction": "deutsche Umschreibung, weniger fachsprachlich"
+        },
+        {
+          "lemma": "experimentell",
+          "distinction": "enger, meint speziell die Gewinnung durch Experimente"
+        }
+      ]
+    },
+    "signifikant": {
+      "meaning_de": "deutlich und bedeutsam; statistisch nicht durch Zufall erklärbar",
+      "meaning_en": "significant; marked",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "signifikanter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am signifikantesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein signifikanter Unterschied",
+          "gloss_en": "a significant difference"
+        },
+        {
+          "phrase": "statistisch signifikant",
+          "gloss_en": "statistically significant"
+        },
+        {
+          "phrase": "signifikant höher",
+          "gloss_en": "significantly higher"
+        },
+        {
+          "phrase": "einen signifikanten Anstieg zeigen",
+          "gloss_en": "to show a significant increase"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Unterschied zwischen beiden Gruppen war statistisch signifikant.",
+          "en": "The difference between the two groups was statistically significant."
+        },
+        {
+          "de": "Die Werte sind signifikant gestiegen.",
+          "en": "The values have risen significantly."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich in der Statistik; umgangssprachlich oft nur im Sinn von 'erheblich'.",
+      "near_synonyms": [
+        {
+          "lemma": "erheblich",
+          "distinction": "meint schlicht 'groß, beträchtlich', ohne statistischen Bezug"
+        },
+        {
+          "lemma": "bedeutsam",
+          "distinction": "betont die inhaltliche Wichtigkeit, nicht die Zufallswahrscheinlichkeit"
+        }
+      ]
+    },
+    "reproduzierbar": {
+      "meaning_de": "so beschaffen, dass sich ein Ergebnis unter gleichen Bedingungen erneut erzielen lässt",
+      "meaning_en": "reproducible",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "reproduzierbarer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am reproduzierbarsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "reproduzierbare Ergebnisse",
+          "gloss_en": "reproducible results"
+        },
+        {
+          "phrase": "gut reproduzierbar",
+          "gloss_en": "readily reproducible"
+        },
+        {
+          "phrase": "leicht reproduzierbar",
+          "gloss_en": "easily reproducible"
+        },
+        {
+          "phrase": "nicht reproduzierbar sein",
+          "gloss_en": "to be irreproducible"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nur reproduzierbare Befunde gelten als wissenschaftlich belastbar.",
+          "en": "Only reproducible findings count as scientifically sound."
+        },
+        {
+          "de": "Das Experiment lieferte reproduzierbare Werte.",
+          "en": "The experiment produced reproducible values."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; Kern des wissenschaftlichen Gütekriteriums der Reproduzierbarkeit.",
+      "near_synonyms": [
+        {
+          "lemma": "wiederholbar",
+          "distinction": "betont die bloße Wiederholung, weniger die Übereinstimmung der Ergebnisse"
+        },
+        {
+          "lemma": "nachvollziehbar",
+          "distinction": "meint das gedankliche Verstehen, nicht das erneute Erzeugen"
+        }
+      ]
+    },
+    "interdisziplinär": {
+      "meaning_de": "mehrere Fachgebiete verbindend und zusammenführend",
+      "meaning_en": "interdisciplinary",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "interdisziplinäre Forschung",
+          "gloss_en": "interdisciplinary research"
+        },
+        {
+          "phrase": "ein interdisziplinäres Team",
+          "gloss_en": "an interdisciplinary team"
+        },
+        {
+          "phrase": "interdisziplinär arbeiten",
+          "gloss_en": "to work across disciplines"
+        },
+        {
+          "phrase": "ein interdisziplinärer Ansatz",
+          "gloss_en": "an interdisciplinary approach"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Projekt ist bewusst interdisziplinär angelegt.",
+          "en": "The project is deliberately designed to be interdisciplinary."
+        },
+        {
+          "de": "Solche Fragen lassen sich nur interdisziplinär beantworten.",
+          "en": "Such questions can only be answered across disciplines."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich, akademisch; nicht steigerbar, daher keine Komparativformen.",
+      "near_synonyms": [
+        {
+          "lemma": "fächerübergreifend",
+          "distinction": "deutsche Entsprechung, auch im Schulkontext üblich"
+        },
+        {
+          "lemma": "transdisziplinär",
+          "distinction": "geht weiter, bezieht auch außerwissenschaftliche Akteure ein"
+        }
+      ]
+    },
+    "quantitativ": {
+      "meaning_de": "die Menge oder Zahl betreffend; mit messbaren, zählbaren Größen arbeitend",
+      "meaning_en": "quantitative",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "quantitative Methoden",
+          "gloss_en": "quantitative methods"
+        },
+        {
+          "phrase": "eine quantitative Analyse",
+          "gloss_en": "a quantitative analysis"
+        },
+        {
+          "phrase": "quantitative Daten",
+          "gloss_en": "quantitative data"
+        },
+        {
+          "phrase": "quantitativ erfassen",
+          "gloss_en": "to measure quantitatively"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Studie stützt sich auf quantitative Erhebungen.",
+          "en": "The study relies on quantitative surveys."
+        },
+        {
+          "de": "Quantitativ betrachtet ist der Effekt gering.",
+          "en": "In quantitative terms the effect is small."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; meist im Gegensatzpaar mit qualitativ, nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "zahlenmäßig",
+          "distinction": "deutsche Umschreibung, weniger fachsprachlich"
+        },
+        {
+          "lemma": "qualitativ",
+          "distinction": "das Gegenstück, die Beschaffenheit statt der Menge betreffend"
+        }
+      ]
+    },
+    "qualitativ": {
+      "meaning_de": "die Beschaffenheit oder Güte betreffend; mit deutenden, nicht zählenden Methoden arbeitend",
+      "meaning_en": "qualitative",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "qualitativ hochwertiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am qualitativ hochwertigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "qualitative Forschung",
+          "gloss_en": "qualitative research"
+        },
+        {
+          "phrase": "ein qualitatives Interview",
+          "gloss_en": "a qualitative interview"
+        },
+        {
+          "phrase": "qualitativ hochwertig",
+          "gloss_en": "of high quality"
+        },
+        {
+          "phrase": "eine qualitative Verbesserung",
+          "gloss_en": "a qualitative improvement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Arbeit kombiniert qualitative und quantitative Verfahren.",
+          "en": "The work combines qualitative and quantitative approaches."
+        },
+        {
+          "de": "Es geht hier um einen qualitativen, nicht um einen zahlenmäßigen Unterschied.",
+          "en": "This is about a qualitative, not a numerical, difference."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; als Methodenbegriff nicht steigerbar, im Sinn von 'Güte' aber ('qualitativ hochwertiger') schon.",
+      "near_synonyms": [
+        {
+          "lemma": "quantitativ",
+          "distinction": "das Gegenstück, die Menge statt der Beschaffenheit betreffend"
+        },
+        {
+          "lemma": "hochwertig",
+          "distinction": "meint nur die gute Qualität, nicht die deutende Methode"
+        }
+      ]
+    },
+    "kausal": {
+      "meaning_de": "die Beziehung zwischen Ursache und Wirkung betreffend",
+      "meaning_en": "causal",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein kausaler Zusammenhang",
+          "gloss_en": "a causal connection"
+        },
+        {
+          "phrase": "kausal bedingt",
+          "gloss_en": "causally conditioned"
+        },
+        {
+          "phrase": "eine kausale Beziehung",
+          "gloss_en": "a causal relationship"
+        },
+        {
+          "phrase": "kausal verknüpft",
+          "gloss_en": "causally linked"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein kausaler Zusammenhang ist damit noch nicht bewiesen.",
+          "en": "A causal connection is not yet proven by this."
+        },
+        {
+          "de": "Die beiden Ereignisse sind kausal miteinander verknüpft.",
+          "en": "The two events are causally linked."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; grammatisch auch 'kausaler Nebensatz' (Begründung), nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "ursächlich",
+          "distinction": "deutsche Entsprechung, weitgehend gleichbedeutend"
+        },
+        {
+          "lemma": "korrelativ",
+          "distinction": "nur ein statistischer Zusammenhang, kein Ursache-Wirkung-Verhältnis"
+        }
+      ]
+    },
+    "evidenzbasiert": {
+      "meaning_de": "auf nachgewiesenen, überprüften Belegen statt auf Vermutungen beruhend",
+      "meaning_en": "evidence-based",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "evidenzbasierte Medizin",
+          "gloss_en": "evidence-based medicine"
+        },
+        {
+          "phrase": "eine evidenzbasierte Entscheidung",
+          "gloss_en": "an evidence-based decision"
+        },
+        {
+          "phrase": "evidenzbasierte Praxis",
+          "gloss_en": "evidence-based practice"
+        },
+        {
+          "phrase": "evidenzbasiert vorgehen",
+          "gloss_en": "to proceed in an evidence-based way"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Leitlinie beruht auf evidenzbasierten Empfehlungen.",
+          "en": "The guideline is based on evidence-based recommendations."
+        },
+        {
+          "de": "Man fordert eine evidenzbasierte Politik.",
+          "en": "There are calls for evidence-based policy."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich, aus der Medizin stammend; nicht steigerbar, daher keine Komparativformen.",
+      "near_synonyms": [
+        {
+          "lemma": "faktenbasiert",
+          "distinction": "allgemeiner, auf Fakten statt auf geprüfte wissenschaftliche Evidenz gestützt"
+        },
+        {
+          "lemma": "wissenschaftlich fundiert",
+          "distinction": "betont die theoretische Untermauerung, nicht speziell die Belegdichte"
+        }
+      ]
+    }
+  }
+}

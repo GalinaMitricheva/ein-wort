@@ -1,0 +1,2895 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored dossiers for the B2 domain batch 'Arbeit & Beruf' (out/b2-01.json). Keyed by lemma.",
+  "dossiers": {
+    "Arbeitgeber": {
+      "meaning_de": "eine Person oder Firma, die andere gegen Lohn beschäftigt",
+      "meaning_en": "employer",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Arbeitgebers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Arbeitgeber"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein attraktiver Arbeitgeber",
+          "gloss_en": "an attractive employer"
+        },
+        {
+          "phrase": "den Arbeitgeber wechseln",
+          "gloss_en": "to change employers"
+        },
+        {
+          "phrase": "beim Arbeitgeber kündigen",
+          "gloss_en": "to hand in one's notice to the employer"
+        },
+        {
+          "phrase": "der öffentliche Arbeitgeber",
+          "gloss_en": "the public-sector employer"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mein Arbeitgeber übernimmt die Kosten für die Weiterbildung.",
+          "en": "My employer covers the cost of the training."
+        },
+        {
+          "de": "Das Unternehmen gilt als fairer Arbeitgeber.",
+          "en": "The company is regarded as a fair employer."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; Standardwort im Arbeitsrecht und im Berufsalltag.",
+      "near_synonyms": [
+        {
+          "lemma": "der Dienstherr",
+          "distinction": "veraltet oder speziell für den öffentlichen Dienst"
+        },
+        {
+          "lemma": "der Chef",
+          "distinction": "umgangssprachlich, meint die konkrete vorgesetzte Person"
+        }
+      ]
+    },
+    "Arbeitnehmer": {
+      "meaning_de": "eine Person, die bei einem Arbeitgeber gegen Lohn beschäftigt ist",
+      "meaning_en": "employee",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Arbeitnehmers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Arbeitnehmer"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Rechte der Arbeitnehmer",
+          "gloss_en": "the rights of employees"
+        },
+        {
+          "phrase": "ein angestellter Arbeitnehmer",
+          "gloss_en": "a salaried employee"
+        },
+        {
+          "phrase": "Arbeitnehmer und Arbeitgeber",
+          "gloss_en": "employees and employers"
+        },
+        {
+          "phrase": "die Interessen der Arbeitnehmer vertreten",
+          "gloss_en": "to represent employees' interests"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Jeder Arbeitnehmer hat Anspruch auf bezahlten Urlaub.",
+          "en": "Every employee is entitled to paid leave."
+        },
+        {
+          "de": "Die Gewerkschaft setzt sich für die Arbeitnehmer ein.",
+          "en": "The union stands up for the employees."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich-juristisch; das Gegenstück zu Arbeitgeber.",
+      "near_synonyms": [
+        {
+          "lemma": "der Angestellte",
+          "distinction": "enger, meint Büro- oder Verwaltungspersonal, nicht Arbeiter"
+        },
+        {
+          "lemma": "die Arbeitskraft",
+          "distinction": "betont die Person als Ressource, oft im Plural"
+        }
+      ]
+    },
+    "Arbeitsvertrag": {
+      "meaning_de": "die schriftliche Vereinbarung, die Rechte und Pflichten zwischen Arbeitgeber und Arbeitnehmer regelt",
+      "meaning_en": "employment contract",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Arbeitsvertrags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Arbeitsverträge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Arbeitsvertrag unterschreiben",
+          "gloss_en": "to sign an employment contract"
+        },
+        {
+          "phrase": "einen Arbeitsvertrag abschließen",
+          "gloss_en": "to conclude an employment contract"
+        },
+        {
+          "phrase": "ein befristeter Arbeitsvertrag",
+          "gloss_en": "a fixed-term employment contract"
+        },
+        {
+          "phrase": "gegen den Arbeitsvertrag verstoßen",
+          "gloss_en": "to breach the employment contract"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor dem ersten Arbeitstag musste sie den Arbeitsvertrag unterschreiben.",
+          "en": "Before her first day she had to sign the employment contract."
+        },
+        {
+          "de": "Im Arbeitsvertrag ist eine Probezeit von sechs Monaten festgelegt.",
+          "en": "The employment contract stipulates a six-month probation period."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Standardwort des Arbeitsrechts; im Alltag wie in Formularen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Anstellungsvertrag",
+          "distinction": "gleichbedeutend, etwas formeller und seltener"
+        },
+        {
+          "lemma": "die Vereinbarung",
+          "distinction": "allgemeiner, nicht speziell auf Beschäftigung bezogen"
+        }
+      ]
+    },
+    "Bewerbung": {
+      "meaning_de": "das Bemühen um eine Stelle, meist mit schriftlichen Unterlagen",
+      "meaning_en": "job application",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bewerbung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bewerbungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Bewerbung um etwas",
+          "cases": "um + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Bewerbung schreiben",
+          "gloss_en": "to write an application"
+        },
+        {
+          "phrase": "eine Bewerbung einreichen",
+          "gloss_en": "to submit an application"
+        },
+        {
+          "phrase": "die Bewerbungsunterlagen",
+          "gloss_en": "the application documents"
+        },
+        {
+          "phrase": "eine Absage auf die Bewerbung",
+          "gloss_en": "a rejection of the application"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Bewerbung um die Stelle war erfolgreich.",
+          "en": "Her application for the position was successful."
+        },
+        {
+          "de": "Ich habe zehn Bewerbungen verschickt, aber nur zwei Antworten bekommen.",
+          "en": "I sent off ten applications but only got two replies."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagswort der Jobsuche; auch für die Kandidatur um ein Amt.",
+      "near_synonyms": [
+        {
+          "lemma": "die Kandidatur",
+          "distinction": "eher für Ämter und Wahlen als für Arbeitsstellen"
+        },
+        {
+          "lemma": "das Gesuch",
+          "distinction": "gehoben und veraltend, allgemeiner ein förmlicher Antrag"
+        }
+      ]
+    },
+    "Lebenslauf": {
+      "meaning_de": "eine geordnete Darstellung des bisherigen beruflichen und schulischen Werdegangs",
+      "meaning_en": "CV; résumé",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Lebenslaufs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Lebensläufe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Lebenslauf erstellen",
+          "gloss_en": "to draw up a CV"
+        },
+        {
+          "phrase": "ein tabellarischer Lebenslauf",
+          "gloss_en": "a CV in tabular form"
+        },
+        {
+          "phrase": "eine Lücke im Lebenslauf",
+          "gloss_en": "a gap in one's CV"
+        },
+        {
+          "phrase": "den Lebenslauf aktualisieren",
+          "gloss_en": "to update one's CV"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bitte fügen Sie Ihrer Bewerbung einen aktuellen Lebenslauf bei.",
+          "en": "Please enclose an up-to-date CV with your application."
+        },
+        {
+          "de": "In seinem Lebenslauf fällt der häufige Stellenwechsel auf.",
+          "en": "The frequent job changes stand out in his CV."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fester Begriff der Bewerbung; heute meist der tabellarische Lebenslauf.",
+      "near_synonyms": [
+        {
+          "lemma": "der Werdegang",
+          "distinction": "betont die inhaltliche Entwicklung, nicht das Dokument"
+        },
+        {
+          "lemma": "die Vita",
+          "distinction": "gehoben, oft in Wissenschaft und Kultur gebräuchlich"
+        }
+      ]
+    },
+    "Vorstellungsgespräch": {
+      "meaning_de": "das Gespräch, in dem sich ein Bewerber und ein Arbeitgeber persönlich kennenlernen",
+      "meaning_en": "job interview",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Vorstellungsgesprächs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vorstellungsgespräche"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zu einem Vorstellungsgespräch einladen",
+          "gloss_en": "to invite to a job interview"
+        },
+        {
+          "phrase": "sich auf ein Vorstellungsgespräch vorbereiten",
+          "gloss_en": "to prepare for a job interview"
+        },
+        {
+          "phrase": "ein Vorstellungsgespräch führen",
+          "gloss_en": "to conduct a job interview"
+        },
+        {
+          "phrase": "im Vorstellungsgespräch überzeugen",
+          "gloss_en": "to impress in the interview"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nächste Woche habe ich ein Vorstellungsgespräch bei einer großen Firma.",
+          "en": "Next week I have a job interview at a big company."
+        },
+        {
+          "de": "Im Vorstellungsgespräch wurde ich nach meinen Stärken gefragt.",
+          "en": "In the job interview I was asked about my strengths."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Standardwort der Bewerbungsphase; umgangssprachlich oft nur „Gespräch“.",
+      "near_synonyms": [
+        {
+          "lemma": "das Bewerbungsgespräch",
+          "distinction": "praktisch bedeutungsgleich, ebenso gebräuchlich"
+        },
+        {
+          "lemma": "das Interview",
+          "distinction": "allgemeiner, meist journalistisch, seltener für Bewerbungen"
+        }
+      ]
+    },
+    "Kündigung": {
+      "meaning_de": "die einseitige Erklärung, ein Arbeits- oder Vertragsverhältnis zu beenden",
+      "meaning_en": "termination; notice (of dismissal)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kündigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kündigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Kündigung einreichen",
+          "gloss_en": "to hand in one's notice"
+        },
+        {
+          "phrase": "eine Kündigung erhalten",
+          "gloss_en": "to receive a termination notice"
+        },
+        {
+          "phrase": "die fristlose Kündigung",
+          "gloss_en": "termination without notice"
+        },
+        {
+          "phrase": "gegen die Kündigung klagen",
+          "gloss_en": "to contest the dismissal in court"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Streit reichte er noch am selben Tag die Kündigung ein.",
+          "en": "After the argument he handed in his notice that very day."
+        },
+        {
+          "de": "Die Kündigung muss schriftlich erfolgen.",
+          "en": "The termination must be given in writing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; kann sowohl vom Arbeitnehmer als auch vom Arbeitgeber ausgehen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Entlassung",
+          "distinction": "geht immer vom Arbeitgeber aus"
+        },
+        {
+          "lemma": "die Auflösung",
+          "distinction": "betont die einvernehmliche Beendigung des Vertrags"
+        }
+      ]
+    },
+    "Kollege": {
+      "meaning_de": "eine Person, mit der man am selben Arbeitsplatz oder im selben Beruf tätig ist",
+      "meaning_en": "colleague; co-worker",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kollegen"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kollegen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein netter Kollege",
+          "gloss_en": "a nice colleague"
+        },
+        {
+          "phrase": "mit den Kollegen zusammenarbeiten",
+          "gloss_en": "to work together with one's colleagues"
+        },
+        {
+          "phrase": "ein Kollege aus der Abteilung",
+          "gloss_en": "a colleague from the department"
+        },
+        {
+          "phrase": "sich mit den Kollegen verstehen",
+          "gloss_en": "to get on with one's colleagues"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mein Kollege hilft mir immer, wenn ich etwas nicht verstehe.",
+          "en": "My colleague always helps me when I don't understand something."
+        },
+        {
+          "de": "Am Freitag gehen wir mit den Kollegen etwas trinken.",
+          "en": "On Friday we're going for a drink with our colleagues."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Schwaches Maskulinum (des Kollegen); die weibliche Form ist die Kollegin.",
+      "near_synonyms": [
+        {
+          "lemma": "der Mitarbeiter",
+          "distinction": "betont die Zugehörigkeit zur Firma, nicht das kollegiale Verhältnis"
+        },
+        {
+          "lemma": "der Arbeitskollege",
+          "distinction": "verdeutlicht ausdrücklich den beruflichen Bezug"
+        }
+      ]
+    },
+    "Gehaltserhöhung": {
+      "meaning_de": "die Anhebung des bisherigen Gehalts",
+      "meaning_en": "pay rise; salary increase",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gehaltserhöhung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gehaltserhöhungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Gehaltserhöhung fordern",
+          "gloss_en": "to demand a pay rise"
+        },
+        {
+          "phrase": "um eine Gehaltserhöhung bitten",
+          "gloss_en": "to ask for a pay rise"
+        },
+        {
+          "phrase": "eine Gehaltserhöhung durchsetzen",
+          "gloss_en": "to secure a pay rise"
+        },
+        {
+          "phrase": "eine kräftige Gehaltserhöhung",
+          "gloss_en": "a hefty pay rise"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach zwei Jahren bat sie ihren Chef um eine Gehaltserhöhung.",
+          "en": "After two years she asked her boss for a pay rise."
+        },
+        {
+          "de": "Die Gehaltserhöhung fiel geringer aus als erhofft.",
+          "en": "The pay rise turned out smaller than hoped."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagswort; im Tarifkontext auch „Lohnerhöhung“.",
+      "near_synonyms": [
+        {
+          "lemma": "die Lohnerhöhung",
+          "distinction": "bezieht sich auf Stundenlohn, eher bei Arbeitern"
+        },
+        {
+          "lemma": "die Aufstockung",
+          "distinction": "allgemeiner, jede Erhöhung eines Betrags oder Umfangs"
+        }
+      ]
+    },
+    "Führungskraft": {
+      "meaning_de": "eine Person mit Leitungsverantwortung und Weisungsbefugnis in einem Unternehmen",
+      "meaning_en": "executive; manager",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Führungskraft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Führungskräfte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine erfahrene Führungskraft",
+          "gloss_en": "an experienced executive"
+        },
+        {
+          "phrase": "Führungskräfte ausbilden",
+          "gloss_en": "to train managers"
+        },
+        {
+          "phrase": "die Führungskräfte des Unternehmens",
+          "gloss_en": "the company's executives"
+        },
+        {
+          "phrase": "als Führungskraft agieren",
+          "gloss_en": "to act in a leadership role"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Als Führungskraft trägt sie Verantwortung für zwanzig Mitarbeiter.",
+          "en": "As a manager she is responsible for twenty employees."
+        },
+        {
+          "de": "Gute Führungskräfte hören ihren Teams zu.",
+          "en": "Good executives listen to their teams."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gehoben-sachlich; typisch in der Personal- und Wirtschaftssprache.",
+      "near_synonyms": [
+        {
+          "lemma": "der Vorgesetzte",
+          "distinction": "betont die konkrete Über-/Unterordnung im Alltag"
+        },
+        {
+          "lemma": "der Manager",
+          "distinction": "englisch geprägt, oft für höhere Wirtschaftsposten"
+        }
+      ]
+    },
+    "Betriebsrat": {
+      "meaning_de": "das gewählte Gremium, das die Interessen der Belegschaft gegenüber dem Arbeitgeber vertritt",
+      "meaning_en": "works council",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Betriebsrats"
+        },
+        {
+          "label": "Plural",
+          "value": "die Betriebsräte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Betriebsrat wählen",
+          "gloss_en": "to elect the works council"
+        },
+        {
+          "phrase": "der Betriebsrat stimmt zu",
+          "gloss_en": "the works council gives its consent"
+        },
+        {
+          "phrase": "sich an den Betriebsrat wenden",
+          "gloss_en": "to turn to the works council"
+        },
+        {
+          "phrase": "im Betriebsrat sitzen",
+          "gloss_en": "to sit on the works council"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Betriebsrat verhandelt mit der Geschäftsführung über die Arbeitszeiten.",
+          "en": "The works council is negotiating working hours with management."
+        },
+        {
+          "de": "Ohne die Zustimmung des Betriebsrats darf niemand versetzt werden.",
+          "en": "No one may be transferred without the works council's approval."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort des deutschen Arbeitsrechts; bezeichnet auch das einzelne Mitglied.",
+      "near_synonyms": [
+        {
+          "lemma": "die Personalvertretung",
+          "distinction": "entsprechendes Gremium im öffentlichen Dienst"
+        },
+        {
+          "lemma": "die Gewerkschaft",
+          "distinction": "überbetrieblich organisiert, nicht auf einen Betrieb beschränkt"
+        }
+      ]
+    },
+    "Weiterbildung": {
+      "meaning_de": "das Erweitern der beruflichen Kenntnisse und Fähigkeiten nach der Ausbildung",
+      "meaning_en": "further training; continuing education",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Weiterbildung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Weiterbildungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "an einer Weiterbildung teilnehmen",
+          "gloss_en": "to take part in a training course"
+        },
+        {
+          "phrase": "eine Weiterbildung absolvieren",
+          "gloss_en": "to complete a further-training course"
+        },
+        {
+          "phrase": "die berufliche Weiterbildung",
+          "gloss_en": "professional development"
+        },
+        {
+          "phrase": "sich zur Weiterbildung anmelden",
+          "gloss_en": "to sign up for further training"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Firma bietet ihren Mitarbeitern regelmäßig Weiterbildungen an.",
+          "en": "The company regularly offers its staff further-training courses."
+        },
+        {
+          "de": "Durch die Weiterbildung verbesserte er seine Aufstiegschancen.",
+          "en": "The further training improved his chances of promotion."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; zentraler Begriff der beruflichen Entwicklung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Fortbildung",
+          "distinction": "praktisch gleichbedeutend, oft für kürzere Maßnahmen"
+        },
+        {
+          "lemma": "die Schulung",
+          "distinction": "meist kurz und auf ein konkretes Thema begrenzt"
+        }
+      ]
+    },
+    "Arbeitsplatz": {
+      "meaning_de": "der Ort, an dem jemand arbeitet; auch: die konkrete Stelle im Beruf",
+      "meaning_en": "workplace; job",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Arbeitsplatzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Arbeitsplätze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Arbeitsplatz schaffen",
+          "gloss_en": "to create a job"
+        },
+        {
+          "phrase": "seinen Arbeitsplatz verlieren",
+          "gloss_en": "to lose one's job"
+        },
+        {
+          "phrase": "ein sicherer Arbeitsplatz",
+          "gloss_en": "a secure job"
+        },
+        {
+          "phrase": "am Arbeitsplatz",
+          "gloss_en": "at the workplace"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Durch die Schließung des Werks gehen viele Arbeitsplätze verloren.",
+          "en": "The closure of the plant means many jobs will be lost."
+        },
+        {
+          "de": "An meinem Arbeitsplatz herrscht eine angenehme Atmosphäre.",
+          "en": "There's a pleasant atmosphere at my workplace."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Doppeldeutig: der physische Ort und die Stelle als solche.",
+      "near_synonyms": [
+        {
+          "lemma": "die Stelle",
+          "distinction": "meint die Position, nicht den Ort"
+        },
+        {
+          "lemma": "der Job",
+          "distinction": "umgangssprachlich, betont die Erwerbstätigkeit"
+        }
+      ]
+    },
+    "Arbeitszeit": {
+      "meaning_de": "die Zeit, während der jemand seiner Arbeit nachgeht",
+      "meaning_en": "working hours; working time",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Arbeitszeit"
+        },
+        {
+          "label": "Plural",
+          "value": "die Arbeitszeiten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die flexible Arbeitszeit",
+          "gloss_en": "flexible working hours"
+        },
+        {
+          "phrase": "die Arbeitszeit erfassen",
+          "gloss_en": "to record working time"
+        },
+        {
+          "phrase": "während der Arbeitszeit",
+          "gloss_en": "during working hours"
+        },
+        {
+          "phrase": "die Arbeitszeit verkürzen",
+          "gloss_en": "to reduce working hours"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Dank Gleitzeit kann ich meine Arbeitszeit selbst einteilen.",
+          "en": "Thanks to flexitime I can arrange my own working hours."
+        },
+        {
+          "de": "Private Anrufe sind während der Arbeitszeit nicht erwünscht.",
+          "en": "Private calls are not welcome during working hours."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; im Plural oft die konkreten täglichen Zeiten.",
+      "near_synonyms": [
+        {
+          "lemma": "die Dienstzeit",
+          "distinction": "eher im öffentlichen Dienst und beim Militär"
+        },
+        {
+          "lemma": "die Wochenstunden",
+          "distinction": "gibt den zeitlichen Umfang in Stunden an"
+        }
+      ]
+    },
+    "Feierabend": {
+      "meaning_de": "das Ende der täglichen Arbeit und die anschließende freie Zeit",
+      "meaning_en": "end of the working day; time off after work",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Feierabends"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Feierabend machen",
+          "gloss_en": "to finish work for the day"
+        },
+        {
+          "phrase": "nach Feierabend",
+          "gloss_en": "after work"
+        },
+        {
+          "phrase": "einen schönen Feierabend!",
+          "gloss_en": "have a nice evening!"
+        },
+        {
+          "phrase": "jetzt ist Feierabend",
+          "gloss_en": "that's it, we're done"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Um fünf Uhr mache ich Feierabend und fahre nach Hause.",
+          "en": "At five o'clock I finish work and head home."
+        },
+        {
+          "de": "Nach Feierabend treffe ich mich oft mit Freunden.",
+          "en": "After work I often meet up with friends."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagswort; „jetzt ist Feierabend“ auch übertragen für „Schluss jetzt“.",
+      "near_synonyms": [
+        {
+          "lemma": "das Arbeitsende",
+          "distinction": "nüchtern der Zeitpunkt, ohne den Freizeitaspekt"
+        },
+        {
+          "lemma": "die Freizeit",
+          "distinction": "allgemeiner, jede arbeitsfreie Zeit"
+        }
+      ]
+    },
+    "Probezeit": {
+      "meaning_de": "die Anfangsphase eines Arbeitsverhältnisses, in der beide Seiten leichter kündigen können",
+      "meaning_en": "probation period",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Probezeit"
+        },
+        {
+          "label": "Plural",
+          "value": "die Probezeiten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Probezeit bestehen",
+          "gloss_en": "to pass one's probation"
+        },
+        {
+          "phrase": "während der Probezeit",
+          "gloss_en": "during the probation period"
+        },
+        {
+          "phrase": "die Probezeit verkürzen",
+          "gloss_en": "to shorten the probation period"
+        },
+        {
+          "phrase": "in der Probezeit kündigen",
+          "gloss_en": "to terminate during probation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Probezeit gilt eine kürzere Kündigungsfrist.",
+          "en": "During probation a shorter notice period applies."
+        },
+        {
+          "de": "Nach sechs Monaten hatte er die Probezeit erfolgreich bestanden.",
+          "en": "After six months he had successfully passed his probation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort des Arbeitsrechts; auch im Verkehrsrecht (Führerschein) gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Einarbeitungszeit",
+          "distinction": "betont das Einlernen, nicht die erleichterte Kündigung"
+        },
+        {
+          "lemma": "die Bewährungszeit",
+          "distinction": "gehoben, allgemeiner das Sich-Bewähren-Müssen"
+        }
+      ]
+    },
+    "Zeitdruck": {
+      "meaning_de": "die Belastung, etwas in zu kurzer Zeit erledigen zu müssen",
+      "meaning_en": "time pressure",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zeitdrucks"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter Zeitdruck stehen",
+          "gloss_en": "to be under time pressure"
+        },
+        {
+          "phrase": "unter Zeitdruck geraten",
+          "gloss_en": "to come under time pressure"
+        },
+        {
+          "phrase": "enormer Zeitdruck",
+          "gloss_en": "enormous time pressure"
+        },
+        {
+          "phrase": "unter Zeitdruck arbeiten",
+          "gloss_en": "to work against the clock"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Unter Zeitdruck mache ich leicht Fehler.",
+          "en": "Under time pressure I easily make mistakes."
+        },
+        {
+          "de": "Kurz vor der Deadline stieg der Zeitdruck im ganzen Team.",
+          "en": "Just before the deadline the time pressure rose across the whole team."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagswort des Berufslebens; meist ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "der Stress",
+          "distinction": "umfassender, auch psychische Anspannung ohne Zeitbezug"
+        },
+        {
+          "lemma": "die Hektik",
+          "distinction": "betont die unruhige Betriebsamkeit, nicht die Frist"
+        }
+      ]
+    },
+    "Fachkraft": {
+      "meaning_de": "eine Person mit einer abgeschlossenen Ausbildung und besonderen fachlichen Qualifikationen",
+      "meaning_en": "skilled worker; qualified specialist",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fachkraft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fachkräfte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine qualifizierte Fachkraft",
+          "gloss_en": "a qualified specialist"
+        },
+        {
+          "phrase": "der Mangel an Fachkräften",
+          "gloss_en": "the shortage of skilled workers"
+        },
+        {
+          "phrase": "Fachkräfte gewinnen",
+          "gloss_en": "to attract skilled workers"
+        },
+        {
+          "phrase": "ausländische Fachkräfte",
+          "gloss_en": "foreign skilled workers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Pflege fehlen überall gut ausgebildete Fachkräfte.",
+          "en": "Well-trained skilled workers are lacking everywhere in nursing."
+        },
+        {
+          "de": "Das Unternehmen sucht dringend eine Fachkraft für Elektrotechnik.",
+          "en": "The company urgently needs a specialist in electrical engineering."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; „Fachkräftemangel“ ist ein häufiges wirtschaftspolitisches Schlagwort.",
+      "near_synonyms": [
+        {
+          "lemma": "der Spezialist",
+          "distinction": "betont enges Expertenwissen in einem Teilgebiet"
+        },
+        {
+          "lemma": "der Facharbeiter",
+          "distinction": "enger, meint gewerblich-technische Berufe"
+        }
+      ]
+    },
+    "Personalabteilung": {
+      "meaning_de": "die Abteilung eines Unternehmens, die für die Angelegenheiten der Mitarbeiter zuständig ist",
+      "meaning_en": "human resources department",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Personalabteilung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Personalabteilungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich an die Personalabteilung wenden",
+          "gloss_en": "to contact the HR department"
+        },
+        {
+          "phrase": "in der Personalabteilung arbeiten",
+          "gloss_en": "to work in HR"
+        },
+        {
+          "phrase": "die Personalabteilung informieren",
+          "gloss_en": "to inform the HR department"
+        },
+        {
+          "phrase": "der Leiter der Personalabteilung",
+          "gloss_en": "the head of HR"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei Fragen zum Vertrag wenden Sie sich bitte an die Personalabteilung.",
+          "en": "For questions about the contract please contact the HR department."
+        },
+        {
+          "de": "Die Personalabteilung kümmert sich um die Einstellung neuer Mitarbeiter.",
+          "en": "The HR department handles the hiring of new employees."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; heute oft englisch „HR“ oder „Human Resources“ genannt.",
+      "near_synonyms": [
+        {
+          "lemma": "das Personalwesen",
+          "distinction": "bezeichnet den Aufgabenbereich, nicht die Organisationseinheit"
+        },
+        {
+          "lemma": "die Personalstelle",
+          "distinction": "kleiner, eine einzelne zuständige Stelle statt einer Abteilung"
+        }
+      ]
+    },
+    "Gehalt": {
+      "meaning_de": "die feste monatliche Vergütung eines Angestellten",
+      "meaning_en": "salary",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gehalts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gehälter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gutes Gehalt",
+          "gloss_en": "a good salary"
+        },
+        {
+          "phrase": "das Gehalt aushandeln",
+          "gloss_en": "to negotiate one's salary"
+        },
+        {
+          "phrase": "das Gehalt überweisen",
+          "gloss_en": "to pay the salary"
+        },
+        {
+          "phrase": "das monatliche Gehalt",
+          "gloss_en": "the monthly salary"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Gehalt wird jeweils zum Monatsende überwiesen.",
+          "en": "Her salary is paid at the end of each month."
+        },
+        {
+          "de": "Für diese Verantwortung ist das Gehalt eher niedrig.",
+          "en": "For this level of responsibility the salary is rather low."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Das Gehalt (Vergütung) vs. der Gehalt (Anteil, Substanz) – hier das Neutrum. Für Angestellte, nicht für Stundenlohn.",
+      "near_synonyms": [
+        {
+          "lemma": "der Lohn",
+          "distinction": "meist nach Stunden bemessen, eher bei Arbeitern"
+        },
+        {
+          "lemma": "die Vergütung",
+          "distinction": "formeller Oberbegriff für jede Bezahlung einer Leistung"
+        }
+      ]
+    },
+    "Überstunde": {
+      "meaning_de": "eine über die reguläre Arbeitszeit hinaus geleistete Arbeitsstunde",
+      "meaning_en": "hour of overtime",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Überstunde"
+        },
+        {
+          "label": "Plural",
+          "value": "die Überstunden"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Überstunden machen",
+          "gloss_en": "to work overtime"
+        },
+        {
+          "phrase": "Überstunden abbauen",
+          "gloss_en": "to use up accrued overtime"
+        },
+        {
+          "phrase": "unbezahlte Überstunden",
+          "gloss_en": "unpaid overtime"
+        },
+        {
+          "phrase": "Überstunden ansammeln",
+          "gloss_en": "to accumulate overtime"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Woche musste ich jeden Tag Überstunden machen.",
+          "en": "This week I had to work overtime every day."
+        },
+        {
+          "de": "Die Überstunden werden entweder bezahlt oder in Freizeit ausgeglichen.",
+          "en": "The overtime is either paid out or compensated with time off."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Meist im Plural gebraucht; das Wort für die einzelne Stunde ist eher selten.",
+      "near_synonyms": [
+        {
+          "lemma": "die Mehrarbeit",
+          "distinction": "formeller, arbeitsrechtlicher Oberbegriff"
+        },
+        {
+          "lemma": "die Zusatzstunde",
+          "distinction": "neutraler, ohne den festen Überstunden-Kontext"
+        }
+      ]
+    },
+    "Kündigungsfrist": {
+      "meaning_de": "der Zeitraum, der zwischen der Kündigung und dem tatsächlichen Ende des Vertrags liegen muss",
+      "meaning_en": "period of notice",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kündigungsfrist"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kündigungsfristen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Kündigungsfrist einhalten",
+          "gloss_en": "to observe the period of notice"
+        },
+        {
+          "phrase": "eine gesetzliche Kündigungsfrist",
+          "gloss_en": "a statutory notice period"
+        },
+        {
+          "phrase": "die Kündigungsfrist beträgt drei Monate",
+          "gloss_en": "the notice period is three months"
+        },
+        {
+          "phrase": "die Kündigungsfrist verlängern",
+          "gloss_en": "to extend the notice period"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Laut Vertrag beträgt die Kündigungsfrist vier Wochen.",
+          "en": "According to the contract the notice period is four weeks."
+        },
+        {
+          "de": "Wer die Kündigungsfrist nicht einhält, riskiert Schadenersatz.",
+          "en": "Anyone who ignores the notice period risks paying damages."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort des Arbeits- und Mietrechts.",
+      "near_synonyms": [
+        {
+          "lemma": "die Frist",
+          "distinction": "allgemein jeder festgesetzte Zeitraum, nicht speziell die Kündigung"
+        },
+        {
+          "lemma": "die Sperrfrist",
+          "distinction": "Zeitraum, in dem etwas gerade nicht erlaubt oder möglich ist"
+        }
+      ]
+    },
+    "Betriebsklima": {
+      "meaning_de": "die allgemeine Stimmung und das Verhältnis der Mitarbeiter untereinander im Betrieb",
+      "meaning_en": "workplace atmosphere; working climate",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Betriebsklimas"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gutes Betriebsklima",
+          "gloss_en": "a good working atmosphere"
+        },
+        {
+          "phrase": "das Betriebsklima verbessern",
+          "gloss_en": "to improve the working atmosphere"
+        },
+        {
+          "phrase": "das Betriebsklima stören",
+          "gloss_en": "to disrupt the working atmosphere"
+        },
+        {
+          "phrase": "ein angespanntes Betriebsklima",
+          "gloss_en": "a tense working atmosphere"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein gutes Betriebsklima ist mir wichtiger als ein hohes Gehalt.",
+          "en": "A good working atmosphere matters more to me than a high salary."
+        },
+        {
+          "de": "Der ständige Konkurrenzdruck vergiftet das Betriebsklima.",
+          "en": "The constant competitive pressure poisons the working atmosphere."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; meist ohne Plural gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Arbeitsatmosphäre",
+          "distinction": "praktisch gleichbedeutend, etwas alltäglicher"
+        },
+        {
+          "lemma": "die Unternehmenskultur",
+          "distinction": "umfassender, meint Werte und Gepflogenheiten der Firma"
+        }
+      ]
+    },
+    "Zuständigkeitsbereich": {
+      "meaning_de": "der Bereich von Aufgaben, für die eine Person oder Stelle verantwortlich ist",
+      "meaning_en": "area of responsibility; remit",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zuständigkeitsbereichs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zuständigkeitsbereiche"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in jemandes Zuständigkeitsbereich fallen",
+          "gloss_en": "to fall within someone's remit"
+        },
+        {
+          "phrase": "den Zuständigkeitsbereich abgrenzen",
+          "gloss_en": "to define the area of responsibility"
+        },
+        {
+          "phrase": "außerhalb des Zuständigkeitsbereichs",
+          "gloss_en": "outside the area of responsibility"
+        },
+        {
+          "phrase": "ein klarer Zuständigkeitsbereich",
+          "gloss_en": "a clearly defined remit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Aufgabe fällt nicht in meinen Zuständigkeitsbereich.",
+          "en": "This task does not fall within my area of responsibility."
+        },
+        {
+          "de": "Ihr Zuständigkeitsbereich umfasst den gesamten Vertrieb.",
+          "en": "Her area of responsibility covers the entire sales division."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-bürokratisch; typisch in Verwaltung und Stellenbeschreibungen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Aufgabenbereich",
+          "distinction": "betont die Aufgaben selbst, weniger die Verantwortung"
+        },
+        {
+          "lemma": "das Ressort",
+          "distinction": "meist ein größerer, benannter Verantwortungsbereich, etwa in Politik"
+        }
+      ]
+    },
+    "Fachkompetenz": {
+      "meaning_de": "das fundierte fachliche Wissen und Können in einem bestimmten Gebiet",
+      "meaning_en": "professional expertise; subject-matter competence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fachkompetenz"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fachkompetenzen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "hohe Fachkompetenz",
+          "gloss_en": "a high level of expertise"
+        },
+        {
+          "phrase": "Fachkompetenz beweisen",
+          "gloss_en": "to demonstrate expertise"
+        },
+        {
+          "phrase": "die nötige Fachkompetenz mitbringen",
+          "gloss_en": "to bring the necessary expertise"
+        },
+        {
+          "phrase": "Fach- und Sozialkompetenz",
+          "gloss_en": "professional and social skills"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für diese Position ist ausgewiesene Fachkompetenz erforderlich.",
+          "en": "This position requires proven professional expertise."
+        },
+        {
+          "de": "Er überzeugte im Gespräch vor allem durch seine Fachkompetenz.",
+          "en": "In the interview he impressed above all with his expertise."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; verbreitet in Stellenanzeigen und Beurteilungen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Fachwissen",
+          "distinction": "betont das Wissen, nicht das umfassende Können"
+        },
+        {
+          "lemma": "die Sachkenntnis",
+          "distinction": "etwas allgemeiner, das Vertrautsein mit einer Sache"
+        }
+      ]
+    },
+    "Ausbildungsplatz": {
+      "meaning_de": "eine Stelle, an der jemand eine betriebliche Berufsausbildung absolvieren kann",
+      "meaning_en": "apprenticeship position; training place",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Ausbildungsplatzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ausbildungsplätze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Ausbildungsplatz suchen",
+          "gloss_en": "to look for an apprenticeship"
+        },
+        {
+          "phrase": "einen Ausbildungsplatz anbieten",
+          "gloss_en": "to offer a training place"
+        },
+        {
+          "phrase": "einen Ausbildungsplatz bekommen",
+          "gloss_en": "to get an apprenticeship"
+        },
+        {
+          "phrase": "freie Ausbildungsplätze",
+          "gloss_en": "vacant training places"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Schule fand sie einen Ausbildungsplatz als Mechatronikerin.",
+          "en": "After school she found an apprenticeship as a mechatronics technician."
+        },
+        {
+          "de": "In der Region gibt es mehr Ausbildungsplätze als Bewerber.",
+          "en": "In the region there are more training places than applicants."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; bezieht sich auf die duale Ausbildung in Deutschland.",
+      "near_synonyms": [
+        {
+          "lemma": "die Lehrstelle",
+          "distinction": "gleichbedeutend, etwas traditioneller und in Österreich üblich"
+        },
+        {
+          "lemma": "der Praktikumsplatz",
+          "distinction": "nur ein befristetes Praktikum, keine volle Ausbildung"
+        }
+      ]
+    },
+    "Praktikant": {
+      "meaning_de": "eine Person, die zeitlich begrenzt in einem Betrieb praktische Erfahrung sammelt",
+      "meaning_en": "intern; trainee on placement",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Praktikanten"
+        },
+        {
+          "label": "Plural",
+          "value": "die Praktikanten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Praktikanten einstellen",
+          "gloss_en": "to take on an intern"
+        },
+        {
+          "phrase": "als Praktikant arbeiten",
+          "gloss_en": "to work as an intern"
+        },
+        {
+          "phrase": "einen Praktikanten betreuen",
+          "gloss_en": "to supervise an intern"
+        },
+        {
+          "phrase": "ein unbezahlter Praktikant",
+          "gloss_en": "an unpaid intern"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Als Praktikant durfte er bei echten Projekten mitarbeiten.",
+          "en": "As an intern he was allowed to work on real projects."
+        },
+        {
+          "de": "Die Firma beschäftigt jeden Sommer mehrere Praktikanten.",
+          "en": "The company employs several interns every summer."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Schwaches Maskulinum (des Praktikanten); weibliche Form die Praktikantin.",
+      "near_synonyms": [
+        {
+          "lemma": "der Auszubildende",
+          "distinction": "steht in einer vollen, mehrjährigen Ausbildung, nicht nur im Praktikum"
+        },
+        {
+          "lemma": "der Werkstudent",
+          "distinction": "arbeitet studienbegleitend fest, nicht im befristeten Praktikum"
+        }
+      ]
+    },
+    "Tarifvertrag": {
+      "meaning_de": "eine Vereinbarung zwischen Gewerkschaft und Arbeitgeberseite über Löhne und Arbeitsbedingungen",
+      "meaning_en": "collective bargaining agreement",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Tarifvertrags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Tarifverträge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Tarifvertrag abschließen",
+          "gloss_en": "to conclude a collective agreement"
+        },
+        {
+          "phrase": "nach Tarifvertrag bezahlen",
+          "gloss_en": "to pay according to the collective agreement"
+        },
+        {
+          "phrase": "an den Tarifvertrag gebunden sein",
+          "gloss_en": "to be bound by the collective agreement"
+        },
+        {
+          "phrase": "einen Tarifvertrag aushandeln",
+          "gloss_en": "to negotiate a collective agreement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der neue Tarifvertrag sieht eine Lohnerhöhung von drei Prozent vor.",
+          "en": "The new collective agreement provides for a three-percent pay rise."
+        },
+        {
+          "de": "Ohne Tarifvertrag verdienen die Beschäftigten oft weniger.",
+          "en": "Without a collective agreement the workers often earn less."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort des Arbeitsrechts; zentral für die deutsche Tarifpolitik.",
+      "near_synonyms": [
+        {
+          "lemma": "die Betriebsvereinbarung",
+          "distinction": "gilt nur für einen Betrieb, zwischen Arbeitgeber und Betriebsrat"
+        },
+        {
+          "lemma": "der Manteltarifvertrag",
+          "distinction": "regelt langfristig die Rahmenbedingungen, nicht die Löhne im Detail"
+        }
+      ]
+    },
+    "Gewerkschaft": {
+      "meaning_de": "ein Zusammenschluss von Arbeitnehmern zur Vertretung ihrer beruflichen Interessen",
+      "meaning_en": "trade union",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gewerkschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gewerkschaften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in die Gewerkschaft eintreten",
+          "gloss_en": "to join the union"
+        },
+        {
+          "phrase": "die Gewerkschaft ruft zum Streik auf",
+          "gloss_en": "the union calls a strike"
+        },
+        {
+          "phrase": "Mitglied der Gewerkschaft sein",
+          "gloss_en": "to be a union member"
+        },
+        {
+          "phrase": "die Gewerkschaft verhandelt",
+          "gloss_en": "the union negotiates"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Gewerkschaft fordert höhere Löhne und kürzere Arbeitszeiten.",
+          "en": "The union is demanding higher wages and shorter working hours."
+        },
+        {
+          "de": "Als Mitglied der Gewerkschaft genießt er besonderen Kündigungsschutz.",
+          "en": "As a union member he enjoys special protection against dismissal."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; fester Begriff der Sozial- und Arbeitswelt.",
+      "near_synonyms": [
+        {
+          "lemma": "der Berufsverband",
+          "distinction": "vertritt einen Berufsstand, ohne Tarifverhandlungen zu führen"
+        },
+        {
+          "lemma": "die Arbeitnehmervertretung",
+          "distinction": "Oberbegriff, schließt auch den Betriebsrat mit ein"
+        }
+      ]
+    },
+    "Streik": {
+      "meaning_de": "die gemeinsame Niederlegung der Arbeit, um Forderungen durchzusetzen",
+      "meaning_en": "strike",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Streiks"
+        },
+        {
+          "label": "Plural",
+          "value": "die Streiks"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Streik für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zum Streik aufrufen",
+          "gloss_en": "to call a strike"
+        },
+        {
+          "phrase": "in den Streik treten",
+          "gloss_en": "to go on strike"
+        },
+        {
+          "phrase": "ein unbefristeter Streik",
+          "gloss_en": "an open-ended strike"
+        },
+        {
+          "phrase": "den Streik beenden",
+          "gloss_en": "to end the strike"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wegen des Streiks fielen heute viele Züge aus.",
+          "en": "Because of the strike many trains were cancelled today."
+        },
+        {
+          "de": "Die Beschäftigten traten für höhere Löhne in den Streik.",
+          "en": "The workers went on strike for higher wages."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; „Warnstreik“ und „Generalstreik“ als geläufige Zusammensetzungen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Arbeitskampf",
+          "distinction": "Oberbegriff, umfasst auch Aussperrung durch Arbeitgeber"
+        },
+        {
+          "lemma": "der Ausstand",
+          "distinction": "gehoben und etwas veraltend für Streik"
+        }
+      ]
+    },
+    "Abfindung": {
+      "meaning_de": "eine einmalige Geldzahlung als Ausgleich, meist bei Beendigung des Arbeitsverhältnisses",
+      "meaning_en": "severance payment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Abfindung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abfindungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Abfindung zahlen",
+          "gloss_en": "to pay severance"
+        },
+        {
+          "phrase": "eine Abfindung aushandeln",
+          "gloss_en": "to negotiate a severance package"
+        },
+        {
+          "phrase": "eine hohe Abfindung",
+          "gloss_en": "a large severance payment"
+        },
+        {
+          "phrase": "Anspruch auf Abfindung",
+          "gloss_en": "entitlement to severance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei der Entlassung erhielt sie eine großzügige Abfindung.",
+          "en": "On being dismissed she received a generous severance payment."
+        },
+        {
+          "de": "Statt zu klagen, einigten sich beide Seiten auf eine Abfindung.",
+          "en": "Instead of going to court, both sides agreed on a severance payment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort des Arbeitsrechts; verhandelbar, kein automatischer Anspruch.",
+      "near_synonyms": [
+        {
+          "lemma": "die Entschädigung",
+          "distinction": "allgemeiner Ausgleich für einen Nachteil oder Schaden"
+        },
+        {
+          "lemma": "die Abstandszahlung",
+          "distinction": "meist im Miet- oder Vertragsrecht, nicht im Arbeitsverhältnis"
+        }
+      ]
+    },
+    "Festanstellung": {
+      "meaning_de": "ein unbefristetes, dauerhaftes Arbeitsverhältnis",
+      "meaning_en": "permanent employment; permanent position",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Festanstellung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Festanstellungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Festanstellung bekommen",
+          "gloss_en": "to get a permanent position"
+        },
+        {
+          "phrase": "in Festanstellung arbeiten",
+          "gloss_en": "to work in permanent employment"
+        },
+        {
+          "phrase": "eine Festanstellung anbieten",
+          "gloss_en": "to offer a permanent position"
+        },
+        {
+          "phrase": "von der Festanstellung träumen",
+          "gloss_en": "to dream of a permanent job"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach drei Jahren als Freiberufler wünschte er sich eine Festanstellung.",
+          "en": "After three years as a freelancer he longed for a permanent position."
+        },
+        {
+          "de": "Das Praktikum mündete schließlich in eine Festanstellung.",
+          "en": "The internship eventually led to a permanent position."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; Gegenbegriff zu befristeter Beschäftigung oder freier Mitarbeit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vollzeitstelle",
+          "distinction": "betont den Stundenumfang, nicht die unbefristete Dauer"
+        },
+        {
+          "lemma": "das Anstellungsverhältnis",
+          "distinction": "neutraler Oberbegriff, auch für befristete Anstellung"
+        }
+      ]
+    },
+    "Mindestlohn": {
+      "meaning_de": "der gesetzlich festgelegte niedrigste Lohn, der pro Arbeitsstunde gezahlt werden muss",
+      "meaning_en": "minimum wage",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Mindestlohns"
+        },
+        {
+          "label": "Plural",
+          "value": "die Mindestlöhne"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der gesetzliche Mindestlohn",
+          "gloss_en": "the statutory minimum wage"
+        },
+        {
+          "phrase": "den Mindestlohn erhöhen",
+          "gloss_en": "to raise the minimum wage"
+        },
+        {
+          "phrase": "den Mindestlohn zahlen",
+          "gloss_en": "to pay the minimum wage"
+        },
+        {
+          "phrase": "unter dem Mindestlohn liegen",
+          "gloss_en": "to be below the minimum wage"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zum Jahresbeginn wurde der Mindestlohn erneut angehoben.",
+          "en": "At the start of the year the minimum wage was raised again."
+        },
+        {
+          "de": "Wer weniger als den Mindestlohn zahlt, macht sich strafbar.",
+          "en": "Anyone paying less than the minimum wage is breaking the law."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; häufiges Thema in Politik und Tarifdebatten.",
+      "near_synonyms": [
+        {
+          "lemma": "der Grundlohn",
+          "distinction": "das Basisentgelt ohne Zulagen, nicht die gesetzliche Untergrenze"
+        },
+        {
+          "lemma": "das Existenzminimum",
+          "distinction": "das zum Leben Nötige, kein arbeitsrechtlicher Lohnbegriff"
+        }
+      ]
+    },
+    "Arbeitszeugnis": {
+      "meaning_de": "eine schriftliche Beurteilung des Arbeitgebers über Leistung und Verhalten eines Mitarbeiters",
+      "meaning_en": "job reference; letter of employment reference",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Arbeitszeugnisses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Arbeitszeugnisse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Arbeitszeugnis ausstellen",
+          "gloss_en": "to issue a job reference"
+        },
+        {
+          "phrase": "ein gutes Arbeitszeugnis",
+          "gloss_en": "a good job reference"
+        },
+        {
+          "phrase": "Anspruch auf ein Arbeitszeugnis",
+          "gloss_en": "entitlement to a job reference"
+        },
+        {
+          "phrase": "ein wohlwollendes Arbeitszeugnis",
+          "gloss_en": "a favourable reference"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zum Abschied bat sie um ein ausführliches Arbeitszeugnis.",
+          "en": "On leaving she asked for a detailed job reference."
+        },
+        {
+          "de": "Hinter den freundlichen Formulierungen im Arbeitszeugnis steckt oft versteckte Kritik.",
+          "en": "Behind the polite wording of a job reference there is often hidden criticism."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort des Arbeitsrechts; in Deutschland durch eine eigene „Zeugnissprache“ geprägt.",
+      "near_synonyms": [
+        {
+          "lemma": "die Beurteilung",
+          "distinction": "allgemeiner, auch intern und ohne rechtlichen Anspruch"
+        },
+        {
+          "lemma": "die Referenz",
+          "distinction": "meist eine mündliche oder formlose Empfehlung durch Dritte"
+        }
+      ]
+    },
+    "sich bewerben": {
+      "meaning_de": "sich um eine Stelle oder Position bemühen",
+      "meaning_en": "to apply (for a job)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bewirbt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bewarb sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich beworben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bewürbe sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich um etwas bewerben",
+          "cases": "um + Akk."
+        },
+        {
+          "pattern": "sich bei jemandem bewerben",
+          "cases": "bei + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich um eine Stelle bewerben",
+          "gloss_en": "to apply for a position"
+        },
+        {
+          "phrase": "sich bei einer Firma bewerben",
+          "gloss_en": "to apply to a company"
+        },
+        {
+          "phrase": "sich initiativ bewerben",
+          "gloss_en": "to send a speculative application"
+        },
+        {
+          "phrase": "sich erfolgreich bewerben",
+          "gloss_en": "to apply successfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich bei drei Unternehmen um eine Stelle beworben.",
+          "en": "I applied for a position at three companies."
+        },
+        {
+          "de": "Sie bewirbt sich gerade um einen Studienplatz in Berlin.",
+          "en": "She is currently applying for a university place in Berlin."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reflexives Verb; Standardwort der Jobsuche.",
+      "near_synonyms": [
+        {
+          "lemma": "sich vorstellen",
+          "distinction": "meint das persönliche Erscheinen im Gespräch, nicht das schriftliche Bewerben"
+        },
+        {
+          "lemma": "kandidieren",
+          "distinction": "nur für Wahlämter, nicht für Arbeitsstellen"
+        }
+      ]
+    },
+    "einstellen": {
+      "meaning_de": "jemanden in ein Arbeitsverhältnis aufnehmen",
+      "meaning_en": "to hire; to take on",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er stellt ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er stellte ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat eingestellt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er stellte ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden einstellen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "neue Mitarbeiter einstellen",
+          "gloss_en": "to hire new employees"
+        },
+        {
+          "phrase": "jemanden befristet einstellen",
+          "gloss_en": "to hire someone on a fixed-term basis"
+        },
+        {
+          "phrase": "Personal einstellen",
+          "gloss_en": "to take on staff"
+        },
+        {
+          "phrase": "auf Probe einstellen",
+          "gloss_en": "to hire on a trial basis"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Firma stellt im Frühjahr zehn neue Fachkräfte ein.",
+          "en": "The company is hiring ten new skilled workers in spring."
+        },
+        {
+          "de": "Er wurde sofort nach dem Vorstellungsgespräch eingestellt.",
+          "en": "He was hired right after the job interview."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Trennbar; „einstellen“ hat weitere Bedeutungen (regulieren, aufhören), hier die berufliche.",
+      "near_synonyms": [
+        {
+          "lemma": "anstellen",
+          "distinction": "fast gleichbedeutend, betont das dauerhafte Anstellungsverhältnis"
+        },
+        {
+          "lemma": "beschäftigen",
+          "distinction": "beschreibt den Zustand des Angestelltseins, nicht den Akt des Einstellens"
+        }
+      ]
+    },
+    "kündigen": {
+      "meaning_de": "ein Arbeits- oder Vertragsverhältnis förmlich beenden",
+      "meaning_en": "to give notice; to terminate; to hand in one's notice",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er kündigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er kündigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gekündigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er kündigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem kündigen",
+          "cases": "Dat."
+        },
+        {
+          "pattern": "etwas kündigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einem Mitarbeiter kündigen",
+          "gloss_en": "to dismiss an employee"
+        },
+        {
+          "phrase": "fristlos kündigen",
+          "gloss_en": "to terminate without notice"
+        },
+        {
+          "phrase": "den Vertrag kündigen",
+          "gloss_en": "to terminate the contract"
+        },
+        {
+          "phrase": "zum Monatsende kündigen",
+          "gloss_en": "to give notice effective at month's end"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Streit kündigte er noch am selben Tag.",
+          "en": "After the argument he handed in his notice that very day."
+        },
+        {
+          "de": "Dem unzuverlässigen Mitarbeiter wurde fristlos gekündigt.",
+          "en": "The unreliable employee was dismissed without notice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Achtung auf die Rektion: jemandem (Dat.) kündigen, aber etwas (Akk.) kündigen.",
+      "near_synonyms": [
+        {
+          "lemma": "entlassen",
+          "distinction": "geht immer vom Arbeitgeber aus, nie vom Arbeitnehmer"
+        },
+        {
+          "lemma": "aufhören",
+          "distinction": "umgangssprachlich, ohne den förmlich-rechtlichen Akt"
+        }
+      ]
+    },
+    "entlassen": {
+      "meaning_de": "einem Arbeitnehmer das Arbeitsverhältnis von Arbeitgeberseite aufkündigen",
+      "meaning_en": "to dismiss; to lay off",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entlässt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entließ"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entlassen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entließe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden entlassen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Mitarbeiter entlassen",
+          "gloss_en": "to dismiss an employee"
+        },
+        {
+          "phrase": "fristlos entlassen",
+          "gloss_en": "to dismiss without notice"
+        },
+        {
+          "phrase": "aus Kostengründen entlassen",
+          "gloss_en": "to lay off for cost reasons"
+        },
+        {
+          "phrase": "jemanden entlassen müssen",
+          "gloss_en": "to have to let someone go"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wegen der Krise musste die Firma hundert Mitarbeiter entlassen.",
+          "en": "Because of the crisis the company had to lay off a hundred employees."
+        },
+        {
+          "de": "Er wurde ohne Vorwarnung entlassen.",
+          "en": "He was dismissed without any warning."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Nur von der Arbeitgeberseite; auch „aus dem Krankenhaus entlassen“ in anderem Sinn.",
+      "near_synonyms": [
+        {
+          "lemma": "kündigen",
+          "distinction": "kann von beiden Seiten ausgehen, entlassen nur vom Arbeitgeber"
+        },
+        {
+          "lemma": "feuern",
+          "distinction": "salopp und umgangssprachlich für entlassen"
+        }
+      ]
+    },
+    "befördern": {
+      "meaning_de": "jemandem eine höhere berufliche Position übertragen",
+      "meaning_en": "to promote (someone)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er befördert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er beförderte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat befördert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er beförderte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden zu etwas befördern",
+          "cases": "Akk.; zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemanden zum Abteilungsleiter befördern",
+          "gloss_en": "to promote someone to head of department"
+        },
+        {
+          "phrase": "vorzeitig befördert werden",
+          "gloss_en": "to be promoted early"
+        },
+        {
+          "phrase": "eine Mitarbeiterin befördern",
+          "gloss_en": "to promote an employee"
+        },
+        {
+          "phrase": "in eine höhere Position befördern",
+          "gloss_en": "to promote to a higher position"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach fünf Jahren wurde sie zur Teamleiterin befördert.",
+          "en": "After five years she was promoted to team leader."
+        },
+        {
+          "de": "Er hofft, bald befördert zu werden.",
+          "en": "He hopes to be promoted soon."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Im Beruf „aufsteigen lassen“; „befördern“ heißt daneben auch „transportieren“.",
+      "near_synonyms": [
+        {
+          "lemma": "aufsteigen",
+          "distinction": "beschreibt den Aufstieg aus Sicht des Betroffenen, intransitiv"
+        },
+        {
+          "lemma": "ernennen",
+          "distinction": "meint das förmliche Einsetzen in ein Amt, nicht den Aufstieg"
+        }
+      ]
+    },
+    "verhandeln": {
+      "meaning_de": "durch Gespräche eine Einigung über strittige Punkte zu erreichen versuchen",
+      "meaning_en": "to negotiate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verhandelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verhandelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verhandelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verhandelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "über etwas verhandeln",
+          "cases": "über + Akk."
+        },
+        {
+          "pattern": "mit jemandem verhandeln",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "über den Preis verhandeln",
+          "gloss_en": "to negotiate the price"
+        },
+        {
+          "phrase": "das Gehalt verhandeln",
+          "gloss_en": "to negotiate one's salary"
+        },
+        {
+          "phrase": "mit den Gewerkschaften verhandeln",
+          "gloss_en": "to negotiate with the unions"
+        },
+        {
+          "phrase": "hart verhandeln",
+          "gloss_en": "to drive a hard bargain"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beim Vorstellungsgespräch verhandelte sie geschickt über ihr Gehalt.",
+          "en": "In the interview she skillfully negotiated her salary."
+        },
+        {
+          "de": "Die beiden Seiten verhandeln seit Wochen über einen neuen Tarifvertrag.",
+          "en": "The two sides have been negotiating a new collective agreement for weeks."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; im juristischen Sinn auch „einen Fall vor Gericht verhandeln“.",
+      "near_synonyms": [
+        {
+          "lemma": "aushandeln",
+          "distinction": "betont das Ergebnis, das durch Verhandeln erreicht wird"
+        },
+        {
+          "lemma": "feilschen",
+          "distinction": "umgangssprachlich, hartnäckiges Handeln um kleine Beträge"
+        }
+      ]
+    },
+    "sich einarbeiten": {
+      "meaning_de": "sich mit einer neuen Aufgabe oder Tätigkeit gründlich vertraut machen",
+      "meaning_en": "to get familiar with a new job; to settle into a role",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er arbeitet sich ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er arbeitete sich ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich eingearbeitet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er arbeitete sich ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich in etwas einarbeiten",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich in ein neues Aufgabengebiet einarbeiten",
+          "gloss_en": "to settle into a new area of work"
+        },
+        {
+          "phrase": "sich schnell einarbeiten",
+          "gloss_en": "to settle in quickly"
+        },
+        {
+          "phrase": "sich gründlich einarbeiten",
+          "gloss_en": "to familiarize oneself thoroughly"
+        },
+        {
+          "phrase": "Zeit zum Einarbeiten brauchen",
+          "gloss_en": "to need time to settle in"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In den ersten Wochen musste er sich erst in die Software einarbeiten.",
+          "en": "In the first few weeks he first had to get to grips with the software."
+        },
+        {
+          "de": "Sie hat sich erstaunlich schnell in ihre neue Rolle eingearbeitet.",
+          "en": "She settled into her new role remarkably quickly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reflexiv und trennbar; typisch für den Beginn einer Stelle.",
+      "near_synonyms": [
+        {
+          "lemma": "sich einarbeiten in",
+          "distinction": "identisch mit der Grundform, nur die Präposition explizit"
+        },
+        {
+          "lemma": "sich einfuchsen",
+          "distinction": "umgangssprachlich für dasselbe, salopper"
+        }
+      ]
+    },
+    "leiten": {
+      "meaning_de": "die Verantwortung für die Führung einer Gruppe, Abteilung oder Tätigkeit tragen",
+      "meaning_en": "to lead; to manage; to direct",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er leitet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er leitete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat geleitet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er leitete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas leiten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Abteilung leiten",
+          "gloss_en": "to head a department"
+        },
+        {
+          "phrase": "ein Team leiten",
+          "gloss_en": "to lead a team"
+        },
+        {
+          "phrase": "ein Projekt leiten",
+          "gloss_en": "to manage a project"
+        },
+        {
+          "phrase": "eine Sitzung leiten",
+          "gloss_en": "to chair a meeting"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie leitet seit drei Jahren die Marketingabteilung.",
+          "en": "She has been heading the marketing department for three years."
+        },
+        {
+          "de": "Wer leitet eigentlich das neue Projekt?",
+          "en": "Who is actually managing the new project?"
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Vielseitig; daneben auch physikalisch „Strom leiten“ und „Wasser leiten“.",
+      "near_synonyms": [
+        {
+          "lemma": "führen",
+          "distinction": "betont stärker die Menschenführung, leiten eher die organisatorische Verantwortung"
+        },
+        {
+          "lemma": "verwalten",
+          "distinction": "meint das ordnende Betreuen, ohne echte Führungsentscheidungen"
+        }
+      ]
+    },
+    "koordinieren": {
+      "meaning_de": "verschiedene Tätigkeiten oder Personen aufeinander abstimmen",
+      "meaning_en": "to coordinate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er koordiniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er koordinierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat koordiniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er koordinierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas koordinieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Termine koordinieren",
+          "gloss_en": "to coordinate appointments"
+        },
+        {
+          "phrase": "die Zusammenarbeit koordinieren",
+          "gloss_en": "to coordinate the cooperation"
+        },
+        {
+          "phrase": "verschiedene Teams koordinieren",
+          "gloss_en": "to coordinate different teams"
+        },
+        {
+          "phrase": "die Abläufe koordinieren",
+          "gloss_en": "to coordinate the processes"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Als Projektleiterin koordiniert sie die Arbeit von vier Teams.",
+          "en": "As project manager she coordinates the work of four teams."
+        },
+        {
+          "de": "Wir müssen unsere Termine besser koordinieren.",
+          "en": "We need to coordinate our appointments better."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; verbreitet in der Projekt- und Verwaltungssprache.",
+      "near_synonyms": [
+        {
+          "lemma": "abstimmen",
+          "distinction": "betont das gegenseitige In-Einklang-Bringen zweier Seiten"
+        },
+        {
+          "lemma": "organisieren",
+          "distinction": "umfassender, das Planen und Einrichten als Ganzes"
+        }
+      ]
+    },
+    "streiken": {
+      "meaning_de": "aus Protest gemeinsam die Arbeit niederlegen",
+      "meaning_en": "to strike; to go on strike",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er streikt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er streikte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gestreikt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er streikte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "für etwas streiken",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "für höhere Löhne streiken",
+          "gloss_en": "to strike for higher wages"
+        },
+        {
+          "phrase": "unbefristet streiken",
+          "gloss_en": "to strike indefinitely"
+        },
+        {
+          "phrase": "geschlossen streiken",
+          "gloss_en": "to strike as one"
+        },
+        {
+          "phrase": "zum Streiken aufrufen",
+          "gloss_en": "to call on people to strike"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Lokführer streiken diese Woche für kürzere Arbeitszeiten.",
+          "en": "The train drivers are striking this week for shorter working hours."
+        },
+        {
+          "de": "Wenn nichts passiert, wird das Personal erneut streiken.",
+          "en": "If nothing happens, the staff will go on strike again."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; übertragen auch „mein Computer streikt“ (funktioniert nicht mehr).",
+      "near_synonyms": [
+        {
+          "lemma": "die Arbeit niederlegen",
+          "distinction": "beschreibende Wendung für denselben Vorgang"
+        },
+        {
+          "lemma": "protestieren",
+          "distinction": "allgemeiner Widerspruch, nicht unbedingt durch Arbeitsniederlegung"
+        }
+      ]
+    },
+    "abwerben": {
+      "meaning_de": "jemanden dazu bewegen, seinen bisherigen Arbeitgeber für einen anderen zu verlassen",
+      "meaning_en": "to poach; to lure away (an employee)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er wirbt ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er warb ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abgeworben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würbe ab"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden abwerben",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Mitarbeiter abwerben",
+          "gloss_en": "to poach an employee"
+        },
+        {
+          "phrase": "die besten Fachkräfte abwerben",
+          "gloss_en": "to poach the best specialists"
+        },
+        {
+          "phrase": "von der Konkurrenz abgeworben werden",
+          "gloss_en": "to be poached by a competitor"
+        },
+        {
+          "phrase": "Kunden abwerben",
+          "gloss_en": "to lure away customers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Konkurrenz versucht, unsere besten Entwickler abzuwerben.",
+          "en": "The competition is trying to poach our best developers."
+        },
+        {
+          "de": "Ein anderes Unternehmen hat sie mit einem höheren Gehalt abgeworben.",
+          "en": "Another company lured her away with a higher salary."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Trennbar; typisch für den Wettbewerb um qualifizierte Fachkräfte.",
+      "near_synonyms": [
+        {
+          "lemma": "abziehen",
+          "distinction": "allgemeiner das Wegholen von Personen oder Mitteln, weniger gezielt"
+        },
+        {
+          "lemma": "anwerben",
+          "distinction": "gezieltes Gewinnen von Personal, ohne dass es beim Konkurrenten weg soll"
+        }
+      ]
+    },
+    "belastbar": {
+      "meaning_de": "fähig, körperlichen oder seelischen Belastungen standzuhalten",
+      "meaning_en": "resilient; able to work under pressure",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "belastbarer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am belastbarsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "psychisch belastbar",
+          "gloss_en": "mentally resilient"
+        },
+        {
+          "phrase": "hoch belastbar",
+          "gloss_en": "able to withstand a lot of pressure"
+        },
+        {
+          "phrase": "belastbar sein",
+          "gloss_en": "to cope well under pressure"
+        },
+        {
+          "phrase": "eine belastbare Persönlichkeit",
+          "gloss_en": "a resilient personality"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für diese Stelle sollten Sie auch in stressigen Phasen belastbar sein.",
+          "en": "For this position you should be able to work under pressure even in stressful periods."
+        },
+        {
+          "de": "Sie ist psychisch sehr belastbar und bleibt auch in Krisen ruhig.",
+          "en": "She is very resilient and stays calm even in crises."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Häufiges Schlagwort in Stellenanzeigen; übertragen auch „eine belastbare Beziehung/Zahl“.",
+      "near_synonyms": [
+        {
+          "lemma": "stressresistent",
+          "distinction": "modisch, bezieht sich enger auf beruflichen Stress"
+        },
+        {
+          "lemma": "widerstandsfähig",
+          "distinction": "umfassender, auch körperlich und gegen äußere Einflüsse"
+        }
+      ]
+    },
+    "eigenverantwortlich": {
+      "meaning_de": "in eigener Verantwortung, ohne ständige Anleitung handelnd",
+      "meaning_en": "self-reliant; working autonomously",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eigenverantwortlich arbeiten",
+          "gloss_en": "to work autonomously"
+        },
+        {
+          "phrase": "eigenverantwortlich handeln",
+          "gloss_en": "to act on one's own responsibility"
+        },
+        {
+          "phrase": "eine eigenverantwortliche Tätigkeit",
+          "gloss_en": "a self-directed role"
+        },
+        {
+          "phrase": "eigenverantwortlich Entscheidungen treffen",
+          "gloss_en": "to make decisions independently"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In dieser Position arbeiten Sie weitgehend eigenverantwortlich.",
+          "en": "In this position you will work largely on your own responsibility."
+        },
+        {
+          "de": "Wir suchen jemanden, der eigenverantwortlich Projekte übernimmt.",
+          "en": "We are looking for someone who takes on projects independently."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gehoben-sachlich; typisches Schlagwort in Stellenanzeigen. Nicht üblich gesteigert.",
+      "near_synonyms": [
+        {
+          "lemma": "selbstständig",
+          "distinction": "betont das Handeln ohne Hilfe, eigenverantwortlich zusätzlich das Tragen der Verantwortung"
+        },
+        {
+          "lemma": "selbstbestimmt",
+          "distinction": "betont das freie Entscheiden über das eigene Handeln"
+        }
+      ]
+    },
+    "teamfähig": {
+      "meaning_de": "fähig und bereit, gut mit anderen in einer Gruppe zusammenzuarbeiten",
+      "meaning_en": "able to work in a team; a good team player",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "teamfähiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am teamfähigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "teamfähig sein",
+          "gloss_en": "to be a team player"
+        },
+        {
+          "phrase": "flexibel und teamfähig",
+          "gloss_en": "flexible and able to work in a team"
+        },
+        {
+          "phrase": "ein teamfähiger Mitarbeiter",
+          "gloss_en": "a team-oriented employee"
+        },
+        {
+          "phrase": "teamfähig und kommunikativ",
+          "gloss_en": "a good team player and communicator"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bewerber sollten teamfähig sein und gern im Team arbeiten.",
+          "en": "Applicants should be team players and enjoy working in a team."
+        },
+        {
+          "de": "Er ist fachlich stark, aber leider wenig teamfähig.",
+          "en": "He is technically strong, but unfortunately not much of a team player."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Klassisches Schlagwort in Stellenanzeigen und Zeugnissen.",
+      "near_synonyms": [
+        {
+          "lemma": "kooperativ",
+          "distinction": "betont die Bereitschaft zur Zusammenarbeit allgemein, nicht nur im Team"
+        },
+        {
+          "lemma": "kollegial",
+          "distinction": "betont das faire, hilfsbereite Verhältnis zu Kollegen"
+        }
+      ]
+    },
+    "befristet": {
+      "meaning_de": "zeitlich begrenzt, auf einen bestimmten Zeitraum beschränkt",
+      "meaning_en": "fixed-term; temporary; limited in time",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein befristeter Vertrag",
+          "gloss_en": "a fixed-term contract"
+        },
+        {
+          "phrase": "befristet angestellt sein",
+          "gloss_en": "to be employed on a fixed-term basis"
+        },
+        {
+          "phrase": "eine befristete Stelle",
+          "gloss_en": "a temporary position"
+        },
+        {
+          "phrase": "auf zwei Jahre befristet",
+          "gloss_en": "limited to two years"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vertrag ist zunächst auf ein Jahr befristet.",
+          "en": "The contract is initially limited to one year."
+        },
+        {
+          "de": "Viele junge Wissenschaftler arbeiten nur befristet.",
+          "en": "Many young researchers are employed only on fixed-term contracts."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; Partizip zu „befristen“, nicht steigerbar. Gegenteil: unbefristet.",
+      "near_synonyms": [
+        {
+          "lemma": "zeitlich begrenzt",
+          "distinction": "beschreibende Umschreibung desselben Sachverhalts"
+        },
+        {
+          "lemma": "vorübergehend",
+          "distinction": "betont das Kurzfristige, ohne die vertragliche Fixierung"
+        }
+      ]
+    },
+    "unbefristet": {
+      "meaning_de": "ohne zeitliche Begrenzung, auf Dauer angelegt",
+      "meaning_en": "permanent; open-ended; indefinite",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein unbefristeter Vertrag",
+          "gloss_en": "a permanent contract"
+        },
+        {
+          "phrase": "unbefristet angestellt sein",
+          "gloss_en": "to be employed on a permanent basis"
+        },
+        {
+          "phrase": "eine unbefristete Stelle",
+          "gloss_en": "a permanent position"
+        },
+        {
+          "phrase": "unbefristet übernommen werden",
+          "gloss_en": "to be taken on permanently"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Probezeit wurde sie unbefristet übernommen.",
+          "en": "After the probation period she was taken on permanently."
+        },
+        {
+          "de": "Ein unbefristeter Arbeitsvertrag gibt mehr Sicherheit.",
+          "en": "A permanent employment contract offers more security."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; Gegenteil von befristet, ebenfalls nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "dauerhaft",
+          "distinction": "allgemeiner „auf Dauer“, nicht speziell arbeitsrechtlich"
+        },
+        {
+          "lemma": "fest",
+          "distinction": "umgangssprachlich „fest angestellt“ für dasselbe"
+        }
+      ]
+    }
+  }
+}
