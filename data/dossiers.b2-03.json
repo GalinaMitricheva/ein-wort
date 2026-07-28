@@ -1,0 +1,2713 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2 batch b2-03 — Domäne \"Natur, Umwelt & Klima\": 32 Nomen, 12 Verben, 6 Adjektive.",
+  "dossiers": {
+    "Klimawandel": {
+      "meaning_de": "die langfristige Veränderung des Klimas, besonders die vom Menschen verursachte Erwärmung",
+      "meaning_en": "climate change",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Klimawandels"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Klimawandel bekämpfen",
+          "gloss_en": "to combat climate change"
+        },
+        {
+          "phrase": "die Folgen des Klimawandels",
+          "gloss_en": "the consequences of climate change"
+        },
+        {
+          "phrase": "der menschengemachte Klimawandel",
+          "gloss_en": "man-made climate change"
+        },
+        {
+          "phrase": "den Klimawandel aufhalten",
+          "gloss_en": "to halt climate change"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Klimawandel bedroht viele Küstenregionen.",
+          "en": "Climate change threatens many coastal regions."
+        },
+        {
+          "de": "Wissenschaftler warnen seit Jahrzehnten vor dem Klimawandel.",
+          "en": "Scientists have been warning about climate change for decades."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Zentraler Begriff in Medien, Politik und Wissenschaft; ohne Plural gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Klimakrise",
+          "distinction": "betont stärker den bedrohlichen, dringlichen Charakter"
+        },
+        {
+          "lemma": "die Erderwärmung",
+          "distinction": "meint speziell den Temperaturanstieg, nicht alle Klimafolgen"
+        }
+      ]
+    },
+    "Erderwärmung": {
+      "meaning_de": "der weltweite Anstieg der Durchschnittstemperatur der Erdatmosphäre",
+      "meaning_en": "global warming",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Erderwärmung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die globale Erderwärmung",
+          "gloss_en": "global warming"
+        },
+        {
+          "phrase": "die Erderwärmung begrenzen",
+          "gloss_en": "to limit global warming"
+        },
+        {
+          "phrase": "die Erderwärmung auf 1,5 Grad beschränken",
+          "gloss_en": "to keep warming below 1.5 degrees"
+        },
+        {
+          "phrase": "die fortschreitende Erderwärmung",
+          "gloss_en": "the ongoing global warming"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Erderwärmung lässt die Gletscher schneller schmelzen.",
+          "en": "Global warming is making the glaciers melt faster."
+        },
+        {
+          "de": "Ziel des Abkommens ist es, die Erderwärmung zu bremsen.",
+          "en": "The aim of the agreement is to slow global warming."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachlich präziser als \"Klimawandel\", weil nur der Temperaturanstieg gemeint ist; ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "der Klimawandel",
+          "distinction": "umfassender, schließt Niederschlag, Extremwetter u. a. ein"
+        },
+        {
+          "lemma": "der Temperaturanstieg",
+          "distinction": "neutraler und allgemeiner, nicht nur global"
+        }
+      ]
+    },
+    "Treibhauseffekt": {
+      "meaning_de": "die Erwärmung der Atmosphäre, weil bestimmte Gase die Wärmestrahlung zurückhalten",
+      "meaning_en": "greenhouse effect",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Treibhauseffekts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Treibhauseffekte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der natürliche Treibhauseffekt",
+          "gloss_en": "the natural greenhouse effect"
+        },
+        {
+          "phrase": "den Treibhauseffekt verstärken",
+          "gloss_en": "to intensify the greenhouse effect"
+        },
+        {
+          "phrase": "den Treibhauseffekt verursachen",
+          "gloss_en": "to cause the greenhouse effect"
+        },
+        {
+          "phrase": "klimaschädliche Treibhausgase",
+          "gloss_en": "climate-damaging greenhouse gases"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Kohlendioxid verstärkt den Treibhauseffekt.",
+          "en": "Carbon dioxide intensifies the greenhouse effect."
+        },
+        {
+          "de": "Ohne den natürlichen Treibhauseffekt wäre die Erde eine Eiswüste.",
+          "en": "Without the natural greenhouse effect the Earth would be a frozen desert."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachbegriff aus der Klimaforschung; meist im Singular.",
+      "near_synonyms": [
+        {
+          "lemma": "die Erderwärmung",
+          "distinction": "die Folge, nicht der zugrunde liegende Mechanismus"
+        }
+      ]
+    },
+    "Nachhaltigkeit": {
+      "meaning_de": "das Prinzip, Ressourcen so zu nutzen, dass sie auch künftigen Generationen erhalten bleiben",
+      "meaning_en": "sustainability",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Nachhaltigkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ökologische Nachhaltigkeit",
+          "gloss_en": "ecological sustainability"
+        },
+        {
+          "phrase": "auf Nachhaltigkeit setzen",
+          "gloss_en": "to prioritize sustainability"
+        },
+        {
+          "phrase": "im Sinne der Nachhaltigkeit",
+          "gloss_en": "in the interest of sustainability"
+        },
+        {
+          "phrase": "das Prinzip der Nachhaltigkeit",
+          "gloss_en": "the principle of sustainability"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Unternehmen wirbt mit Nachhaltigkeit und fairer Produktion.",
+          "en": "The company advertises sustainability and fair production."
+        },
+        {
+          "de": "Nachhaltigkeit bedeutet, nicht mehr zu verbrauchen, als nachwächst.",
+          "en": "Sustainability means not consuming more than can regrow."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ursprünglich aus der Forstwirtschaft; heute Schlagwort in Wirtschaft und Umweltpolitik.",
+      "near_synonyms": [
+        {
+          "lemma": "die Umweltverträglichkeit",
+          "distinction": "enger auf die Schonung der Umwelt bezogen"
+        }
+      ]
+    },
+    "Naturschutz": {
+      "meaning_de": "die Gesamtheit der Maßnahmen zum Schutz von Natur, Landschaft und wild lebenden Arten",
+      "meaning_en": "nature conservation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Naturschutzes"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich für den Naturschutz einsetzen",
+          "gloss_en": "to campaign for nature conservation"
+        },
+        {
+          "phrase": "unter Naturschutz stehen",
+          "gloss_en": "to be protected by conservation law"
+        },
+        {
+          "phrase": "das Gebiet steht unter Naturschutz",
+          "gloss_en": "the area is a protected reserve"
+        },
+        {
+          "phrase": "aktiver Naturschutz",
+          "gloss_en": "active conservation work"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Moor steht seit Jahren unter Naturschutz.",
+          "en": "The bog has been under conservation protection for years."
+        },
+        {
+          "de": "Ehrenamtliche leisten wichtige Arbeit im Naturschutz.",
+          "en": "Volunteers do important work in nature conservation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Weiter gefasst als \"Artenschutz\"; umfasst auch Landschaften und Lebensräume. Ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "der Umweltschutz",
+          "distinction": "zielt auf die Umwelt insgesamt, auch Luft, Wasser und Klima"
+        },
+        {
+          "lemma": "der Artenschutz",
+          "distinction": "beschränkt sich auf den Schutz einzelner Tier- und Pflanzenarten"
+        }
+      ]
+    },
+    "Artenvielfalt": {
+      "meaning_de": "die Vielfalt der verschiedenen Tier- und Pflanzenarten in einem Gebiet",
+      "meaning_en": "biodiversity; species diversity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Artenvielfalt"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Artenvielfalt erhalten",
+          "gloss_en": "to preserve biodiversity"
+        },
+        {
+          "phrase": "der Rückgang der Artenvielfalt",
+          "gloss_en": "the decline in biodiversity"
+        },
+        {
+          "phrase": "die Artenvielfalt schützen",
+          "gloss_en": "to protect biodiversity"
+        },
+        {
+          "phrase": "eine hohe Artenvielfalt",
+          "gloss_en": "a high level of biodiversity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Regenwald zeichnet sich durch eine enorme Artenvielfalt aus.",
+          "en": "The rainforest is characterized by enormous biodiversity."
+        },
+        {
+          "de": "Pestizide bedrohen die Artenvielfalt auf den Feldern.",
+          "en": "Pesticides threaten the biodiversity in the fields."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagsnäher als das Fachwort \"Biodiversität\"; ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Biodiversität",
+          "distinction": "wissenschaftlicher Fachbegriff, schließt auch genetische Vielfalt ein"
+        }
+      ]
+    },
+    "Aussterben": {
+      "meaning_de": "das völlige Verschwinden einer Art, weil keine Individuen mehr leben",
+      "meaning_en": "extinction (of a species)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Aussterbens"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "vom Aussterben bedroht sein",
+          "gloss_en": "to be threatened with extinction"
+        },
+        {
+          "phrase": "eine Art vor dem Aussterben bewahren",
+          "gloss_en": "to save a species from extinction"
+        },
+        {
+          "phrase": "das massenhafte Aussterben",
+          "gloss_en": "mass extinction"
+        },
+        {
+          "phrase": "dem Aussterben nahe sein",
+          "gloss_en": "to be close to extinction"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Viele Amphibien sind vom Aussterben bedroht.",
+          "en": "Many amphibians are threatened with extinction."
+        },
+        {
+          "de": "Der Nashornbestand wurde gerade noch vor dem Aussterben gerettet.",
+          "en": "The rhino population was only just saved from extinction."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Substantivierter Infinitiv von \"aussterben\"; fast nur im Singular.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ausrottung",
+          "distinction": "betont die aktive, meist menschliche Vernichtung einer Art"
+        }
+      ]
+    },
+    "Dürre": {
+      "meaning_de": "eine lange Zeit mit zu wenig Regen, in der der Boden austrocknet",
+      "meaning_en": "drought",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Dürre"
+        },
+        {
+          "label": "Plural",
+          "value": "die Dürren"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine anhaltende Dürre",
+          "gloss_en": "a prolonged drought"
+        },
+        {
+          "phrase": "unter der Dürre leiden",
+          "gloss_en": "to suffer from the drought"
+        },
+        {
+          "phrase": "die Dürre vernichtet die Ernte",
+          "gloss_en": "the drought destroys the harvest"
+        },
+        {
+          "phrase": "extreme Dürre",
+          "gloss_en": "extreme drought"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die lange Dürre ließ die Flüsse fast austrocknen.",
+          "en": "The long drought nearly dried up the rivers."
+        },
+        {
+          "de": "Wegen der Dürre mussten die Bauern ihre Felder aufgeben.",
+          "en": "Because of the drought the farmers had to give up their fields."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wetter- und Klimavokabular; auch übertragen (\"Dürre\" an Ideen) möglich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Trockenheit",
+          "distinction": "allgemeiner, meint auch kürzere oder mildere Perioden"
+        }
+      ]
+    },
+    "Überschwemmung": {
+      "meaning_de": "das Überfluten von Land durch aus den Ufern getretenes Wasser",
+      "meaning_en": "flood; flooding",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Überschwemmung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Überschwemmungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine verheerende Überschwemmung",
+          "gloss_en": "a devastating flood"
+        },
+        {
+          "phrase": "die Überschwemmung richtet Schäden an",
+          "gloss_en": "the flood causes damage"
+        },
+        {
+          "phrase": "von Überschwemmungen betroffen sein",
+          "gloss_en": "to be affected by flooding"
+        },
+        {
+          "phrase": "vor Überschwemmungen schützen",
+          "gloss_en": "to protect against flooding"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach den Regenfällen kam es zu schweren Überschwemmungen.",
+          "en": "After the rainfall there was severe flooding."
+        },
+        {
+          "de": "Die Überschwemmung machte ganze Straßen unpassierbar.",
+          "en": "The flood made entire streets impassable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltags- und Nachrichtensprache; \"Hochwasser\" ist der stärker technische Begriff.",
+      "near_synonyms": [
+        {
+          "lemma": "das Hochwasser",
+          "distinction": "der hohe Wasserstand selbst, muss nicht das Land überfluten"
+        },
+        {
+          "lemma": "die Flut",
+          "distinction": "allgemeiner, auch Gezeiten oder bildlich \"eine Flut von\""
+        }
+      ]
+    },
+    "Gewitter": {
+      "meaning_de": "ein Wetterereignis mit Blitz, Donner und meist heftigem Regen",
+      "meaning_en": "thunderstorm",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gewitters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gewitter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Gewitter zieht auf",
+          "gloss_en": "a thunderstorm is approaching"
+        },
+        {
+          "phrase": "ein heftiges Gewitter",
+          "gloss_en": "a violent thunderstorm"
+        },
+        {
+          "phrase": "vom Gewitter überrascht werden",
+          "gloss_en": "to be caught out by the storm"
+        },
+        {
+          "phrase": "das Gewitter zieht ab",
+          "gloss_en": "the storm is passing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Nachmittag zog ein kräftiges Gewitter über die Stadt.",
+          "en": "In the afternoon a strong thunderstorm passed over the city."
+        },
+        {
+          "de": "Nach dem Gewitter war die Luft angenehm kühl.",
+          "en": "After the thunderstorm the air was pleasantly cool."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltägliches Wetterwort; übertragen auch \"ein Gewitter\" für einen heftigen Streit.",
+      "near_synonyms": [
+        {
+          "lemma": "der Sturm",
+          "distinction": "betont starken Wind, nicht zwingend Blitz und Donner"
+        },
+        {
+          "lemma": "das Unwetter",
+          "distinction": "Oberbegriff für jedes gefährliche Wetterereignis"
+        }
+      ]
+    },
+    "Lebensraum": {
+      "meaning_de": "der natürliche Raum, in dem eine Art die Bedingungen zum Leben findet",
+      "meaning_en": "habitat",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Lebensraums"
+        },
+        {
+          "label": "Plural",
+          "value": "die Lebensräume"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Lebensraum zerstören",
+          "gloss_en": "to destroy the habitat"
+        },
+        {
+          "phrase": "der natürliche Lebensraum",
+          "gloss_en": "the natural habitat"
+        },
+        {
+          "phrase": "einen Lebensraum bewahren",
+          "gloss_en": "to preserve a habitat"
+        },
+        {
+          "phrase": "der Lebensraum vieler Arten",
+          "gloss_en": "the habitat of many species"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Rodung zerstört den Lebensraum zahlreicher Vögel.",
+          "en": "The deforestation destroys the habitat of numerous birds."
+        },
+        {
+          "de": "Feuchtgebiete sind ein wichtiger Lebensraum für Amphibien.",
+          "en": "Wetlands are an important habitat for amphibians."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ökologischer Fachbegriff, aber auch alltagssprachlich verbreitet.",
+      "near_synonyms": [
+        {
+          "lemma": "der Biotop",
+          "distinction": "engeres Fachwort für einen konkreten, abgrenzbaren Standort"
+        },
+        {
+          "lemma": "das Habitat",
+          "distinction": "Fremdwort, meist rein biologisch verwendet"
+        }
+      ]
+    },
+    "Ökosystem": {
+      "meaning_de": "das Zusammenspiel von Lebewesen und ihrer Umwelt in einem bestimmten Bereich",
+      "meaning_en": "ecosystem",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Ökosystems"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ökosysteme"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das ökologische Gleichgewicht",
+          "gloss_en": "the ecological balance"
+        },
+        {
+          "phrase": "ein empfindliches Ökosystem",
+          "gloss_en": "a fragile ecosystem"
+        },
+        {
+          "phrase": "das Ökosystem aus dem Gleichgewicht bringen",
+          "gloss_en": "to upset the ecosystem"
+        },
+        {
+          "phrase": "ein intaktes Ökosystem",
+          "gloss_en": "an intact ecosystem"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Schon ein einziger eingeschleppter Räuber kann das Ökosystem stören.",
+          "en": "A single introduced predator can disrupt the ecosystem."
+        },
+        {
+          "de": "Korallenriffe gehören zu den artenreichsten Ökosystemen der Erde.",
+          "en": "Coral reefs are among the most species-rich ecosystems on Earth."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wissenschaftlich geprägt, inzwischen auch in Medien und Wirtschaft (\"digitales Ökosystem\").",
+      "near_synonyms": [
+        {
+          "lemma": "der Naturhaushalt",
+          "distinction": "betont das Gleichgewicht der Stoff- und Energiekreisläufe"
+        }
+      ]
+    },
+    "Rohstoff": {
+      "meaning_de": "ein natürlicher Grundstoff, der zu Produkten weiterverarbeitet wird",
+      "meaning_en": "raw material; resource",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rohstoffs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rohstoffe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "wertvolle Rohstoffe",
+          "gloss_en": "valuable raw materials"
+        },
+        {
+          "phrase": "Rohstoffe abbauen",
+          "gloss_en": "to extract raw materials"
+        },
+        {
+          "phrase": "nachwachsende Rohstoffe",
+          "gloss_en": "renewable raw materials"
+        },
+        {
+          "phrase": "Rohstoffe schonen",
+          "gloss_en": "to conserve resources"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Recycling hilft, wertvolle Rohstoffe zu sparen.",
+          "en": "Recycling helps to save valuable raw materials."
+        },
+        {
+          "de": "Das Land ist reich an mineralischen Rohstoffen.",
+          "en": "The country is rich in mineral resources."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschafts- und Umweltvokabular; \"nachwachsende Rohstoffe\" ist ein fester Begriff.",
+      "near_synonyms": [
+        {
+          "lemma": "das Material",
+          "distinction": "allgemeiner, auch bereits verarbeitete Werkstoffe"
+        },
+        {
+          "lemma": "die Ressource",
+          "distinction": "abstrakter, schließt auch Energie und Arbeitskraft ein"
+        }
+      ]
+    },
+    "Energiewende": {
+      "meaning_de": "der Umbau der Energieversorgung von fossilen zu erneuerbaren Quellen",
+      "meaning_en": "energy transition (shift to renewables)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Energiewende"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Energiewende vorantreiben",
+          "gloss_en": "to drive forward the energy transition"
+        },
+        {
+          "phrase": "die Energiewende gestalten",
+          "gloss_en": "to shape the energy transition"
+        },
+        {
+          "phrase": "der Erfolg der Energiewende",
+          "gloss_en": "the success of the energy transition"
+        },
+        {
+          "phrase": "in die Energiewende investieren",
+          "gloss_en": "to invest in the energy transition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Energiewende soll Deutschland unabhängig von Kohle und Öl machen.",
+          "en": "The energy transition is meant to make Germany independent of coal and oil."
+        },
+        {
+          "de": "Ohne Ausbau der Netze kommt die Energiewende ins Stocken.",
+          "en": "Without expanding the grid, the energy transition stalls."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Politisch geprägter deutscher Begriff, oft auch als Fremdwort ins Englische übernommen; ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verkehrswende",
+          "distinction": "paralleler Begriff, bezieht sich speziell auf den Verkehr"
+        }
+      ]
+    },
+    "Windkraft": {
+      "meaning_de": "die Nutzung der Bewegungsenergie des Windes zur Stromerzeugung",
+      "meaning_en": "wind power",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Windkraft"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Strom aus Windkraft",
+          "gloss_en": "electricity from wind power"
+        },
+        {
+          "phrase": "die Windkraft ausbauen",
+          "gloss_en": "to expand wind power"
+        },
+        {
+          "phrase": "auf Windkraft setzen",
+          "gloss_en": "to rely on wind power"
+        },
+        {
+          "phrase": "Windkraft an Land",
+          "gloss_en": "onshore wind power"
+        }
+      ],
+      "examples": [
+        {
+          "de": "An der Küste wird ein großer Teil des Stroms aus Windkraft gewonnen.",
+          "en": "On the coast a large share of the electricity comes from wind power."
+        },
+        {
+          "de": "Neue Windkraftanlagen stoßen mancherorts auf Widerstand.",
+          "en": "New wind turbines meet resistance in some places."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Energievokabular; \"Windenergie\" wird weitgehend gleichbedeutend gebraucht. Ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Windenergie",
+          "distinction": "betont eher die Energieform, \"Windkraft\" eher deren Nutzung"
+        }
+      ]
+    },
+    "Meeresspiegel": {
+      "meaning_de": "die durchschnittliche Höhe der Meeresoberfläche, oft als Bezugshöhe genutzt",
+      "meaning_en": "sea level",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Meeresspiegels"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der steigende Meeresspiegel",
+          "gloss_en": "the rising sea level"
+        },
+        {
+          "phrase": "über dem Meeresspiegel",
+          "gloss_en": "above sea level"
+        },
+        {
+          "phrase": "der Meeresspiegel steigt",
+          "gloss_en": "the sea level is rising"
+        },
+        {
+          "phrase": "der Anstieg des Meeresspiegels",
+          "gloss_en": "the rise in sea level"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Durch das schmelzende Eis steigt der Meeresspiegel weltweit.",
+          "en": "The melting ice is causing the sea level to rise worldwide."
+        },
+        {
+          "de": "Die Stadt liegt nur wenige Meter über dem Meeresspiegel.",
+          "en": "The city lies only a few metres above sea level."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Geografisch-klimatischer Begriff; im Singular als Bezugsgröße gebraucht.",
+      "near_synonyms": []
+    },
+    "Gletscher": {
+      "meaning_de": "eine große, langsam fließende Eismasse aus zusammengepresstem Schnee",
+      "meaning_en": "glacier",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gletschers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gletscher"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Gletscher schmelzen",
+          "gloss_en": "the glaciers are melting"
+        },
+        {
+          "phrase": "der Rückzug der Gletscher",
+          "gloss_en": "the retreat of the glaciers"
+        },
+        {
+          "phrase": "ein schwindender Gletscher",
+          "gloss_en": "a shrinking glacier"
+        },
+        {
+          "phrase": "über den Gletscher wandern",
+          "gloss_en": "to hike across the glacier"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In den Alpen ziehen sich die Gletscher immer weiter zurück.",
+          "en": "In the Alps the glaciers are retreating ever further."
+        },
+        {
+          "de": "Der Gletscher hat in hundert Jahren die Hälfte seiner Fläche verloren.",
+          "en": "The glacier has lost half its area in a hundred years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Geografisches Alltagswort; im Plural formgleich mit dem Singular.",
+      "near_synonyms": []
+    },
+    "Emission": {
+      "meaning_de": "der Ausstoß von Stoffen wie Gasen oder Lärm in die Umwelt",
+      "meaning_en": "emission",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Emission"
+        },
+        {
+          "label": "Plural",
+          "value": "die Emissionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Emissionen senken",
+          "gloss_en": "to reduce emissions"
+        },
+        {
+          "phrase": "schädliche Emissionen",
+          "gloss_en": "harmful emissions"
+        },
+        {
+          "phrase": "der Handel mit Emissionen",
+          "gloss_en": "emissions trading"
+        },
+        {
+          "phrase": "CO2-Emissionen",
+          "gloss_en": "CO2 emissions"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Industrie muss ihre Emissionen bis 2030 deutlich senken.",
+          "en": "Industry must significantly cut its emissions by 2030."
+        },
+        {
+          "de": "Elektroautos verursachen im Betrieb keine direkten Emissionen.",
+          "en": "Electric cars produce no direct emissions while running."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort aus Umwelt und Technik; meist im Plural gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "der Ausstoß",
+          "distinction": "deutsches Alltagswort, oft gleichbedeutend genutzt"
+        }
+      ]
+    },
+    "Schadstoff": {
+      "meaning_de": "ein Stoff, der Menschen, Tieren oder der Umwelt schadet",
+      "meaning_en": "pollutant; harmful substance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Schadstoffs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schadstoffe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Schadstoffe ausstoßen",
+          "gloss_en": "to emit pollutants"
+        },
+        {
+          "phrase": "der Schadstoffgehalt",
+          "gloss_en": "the pollutant content"
+        },
+        {
+          "phrase": "Schadstoffe filtern",
+          "gloss_en": "to filter out pollutants"
+        },
+        {
+          "phrase": "gefährliche Schadstoffe",
+          "gloss_en": "hazardous pollutants"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Filter hält einen Großteil der Schadstoffe zurück.",
+          "en": "The filter retains most of the pollutants."
+        },
+        {
+          "de": "Im Boden reichern sich mit der Zeit Schadstoffe an.",
+          "en": "Pollutants accumulate in the soil over time."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Umwelt- und Gesundheitsvokabular; häufig als Bestimmungswort (Schadstoffbelastung).",
+      "near_synonyms": [
+        {
+          "lemma": "das Gift",
+          "distinction": "stärker, meint akut giftige Stoffe"
+        }
+      ]
+    },
+    "Mülltrennung": {
+      "meaning_de": "das Sortieren von Abfall nach Wertstoffen wie Papier, Glas und Bioabfall",
+      "meaning_en": "waste separation; recycling separation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Mülltrennung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "auf Mülltrennung achten",
+          "gloss_en": "to be careful about separating waste"
+        },
+        {
+          "phrase": "die konsequente Mülltrennung",
+          "gloss_en": "consistent waste separation"
+        },
+        {
+          "phrase": "Mülltrennung betreiben",
+          "gloss_en": "to practise waste separation"
+        },
+        {
+          "phrase": "die Regeln der Mülltrennung",
+          "gloss_en": "the rules of waste separation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In Deutschland ist Mülltrennung für viele selbstverständlich.",
+          "en": "In Germany, separating waste is second nature to many."
+        },
+        {
+          "de": "Ohne Mülltrennung lässt sich der Abfall kaum recyceln.",
+          "en": "Without separating waste, the rubbish can hardly be recycled."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltags- und Umweltvokabular, in Deutschland kulturell stark verankert. Ohne Plural.",
+      "near_synonyms": []
+    },
+    "Artenschutz": {
+      "meaning_de": "der Schutz gefährdeter Tier- und Pflanzenarten vor dem Aussterben",
+      "meaning_en": "species protection",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Artenschutzes"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich für den Artenschutz einsetzen",
+          "gloss_en": "to campaign for species protection"
+        },
+        {
+          "phrase": "internationaler Artenschutz",
+          "gloss_en": "international species protection"
+        },
+        {
+          "phrase": "das Artenschutzabkommen",
+          "gloss_en": "the species protection agreement"
+        },
+        {
+          "phrase": "aktiver Artenschutz",
+          "gloss_en": "active species conservation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Abkommen soll den Artenschutz weltweit verbessern.",
+          "en": "The agreement is meant to improve species protection worldwide."
+        },
+        {
+          "de": "Zoos leisten heute auch einen Beitrag zum Artenschutz.",
+          "en": "Zoos today also contribute to species protection."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Umweltpolitisches Vokabular; enger als \"Naturschutz\". Ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "der Naturschutz",
+          "distinction": "umfassender, schützt auch Landschaften und ganze Lebensräume"
+        }
+      ]
+    },
+    "Bestand": {
+      "meaning_de": "die vorhandene Menge oder Anzahl von etwas, hier besonders von Tieren einer Art",
+      "meaning_en": "stock; population (of animals)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Bestands"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bestände"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "der Bestand an etwas",
+          "cases": "an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "der Bestand geht zurück",
+          "gloss_en": "the population is declining"
+        },
+        {
+          "phrase": "die Bestände erholen sich",
+          "gloss_en": "the stocks are recovering"
+        },
+        {
+          "phrase": "den Bestand sichern",
+          "gloss_en": "to safeguard the stock"
+        },
+        {
+          "phrase": "der Bestand an Wildtieren",
+          "gloss_en": "the stock of wild animals"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bestand der Wölfe hat sich in Deutschland wieder vergrößert.",
+          "en": "The wolf population in Germany has grown again."
+        },
+        {
+          "de": "Durch Überfischung sind viele Bestände bedroht.",
+          "en": "Overfishing threatens many fish stocks."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Polysem: auch \"Buchbestand\", \"Bestand haben\" (dauern). Hier der ökologische Sinn.",
+      "near_synonyms": [
+        {
+          "lemma": "die Population",
+          "distinction": "wissenschaftlicher, meint die Gesamtheit einer Art in einem Gebiet"
+        }
+      ]
+    },
+    "Population": {
+      "meaning_de": "die Gesamtheit aller Individuen einer Art in einem bestimmten Gebiet",
+      "meaning_en": "population (biological)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Population"
+        },
+        {
+          "label": "Plural",
+          "value": "die Populationen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Population wächst",
+          "gloss_en": "the population is growing"
+        },
+        {
+          "phrase": "eine stabile Population",
+          "gloss_en": "a stable population"
+        },
+        {
+          "phrase": "die Population schrumpft",
+          "gloss_en": "the population is shrinking"
+        },
+        {
+          "phrase": "eine bedrohte Population",
+          "gloss_en": "an endangered population"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Population der Bienen ist in den letzten Jahren stark gesunken.",
+          "en": "The bee population has dropped sharply in recent years."
+        },
+        {
+          "de": "Eine kleine Population überlebte in einem abgelegenen Tal.",
+          "en": "A small population survived in a remote valley."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Biologischer Fachbegriff; im Deutschen kaum für Menschen (\"Bevölkerung\") gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "der Bestand",
+          "distinction": "alltagsnäher, oft mit Zahlenangabe verbunden"
+        },
+        {
+          "lemma": "die Bevölkerung",
+          "distinction": "bezieht sich auf Menschen, nicht auf Tiere oder Pflanzen"
+        }
+      ]
+    },
+    "Gehege": {
+      "meaning_de": "ein umzäunter Bereich, in dem Tiere gehalten werden",
+      "meaning_en": "enclosure; pen",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Geheges"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gehege"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein weitläufiges Gehege",
+          "gloss_en": "a spacious enclosure"
+        },
+        {
+          "phrase": "die Tiere ins Gehege bringen",
+          "gloss_en": "to move the animals into the enclosure"
+        },
+        {
+          "phrase": "aus dem Gehege ausbrechen",
+          "gloss_en": "to escape from the enclosure"
+        },
+        {
+          "phrase": "ein artgerechtes Gehege",
+          "gloss_en": "a species-appropriate enclosure"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Affen bekamen ein größeres, naturnahes Gehege.",
+          "en": "The monkeys got a larger, more natural enclosure."
+        },
+        {
+          "de": "In der Nacht brach ein Wolf aus dem Gehege aus.",
+          "en": "During the night a wolf broke out of the enclosure."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagswort aus Zoo und Tierhaltung; die Wendung \"jemandem ins Gehege kommen\" ist idiomatisch.",
+      "near_synonyms": [
+        {
+          "lemma": "der Käfig",
+          "distinction": "kleiner und geschlossener, meist mit Gitter"
+        }
+      ]
+    },
+    "Schwarm": {
+      "meaning_de": "eine große Gruppe von Tieren, die sich gemeinsam bewegt, etwa Vögel oder Fische",
+      "meaning_en": "swarm; flock; shoal",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Schwarms"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schwärme"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Schwarm Vögel",
+          "gloss_en": "a flock of birds"
+        },
+        {
+          "phrase": "in Schwärmen auftreten",
+          "gloss_en": "to appear in swarms"
+        },
+        {
+          "phrase": "ein Schwarm Fische",
+          "gloss_en": "a shoal of fish"
+        },
+        {
+          "phrase": "der Schwarm zieht davon",
+          "gloss_en": "the swarm moves off"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein riesiger Schwarm Stare verdunkelte kurz den Himmel.",
+          "en": "A huge flock of starlings briefly darkened the sky."
+        },
+        {
+          "de": "Die Sardinen bilden dichte Schwärme, um sich zu schützen.",
+          "en": "The sardines form dense shoals to protect themselves."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Auch umgangssprachlich \"jemandes Schwarm\" = die heimlich verehrte Person.",
+      "near_synonyms": [
+        {
+          "lemma": "die Herde",
+          "distinction": "eher für größere Landtiere wie Rinder oder Schafe"
+        },
+        {
+          "lemma": "das Rudel",
+          "distinction": "für Raubtiere wie Wölfe, meist kleinere Gruppen"
+        }
+      ]
+    },
+    "Zugvogel": {
+      "meaning_de": "ein Vogel, der im Herbst in wärmere Gebiete zieht und im Frühjahr zurückkehrt",
+      "meaning_en": "migratory bird",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zugvogels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zugvögel"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Zugvögel kehren zurück",
+          "gloss_en": "the migratory birds return"
+        },
+        {
+          "phrase": "die Zugvögel ziehen nach Süden",
+          "gloss_en": "the migratory birds head south"
+        },
+        {
+          "phrase": "der Vogelzug",
+          "gloss_en": "the bird migration"
+        },
+        {
+          "phrase": "heimische Zugvögel",
+          "gloss_en": "native migratory birds"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Herbst sammeln sich die Zugvögel zu großen Schwärmen.",
+          "en": "In autumn the migratory birds gather into large flocks."
+        },
+        {
+          "de": "Der milde Winter bringt manche Zugvögel aus dem Takt.",
+          "en": "The mild winter throws some migratory birds off their rhythm."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltags- und naturkundliches Wort; Gegenbegriff ist der \"Standvogel\".",
+      "near_synonyms": []
+    },
+    "Raubtier": {
+      "meaning_de": "ein Tier, das sich von anderen Tieren ernährt, die es jagt",
+      "meaning_en": "predator; beast of prey",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Raubtiers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Raubtiere"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gefährliches Raubtier",
+          "gloss_en": "a dangerous predator"
+        },
+        {
+          "phrase": "Raubtiere jagen ihre Beute",
+          "gloss_en": "predators hunt their prey"
+        },
+        {
+          "phrase": "das größte Raubtier",
+          "gloss_en": "the largest predator"
+        },
+        {
+          "phrase": "sich wie ein Raubtier anschleichen",
+          "gloss_en": "to creep up like a predator"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Löwen gehören zu den größten Raubtieren Afrikas.",
+          "en": "Lions are among the largest predators in Africa."
+        },
+        {
+          "de": "Ohne Raubtiere gerät das Gleichgewicht im Ökosystem durcheinander.",
+          "en": "Without predators the balance of the ecosystem is thrown off."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltags- und biologisches Wort; \"Raubtier\" auch bildlich für rücksichtslose Menschen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Räuber",
+          "distinction": "in der Ökologie neutral für jäger; sonst \"Verbrecher\""
+        },
+        {
+          "lemma": "das Raubtier",
+          "distinction": "Beutegreifer allgemein, auch Vögel und Fische"
+        }
+      ]
+    },
+    "Bodenerosion": {
+      "meaning_de": "der Abtrag fruchtbarer Bodenschichten durch Wind oder Wasser",
+      "meaning_en": "soil erosion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bodenerosion"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Bodenerosion verstärken",
+          "gloss_en": "to increase soil erosion"
+        },
+        {
+          "phrase": "vor Bodenerosion schützen",
+          "gloss_en": "to protect against soil erosion"
+        },
+        {
+          "phrase": "die Folgen der Bodenerosion",
+          "gloss_en": "the consequences of soil erosion"
+        },
+        {
+          "phrase": "die Bodenerosion aufhalten",
+          "gloss_en": "to halt soil erosion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Abholzen der Hänge fördert die Bodenerosion.",
+          "en": "Clearing the slopes promotes soil erosion."
+        },
+        {
+          "de": "Hecken und Bäume bremsen die Bodenerosion auf den Feldern.",
+          "en": "Hedges and trees slow soil erosion in the fields."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachwort aus Landwirtschaft und Geografie; im Singular gebraucht.",
+      "near_synonyms": []
+    },
+    "Permafrost": {
+      "meaning_de": "dauerhaft gefrorener Boden, der auch im Sommer nicht auftaut",
+      "meaning_en": "permafrost",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Permafrosts"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der auftauende Permafrost",
+          "gloss_en": "the thawing permafrost"
+        },
+        {
+          "phrase": "der Permafrost taut auf",
+          "gloss_en": "the permafrost is thawing"
+        },
+        {
+          "phrase": "im Permafrost gebundenes Methan",
+          "gloss_en": "methane trapped in the permafrost"
+        },
+        {
+          "phrase": "die Permafrostböden",
+          "gloss_en": "the permafrost soils"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In Sibirien taut der Permafrost immer tiefer auf.",
+          "en": "In Siberia the permafrost is thawing ever deeper."
+        },
+        {
+          "de": "Aus dem tauenden Permafrost entweicht klimaschädliches Methan.",
+          "en": "Climate-damaging methane escapes from the thawing permafrost."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Geowissenschaftliches Fachwort, in der Klimadebatte häufig; im Singular.",
+      "near_synonyms": []
+    },
+    "Eisscholle": {
+      "meaning_de": "ein einzelnes, treibendes Stück Eis auf dem Meer oder einem Gewässer",
+      "meaning_en": "ice floe",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Eisscholle"
+        },
+        {
+          "label": "Plural",
+          "value": "die Eisschollen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "auf einer Eisscholle treiben",
+          "gloss_en": "to drift on an ice floe"
+        },
+        {
+          "phrase": "die Eisschollen schmelzen",
+          "gloss_en": "the ice floes are melting"
+        },
+        {
+          "phrase": "von Scholle zu Scholle springen",
+          "gloss_en": "to jump from floe to floe"
+        },
+        {
+          "phrase": "eine treibende Eisscholle",
+          "gloss_en": "a drifting ice floe"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Eisbär saß gestrandet auf einer schmelzenden Eisscholle.",
+          "en": "The polar bear sat stranded on a melting ice floe."
+        },
+        {
+          "de": "Im Frühjahr treiben große Eisschollen den Fluss hinab.",
+          "en": "In spring large ice floes drift down the river."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Anschauliches Alltagswort, oft Symbol für die Folgen des Klimawandels.",
+      "near_synonyms": []
+    },
+    "Moor": {
+      "meaning_de": "ein feuchtes, nasses Gebiet, in dem sich Torf bildet",
+      "meaning_en": "bog; moor; mire",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Moors"
+        },
+        {
+          "label": "Plural",
+          "value": "die Moore"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Moor trockenlegen",
+          "gloss_en": "to drain a bog"
+        },
+        {
+          "phrase": "ein Moor renaturieren",
+          "gloss_en": "to restore a bog"
+        },
+        {
+          "phrase": "im Moor versinken",
+          "gloss_en": "to sink into the bog"
+        },
+        {
+          "phrase": "ein intaktes Moor",
+          "gloss_en": "an intact bog"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Moore speichern große Mengen Kohlenstoff und schützen so das Klima.",
+          "en": "Bogs store large amounts of carbon and thus protect the climate."
+        },
+        {
+          "de": "Das trockengelegte Moor wird heute wieder vernässt.",
+          "en": "The drained bog is now being rewetted."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Naturkundliches Alltagswort; in der Klimadebatte als CO2-Speicher wichtig.",
+      "near_synonyms": [
+        {
+          "lemma": "der Sumpf",
+          "distinction": "meist ohne Torfbildung, oft mit stehendem Wasser"
+        },
+        {
+          "lemma": "das Feuchtgebiet",
+          "distinction": "Oberbegriff für alle nassen Lebensräume"
+        }
+      ]
+    },
+    "Feuchtgebiet": {
+      "meaning_de": "ein Gebiet mit dauerhaft nassem Boden, etwa Moor, Sumpf oder Aue",
+      "meaning_en": "wetland",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Feuchtgebiets"
+        },
+        {
+          "label": "Plural",
+          "value": "die Feuchtgebiete"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein wertvolles Feuchtgebiet",
+          "gloss_en": "a valuable wetland"
+        },
+        {
+          "phrase": "Feuchtgebiete schützen",
+          "gloss_en": "to protect wetlands"
+        },
+        {
+          "phrase": "ein Feuchtgebiet trockenlegen",
+          "gloss_en": "to drain a wetland"
+        },
+        {
+          "phrase": "der Lebensraum Feuchtgebiet",
+          "gloss_en": "the wetland habitat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Feuchtgebiete sind wichtige Rückzugsorte für seltene Vögel.",
+          "en": "Wetlands are important refuges for rare birds."
+        },
+        {
+          "de": "Viele Feuchtgebiete sind in den letzten Jahrzehnten verschwunden.",
+          "en": "Many wetlands have disappeared in recent decades."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ökologischer Oberbegriff; \"Moor\" und \"Sumpf\" sind konkrete Typen davon.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aue",
+          "distinction": "speziell der zeitweise überflutete Bereich entlang von Flüssen"
+        }
+      ]
+    },
+    "aussterben": {
+      "meaning_de": "als Art vollständig verschwinden, weil keine Individuen mehr leben",
+      "meaning_en": "to become extinct; to die out",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er stirbt aus"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er starb aus"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist ausgestorben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er stürbe aus"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "vom Aussterben bedroht",
+          "gloss_en": "threatened with extinction"
+        },
+        {
+          "phrase": "eine Art stirbt aus",
+          "gloss_en": "a species dies out"
+        },
+        {
+          "phrase": "fast ausgestorben sein",
+          "gloss_en": "to be nearly extinct"
+        },
+        {
+          "phrase": "die Dinosaurier starben aus",
+          "gloss_en": "the dinosaurs died out"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne Schutzmaßnahmen wird der Tiger bald aussterben.",
+          "en": "Without protective measures the tiger will soon become extinct."
+        },
+        {
+          "de": "Viele Sprachen sind im letzten Jahrhundert ausgestorben.",
+          "en": "Many languages died out over the last century."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildet das Perfekt mit \"sein\"; auch übertragen (\"ein aussterbender Beruf\").",
+      "near_synonyms": [
+        {
+          "lemma": "verschwinden",
+          "distinction": "allgemeiner, nicht zwingend endgültig oder auf Arten bezogen"
+        }
+      ]
+    },
+    "gefährden": {
+      "meaning_de": "etwas in Gefahr bringen oder bedrohen",
+      "meaning_en": "to endanger; to jeopardize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er gefährdet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er gefährdete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gefährdet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde gefährden"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden/etwas gefährden",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Gesundheit gefährden",
+          "gloss_en": "to endanger one's health"
+        },
+        {
+          "phrase": "Arbeitsplätze gefährden",
+          "gloss_en": "to jeopardize jobs"
+        },
+        {
+          "phrase": "das Gleichgewicht gefährden",
+          "gloss_en": "to endanger the balance"
+        },
+        {
+          "phrase": "eine Art ist gefährdet",
+          "gloss_en": "a species is endangered"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Umweltverschmutzung gefährdet zahlreiche Tierarten.",
+          "en": "Pollution endangers numerous animal species."
+        },
+        {
+          "de": "Durch sein Verhalten gefährdet er die ganze Expedition.",
+          "en": "With his behaviour he jeopardizes the entire expedition."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Schwaches Verb; das Partizip \"gefährdet\" wird oft adjektivisch gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "bedrohen",
+          "distinction": "stärker, betont die drohende Gefahr direkter"
+        },
+        {
+          "lemma": "riskieren",
+          "distinction": "man setzt bewusst etwas Eigenes aufs Spiel"
+        }
+      ]
+    },
+    "verschmutzen": {
+      "meaning_de": "etwas schmutzig machen oder mit Schadstoffen belasten",
+      "meaning_en": "to pollute; to soil",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verschmutzt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verschmutzte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verschmutzt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde verschmutzen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verschmutzen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Umwelt verschmutzen",
+          "gloss_en": "to pollute the environment"
+        },
+        {
+          "phrase": "das Wasser verschmutzen",
+          "gloss_en": "to pollute the water"
+        },
+        {
+          "phrase": "die Luft verschmutzen",
+          "gloss_en": "to pollute the air"
+        },
+        {
+          "phrase": "stark verschmutzt sein",
+          "gloss_en": "to be heavily polluted"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Plastikmüll verschmutzt die Ozeane in großem Ausmaß.",
+          "en": "Plastic waste pollutes the oceans on a large scale."
+        },
+        {
+          "de": "Die Fabrik hat den Fluss jahrelang verschmutzt.",
+          "en": "The factory polluted the river for years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Umweltvokabular; das Partizip \"verschmutzt\" ist als Adjektiv sehr gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "verunreinigen",
+          "distinction": "etwas technischer, betont Fremdstoffe im Wasser oder in der Luft"
+        }
+      ]
+    },
+    "aufforsten": {
+      "meaning_de": "eine Fläche mit Bäumen bepflanzen, um Wald neu entstehen zu lassen",
+      "meaning_en": "to reforest; to afforest",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er forstet auf"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er forstete auf"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat aufgeforstet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde aufforsten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Fläche aufforsten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Fläche aufforsten",
+          "gloss_en": "to reforest an area"
+        },
+        {
+          "phrase": "gerodete Flächen aufforsten",
+          "gloss_en": "to reforest cleared land"
+        },
+        {
+          "phrase": "wieder aufforsten",
+          "gloss_en": "to reforest again"
+        },
+        {
+          "phrase": "den Wald aufforsten",
+          "gloss_en": "to replant the forest"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Sturm forstete man die kahlen Hänge wieder auf.",
+          "en": "After the storm the bare slopes were reforested."
+        },
+        {
+          "de": "Die Organisation forstet in den Tropen ganze Landstriche auf.",
+          "en": "The organization reforests entire stretches of land in the tropics."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Trennbares Verb aus der Forstwirtschaft; Gegenwort ist \"abholzen\".",
+      "near_synonyms": [
+        {
+          "lemma": "bepflanzen",
+          "distinction": "allgemeiner, muss sich nicht auf Wald beziehen"
+        }
+      ]
+    },
+    "abholzen": {
+      "meaning_de": "Bäume in großer Zahl fällen und einen Wald beseitigen",
+      "meaning_en": "to deforest; to clear (of trees)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er holzt ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er holzte ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abgeholzt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde abholzen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "einen Wald abholzen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Regenwald abholzen",
+          "gloss_en": "to clear the rainforest"
+        },
+        {
+          "phrase": "Wälder großflächig abholzen",
+          "gloss_en": "to deforest large areas"
+        },
+        {
+          "phrase": "illegal abholzen",
+          "gloss_en": "to log illegally"
+        },
+        {
+          "phrase": "abgeholzte Flächen",
+          "gloss_en": "cleared areas"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Weideflächen wird der Wald rücksichtslos abgeholzt.",
+          "en": "The forest is being ruthlessly cleared for grazing land."
+        },
+        {
+          "de": "Wenn wir weiter so abholzen, verschwinden ganze Ökosysteme.",
+          "en": "If we keep clearing forests like this, entire ecosystems will vanish."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Trennbares Verb, klar negativ konnotiert; Gegenwort ist \"aufforsten\".",
+      "near_synonyms": [
+        {
+          "lemma": "roden",
+          "distinction": "meint das Beseitigen samt Wurzeln, oft zur Landgewinnung"
+        },
+        {
+          "lemma": "fällen",
+          "distinction": "bezieht sich auf einzelne Bäume, nicht auf ganze Wälder"
+        }
+      ]
+    },
+    "recyceln": {
+      "meaning_de": "Abfall so aufbereiten, dass daraus neue Produkte entstehen",
+      "meaning_en": "to recycle",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er recycelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er recycelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat recycelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde recyceln"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas recyceln",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Papier recyceln",
+          "gloss_en": "to recycle paper"
+        },
+        {
+          "phrase": "Plastik recyceln",
+          "gloss_en": "to recycle plastic"
+        },
+        {
+          "phrase": "vollständig recyceln",
+          "gloss_en": "to recycle completely"
+        },
+        {
+          "phrase": "recycelte Materialien",
+          "gloss_en": "recycled materials"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus alten Flaschen lässt sich das Glas fast unbegrenzt recyceln.",
+          "en": "The glass from old bottles can be recycled almost indefinitely."
+        },
+        {
+          "de": "Das Unternehmen recycelt einen Großteil seiner Abfälle.",
+          "en": "The company recycles most of its waste."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Aus dem Englischen entlehnt; das Partizip lautet \"recycelt\", ohne Vorsilbe \"ge-\".",
+      "near_synonyms": [
+        {
+          "lemma": "wiederverwerten",
+          "distinction": "deutsches Wort, weitgehend gleichbedeutend"
+        }
+      ]
+    },
+    "bewässern": {
+      "meaning_de": "Pflanzen oder Felder künstlich mit Wasser versorgen",
+      "meaning_en": "to irrigate; to water",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bewässert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bewässerte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bewässert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde bewässern"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Feld bewässern",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Felder bewässern",
+          "gloss_en": "to irrigate the fields"
+        },
+        {
+          "phrase": "künstlich bewässern",
+          "gloss_en": "to irrigate artificially"
+        },
+        {
+          "phrase": "sparsam bewässern",
+          "gloss_en": "to water sparingly"
+        },
+        {
+          "phrase": "die Plantagen bewässern",
+          "gloss_en": "to irrigate the plantations"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In trockenen Regionen müssen die Felder ständig bewässert werden.",
+          "en": "In dry regions the fields have to be irrigated constantly."
+        },
+        {
+          "de": "Ein Tropfsystem bewässert die Pflanzen besonders sparsam.",
+          "en": "A drip system waters the plants especially economically."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Landwirtschaftliches Vokabular; Gegenwort ist \"entwässern\" (Wasser ableiten).",
+      "near_synonyms": [
+        {
+          "lemma": "gießen",
+          "distinction": "alltäglich, meint das Wässern einzelner Pflanzen von Hand"
+        }
+      ]
+    },
+    "verdunsten": {
+      "meaning_de": "als Flüssigkeit langsam zu Wasserdampf werden und in die Luft übergehen",
+      "meaning_en": "to evaporate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verdunstet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verdunstete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist verdunstet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde verdunsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Wasser verdunstet",
+          "gloss_en": "the water evaporates"
+        },
+        {
+          "phrase": "in der Sonne verdunsten",
+          "gloss_en": "to evaporate in the sun"
+        },
+        {
+          "phrase": "schnell verdunsten",
+          "gloss_en": "to evaporate quickly"
+        },
+        {
+          "phrase": "die Feuchtigkeit verdunstet",
+          "gloss_en": "the moisture evaporates"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei großer Hitze verdunstet das Wasser aus den Böden rasch.",
+          "en": "In great heat the water evaporates quickly from the soil."
+        },
+        {
+          "de": "Ein Teil des Regens ist schon verdunstet, bevor er den Boden erreicht.",
+          "en": "Part of the rain has already evaporated before it reaches the ground."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildet das Perfekt mit \"sein\"; beschreibt langsames Verdampfen ohne Kochen.",
+      "near_synonyms": [
+        {
+          "lemma": "verdampfen",
+          "distinction": "meint das schnellere Verdampfen, meist beim Sieden"
+        }
+      ]
+    },
+    "brüten": {
+      "meaning_de": "als Vogel auf den Eiern sitzen, um die Jungen ausschlüpfen zu lassen",
+      "meaning_en": "to brood; to incubate (eggs)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er brütet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er brütete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gebrütet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde brüten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "über etwas brüten",
+          "cases": "über + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "auf den Eiern brüten",
+          "gloss_en": "to sit on the eggs"
+        },
+        {
+          "phrase": "über einem Problem brüten",
+          "gloss_en": "to brood over a problem"
+        },
+        {
+          "phrase": "die Henne brütet",
+          "gloss_en": "the hen is brooding"
+        },
+        {
+          "phrase": "brütende Vögel stören",
+          "gloss_en": "to disturb nesting birds"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Storchenpaar brütet jedes Jahr auf demselben Dach.",
+          "en": "The pair of storks broods on the same roof every year."
+        },
+        {
+          "de": "Er brütete stundenlang über der schwierigen Aufgabe.",
+          "en": "He brooded for hours over the difficult task."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wörtlich für Vögel; übertragen \"über etwas brüten\" = angestrengt nachdenken.",
+      "near_synonyms": [
+        {
+          "lemma": "ausbrüten",
+          "distinction": "betont das Ergebnis, das Ausschlüpfen der Jungen"
+        }
+      ]
+    },
+    "nisten": {
+      "meaning_de": "als Vogel oder Tier ein Nest bauen und darin leben",
+      "meaning_en": "to nest",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er nistet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er nistete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat genistet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde nisten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter dem Dach nisten",
+          "gloss_en": "to nest under the roof"
+        },
+        {
+          "phrase": "im Gebüsch nisten",
+          "gloss_en": "to nest in the bushes"
+        },
+        {
+          "phrase": "Schwalben nisten am Haus",
+          "gloss_en": "swallows nest on the house"
+        },
+        {
+          "phrase": "einen Nistplatz suchen",
+          "gloss_en": "to look for a nesting site"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Jedes Frühjahr nisten Schwalben unter unserem Dach.",
+          "en": "Every spring swallows nest under our roof."
+        },
+        {
+          "de": "In der alten Scheune nistet ein Paar Eulen.",
+          "en": "A pair of owls nests in the old barn."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Naturkundliches Alltagswort; \"sich einnisten\" auch übertragen für hartnäckiges Festsetzen.",
+      "near_synonyms": [
+        {
+          "lemma": "brüten",
+          "distinction": "meint das Sitzen auf den Eiern, nicht das Wohnen im Nest"
+        }
+      ]
+    },
+    "gedeihen": {
+      "meaning_de": "gut wachsen und sich prächtig entwickeln",
+      "meaning_en": "to thrive; to flourish",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er gedeiht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er gedieh"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist gediehen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er gediehe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "prächtig gedeihen",
+          "gloss_en": "to thrive splendidly"
+        },
+        {
+          "phrase": "die Pflanzen gedeihen",
+          "gloss_en": "the plants are thriving"
+        },
+        {
+          "phrase": "gut gedeihen",
+          "gloss_en": "to flourish"
+        },
+        {
+          "phrase": "weit gediehen sein",
+          "gloss_en": "to be well advanced"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In diesem milden Klima gedeihen sogar Feigen und Oliven.",
+          "en": "In this mild climate even figs and olives thrive."
+        },
+        {
+          "de": "Das Projekt ist inzwischen weit gediehen.",
+          "en": "The project has by now progressed a long way."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Starkes Verb, leicht gehoben; bildet das Perfekt mit \"sein\", auch übertragen (\"weit gediehen\").",
+      "near_synonyms": [
+        {
+          "lemma": "wachsen",
+          "distinction": "neutraler, ohne die Vorstellung von Wohlergehen"
+        },
+        {
+          "lemma": "blühen",
+          "distinction": "bildlich für Aufschwung, wörtlich nur für Blüten"
+        }
+      ]
+    },
+    "schmelzen": {
+      "meaning_de": "durch Wärme vom festen in den flüssigen Zustand übergehen",
+      "meaning_en": "to melt",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er schmilzt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er schmolz"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist geschmolzen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er schmölze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Eis schmilzt",
+          "gloss_en": "the ice is melting"
+        },
+        {
+          "phrase": "der Schnee schmilzt",
+          "gloss_en": "the snow is melting"
+        },
+        {
+          "phrase": "in der Sonne schmelzen",
+          "gloss_en": "to melt in the sun"
+        },
+        {
+          "phrase": "die Gletscher schmelzen ab",
+          "gloss_en": "the glaciers are melting away"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Frühlingssonne schmilzt der Schnee auf den Feldern rasch.",
+          "en": "In the spring sun the snow on the fields melts quickly."
+        },
+        {
+          "de": "Die Polkappen schmelzen schneller als vorhergesagt.",
+          "en": "The polar ice caps are melting faster than predicted."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Intransitiv mit \"sein\" (etwas schmilzt); transitiv (etwas schmelzen) mit \"haben\".",
+      "near_synonyms": [
+        {
+          "lemma": "tauen",
+          "distinction": "speziell für Schnee und Eis bei steigender Temperatur"
+        }
+      ]
+    },
+    "nachhaltig": {
+      "meaning_de": "so, dass Ressourcen geschont und für die Zukunft erhalten werden; auch: lang anhaltend wirksam",
+      "meaning_en": "sustainable; lasting",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "nachhaltiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am nachhaltigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "nachhaltige Landwirtschaft",
+          "gloss_en": "sustainable agriculture"
+        },
+        {
+          "phrase": "nachhaltig wirtschaften",
+          "gloss_en": "to operate sustainably"
+        },
+        {
+          "phrase": "eine nachhaltige Wirkung",
+          "gloss_en": "a lasting effect"
+        },
+        {
+          "phrase": "nachhaltig beeindrucken",
+          "gloss_en": "to impress lastingly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Unternehmen produziert möglichst nachhaltig und ressourcenschonend.",
+          "en": "The company produces as sustainably and resource-efficiently as possible."
+        },
+        {
+          "de": "Die Reform hat die Branche nachhaltig verändert.",
+          "en": "The reform changed the industry lastingly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Zwei Bedeutungen: \"umweltschonend\" und \"dauerhaft wirksam\"; beide sehr gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "dauerhaft",
+          "distinction": "nur die zeitliche Bedeutung, ohne den ökologischen Bezug"
+        },
+        {
+          "lemma": "umweltfreundlich",
+          "distinction": "enger, nur auf die Umweltschonung bezogen"
+        }
+      ]
+    },
+    "umweltfreundlich": {
+      "meaning_de": "so, dass die Umwelt möglichst wenig belastet oder geschädigt wird",
+      "meaning_en": "environmentally friendly",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "umweltfreundlicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am umweltfreundlichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "umweltfreundliche Verpackung",
+          "gloss_en": "environmentally friendly packaging"
+        },
+        {
+          "phrase": "umweltfreundlich reisen",
+          "gloss_en": "to travel in an eco-friendly way"
+        },
+        {
+          "phrase": "umweltfreundliche Produkte",
+          "gloss_en": "eco-friendly products"
+        },
+        {
+          "phrase": "besonders umweltfreundlich",
+          "gloss_en": "particularly eco-friendly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit dem Fahrrad ist man umweltfreundlicher unterwegs als mit dem Auto.",
+          "en": "You travel more eco-friendly by bike than by car."
+        },
+        {
+          "de": "Die neue Verpackung ist vollständig umweltfreundlich.",
+          "en": "The new packaging is completely environmentally friendly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltags- und Werbevokabular; Gegenwort ist \"umweltschädlich\".",
+      "near_synonyms": [
+        {
+          "lemma": "ökologisch",
+          "distinction": "fachlicher, bezieht sich auf die Umweltwissenschaft"
+        },
+        {
+          "lemma": "klimafreundlich",
+          "distinction": "enger, nur auf die Klimawirkung bezogen"
+        }
+      ]
+    },
+    "erneuerbar": {
+      "meaning_de": "so, dass die Quelle sich natürlich wieder auffüllt und nicht erschöpft",
+      "meaning_en": "renewable",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "erneuerbare Energien",
+          "gloss_en": "renewable energy"
+        },
+        {
+          "phrase": "erneuerbare Ressourcen",
+          "gloss_en": "renewable resources"
+        },
+        {
+          "phrase": "der Ausbau erneuerbarer Energien",
+          "gloss_en": "the expansion of renewables"
+        },
+        {
+          "phrase": "aus erneuerbaren Quellen",
+          "gloss_en": "from renewable sources"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sonne und Wind zählen zu den erneuerbaren Energien.",
+          "en": "Sun and wind are among the renewable energies."
+        },
+        {
+          "de": "Immer mehr Strom stammt aus erneuerbaren Quellen.",
+          "en": "More and more electricity comes from renewable sources."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fast nur attributiv gebraucht; nicht steigerbar. Gegenwort ist \"fossil\".",
+      "near_synonyms": [
+        {
+          "lemma": "regenerativ",
+          "distinction": "gleichbedeutend, etwas technischer, meist bei Energie"
+        }
+      ]
+    },
+    "klimaneutral": {
+      "meaning_de": "so, dass unterm Strich keine zusätzlichen Treibhausgase in die Atmosphäre gelangen",
+      "meaning_en": "climate-neutral; carbon-neutral",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "klimaneutral produzieren",
+          "gloss_en": "to produce carbon-neutrally"
+        },
+        {
+          "phrase": "klimaneutral werden",
+          "gloss_en": "to become climate-neutral"
+        },
+        {
+          "phrase": "ein klimaneutrales Unternehmen",
+          "gloss_en": "a climate-neutral company"
+        },
+        {
+          "phrase": "bis 2045 klimaneutral",
+          "gloss_en": "climate-neutral by 2045"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Stadt will bis 2035 klimaneutral sein.",
+          "en": "The city aims to be climate-neutral by 2035."
+        },
+        {
+          "de": "Der Versand erfolgt nach Angaben der Firma klimaneutral.",
+          "en": "According to the company, shipping is carbon-neutral."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Modewort aus Klimapolitik und Werbung; nicht steigerbar, meist prädikativ oder attributiv.",
+      "near_synonyms": [
+        {
+          "lemma": "CO2-neutral",
+          "distinction": "enger, bezieht sich nur auf Kohlendioxid, nicht auf alle Treibhausgase"
+        }
+      ]
+    },
+    "artenreich": {
+      "meaning_de": "so, dass viele verschiedene Tier- und Pflanzenarten vorkommen",
+      "meaning_en": "species-rich; rich in species",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "artenreicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am artenreichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein artenreicher Lebensraum",
+          "gloss_en": "a species-rich habitat"
+        },
+        {
+          "phrase": "eine artenreiche Wiese",
+          "gloss_en": "a species-rich meadow"
+        },
+        {
+          "phrase": "besonders artenreich",
+          "gloss_en": "particularly species-rich"
+        },
+        {
+          "phrase": "artenreiche Gewässer",
+          "gloss_en": "species-rich waters"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Alte Streuobstwiesen sind erstaunlich artenreich.",
+          "en": "Old orchard meadows are astonishingly species-rich."
+        },
+        {
+          "de": "Je naturnäher der Wald, desto artenreicher ist er meist.",
+          "en": "The more natural the forest, the more species-rich it usually is."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Vor allem in Naturkunde und Umweltschutz; Gegenwort ist \"artenarm\".",
+      "near_synonyms": [
+        {
+          "lemma": "vielfältig",
+          "distinction": "allgemeiner, nicht auf Arten beschränkt"
+        }
+      ]
+    },
+    "unberührt": {
+      "meaning_de": "so, dass etwas noch nicht vom Menschen verändert oder gestört wurde",
+      "meaning_en": "untouched; pristine",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "unberührter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am unberührtesten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "von etwas unberührt",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "unberührte Natur",
+          "gloss_en": "pristine nature"
+        },
+        {
+          "phrase": "eine unberührte Landschaft",
+          "gloss_en": "an untouched landscape"
+        },
+        {
+          "phrase": "nahezu unberührt",
+          "gloss_en": "almost untouched"
+        },
+        {
+          "phrase": "von der Zivilisation unberührt",
+          "gloss_en": "untouched by civilization"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In diesem Tal hat sich ein Stück unberührte Natur erhalten.",
+          "en": "In this valley a piece of pristine nature has been preserved."
+        },
+        {
+          "de": "Kaum ein Küstenabschnitt ist heute noch völlig unberührt.",
+          "en": "Hardly any stretch of coast is completely untouched today."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wörtlich für Landschaften; übertragen auch \"von etwas unberührt bleiben\" = unbeeindruckt.",
+      "near_synonyms": [
+        {
+          "lemma": "naturbelassen",
+          "distinction": "betont, dass bewusst nicht eingegriffen wurde"
+        },
+        {
+          "lemma": "ursprünglich",
+          "distinction": "betont den unveränderten Urzustand allgemein"
+        }
+      ]
+    }
+  }
+}

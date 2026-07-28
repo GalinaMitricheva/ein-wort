@@ -1,0 +1,2911 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2 domain batch 'Technik, Digitales & Medien' — dossiers keyed by lemma.",
+  "dossiers": {
+    "Bildschirm": {
+      "meaning_de": "die Anzeigefläche eines Geräts, auf der Bilder und Text erscheinen",
+      "meaning_en": "screen; display; monitor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Bildschirms"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bildschirme"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "auf den Bildschirm schauen",
+          "gloss_en": "to look at the screen"
+        },
+        {
+          "phrase": "der berührungsempfindliche Bildschirm",
+          "gloss_en": "the touch-sensitive screen"
+        },
+        {
+          "phrase": "etwas auf dem Bildschirm anzeigen",
+          "gloss_en": "to display something on screen"
+        },
+        {
+          "phrase": "ein flimmernder Bildschirm",
+          "gloss_en": "a flickering screen"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bildschirm blieb nach dem Neustart schwarz.",
+          "en": "The screen stayed black after the restart."
+        },
+        {
+          "de": "Sie starrte den ganzen Tag auf den Bildschirm.",
+          "en": "She stared at the screen all day."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral und alltäglich; im ganzen Technikbereich üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Monitor",
+          "distinction": "meist das eigenständige Anzeigegerät am Computer"
+        },
+        {
+          "lemma": "das Display",
+          "distinction": "eher die Anzeige kleiner Geräte wie Handys"
+        }
+      ]
+    },
+    "Tastatur": {
+      "meaning_de": "die Reihe von Tasten, mit denen man an einem Gerät Zeichen eingibt",
+      "meaning_en": "keyboard",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Tastatur"
+        },
+        {
+          "label": "Plural",
+          "value": "die Tastaturen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "auf der Tastatur tippen",
+          "gloss_en": "to type on the keyboard"
+        },
+        {
+          "phrase": "eine drahtlose Tastatur",
+          "gloss_en": "a wireless keyboard"
+        },
+        {
+          "phrase": "die Tastatur anschließen",
+          "gloss_en": "to connect the keyboard"
+        },
+        {
+          "phrase": "in die Tasten der Tastatur greifen",
+          "gloss_en": "to hit the keys"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Meine Tastatur reagiert seit heute nicht mehr richtig.",
+          "en": "My keyboard hasn't been responding properly since today."
+        },
+        {
+          "de": "Er tippte blind auf der Tastatur.",
+          "en": "He typed on the keyboard without looking."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Wort meint auch die Tasten eines Klaviers.",
+      "near_synonyms": [
+        {
+          "lemma": "die Klaviatur",
+          "distinction": "fast nur für Tasteninstrumente, nicht für Computer"
+        },
+        {
+          "lemma": "das Keyboard",
+          "distinction": "im Deutschen meist das elektronische Musikinstrument"
+        }
+      ]
+    },
+    "Anschluss": {
+      "meaning_de": "die Stelle oder Verbindung, über die ein Gerät mit einem anderen oder mit einem Netz verbunden wird",
+      "meaning_en": "connection; port; socket",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Anschlusses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anschlüsse"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Anschluss an etwas",
+          "cases": "an + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Anschluss herstellen",
+          "gloss_en": "to establish a connection"
+        },
+        {
+          "phrase": "der Anschluss ans Internet",
+          "gloss_en": "the internet connection"
+        },
+        {
+          "phrase": "den Anschluss verlieren",
+          "gloss_en": "to lose the connection / to fall behind"
+        },
+        {
+          "phrase": "ein schneller Anschluss",
+          "gloss_en": "a fast connection"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne einen schnellen Anschluss lässt sich das Video nicht streamen.",
+          "en": "Without a fast connection the video can't be streamed."
+        },
+        {
+          "de": "Der Drucker passt an jeden USB-Anschluss.",
+          "en": "The printer fits any USB port."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im übertragenen Sinn auch 'den Anschluss verlieren' (zurückfallen).",
+      "near_synonyms": [
+        {
+          "lemma": "die Verbindung",
+          "distinction": "allgemeiner, betont den Zustand des Verbundenseins"
+        },
+        {
+          "lemma": "die Buchse",
+          "distinction": "nur die physische Stecköffnung selbst"
+        }
+      ]
+    },
+    "Gerät": {
+      "meaning_de": "ein technischer Gegenstand, der für eine bestimmte Aufgabe gebaut ist",
+      "meaning_en": "device; appliance; piece of equipment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Geräts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Geräte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein technisches Gerät",
+          "gloss_en": "a technical device"
+        },
+        {
+          "phrase": "das Gerät bedienen",
+          "gloss_en": "to operate the device"
+        },
+        {
+          "phrase": "ein mobiles Gerät",
+          "gloss_en": "a mobile device"
+        },
+        {
+          "phrase": "das Gerät neu starten",
+          "gloss_en": "to restart the device"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auf welchem Gerät hast du die Datei gespeichert?",
+          "en": "Which device did you save the file on?"
+        },
+        {
+          "de": "Das Gerät schaltet sich nach zehn Minuten automatisch ab.",
+          "en": "The device switches off automatically after ten minutes."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sehr breit, von Haushaltsgeräten bis zu digitalen Endgeräten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Endgerät",
+          "distinction": "fachlich, ein Gerät am Ende einer Netzverbindung"
+        },
+        {
+          "lemma": "die Maschine",
+          "distinction": "größer und komplexer, meist mit beweglichen Teilen"
+        }
+      ]
+    },
+    "Akku": {
+      "meaning_de": "ein wieder aufladbarer Stromspeicher in einem Gerät",
+      "meaning_en": "rechargeable battery",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Akkus"
+        },
+        {
+          "label": "Plural",
+          "value": "die Akkus"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Akku ist leer",
+          "gloss_en": "the battery is dead"
+        },
+        {
+          "phrase": "den Akku laden",
+          "gloss_en": "to charge the battery"
+        },
+        {
+          "phrase": "der Akku hält lange",
+          "gloss_en": "the battery lasts a long time"
+        },
+        {
+          "phrase": "den Akku wechseln",
+          "gloss_en": "to change the battery"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mein Akku ist schon wieder fast leer.",
+          "en": "My battery is almost dead again."
+        },
+        {
+          "de": "Der neue Akku hält den ganzen Tag durch.",
+          "en": "The new battery lasts all day."
+        }
+      ],
+      "register": "colloquial",
+      "register_note": "Umgangssprachliche Kurzform von 'Akkumulator'; im Alltag völlig üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Batterie",
+          "distinction": "streng genommen nicht aufladbar, Einwegquelle"
+        },
+        {
+          "lemma": "der Akkumulator",
+          "distinction": "die fachliche, vollständige Bezeichnung"
+        }
+      ]
+    },
+    "Speicher": {
+      "meaning_de": "der Bereich in einem Gerät, in dem Daten abgelegt und bewahrt werden",
+      "meaning_en": "memory; storage",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Speichers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Speicher"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Speicher ist voll",
+          "gloss_en": "the storage is full"
+        },
+        {
+          "phrase": "den Speicher erweitern",
+          "gloss_en": "to expand the memory"
+        },
+        {
+          "phrase": "Daten im Speicher ablegen",
+          "gloss_en": "to store data in memory"
+        },
+        {
+          "phrase": "der interne Speicher",
+          "gloss_en": "the internal storage"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Speicher meines Handys ist voll.",
+          "en": "My phone's storage is full."
+        },
+        {
+          "de": "Die App belegt zu viel Speicher.",
+          "en": "The app takes up too much memory."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meint auch ein Gebäude zur Lagerung (z. B. Kornspeicher).",
+      "near_synonyms": [
+        {
+          "lemma": "der Arbeitsspeicher",
+          "distinction": "der flüchtige Speicher für laufende Programme"
+        },
+        {
+          "lemma": "die Festplatte",
+          "distinction": "ein konkretes Speichermedium, keine Kapazität"
+        }
+      ]
+    },
+    "Netzwerk": {
+      "meaning_de": "ein System aus verbundenen Geräten oder Personen, die miteinander in Verbindung stehen",
+      "meaning_en": "network",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Netzwerks"
+        },
+        {
+          "label": "Plural",
+          "value": "die Netzwerke"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein soziales Netzwerk",
+          "gloss_en": "a social network"
+        },
+        {
+          "phrase": "sich mit dem Netzwerk verbinden",
+          "gloss_en": "to connect to the network"
+        },
+        {
+          "phrase": "ein Netzwerk aufbauen",
+          "gloss_en": "to build a network"
+        },
+        {
+          "phrase": "das drahtlose Netzwerk",
+          "gloss_en": "the wireless network"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Netzwerk in unserem Büro ist heute ausgefallen.",
+          "en": "The network in our office is down today."
+        },
+        {
+          "de": "Über berufliche Netzwerke findet man leichter eine Stelle.",
+          "en": "Professional networks make it easier to find a job."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl technisch als auch für zwischenmenschliche Beziehungen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Netz",
+          "distinction": "kürzer, umgangssprachlich oft für das Internet"
+        },
+        {
+          "lemma": "das System",
+          "distinction": "allgemeiner, betont nicht die Vernetzung"
+        }
+      ]
+    },
+    "Übertragung": {
+      "meaning_de": "das Senden von Daten, Signalen oder Sendungen von einer Stelle zur anderen",
+      "meaning_en": "transmission; broadcast; transfer",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Übertragung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Übertragungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Übertragung der Daten",
+          "gloss_en": "the transfer of the data"
+        },
+        {
+          "phrase": "eine Live-Übertragung",
+          "gloss_en": "a live broadcast"
+        },
+        {
+          "phrase": "die Übertragung abbrechen",
+          "gloss_en": "to break off the transmission"
+        },
+        {
+          "phrase": "die drahtlose Übertragung",
+          "gloss_en": "the wireless transmission"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Während der Übertragung riss die Verbindung mehrmals ab.",
+          "en": "The connection dropped several times during the transmission."
+        },
+        {
+          "de": "Die Übertragung des Spiels beginnt um acht.",
+          "en": "The broadcast of the match starts at eight."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Medienbereich (Rundfunk) und in der Datentechnik gleichermaßen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sendung",
+          "distinction": "das fertige Medienprodukt, nicht der Vorgang"
+        },
+        {
+          "lemma": "die Ausstrahlung",
+          "distinction": "nur das Senden über Funk oder Fernsehen"
+        }
+      ]
+    },
+    "Absturz": {
+      "meaning_de": "das plötzliche Ausfallen oder Zusammenbrechen eines Programms oder Systems",
+      "meaning_en": "crash (of a program or system)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Absturzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abstürze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Absturz des Systems",
+          "gloss_en": "a system crash"
+        },
+        {
+          "phrase": "einen Absturz verursachen",
+          "gloss_en": "to cause a crash"
+        },
+        {
+          "phrase": "nach dem Absturz neu starten",
+          "gloss_en": "to restart after the crash"
+        },
+        {
+          "phrase": "ein plötzlicher Absturz",
+          "gloss_en": "a sudden crash"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Absturz waren alle ungespeicherten Daten weg.",
+          "en": "After the crash all unsaved data was gone."
+        },
+        {
+          "de": "Das Update soll die häufigen Abstürze beheben.",
+          "en": "The update is meant to fix the frequent crashes."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; ursprünglich das Herabstürzen (z. B. eines Flugzeugs), hier technisch übertragen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Ausfall",
+          "distinction": "allgemeiner, jedes Nichtfunktionieren, auch länger"
+        },
+        {
+          "lemma": "der Fehler",
+          "distinction": "die Störungsursache, nicht der Zusammenbruch selbst"
+        }
+      ]
+    },
+    "Störung": {
+      "meaning_de": "etwas, das den normalen Ablauf oder die Funktion beeinträchtigt oder unterbricht",
+      "meaning_en": "disruption; fault; interference",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Störung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Störungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine technische Störung",
+          "gloss_en": "a technical fault"
+        },
+        {
+          "phrase": "eine Störung beheben",
+          "gloss_en": "to fix a fault"
+        },
+        {
+          "phrase": "die Störung melden",
+          "gloss_en": "to report the disruption"
+        },
+        {
+          "phrase": "es kam zu einer Störung",
+          "gloss_en": "a disruption occurred"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wegen einer Störung im Netz war die Seite stundenlang nicht erreichbar.",
+          "en": "Due to a network fault the site was down for hours."
+        },
+        {
+          "de": "Entschuldigen Sie die Störung.",
+          "en": "Sorry to bother you."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch im Alltag ('Entschuldigung für die Störung') und in der Medizin.",
+      "near_synonyms": [
+        {
+          "lemma": "die Unterbrechung",
+          "distinction": "betont das zeitweilige Aussetzen, nicht den Defekt"
+        },
+        {
+          "lemma": "der Defekt",
+          "distinction": "ein konkreter Schaden am Gerät selbst"
+        }
+      ]
+    },
+    "Anbieter": {
+      "meaning_de": "eine Firma oder Person, die eine Ware oder Dienstleistung bereitstellt",
+      "meaning_en": "provider; supplier; vendor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Anbieters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anbieter"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Anbieter von etwas",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "der Anbieter wechseln",
+          "gloss_en": "to switch providers"
+        },
+        {
+          "phrase": "ein günstiger Anbieter",
+          "gloss_en": "an affordable provider"
+        },
+        {
+          "phrase": "der Anbieter von Streamingdiensten",
+          "gloss_en": "the provider of streaming services"
+        },
+        {
+          "phrase": "verschiedene Anbieter vergleichen",
+          "gloss_en": "to compare different providers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zu einem günstigeren Anbieter gewechselt.",
+          "en": "I switched to a cheaper provider."
+        },
+        {
+          "de": "Mehrere Anbieter buhlen um die Kunden.",
+          "en": "Several providers are vying for customers."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch in Wirtschaft, Telekommunikation und bei Onlinediensten.",
+      "near_synonyms": [
+        {
+          "lemma": "der Lieferant",
+          "distinction": "liefert konkrete Waren, meist an Unternehmen"
+        },
+        {
+          "lemma": "der Dienstleister",
+          "distinction": "erbringt Dienstleistungen, keine Waren"
+        }
+      ]
+    },
+    "Anwendung": {
+      "meaning_de": "ein Programm für einen bestimmten Zweck; auch: das Anwenden von etwas",
+      "meaning_en": "application; app; use",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Anwendung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anwendungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Anwendung öffnen",
+          "gloss_en": "to open an application"
+        },
+        {
+          "phrase": "eine mobile Anwendung",
+          "gloss_en": "a mobile app"
+        },
+        {
+          "phrase": "zur Anwendung kommen",
+          "gloss_en": "to be applied / used"
+        },
+        {
+          "phrase": "die praktische Anwendung",
+          "gloss_en": "the practical application"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Anwendung stürzt bei mir ständig ab.",
+          "en": "This application keeps crashing for me."
+        },
+        {
+          "de": "Die neue Methode findet in der Praxis breite Anwendung.",
+          "en": "The new method is widely applied in practice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Softwaresinn oft für 'App', im allgemeinen Sinn für 'Gebrauch'.",
+      "near_synonyms": [
+        {
+          "lemma": "die App",
+          "distinction": "umgangssprachlich, fast nur für mobile Programme"
+        },
+        {
+          "lemma": "das Programm",
+          "distinction": "allgemeiner, jede ausführbare Software"
+        }
+      ]
+    },
+    "Aktualisierung": {
+      "meaning_de": "das Auf-den-neuesten-Stand-Bringen von Daten oder Software",
+      "meaning_en": "update; updating",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Aktualisierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aktualisierungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Aktualisierung installieren",
+          "gloss_en": "to install an update"
+        },
+        {
+          "phrase": "die automatische Aktualisierung",
+          "gloss_en": "the automatic update"
+        },
+        {
+          "phrase": "eine Aktualisierung durchführen",
+          "gloss_en": "to carry out an update"
+        },
+        {
+          "phrase": "auf die neueste Aktualisierung warten",
+          "gloss_en": "to wait for the latest update"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Aktualisierung läuft das Programm deutlich schneller.",
+          "en": "After the update the program runs noticeably faster."
+        },
+        {
+          "de": "Die App braucht dringend eine Aktualisierung.",
+          "en": "The app urgently needs an update."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das förmlichere deutsche Wort für das englische 'Update'.",
+      "near_synonyms": [
+        {
+          "lemma": "das Update",
+          "distinction": "das gängige Anglizismus-Kurzwort, alltagssprachlich"
+        },
+        {
+          "lemma": "die Erneuerung",
+          "distinction": "allgemeiner, nicht auf Daten oder Software beschränkt"
+        }
+      ]
+    },
+    "Zugriff": {
+      "meaning_de": "die Möglichkeit, auf etwas zuzugreifen, es zu erreichen oder zu nutzen",
+      "meaning_en": "access",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zugriffs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zugriffe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Zugriff auf etwas",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Zugriff auf etwas haben",
+          "gloss_en": "to have access to something"
+        },
+        {
+          "phrase": "den Zugriff verweigern",
+          "gloss_en": "to deny access"
+        },
+        {
+          "phrase": "unbefugter Zugriff",
+          "gloss_en": "unauthorised access"
+        },
+        {
+          "phrase": "den Zugriff sperren",
+          "gloss_en": "to block access"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nur Administratoren haben Zugriff auf diese Datei.",
+          "en": "Only administrators have access to this file."
+        },
+        {
+          "de": "Die App fragt nach Zugriff auf deine Kontakte.",
+          "en": "The app is requesting access to your contacts."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in der IT sehr häufig, auch als Zählwort für Seitenaufrufe.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zugang",
+          "distinction": "eher die grundsätzliche Berechtigung oder Öffnung"
+        },
+        {
+          "lemma": "die Berechtigung",
+          "distinction": "das Recht selbst, nicht der Vorgang des Zugreifens"
+        }
+      ]
+    },
+    "Sicherheitslücke": {
+      "meaning_de": "eine Schwachstelle in einem System, über die Unbefugte eindringen können",
+      "meaning_en": "security vulnerability; security hole",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sicherheitslücke"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sicherheitslücken"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Sicherheitslücke entdecken",
+          "gloss_en": "to discover a security hole"
+        },
+        {
+          "phrase": "eine Sicherheitslücke schließen",
+          "gloss_en": "to close a security gap"
+        },
+        {
+          "phrase": "eine kritische Sicherheitslücke",
+          "gloss_en": "a critical vulnerability"
+        },
+        {
+          "phrase": "eine Sicherheitslücke ausnutzen",
+          "gloss_en": "to exploit a vulnerability"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Update schließt eine gefährliche Sicherheitslücke.",
+          "en": "The update closes a dangerous security hole."
+        },
+        {
+          "de": "Hacker hatten die Sicherheitslücke wochenlang ausgenutzt.",
+          "en": "Hackers had exploited the vulnerability for weeks."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Fachbegriff in der IT-Sicherheit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Schwachstelle",
+          "distinction": "allgemeiner, jede verwundbare Stelle, nicht nur digital"
+        },
+        {
+          "lemma": "das Leck",
+          "distinction": "eher unbeabsichtigtes Abfließen von Daten oder Stoffen"
+        }
+      ]
+    },
+    "Virus": {
+      "meaning_de": "ein schädliches Programm, das sich verbreitet und Geräte oder Daten befällt",
+      "meaning_en": "virus (computer)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Virus"
+        },
+        {
+          "label": "Plural",
+          "value": "die Viren"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Virus einfangen",
+          "gloss_en": "to catch a virus"
+        },
+        {
+          "phrase": "ein Virus befällt das System",
+          "gloss_en": "a virus infects the system"
+        },
+        {
+          "phrase": "einen Virus entfernen",
+          "gloss_en": "to remove a virus"
+        },
+        {
+          "phrase": "sich vor Viren schützen",
+          "gloss_en": "to protect against viruses"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein Virus hat sämtliche Dateien auf dem Rechner verschlüsselt.",
+          "en": "A virus encrypted all the files on the computer."
+        },
+        {
+          "de": "Das Programm sucht laufend nach Viren.",
+          "en": "The program constantly scans for viruses."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Im IT-Sinn meist 'der Virus'; in der Biologie dagegen 'das Virus'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Schadsoftware",
+          "distinction": "Oberbegriff für alle schädlichen Programme"
+        },
+        {
+          "lemma": "der Trojaner",
+          "distinction": "tarnt sich als harmlos, verbreitet sich aber nicht selbst"
+        }
+      ]
+    },
+    "Verschlüsselung": {
+      "meaning_de": "das Umwandeln von Daten in eine geheime Form, die nur Befugte lesen können",
+      "meaning_en": "encryption",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verschlüsselung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verschlüsselungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine sichere Verschlüsselung",
+          "gloss_en": "secure encryption"
+        },
+        {
+          "phrase": "die Verschlüsselung knacken",
+          "gloss_en": "to crack the encryption"
+        },
+        {
+          "phrase": "die Ende-zu-Ende-Verschlüsselung",
+          "gloss_en": "end-to-end encryption"
+        },
+        {
+          "phrase": "Daten durch Verschlüsselung schützen",
+          "gloss_en": "to protect data by encryption"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Messenger nutzt eine starke Verschlüsselung.",
+          "en": "The messenger uses strong encryption."
+        },
+        {
+          "de": "Ohne die richtige Verschlüsselung sind die Daten ungeschützt.",
+          "en": "Without proper encryption the data is unprotected."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Fachbegriff der Datensicherheit, Gegenbegriff zu Entschlüsselung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Chiffrierung",
+          "distinction": "fachlicher und älter, oft im militärischen Kontext"
+        },
+        {
+          "lemma": "die Codierung",
+          "distinction": "allgemeiner, nicht unbedingt geheim (auch bloße Umwandlung)"
+        }
+      ]
+    },
+    "Kennwort": {
+      "meaning_de": "eine geheime Zeichenfolge, mit der man sich Zugang verschafft",
+      "meaning_en": "password",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kennworts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kennwörter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Kennwort eingeben",
+          "gloss_en": "to enter a password"
+        },
+        {
+          "phrase": "ein sicheres Kennwort",
+          "gloss_en": "a secure password"
+        },
+        {
+          "phrase": "das Kennwort ändern",
+          "gloss_en": "to change the password"
+        },
+        {
+          "phrase": "das Kennwort vergessen",
+          "gloss_en": "to forget the password"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bitte geben Sie Ihr Kennwort ein.",
+          "en": "Please enter your password."
+        },
+        {
+          "de": "Aus Sicherheitsgründen sollten Sie das Kennwort regelmäßig ändern.",
+          "en": "For security reasons you should change the password regularly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; etwas förmlicher als das gängige 'Passwort', oft in Formularen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Passwort",
+          "distinction": "das alltäglichere, verbreitetere Wort"
+        },
+        {
+          "lemma": "der Code",
+          "distinction": "meist eine kurze Ziffernfolge, z. B. PIN"
+        }
+      ]
+    },
+    "Schnittstelle": {
+      "meaning_de": "die Stelle, an der zwei Systeme aufeinandertreffen und Daten austauschen",
+      "meaning_en": "interface",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Schnittstelle"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schnittstellen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Schnittstelle zwischen etwas",
+          "cases": "zwischen + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine gemeinsame Schnittstelle",
+          "gloss_en": "a common interface"
+        },
+        {
+          "phrase": "an der Schnittstelle arbeiten",
+          "gloss_en": "to work at the interface"
+        },
+        {
+          "phrase": "die Schnittstelle definieren",
+          "gloss_en": "to define the interface"
+        },
+        {
+          "phrase": "die Schnittstelle zwischen Mensch und Maschine",
+          "gloss_en": "the interface between human and machine"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Software bietet eine offene Schnittstelle für andere Programme.",
+          "en": "The software offers an open interface for other programs."
+        },
+        {
+          "de": "Sie arbeitet an der Schnittstelle zwischen Technik und Design.",
+          "en": "She works at the interface between technology and design."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; technisch (API) wie auch übertragen für einen Berührungspunkt.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verbindung",
+          "distinction": "allgemeiner, ohne den Aspekt des Austauschpunkts"
+        },
+        {
+          "lemma": "der Übergang",
+          "distinction": "betont das Hinüberwechseln, nicht den Datenaustausch"
+        }
+      ]
+    },
+    "Algorithmus": {
+      "meaning_de": "eine genau festgelegte Folge von Schritten zur Lösung einer Aufgabe",
+      "meaning_en": "algorithm",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Algorithmus"
+        },
+        {
+          "label": "Plural",
+          "value": "die Algorithmen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Algorithmus entwickeln",
+          "gloss_en": "to develop an algorithm"
+        },
+        {
+          "phrase": "ein komplexer Algorithmus",
+          "gloss_en": "a complex algorithm"
+        },
+        {
+          "phrase": "der Algorithmus berechnet etwas",
+          "gloss_en": "the algorithm calculates something"
+        },
+        {
+          "phrase": "einen Algorithmus optimieren",
+          "gloss_en": "to optimise an algorithm"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein Algorithmus entscheidet, welche Beiträge du zuerst siehst.",
+          "en": "An algorithm decides which posts you see first."
+        },
+        {
+          "de": "Der neue Algorithmus arbeitet deutlich effizienter.",
+          "en": "The new algorithm works considerably more efficiently."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachlich; aus Informatik und Mathematik, heute alltagsnah.",
+      "near_synonyms": [
+        {
+          "lemma": "das Verfahren",
+          "distinction": "allgemeiner, nicht zwingend eine formale Schrittfolge"
+        },
+        {
+          "lemma": "die Rechenvorschrift",
+          "distinction": "eine deutsche, engere Umschreibung desselben Begriffs"
+        }
+      ]
+    },
+    "Datenbank": {
+      "meaning_de": "ein System, in dem große Mengen von Daten geordnet gespeichert und abgerufen werden",
+      "meaning_en": "database",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Datenbank"
+        },
+        {
+          "label": "Plural",
+          "value": "die Datenbanken"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Datenbank abfragen",
+          "gloss_en": "to query a database"
+        },
+        {
+          "phrase": "Daten in einer Datenbank speichern",
+          "gloss_en": "to store data in a database"
+        },
+        {
+          "phrase": "eine Datenbank pflegen",
+          "gloss_en": "to maintain a database"
+        },
+        {
+          "phrase": "eine zentrale Datenbank",
+          "gloss_en": "a central database"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Alle Kundendaten werden in einer zentralen Datenbank verwaltet.",
+          "en": "All customer data is managed in a central database."
+        },
+        {
+          "de": "Die Suche durchsucht mehrere Datenbanken gleichzeitig.",
+          "en": "The search queries several databases at once."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff der Informatik, auch im Alltag geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "der Datenbestand",
+          "distinction": "die gespeicherten Daten selbst, nicht das System"
+        },
+        {
+          "lemma": "das Archiv",
+          "distinction": "eher zur langfristigen Aufbewahrung, oft weniger dynamisch"
+        }
+      ]
+    },
+    "Sender": {
+      "meaning_de": "wer oder was etwas aussendet; auch: ein Rundfunk- oder Fernsehprogramm",
+      "meaning_en": "sender; broadcaster; (radio/TV) station",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Senders"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sender"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Sender wechseln",
+          "gloss_en": "to change the channel"
+        },
+        {
+          "phrase": "ein öffentlich-rechtlicher Sender",
+          "gloss_en": "a public broadcaster"
+        },
+        {
+          "phrase": "der Sender strahlt etwas aus",
+          "gloss_en": "the station broadcasts something"
+        },
+        {
+          "phrase": "Sender und Empfänger",
+          "gloss_en": "sender and receiver"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Welchen Sender schaust du am liebsten?",
+          "en": "Which channel do you like watching most?"
+        },
+        {
+          "de": "Der Sender überträgt das Konzert live.",
+          "en": "The station broadcasts the concert live."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; polysem — im Alltag meist der TV-/Radiosender, in der Technik der Absender.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kanal",
+          "distinction": "eher das einzelne Programm oder der Übertragungsweg"
+        },
+        {
+          "lemma": "der Absender",
+          "distinction": "nur die sendende Person, z. B. eines Briefes"
+        }
+      ]
+    },
+    "Empfänger": {
+      "meaning_de": "wer oder was etwas empfängt, an den etwas gerichtet ist",
+      "meaning_en": "recipient; receiver",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Empfängers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Empfänger"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Empfänger angeben",
+          "gloss_en": "to specify the recipient"
+        },
+        {
+          "phrase": "der richtige Empfänger",
+          "gloss_en": "the correct recipient"
+        },
+        {
+          "phrase": "die Nachricht erreicht den Empfänger",
+          "gloss_en": "the message reaches the recipient"
+        },
+        {
+          "phrase": "Empfänger unbekannt",
+          "gloss_en": "recipient unknown"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die E-Mail ging aus Versehen an den falschen Empfänger.",
+          "en": "The email went to the wrong recipient by mistake."
+        },
+        {
+          "de": "Bitte tragen Sie den Empfänger im ersten Feld ein.",
+          "en": "Please enter the recipient in the first field."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Gegenstück zum Sender bzw. Absender.",
+      "near_synonyms": [
+        {
+          "lemma": "der Adressat",
+          "distinction": "förmlicher, die Person, an die etwas adressiert ist"
+        },
+        {
+          "lemma": "der Rezipient",
+          "distinction": "fachsprachlich, oft in der Medienwissenschaft"
+        }
+      ]
+    },
+    "Anhang": {
+      "meaning_de": "eine Datei, die an eine E-Mail angehängt ist; auch: ein Zusatzteil am Ende eines Textes",
+      "meaning_en": "attachment; appendix",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Anhangs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anhänge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Datei im Anhang",
+          "gloss_en": "a file in the attachment"
+        },
+        {
+          "phrase": "den Anhang öffnen",
+          "gloss_en": "to open the attachment"
+        },
+        {
+          "phrase": "etwas als Anhang schicken",
+          "gloss_en": "to send something as an attachment"
+        },
+        {
+          "phrase": "im Anhang finden Sie",
+          "gloss_en": "please find attached"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Anhang finden Sie die Rechnung als PDF.",
+          "en": "Please find the invoice as a PDF attached."
+        },
+        {
+          "de": "Öffne bitte keine Anhänge von unbekannten Absendern.",
+          "en": "Please don't open attachments from unknown senders."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im E-Mail-Kontext sehr häufig, auch für den Textteil (Appendix).",
+      "near_synonyms": [
+        {
+          "lemma": "die Beilage",
+          "distinction": "eher ein beigelegtes Dokument, weniger digital"
+        },
+        {
+          "lemma": "der Nachtrag",
+          "distinction": "eine spätere Ergänzung, nicht eine angehängte Datei"
+        }
+      ]
+    },
+    "Postfach": {
+      "meaning_de": "der Ort, an dem eingehende Nachrichten oder Briefe gesammelt werden",
+      "meaning_en": "mailbox; inbox; PO box",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Postfachs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Postfächer"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Postfach leeren",
+          "gloss_en": "to empty the mailbox"
+        },
+        {
+          "phrase": "eine Nachricht im Postfach",
+          "gloss_en": "a message in the inbox"
+        },
+        {
+          "phrase": "das Postfach ist voll",
+          "gloss_en": "the mailbox is full"
+        },
+        {
+          "phrase": "das Postfach überprüfen",
+          "gloss_en": "to check the inbox"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In meinem Postfach stapeln sich die ungelesenen Mails.",
+          "en": "Unread emails are piling up in my inbox."
+        },
+        {
+          "de": "Ihre Antwort liegt schon in Ihrem Postfach.",
+          "en": "Their reply is already in your inbox."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl das digitale E-Mail-Postfach als auch das physische Schließfach.",
+      "near_synonyms": [
+        {
+          "lemma": "der Posteingang",
+          "distinction": "nur der Ordner für eingehende Mails, nicht das ganze Konto"
+        },
+        {
+          "lemma": "der Briefkasten",
+          "distinction": "der physische Kasten für Papierpost"
+        }
+      ]
+    },
+    "Benachrichtigung": {
+      "meaning_de": "eine kurze Mitteilung, die über ein Ereignis informiert",
+      "meaning_en": "notification",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Benachrichtigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Benachrichtigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Benachrichtigung erhalten",
+          "gloss_en": "to receive a notification"
+        },
+        {
+          "phrase": "Benachrichtigungen ausschalten",
+          "gloss_en": "to turn off notifications"
+        },
+        {
+          "phrase": "eine Push-Benachrichtigung",
+          "gloss_en": "a push notification"
+        },
+        {
+          "phrase": "die Benachrichtigung übersehen",
+          "gloss_en": "to miss the notification"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe die Benachrichtigungen für diese App abgeschaltet.",
+          "en": "I turned off notifications for this app."
+        },
+        {
+          "de": "Bei jeder neuen Nachricht erscheint eine Benachrichtigung.",
+          "en": "A notification appears with every new message."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Smartphone-Kontext das übliche Wort für 'Notification'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Mitteilung",
+          "distinction": "allgemeiner und förmlicher, nicht speziell digital"
+        },
+        {
+          "lemma": "der Hinweis",
+          "distinction": "eher ein aufmerksam machender Wink, kürzer"
+        }
+      ]
+    },
+    "Redaktion": {
+      "meaning_de": "die Abteilung oder das Team, das Beiträge für Medien auswählt und bearbeitet",
+      "meaning_en": "editorial department; editorial team",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Redaktion"
+        },
+        {
+          "label": "Plural",
+          "value": "die Redaktionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Redaktion einer Zeitung",
+          "gloss_en": "the editorial team of a newspaper"
+        },
+        {
+          "phrase": "in der Redaktion arbeiten",
+          "gloss_en": "to work in the editorial department"
+        },
+        {
+          "phrase": "die Redaktion kontaktieren",
+          "gloss_en": "to contact the editorial team"
+        },
+        {
+          "phrase": "die zuständige Redaktion",
+          "gloss_en": "the responsible editorial team"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Redaktion hat den Artikel kurzfristig zurückgezogen.",
+          "en": "The editorial team pulled the article at short notice."
+        },
+        {
+          "de": "Zuschriften richten Sie bitte an die Redaktion.",
+          "en": "Please send letters to the editorial department."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meint das Team, die Räume oder den Vorgang des Redigierens.",
+      "near_synonyms": [
+        {
+          "lemma": "die Schriftleitung",
+          "distinction": "älter und förmlicher für die leitende Redaktion"
+        },
+        {
+          "lemma": "das Ressort",
+          "distinction": "nur ein Fachbereich innerhalb der Redaktion"
+        }
+      ]
+    },
+    "Berichterstattung": {
+      "meaning_de": "das Berichten über Ereignisse in den Medien",
+      "meaning_en": "reporting; news coverage",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Berichterstattung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Berichterstattung über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine sachliche Berichterstattung",
+          "gloss_en": "objective reporting"
+        },
+        {
+          "phrase": "die Berichterstattung über den Krieg",
+          "gloss_en": "the coverage of the war"
+        },
+        {
+          "phrase": "einseitige Berichterstattung",
+          "gloss_en": "one-sided reporting"
+        },
+        {
+          "phrase": "die aktuelle Berichterstattung",
+          "gloss_en": "the current coverage"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Berichterstattung über den Prozess war äußerst einseitig.",
+          "en": "The coverage of the trial was extremely one-sided."
+        },
+        {
+          "de": "Man kritisierte die reißerische Berichterstattung.",
+          "en": "The sensationalist reporting was criticised."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; fester Begriff des Journalismus, meist ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Reportage",
+          "distinction": "ein einzelner, oft erlebnisnaher Bericht"
+        },
+        {
+          "lemma": "die Berichte",
+          "distinction": "die einzelnen Meldungen, nicht der Vorgang insgesamt"
+        }
+      ]
+    },
+    "Rundfunk": {
+      "meaning_de": "die Verbreitung von Programmen über Radio und Fernsehen",
+      "meaning_en": "broadcasting",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rundfunks"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der öffentlich-rechtliche Rundfunk",
+          "gloss_en": "public broadcasting"
+        },
+        {
+          "phrase": "im Rundfunk übertragen",
+          "gloss_en": "to broadcast on air"
+        },
+        {
+          "phrase": "der Rundfunk berichtet",
+          "gloss_en": "broadcasting reports"
+        },
+        {
+          "phrase": "die Freiheit des Rundfunks",
+          "gloss_en": "freedom of broadcasting"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Rede wurde im Rundfunk übertragen.",
+          "en": "The speech was broadcast on air."
+        },
+        {
+          "de": "Der öffentlich-rechtliche Rundfunk finanziert sich über Beiträge.",
+          "en": "Public broadcasting is financed through fees."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; Oberbegriff für Hörfunk und Fernsehen, ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "der Hörfunk",
+          "distinction": "nur das Radio, ohne das Fernsehen"
+        },
+        {
+          "lemma": "das Fernsehen",
+          "distinction": "nur der Bildteil des Rundfunks"
+        }
+      ]
+    },
+    "Sendung": {
+      "meaning_de": "ein einzelnes Programm im Radio oder Fernsehen",
+      "meaning_en": "programme; show; broadcast",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sendung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sendungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Sendung sehen",
+          "gloss_en": "to watch a programme"
+        },
+        {
+          "phrase": "eine Sendung aufzeichnen",
+          "gloss_en": "to record a show"
+        },
+        {
+          "phrase": "die Sendung läuft live",
+          "gloss_en": "the programme is live"
+        },
+        {
+          "phrase": "eine beliebte Sendung",
+          "gloss_en": "a popular show"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Sendung läuft jeden Sonntagabend.",
+          "en": "This programme is on every Sunday evening."
+        },
+        {
+          "de": "Die Sendung wurde wegen schlechter Quoten abgesetzt.",
+          "en": "The show was cancelled because of poor ratings."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meint auch eine verschickte Warensendung (z. B. Paketsendung).",
+      "near_synonyms": [
+        {
+          "lemma": "die Show",
+          "distinction": "eher unterhaltend, oft mit Publikum"
+        },
+        {
+          "lemma": "das Programm",
+          "distinction": "das gesamte Angebot eines Senders, nicht ein Einzelbeitrag"
+        }
+      ]
+    },
+    "Auflage": {
+      "meaning_de": "die Anzahl der gedruckten Exemplare einer Ausgabe; auch: eine Bedingung",
+      "meaning_en": "circulation; edition; (also) condition",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Auflage"
+        },
+        {
+          "label": "Plural",
+          "value": "die Auflagen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine hohe Auflage",
+          "gloss_en": "a high circulation"
+        },
+        {
+          "phrase": "die Auflage sinkt",
+          "gloss_en": "the circulation is falling"
+        },
+        {
+          "phrase": "die zweite Auflage",
+          "gloss_en": "the second edition"
+        },
+        {
+          "phrase": "eine Auflage erfüllen",
+          "gloss_en": "to meet a condition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Zeitung hat ihre Auflage in zehn Jahren halbiert.",
+          "en": "The newspaper halved its circulation in ten years."
+        },
+        {
+          "de": "Das Buch erscheint bereits in der dritten Auflage.",
+          "en": "The book is already in its third edition."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; polysem — im Medienkontext die Druckzahl, sonst auch eine Bedingung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ausgabe",
+          "distinction": "die einzelne Nummer oder Fassung, nicht die Stückzahl"
+        },
+        {
+          "lemma": "die Reichweite",
+          "distinction": "die Zahl der tatsächlichen Leser, nicht der Exemplare"
+        }
+      ]
+    },
+    "Plattform": {
+      "meaning_de": "ein digitaler Dienst, der Nutzer, Inhalte oder Angebote zusammenbringt",
+      "meaning_en": "platform",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Plattform"
+        },
+        {
+          "label": "Plural",
+          "value": "die Plattformen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine digitale Plattform",
+          "gloss_en": "a digital platform"
+        },
+        {
+          "phrase": "auf einer Plattform aktiv sein",
+          "gloss_en": "to be active on a platform"
+        },
+        {
+          "phrase": "Inhalte auf der Plattform teilen",
+          "gloss_en": "to share content on the platform"
+        },
+        {
+          "phrase": "eine Plattform betreiben",
+          "gloss_en": "to run a platform"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Videos werden auf mehreren Plattformen gleichzeitig veröffentlicht.",
+          "en": "The videos are published on several platforms at once."
+        },
+        {
+          "de": "Immer mehr Menschen verkaufen ihre Waren über solche Plattformen.",
+          "en": "More and more people sell their goods via such platforms."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; ursprünglich eine erhöhte Fläche (z. B. Bohrplattform), heute meist digital.",
+      "near_synonyms": [
+        {
+          "lemma": "das Portal",
+          "distinction": "eher eine Einstiegsseite mit gebündeltem Zugang"
+        },
+        {
+          "lemma": "der Dienst",
+          "distinction": "die angebotene Leistung, nicht der vernetzende Rahmen"
+        }
+      ]
+    },
+    "herunterladen": {
+      "meaning_de": "Daten aus einem Netz auf das eigene Gerät holen",
+      "meaning_en": "to download",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lädt herunter"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er lud herunter"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat heruntergeladen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er lüde herunter"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas herunterladen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Datei herunterladen",
+          "gloss_en": "to download a file"
+        },
+        {
+          "phrase": "eine App herunterladen",
+          "gloss_en": "to download an app"
+        },
+        {
+          "phrase": "kostenlos herunterladen",
+          "gloss_en": "to download for free"
+        },
+        {
+          "phrase": "ein Update herunterladen",
+          "gloss_en": "to download an update"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Du kannst das Programm kostenlos herunterladen.",
+          "en": "You can download the program for free."
+        },
+        {
+          "de": "Ich habe mir gestern den ganzen Film heruntergeladen.",
+          "en": "I downloaded the whole film yesterday."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das trennbare deutsche Verb zu 'downloaden', im Alltag üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "downloaden",
+          "distinction": "der Anglizismus, umgangssprachlich gleichbedeutend"
+        },
+        {
+          "lemma": "speichern",
+          "distinction": "das Ablegen selbst, nicht das Holen aus dem Netz"
+        }
+      ]
+    },
+    "hochladen": {
+      "meaning_de": "Daten vom eigenen Gerät in ein Netz oder auf einen Server übertragen",
+      "meaning_en": "to upload",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lädt hoch"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er lud hoch"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat hochgeladen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er lüde hoch"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas hochladen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Video hochladen",
+          "gloss_en": "to upload a video"
+        },
+        {
+          "phrase": "Fotos hochladen",
+          "gloss_en": "to upload photos"
+        },
+        {
+          "phrase": "etwas auf den Server hochladen",
+          "gloss_en": "to upload something to the server"
+        },
+        {
+          "phrase": "ein Dokument hochladen",
+          "gloss_en": "to upload a document"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie lädt jede Woche ein neues Video hoch.",
+          "en": "She uploads a new video every week."
+        },
+        {
+          "de": "Bitte laden Sie Ihren Lebenslauf hier hoch.",
+          "en": "Please upload your CV here."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Gegenstück zu herunterladen, ebenfalls trennbar.",
+      "near_synonyms": [
+        {
+          "lemma": "uploaden",
+          "distinction": "der Anglizismus, umgangssprachlich gleichbedeutend"
+        },
+        {
+          "lemma": "posten",
+          "distinction": "veröffentlichen in sozialen Medien, nicht bloß übertragen"
+        }
+      ]
+    },
+    "installieren": {
+      "meaning_de": "ein Programm auf einem Gerät einrichten, sodass es benutzt werden kann",
+      "meaning_en": "to install",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er installiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er installierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat installiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er installierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas installieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Programm installieren",
+          "gloss_en": "to install a program"
+        },
+        {
+          "phrase": "eine App neu installieren",
+          "gloss_en": "to reinstall an app"
+        },
+        {
+          "phrase": "ein Update installieren",
+          "gloss_en": "to install an update"
+        },
+        {
+          "phrase": "die Software installieren",
+          "gloss_en": "to install the software"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zuerst musst du die neueste Version installieren.",
+          "en": "First you have to install the latest version."
+        },
+        {
+          "de": "Nach dem Neustart hat er das Programm noch einmal installiert.",
+          "en": "After the restart he installed the program again."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch für das Einbauen von Geräten (z. B. eine Heizung installieren).",
+      "near_synonyms": [
+        {
+          "lemma": "einrichten",
+          "distinction": "betont das Konfigurieren, nicht nur das Aufspielen"
+        },
+        {
+          "lemma": "aufspielen",
+          "distinction": "umgangssprachlich, nur das Übertragen der Software"
+        }
+      ]
+    },
+    "formatieren": {
+      "meaning_de": "einen Datenträger löschen und neu strukturieren; auch: einen Text gestalten",
+      "meaning_en": "to format",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er formatiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er formatierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat formatiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er formatierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas formatieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Festplatte formatieren",
+          "gloss_en": "to format the hard drive"
+        },
+        {
+          "phrase": "einen USB-Stick formatieren",
+          "gloss_en": "to format a USB stick"
+        },
+        {
+          "phrase": "einen Text formatieren",
+          "gloss_en": "to format a text"
+        },
+        {
+          "phrase": "neu formatieren",
+          "gloss_en": "to reformat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bevor du sie verkaufst, solltest du die Festplatte formatieren.",
+          "en": "Before you sell it, you should format the hard drive."
+        },
+        {
+          "de": "Beim Formatieren gehen alle Daten verloren.",
+          "en": "Formatting deletes all the data."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Sinne von 'löschen' des Datenträgers wie auch 'gestalten' eines Textes.",
+      "near_synonyms": [
+        {
+          "lemma": "löschen",
+          "distinction": "nur das Entfernen der Daten, ohne Neustrukturierung"
+        },
+        {
+          "lemma": "gestalten",
+          "distinction": "beim Text das inhaltlich-optische Formen, weiter gefasst"
+        }
+      ]
+    },
+    "entschlüsseln": {
+      "meaning_de": "verschlüsselte Daten wieder in eine lesbare Form zurückverwandeln",
+      "meaning_en": "to decrypt; to decode",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entschlüsselt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entschlüsselte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entschlüsselt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entschlüsselte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas entschlüsseln",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Nachricht entschlüsseln",
+          "gloss_en": "to decrypt a message"
+        },
+        {
+          "phrase": "einen Code entschlüsseln",
+          "gloss_en": "to decode a cipher"
+        },
+        {
+          "phrase": "die Daten entschlüsseln",
+          "gloss_en": "to decrypt the data"
+        },
+        {
+          "phrase": "ein Geheimnis entschlüsseln",
+          "gloss_en": "to unravel a secret"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne den passenden Schlüssel lässt sich die Datei nicht entschlüsseln.",
+          "en": "Without the right key the file can't be decrypted."
+        },
+        {
+          "de": "Den Forschern gelang es, den alten Code zu entschlüsseln.",
+          "en": "The researchers managed to decode the old cipher."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Gegenteil von verschlüsseln, auch übertragen ('ein Rätsel entschlüsseln').",
+      "near_synonyms": [
+        {
+          "lemma": "dechiffrieren",
+          "distinction": "fachlicher und förmlicher, oft in der Kryptografie"
+        },
+        {
+          "lemma": "knacken",
+          "distinction": "umgangssprachlich, betont das unbefugte Überwinden"
+        }
+      ]
+    },
+    "hacken": {
+      "meaning_de": "unbefugt in ein Computersystem eindringen",
+      "meaning_en": "to hack (into a system)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er hackt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er hackte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gehackt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er hackte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich in etwas hacken",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Konto hacken",
+          "gloss_en": "to hack an account"
+        },
+        {
+          "phrase": "sich in ein System hacken",
+          "gloss_en": "to hack into a system"
+        },
+        {
+          "phrase": "eine Website hacken",
+          "gloss_en": "to hack a website"
+        },
+        {
+          "phrase": "gehackt werden",
+          "gloss_en": "to get hacked"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Unbekannte haben das E-Mail-Konto der Firma gehackt.",
+          "en": "Unknown attackers hacked the company's email account."
+        },
+        {
+          "de": "Sie hackten sich in das Netzwerk der Behörde.",
+          "en": "They hacked into the authority's network."
+        }
+      ],
+      "register": "colloquial",
+      "register_note": "Umgangssprachlich-technisch; der Anglizismus meint auch bloßes 'Tippen' oder 'Hacken' von Holz.",
+      "near_synonyms": [
+        {
+          "lemma": "eindringen",
+          "distinction": "neutraler, allgemein das unbefugte Hineingelangen"
+        },
+        {
+          "lemma": "knacken",
+          "distinction": "betont das Überwinden eines Schutzes (z. B. eines Passworts)"
+        }
+      ]
+    },
+    "programmieren": {
+      "meaning_de": "einem Computer durch Code Anweisungen geben; Software schreiben",
+      "meaning_en": "to program; to code",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er programmiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er programmierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat programmiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er programmierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas programmieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine App programmieren",
+          "gloss_en": "to program an app"
+        },
+        {
+          "phrase": "eine Website programmieren",
+          "gloss_en": "to code a website"
+        },
+        {
+          "phrase": "in einer Sprache programmieren",
+          "gloss_en": "to program in a language"
+        },
+        {
+          "phrase": "programmieren lernen",
+          "gloss_en": "to learn to code"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er hat die ganze Anwendung selbst programmiert.",
+          "en": "He programmed the whole application himself."
+        },
+        {
+          "de": "In der Schule lernen die Kinder heute programmieren.",
+          "en": "At school children now learn to code."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch übertragen für das Voreinstellen von Geräten (die Waschmaschine programmieren).",
+      "near_synonyms": [
+        {
+          "lemma": "coden",
+          "distinction": "umgangssprachlicher Anglizismus, unter Entwicklern gängig"
+        },
+        {
+          "lemma": "entwickeln",
+          "distinction": "weiter gefasst, umfasst Planung und Aufbau der Software"
+        }
+      ]
+    },
+    "streamen": {
+      "meaning_de": "Ton oder Bild aus dem Netz laufend abspielen, ohne es dauerhaft zu speichern",
+      "meaning_en": "to stream",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er streamt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er streamte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gestreamt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er streamte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas streamen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Film streamen",
+          "gloss_en": "to stream a film"
+        },
+        {
+          "phrase": "Musik streamen",
+          "gloss_en": "to stream music"
+        },
+        {
+          "phrase": "live streamen",
+          "gloss_en": "to livestream"
+        },
+        {
+          "phrase": "ein Spiel streamen",
+          "gloss_en": "to stream a game"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir streamen die Serie heute Abend zu Ende.",
+          "en": "We'll finish streaming the series tonight."
+        },
+        {
+          "de": "Das Konzert wurde live ins Netz gestreamt.",
+          "en": "The concert was livestreamed onto the internet."
+        }
+      ],
+      "register": "colloquial",
+      "register_note": "Umgangssprachlich; junger Anglizismus, im Medienalltag fest etabliert.",
+      "near_synonyms": [
+        {
+          "lemma": "übertragen",
+          "distinction": "allgemeiner, auch klassisches Senden über Funk"
+        },
+        {
+          "lemma": "abspielen",
+          "distinction": "das Wiedergeben selbst, ohne den Aspekt des Netzabrufs"
+        }
+      ]
+    },
+    "veröffentlichen": {
+      "meaning_de": "etwas der Öffentlichkeit zugänglich machen, z. B. drucken oder online stellen",
+      "meaning_en": "to publish; to release",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er veröffentlicht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er veröffentlichte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat veröffentlicht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er veröffentlichte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas veröffentlichen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Artikel veröffentlichen",
+          "gloss_en": "to publish an article"
+        },
+        {
+          "phrase": "ein Buch veröffentlichen",
+          "gloss_en": "to publish a book"
+        },
+        {
+          "phrase": "die Ergebnisse veröffentlichen",
+          "gloss_en": "to publish the results"
+        },
+        {
+          "phrase": "online veröffentlichen",
+          "gloss_en": "to publish online"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Zeitung veröffentlichte die Fotos ohne Einwilligung.",
+          "en": "The newspaper published the photos without consent."
+        },
+        {
+          "de": "Sie hat ihren ersten Roman im Eigenverlag veröffentlicht.",
+          "en": "She self-published her first novel."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl im klassischen Verlagswesen als auch für Onlineinhalte.",
+      "near_synonyms": [
+        {
+          "lemma": "herausgeben",
+          "distinction": "betont die verlegerische Verantwortung, oft für Werke anderer"
+        },
+        {
+          "lemma": "posten",
+          "distinction": "umgangssprachlich, nur für kurze Beiträge in sozialen Medien"
+        }
+      ]
+    },
+    "ausstrahlen": {
+      "meaning_de": "eine Sendung über Funk oder Fernsehen senden",
+      "meaning_en": "to broadcast; to air",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er strahlt aus"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er strahlte aus"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat ausgestrahlt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er strahlte aus"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas ausstrahlen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Sendung ausstrahlen",
+          "gloss_en": "to air a programme"
+        },
+        {
+          "phrase": "live ausstrahlen",
+          "gloss_en": "to broadcast live"
+        },
+        {
+          "phrase": "im Fernsehen ausstrahlen",
+          "gloss_en": "to broadcast on television"
+        },
+        {
+          "phrase": "einen Beitrag ausstrahlen",
+          "gloss_en": "to air a segment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Sender strahlt die Dokumentation erst nächste Woche aus.",
+          "en": "The channel isn't airing the documentary until next week."
+        },
+        {
+          "de": "Das Interview wurde bundesweit ausgestrahlt.",
+          "en": "The interview was broadcast nationwide."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Medienbereich fachlich, meint auch 'Wärme/Ruhe ausstrahlen' (übertragen).",
+      "near_synonyms": [
+        {
+          "lemma": "senden",
+          "distinction": "allgemeiner und alltäglicher für dasselbe"
+        },
+        {
+          "lemma": "übertragen",
+          "distinction": "betont die Live-Weiterleitung eines Ereignisses"
+        }
+      ]
+    },
+    "abonnieren": {
+      "meaning_de": "etwas regelmäßig beziehen, indem man sich fest dafür anmeldet",
+      "meaning_en": "to subscribe to",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er abonniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er abonnierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abonniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er abonnierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas abonnieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Zeitung abonnieren",
+          "gloss_en": "to subscribe to a newspaper"
+        },
+        {
+          "phrase": "einen Kanal abonnieren",
+          "gloss_en": "to subscribe to a channel"
+        },
+        {
+          "phrase": "einen Newsletter abonnieren",
+          "gloss_en": "to subscribe to a newsletter"
+        },
+        {
+          "phrase": "einen Dienst abonnieren",
+          "gloss_en": "to subscribe to a service"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Über eine Million Menschen haben ihren Kanal abonniert.",
+          "en": "Over a million people have subscribed to her channel."
+        },
+        {
+          "de": "Wir abonnieren die Zeitung schon seit Jahren.",
+          "en": "We've been subscribing to the newspaper for years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; klassisch für Zeitungen, heute auch für Streaming und Onlinekanäle.",
+      "near_synonyms": [
+        {
+          "lemma": "beziehen",
+          "distinction": "allgemeiner, das regelmäßige Erhalten, ohne den Anmeldeakt"
+        },
+        {
+          "lemma": "folgen",
+          "distinction": "in sozialen Medien, meist kostenlos und lockerer"
+        }
+      ]
+    },
+    "recherchieren": {
+      "meaning_de": "systematisch nach Informationen suchen, um etwas zu klären",
+      "meaning_en": "to research; to investigate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er recherchiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er recherchierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat recherchiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er recherchierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "nach etwas recherchieren",
+          "cases": "nach + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "gründlich recherchieren",
+          "gloss_en": "to research thoroughly"
+        },
+        {
+          "phrase": "im Internet recherchieren",
+          "gloss_en": "to research online"
+        },
+        {
+          "phrase": "einen Fall recherchieren",
+          "gloss_en": "to investigate a case"
+        },
+        {
+          "phrase": "verdeckt recherchieren",
+          "gloss_en": "to research undercover"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Journalistin recherchierte monatelang zu dem Skandal.",
+          "en": "The journalist spent months investigating the scandal."
+        },
+        {
+          "de": "Bevor du kaufst, solltest du gründlich recherchieren.",
+          "en": "Before you buy, you should research thoroughly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch für Journalismus, Wissenschaft und sorgfältige Vorbereitung.",
+      "near_synonyms": [
+        {
+          "lemma": "nachforschen",
+          "distinction": "eher einem konkreten Verdacht nachgehen"
+        },
+        {
+          "lemma": "ermitteln",
+          "distinction": "amtlich, meist durch Polizei oder Behörden"
+        }
+      ]
+    },
+    "digital": {
+      "meaning_de": "auf Daten in Ziffernform beruhend; die Computertechnik betreffend",
+      "meaning_en": "digital",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die digitale Welt",
+          "gloss_en": "the digital world"
+        },
+        {
+          "phrase": "digitale Medien",
+          "gloss_en": "digital media"
+        },
+        {
+          "phrase": "die digitale Transformation",
+          "gloss_en": "the digital transformation"
+        },
+        {
+          "phrase": "digital arbeiten",
+          "gloss_en": "to work digitally"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Immer mehr Behörden bieten ihre Dienste digital an.",
+          "en": "More and more authorities offer their services digitally."
+        },
+        {
+          "de": "Die Prüfung wird künftig rein digital abgenommen.",
+          "en": "The exam will in future be taken purely digitally."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; nicht steigerbar (Gegensatz zu 'analog'), daher keine Vergleichsformen.",
+      "near_synonyms": [
+        {
+          "lemma": "elektronisch",
+          "distinction": "betont die technische Umsetzung, nicht die Datenform"
+        },
+        {
+          "lemma": "virtuell",
+          "distinction": "nur scheinbar vorhanden, computererzeugt"
+        }
+      ]
+    },
+    "virtuell": {
+      "meaning_de": "nicht wirklich, sondern nur durch den Computer erzeugt oder abgebildet",
+      "meaning_en": "virtual",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die virtuelle Realität",
+          "gloss_en": "virtual reality"
+        },
+        {
+          "phrase": "ein virtuelles Treffen",
+          "gloss_en": "a virtual meeting"
+        },
+        {
+          "phrase": "virtuell stattfinden",
+          "gloss_en": "to take place virtually"
+        },
+        {
+          "phrase": "ein virtueller Rundgang",
+          "gloss_en": "a virtual tour"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Konferenz fand dieses Jahr rein virtuell statt.",
+          "en": "This year the conference was held purely virtually."
+        },
+        {
+          "de": "Mit der Brille taucht man in eine virtuelle Welt ein.",
+          "en": "With the headset you dive into a virtual world."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; nicht steigerbar, Gegensatz zu 'real' bzw. 'physisch'.",
+      "near_synonyms": [
+        {
+          "lemma": "digital",
+          "distinction": "auf Daten beruhend, nicht zwingend eine Scheinwelt"
+        },
+        {
+          "lemma": "simuliert",
+          "distinction": "betont das gezielte Nachbilden eines Vorgangs"
+        }
+      ]
+    },
+    "drahtlos": {
+      "meaning_de": "ohne Kabel, über Funk übertragen",
+      "meaning_en": "wireless",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine drahtlose Verbindung",
+          "gloss_en": "a wireless connection"
+        },
+        {
+          "phrase": "drahtlose Kopfhörer",
+          "gloss_en": "wireless headphones"
+        },
+        {
+          "phrase": "drahtlos übertragen",
+          "gloss_en": "to transmit wirelessly"
+        },
+        {
+          "phrase": "das drahtlose Netzwerk",
+          "gloss_en": "the wireless network"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Daten werden drahtlos an den Drucker übertragen.",
+          "en": "The data is transmitted wirelessly to the printer."
+        },
+        {
+          "de": "Fast alle neuen Geräte sind drahtlos.",
+          "en": "Almost all new devices are wireless."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; nicht steigerbar, da ein Ja-oder-Nein-Merkmal (mit oder ohne Kabel).",
+      "near_synonyms": [
+        {
+          "lemma": "kabellos",
+          "distinction": "bedeutungsgleich, etwas alltäglicher formuliert"
+        },
+        {
+          "lemma": "mobil",
+          "distinction": "betont die Ortsungebundenheit, nicht die Funkübertragung"
+        }
+      ]
+    },
+    "interaktiv": {
+      "meaning_de": "so gestaltet, dass Nutzer und System aufeinander reagieren können",
+      "meaning_en": "interactive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "interaktiver"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am interaktivsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine interaktive Karte",
+          "gloss_en": "an interactive map"
+        },
+        {
+          "phrase": "interaktive Übungen",
+          "gloss_en": "interactive exercises"
+        },
+        {
+          "phrase": "ein interaktives Whiteboard",
+          "gloss_en": "an interactive whiteboard"
+        },
+        {
+          "phrase": "interaktiv gestalten",
+          "gloss_en": "to make interactive"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Lernprogramm ist interaktiv und passt sich dem Nutzer an.",
+          "en": "The learning program is interactive and adapts to the user."
+        },
+        {
+          "de": "Auf der interaktiven Karte kann man jeden Ort anklicken.",
+          "en": "On the interactive map you can click on any location."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch für Software, Lernmedien und Ausstellungen.",
+      "near_synonyms": [
+        {
+          "lemma": "mitmachbar",
+          "distinction": "umgangssprachlich, betont das aktive Teilnehmen"
+        },
+        {
+          "lemma": "dialogfähig",
+          "distinction": "fachlich, betont den Austausch von Eingabe und Reaktion"
+        }
+      ]
+    },
+    "benutzerfreundlich": {
+      "meaning_de": "einfach und angenehm zu bedienen",
+      "meaning_en": "user-friendly",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "benutzerfreundlicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am benutzerfreundlichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine benutzerfreundliche Oberfläche",
+          "gloss_en": "a user-friendly interface"
+        },
+        {
+          "phrase": "benutzerfreundlich gestaltet",
+          "gloss_en": "designed to be user-friendly"
+        },
+        {
+          "phrase": "besonders benutzerfreundlich",
+          "gloss_en": "particularly user-friendly"
+        },
+        {
+          "phrase": "eine benutzerfreundliche App",
+          "gloss_en": "a user-friendly app"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die neue Oberfläche ist deutlich benutzerfreundlicher als die alte.",
+          "en": "The new interface is much more user-friendly than the old one."
+        },
+        {
+          "de": "Das Programm überzeugt vor allem durch seine benutzerfreundliche Bedienung.",
+          "en": "The program stands out above all for its user-friendly operation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; gängiges Lob in Technikbeschreibungen und Produkttests.",
+      "near_synonyms": [
+        {
+          "lemma": "bedienerfreundlich",
+          "distinction": "fast bedeutungsgleich, etwas technischer"
+        },
+        {
+          "lemma": "intuitiv",
+          "distinction": "betont, dass man die Bedienung ohne Erklärung versteht"
+        }
+      ]
+    },
+    "leistungsstark": {
+      "meaning_de": "fähig, viel zu leisten; mit hoher Leistung",
+      "meaning_en": "powerful; high-performance",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "leistungsstärker"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am leistungsstärksten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein leistungsstarker Rechner",
+          "gloss_en": "a powerful computer"
+        },
+        {
+          "phrase": "ein leistungsstarker Akku",
+          "gloss_en": "a high-capacity battery"
+        },
+        {
+          "phrase": "besonders leistungsstark",
+          "gloss_en": "particularly powerful"
+        },
+        {
+          "phrase": "leistungsstarke Hardware",
+          "gloss_en": "powerful hardware"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für aufwendige Spiele braucht man einen leistungsstarken Rechner.",
+          "en": "For demanding games you need a powerful computer."
+        },
+        {
+          "de": "Der neue Chip ist doppelt so leistungsstark wie sein Vorgänger.",
+          "en": "The new chip is twice as powerful as its predecessor."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; werbetypisch für Technik, Motoren und Unternehmen.",
+      "near_synonyms": [
+        {
+          "lemma": "leistungsfähig",
+          "distinction": "betont die Fähigkeit zur Leistung, etwas nüchterner"
+        },
+        {
+          "lemma": "stark",
+          "distinction": "allgemeiner und alltäglicher, nicht speziell auf technische Leistung bezogen"
+        }
+      ]
+    }
+  }
+}

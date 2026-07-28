@@ -1,0 +1,2906 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2 Gesundheit & Medizin domain batch (b2-02). Keyed by lemma.",
+  "dossiers": {
+    "Entzündung": {
+      "meaning_de": "eine schmerzhafte Reaktion des Körpers auf Erreger, Reizung oder Verletzung, oft mit Rötung und Schwellung",
+      "meaning_en": "inflammation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Entzündung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Entzündungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine akute Entzündung",
+          "gloss_en": "an acute inflammation"
+        },
+        {
+          "phrase": "eine Entzündung hemmen",
+          "gloss_en": "to reduce an inflammation"
+        },
+        {
+          "phrase": "eine Entzündung im Rachen",
+          "gloss_en": "an inflammation in the throat"
+        },
+        {
+          "phrase": "sich eine Entzündung zuziehen",
+          "gloss_en": "to develop an inflammation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Wunde hat sich entzündet, jetzt hat er eine schmerzhafte Entzündung.",
+          "en": "The wound became infected, now he has a painful inflammation."
+        },
+        {
+          "de": "Der Arzt verschrieb ein Mittel gegen die Entzündung.",
+          "en": "The doctor prescribed something for the inflammation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinischer Alltagsbegriff, gleichermaßen in der Praxis und umgangssprachlich gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Infektion",
+          "distinction": "der Befall mit Erregern, nicht die Gewebereaktion selbst"
+        },
+        {
+          "lemma": "die Reizung",
+          "distinction": "leichter, ohne die typischen Entzündungszeichen"
+        }
+      ]
+    },
+    "Impfung": {
+      "meaning_de": "das Verabreichen eines Impfstoffs, um den Körper vor einer Krankheit zu schützen",
+      "meaning_en": "vaccination; immunization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Impfung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Impfungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Impfung gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Impfung gegen Grippe",
+          "gloss_en": "a flu vaccination"
+        },
+        {
+          "phrase": "die Impfung auffrischen",
+          "gloss_en": "to get a booster shot"
+        },
+        {
+          "phrase": "sich zur Impfung anmelden",
+          "gloss_en": "to register for a vaccination"
+        },
+        {
+          "phrase": "eine Impfung erhalten",
+          "gloss_en": "to receive a vaccination"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Impfung gegen Masern ist gut verträglich.",
+          "en": "The measles vaccination is well tolerated."
+        },
+        {
+          "de": "Nach der Impfung fühlte ich mich einen Tag lang müde.",
+          "en": "After the vaccination I felt tired for a day."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Standardbegriff im Gesundheitswesen und in der Alltagssprache.",
+      "near_synonyms": [
+        {
+          "lemma": "die Immunisierung",
+          "distinction": "fachlicher, betont den Aufbau der Immunität"
+        },
+        {
+          "lemma": "die Schutzimpfung",
+          "distinction": "hebt ausdrücklich den vorbeugenden Zweck hervor"
+        }
+      ]
+    },
+    "Behandlung": {
+      "meaning_de": "die ärztliche oder therapeutische Versorgung einer Krankheit oder Verletzung",
+      "meaning_en": "treatment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Behandlung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Behandlungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich in Behandlung begeben",
+          "gloss_en": "to seek treatment"
+        },
+        {
+          "phrase": "in ärztlicher Behandlung sein",
+          "gloss_en": "to be under medical care"
+        },
+        {
+          "phrase": "eine Behandlung abbrechen",
+          "gloss_en": "to discontinue a treatment"
+        },
+        {
+          "phrase": "die Behandlung schlägt an",
+          "gloss_en": "the treatment is working"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Behandlung dauert voraussichtlich mehrere Wochen.",
+          "en": "The treatment is expected to last several weeks."
+        },
+        {
+          "de": "Sie ist wegen ihrer Allergie in ärztlicher Behandlung.",
+          "en": "She is under medical care for her allergy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; deckt sowohl medizinische als auch übertragene Bedeutungen (z. B. 'Behandlung eines Themas') ab.",
+      "near_synonyms": [
+        {
+          "lemma": "die Therapie",
+          "distinction": "der planmäßige, oft längerfristige Behandlungsansatz"
+        },
+        {
+          "lemma": "die Versorgung",
+          "distinction": "eher die unmittelbare Erstbetreuung, etwa nach einem Unfall"
+        }
+      ]
+    },
+    "Untersuchung": {
+      "meaning_de": "das Prüfen des Gesundheitszustands durch einen Arzt; auch: eine sachliche Prüfung allgemein",
+      "meaning_en": "examination; check-up",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Untersuchung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Untersuchungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine gründliche Untersuchung",
+          "gloss_en": "a thorough examination"
+        },
+        {
+          "phrase": "sich einer Untersuchung unterziehen",
+          "gloss_en": "to undergo an examination"
+        },
+        {
+          "phrase": "die Untersuchung ergab",
+          "gloss_en": "the examination revealed"
+        },
+        {
+          "phrase": "eine ärztliche Untersuchung",
+          "gloss_en": "a medical examination"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei der Untersuchung konnte der Arzt nichts Auffälliges feststellen.",
+          "en": "During the examination the doctor found nothing unusual."
+        },
+        {
+          "de": "Für den neuen Job ist eine ärztliche Untersuchung nötig.",
+          "en": "A medical examination is required for the new job."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im medizinischen Sinn ebenso wie für Ermittlungen und Studien gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vorsorgeuntersuchung",
+          "distinction": "speziell zur Früherkennung, ohne akuten Anlass"
+        },
+        {
+          "lemma": "der Check-up",
+          "distinction": "umgangssprachlich, umfassende Routineuntersuchung"
+        }
+      ]
+    },
+    "Befund": {
+      "meaning_de": "das Ergebnis einer ärztlichen Untersuchung oder Analyse",
+      "meaning_en": "medical finding; diagnosis result",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Befundes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Befunde"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein unauffälliger Befund",
+          "gloss_en": "an unremarkable finding"
+        },
+        {
+          "phrase": "einen Befund erheben",
+          "gloss_en": "to establish a finding"
+        },
+        {
+          "phrase": "auf den Befund warten",
+          "gloss_en": "to wait for the results"
+        },
+        {
+          "phrase": "ein positiver Befund",
+          "gloss_en": "a positive finding"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Befund liegt erst in einer Woche vor.",
+          "en": "The results won't be available for another week."
+        },
+        {
+          "de": "Zum Glück war der Befund unauffällig.",
+          "en": "Fortunately the finding was unremarkable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; im Klinik- und Laborkontext fest verankert.",
+      "near_synonyms": [
+        {
+          "lemma": "die Diagnose",
+          "distinction": "die Deutung des Befundes, die Benennung der Krankheit"
+        },
+        {
+          "lemma": "das Ergebnis",
+          "distinction": "allgemeiner, nicht speziell medizinisch"
+        }
+      ]
+    },
+    "Diagnose": {
+      "meaning_de": "die Feststellung und Benennung einer Krankheit durch den Arzt",
+      "meaning_en": "diagnosis",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Diagnose"
+        },
+        {
+          "label": "Plural",
+          "value": "die Diagnosen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Diagnose stellen",
+          "gloss_en": "to make a diagnosis"
+        },
+        {
+          "phrase": "eine gesicherte Diagnose",
+          "gloss_en": "a confirmed diagnosis"
+        },
+        {
+          "phrase": "eine Diagnose bestätigen",
+          "gloss_en": "to confirm a diagnosis"
+        },
+        {
+          "phrase": "eine falsche Diagnose",
+          "gloss_en": "a wrong diagnosis"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ärztin stellte rasch die richtige Diagnose.",
+          "en": "The doctor quickly made the correct diagnosis."
+        },
+        {
+          "de": "Nach der Diagnose begann sofort die Therapie.",
+          "en": "The therapy began immediately after the diagnosis."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinischer Fachbegriff, auch übertragen (z. B. 'gesellschaftliche Diagnose') gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Befund",
+          "distinction": "das nüchterne Untersuchungsergebnis vor der Deutung"
+        },
+        {
+          "lemma": "die Prognose",
+          "distinction": "die Vorhersage des Verlaufs, nicht die Feststellung"
+        }
+      ]
+    },
+    "Therapie": {
+      "meaning_de": "die planmäßige Behandlung einer Krankheit oder Störung, oft über längere Zeit",
+      "meaning_en": "therapy; course of treatment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Therapie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Therapien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Therapie beginnen",
+          "gloss_en": "to start a therapy"
+        },
+        {
+          "phrase": "sich einer Therapie unterziehen",
+          "gloss_en": "to undergo therapy"
+        },
+        {
+          "phrase": "die Therapie schlägt an",
+          "gloss_en": "the therapy is taking effect"
+        },
+        {
+          "phrase": "eine schonende Therapie",
+          "gloss_en": "a gentle therapy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Therapie hat bei ihr gut angeschlagen.",
+          "en": "The therapy worked well for her."
+        },
+        {
+          "de": "Er macht seit Monaten eine ambulante Therapie.",
+          "en": "He has been undergoing outpatient therapy for months."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl körperlich (Krebstherapie) als auch psychisch (Gesprächstherapie) verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "die Behandlung",
+          "distinction": "weiter gefasst, auch einzelne oder kurze Maßnahmen"
+        },
+        {
+          "lemma": "die Kur",
+          "distinction": "eine zeitlich begrenzte, oft erholsame Maßnahme an einem Kurort"
+        }
+      ]
+    },
+    "Medikament": {
+      "meaning_de": "ein Mittel zur Vorbeugung, Linderung oder Heilung von Krankheiten",
+      "meaning_en": "medicine; medication; drug",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Medikaments"
+        },
+        {
+          "label": "Plural",
+          "value": "die Medikamente"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Medikament gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Medikament einnehmen",
+          "gloss_en": "to take a medication"
+        },
+        {
+          "phrase": "ein Medikament verschreiben",
+          "gloss_en": "to prescribe a medication"
+        },
+        {
+          "phrase": "ein rezeptpflichtiges Medikament",
+          "gloss_en": "a prescription-only drug"
+        },
+        {
+          "phrase": "das Medikament absetzen",
+          "gloss_en": "to discontinue the medication"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nehmen Sie das Medikament zweimal täglich mit Wasser ein.",
+          "en": "Take the medication twice a day with water."
+        },
+        {
+          "de": "Dieses Medikament gibt es nur auf Rezept.",
+          "en": "This medication is available by prescription only."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; die gängige Bezeichnung, etwas fachlicher als das alltägliche 'Medizin'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Arznei",
+          "distinction": "gehobener und etwas veraltet klingend"
+        },
+        {
+          "lemma": "das Präparat",
+          "distinction": "betont das konkrete Erzeugnis, oft im Fachkontext"
+        }
+      ]
+    },
+    "Nebenwirkung": {
+      "meaning_de": "eine unerwünschte Wirkung eines Medikaments oder einer Behandlung neben der beabsichtigten",
+      "meaning_en": "side effect",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Nebenwirkung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Nebenwirkungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unerwünschte Nebenwirkungen",
+          "gloss_en": "unwanted side effects"
+        },
+        {
+          "phrase": "Nebenwirkungen haben",
+          "gloss_en": "to have side effects"
+        },
+        {
+          "phrase": "starke Nebenwirkungen",
+          "gloss_en": "strong side effects"
+        },
+        {
+          "phrase": "ohne nennenswerte Nebenwirkungen",
+          "gloss_en": "without notable side effects"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Mittel kann als Nebenwirkung Müdigkeit verursachen.",
+          "en": "The drug can cause tiredness as a side effect."
+        },
+        {
+          "de": "Lesen Sie den Beipackzettel und beachten Sie die Nebenwirkungen.",
+          "en": "Read the leaflet and note the side effects."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; oft in der festen Warnformel 'Risiken und Nebenwirkungen'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Begleiterscheinung",
+          "distinction": "allgemeiner, nicht nur bei Medikamenten"
+        },
+        {
+          "lemma": "die Wechselwirkung",
+          "distinction": "der Effekt zwischen zwei Mitteln, nicht eines einzelnen"
+        }
+      ]
+    },
+    "Verletzung": {
+      "meaning_de": "eine Schädigung des Körpers durch äußere Einwirkung; auch: der Verstoß gegen eine Regel",
+      "meaning_en": "injury; violation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verletzung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verletzungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine schwere Verletzung",
+          "gloss_en": "a serious injury"
+        },
+        {
+          "phrase": "sich eine Verletzung zuziehen",
+          "gloss_en": "to sustain an injury"
+        },
+        {
+          "phrase": "von einer Verletzung genesen",
+          "gloss_en": "to recover from an injury"
+        },
+        {
+          "phrase": "eine Verletzung der Regeln",
+          "gloss_en": "a violation of the rules"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er fiel beim Sport und zog sich eine schwere Verletzung am Knie zu.",
+          "en": "He fell while playing sports and sustained a serious knee injury."
+        },
+        {
+          "de": "Die Verletzung heilt nur langsam.",
+          "en": "The injury is healing only slowly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch wie übertragen (Rechtsverletzung, Verletzung von Gefühlen) verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "die Wunde",
+          "distinction": "die konkrete offene Stelle, nicht der Vorgang der Schädigung"
+        },
+        {
+          "lemma": "die Blessur",
+          "distinction": "gehoben, meist eine leichtere Verletzung"
+        }
+      ]
+    },
+    "Blutdruck": {
+      "meaning_de": "der Druck, mit dem das Blut auf die Wände der Gefäße wirkt",
+      "meaning_en": "blood pressure",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Blutdrucks"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Blutdruck messen",
+          "gloss_en": "to measure blood pressure"
+        },
+        {
+          "phrase": "hoher Blutdruck",
+          "gloss_en": "high blood pressure"
+        },
+        {
+          "phrase": "der Blutdruck steigt",
+          "gloss_en": "the blood pressure rises"
+        },
+        {
+          "phrase": "den Blutdruck senken",
+          "gloss_en": "to lower blood pressure"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ärztin misst bei jedem Termin den Blutdruck.",
+          "en": "The doctor measures blood pressure at every appointment."
+        },
+        {
+          "de": "Sein Blutdruck ist zu hoch, er muss Tabletten nehmen.",
+          "en": "His blood pressure is too high, he has to take pills."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Gesundheitsbegriff, kein Plural üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Bluthochdruck",
+          "distinction": "speziell der krankhaft erhöhte Blutdruck"
+        },
+        {
+          "lemma": "der Puls",
+          "distinction": "die Herzfrequenz, nicht der Druck in den Gefäßen"
+        }
+      ]
+    },
+    "Ansteckung": {
+      "meaning_de": "die Übertragung einer Krankheit von einem Lebewesen auf ein anderes",
+      "meaning_en": "infection; contagion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ansteckung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ansteckungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Ansteckung mit etwas",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Gefahr einer Ansteckung",
+          "gloss_en": "the risk of infection"
+        },
+        {
+          "phrase": "eine Ansteckung vermeiden",
+          "gloss_en": "to avoid infection"
+        },
+        {
+          "phrase": "vor Ansteckung schützen",
+          "gloss_en": "to protect against infection"
+        },
+        {
+          "phrase": "die Ansteckung mit dem Virus",
+          "gloss_en": "the infection with the virus"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Um eine Ansteckung zu vermeiden, wusch er sich häufig die Hände.",
+          "en": "To avoid infection, he washed his hands frequently."
+        },
+        {
+          "de": "Bei Grippe ist die Gefahr der Ansteckung besonders hoch.",
+          "en": "With the flu, the risk of contagion is particularly high."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; betont den Vorgang der Übertragung, anders als das Ergebnis (Infektion).",
+      "near_synonyms": [
+        {
+          "lemma": "die Infektion",
+          "distinction": "eher der Zustand des Befalls als der Übertragungsvorgang"
+        },
+        {
+          "lemma": "die Übertragung",
+          "distinction": "neutraler und breiter, auch nicht-medizinisch"
+        }
+      ]
+    },
+    "Erreger": {
+      "meaning_de": "ein Mikroorganismus wie Bakterium oder Virus, der eine Krankheit auslöst",
+      "meaning_en": "pathogen; causative agent",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Erregers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Erreger"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gefährlicher Erreger",
+          "gloss_en": "a dangerous pathogen"
+        },
+        {
+          "phrase": "den Erreger nachweisen",
+          "gloss_en": "to detect the pathogen"
+        },
+        {
+          "phrase": "Erreger übertragen",
+          "gloss_en": "to transmit pathogens"
+        },
+        {
+          "phrase": "resistente Erreger",
+          "gloss_en": "resistant pathogens"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Labor konnte man den Erreger eindeutig nachweisen.",
+          "en": "The pathogen was clearly detected in the lab."
+        },
+        {
+          "de": "Der Erreger wird über Tröpfchen übertragen.",
+          "en": "The pathogen is transmitted via droplets."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; typisch für Medizin, Mikrobiologie und Berichterstattung.",
+      "near_synonyms": [
+        {
+          "lemma": "der Keim",
+          "distinction": "alltäglicher, oft allgemein für Mikroorganismen"
+        },
+        {
+          "lemma": "das Bakterium",
+          "distinction": "eine bestimmte Art von Erreger, nicht der Oberbegriff"
+        }
+      ]
+    },
+    "Symptom": {
+      "meaning_de": "ein Anzeichen, an dem man eine Krankheit erkennt",
+      "meaning_en": "symptom",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Symptoms"
+        },
+        {
+          "label": "Plural",
+          "value": "die Symptome"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Symptom für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "erste Symptome zeigen",
+          "gloss_en": "to show first symptoms"
+        },
+        {
+          "phrase": "die Symptome lindern",
+          "gloss_en": "to relieve the symptoms"
+        },
+        {
+          "phrase": "typische Symptome",
+          "gloss_en": "typical symptoms"
+        },
+        {
+          "phrase": "grippeähnliche Symptome",
+          "gloss_en": "flu-like symptoms"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Fieber und Husten sind typische Symptome einer Erkältung.",
+          "en": "Fever and cough are typical symptoms of a cold."
+        },
+        {
+          "de": "Die Tabletten lindern nur die Symptome, nicht die Ursache.",
+          "en": "The pills only relieve the symptoms, not the cause."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch übertragen für gesellschaftliche Erscheinungen ('ein Symptom der Krise').",
+      "near_synonyms": [
+        {
+          "lemma": "das Anzeichen",
+          "distinction": "allgemeiner und alltäglicher, nicht nur medizinisch"
+        },
+        {
+          "lemma": "die Beschwerde",
+          "distinction": "das subjektiv empfundene Leiden, nicht das objektive Zeichen"
+        }
+      ]
+    },
+    "Genesung": {
+      "meaning_de": "das Wiedergesundwerden nach einer Krankheit oder Verletzung",
+      "meaning_en": "recovery; convalescence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Genesung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "gute Genesung wünschen",
+          "gloss_en": "to wish a speedy recovery"
+        },
+        {
+          "phrase": "auf dem Weg der Genesung",
+          "gloss_en": "on the road to recovery"
+        },
+        {
+          "phrase": "eine rasche Genesung",
+          "gloss_en": "a swift recovery"
+        },
+        {
+          "phrase": "die Genesung fördern",
+          "gloss_en": "to aid recovery"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich wünsche dir gute Genesung und viel Ruhe.",
+          "en": "I wish you a good recovery and plenty of rest."
+        },
+        {
+          "de": "Nach der Operation braucht sie Zeit zur Genesung.",
+          "en": "After the operation she needs time to recover."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis leicht gehoben; in Genesungswünschen fest etabliert, kein Plural üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Heilung",
+          "distinction": "betont das Verschwinden der Krankheit selbst, nicht das Kräftigen"
+        },
+        {
+          "lemma": "die Erholung",
+          "distinction": "das Wiedergewinnen von Kraft, auch ohne vorherige Krankheit"
+        }
+      ]
+    },
+    "Rückfall": {
+      "meaning_de": "das erneute Auftreten einer bereits überwundenen Krankheit oder eines alten Verhaltens",
+      "meaning_en": "relapse",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rückfalls"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rückfälle"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Rückfall erleiden",
+          "gloss_en": "to suffer a relapse"
+        },
+        {
+          "phrase": "einen Rückfall vermeiden",
+          "gloss_en": "to avoid a relapse"
+        },
+        {
+          "phrase": "das Risiko eines Rückfalls",
+          "gloss_en": "the risk of a relapse"
+        },
+        {
+          "phrase": "rückfällig werden",
+          "gloss_en": "to relapse"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach Wochen der Besserung erlitt der Patient einen Rückfall.",
+          "en": "After weeks of improvement the patient suffered a relapse."
+        },
+        {
+          "de": "Um einen Rückfall zu vermeiden, nimmt sie weiter die Medikamente.",
+          "en": "To avoid a relapse, she keeps taking the medication."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch sowie bei Sucht und Verhalten gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verschlechterung",
+          "distinction": "das Schlimmerwerden allgemein, nicht die Rückkehr nach Besserung"
+        },
+        {
+          "lemma": "das Rezidiv",
+          "distinction": "fachsprachlich, das erneute Auftreten einer Erkrankung"
+        }
+      ]
+    },
+    "Notarzt": {
+      "meaning_de": "ein Arzt, der bei akuten Notfällen sofort medizinische Hilfe leistet",
+      "meaning_en": "emergency doctor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Notarztes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Notärzte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Notarzt rufen",
+          "gloss_en": "to call the emergency doctor"
+        },
+        {
+          "phrase": "der Notarzt trifft ein",
+          "gloss_en": "the emergency doctor arrives"
+        },
+        {
+          "phrase": "einen Notarzt alarmieren",
+          "gloss_en": "to alert an emergency doctor"
+        },
+        {
+          "phrase": "der diensthabende Notarzt",
+          "gloss_en": "the doctor on emergency duty"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei dem Unfall wurde sofort der Notarzt gerufen.",
+          "en": "The emergency doctor was called immediately after the accident."
+        },
+        {
+          "de": "Der Notarzt war innerhalb von Minuten vor Ort.",
+          "en": "The emergency doctor was on the scene within minutes."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff des Rettungswesens im deutschsprachigen Raum.",
+      "near_synonyms": [
+        {
+          "lemma": "der Rettungssanitäter",
+          "distinction": "kein Arzt, sondern medizinisch geschultes Rettungspersonal"
+        },
+        {
+          "lemma": "der Bereitschaftsarzt",
+          "distinction": "diensthabend außerhalb der Sprechzeiten, aber nicht am Unfallort"
+        }
+      ]
+    },
+    "Narkose": {
+      "meaning_de": "der durch Medikamente herbeigeführte Zustand der Schmerz- und Bewusstlosigkeit bei einer Operation",
+      "meaning_en": "anaesthesia; narcosis",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Narkose"
+        },
+        {
+          "label": "Plural",
+          "value": "die Narkosen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter Narkose stehen",
+          "gloss_en": "to be under anaesthesia"
+        },
+        {
+          "phrase": "eine Vollnarkose",
+          "gloss_en": "a general anaesthetic"
+        },
+        {
+          "phrase": "aus der Narkose erwachen",
+          "gloss_en": "to wake up from anaesthesia"
+        },
+        {
+          "phrase": "die Narkose einleiten",
+          "gloss_en": "to induce anaesthesia"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Eingriff erfolgt unter Vollnarkose.",
+          "en": "The procedure is performed under general anaesthetic."
+        },
+        {
+          "de": "Nach der Narkose fühlte er sich noch benommen.",
+          "en": "After the anaesthesia he still felt groggy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; im Klinikkontext der übliche Begriff.",
+      "near_synonyms": [
+        {
+          "lemma": "die Betäubung",
+          "distinction": "allgemeiner, auch örtlich begrenzt und ohne Bewusstlosigkeit"
+        },
+        {
+          "lemma": "die Anästhesie",
+          "distinction": "der fachliche Oberbegriff, auch als medizinisches Fachgebiet"
+        }
+      ]
+    },
+    "Operation": {
+      "meaning_de": "ein chirurgischer Eingriff am Körper zur Behandlung einer Krankheit oder Verletzung",
+      "meaning_en": "operation; surgery",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Operation"
+        },
+        {
+          "label": "Plural",
+          "value": "die Operationen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich einer Operation unterziehen",
+          "gloss_en": "to undergo an operation"
+        },
+        {
+          "phrase": "eine Operation durchführen",
+          "gloss_en": "to perform an operation"
+        },
+        {
+          "phrase": "eine riskante Operation",
+          "gloss_en": "a risky operation"
+        },
+        {
+          "phrase": "sich von einer Operation erholen",
+          "gloss_en": "to recover from an operation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Operation dauerte fast vier Stunden.",
+          "en": "The operation lasted almost four hours."
+        },
+        {
+          "de": "Nach der Operation muss er einige Tage im Krankenhaus bleiben.",
+          "en": "After the operation he has to stay in hospital for a few days."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Alltag oft zu 'OP' abgekürzt, auch militärisch und technisch verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "der Eingriff",
+          "distinction": "weiter gefasst, auch kleinere oder nicht-chirurgische Maßnahmen"
+        },
+        {
+          "lemma": "der chirurgische Eingriff",
+          "distinction": "gleichbedeutend, aber förmlicher und präziser"
+        }
+      ]
+    },
+    "Eingriff": {
+      "meaning_de": "eine medizinische Maßnahme am Körper; auch: ein Einmischen in fremde Bereiche",
+      "meaning_en": "procedure; intervention; interference",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Eingriffs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Eingriffe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Eingriff in etwas",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein operativer Eingriff",
+          "gloss_en": "a surgical procedure"
+        },
+        {
+          "phrase": "ein kleiner Eingriff",
+          "gloss_en": "a minor procedure"
+        },
+        {
+          "phrase": "einen Eingriff vornehmen",
+          "gloss_en": "to carry out a procedure"
+        },
+        {
+          "phrase": "ein Eingriff in die Privatsphäre",
+          "gloss_en": "an intrusion into privacy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es handelt sich nur um einen kleinen Eingriff mit örtlicher Betäubung.",
+          "en": "It is only a minor procedure with a local anaesthetic."
+        },
+        {
+          "de": "Kritiker sehen darin einen Eingriff in die Grundrechte.",
+          "en": "Critics see it as an interference with fundamental rights."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch wie übertragen (staatlicher Eingriff) gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Operation",
+          "distinction": "speziell der größere chirurgische Eingriff"
+        },
+        {
+          "lemma": "die Einmischung",
+          "distinction": "nur im übertragenen Sinn, wertend und negativ"
+        }
+      ]
+    },
+    "Allergie": {
+      "meaning_de": "eine übermäßige Abwehrreaktion des Körpers auf eigentlich harmlose Stoffe",
+      "meaning_en": "allergy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Allergie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Allergien"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Allergie gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Allergie gegen Pollen",
+          "gloss_en": "an allergy to pollen"
+        },
+        {
+          "phrase": "eine Allergie entwickeln",
+          "gloss_en": "to develop an allergy"
+        },
+        {
+          "phrase": "unter einer Allergie leiden",
+          "gloss_en": "to suffer from an allergy"
+        },
+        {
+          "phrase": "eine Allergie auslösen",
+          "gloss_en": "to trigger an allergy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat eine Allergie gegen Katzenhaare.",
+          "en": "She has an allergy to cat hair."
+        },
+        {
+          "de": "Im Frühling macht ihm seine Allergie zu schaffen.",
+          "en": "In spring his allergy troubles him."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Gesundheitsbegriff, mit Präposition 'gegen'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Unverträglichkeit",
+          "distinction": "keine Immunreaktion, sondern gestörte Verwertung eines Stoffes"
+        },
+        {
+          "lemma": "die Überempfindlichkeit",
+          "distinction": "allgemeiner Oberbegriff für gesteigerte Reaktionen"
+        }
+      ]
+    },
+    "Kreislauf": {
+      "meaning_de": "das System, in dem das Blut durch Herz und Gefäße den Körper versorgt; auch: ein sich wiederholender Ablauf",
+      "meaning_en": "circulation; circulatory system; cycle",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kreislaufs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kreisläufe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Kreislauf kommt in Schwung",
+          "gloss_en": "the circulation gets going"
+        },
+        {
+          "phrase": "Probleme mit dem Kreislauf",
+          "gloss_en": "circulation problems"
+        },
+        {
+          "phrase": "den Kreislauf stärken",
+          "gloss_en": "to strengthen the circulation"
+        },
+        {
+          "phrase": "der Kreislauf bricht zusammen",
+          "gloss_en": "the circulation collapses"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei der Hitze machte ihr der Kreislauf zu schaffen.",
+          "en": "In the heat her circulation gave her trouble."
+        },
+        {
+          "de": "Bewegung an der frischen Luft bringt den Kreislauf in Schwung.",
+          "en": "Exercise in the fresh air gets the circulation going."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch (Blutkreislauf) sowie übertragen (Wirtschaftskreislauf, Teufelskreis).",
+      "near_synonyms": [
+        {
+          "lemma": "der Blutkreislauf",
+          "distinction": "eindeutig das körperliche System, ohne übertragene Bedeutung"
+        },
+        {
+          "lemma": "der Zyklus",
+          "distinction": "der regelmäßige Ablauf, ohne den körperlich-medizinischen Bezug"
+        }
+      ]
+    },
+    "Atmung": {
+      "meaning_de": "das Ein- und Ausatmen, mit dem der Körper Sauerstoff aufnimmt",
+      "meaning_en": "breathing; respiration",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Atmung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine flache Atmung",
+          "gloss_en": "shallow breathing"
+        },
+        {
+          "phrase": "die Atmung kontrollieren",
+          "gloss_en": "to check the breathing"
+        },
+        {
+          "phrase": "eine ruhige Atmung",
+          "gloss_en": "calm breathing"
+        },
+        {
+          "phrase": "die Atmung setzt aus",
+          "gloss_en": "breathing stops"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Sanitäter prüfte zuerst Puls und Atmung.",
+          "en": "The paramedic first checked pulse and breathing."
+        },
+        {
+          "de": "Durch die tiefe Atmung beruhigte sie sich allmählich.",
+          "en": "Through deep breathing she gradually calmed down."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch und im Alltag (etwa beim Sport oder Yoga), kein Plural üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Atem",
+          "distinction": "die einzelne Luft beim Atmen, nicht der Vorgang als System"
+        },
+        {
+          "lemma": "das Atmen",
+          "distinction": "die Tätigkeit als Verbalnomen, weniger fachlich"
+        }
+      ]
+    },
+    "Puls": {
+      "meaning_de": "das fühlbare Schlagen der Arterien im Takt des Herzschlags",
+      "meaning_en": "pulse",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Pulses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Pulse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Puls messen",
+          "gloss_en": "to take the pulse"
+        },
+        {
+          "phrase": "der Puls rast",
+          "gloss_en": "the pulse is racing"
+        },
+        {
+          "phrase": "einen hohen Puls haben",
+          "gloss_en": "to have a high pulse"
+        },
+        {
+          "phrase": "der Puls beruhigt sich",
+          "gloss_en": "the pulse calms down"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Lauf war ihr Puls deutlich erhöht.",
+          "en": "After the run her pulse was noticeably elevated."
+        },
+        {
+          "de": "Die Schwester fühlte am Handgelenk den Puls.",
+          "en": "The nurse felt the pulse at the wrist."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Begriff, der Plural ist selten und meist fachlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Herzschlag",
+          "distinction": "der Schlag des Herzens selbst, nicht sein Abbild in den Gefäßen"
+        },
+        {
+          "lemma": "die Herzfrequenz",
+          "distinction": "fachlich, die gezählte Zahl der Schläge pro Minute"
+        }
+      ]
+    },
+    "Verstauchung": {
+      "meaning_de": "eine Verletzung, bei der ein Gelenk überdehnt wird, ohne dass ein Knochen bricht",
+      "meaning_en": "sprain",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verstauchung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verstauchungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Verstauchung des Knöchels",
+          "gloss_en": "a sprained ankle"
+        },
+        {
+          "phrase": "sich eine Verstauchung zuziehen",
+          "gloss_en": "to sustain a sprain"
+        },
+        {
+          "phrase": "eine leichte Verstauchung",
+          "gloss_en": "a mild sprain"
+        },
+        {
+          "phrase": "eine Verstauchung kühlen",
+          "gloss_en": "to cool a sprain"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zum Glück ist es nur eine Verstauchung und kein Bruch.",
+          "en": "Luckily it is only a sprain and not a fracture."
+        },
+        {
+          "de": "Nach dem Umknicken kühlte er die Verstauchung sofort.",
+          "en": "After twisting his ankle he cooled the sprain immediately."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; konkreter Verletzungsbegriff aus dem Alltag und der Unfallmedizin.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zerrung",
+          "distinction": "betrifft überdehnte Muskeln oder Sehnen, nicht das Gelenk"
+        },
+        {
+          "lemma": "die Prellung",
+          "distinction": "eine Quetschung durch Stoß, ohne Überdehnung des Gelenks"
+        }
+      ]
+    },
+    "Knochenbruch": {
+      "meaning_de": "die vollständige oder teilweise Durchtrennung eines Knochens",
+      "meaning_en": "bone fracture",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Knochenbruchs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Knochenbrüche"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Knochenbruch erleiden",
+          "gloss_en": "to suffer a fracture"
+        },
+        {
+          "phrase": "ein komplizierter Knochenbruch",
+          "gloss_en": "a complicated fracture"
+        },
+        {
+          "phrase": "einen Knochenbruch behandeln",
+          "gloss_en": "to treat a fracture"
+        },
+        {
+          "phrase": "der Knochenbruch heilt",
+          "gloss_en": "the fracture is healing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Röntgenbild zeigte einen glatten Knochenbruch am Unterarm.",
+          "en": "The X-ray showed a clean fracture of the forearm."
+        },
+        {
+          "de": "Ein Knochenbruch braucht Wochen, um zu verheilen.",
+          "en": "A bone fracture takes weeks to heal."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltägliche Entsprechung zum fachlichen 'Fraktur'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Fraktur",
+          "distinction": "der medizinische Fachausdruck für dasselbe"
+        },
+        {
+          "lemma": "der Bruch",
+          "distinction": "kürzer und allgemeiner, aus dem Kontext als Knochenbruch erkennbar"
+        }
+      ]
+    },
+    "Prellung": {
+      "meaning_de": "eine stumpfe Verletzung des Gewebes durch Stoß oder Schlag, meist mit Bluterguss",
+      "meaning_en": "bruise; contusion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Prellung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Prellungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine schmerzhafte Prellung",
+          "gloss_en": "a painful bruise"
+        },
+        {
+          "phrase": "sich eine Prellung zuziehen",
+          "gloss_en": "to sustain a contusion"
+        },
+        {
+          "phrase": "eine Prellung am Bein",
+          "gloss_en": "a bruise on the leg"
+        },
+        {
+          "phrase": "nur Prellungen davontragen",
+          "gloss_en": "to escape with only bruises"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei dem Sturz kam er mit einer Prellung glimpflich davon.",
+          "en": "In the fall he got off lightly with just a bruise."
+        },
+        {
+          "de": "Die Prellung an der Schulter schmerzt beim Heben.",
+          "en": "The bruise on the shoulder hurts when lifting."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typischer Begriff aus Sport- und Unfallmedizin.",
+      "near_synonyms": [
+        {
+          "lemma": "der Bluterguss",
+          "distinction": "die sichtbare Einblutung, ein häufiges Merkmal der Prellung"
+        },
+        {
+          "lemma": "die Verstauchung",
+          "distinction": "betrifft ein überdehntes Gelenk, nicht gequetschtes Gewebe"
+        }
+      ]
+    },
+    "Übelkeit": {
+      "meaning_de": "das unangenehme Gefühl, sich erbrechen zu müssen",
+      "meaning_en": "nausea",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Übelkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter Übelkeit leiden",
+          "gloss_en": "to suffer from nausea"
+        },
+        {
+          "phrase": "Übelkeit verspüren",
+          "gloss_en": "to feel nauseous"
+        },
+        {
+          "phrase": "die Übelkeit lindern",
+          "gloss_en": "to relieve the nausea"
+        },
+        {
+          "phrase": "leichte Übelkeit",
+          "gloss_en": "slight nausea"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auf dem Schiff überkam ihn eine plötzliche Übelkeit.",
+          "en": "On the ship a sudden nausea came over him."
+        },
+        {
+          "de": "Als Nebenwirkung kann Übelkeit auftreten.",
+          "en": "Nausea can occur as a side effect."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; körperliches Symptom, kein Plural üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Brechreiz",
+          "distinction": "stärker, der akute Drang zu erbrechen"
+        },
+        {
+          "lemma": "das Unwohlsein",
+          "distinction": "allgemeiner, ein diffuses Sich-nicht-wohl-Fühlen"
+        }
+      ]
+    },
+    "Schwindel": {
+      "meaning_de": "das Gefühl, dass sich alles dreht oder man das Gleichgewicht verliert; auch: Betrug",
+      "meaning_en": "dizziness; vertigo; (also) swindle",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Schwindels"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "von Schwindel befallen werden",
+          "gloss_en": "to be seized by dizziness"
+        },
+        {
+          "phrase": "unter Schwindel leiden",
+          "gloss_en": "to suffer from dizziness"
+        },
+        {
+          "phrase": "plötzlicher Schwindel",
+          "gloss_en": "sudden dizziness"
+        },
+        {
+          "phrase": "Schwindel und Übelkeit",
+          "gloss_en": "dizziness and nausea"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beim schnellen Aufstehen überkam sie ein kurzer Schwindel.",
+          "en": "When she stood up quickly, a brief dizziness came over her."
+        },
+        {
+          "de": "Der Patient klagte über Schwindel und Kopfschmerzen.",
+          "en": "The patient complained of dizziness and headaches."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch als Symptom, umgangssprachlich auch für Betrug ('ein fauler Schwindel'). Kein Plural im medizinischen Sinn.",
+      "near_synonyms": [
+        {
+          "lemma": "der Drehschwindel",
+          "distinction": "speziell das Gefühl, dass sich die Umgebung dreht"
+        },
+        {
+          "lemma": "die Benommenheit",
+          "distinction": "eher ein dumpfes, unklares Gefühl im Kopf"
+        }
+      ]
+    },
+    "Facharzt": {
+      "meaning_de": "ein Arzt mit abgeschlossener Weiterbildung in einem bestimmten medizinischen Fachgebiet",
+      "meaning_en": "specialist doctor; consultant",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Facharztes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fachärzte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Facharzt für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Facharzt für Orthopädie",
+          "gloss_en": "a specialist in orthopaedics"
+        },
+        {
+          "phrase": "zum Facharzt überweisen",
+          "gloss_en": "to refer to a specialist"
+        },
+        {
+          "phrase": "einen Facharzt aufsuchen",
+          "gloss_en": "to consult a specialist"
+        },
+        {
+          "phrase": "einen Termin beim Facharzt",
+          "gloss_en": "an appointment with a specialist"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Hausarzt überwies ihn an einen Facharzt für Hautkrankheiten.",
+          "en": "The GP referred him to a dermatology specialist."
+        },
+        {
+          "de": "Auf einen Termin beim Facharzt wartet man oft wochenlang.",
+          "en": "You often wait weeks for an appointment with a specialist."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; feststehender Begriff des Gesundheitssystems, mit 'für' und Fachgebiet.",
+      "near_synonyms": [
+        {
+          "lemma": "der Hausarzt",
+          "distinction": "der erste, allgemein zuständige Ansprechpartner ohne Spezialisierung"
+        },
+        {
+          "lemma": "der Spezialist",
+          "distinction": "allgemeiner und nicht auf den ärztlichen Titel beschränkt"
+        }
+      ]
+    },
+    "Sprechstunde": {
+      "meaning_de": "die Zeit, in der ein Arzt oder eine Fachperson Patienten empfängt und berät",
+      "meaning_en": "consultation hours; office hours",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sprechstunde"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sprechstunden"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in die Sprechstunde gehen",
+          "gloss_en": "to go to the consultation"
+        },
+        {
+          "phrase": "die Sprechstunde beginnt",
+          "gloss_en": "the consultation hours begin"
+        },
+        {
+          "phrase": "außerhalb der Sprechstunde",
+          "gloss_en": "outside consultation hours"
+        },
+        {
+          "phrase": "eine offene Sprechstunde",
+          "gloss_en": "a walk-in consultation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Sprechstunde beginnt montags erst um zehn Uhr.",
+          "en": "On Mondays the consultation hours don't start until ten."
+        },
+        {
+          "de": "Kommen Sie damit bitte in die nächste Sprechstunde.",
+          "en": "Please come to the next consultation with that."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; gilt für Arztpraxen ebenso wie für Behörden und Hochschulen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Öffnungszeit",
+          "distinction": "allgemein die Zeiten, in denen geöffnet ist, ohne Beratungssinn"
+        },
+        {
+          "lemma": "der Termin",
+          "distinction": "ein einzelner vereinbarter Zeitpunkt, nicht die feste Zeitspanne"
+        }
+      ]
+    },
+    "Praxis": {
+      "meaning_de": "die Räume und der Betrieb, in denen ein Arzt oder Therapeut arbeitet; auch: die praktische Anwendung",
+      "meaning_en": "practice (doctor's office); (also) practical application",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Praxis"
+        },
+        {
+          "label": "Plural",
+          "value": "die Praxen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Praxis eröffnen",
+          "gloss_en": "to open a practice"
+        },
+        {
+          "phrase": "in der Praxis von Dr. Meyer",
+          "gloss_en": "at Dr Meyer's practice"
+        },
+        {
+          "phrase": "in Theorie und Praxis",
+          "gloss_en": "in theory and practice"
+        },
+        {
+          "phrase": "sich in der Praxis bewähren",
+          "gloss_en": "to prove oneself in practice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Praxis ist wegen Urlaubs nächste Woche geschlossen.",
+          "en": "The practice is closed next week due to holidays."
+        },
+        {
+          "de": "In der Praxis sieht die Lösung oft anders aus als in der Theorie.",
+          "en": "In practice the solution often looks different than in theory."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im medizinischen Sinn und als Gegenbegriff zur Theorie gebräuchlich. Der Plural 'Praxen' gilt für die Räume.",
+      "near_synonyms": [
+        {
+          "lemma": "die Klinik",
+          "distinction": "größere, meist stationäre Einrichtung, kein Einzelbetrieb"
+        },
+        {
+          "lemma": "die Anwendung",
+          "distinction": "im Sinne der praktischen Umsetzung, ohne den Ort"
+        }
+      ]
+    },
+    "Wirkstoff": {
+      "meaning_de": "der Bestandteil eines Medikaments, der die eigentliche Wirkung hervorruft",
+      "meaning_en": "active ingredient; active substance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wirkstoffs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wirkstoffe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der aktive Wirkstoff",
+          "gloss_en": "the active ingredient"
+        },
+        {
+          "phrase": "einen Wirkstoff enthalten",
+          "gloss_en": "to contain an active substance"
+        },
+        {
+          "phrase": "die Dosierung des Wirkstoffs",
+          "gloss_en": "the dosage of the active ingredient"
+        },
+        {
+          "phrase": "einen neuen Wirkstoff entwickeln",
+          "gloss_en": "to develop a new active substance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Wirkstoff dieser Tablette ist Ibuprofen.",
+          "en": "The active ingredient of this tablet is ibuprofen."
+        },
+        {
+          "de": "Forscher testen einen neuen Wirkstoff gegen die Krankheit.",
+          "en": "Researchers are testing a new active substance against the disease."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; typisch für Pharmazie, Beipackzettel und Berichterstattung.",
+      "near_synonyms": [
+        {
+          "lemma": "der Inhaltsstoff",
+          "distinction": "jeder Bestandteil, nicht nur der wirksame"
+        },
+        {
+          "lemma": "die Substanz",
+          "distinction": "allgemeiner Stoffbegriff ohne den Bezug zur Wirkung"
+        }
+      ]
+    },
+    "Beschwerde": {
+      "meaning_de": "ein körperliches Leiden oder eine schmerzhafte Empfindung; auch: eine förmliche Klage",
+      "meaning_en": "ailment; complaint",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Beschwerde"
+        },
+        {
+          "label": "Plural",
+          "value": "die Beschwerden"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "körperliche Beschwerden",
+          "gloss_en": "physical ailments"
+        },
+        {
+          "phrase": "über Beschwerden klagen",
+          "gloss_en": "to complain of symptoms"
+        },
+        {
+          "phrase": "die Beschwerden lassen nach",
+          "gloss_en": "the symptoms ease off"
+        },
+        {
+          "phrase": "eine Beschwerde einreichen",
+          "gloss_en": "to lodge a complaint"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Patient klagte über Beschwerden im Rücken.",
+          "en": "The patient complained of pain in his back."
+        },
+        {
+          "de": "Seit der Behandlung sind die Beschwerden verschwunden.",
+          "en": "Since the treatment the symptoms have disappeared."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im medizinischen Sinn meist im Plural, im Singular oft die formelle Klage.",
+      "near_synonyms": [
+        {
+          "lemma": "das Symptom",
+          "distinction": "das objektive Krankheitszeichen, nicht das subjektive Leiden"
+        },
+        {
+          "lemma": "die Schmerzen",
+          "distinction": "speziell das Wehtun, während Beschwerden weiter gefasst sind"
+        }
+      ]
+    },
+    "Krankenversicherung": {
+      "meaning_de": "eine Versicherung, die die Kosten für medizinische Behandlung übernimmt",
+      "meaning_en": "health insurance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Krankenversicherung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Krankenversicherungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die gesetzliche Krankenversicherung",
+          "gloss_en": "statutory health insurance"
+        },
+        {
+          "phrase": "eine private Krankenversicherung",
+          "gloss_en": "private health insurance"
+        },
+        {
+          "phrase": "in der Krankenversicherung versichert sein",
+          "gloss_en": "to be covered by health insurance"
+        },
+        {
+          "phrase": "die Krankenversicherung übernimmt die Kosten",
+          "gloss_en": "the health insurance covers the costs"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Krankenversicherung übernimmt einen Teil der Behandlungskosten.",
+          "en": "The health insurance covers part of the treatment costs."
+        },
+        {
+          "de": "In Deutschland ist eine Krankenversicherung Pflicht.",
+          "en": "In Germany health insurance is compulsory."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; feststehender Begriff des Sozial- und Gesundheitssystems.",
+      "near_synonyms": [
+        {
+          "lemma": "die Krankenkasse",
+          "distinction": "der konkrete Träger der gesetzlichen Versicherung, nicht das Prinzip"
+        },
+        {
+          "lemma": "die Versicherung",
+          "distinction": "der Oberbegriff, ohne Beschränkung auf Gesundheit"
+        }
+      ]
+    },
+    "behandeln": {
+      "meaning_de": "einen Kranken oder ein Leiden medizinisch versorgen; auch: mit etwas umgehen oder ein Thema bearbeiten",
+      "meaning_en": "to treat",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er behandelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er behandelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat behandelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er behandelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden behandeln",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemanden mit etwas behandeln",
+          "cases": "Akk. + mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Patienten behandeln",
+          "gloss_en": "to treat a patient"
+        },
+        {
+          "phrase": "eine Krankheit behandeln",
+          "gloss_en": "to treat an illness"
+        },
+        {
+          "phrase": "ambulant behandeln",
+          "gloss_en": "to treat as an outpatient"
+        },
+        {
+          "phrase": "ein Thema behandeln",
+          "gloss_en": "to deal with a topic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ärztin behandelt ihn seit Jahren wegen seiner Allergie.",
+          "en": "The doctor has been treating him for his allergy for years."
+        },
+        {
+          "de": "Die Wunde wurde sofort mit einer Salbe behandelt.",
+          "en": "The wound was treated at once with an ointment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch, aber auch für den Umgang mit Menschen und Themen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "versorgen",
+          "distinction": "eher die unmittelbare, praktische Erstbetreuung"
+        },
+        {
+          "lemma": "heilen",
+          "distinction": "betont den Erfolg, das Gesundmachen, nicht nur das Bemühen"
+        }
+      ]
+    },
+    "untersuchen": {
+      "meaning_de": "jemanden oder etwas genau prüfen, um den Zustand oder die Ursache festzustellen",
+      "meaning_en": "to examine; to investigate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er untersucht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er untersuchte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat untersucht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er untersuchte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden/etwas untersuchen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "etwas auf etwas untersuchen",
+          "cases": "Akk. + auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Patienten untersuchen",
+          "gloss_en": "to examine a patient"
+        },
+        {
+          "phrase": "gründlich untersuchen",
+          "gloss_en": "to examine thoroughly"
+        },
+        {
+          "phrase": "eine Probe untersuchen",
+          "gloss_en": "to analyse a sample"
+        },
+        {
+          "phrase": "etwas auf Fehler untersuchen",
+          "gloss_en": "to check something for errors"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Arzt untersuchte ihn von Kopf bis Fuß.",
+          "en": "The doctor examined him from head to toe."
+        },
+        {
+          "de": "Die Polizei untersucht die Ursache des Unfalls.",
+          "en": "The police are investigating the cause of the accident."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch, wissenschaftlich und im Sinne von 'ermitteln' gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "prüfen",
+          "distinction": "allgemeiner, oft auf Richtigkeit oder Eignung gerichtet"
+        },
+        {
+          "lemma": "erforschen",
+          "distinction": "tiefergehend und langfristig, mit wissenschaftlichem Anspruch"
+        }
+      ]
+    },
+    "heilen": {
+      "meaning_de": "jemanden gesund machen; auch: wieder gesund werden (von Wunden)",
+      "meaning_en": "to heal; to cure",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er heilt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er heilte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat geheilt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er heilte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden/etwas heilen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemanden von etwas heilen",
+          "cases": "Akk. + von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Krankheit heilen",
+          "gloss_en": "to cure a disease"
+        },
+        {
+          "phrase": "die Wunde heilt",
+          "gloss_en": "the wound is healing"
+        },
+        {
+          "phrase": "vollständig heilen",
+          "gloss_en": "to heal completely"
+        },
+        {
+          "phrase": "jemanden von einem Leiden heilen",
+          "gloss_en": "to cure someone of an ailment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Krankheit lässt sich heute gut heilen.",
+          "en": "This disease can be cured well nowadays."
+        },
+        {
+          "de": "Die Wunde ist inzwischen vollständig geheilt.",
+          "en": "The wound has now healed completely."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; transitiv (jemanden heilen) mit 'haben', intransitiv (Wunde heilt) oft mit 'sein'.",
+      "near_synonyms": [
+        {
+          "lemma": "kurieren",
+          "distinction": "umgangssprachlicher, oft für leichtere Beschwerden"
+        },
+        {
+          "lemma": "genesen",
+          "distinction": "nur das Gesundwerden des Menschen, nicht das Heilen durch andere"
+        }
+      ]
+    },
+    "impfen": {
+      "meaning_de": "einem Menschen oder Tier einen Impfstoff geben, um es vor einer Krankheit zu schützen",
+      "meaning_en": "to vaccinate; to immunize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er impft"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er impfte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat geimpft"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er impfte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden gegen etwas impfen",
+          "cases": "Akk. + gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich impfen lassen",
+          "gloss_en": "to get vaccinated"
+        },
+        {
+          "phrase": "gegen Grippe impfen",
+          "gloss_en": "to vaccinate against flu"
+        },
+        {
+          "phrase": "ein Kind impfen",
+          "gloss_en": "to vaccinate a child"
+        },
+        {
+          "phrase": "geimpft sein",
+          "gloss_en": "to be vaccinated"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich jedes Jahr gegen Grippe impfen.",
+          "en": "I get vaccinated against the flu every year."
+        },
+        {
+          "de": "Der Tierarzt impft den Hund gegen Tollwut.",
+          "en": "The vet vaccinates the dog against rabies."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Gesundheitsbegriff, häufig mit 'sich impfen lassen'.",
+      "near_synonyms": [
+        {
+          "lemma": "immunisieren",
+          "distinction": "fachlicher, betont den entstehenden Schutz"
+        },
+        {
+          "lemma": "spritzen",
+          "distinction": "umgangssprachlich für das Injizieren, nicht speziell zum Schutz"
+        }
+      ]
+    },
+    "operieren": {
+      "meaning_de": "einen chirurgischen Eingriff am Körper vornehmen; auch: gezielt vorgehen",
+      "meaning_en": "to operate (on); to perform surgery",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er operiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er operierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat operiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er operierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden operieren",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemanden an etwas operieren",
+          "cases": "Akk. + an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Patienten operieren",
+          "gloss_en": "to operate on a patient"
+        },
+        {
+          "phrase": "am Herzen operieren",
+          "gloss_en": "to perform heart surgery"
+        },
+        {
+          "phrase": "erfolgreich operieren",
+          "gloss_en": "to operate successfully"
+        },
+        {
+          "phrase": "operiert werden müssen",
+          "gloss_en": "to need surgery"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Chirurg operierte sie am Knie.",
+          "en": "The surgeon operated on her knee."
+        },
+        {
+          "de": "Er muss dringend operiert werden.",
+          "en": "He needs to be operated on urgently."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch, im übertragenen Sinn ('vorsichtig operieren') auch für strategisches Handeln.",
+      "near_synonyms": [
+        {
+          "lemma": "eingreifen",
+          "distinction": "allgemeiner, nicht speziell chirurgisch"
+        },
+        {
+          "lemma": "behandeln",
+          "distinction": "die gesamte Versorgung, nicht nur den chirurgischen Eingriff"
+        }
+      ]
+    },
+    "verschreiben": {
+      "meaning_de": "als Arzt ein Medikament oder eine Maßnahme schriftlich anordnen",
+      "meaning_en": "to prescribe",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verschreibt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verschrieb"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verschrieben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verschriebe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem etwas verschreiben",
+          "cases": "Dat. + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Medikament verschreiben",
+          "gloss_en": "to prescribe a medication"
+        },
+        {
+          "phrase": "jemandem Ruhe verschreiben",
+          "gloss_en": "to prescribe someone rest"
+        },
+        {
+          "phrase": "ein Antibiotikum verschreiben",
+          "gloss_en": "to prescribe an antibiotic"
+        },
+        {
+          "phrase": "sich etwas verschreiben lassen",
+          "gloss_en": "to get something prescribed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Arzt verschrieb ihr ein starkes Schmerzmittel.",
+          "en": "The doctor prescribed her a strong painkiller."
+        },
+        {
+          "de": "Gegen die Entzündung hat man ihm ein Antibiotikum verschrieben.",
+          "en": "He was prescribed an antibiotic for the inflammation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; feststehend im ärztlichen Kontext; reflexiv 'sich verschreiben' heißt zudem 'sich beim Schreiben irren'.",
+      "near_synonyms": [
+        {
+          "lemma": "verordnen",
+          "distinction": "förmlicher, betont die Anordnung, auch von Diäten und Kuren"
+        },
+        {
+          "lemma": "empfehlen",
+          "distinction": "unverbindlicher Rat, keine förmliche Anordnung"
+        }
+      ]
+    },
+    "bluten": {
+      "meaning_de": "Blut verlieren, meist aus einer Wunde",
+      "meaning_en": "to bleed",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er blutet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er blutete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat geblutet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er blutete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "aus etwas bluten",
+          "cases": "aus + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "stark bluten",
+          "gloss_en": "to bleed heavily"
+        },
+        {
+          "phrase": "aus der Nase bluten",
+          "gloss_en": "to have a nosebleed"
+        },
+        {
+          "phrase": "die Wunde blutet",
+          "gloss_en": "the wound is bleeding"
+        },
+        {
+          "phrase": "zu bluten aufhören",
+          "gloss_en": "to stop bleeding"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Wunde am Finger blutete ziemlich stark.",
+          "en": "The wound on his finger was bleeding quite heavily."
+        },
+        {
+          "de": "Nach dem Sturz blutete sie aus der Nase.",
+          "en": "After the fall she was bleeding from the nose."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch übertragen ('für etwas bluten müssen' = teuer bezahlen).",
+      "near_synonyms": [
+        {
+          "lemma": "verbluten",
+          "distinction": "das tödliche Ausbluten, ein Ergebnis, kein andauerndes Bluten"
+        },
+        {
+          "lemma": "nässen",
+          "distinction": "eine Wunde sondert Flüssigkeit ab, nicht unbedingt Blut"
+        }
+      ]
+    },
+    "schwellen": {
+      "meaning_de": "durch Flüssigkeitsansammlung dicker oder größer werden (von Körperteilen)",
+      "meaning_en": "to swell",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er schwillt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er schwoll"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist geschwollen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er schwölle"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Knöchel schwillt an",
+          "gloss_en": "the ankle is swelling up"
+        },
+        {
+          "phrase": "stark schwellen",
+          "gloss_en": "to swell severely"
+        },
+        {
+          "phrase": "geschwollene Beine",
+          "gloss_en": "swollen legs"
+        },
+        {
+          "phrase": "die Schwellung geht zurück",
+          "gloss_en": "the swelling is going down"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Umknicken schwoll der Knöchel rasch an.",
+          "en": "After twisting it, the ankle quickly swelled up."
+        },
+        {
+          "de": "Ihre Hände sind über Nacht geschwollen.",
+          "en": "Her hands have swollen overnight."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch meist mit Vorsilbe als 'anschwellen', starkes Verb mit 'sein'.",
+      "near_synonyms": [
+        {
+          "lemma": "anschwellen",
+          "distinction": "die häufigere Form, betont das Zunehmen der Schwellung"
+        },
+        {
+          "lemma": "sich entzünden",
+          "distinction": "die Entzündung als Ursache, nicht das bloße Dickerwerden"
+        }
+      ]
+    },
+    "genesen": {
+      "meaning_de": "nach einer Krankheit oder Verletzung wieder gesund werden",
+      "meaning_en": "to recover; to convalesce",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er genest"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er genas"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist genesen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er genäse"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "von etwas genesen",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "von einer Krankheit genesen",
+          "gloss_en": "to recover from an illness"
+        },
+        {
+          "phrase": "vollständig genesen",
+          "gloss_en": "to make a full recovery"
+        },
+        {
+          "phrase": "langsam genesen",
+          "gloss_en": "to recover slowly"
+        },
+        {
+          "phrase": "wieder genesen",
+          "gloss_en": "to get well again"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Operation ist er rasch genesen.",
+          "en": "After the operation he recovered quickly."
+        },
+        {
+          "de": "Sie genas von ihrer schweren Grippe erst nach Wochen.",
+          "en": "She recovered from her severe flu only after weeks."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als 'gesund werden', bildet Perfekt mit 'sein'.",
+      "near_synonyms": [
+        {
+          "lemma": "gesund werden",
+          "distinction": "die alltägliche, neutrale Entsprechung"
+        },
+        {
+          "lemma": "sich erholen",
+          "distinction": "das Wiedererlangen von Kraft, auch ohne vorherige Krankheit"
+        }
+      ]
+    },
+    "lindern": {
+      "meaning_de": "Schmerzen oder Beschwerden schwächer und erträglicher machen",
+      "meaning_en": "to relieve; to alleviate; to ease",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lindert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er linderte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gelindert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er linderte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas lindern",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Schmerzen lindern",
+          "gloss_en": "to relieve pain"
+        },
+        {
+          "phrase": "die Beschwerden lindern",
+          "gloss_en": "to ease the symptoms"
+        },
+        {
+          "phrase": "das Leiden lindern",
+          "gloss_en": "to alleviate suffering"
+        },
+        {
+          "phrase": "die Not lindern",
+          "gloss_en": "to ease the hardship"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine kühle Kompresse lindert den Schmerz.",
+          "en": "A cool compress relieves the pain."
+        },
+        {
+          "de": "Das Medikament lindert die Beschwerden, heilt sie aber nicht.",
+          "en": "The medication eases the symptoms but does not cure them."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis leicht gehoben; medizinisch und übertragen (Not, Kummer lindern).",
+      "near_synonyms": [
+        {
+          "lemma": "mildern",
+          "distinction": "eher abschwächen allgemein, auch von Strafen oder Kritik"
+        },
+        {
+          "lemma": "stillen",
+          "distinction": "speziell Schmerz oder Hunger vollständig zum Aufhören bringen"
+        }
+      ]
+    },
+    "ansteckend": {
+      "meaning_de": "geeignet, eine Krankheit auf andere zu übertragen; auch: sich leicht mitteilend (z. B. Lachen)",
+      "meaning_en": "contagious; infectious",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "ansteckender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am ansteckendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine ansteckende Krankheit",
+          "gloss_en": "a contagious disease"
+        },
+        {
+          "phrase": "hochgradig ansteckend",
+          "gloss_en": "highly contagious"
+        },
+        {
+          "phrase": "ansteckend sein",
+          "gloss_en": "to be contagious"
+        },
+        {
+          "phrase": "ein ansteckendes Lachen",
+          "gloss_en": "an infectious laugh"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Masern sind besonders in den ersten Tagen sehr ansteckend.",
+          "en": "Measles is very contagious, especially in the first few days."
+        },
+        {
+          "de": "Ihre gute Laune war richtig ansteckend.",
+          "en": "Her good mood was really infectious."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisch und übertragen für Stimmungen, die sich ausbreiten.",
+      "near_synonyms": [
+        {
+          "lemma": "infektiös",
+          "distinction": "fachsprachlich, rein medizinisch, nicht übertragen"
+        },
+        {
+          "lemma": "übertragbar",
+          "distinction": "nüchterner, betont die Möglichkeit der Übertragung"
+        }
+      ]
+    },
+    "chronisch": {
+      "meaning_de": "sich langsam entwickelnd und lange andauernd; nicht akut",
+      "meaning_en": "chronic",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine chronische Krankheit",
+          "gloss_en": "a chronic illness"
+        },
+        {
+          "phrase": "chronische Schmerzen",
+          "gloss_en": "chronic pain"
+        },
+        {
+          "phrase": "chronisch krank sein",
+          "gloss_en": "to be chronically ill"
+        },
+        {
+          "phrase": "ein chronischer Mangel",
+          "gloss_en": "a chronic shortage"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er leidet seit Jahren an chronischen Rückenschmerzen.",
+          "en": "He has suffered from chronic back pain for years."
+        },
+        {
+          "de": "In der Klinik herrscht ein chronischer Personalmangel.",
+          "en": "The clinic suffers from a chronic shortage of staff."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisches Gegenteil zu 'akut', übertragen für dauerhafte Missstände. Nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "dauerhaft",
+          "distinction": "allgemein andauernd, ohne medizinischen Beiklang"
+        },
+        {
+          "lemma": "hartnäckig",
+          "distinction": "betont die Widerstandskraft gegen Behandlung, nicht die Dauer"
+        }
+      ]
+    },
+    "akut": {
+      "meaning_de": "plötzlich auftretend und heftig verlaufend; auch: unmittelbar dringend",
+      "meaning_en": "acute; pressing",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine akute Erkrankung",
+          "gloss_en": "an acute illness"
+        },
+        {
+          "phrase": "akute Schmerzen",
+          "gloss_en": "acute pain"
+        },
+        {
+          "phrase": "akute Lebensgefahr",
+          "gloss_en": "acute danger to life"
+        },
+        {
+          "phrase": "im akuten Stadium",
+          "gloss_en": "in the acute stage"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei akuten Beschwerden sollten Sie sofort einen Arzt aufsuchen.",
+          "en": "In case of acute symptoms you should see a doctor immediately."
+        },
+        {
+          "de": "Es besteht keine akute Gefahr für sein Leben.",
+          "en": "There is no acute danger to his life."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; medizinisches Gegenteil zu 'chronisch', übertragen für dringende Probleme. In der Regel nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "dringend",
+          "distinction": "betont die Eile, nicht den plötzlichen und heftigen Verlauf"
+        },
+        {
+          "lemma": "plötzlich",
+          "distinction": "nur das rasche Auftreten, ohne den Aspekt der Heftigkeit"
+        }
+      ]
+    },
+    "schmerzhaft": {
+      "meaning_de": "Schmerzen verursachend; auch: seelisch sehr belastend",
+      "meaning_en": "painful",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "schmerzhafter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am schmerzhaftesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine schmerzhafte Verletzung",
+          "gloss_en": "a painful injury"
+        },
+        {
+          "phrase": "schmerzhaft geschwollen",
+          "gloss_en": "painfully swollen"
+        },
+        {
+          "phrase": "ein schmerzhafter Verlust",
+          "gloss_en": "a painful loss"
+        },
+        {
+          "phrase": "besonders schmerzhaft",
+          "gloss_en": "particularly painful"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Prellung ist zwar harmlos, aber sehr schmerzhaft.",
+          "en": "The bruise is harmless but very painful."
+        },
+        {
+          "de": "Der Abschied war für beide schmerzhaft.",
+          "en": "The parting was painful for both of them."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; körperlich wie seelisch verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "schmerzvoll",
+          "distinction": "gehobener, eher für seelischen Schmerz"
+        },
+        {
+          "lemma": "wehtun",
+          "distinction": "verbal und alltäglich, keine adjektivische Eigenschaft"
+        }
+      ]
+    },
+    "bewusstlos": {
+      "meaning_de": "ohne Bewusstsein, nicht ansprechbar",
+      "meaning_en": "unconscious",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "bewusstlos zusammenbrechen",
+          "gloss_en": "to collapse unconscious"
+        },
+        {
+          "phrase": "bewusstlos werden",
+          "gloss_en": "to lose consciousness"
+        },
+        {
+          "phrase": "bewusstlos am Boden liegen",
+          "gloss_en": "to lie unconscious on the ground"
+        },
+        {
+          "phrase": "jemanden bewusstlos schlagen",
+          "gloss_en": "to knock someone unconscious"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Sturz war er kurze Zeit bewusstlos.",
+          "en": "After the fall he was unconscious for a short while."
+        },
+        {
+          "de": "Die Passanten fanden sie bewusstlos auf dem Gehweg.",
+          "en": "Passers-by found her unconscious on the pavement."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Zustandsadjektiv, daher nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "ohnmächtig",
+          "distinction": "meist der kürzere, oft kreislaufbedingte Bewusstseinsverlust"
+        },
+        {
+          "lemma": "benommen",
+          "distinction": "nur getrübtes Bewusstsein, nicht der völlige Verlust"
+        }
+      ]
+    }
+  }
+}

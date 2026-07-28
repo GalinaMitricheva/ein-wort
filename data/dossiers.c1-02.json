@@ -1,0 +1,2979 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 domain batch: Recht, Justiz & Verwaltung (law, justice & administration). Keyed by lemma.",
+  "dossiers": {
+    "Rechtsprechung": {
+      "meaning_de": "die richterliche Tätigkeit und die Gesamtheit der Gerichtsentscheidungen",
+      "meaning_en": "administration of justice; case law; jurisprudence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rechtsprechung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die ständige Rechtsprechung",
+          "gloss_en": "settled case law"
+        },
+        {
+          "phrase": "nach der Rechtsprechung des Gerichts",
+          "gloss_en": "according to the court's case law"
+        },
+        {
+          "phrase": "die höchstrichterliche Rechtsprechung",
+          "gloss_en": "the case law of the supreme courts"
+        },
+        {
+          "phrase": "die Rechtsprechung ändern",
+          "gloss_en": "to change the case law"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach ständiger Rechtsprechung ist eine solche Klausel unwirksam.",
+          "en": "According to settled case law, such a clause is invalid."
+        },
+        {
+          "de": "Die Rechtsprechung obliegt allein den unabhängigen Gerichten.",
+          "en": "The administration of justice is the sole responsibility of the independent courts."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich-juristisch; meint sowohl die richterliche Gewalt als auch die Judikatur.",
+      "near_synonyms": [
+        {
+          "lemma": "die Judikatur",
+          "distinction": "gelehrter Ausdruck, meint nur die Gesamtheit der Urteile"
+        },
+        {
+          "lemma": "die Justiz",
+          "distinction": "umfassender, das ganze Gerichtswesen als Institution"
+        }
+      ]
+    },
+    "Rechtsstreit": {
+      "meaning_de": "eine vor Gericht ausgetragene Auseinandersetzung zwischen Parteien",
+      "meaning_en": "legal dispute; lawsuit; litigation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rechtsstreits"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rechtsstreite"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Rechtsstreit über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Rechtsstreit führen",
+          "gloss_en": "to conduct a lawsuit"
+        },
+        {
+          "phrase": "einen Rechtsstreit beilegen",
+          "gloss_en": "to settle a dispute"
+        },
+        {
+          "phrase": "ein langwieriger Rechtsstreit",
+          "gloss_en": "a protracted legal dispute"
+        },
+        {
+          "phrase": "den Rechtsstreit gewinnen",
+          "gloss_en": "to win the case"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Rechtsstreit zog sich über mehrere Jahre hin.",
+          "en": "The legal dispute dragged on for several years."
+        },
+        {
+          "de": "Beide Seiten einigten sich, den Rechtsstreit außergerichtlich beizulegen.",
+          "en": "Both sides agreed to settle the dispute out of court."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Fachbegriff für den gerichtlich ausgetragenen Konflikt.",
+      "near_synonyms": [
+        {
+          "lemma": "der Prozess",
+          "distinction": "das laufende Gerichtsverfahren als Ablauf"
+        },
+        {
+          "lemma": "die Klage",
+          "distinction": "der einleitende Antrag, nicht der ganze Streit"
+        }
+      ]
+    },
+    "Klageschrift": {
+      "meaning_de": "der Schriftsatz, mit dem ein Kläger ein Zivilverfahren einleitet",
+      "meaning_en": "statement of claim; complaint (civil)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Klageschrift"
+        },
+        {
+          "label": "Plural",
+          "value": "die Klageschriften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Klageschrift einreichen",
+          "gloss_en": "to file a statement of claim"
+        },
+        {
+          "phrase": "die Klageschrift zustellen",
+          "gloss_en": "to serve the statement of claim"
+        },
+        {
+          "phrase": "in der Klageschrift darlegen",
+          "gloss_en": "to set out in the statement of claim"
+        },
+        {
+          "phrase": "eine ausführliche Klageschrift",
+          "gloss_en": "a detailed statement of claim"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Anwalt reichte die Klageschrift beim Landgericht ein.",
+          "en": "The lawyer filed the statement of claim with the regional court."
+        },
+        {
+          "de": "In der Klageschrift wird der Anspruch genau beziffert.",
+          "en": "The statement of claim specifies the exact amount of the claim."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Zivilprozessrechts; im Strafrecht heißt das Pendant Anklageschrift.",
+      "near_synonyms": [
+        {
+          "lemma": "die Klage",
+          "distinction": "der Vorgang bzw. das Rechtsbegehren, nicht das Dokument"
+        },
+        {
+          "lemma": "der Schriftsatz",
+          "distinction": "allgemein jedes bei Gericht eingereichte Schriftstück"
+        }
+      ]
+    },
+    "Beweisaufnahme": {
+      "meaning_de": "der Abschnitt eines Verfahrens, in dem das Gericht die Beweise erhebt und prüft",
+      "meaning_en": "taking of evidence; examination of evidence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Beweisaufnahme"
+        },
+        {
+          "label": "Plural",
+          "value": "die Beweisaufnahmen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in die Beweisaufnahme eintreten",
+          "gloss_en": "to proceed to the taking of evidence"
+        },
+        {
+          "phrase": "das Ergebnis der Beweisaufnahme",
+          "gloss_en": "the result of the taking of evidence"
+        },
+        {
+          "phrase": "die Beweisaufnahme schließen",
+          "gloss_en": "to close the taking of evidence"
+        },
+        {
+          "phrase": "eine umfangreiche Beweisaufnahme",
+          "gloss_en": "extensive taking of evidence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Beweisaufnahme sah das Gericht den Vorwurf als erwiesen an.",
+          "en": "After taking the evidence, the court considered the charge proven."
+        },
+        {
+          "de": "Während der Beweisaufnahme wurden mehrere Zeugen vernommen.",
+          "en": "Several witnesses were examined during the taking of evidence."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fester Terminus der Prozessordnung; bezeichnet die Erhebung von Zeugen-, Sachverständigen- und Urkundenbeweisen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Beweiserhebung",
+          "distinction": "nahezu bedeutungsgleich, betont den einzelnen Erhebungsakt"
+        },
+        {
+          "lemma": "die Verhandlung",
+          "distinction": "der ganze Termin, nicht nur der Beweisteil"
+        }
+      ]
+    },
+    "Beweislast": {
+      "meaning_de": "die Pflicht einer Partei, eine für sie günstige Tatsache zu beweisen",
+      "meaning_en": "burden of proof",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Beweislast"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Beweislast für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Beweislast tragen",
+          "gloss_en": "to bear the burden of proof"
+        },
+        {
+          "phrase": "die Beweislast umkehren",
+          "gloss_en": "to reverse the burden of proof"
+        },
+        {
+          "phrase": "die Beweislast liegt bei jemandem",
+          "gloss_en": "the burden of proof lies with someone"
+        },
+        {
+          "phrase": "die Verteilung der Beweislast",
+          "gloss_en": "the allocation of the burden of proof"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Beweislast liegt grundsätzlich beim Kläger.",
+          "en": "The burden of proof generally lies with the claimant."
+        },
+        {
+          "de": "In solchen Fällen kann sich die Beweislast umkehren.",
+          "en": "In such cases the burden of proof can be reversed."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Grundbegriff; wird meist ohne Plural gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Darlegungslast",
+          "distinction": "die vorgelagerte Pflicht, Tatsachen substantiiert vorzutragen"
+        },
+        {
+          "lemma": "die Beweispflicht",
+          "distinction": "umgangssprachlicher, weniger technisch verwendet"
+        }
+      ]
+    },
+    "Beweisantrag": {
+      "meaning_de": "der Antrag einer Partei, ein bestimmtes Beweismittel zu erheben",
+      "meaning_en": "motion to take evidence; request for evidence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Beweisantrags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Beweisanträge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Beweisantrag stellen",
+          "gloss_en": "to file a motion to take evidence"
+        },
+        {
+          "phrase": "einen Beweisantrag ablehnen",
+          "gloss_en": "to reject a motion for evidence"
+        },
+        {
+          "phrase": "über den Beweisantrag entscheiden",
+          "gloss_en": "to rule on the motion for evidence"
+        },
+        {
+          "phrase": "einen Beweisantrag zurückweisen",
+          "gloss_en": "to dismiss a motion for evidence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Verteidigung stellte einen Beweisantrag auf Vernehmung eines Zeugen.",
+          "en": "The defence filed a motion to have a witness examined."
+        },
+        {
+          "de": "Das Gericht lehnte den Beweisantrag als verspätet ab.",
+          "en": "The court rejected the motion for evidence as belated."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Terminus des Prozessrechts, vor allem im Strafverfahren gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Beweisangebot",
+          "distinction": "die bloße Benennung eines Beweismittels, formloser"
+        },
+        {
+          "lemma": "der Antrag",
+          "distinction": "der Oberbegriff, ohne Bezug speziell auf Beweise"
+        }
+      ]
+    },
+    "Berufung": {
+      "meaning_de": "das Rechtsmittel, mit dem ein Urteil in tatsächlicher und rechtlicher Hinsicht überprüft wird",
+      "meaning_en": "appeal (on facts and law)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Berufung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Berufungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Berufung gegen ein Urteil",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Berufung einlegen",
+          "gloss_en": "to lodge an appeal"
+        },
+        {
+          "phrase": "die Berufung zurückweisen",
+          "gloss_en": "to dismiss the appeal"
+        },
+        {
+          "phrase": "in die Berufung gehen",
+          "gloss_en": "to take the case to appeal"
+        },
+        {
+          "phrase": "die Berufung zurücknehmen",
+          "gloss_en": "to withdraw the appeal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Angeklagte legte gegen das Urteil Berufung ein.",
+          "en": "The defendant lodged an appeal against the verdict."
+        },
+        {
+          "de": "Das Oberlandesgericht wies die Berufung als unbegründet zurück.",
+          "en": "The higher regional court dismissed the appeal as unfounded."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch; anders als die Revision prüft die Berufung auch die Tatsachen neu. Daneben auch 'die Ernennung in ein Amt'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Revision",
+          "distinction": "prüft nur Rechtsfehler, nicht die Tatsachenfeststellung"
+        },
+        {
+          "lemma": "der Einspruch",
+          "distinction": "richtet sich gegen bestimmte Bescheide, kein volles Rechtsmittel"
+        }
+      ]
+    },
+    "Revision": {
+      "meaning_de": "das Rechtsmittel, mit dem ein Urteil nur auf Rechtsfehler überprüft wird",
+      "meaning_en": "appeal on points of law; cassation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Revision"
+        },
+        {
+          "label": "Plural",
+          "value": "die Revisionen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Revision gegen ein Urteil",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Revision einlegen",
+          "gloss_en": "to lodge an appeal on points of law"
+        },
+        {
+          "phrase": "die Revision verwerfen",
+          "gloss_en": "to dismiss the appeal"
+        },
+        {
+          "phrase": "die Revision zulassen",
+          "gloss_en": "to allow the appeal on law"
+        },
+        {
+          "phrase": "in der Revisionsinstanz",
+          "gloss_en": "at the level of the court of cassation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bundesgerichtshof verwarf die Revision des Angeklagten.",
+          "en": "The Federal Court of Justice dismissed the defendant's appeal on points of law."
+        },
+        {
+          "de": "Gegen das Urteil ist die Revision zum Obersten Gericht möglich.",
+          "en": "An appeal on points of law to the supreme court is possible against the ruling."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch; im Alltag meint Revision auch die Überprüfung oder Durchsicht (z. B. der Buchführung).",
+      "near_synonyms": [
+        {
+          "lemma": "die Berufung",
+          "distinction": "prüft auch die Tatsachen, nicht nur das Recht"
+        },
+        {
+          "lemma": "die Beschwerde",
+          "distinction": "Rechtsbehelf gegen Beschlüsse, nicht gegen Urteile"
+        }
+      ]
+    },
+    "Zwangsvollstreckung": {
+      "meaning_de": "die staatliche Durchsetzung eines Anspruchs gegen den Schuldner",
+      "meaning_en": "enforcement; execution (of a judgment)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zwangsvollstreckung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zwangsvollstreckungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Zwangsvollstreckung in etwas",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Zwangsvollstreckung betreiben",
+          "gloss_en": "to pursue enforcement"
+        },
+        {
+          "phrase": "die Zwangsvollstreckung einleiten",
+          "gloss_en": "to initiate enforcement proceedings"
+        },
+        {
+          "phrase": "die Zwangsvollstreckung in das Vermögen",
+          "gloss_en": "enforcement against the assets"
+        },
+        {
+          "phrase": "die Zwangsvollstreckung aussetzen",
+          "gloss_en": "to suspend enforcement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Gläubiger leitete die Zwangsvollstreckung in das Grundstück ein.",
+          "en": "The creditor initiated enforcement against the property."
+        },
+        {
+          "de": "Ohne vollstreckbaren Titel ist keine Zwangsvollstreckung möglich.",
+          "en": "Without an enforceable title, no enforcement is possible."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Vollstreckungsrechts; meist im Singular, Plural nur bei mehreren Verfahren.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vollstreckung",
+          "distinction": "Oberbegriff, auch für Strafen; Zwangsvollstreckung meint zivilrechtliche Ansprüche"
+        },
+        {
+          "lemma": "die Pfändung",
+          "distinction": "eine einzelne Maßnahme innerhalb der Zwangsvollstreckung"
+        }
+      ]
+    },
+    "Gerichtsvollzieher": {
+      "meaning_de": "ein Beamter, der gerichtliche Titel vollstreckt und Zustellungen vornimmt",
+      "meaning_en": "bailiff; enforcement officer",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gerichtsvollziehers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gerichtsvollzieher"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Gerichtsvollzieher beauftragen",
+          "gloss_en": "to instruct the bailiff"
+        },
+        {
+          "phrase": "der Gerichtsvollzieher pfändet",
+          "gloss_en": "the bailiff seizes goods"
+        },
+        {
+          "phrase": "der Besuch des Gerichtsvollziehers",
+          "gloss_en": "the bailiff's visit"
+        },
+        {
+          "phrase": "eine Zustellung durch den Gerichtsvollzieher",
+          "gloss_en": "service by the bailiff"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Gerichtsvollzieher pfändete das Auto des Schuldners.",
+          "en": "The bailiff seized the debtor's car."
+        },
+        {
+          "de": "Zahlt er nicht, kommt der Gerichtsvollzieher.",
+          "en": "If he doesn't pay, the bailiff will come."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Amtsbezeichnung; im Alltag mit dem Beiklang der Zwangsvollstreckung.",
+      "near_synonyms": [
+        {
+          "lemma": "der Vollstreckungsbeamte",
+          "distinction": "allgemeiner Begriff, auch außerhalb der Zivilvollstreckung"
+        },
+        {
+          "lemma": "der Inkassobeauftragte",
+          "distinction": "privatwirtschaftlich, ohne hoheitliche Befugnisse"
+        }
+      ]
+    },
+    "Verjährungsfrist": {
+      "meaning_de": "der Zeitraum, nach dessen Ablauf ein Anspruch nicht mehr durchgesetzt werden kann",
+      "meaning_en": "limitation period; period of prescription",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verjährungsfrist"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verjährungsfristen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Verjährungsfrist für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Verjährungsfrist läuft ab",
+          "gloss_en": "the limitation period expires"
+        },
+        {
+          "phrase": "die Verjährungsfrist hemmen",
+          "gloss_en": "to suspend the limitation period"
+        },
+        {
+          "phrase": "die Verjährungsfrist beträgt drei Jahre",
+          "gloss_en": "the limitation period is three years"
+        },
+        {
+          "phrase": "innerhalb der Verjährungsfrist",
+          "gloss_en": "within the limitation period"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die regelmäßige Verjährungsfrist beträgt drei Jahre.",
+          "en": "The standard limitation period is three years."
+        },
+        {
+          "de": "Nach Ablauf der Verjährungsfrist kann der Anspruch nicht mehr eingeklagt werden.",
+          "en": "After the limitation period expires, the claim can no longer be enforced in court."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Fachbegriff; die Frist bewirkt die Verjährung des Anspruchs.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ausschlussfrist",
+          "distinction": "lässt das Recht selbst erlöschen, nicht nur die Durchsetzbarkeit"
+        },
+        {
+          "lemma": "die Frist",
+          "distinction": "Oberbegriff, ohne den Bezug zur Verjährung"
+        }
+      ]
+    },
+    "Plädoyer": {
+      "meaning_de": "der abschließende Vortrag von Anklage oder Verteidigung vor dem Urteil",
+      "meaning_en": "closing speech; plea; (fig.) impassioned argument",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Plädoyers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Plädoyers"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Plädoyer für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Plädoyer halten",
+          "gloss_en": "to make a closing speech"
+        },
+        {
+          "phrase": "ein flammendes Plädoyer",
+          "gloss_en": "an impassioned plea"
+        },
+        {
+          "phrase": "ein Plädoyer für Toleranz",
+          "gloss_en": "a plea for tolerance"
+        },
+        {
+          "phrase": "im Plädoyer beantragen",
+          "gloss_en": "to request in the closing speech"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In ihrem Plädoyer forderte die Staatsanwältin eine Freiheitsstrafe.",
+          "en": "In her closing speech, the prosecutor demanded a prison sentence."
+        },
+        {
+          "de": "Sein Buch ist ein leidenschaftliches Plädoyer für die Pressefreiheit.",
+          "en": "His book is a passionate plea for freedom of the press."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ursprünglich juristisch, übertragen auch ein engagiertes Eintreten für eine Sache.",
+      "near_synonyms": [
+        {
+          "lemma": "der Schlussvortrag",
+          "distinction": "nüchterner Fachausdruck für dasselbe im Prozess"
+        },
+        {
+          "lemma": "das Appell",
+          "distinction": "ein Aufruf, ohne den argumentativen Charakter"
+        }
+      ]
+    },
+    "Anklageschrift": {
+      "meaning_de": "der Schriftsatz, mit dem die Staatsanwaltschaft die öffentliche Klage erhebt",
+      "meaning_en": "indictment; bill of indictment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Anklageschrift"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anklageschriften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Anklageschrift verlesen",
+          "gloss_en": "to read out the indictment"
+        },
+        {
+          "phrase": "die Anklageschrift erheben",
+          "gloss_en": "to bring the indictment"
+        },
+        {
+          "phrase": "in der Anklageschrift vorwerfen",
+          "gloss_en": "to allege in the indictment"
+        },
+        {
+          "phrase": "die Anklageschrift zulassen",
+          "gloss_en": "to admit the indictment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zu Beginn der Verhandlung wurde die Anklageschrift verlesen.",
+          "en": "At the start of the trial, the indictment was read out."
+        },
+        {
+          "de": "Die Anklageschrift wirft ihm schweren Betrug vor.",
+          "en": "The indictment charges him with aggravated fraud."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Strafprozessrechts; das zivilrechtliche Pendant ist die Klageschrift.",
+      "near_synonyms": [
+        {
+          "lemma": "die Anklage",
+          "distinction": "der Vorgang der Anklageerhebung, nicht das Dokument"
+        },
+        {
+          "lemma": "die Klageschrift",
+          "distinction": "ziviler Prozess, nicht Strafverfahren"
+        }
+      ]
+    },
+    "Staatsanwaltschaft": {
+      "meaning_de": "die Behörde, die Straftaten verfolgt und die öffentliche Anklage vertritt",
+      "meaning_en": "public prosecutor's office; prosecution service",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Staatsanwaltschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Staatsanwaltschaften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Staatsanwaltschaft ermittelt",
+          "gloss_en": "the prosecution is investigating"
+        },
+        {
+          "phrase": "Anzeige bei der Staatsanwaltschaft erstatten",
+          "gloss_en": "to file a report with the prosecutor's office"
+        },
+        {
+          "phrase": "die Staatsanwaltschaft erhebt Anklage",
+          "gloss_en": "the prosecution brings charges"
+        },
+        {
+          "phrase": "das Verfahren einstellen",
+          "gloss_en": "to drop the proceedings"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Staatsanwaltschaft ermittelt wegen des Verdachts der Untreue.",
+          "en": "The public prosecutor's office is investigating on suspicion of embezzlement."
+        },
+        {
+          "de": "Die Staatsanwaltschaft stellte das Verfahren mangels Beweisen ein.",
+          "en": "The prosecution dropped the case for lack of evidence."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Institutionsbezeichnung; im Nachrichtendeutsch alltäglich, sachlich neutral.",
+      "near_synonyms": [
+        {
+          "lemma": "der Staatsanwalt",
+          "distinction": "die einzelne Person, nicht die Behörde"
+        },
+        {
+          "lemma": "die Anklagebehörde",
+          "distinction": "beschreibender Ausdruck für dieselbe Institution"
+        }
+      ]
+    },
+    "Rechtsbehelf": {
+      "meaning_de": "jedes Mittel, mit dem man sich gegen eine behördliche oder gerichtliche Entscheidung wehren kann",
+      "meaning_en": "legal remedy; means of redress",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rechtsbehelfs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rechtsbehelfe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Rechtsbehelf gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Rechtsbehelf einlegen",
+          "gloss_en": "to lodge a legal remedy"
+        },
+        {
+          "phrase": "die Rechtsbehelfsbelehrung",
+          "gloss_en": "the notice of available remedies"
+        },
+        {
+          "phrase": "der zulässige Rechtsbehelf",
+          "gloss_en": "the admissible remedy"
+        },
+        {
+          "phrase": "einen Rechtsbehelf ergreifen",
+          "gloss_en": "to resort to a legal remedy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Gegen den Bescheid steht Ihnen ein Rechtsbehelf zu.",
+          "en": "You have a legal remedy against the decision."
+        },
+        {
+          "de": "Die Rechtsbehelfsbelehrung nennt Frist und zuständige Stelle.",
+          "en": "The notice of remedies states the deadline and the competent authority."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Oberbegriff; Rechtsbehelf ist weiter als Rechtsmittel und umfasst auch formlose Mittel wie den Widerspruch.",
+      "near_synonyms": [
+        {
+          "lemma": "das Rechtsmittel",
+          "distinction": "engerer Begriff, nur förmliche Mittel mit Devolutivwirkung"
+        },
+        {
+          "lemma": "der Widerspruch",
+          "distinction": "ein bestimmter Rechtsbehelf gegen Verwaltungsakte"
+        }
+      ]
+    },
+    "Rechtsmittel": {
+      "meaning_de": "ein förmliches Mittel, das eine höhere Instanz zur Überprüfung anruft",
+      "meaning_en": "(formal) legal remedy; appeal",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rechtsmittels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rechtsmittel"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Rechtsmittel gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Rechtsmittel einlegen",
+          "gloss_en": "to lodge an appeal"
+        },
+        {
+          "phrase": "auf Rechtsmittel verzichten",
+          "gloss_en": "to waive the right to appeal"
+        },
+        {
+          "phrase": "die Rechtsmittelfrist",
+          "gloss_en": "the deadline for appeals"
+        },
+        {
+          "phrase": "das Rechtsmittel zurücknehmen",
+          "gloss_en": "to withdraw the appeal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Gegen das Urteil ist kein Rechtsmittel mehr gegeben.",
+          "en": "There is no further appeal against this judgment."
+        },
+        {
+          "de": "Beide Parteien verzichteten auf Rechtsmittel.",
+          "en": "Both parties waived their right to appeal."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff; Berufung und Revision sind die typischen Rechtsmittel. Der Plural ist formgleich mit dem Singular.",
+      "near_synonyms": [
+        {
+          "lemma": "der Rechtsbehelf",
+          "distinction": "weiterer Oberbegriff, auch formlose Mittel"
+        },
+        {
+          "lemma": "die Berufung",
+          "distinction": "ein konkretes Rechtsmittel, kein Oberbegriff"
+        }
+      ]
+    },
+    "Vollmacht": {
+      "meaning_de": "die einem anderen erteilte Befugnis, in fremdem Namen rechtlich zu handeln",
+      "meaning_en": "power of attorney; authorisation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Vollmacht"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vollmachten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Vollmacht für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemandem Vollmacht erteilen",
+          "gloss_en": "to grant someone power of attorney"
+        },
+        {
+          "phrase": "eine Vollmacht widerrufen",
+          "gloss_en": "to revoke a power of attorney"
+        },
+        {
+          "phrase": "eine notarielle Vollmacht",
+          "gloss_en": "a notarised power of attorney"
+        },
+        {
+          "phrase": "die Vollmacht vorlegen",
+          "gloss_en": "to present the authorisation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie erteilte ihrem Sohn eine umfassende Vollmacht.",
+          "en": "She granted her son a comprehensive power of attorney."
+        },
+        {
+          "de": "Ohne gültige Vollmacht darf der Vertreter nicht handeln.",
+          "en": "Without a valid power of attorney, the representative may not act."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Juristisch, aber auch im Alltag geläufig (Bank-, Vorsorgevollmacht).",
+      "near_synonyms": [
+        {
+          "lemma": "die Ermächtigung",
+          "distinction": "allgemeiner, auch die Befugnis zu einem einzelnen Akt"
+        },
+        {
+          "lemma": "die Prokura",
+          "distinction": "gesetzlich geregelte, weitreichende Handlungsvollmacht im Handelsrecht"
+        }
+      ]
+    },
+    "Unschuldsvermutung": {
+      "meaning_de": "der Grundsatz, dass jeder bis zum rechtskräftigen Urteil als unschuldig gilt",
+      "meaning_en": "presumption of innocence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Unschuldsvermutung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Unschuldsvermutung gilt",
+          "gloss_en": "the presumption of innocence applies"
+        },
+        {
+          "phrase": "gegen die Unschuldsvermutung verstoßen",
+          "gloss_en": "to violate the presumption of innocence"
+        },
+        {
+          "phrase": "die Unschuldsvermutung wahren",
+          "gloss_en": "to uphold the presumption of innocence"
+        },
+        {
+          "phrase": "unter Wahrung der Unschuldsvermutung",
+          "gloss_en": "while preserving the presumption of innocence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bis zum Urteil gilt für den Angeklagten die Unschuldsvermutung.",
+          "en": "Until the verdict, the presumption of innocence applies to the defendant."
+        },
+        {
+          "de": "Die Berichterstattung verletzte die Unschuldsvermutung.",
+          "en": "The reporting violated the presumption of innocence."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Rechtsstaatlicher Grundsatz; wird ohne Plural gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zweifelssatz",
+          "distinction": "der verwandte Grundsatz 'im Zweifel für den Angeklagten'"
+        },
+        {
+          "lemma": "die Beweislast",
+          "distinction": "die Folge des Grundsatzes, nicht der Grundsatz selbst"
+        }
+      ]
+    },
+    "Rechtskraft": {
+      "meaning_de": "die Unanfechtbarkeit und Verbindlichkeit einer gerichtlichen Entscheidung",
+      "meaning_en": "legal force; res judicata; finality",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rechtskraft"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in Rechtskraft erwachsen",
+          "gloss_en": "to become final and binding"
+        },
+        {
+          "phrase": "Rechtskraft erlangen",
+          "gloss_en": "to acquire legal force"
+        },
+        {
+          "phrase": "die Rechtskraft eines Urteils",
+          "gloss_en": "the finality of a judgment"
+        },
+        {
+          "phrase": "mit Eintritt der Rechtskraft",
+          "gloss_en": "upon becoming final"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Urteil ist inzwischen in Rechtskraft erwachsen.",
+          "en": "The judgment has meanwhile become final and binding."
+        },
+        {
+          "de": "Mit Eintritt der Rechtskraft ist die Strafe zu vollstrecken.",
+          "en": "Once the judgment is final, the sentence must be enforced."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Fachbegriff; das zugehörige Adjektiv ist rechtskräftig, Plural ungebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Bestandskraft",
+          "distinction": "das Gegenstück für Verwaltungsakte, nicht für Urteile"
+        },
+        {
+          "lemma": "die Unanfechtbarkeit",
+          "distinction": "betont nur den Ausschluss von Rechtsmitteln"
+        }
+      ]
+    },
+    "Rechtsgrundlage": {
+      "meaning_de": "die Vorschrift, auf die sich ein Handeln oder ein Anspruch stützt",
+      "meaning_en": "legal basis; statutory basis",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rechtsgrundlage"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rechtsgrundlagen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Rechtsgrundlage für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Rechtsgrundlage schaffen",
+          "gloss_en": "to create the legal basis"
+        },
+        {
+          "phrase": "sich auf eine Rechtsgrundlage stützen",
+          "gloss_en": "to rely on a legal basis"
+        },
+        {
+          "phrase": "ohne Rechtsgrundlage handeln",
+          "gloss_en": "to act without a legal basis"
+        },
+        {
+          "phrase": "die einschlägige Rechtsgrundlage",
+          "gloss_en": "the relevant legal basis"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für diesen Eingriff fehlt es an einer Rechtsgrundlage.",
+          "en": "There is no legal basis for this interference."
+        },
+        {
+          "de": "Das Gesetz schafft die Rechtsgrundlage für die Datenverarbeitung.",
+          "en": "The act creates the legal basis for the data processing."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch-verwaltungssprachlich; unverzichtbar, weil staatliches Handeln stets eine Rechtsgrundlage braucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ermächtigungsgrundlage",
+          "distinction": "speziell die Norm, die zu einem Eingriff ermächtigt"
+        },
+        {
+          "lemma": "die Grundlage",
+          "distinction": "allgemein, ohne den rechtlichen Bezug"
+        }
+      ]
+    },
+    "Rechtsverordnung": {
+      "meaning_de": "eine von der Exekutive aufgrund gesetzlicher Ermächtigung erlassene Rechtsnorm",
+      "meaning_en": "statutory ordinance; regulation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rechtsverordnung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rechtsverordnungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Rechtsverordnung erlassen",
+          "gloss_en": "to issue a statutory ordinance"
+        },
+        {
+          "phrase": "durch Rechtsverordnung regeln",
+          "gloss_en": "to regulate by ordinance"
+        },
+        {
+          "phrase": "die Ermächtigung zur Rechtsverordnung",
+          "gloss_en": "the authorisation to issue ordinances"
+        },
+        {
+          "phrase": "eine Rechtsverordnung ändern",
+          "gloss_en": "to amend a statutory ordinance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Einzelheiten werden durch Rechtsverordnung geregelt.",
+          "en": "The details are governed by statutory ordinance."
+        },
+        {
+          "de": "Das Ministerium erließ eine entsprechende Rechtsverordnung.",
+          "en": "The ministry issued a corresponding statutory ordinance."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Verfassungs- und Verwaltungsrechts; steht im Rang unter dem förmlichen Gesetz.",
+      "near_synonyms": [
+        {
+          "lemma": "die Satzung",
+          "distinction": "von Selbstverwaltungskörperschaften erlassen, nicht vom Staat"
+        },
+        {
+          "lemma": "das Gesetz",
+          "distinction": "vom Parlament beschlossen, höherer Rang"
+        }
+      ]
+    },
+    "Novelle": {
+      "meaning_de": "die Änderung oder Ergänzung eines bestehenden Gesetzes",
+      "meaning_en": "amending act; amendment to a law",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Novelle"
+        },
+        {
+          "label": "Plural",
+          "value": "die Novellen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Novelle verabschieden",
+          "gloss_en": "to pass an amending act"
+        },
+        {
+          "phrase": "die Novelle des Gesetzes",
+          "gloss_en": "the amendment of the act"
+        },
+        {
+          "phrase": "eine Novelle einbringen",
+          "gloss_en": "to introduce an amending bill"
+        },
+        {
+          "phrase": "die geplante Novelle",
+          "gloss_en": "the planned amendment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Novelle des Datenschutzgesetzes tritt im Januar in Kraft.",
+          "en": "The amendment to the data protection act comes into force in January."
+        },
+        {
+          "de": "Der Bundestag beriet über eine Novelle des Baurechts.",
+          "en": "The parliament debated an amendment to the building law."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch im Sinne der Gesetzesänderung; daneben literarisch eine kürzere Erzählform.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gesetzesänderung",
+          "distinction": "der beschreibende Ausdruck für denselben Vorgang"
+        },
+        {
+          "lemma": "die Reform",
+          "distinction": "weiter gefasst, eine grundlegende Umgestaltung"
+        }
+      ]
+    },
+    "Erlass": {
+      "meaning_de": "eine hoheitliche Anordnung; auch: das Erlassen einer Norm oder das Erlassen einer Schuld",
+      "meaning_en": "decree; directive; (also) remission (of a debt)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Erlasses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Erlasse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Erlass herausgeben",
+          "gloss_en": "to issue a decree"
+        },
+        {
+          "phrase": "ein ministerieller Erlass",
+          "gloss_en": "a ministerial directive"
+        },
+        {
+          "phrase": "der Erlass eines Gesetzes",
+          "gloss_en": "the enactment of a law"
+        },
+        {
+          "phrase": "der Erlass der Schuld",
+          "gloss_en": "the remission of the debt"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein ministerieller Erlass regelte das Vorgehen der Behörden.",
+          "en": "A ministerial decree governed the authorities' procedure."
+        },
+        {
+          "de": "Der Erlass der Steuerschuld kam für sie überraschend.",
+          "en": "The remission of the tax debt came as a surprise to her."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Verwaltungssprachlich; polysem zwischen Anordnung, Normsetzung ('Erlass eines Gesetzes') und Schulderlass.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verfügung",
+          "distinction": "eine Anordnung im Einzelfall, konkreter"
+        },
+        {
+          "lemma": "das Dekret",
+          "distinction": "gehoben und oft historisch oder auf Auslandsstaaten bezogen"
+        }
+      ]
+    },
+    "Gewaltenteilung": {
+      "meaning_de": "die Aufteilung der Staatsgewalt auf Gesetzgebung, Verwaltung und Rechtsprechung",
+      "meaning_en": "separation of powers",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gewaltenteilung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Prinzip der Gewaltenteilung",
+          "gloss_en": "the principle of the separation of powers"
+        },
+        {
+          "phrase": "die Gewaltenteilung wahren",
+          "gloss_en": "to preserve the separation of powers"
+        },
+        {
+          "phrase": "die Gewaltenteilung aushöhlen",
+          "gloss_en": "to erode the separation of powers"
+        },
+        {
+          "phrase": "gegen die Gewaltenteilung verstoßen",
+          "gloss_en": "to violate the separation of powers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Gewaltenteilung schützt vor der Konzentration der Macht.",
+          "en": "The separation of powers protects against the concentration of power."
+        },
+        {
+          "de": "Kritiker sahen in dem Gesetz einen Angriff auf die Gewaltenteilung.",
+          "en": "Critics saw the law as an attack on the separation of powers."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Staatsrechtlicher Grundbegriff; wird ohne Plural gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gewaltenkontrolle",
+          "distinction": "betont die gegenseitige Kontrolle, nicht die Trennung"
+        },
+        {
+          "lemma": "das Machtgleichgewicht",
+          "distinction": "allgemeiner, auch außerhalb des Staatsaufbaus"
+        }
+      ]
+    },
+    "Aufsichtsbehörde": {
+      "meaning_de": "eine staatliche Stelle, die die Tätigkeit anderer überwacht und kontrolliert",
+      "meaning_en": "supervisory authority; regulatory body",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Aufsichtsbehörde"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aufsichtsbehörden"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Aufsichtsbehörde für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die zuständige Aufsichtsbehörde",
+          "gloss_en": "the competent supervisory authority"
+        },
+        {
+          "phrase": "der Aufsichtsbehörde melden",
+          "gloss_en": "to report to the supervisory authority"
+        },
+        {
+          "phrase": "die Aufsichtsbehörde einschalten",
+          "gloss_en": "to bring in the supervisory authority"
+        },
+        {
+          "phrase": "unter der Aufsicht der Behörde",
+          "gloss_en": "under the authority's supervision"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Datenschutzverstoß wurde der Aufsichtsbehörde gemeldet.",
+          "en": "The data breach was reported to the supervisory authority."
+        },
+        {
+          "de": "Die Aufsichtsbehörde verhängte ein empfindliches Bußgeld.",
+          "en": "The supervisory authority imposed a hefty fine."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungssprachlich, aber im Wirtschafts- und Nachrichtendeutsch geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "die Kontrollinstanz",
+          "distinction": "allgemeiner, nicht zwingend eine Behörde"
+        },
+        {
+          "lemma": "die Regulierungsbehörde",
+          "distinction": "setzt zusätzlich Regeln, nicht nur Aufsicht"
+        }
+      ]
+    },
+    "Verwaltungsakt": {
+      "meaning_de": "eine hoheitliche Einzelfallregelung einer Behörde mit unmittelbarer Rechtswirkung",
+      "meaning_en": "administrative act; administrative decision",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Verwaltungsakts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verwaltungsakte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Verwaltungsakt erlassen",
+          "gloss_en": "to issue an administrative act"
+        },
+        {
+          "phrase": "einen Verwaltungsakt aufheben",
+          "gloss_en": "to revoke an administrative act"
+        },
+        {
+          "phrase": "ein belastender Verwaltungsakt",
+          "gloss_en": "a burdensome administrative act"
+        },
+        {
+          "phrase": "die Bekanntgabe des Verwaltungsakts",
+          "gloss_en": "the notification of the administrative act"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Baugenehmigung ist ein begünstigender Verwaltungsakt.",
+          "en": "The building permit is a beneficial administrative act."
+        },
+        {
+          "de": "Gegen den Verwaltungsakt kann Widerspruch eingelegt werden.",
+          "en": "An objection may be lodged against the administrative act."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Zentraler Begriff des Verwaltungsrechts; präzise definiert und nicht mit 'Verwaltungshandeln' allgemein zu verwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "der Bescheid",
+          "distinction": "die schriftliche Form, in der ein Verwaltungsakt meist ergeht"
+        },
+        {
+          "lemma": "die Verfügung",
+          "distinction": "teils synonym, betont die anordnende Wirkung"
+        }
+      ]
+    },
+    "Ermessen": {
+      "meaning_de": "der Entscheidungsspielraum, den ein Gesetz einer Behörde einräumt",
+      "meaning_en": "discretion; discretionary power",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Ermessens"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "nach eigenem Ermessen",
+          "gloss_en": "at one's own discretion"
+        },
+        {
+          "phrase": "das Ermessen ausüben",
+          "gloss_en": "to exercise discretion"
+        },
+        {
+          "phrase": "das Ermessen überschreiten",
+          "gloss_en": "to exceed the bounds of discretion"
+        },
+        {
+          "phrase": "im pflichtgemäßen Ermessen",
+          "gloss_en": "within proper discretion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde muss ihr Ermessen pflichtgemäß ausüben.",
+          "en": "The authority must exercise its discretion properly."
+        },
+        {
+          "de": "Ob eine Ausnahme gewährt wird, liegt im Ermessen des Amtes.",
+          "en": "Whether an exception is granted lies within the office's discretion."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Fachbegriff, aber die Wendung 'nach eigenem Ermessen' ist auch allgemeinsprachlich; ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "der Spielraum",
+          "distinction": "allgemeiner Handlungsfreiraum, weniger technisch"
+        },
+        {
+          "lemma": "das Gutdünken",
+          "distinction": "eher willkürlich, ohne die Bindung an Pflichten"
+        }
+      ]
+    },
+    "Verfassungsbeschwerde": {
+      "meaning_de": "die Rüge, durch die öffentliche Gewalt in Grundrechten verletzt worden zu sein",
+      "meaning_en": "constitutional complaint",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verfassungsbeschwerde"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verfassungsbeschwerden"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Verfassungsbeschwerde gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Verfassungsbeschwerde erheben",
+          "gloss_en": "to file a constitutional complaint"
+        },
+        {
+          "phrase": "die Verfassungsbeschwerde annehmen",
+          "gloss_en": "to accept the constitutional complaint"
+        },
+        {
+          "phrase": "eine erfolgreiche Verfassungsbeschwerde",
+          "gloss_en": "a successful constitutional complaint"
+        },
+        {
+          "phrase": "die Verfassungsbeschwerde nicht zur Entscheidung annehmen",
+          "gloss_en": "to decline to hear the complaint"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er erhob Verfassungsbeschwerde gegen das neue Gesetz.",
+          "en": "He filed a constitutional complaint against the new law."
+        },
+        {
+          "de": "Das Bundesverfassungsgericht gab der Verfassungsbeschwerde statt.",
+          "en": "The Federal Constitutional Court upheld the constitutional complaint."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Verfassungsprozessrechts; nur nach Erschöpfung des Rechtswegs zulässig.",
+      "near_synonyms": [
+        {
+          "lemma": "die Beschwerde",
+          "distinction": "der allgemeine Rechtsbehelf, ohne den Grundrechtsbezug"
+        },
+        {
+          "lemma": "die Klage",
+          "distinction": "richtet sich vor Fachgerichten, nicht an das Verfassungsgericht"
+        }
+      ]
+    },
+    "Legislative": {
+      "meaning_de": "die gesetzgebende Gewalt im Staat",
+      "meaning_en": "legislature; legislative power",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Legislative"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Aufgaben der Legislative",
+          "gloss_en": "the tasks of the legislature"
+        },
+        {
+          "phrase": "die Legislative kontrolliert die Exekutive",
+          "gloss_en": "the legislature oversees the executive"
+        },
+        {
+          "phrase": "die Unabhängigkeit der Legislative",
+          "gloss_en": "the independence of the legislature"
+        },
+        {
+          "phrase": "der Vorrang der Legislative",
+          "gloss_en": "the primacy of the legislature"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Legislative wird in Deutschland vom Parlament ausgeübt.",
+          "en": "In Germany, legislative power is exercised by parliament."
+        },
+        {
+          "de": "Die Trennung von Legislative und Exekutive ist grundlegend.",
+          "en": "The separation of the legislature and the executive is fundamental."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Staatsrechtlicher Terminus; wird ohne Plural gebraucht, bildet die Trias mit Exekutive und Judikative.",
+      "near_synonyms": [
+        {
+          "lemma": "das Parlament",
+          "distinction": "das konkrete Organ, das die Legislative ausübt"
+        },
+        {
+          "lemma": "die Gesetzgebung",
+          "distinction": "die Tätigkeit, nicht die Gewalt als Institution"
+        }
+      ]
+    },
+    "Exekutive": {
+      "meaning_de": "die vollziehende Gewalt, also Regierung und Verwaltung",
+      "meaning_en": "executive; executive power",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Exekutive"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Macht der Exekutive",
+          "gloss_en": "the power of the executive"
+        },
+        {
+          "phrase": "die Exekutive kontrollieren",
+          "gloss_en": "to check the executive"
+        },
+        {
+          "phrase": "Aufgabe der Exekutive sein",
+          "gloss_en": "to be a task of the executive"
+        },
+        {
+          "phrase": "die Bindung der Exekutive an das Gesetz",
+          "gloss_en": "the executive's subjection to the law"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Exekutive ist an Gesetz und Recht gebunden.",
+          "en": "The executive is bound by law and justice."
+        },
+        {
+          "de": "Regierung und Behörden bilden die Exekutive.",
+          "en": "The government and the authorities form the executive."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Staatsrechtlicher Terminus; ohne Plural. Umgangssprachlich meint 'Exekutive' auch die Polizei.",
+      "near_synonyms": [
+        {
+          "lemma": "die Regierung",
+          "distinction": "die politische Spitze, nur ein Teil der Exekutive"
+        },
+        {
+          "lemma": "die Verwaltung",
+          "distinction": "der ausführende Apparat unterhalb der Regierung"
+        }
+      ]
+    },
+    "verurteilen": {
+      "meaning_de": "durch Urteil eine Strafe verhängen; auch: etwas scharf missbilligen",
+      "meaning_en": "to convict; to sentence; (fig.) to condemn",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verurteilt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verurteilte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verurteilt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verurteilte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden zu etwas verurteilen",
+          "cases": "Akk. + zu + Dat."
+        },
+        {
+          "pattern": "jemanden wegen etwas verurteilen",
+          "cases": "Akk. + wegen + Gen."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zu einer Haftstrafe verurteilen",
+          "gloss_en": "to sentence to imprisonment"
+        },
+        {
+          "phrase": "wegen Betrugs verurteilen",
+          "gloss_en": "to convict of fraud"
+        },
+        {
+          "phrase": "rechtskräftig verurteilt werden",
+          "gloss_en": "to be convicted with final effect"
+        },
+        {
+          "phrase": "die Tat scharf verurteilen",
+          "gloss_en": "to condemn the act strongly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gericht verurteilte ihn zu drei Jahren Haft.",
+          "en": "The court sentenced him to three years' imprisonment."
+        },
+        {
+          "de": "Die Regierung verurteilte den Angriff aufs Schärfste.",
+          "en": "The government condemned the attack in the strongest terms."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Im juristischen Sinn neutral-fachlich, im übertragenen Sinn ('missbilligen') gehoben und wertend.",
+      "near_synonyms": [
+        {
+          "lemma": "bestrafen",
+          "distinction": "meint die Strafe selbst, nicht das richterliche Urteil"
+        },
+        {
+          "lemma": "missbilligen",
+          "distinction": "nur die Ablehnung, ohne die Schärfe von 'verurteilen'"
+        }
+      ]
+    },
+    "freisprechen": {
+      "meaning_de": "durch Urteil für nicht schuldig erklären",
+      "meaning_en": "to acquit",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er spricht frei"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er sprach frei"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat freigesprochen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er spräche frei"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden von etwas freisprechen",
+          "cases": "Akk. + von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "aus Mangel an Beweisen freisprechen",
+          "gloss_en": "to acquit for lack of evidence"
+        },
+        {
+          "phrase": "vom Vorwurf freisprechen",
+          "gloss_en": "to acquit of the charge"
+        },
+        {
+          "phrase": "einstimmig freisprechen",
+          "gloss_en": "to acquit unanimously"
+        },
+        {
+          "phrase": "freigesprochen werden",
+          "gloss_en": "to be acquitted"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gericht sprach die Angeklagte in allen Punkten frei.",
+          "en": "The court acquitted the defendant on all counts."
+        },
+        {
+          "de": "Er wurde aus Mangel an Beweisen freigesprochen.",
+          "en": "He was acquitted for lack of evidence."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachlich-neutral; das Gegenstück zu verurteilen. Übertragen auch 'von einer Schuld freisprechen'.",
+      "near_synonyms": [
+        {
+          "lemma": "entlasten",
+          "distinction": "Zweifel ausräumen, ohne förmlichen Freispruch"
+        },
+        {
+          "lemma": "rehabilitieren",
+          "distinction": "das Ansehen wiederherstellen, weiter als der Freispruch"
+        }
+      ]
+    },
+    "anklagen": {
+      "meaning_de": "jemanden vor Gericht einer Straftat beschuldigen; auch: jemandem einen Vorwurf machen",
+      "meaning_en": "to charge; to indict; to accuse",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er klagt an"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er klagte an"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat angeklagt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er klagte an"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden wegen etwas anklagen",
+          "cases": "Akk. + wegen + Gen."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "wegen Mordes anklagen",
+          "gloss_en": "to charge with murder"
+        },
+        {
+          "phrase": "öffentlich anklagen",
+          "gloss_en": "to accuse publicly"
+        },
+        {
+          "phrase": "angeklagt sein",
+          "gloss_en": "to stand accused"
+        },
+        {
+          "phrase": "jemanden zu Unrecht anklagen",
+          "gloss_en": "to accuse someone wrongly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Staatsanwaltschaft klagte ihn wegen Steuerhinterziehung an.",
+          "en": "The prosecution charged him with tax evasion."
+        },
+        {
+          "de": "Mit ihrem Blick klagte sie ihn stumm an.",
+          "en": "With her gaze she silently accused him."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Juristisch neutral; im übertragenen Gebrauch ('einen Vorwurf machen') gehoben und emotional.",
+      "near_synonyms": [
+        {
+          "lemma": "beschuldigen",
+          "distinction": "auch außergerichtlich, ohne förmliche Anklage"
+        },
+        {
+          "lemma": "vorwerfen",
+          "distinction": "einen einzelnen Vorwurf, nicht die förmliche Anklage"
+        }
+      ]
+    },
+    "vorladen": {
+      "meaning_de": "jemanden amtlich auffordern, zu einem bestimmten Termin zu erscheinen",
+      "meaning_en": "to summon (to appear)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lädt vor"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er lud vor"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vorgeladen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er lüde vor"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden zu etwas vorladen",
+          "cases": "Akk. + zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "als Zeuge vorgeladen werden",
+          "gloss_en": "to be summoned as a witness"
+        },
+        {
+          "phrase": "zur Vernehmung vorladen",
+          "gloss_en": "to summon for questioning"
+        },
+        {
+          "phrase": "vor Gericht vorladen",
+          "gloss_en": "to summon to court"
+        },
+        {
+          "phrase": "schriftlich vorladen",
+          "gloss_en": "to summon in writing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Zeuge wurde für Montag zur Vernehmung vorgeladen.",
+          "en": "The witness was summoned for questioning on Monday."
+        },
+        {
+          "de": "Das Gericht lud den Sachverständigen vor.",
+          "en": "The court summoned the expert witness."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Amts- und rechtssprachlich; die Vorladung geht stets von einer Behörde oder einem Gericht aus.",
+      "near_synonyms": [
+        {
+          "lemma": "einbestellen",
+          "distinction": "eher diplomatisch oder dienstlich, nicht gerichtlich"
+        },
+        {
+          "lemma": "laden",
+          "distinction": "das gehobene Grundverb, ohne das Präfix im Amtsdeutsch"
+        }
+      ]
+    },
+    "vollstrecken": {
+      "meaning_de": "eine gerichtliche Entscheidung oder Strafe zwangsweise durchsetzen",
+      "meaning_en": "to enforce; to execute (a sentence or judgment)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vollstreckt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vollstreckte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vollstreckt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vollstreckte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas vollstrecken",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Urteil vollstrecken",
+          "gloss_en": "to enforce a judgment"
+        },
+        {
+          "phrase": "eine Strafe vollstrecken",
+          "gloss_en": "to carry out a sentence"
+        },
+        {
+          "phrase": "einen Haftbefehl vollstrecken",
+          "gloss_en": "to execute an arrest warrant"
+        },
+        {
+          "phrase": "aus einem Titel vollstrecken",
+          "gloss_en": "to enforce from a legal title"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Reststrafe wurde zur Bewährung ausgesetzt und nicht vollstreckt.",
+          "en": "The remaining sentence was suspended on probation and not carried out."
+        },
+        {
+          "de": "Der Gläubiger ließ das Urteil vollstrecken.",
+          "en": "The creditor had the judgment enforced."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich-juristisch; setzt einen vollstreckbaren Titel voraus.",
+      "near_synonyms": [
+        {
+          "lemma": "durchsetzen",
+          "distinction": "allgemeiner, auch ohne staatlichen Zwang"
+        },
+        {
+          "lemma": "pfänden",
+          "distinction": "eine einzelne Vollstreckungsmaßnahme, keine Strafe"
+        }
+      ]
+    },
+    "verjähren": {
+      "meaning_de": "durch Zeitablauf die rechtliche Durchsetzbarkeit oder Verfolgbarkeit verlieren",
+      "meaning_en": "to become time-barred; to lapse under the statute of limitations",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verjährt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verjährte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist verjährt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verjährte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Anspruch verjährt",
+          "gloss_en": "the claim becomes time-barred"
+        },
+        {
+          "phrase": "die Tat ist verjährt",
+          "gloss_en": "the offence is time-barred"
+        },
+        {
+          "phrase": "nicht verjähren",
+          "gloss_en": "to be exempt from any limitation period"
+        },
+        {
+          "phrase": "in drei Jahren verjähren",
+          "gloss_en": "to lapse after three years"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Anspruch ist inzwischen verjährt.",
+          "en": "The claim has meanwhile become time-barred."
+        },
+        {
+          "de": "Mord verjährt nach deutschem Recht nicht.",
+          "en": "Under German law, murder is not subject to any limitation period."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch; Perfekt mit sein, weil es einen Zustandswechsel bezeichnet.",
+      "near_synonyms": [
+        {
+          "lemma": "verfallen",
+          "distinction": "ein Recht erlischt ganz, nicht nur die Durchsetzbarkeit"
+        },
+        {
+          "lemma": "ablaufen",
+          "distinction": "eine Frist endet, ohne die Rechtsfolge der Verjährung"
+        }
+      ]
+    },
+    "anfechten": {
+      "meaning_de": "eine Entscheidung oder ein Rechtsgeschäft rechtlich angreifen, um es unwirksam zu machen",
+      "meaning_en": "to contest; to challenge; to appeal against",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er ficht an"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er focht an"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat angefochten"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er föchte an"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas anfechten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Vertrag anfechten",
+          "gloss_en": "to contest a contract"
+        },
+        {
+          "phrase": "die Wahl anfechten",
+          "gloss_en": "to challenge the election"
+        },
+        {
+          "phrase": "ein Testament anfechten",
+          "gloss_en": "to contest a will"
+        },
+        {
+          "phrase": "wegen Irrtums anfechten",
+          "gloss_en": "to rescind on grounds of mistake"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie focht den Vertrag wegen arglistiger Täuschung an.",
+          "en": "She contested the contract on grounds of fraudulent deception."
+        },
+        {
+          "de": "Die unterlegene Partei fechtet das Wahlergebnis an.",
+          "en": "The losing party is challenging the election result."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch; starkes Verb (ficht, focht, angefochten), leicht mit 'fechten' zu verwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "anzweifeln",
+          "distinction": "nur Zweifel äußern, ohne rechtliche Wirkung"
+        },
+        {
+          "lemma": "widerrufen",
+          "distinction": "eine eigene Erklärung zurücknehmen, nicht die eines anderen angreifen"
+        }
+      ]
+    },
+    "widerrufen": {
+      "meaning_de": "eine Erklärung, Genehmigung oder Aussage für ungültig erklären und zurücknehmen",
+      "meaning_en": "to revoke; to withdraw; to retract",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er widerruft"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er widerrief"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat widerrufen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er widerriefe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas widerrufen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Vertrag widerrufen",
+          "gloss_en": "to cancel a contract"
+        },
+        {
+          "phrase": "eine Genehmigung widerrufen",
+          "gloss_en": "to revoke a permit"
+        },
+        {
+          "phrase": "eine Aussage widerrufen",
+          "gloss_en": "to retract a statement"
+        },
+        {
+          "phrase": "das Widerrufsrecht ausüben",
+          "gloss_en": "to exercise the right of withdrawal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Kunde kann den Vertrag innerhalb von vierzehn Tagen widerrufen.",
+          "en": "The customer may cancel the contract within fourteen days."
+        },
+        {
+          "de": "Der Zeuge widerrief seine frühere Aussage.",
+          "en": "The witness retracted his earlier statement."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Untrennbares Verb (er widerruft, nicht 'ruft wider'); im Verbraucherrecht sehr geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "zurücknehmen",
+          "distinction": "allgemeiner, auch ohne rechtstechnische Wirkung"
+        },
+        {
+          "lemma": "annullieren",
+          "distinction": "etwas rückwirkend für nichtig erklären"
+        }
+      ]
+    },
+    "erlassen": {
+      "meaning_de": "eine Vorschrift in Kraft setzen; auch: jemandem eine Pflicht oder Schuld erlassen",
+      "meaning_en": "to issue; to enact; (also) to remit; to waive",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er erlässt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er erließ"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat erlassen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er erließe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas erlassen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemandem etwas erlassen",
+          "cases": "Dat. + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Gesetz erlassen",
+          "gloss_en": "to enact a law"
+        },
+        {
+          "phrase": "einen Haftbefehl erlassen",
+          "gloss_en": "to issue an arrest warrant"
+        },
+        {
+          "phrase": "eine Verordnung erlassen",
+          "gloss_en": "to issue a regulation"
+        },
+        {
+          "phrase": "jemandem die Schulden erlassen",
+          "gloss_en": "to write off someone's debts"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Parlament erließ ein neues Klimaschutzgesetz.",
+          "en": "Parliament enacted a new climate protection law."
+        },
+        {
+          "de": "Man erließ ihm den Rest der Strafe.",
+          "en": "The remainder of his sentence was waived."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Untrennbares Verb; polysem zwischen 'in Kraft setzen' und 'jemandem etwas ersparen'.",
+      "near_synonyms": [
+        {
+          "lemma": "verabschieden",
+          "distinction": "nur für Gesetze, meint den Parlamentsbeschluss"
+        },
+        {
+          "lemma": "erteilen",
+          "distinction": "eine Genehmigung geben, nicht eine Norm setzen"
+        }
+      ]
+    },
+    "inhaftieren": {
+      "meaning_de": "jemanden in Haft nehmen und einsperren",
+      "meaning_en": "to imprison; to take into custody",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er inhaftiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er inhaftierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat inhaftiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er inhaftierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden inhaftieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "vorläufig inhaftieren",
+          "gloss_en": "to detain provisionally"
+        },
+        {
+          "phrase": "wochenlang inhaftiert sein",
+          "gloss_en": "to be imprisoned for weeks"
+        },
+        {
+          "phrase": "politische Gefangene inhaftieren",
+          "gloss_en": "to imprison political prisoners"
+        },
+        {
+          "phrase": "zu Unrecht inhaftiert",
+          "gloss_en": "wrongfully imprisoned"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Verdächtige wurde noch am Tatort inhaftiert.",
+          "en": "The suspect was taken into custody at the scene."
+        },
+        {
+          "de": "Zahlreiche Regimekritiker sind seit Monaten inhaftiert.",
+          "en": "Numerous dissidents have been imprisoned for months."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben-fachlich; im Nachrichtendeutsch geläufig, meist im Passiv.",
+      "near_synonyms": [
+        {
+          "lemma": "verhaften",
+          "distinction": "der Akt der Festnahme, nicht die andauernde Haft"
+        },
+        {
+          "lemma": "festnehmen",
+          "distinction": "neutraler, betont das Ergreifen im Moment"
+        }
+      ]
+    },
+    "vernehmen": {
+      "meaning_de": "jemanden amtlich befragen, um Sachverhalte aufzuklären; auch gehoben: hören, wahrnehmen",
+      "meaning_en": "to interrogate; to examine (a witness); (elevated) to perceive, hear",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vernimmt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vernahm"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vernommen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vernähme"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden vernehmen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemanden zu etwas vernehmen",
+          "cases": "Akk. + zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Zeugen vernehmen",
+          "gloss_en": "to examine a witness"
+        },
+        {
+          "phrase": "zur Sache vernehmen",
+          "gloss_en": "to question on the matter"
+        },
+        {
+          "phrase": "polizeilich vernehmen",
+          "gloss_en": "to interview at the police station"
+        },
+        {
+          "phrase": "als Beschuldigter vernommen werden",
+          "gloss_en": "to be questioned as a suspect"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Polizei vernahm den Zeugen mehrere Stunden lang.",
+          "en": "The police questioned the witness for several hours."
+        },
+        {
+          "de": "Aus der Ferne vernahm man das Läuten der Glocken.",
+          "en": "From afar one could hear the ringing of the bells."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Im juristischen Sinn fachlich-neutral; die Bedeutung 'hören/wahrnehmen' ist gehoben und literarisch.",
+      "near_synonyms": [
+        {
+          "lemma": "verhören",
+          "distinction": "härter, oft mit Druck; vernehmen ist neutraler und sachlicher"
+        },
+        {
+          "lemma": "befragen",
+          "distinction": "allgemein, ohne amtlich-förmlichen Charakter"
+        }
+      ]
+    },
+    "ratifizieren": {
+      "meaning_de": "einen völkerrechtlichen Vertrag durch das zuständige Organ verbindlich bestätigen",
+      "meaning_en": "to ratify",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er ratifiziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er ratifizierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat ratifiziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er ratifizierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas ratifizieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Vertrag ratifizieren",
+          "gloss_en": "to ratify a treaty"
+        },
+        {
+          "phrase": "das Abkommen ratifizieren",
+          "gloss_en": "to ratify the agreement"
+        },
+        {
+          "phrase": "die Konvention ratifizieren",
+          "gloss_en": "to ratify the convention"
+        },
+        {
+          "phrase": "noch nicht ratifiziert",
+          "gloss_en": "not yet ratified"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bundestag ratifizierte das internationale Abkommen.",
+          "en": "The Bundestag ratified the international agreement."
+        },
+        {
+          "de": "Solange nicht alle Staaten ratifiziert haben, tritt der Vertrag nicht in Kraft.",
+          "en": "Until all states have ratified it, the treaty does not enter into force."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Völkerrechtlicher Fachbegriff; die Ratifikation folgt der bloßen Unterzeichnung.",
+      "near_synonyms": [
+        {
+          "lemma": "unterzeichnen",
+          "distinction": "der vorausgehende Akt, noch ohne bindende Wirkung"
+        },
+        {
+          "lemma": "bestätigen",
+          "distinction": "allgemein, ohne den staatsrechtlich-förmlichen Vorgang"
+        }
+      ]
+    },
+    "kodifizieren": {
+      "meaning_de": "Rechtsregeln systematisch in einem Gesetzeswerk zusammenfassen",
+      "meaning_en": "to codify",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er kodifiziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er kodifizierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat kodifiziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er kodifizierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas kodifizieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "das Recht kodifizieren",
+          "gloss_en": "to codify the law"
+        },
+        {
+          "phrase": "Regeln kodifizieren",
+          "gloss_en": "to codify rules"
+        },
+        {
+          "phrase": "gesetzlich kodifiziert sein",
+          "gloss_en": "to be laid down in statute"
+        },
+        {
+          "phrase": "das Gewohnheitsrecht kodifizieren",
+          "gloss_en": "to codify customary law"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Bürgerliche Gesetzbuch kodifizierte das deutsche Zivilrecht.",
+          "en": "The Civil Code codified German civil law."
+        },
+        {
+          "de": "Bislang war diese Regel nicht kodifiziert.",
+          "en": "So far this rule had not been codified."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Rechtswissenschaftlicher Fachbegriff; betont die geschlossene, systematische Regelung eines Rechtsgebiets.",
+      "near_synonyms": [
+        {
+          "lemma": "verankern",
+          "distinction": "eine einzelne Regel festschreiben, nicht ein ganzes Gebiet ordnen"
+        },
+        {
+          "lemma": "regeln",
+          "distinction": "allgemein, ohne die systematische Zusammenfassung"
+        }
+      ]
+    },
+    "ermächtigen": {
+      "meaning_de": "jemandem die rechtliche Befugnis zu einem Handeln verleihen",
+      "meaning_en": "to authorise; to empower",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er ermächtigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er ermächtigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat ermächtigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er ermächtigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden zu etwas ermächtigen",
+          "cases": "Akk. + zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zur Vertretung ermächtigen",
+          "gloss_en": "to authorise to represent"
+        },
+        {
+          "phrase": "gesetzlich ermächtigt sein",
+          "gloss_en": "to be authorised by law"
+        },
+        {
+          "phrase": "die Regierung ermächtigen",
+          "gloss_en": "to empower the government"
+        },
+        {
+          "phrase": "ausdrücklich ermächtigen",
+          "gloss_en": "to authorise expressly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gesetz ermächtigt die Behörde zum Erlass einer Verordnung.",
+          "en": "The act authorises the authority to issue a regulation."
+        },
+        {
+          "de": "Sie ist ermächtigt, den Vertrag in seinem Namen zu unterschreiben.",
+          "en": "She is authorised to sign the contract on his behalf."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch-verwaltungssprachlich; die Ermächtigungsgrundlage ist zentral für staatliches Handeln.",
+      "near_synonyms": [
+        {
+          "lemma": "bevollmächtigen",
+          "distinction": "durch Vollmacht, meist im Privatrecht"
+        },
+        {
+          "lemma": "berechtigen",
+          "distinction": "ein Recht einräumen, ohne den aktiven Handlungsauftrag"
+        }
+      ]
+    },
+    "pfänden": {
+      "meaning_de": "Vermögensgegenstände eines Schuldners zur Sicherung oder Befriedigung eines Anspruchs beschlagnahmen",
+      "meaning_en": "to seize; to attach; to distrain",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er pfändet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er pfändete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gepfändet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er pfändete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas pfänden",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "das Konto pfänden",
+          "gloss_en": "to attach the bank account"
+        },
+        {
+          "phrase": "den Lohn pfänden",
+          "gloss_en": "to garnish wages"
+        },
+        {
+          "phrase": "Möbel pfänden",
+          "gloss_en": "to seize furniture"
+        },
+        {
+          "phrase": "gepfändet werden",
+          "gloss_en": "to be seized"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Gerichtsvollzieher pfändete den Lohn des Schuldners.",
+          "en": "The bailiff garnished the debtor's wages."
+        },
+        {
+          "de": "Das Konto wurde bis zur Höhe der Forderung gepfändet.",
+          "en": "The account was attached up to the amount of the claim."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Vollstreckungsrechts; Perfekt mit gepfändet (schwaches Verb).",
+      "near_synonyms": [
+        {
+          "lemma": "beschlagnahmen",
+          "distinction": "hoheitliche Sicherstellung, auch im Strafverfahren"
+        },
+        {
+          "lemma": "vollstrecken",
+          "distinction": "der Oberbegriff, Pfändung ist eine seiner Maßnahmen"
+        }
+      ]
+    },
+    "rechtskräftig": {
+      "meaning_de": "so, dass eine Entscheidung unanfechtbar und endgültig verbindlich ist",
+      "meaning_en": "final and binding; having the force of law",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "rechtskräftig verurteilt",
+          "gloss_en": "convicted with final effect"
+        },
+        {
+          "phrase": "das Urteil wird rechtskräftig",
+          "gloss_en": "the judgment becomes final"
+        },
+        {
+          "phrase": "rechtskräftig geschieden",
+          "gloss_en": "finally divorced"
+        },
+        {
+          "phrase": "ein rechtskräftiges Urteil",
+          "gloss_en": "a final and binding judgment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Urteil ist seit gestern rechtskräftig.",
+          "en": "The judgment has been final and binding since yesterday."
+        },
+        {
+          "de": "Er wurde rechtskräftig zu einer Geldstrafe verurteilt.",
+          "en": "He was convicted and fined with final effect."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristisch; nicht steigerbar, da eine Entscheidung entweder rechtskräftig ist oder nicht.",
+      "near_synonyms": [
+        {
+          "lemma": "unanfechtbar",
+          "distinction": "betont nur, dass kein Rechtsmittel mehr möglich ist"
+        },
+        {
+          "lemma": "endgültig",
+          "distinction": "allgemeinsprachlich, ohne den rechtstechnischen Gehalt"
+        }
+      ]
+    },
+    "vollstreckbar": {
+      "meaning_de": "so, dass eine Entscheidung mit staatlichem Zwang durchgesetzt werden kann",
+      "meaning_en": "enforceable",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein vollstreckbarer Titel",
+          "gloss_en": "an enforceable title"
+        },
+        {
+          "phrase": "für vorläufig vollstreckbar erklären",
+          "gloss_en": "to declare provisionally enforceable"
+        },
+        {
+          "phrase": "vollstreckbar sein",
+          "gloss_en": "to be enforceable"
+        },
+        {
+          "phrase": "die vollstreckbare Ausfertigung",
+          "gloss_en": "the enforceable copy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Urteil ist gegen Sicherheitsleistung vorläufig vollstreckbar.",
+          "en": "The judgment is provisionally enforceable against the provision of security."
+        },
+        {
+          "de": "Ohne vollstreckbaren Titel kann der Gläubiger nichts unternehmen.",
+          "en": "Without an enforceable title, the creditor can do nothing."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff des Vollstreckungsrechts; nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "durchsetzbar",
+          "distinction": "allgemeiner, auch ohne staatliches Vollstreckungsverfahren"
+        },
+        {
+          "lemma": "rechtskräftig",
+          "distinction": "meint die Unanfechtbarkeit, nicht die Durchsetzbarkeit"
+        }
+      ]
+    },
+    "verfassungswidrig": {
+      "meaning_de": "im Widerspruch zur Verfassung stehend und daher unzulässig",
+      "meaning_en": "unconstitutional",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "für verfassungswidrig erklären",
+          "gloss_en": "to declare unconstitutional"
+        },
+        {
+          "phrase": "ein verfassungswidriges Gesetz",
+          "gloss_en": "an unconstitutional law"
+        },
+        {
+          "phrase": "verfassungswidrig sein",
+          "gloss_en": "to be unconstitutional"
+        },
+        {
+          "phrase": "verfassungswidrig handeln",
+          "gloss_en": "to act unconstitutionally"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Bundesverfassungsgericht erklärte die Regelung für verfassungswidrig.",
+          "en": "The Federal Constitutional Court declared the provision unconstitutional."
+        },
+        {
+          "de": "Kritiker halten den Erlass für verfassungswidrig.",
+          "en": "Critics consider the decree unconstitutional."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Staatsrechtlich; als rechtliche Kategorie in der Regel nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "rechtswidrig",
+          "distinction": "verstößt gegen das Recht allgemein, nicht speziell gegen die Verfassung"
+        },
+        {
+          "lemma": "grundrechtswidrig",
+          "distinction": "verletzt speziell die Grundrechte, enger gefasst"
+        }
+      ]
+    },
+    "behördlich": {
+      "meaning_de": "von einer Behörde ausgehend oder eine Behörde betreffend",
+      "meaning_en": "official; by the authorities; administrative",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die behördliche Genehmigung",
+          "gloss_en": "the official permit"
+        },
+        {
+          "phrase": "behördlich angeordnet",
+          "gloss_en": "ordered by the authorities"
+        },
+        {
+          "phrase": "eine behördliche Auflage",
+          "gloss_en": "an official requirement"
+        },
+        {
+          "phrase": "behördlich zugelassen",
+          "gloss_en": "officially approved"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für den Umbau ist eine behördliche Genehmigung erforderlich.",
+          "en": "An official permit is required for the conversion."
+        },
+        {
+          "de": "Die Veranstaltung wurde behördlich untersagt.",
+          "en": "The event was banned by the authorities."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Relationsadjektiv; nicht steigerbar und nur attributiv oder adverbial gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "amtlich",
+          "distinction": "betont die Verbindlichkeit des Amtes, oft auf Dokumente bezogen"
+        },
+        {
+          "lemma": "staatlich",
+          "distinction": "weiter, meint den Staat insgesamt, nicht die einzelne Behörde"
+        }
+      ]
+    },
+    "nichtig": {
+      "meaning_de": "rechtlich von Anfang an unwirksam, ohne jede Rechtsfolge",
+      "meaning_en": "void; null and void",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Vertrag ist nichtig",
+          "gloss_en": "a contract is void"
+        },
+        {
+          "phrase": "für nichtig erklären",
+          "gloss_en": "to declare void"
+        },
+        {
+          "phrase": "nichtig sein",
+          "gloss_en": "to be null and void"
+        },
+        {
+          "phrase": "von Anfang an nichtig",
+          "gloss_en": "void from the outset"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein sittenwidriger Vertrag ist nichtig.",
+          "en": "A contract contrary to public policy is void."
+        },
+        {
+          "de": "Das Gericht erklärte die Ehe für nichtig.",
+          "en": "The court declared the marriage void."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Im Rechtssinn nicht steigerbar; die Nichtigkeit wirkt anders als die Anfechtbarkeit von selbst. Allgemeinsprachlich meint 'nichtig' auch 'belanglos'.",
+      "near_synonyms": [
+        {
+          "lemma": "unwirksam",
+          "distinction": "Oberbegriff; Nichtigkeit ist die absolute, endgültige Form"
+        },
+        {
+          "lemma": "anfechtbar",
+          "distinction": "zunächst wirksam, wird erst durch Anfechtung nichtig"
+        }
+      ]
+    }
+  }
+}

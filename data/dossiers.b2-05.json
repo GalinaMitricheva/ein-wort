@@ -1,0 +1,2859 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2 batch 'Wohnen, Haushalt & Alltag' — dossiers for renting, household, repairs and everyday-life vocabulary. Keyed by lemma.",
+  "dossiers": {
+    "Kaution": {
+      "meaning_de": "Geldbetrag, den der Mieter als Sicherheit beim Vermieter hinterlegt",
+      "meaning_en": "deposit; security deposit",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kaution"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kautionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Kaution hinterlegen",
+          "gloss_en": "to pay a deposit"
+        },
+        {
+          "phrase": "die Kaution zurückbekommen",
+          "gloss_en": "to get the deposit back"
+        },
+        {
+          "phrase": "drei Monatsmieten Kaution",
+          "gloss_en": "a deposit of three months' rent"
+        },
+        {
+          "phrase": "die Kaution einbehalten",
+          "gloss_en": "to withhold the deposit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Kaution beträgt zwei Monatsmieten.",
+          "en": "The deposit amounts to two months' rent."
+        },
+        {
+          "de": "Nach dem Auszug bekam sie die Kaution zurück.",
+          "en": "After moving out she got her deposit back."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff im Mietrecht und beim Wohnungswechsel.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sicherheit",
+          "distinction": "allgemeiner, auch andere Formen der Absicherung"
+        },
+        {
+          "lemma": "die Anzahlung",
+          "distinction": "Teilzahlung auf einen Preis, nicht rückzahlbare Sicherheit"
+        }
+      ]
+    },
+    "Mietvertrag": {
+      "meaning_de": "schriftliche Vereinbarung zwischen Vermieter und Mieter über die Nutzung einer Wohnung",
+      "meaning_en": "tenancy agreement; lease",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Mietvertrags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Mietverträge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Mietvertrag abschließen",
+          "gloss_en": "to sign a tenancy agreement"
+        },
+        {
+          "phrase": "den Mietvertrag kündigen",
+          "gloss_en": "to terminate the lease"
+        },
+        {
+          "phrase": "ein unbefristeter Mietvertrag",
+          "gloss_en": "an open-ended lease"
+        },
+        {
+          "phrase": "eine Klausel im Mietvertrag",
+          "gloss_en": "a clause in the tenancy agreement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Mietvertrag läuft über zwei Jahre.",
+          "en": "The tenancy agreement runs for two years."
+        },
+        {
+          "de": "Bitte lesen Sie den Mietvertrag genau durch, bevor Sie ihn unterschreiben.",
+          "en": "Please read the lease carefully before you sign it."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Rechtsbegriff rund ums Wohnen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Pachtvertrag",
+          "distinction": "für die Nutzung samt Erträgen, z. B. Land oder Betrieb"
+        },
+        {
+          "lemma": "der Untermietvertrag",
+          "distinction": "Vertrag mit einem Untermieter statt mit dem Eigentümer"
+        }
+      ]
+    },
+    "Kündigungsfrist": {
+      "meaning_de": "Zeitspanne, die zwischen der Kündigung und ihrem Wirksamwerden liegen muss",
+      "meaning_en": "notice period",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kündigungsfrist"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kündigungsfristen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Kündigungsfrist einhalten",
+          "gloss_en": "to observe the notice period"
+        },
+        {
+          "phrase": "eine dreimonatige Kündigungsfrist",
+          "gloss_en": "a three-month notice period"
+        },
+        {
+          "phrase": "die gesetzliche Kündigungsfrist",
+          "gloss_en": "the statutory notice period"
+        },
+        {
+          "phrase": "die Kündigungsfrist beträgt",
+          "gloss_en": "the notice period is"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Kündigungsfrist beträgt drei Monate zum Monatsende.",
+          "en": "The notice period is three months to the end of the month."
+        },
+        {
+          "de": "Er hat die Kündigungsfrist leider nicht eingehalten.",
+          "en": "Unfortunately he did not observe the notice period."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; gilt sowohl im Miet- als auch im Arbeitsrecht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Frist",
+          "distinction": "allgemeiner Termin, nicht speziell zur Kündigung"
+        },
+        {
+          "lemma": "die Sperrfrist",
+          "distinction": "Zeit, in der etwas gerade nicht möglich ist"
+        }
+      ]
+    },
+    "Vermieter": {
+      "meaning_de": "Person, die eine Wohnung oder Sache gegen Miete zur Nutzung überlässt",
+      "meaning_en": "landlord",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Vermieters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vermieter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich beim Vermieter beschweren",
+          "gloss_en": "to complain to the landlord"
+        },
+        {
+          "phrase": "der private Vermieter",
+          "gloss_en": "the private landlord"
+        },
+        {
+          "phrase": "die Zustimmung des Vermieters",
+          "gloss_en": "the landlord's consent"
+        },
+        {
+          "phrase": "dem Vermieter kündigen",
+          "gloss_en": "to give notice to the landlord"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vermieter hat die Reparatur zugesagt.",
+          "en": "The landlord promised to carry out the repair."
+        },
+        {
+          "de": "Ohne die Erlaubnis des Vermieters darf man nicht untervermieten.",
+          "en": "You may not sublet without the landlord's permission."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Gegenstück zum Mieter, geschlechtsneutral oft 'Vermieterin/Vermieter'.",
+      "near_synonyms": [
+        {
+          "lemma": "der Eigentümer",
+          "distinction": "Besitzer der Sache, muss nicht selbst vermieten"
+        },
+        {
+          "lemma": "der Hauswirt",
+          "distinction": "älter und umgangssprachlich für den Vermieter"
+        }
+      ]
+    },
+    "Eigentumswohnung": {
+      "meaning_de": "Wohnung, die dem Bewohner selbst gehört und nicht gemietet ist",
+      "meaning_en": "owner-occupied flat; condominium",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Eigentumswohnung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Eigentumswohnungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Eigentumswohnung kaufen",
+          "gloss_en": "to buy a condominium"
+        },
+        {
+          "phrase": "in einer Eigentumswohnung wohnen",
+          "gloss_en": "to live in an owner-occupied flat"
+        },
+        {
+          "phrase": "eine Eigentumswohnung finanzieren",
+          "gloss_en": "to finance a condominium"
+        },
+        {
+          "phrase": "die eigene Eigentumswohnung",
+          "gloss_en": "one's own flat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie haben sich eine Eigentumswohnung im Zentrum gekauft.",
+          "en": "They bought themselves a condominium in the centre."
+        },
+        {
+          "de": "Eine Eigentumswohnung gilt als sichere Geldanlage.",
+          "en": "An owner-occupied flat is seen as a safe investment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; grenzt bewusst gegen die Mietwohnung ab.",
+      "near_synonyms": [
+        {
+          "lemma": "die Mietwohnung",
+          "distinction": "das Gegenteil: gemietet, nicht im Eigentum"
+        },
+        {
+          "lemma": "das Eigenheim",
+          "distinction": "meist ein ganzes Haus statt einer Wohnung"
+        }
+      ]
+    },
+    "Grundriss": {
+      "meaning_de": "maßstäbliche Zeichnung, die die Aufteilung der Räume von oben zeigt",
+      "meaning_en": "floor plan; layout",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Grundrisses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Grundrisse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Grundriss ansehen",
+          "gloss_en": "to look at the floor plan"
+        },
+        {
+          "phrase": "ein offener Grundriss",
+          "gloss_en": "an open-plan layout"
+        },
+        {
+          "phrase": "der Grundriss der Wohnung",
+          "gloss_en": "the layout of the flat"
+        },
+        {
+          "phrase": "einen Grundriss zeichnen",
+          "gloss_en": "to draw a floor plan"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Grundriss zeigt drei Zimmer und ein großes Bad.",
+          "en": "The floor plan shows three rooms and a large bathroom."
+        },
+        {
+          "de": "Der offene Grundriss gefällt mir besonders gut.",
+          "en": "I particularly like the open-plan layout."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Wohnungsinserat und in der Architektur gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Bauplan",
+          "distinction": "umfassender, für die gesamte Ausführung eines Baus"
+        },
+        {
+          "lemma": "die Raumaufteilung",
+          "distinction": "beschreibt die Anordnung, nicht die Zeichnung selbst"
+        }
+      ]
+    },
+    "Wohngemeinschaft": {
+      "meaning_de": "Zusammenschluss mehrerer Personen, die sich eine Wohnung teilen",
+      "meaning_en": "shared flat; flatshare",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Wohngemeinschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wohngemeinschaften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in einer Wohngemeinschaft leben",
+          "gloss_en": "to live in a flatshare"
+        },
+        {
+          "phrase": "eine Wohngemeinschaft gründen",
+          "gloss_en": "to start a flatshare"
+        },
+        {
+          "phrase": "ein Zimmer in einer Wohngemeinschaft",
+          "gloss_en": "a room in a flatshare"
+        },
+        {
+          "phrase": "die Mitbewohner der Wohngemeinschaft",
+          "gloss_en": "the flatmates of the shared flat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Als Studentin lebte sie in einer großen Wohngemeinschaft.",
+          "en": "As a student she lived in a big flatshare."
+        },
+        {
+          "de": "In unserer Wohngemeinschaft kocht jeder einmal pro Woche.",
+          "en": "In our flatshare everyone cooks once a week."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Alltag meist zur Kurzform 'WG' abgekürzt.",
+      "near_synonyms": [
+        {
+          "lemma": "die WG",
+          "distinction": "gängige Abkürzung, umgangssprachlicher"
+        },
+        {
+          "lemma": "die Hausgemeinschaft",
+          "distinction": "alle Bewohner eines Hauses, nicht einer Wohnung"
+        }
+      ]
+    },
+    "Untermieter": {
+      "meaning_de": "Person, die einen Raum vom Hauptmieter statt vom Vermieter mietet",
+      "meaning_en": "subtenant; lodger",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Untermieters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Untermieter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Untermieter suchen",
+          "gloss_en": "to look for a subtenant"
+        },
+        {
+          "phrase": "einen Untermieter aufnehmen",
+          "gloss_en": "to take in a lodger"
+        },
+        {
+          "phrase": "an einen Untermieter vermieten",
+          "gloss_en": "to rent to a subtenant"
+        },
+        {
+          "phrase": "der Vertrag mit dem Untermieter",
+          "gloss_en": "the agreement with the subtenant"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Während des Auslandssemesters nahm er einen Untermieter auf.",
+          "en": "During his semester abroad he took in a lodger."
+        },
+        {
+          "de": "Der Untermieter zahlt seine Miete direkt an mich.",
+          "en": "The subtenant pays his rent directly to me."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; setzt einen Hauptmieter voraus, an den die Miete fließt.",
+      "near_synonyms": [
+        {
+          "lemma": "der Mitbewohner",
+          "distinction": "teilt die Wohnung, ohne notwendig unterzumieten"
+        },
+        {
+          "lemma": "der Mieter",
+          "distinction": "mietet direkt vom Vermieter, nicht vom Hauptmieter"
+        }
+      ]
+    },
+    "Renovierung": {
+      "meaning_de": "das Instandsetzen und Verschönern von Räumen, z. B. durch Streichen oder Tapezieren",
+      "meaning_en": "renovation; redecoration",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Renovierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Renovierungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Renovierung durchführen",
+          "gloss_en": "to carry out a renovation"
+        },
+        {
+          "phrase": "die Wohnung nach der Renovierung",
+          "gloss_en": "the flat after the renovation"
+        },
+        {
+          "phrase": "die Kosten der Renovierung",
+          "gloss_en": "the cost of the renovation"
+        },
+        {
+          "phrase": "eine umfassende Renovierung",
+          "gloss_en": "an extensive renovation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Renovierung des Badezimmers dauerte zwei Wochen.",
+          "en": "The renovation of the bathroom took two weeks."
+        },
+        {
+          "de": "Vor dem Einzug ist noch eine kleine Renovierung nötig.",
+          "en": "A small renovation is still needed before moving in."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; leichter als die aufwendige Sanierung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sanierung",
+          "distinction": "gründlicher, behebt bauliche Schäden und Mängel"
+        },
+        {
+          "lemma": "die Modernisierung",
+          "distinction": "hebt den Standard, statt nur instand zu setzen"
+        }
+      ]
+    },
+    "Besichtigung": {
+      "meaning_de": "das Betrachten und Prüfen eines Objekts, etwa einer Wohnung vor der Anmietung",
+      "meaning_en": "viewing; inspection",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Besichtigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Besichtigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Termin zur Besichtigung",
+          "gloss_en": "an appointment for a viewing"
+        },
+        {
+          "phrase": "zur Besichtigung erscheinen",
+          "gloss_en": "to turn up for the viewing"
+        },
+        {
+          "phrase": "eine Besichtigung vereinbaren",
+          "gloss_en": "to arrange a viewing"
+        },
+        {
+          "phrase": "die Besichtigung der Wohnung",
+          "gloss_en": "the viewing of the flat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zur Besichtigung kamen mehr als zwanzig Interessenten.",
+          "en": "More than twenty interested people came to the viewing."
+        },
+        {
+          "de": "Nach der Besichtigung entschied sie sich sofort für die Wohnung.",
+          "en": "After the viewing she decided on the flat right away."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; bei Wohnungen, Häusern und Sehenswürdigkeiten gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Führung",
+          "distinction": "geleiteter Rundgang, meist bei Sehenswürdigkeiten"
+        },
+        {
+          "lemma": "die Prüfung",
+          "distinction": "betont das genaue Kontrollieren, nicht das Ansehen"
+        }
+      ]
+    },
+    "Wohnungssuche": {
+      "meaning_de": "das Suchen nach einer passenden Wohnung zum Mieten oder Kaufen",
+      "meaning_en": "flat hunting; search for a flat",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Wohnungssuche"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "auf Wohnungssuche sein",
+          "gloss_en": "to be looking for a flat"
+        },
+        {
+          "phrase": "die Wohnungssuche aufgeben",
+          "gloss_en": "to give up the flat search"
+        },
+        {
+          "phrase": "eine mühsame Wohnungssuche",
+          "gloss_en": "an arduous flat hunt"
+        },
+        {
+          "phrase": "bei der Wohnungssuche helfen",
+          "gloss_en": "to help with the flat search"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Wohnungssuche in der Großstadt ist oft frustrierend.",
+          "en": "Flat hunting in the big city is often frustrating."
+        },
+        {
+          "de": "Seit Wochen sind wir auf Wohnungssuche.",
+          "en": "We have been looking for a flat for weeks."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Singularwort, das den Vorgang als Ganzes bezeichnet.",
+      "near_synonyms": [
+        {
+          "lemma": "die Immobiliensuche",
+          "distinction": "weiter gefasst, auch Häuser und Grundstücke"
+        },
+        {
+          "lemma": "die Jobsuche",
+          "distinction": "gleiche Bildung, aber auf Arbeit bezogen"
+        }
+      ]
+    },
+    "Wohnungsmarkt": {
+      "meaning_de": "Gesamtheit von Angebot und Nachfrage nach Wohnungen in einer Region",
+      "meaning_en": "housing market",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wohnungsmarkts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wohnungsmärkte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der angespannte Wohnungsmarkt",
+          "gloss_en": "the tight housing market"
+        },
+        {
+          "phrase": "die Lage auf dem Wohnungsmarkt",
+          "gloss_en": "the situation on the housing market"
+        },
+        {
+          "phrase": "den Wohnungsmarkt entlasten",
+          "gloss_en": "to ease the housing market"
+        },
+        {
+          "phrase": "Druck auf dem Wohnungsmarkt",
+          "gloss_en": "pressure on the housing market"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auf dem Wohnungsmarkt herrscht in den Städten großer Druck.",
+          "en": "There is great pressure on the housing market in the cities."
+        },
+        {
+          "de": "Der angespannte Wohnungsmarkt treibt die Mieten in die Höhe.",
+          "en": "The tight housing market drives rents up."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch in Wirtschafts- und Politikberichten.",
+      "near_synonyms": [
+        {
+          "lemma": "der Immobilienmarkt",
+          "distinction": "umfasst auch Kauf, Gewerbe und Grundstücke"
+        },
+        {
+          "lemma": "der Mietmarkt",
+          "distinction": "beschränkt auf das Mietsegment, nicht den Kauf"
+        }
+      ]
+    },
+    "Mieterhöhung": {
+      "meaning_de": "Anhebung der zu zahlenden Miete durch den Vermieter",
+      "meaning_en": "rent increase",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Mieterhöhung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Mieterhöhungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Mieterhöhung ankündigen",
+          "gloss_en": "to announce a rent increase"
+        },
+        {
+          "phrase": "einer Mieterhöhung widersprechen",
+          "gloss_en": "to object to a rent increase"
+        },
+        {
+          "phrase": "eine unzulässige Mieterhöhung",
+          "gloss_en": "an unlawful rent increase"
+        },
+        {
+          "phrase": "die Mieterhöhung begründen",
+          "gloss_en": "to justify the rent increase"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vermieter kündigte eine Mieterhöhung um zehn Prozent an.",
+          "en": "The landlord announced a rent increase of ten percent."
+        },
+        {
+          "de": "Gegen die Mieterhöhung kann man unter Umständen Widerspruch einlegen.",
+          "en": "You may be able to object to the rent increase."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff im Mietrecht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Preiserhöhung",
+          "distinction": "allgemein für Preise, nicht nur für Mieten"
+        },
+        {
+          "lemma": "die Anpassung",
+          "distinction": "beschönigend und neutral, kann auch senken"
+        }
+      ]
+    },
+    "Mietspiegel": {
+      "meaning_de": "amtliche Übersicht über die ortsüblichen Mieten in einer Gemeinde",
+      "meaning_en": "rent index; rent table",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Mietspiegels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Mietspiegel"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in den Mietspiegel schauen",
+          "gloss_en": "to check the rent index"
+        },
+        {
+          "phrase": "laut Mietspiegel",
+          "gloss_en": "according to the rent index"
+        },
+        {
+          "phrase": "der örtliche Mietspiegel",
+          "gloss_en": "the local rent index"
+        },
+        {
+          "phrase": "über dem Mietspiegel liegen",
+          "gloss_en": "to be above the rent index"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Laut Mietspiegel ist die geforderte Miete deutlich zu hoch.",
+          "en": "According to the rent index the rent demanded is clearly too high."
+        },
+        {
+          "de": "Der Mietspiegel hilft, die ortsübliche Miete einzuschätzen.",
+          "en": "The rent index helps to estimate the local going rent."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; behördlicher Begriff, oft im Streit um die Miethöhe zitiert.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vergleichsmiete",
+          "distinction": "die konkrete ortsübliche Miete, nicht die Tabelle"
+        },
+        {
+          "lemma": "die Mietpreisbremse",
+          "distinction": "gesetzliche Regel, die Mieten begrenzt"
+        }
+      ]
+    },
+    "Hausordnung": {
+      "meaning_de": "Regeln für das Zusammenleben und die Nutzung eines Wohnhauses",
+      "meaning_en": "house rules",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Hausordnung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hausordnungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Hausordnung einhalten",
+          "gloss_en": "to observe the house rules"
+        },
+        {
+          "phrase": "gegen die Hausordnung verstoßen",
+          "gloss_en": "to breach the house rules"
+        },
+        {
+          "phrase": "laut Hausordnung",
+          "gloss_en": "according to the house rules"
+        },
+        {
+          "phrase": "die Hausordnung aushängen",
+          "gloss_en": "to post the house rules"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Laut Hausordnung gilt ab 22 Uhr Nachtruhe.",
+          "en": "According to the house rules, quiet hours start at 10 p.m."
+        },
+        {
+          "de": "Das Treppenhaus muss nach der Hausordnung frei bleiben.",
+          "en": "Under the house rules the stairwell must be kept clear."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; hängt in vielen Mehrfamilienhäusern gut sichtbar aus.",
+      "near_synonyms": [
+        {
+          "lemma": "die Regeln",
+          "distinction": "allgemein, ohne Bezug auf ein bestimmtes Haus"
+        },
+        {
+          "lemma": "die Benutzerordnung",
+          "distinction": "für Einrichtungen wie Bibliotheken oder Sportanlagen"
+        }
+      ]
+    },
+    "Instandhaltung": {
+      "meaning_de": "das laufende Pflegen und Erhalten von Gebäuden oder Anlagen in gutem Zustand",
+      "meaning_en": "maintenance; upkeep",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Instandhaltung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Instandhaltung des Gebäudes",
+          "gloss_en": "the upkeep of the building"
+        },
+        {
+          "phrase": "für die Instandhaltung sorgen",
+          "gloss_en": "to see to the maintenance"
+        },
+        {
+          "phrase": "Kosten der Instandhaltung",
+          "gloss_en": "maintenance costs"
+        },
+        {
+          "phrase": "die regelmäßige Instandhaltung",
+          "gloss_en": "regular upkeep"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Instandhaltung des Gebäudes ist der Eigentümer verantwortlich.",
+          "en": "The owner is responsible for the upkeep of the building."
+        },
+        {
+          "de": "Regelmäßige Instandhaltung beugt teuren Schäden vor.",
+          "en": "Regular maintenance prevents costly damage."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; häufig in Verwaltung und Technik.",
+      "near_synonyms": [
+        {
+          "lemma": "die Wartung",
+          "distinction": "konkreter, das planmäßige Prüfen und Pflegen von Technik"
+        },
+        {
+          "lemma": "die Pflege",
+          "distinction": "allgemeiner und weicher, auch für Menschen und Dinge"
+        }
+      ]
+    },
+    "Hausmeister": {
+      "meaning_de": "Person, die ein Gebäude betreut, pflegt und kleine Reparaturen erledigt",
+      "meaning_en": "caretaker; janitor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Hausmeisters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hausmeister"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Hausmeister rufen",
+          "gloss_en": "to call the caretaker"
+        },
+        {
+          "phrase": "der Hausmeister kümmert sich",
+          "gloss_en": "the caretaker takes care of it"
+        },
+        {
+          "phrase": "sich an den Hausmeister wenden",
+          "gloss_en": "to turn to the caretaker"
+        },
+        {
+          "phrase": "der zuständige Hausmeister",
+          "gloss_en": "the responsible caretaker"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei einem Rohrbruch sollte man sofort den Hausmeister rufen.",
+          "en": "In case of a burst pipe you should call the caretaker at once."
+        },
+        {
+          "de": "Der Hausmeister streut im Winter die Gehwege.",
+          "en": "In winter the caretaker grits the pavements."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltägliche Berufsbezeichnung rund um das Wohnhaus.",
+      "near_synonyms": [
+        {
+          "lemma": "der Verwalter",
+          "distinction": "kümmert sich um Verwaltung und Abrechnung, nicht um Reparaturen"
+        },
+        {
+          "lemma": "der Facility-Manager",
+          "distinction": "modern und betrieblich, umfassender im Aufgabenbereich"
+        }
+      ]
+    },
+    "Hausgemeinschaft": {
+      "meaning_de": "Gesamtheit der Bewohner eines Wohnhauses, die miteinander auskommen müssen",
+      "meaning_en": "community of residents in a building",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Hausgemeinschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hausgemeinschaften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine harmonische Hausgemeinschaft",
+          "gloss_en": "a harmonious community of residents"
+        },
+        {
+          "phrase": "die ganze Hausgemeinschaft",
+          "gloss_en": "the whole building community"
+        },
+        {
+          "phrase": "in der Hausgemeinschaft",
+          "gloss_en": "within the residents' community"
+        },
+        {
+          "phrase": "das Fest der Hausgemeinschaft",
+          "gloss_en": "the residents' party"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In unserer Hausgemeinschaft hilft jeder jedem.",
+          "en": "In our building everyone helps everyone else."
+        },
+        {
+          "de": "Der Streit belastete die ganze Hausgemeinschaft.",
+          "en": "The dispute weighed on the whole community of residents."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; betont das soziale Miteinander im selben Haus.",
+      "near_synonyms": [
+        {
+          "lemma": "die Nachbarschaft",
+          "distinction": "reicht über das Haus hinaus ins Viertel"
+        },
+        {
+          "lemma": "die Wohngemeinschaft",
+          "distinction": "geteilte Wohnung, nicht das ganze Haus"
+        }
+      ]
+    },
+    "Zusammenleben": {
+      "meaning_de": "das gemeinsame Leben mehrerer Menschen unter einem Dach oder in einer Gesellschaft",
+      "meaning_en": "living together; coexistence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zusammenlebens"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das friedliche Zusammenleben",
+          "gloss_en": "peaceful coexistence"
+        },
+        {
+          "phrase": "das tägliche Zusammenleben",
+          "gloss_en": "everyday life together"
+        },
+        {
+          "phrase": "Regeln für das Zusammenleben",
+          "gloss_en": "rules for living together"
+        },
+        {
+          "phrase": "das Zusammenleben erleichtern",
+          "gloss_en": "to make living together easier"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Klare Absprachen erleichtern das Zusammenleben in der WG.",
+          "en": "Clear arrangements make living together in the flatshare easier."
+        },
+        {
+          "de": "Rücksicht ist die Grundlage für ein gutes Zusammenleben.",
+          "en": "Consideration is the basis for good coexistence."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; substantivierter Infinitiv, nur im Singular gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Miteinander",
+          "distinction": "betont die Art des Umgangs, weicher und positiver"
+        },
+        {
+          "lemma": "die Koexistenz",
+          "distinction": "gehoben und distanziert, oft politisch"
+        }
+      ]
+    },
+    "Ruhestörung": {
+      "meaning_de": "das Stören der Ruhe anderer durch Lärm, besonders während der Ruhezeiten",
+      "meaning_en": "disturbance of the peace; noise nuisance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ruhestörung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ruhestörungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Ruhestörung melden",
+          "gloss_en": "to report a disturbance of the peace"
+        },
+        {
+          "phrase": "wegen Ruhestörung",
+          "gloss_en": "on account of a noise nuisance"
+        },
+        {
+          "phrase": "die nächtliche Ruhestörung",
+          "gloss_en": "the nightly disturbance"
+        },
+        {
+          "phrase": "die Polizei wegen Ruhestörung rufen",
+          "gloss_en": "to call the police over a noise nuisance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Nachbarn beschwerten sich über die nächtliche Ruhestörung.",
+          "en": "The neighbours complained about the nightly disturbance."
+        },
+        {
+          "de": "Wegen wiederholter Ruhestörung drohte ihm eine Anzeige.",
+          "en": "Repeated disturbances of the peace put him at risk of a complaint."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis behördlich; oft im Zusammenhang mit Nachbarn und Polizei.",
+      "near_synonyms": [
+        {
+          "lemma": "die Lärmbelästigung",
+          "distinction": "betont die Belästigung durch Lärm allgemein"
+        },
+        {
+          "lemma": "der Krach",
+          "distinction": "umgangssprachlich für den Lärm selbst"
+        }
+      ]
+    },
+    "Lärmbelästigung": {
+      "meaning_de": "das als störend empfundene Ausgesetztsein gegenüber Lärm",
+      "meaning_en": "noise pollution; noise nuisance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Lärmbelästigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Lärmbelästigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Lärmbelästigung durch den Verkehr",
+          "gloss_en": "noise pollution from traffic"
+        },
+        {
+          "phrase": "sich über Lärmbelästigung beschweren",
+          "gloss_en": "to complain about noise nuisance"
+        },
+        {
+          "phrase": "eine erhebliche Lärmbelästigung",
+          "gloss_en": "a considerable noise nuisance"
+        },
+        {
+          "phrase": "die Lärmbelästigung reduzieren",
+          "gloss_en": "to reduce noise pollution"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Lärmbelästigung durch die Baustelle war kaum auszuhalten.",
+          "en": "The noise nuisance from the building site was almost unbearable."
+        },
+        {
+          "de": "Anwohner klagen über die ständige Lärmbelästigung.",
+          "en": "Residents complain about the constant noise pollution."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch im Umwelt- und Nachbarrecht gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ruhestörung",
+          "distinction": "betont das Stören während der Ruhezeiten"
+        },
+        {
+          "lemma": "der Lärm",
+          "distinction": "das Geräusch selbst, ohne die Wertung als Belästigung"
+        }
+      ]
+    },
+    "Hausrat": {
+      "meaning_de": "die Gesamtheit der Einrichtungs- und Gebrauchsgegenstände eines Haushalts",
+      "meaning_en": "household goods; household effects",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Hausrats"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Hausrat versichern",
+          "gloss_en": "to insure the household goods"
+        },
+        {
+          "phrase": "der gesamte Hausrat",
+          "gloss_en": "all the household effects"
+        },
+        {
+          "phrase": "den Hausrat transportieren",
+          "gloss_en": "to transport the household goods"
+        },
+        {
+          "phrase": "der Wert des Hausrats",
+          "gloss_en": "the value of the household contents"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beim Brand wurde der gesamte Hausrat zerstört.",
+          "en": "In the fire all the household goods were destroyed."
+        },
+        {
+          "de": "Der Hausrat sollte ausreichend versichert sein.",
+          "en": "The household contents should be adequately insured."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Sammelbegriff ohne Plural, oft im Versicherungskontext.",
+      "near_synonyms": [
+        {
+          "lemma": "das Mobiliar",
+          "distinction": "nur die Möbel, nicht alle Gebrauchsgegenstände"
+        },
+        {
+          "lemma": "das Inventar",
+          "distinction": "die aufgelistete Ausstattung, oft betrieblich"
+        }
+      ]
+    },
+    "Hausratversicherung": {
+      "meaning_de": "Versicherung, die den Hausrat gegen Schäden wie Feuer, Wasser oder Einbruch schützt",
+      "meaning_en": "home contents insurance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Hausratversicherung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hausratversicherungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Hausratversicherung abschließen",
+          "gloss_en": "to take out home contents insurance"
+        },
+        {
+          "phrase": "die Hausratversicherung zahlt",
+          "gloss_en": "the contents insurance pays"
+        },
+        {
+          "phrase": "den Schaden bei der Hausratversicherung melden",
+          "gloss_en": "to report the damage to the contents insurer"
+        },
+        {
+          "phrase": "eine günstige Hausratversicherung",
+          "gloss_en": "affordable home contents insurance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Wasserschaden übernahm die Hausratversicherung die Kosten.",
+          "en": "After the water damage the contents insurance covered the costs."
+        },
+        {
+          "de": "Eine Hausratversicherung lohnt sich vor allem bei teurer Einrichtung.",
+          "en": "Home contents insurance is worthwhile especially with expensive furnishings."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; gängiger Begriff im Versicherungs- und Wohnalltag.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gebäudeversicherung",
+          "distinction": "versichert das Gebäude selbst, nicht den Inhalt"
+        },
+        {
+          "lemma": "die Haftpflichtversicherung",
+          "distinction": "deckt Schäden, die man anderen zufügt"
+        }
+      ]
+    },
+    "Reklamation": {
+      "meaning_de": "Beanstandung einer mangelhaften Ware oder Leistung gegenüber dem Verkäufer",
+      "meaning_en": "complaint (about goods); claim",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Reklamation"
+        },
+        {
+          "label": "Plural",
+          "value": "die Reklamationen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Reklamation bearbeiten",
+          "gloss_en": "to process a complaint"
+        },
+        {
+          "phrase": "eine berechtigte Reklamation",
+          "gloss_en": "a justified complaint"
+        },
+        {
+          "phrase": "die Reklamation ablehnen",
+          "gloss_en": "to reject the claim"
+        },
+        {
+          "phrase": "Grund zur Reklamation",
+          "gloss_en": "grounds for complaint"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Reklamation wird von unserem Service geprüft.",
+          "en": "Your complaint is being examined by our service department."
+        },
+        {
+          "de": "Bei einer berechtigten Reklamation erhalten Sie den Kaufpreis zurück.",
+          "en": "In the case of a justified complaint you will get the purchase price back."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; kaufmännischer Begriff für die Mängelbeschwerde.",
+      "near_synonyms": [
+        {
+          "lemma": "die Beschwerde",
+          "distinction": "allgemeiner, auch über Verhalten oder Zustände"
+        },
+        {
+          "lemma": "die Beanstandung",
+          "distinction": "sachlicher, betont den festgestellten Mangel"
+        }
+      ]
+    },
+    "Mangel": {
+      "meaning_de": "Fehler oder Fehlen einer Eigenschaft, die eine Ware oder Leistung haben sollte",
+      "meaning_en": "defect; flaw; shortage",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Mangels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Mängel"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Mangel an etwas",
+          "cases": "an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Mangel feststellen",
+          "gloss_en": "to identify a defect"
+        },
+        {
+          "phrase": "einen Mangel beheben",
+          "gloss_en": "to remedy a defect"
+        },
+        {
+          "phrase": "ein Mangel an Personal",
+          "gloss_en": "a shortage of staff"
+        },
+        {
+          "phrase": "aus Mangel an Beweisen",
+          "gloss_en": "for lack of evidence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Handwerker soll den Mangel kostenlos beheben.",
+          "en": "The tradesman is to remedy the defect free of charge."
+        },
+        {
+          "de": "Es herrscht ein Mangel an bezahlbaren Wohnungen.",
+          "en": "There is a shortage of affordable flats."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; zwei Sinne — der Defekt und das Fehlen von etwas (Mangel an).",
+      "near_synonyms": [
+        {
+          "lemma": "der Fehler",
+          "distinction": "allgemeiner, auch bei Handlungen und Rechenwegen"
+        },
+        {
+          "lemma": "der Defekt",
+          "distinction": "meist technisch, ein konkreter Funktionsschaden"
+        }
+      ]
+    },
+    "Anschaffung": {
+      "meaning_de": "der Kauf eines meist größeren oder teureren Gegenstands; auch die Sache selbst",
+      "meaning_en": "purchase; acquisition",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Anschaffung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anschaffungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine teure Anschaffung",
+          "gloss_en": "an expensive purchase"
+        },
+        {
+          "phrase": "eine Anschaffung machen",
+          "gloss_en": "to make a purchase"
+        },
+        {
+          "phrase": "eine lohnende Anschaffung",
+          "gloss_en": "a worthwhile acquisition"
+        },
+        {
+          "phrase": "die Kosten der Anschaffung",
+          "gloss_en": "the cost of the acquisition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die neue Waschmaschine war eine lohnende Anschaffung.",
+          "en": "The new washing machine was a worthwhile purchase."
+        },
+        {
+          "de": "Für größere Anschaffungen legen wir jeden Monat etwas zurück.",
+          "en": "For bigger purchases we put a little aside every month."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; klingt etwas gehobener als das schlichte 'der Kauf'.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kauf",
+          "distinction": "neutraler und allgemeiner, auch für Kleinigkeiten"
+        },
+        {
+          "lemma": "der Erwerb",
+          "distinction": "gehoben, oft für Rechte, Grundstücke oder Bildung"
+        }
+      ]
+    },
+    "Kostenvoranschlag": {
+      "meaning_de": "schriftliche Schätzung der voraussichtlichen Kosten für eine Arbeit oder Leistung",
+      "meaning_en": "cost estimate; quote",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kostenvoranschlags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kostenvoranschläge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Kostenvoranschlag einholen",
+          "gloss_en": "to obtain a cost estimate"
+        },
+        {
+          "phrase": "einen Kostenvoranschlag erstellen",
+          "gloss_en": "to draw up a quote"
+        },
+        {
+          "phrase": "laut Kostenvoranschlag",
+          "gloss_en": "according to the estimate"
+        },
+        {
+          "phrase": "ein unverbindlicher Kostenvoranschlag",
+          "gloss_en": "a non-binding estimate"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor der Reparatur holen wir mehrere Kostenvoranschläge ein.",
+          "en": "Before the repair we get several cost estimates."
+        },
+        {
+          "de": "Der Kostenvoranschlag lag deutlich unter dem des Konkurrenten.",
+          "en": "The quote was well below the competitor's."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis kaufmännisch; typisch bei Handwerkern und Werkstätten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Angebot",
+          "distinction": "meist verbindlicher, nennt einen festen Preis"
+        },
+        {
+          "lemma": "der Voranschlag",
+          "distinction": "kürzer, auch für Budgets und Etats gebräuchlich"
+        }
+      ]
+    },
+    "Handwerker": {
+      "meaning_de": "Person, die ein handwerkliches Gewerbe ausübt, etwa Installateur oder Maler",
+      "meaning_en": "tradesman; craftsman",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Handwerkers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Handwerker"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Handwerker beauftragen",
+          "gloss_en": "to hire a tradesman"
+        },
+        {
+          "phrase": "auf den Handwerker warten",
+          "gloss_en": "to wait for the tradesman"
+        },
+        {
+          "phrase": "einen zuverlässigen Handwerker finden",
+          "gloss_en": "to find a reliable tradesman"
+        },
+        {
+          "phrase": "der Handwerker kommt vorbei",
+          "gloss_en": "the tradesman comes round"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es ist schwer, kurzfristig einen Handwerker zu bekommen.",
+          "en": "It is hard to get a tradesman at short notice."
+        },
+        {
+          "de": "Der Handwerker hat die undichte Leitung repariert.",
+          "en": "The tradesman repaired the leaking pipe."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Oberbegriff für viele handwerkliche Berufe.",
+      "near_synonyms": [
+        {
+          "lemma": "der Monteur",
+          "distinction": "montiert und wartet Anlagen, enger gefasst"
+        },
+        {
+          "lemma": "der Meister",
+          "distinction": "Handwerker mit höchster Qualifikation und Prüfung"
+        }
+      ]
+    },
+    "Reparatur": {
+      "meaning_de": "das Instandsetzen eines beschädigten oder defekten Gegenstands",
+      "meaning_en": "repair",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Reparatur"
+        },
+        {
+          "label": "Plural",
+          "value": "die Reparaturen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Reparatur durchführen",
+          "gloss_en": "to carry out a repair"
+        },
+        {
+          "phrase": "etwas zur Reparatur bringen",
+          "gloss_en": "to take something in for repair"
+        },
+        {
+          "phrase": "eine teure Reparatur",
+          "gloss_en": "an expensive repair"
+        },
+        {
+          "phrase": "die Reparatur lohnt sich nicht",
+          "gloss_en": "the repair is not worthwhile"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Reparatur der Heizung dauert bis morgen.",
+          "en": "The repair of the heating will take until tomorrow."
+        },
+        {
+          "de": "Bei dem alten Gerät lohnt sich die Reparatur nicht mehr.",
+          "en": "With the old device the repair is no longer worthwhile."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Begriff für Instandsetzungen aller Art.",
+      "near_synonyms": [
+        {
+          "lemma": "die Instandsetzung",
+          "distinction": "förmlicher und technischer"
+        },
+        {
+          "lemma": "die Ausbesserung",
+          "distinction": "kleinere Behebung, oft von Oberflächen"
+        }
+      ]
+    },
+    "Wartung": {
+      "meaning_de": "regelmäßiges Prüfen und Pflegen von Geräten oder Anlagen zur Erhaltung der Funktion",
+      "meaning_en": "servicing; maintenance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Wartung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wartungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die regelmäßige Wartung",
+          "gloss_en": "regular servicing"
+        },
+        {
+          "phrase": "die Wartung durchführen",
+          "gloss_en": "to perform the maintenance"
+        },
+        {
+          "phrase": "die Heizung zur Wartung",
+          "gloss_en": "the heating due for servicing"
+        },
+        {
+          "phrase": "wegen Wartungsarbeiten",
+          "gloss_en": "due to maintenance work"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die jährliche Wartung der Heizung ist gesetzlich vorgeschrieben.",
+          "en": "The annual servicing of the heating is required by law."
+        },
+        {
+          "de": "Während der Wartung ist die Anlage außer Betrieb.",
+          "en": "During the servicing the system is out of operation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis technisch; betont das planmäßige, vorbeugende Pflegen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Instandhaltung",
+          "distinction": "weiter gefasst, auch für Gebäude"
+        },
+        {
+          "lemma": "die Pflege",
+          "distinction": "allgemeiner und weniger technisch"
+        }
+      ]
+    },
+    "Alltag": {
+      "meaning_de": "das gewöhnliche, sich täglich wiederholende Leben mit seinen Routinen",
+      "meaning_en": "everyday life; daily routine",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Alltags"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Alltag bewältigen",
+          "gloss_en": "to cope with everyday life"
+        },
+        {
+          "phrase": "der graue Alltag",
+          "gloss_en": "the dreary daily grind"
+        },
+        {
+          "phrase": "dem Alltag entfliehen",
+          "gloss_en": "to escape everyday life"
+        },
+        {
+          "phrase": "im Alltag",
+          "gloss_en": "in everyday life"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Urlaub holt einen der Alltag schnell wieder ein.",
+          "en": "After the holiday everyday life quickly catches up with you."
+        },
+        {
+          "de": "Im Alltag bleibt oft wenig Zeit für sich selbst.",
+          "en": "In everyday life there is often little time for oneself."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meist im Singular, betont das Gewöhnliche und Wiederkehrende.",
+      "near_synonyms": [
+        {
+          "lemma": "der Tagesablauf",
+          "distinction": "konkreter Ablauf eines einzelnen Tages"
+        },
+        {
+          "lemma": "die Routine",
+          "distinction": "die eingespielten Abläufe, nicht das Leben insgesamt"
+        }
+      ]
+    },
+    "Routine": {
+      "meaning_de": "durch Übung entstandene, gewohnheitsmäßige Abfolge von Handlungen",
+      "meaning_en": "routine",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Routine"
+        },
+        {
+          "label": "Plural",
+          "value": "die Routinen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in die Routine verfallen",
+          "gloss_en": "to slip into routine"
+        },
+        {
+          "phrase": "die tägliche Routine",
+          "gloss_en": "the daily routine"
+        },
+        {
+          "phrase": "eine feste Routine haben",
+          "gloss_en": "to have a fixed routine"
+        },
+        {
+          "phrase": "mit Routine erledigen",
+          "gloss_en": "to handle with practised ease"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine feste Routine am Morgen hilft mir, den Tag zu strukturieren.",
+          "en": "A fixed morning routine helps me structure my day."
+        },
+        {
+          "de": "Nach Jahren im Beruf erledigt sie vieles mit Routine.",
+          "en": "After years on the job she handles a lot with practised ease."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; positiv als Übung, negativ als eintönige Gewohnheit deutbar.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gewohnheit",
+          "distinction": "einzelnes eingeübtes Verhalten, nicht der ganze Ablauf"
+        },
+        {
+          "lemma": "der Trott",
+          "distinction": "abwertend, betont die Eintönigkeit"
+        }
+      ]
+    },
+    "Erledigung": {
+      "meaning_de": "das Erledigen einer Aufgabe; auch eine einzelne zu erledigende Besorgung",
+      "meaning_en": "completion; errand; task to be done",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Erledigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Erledigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Erledigungen machen",
+          "gloss_en": "to run errands"
+        },
+        {
+          "phrase": "zur Erledigung des Auftrags",
+          "gloss_en": "for the completion of the order"
+        },
+        {
+          "phrase": "noch einige Erledigungen",
+          "gloss_en": "still a few things to see to"
+        },
+        {
+          "phrase": "die rasche Erledigung",
+          "gloss_en": "the prompt handling"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Samstag muss ich noch ein paar Erledigungen machen.",
+          "en": "On Saturday I still have to run a few errands."
+        },
+        {
+          "de": "Wir danken für die rasche Erledigung unseres Auftrags.",
+          "en": "We thank you for the prompt handling of our order."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Plural meist die alltäglichen Besorgungen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Besorgung",
+          "distinction": "vor allem das Einkaufen und Beschaffen"
+        },
+        {
+          "lemma": "die Aufgabe",
+          "distinction": "das zu Erledigende selbst, nicht das Erledigen"
+        }
+      ]
+    },
+    "vermieten": {
+      "meaning_de": "eine Wohnung oder Sache gegen Miete zur Nutzung überlassen",
+      "meaning_en": "to rent out; to let",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vermietet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vermietete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vermietet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vermietete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas vermieten",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "etwas an jemanden vermieten",
+          "cases": "Akk. + an + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Wohnung vermieten",
+          "gloss_en": "to rent out a flat"
+        },
+        {
+          "phrase": "möbliert vermieten",
+          "gloss_en": "to let furnished"
+        },
+        {
+          "phrase": "an Studenten vermieten",
+          "gloss_en": "to rent to students"
+        },
+        {
+          "phrase": "zu vermieten",
+          "gloss_en": "for rent / to let"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie vermietet die kleine Wohnung an einen Studenten.",
+          "en": "She rents out the small flat to a student."
+        },
+        {
+          "de": "Das Zimmer im Erdgeschoss ist bereits vermietet.",
+          "en": "The room on the ground floor is already let."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Gegenstück zu 'mieten', aus Sicht des Eigentümers.",
+      "near_synonyms": [
+        {
+          "lemma": "verpachten",
+          "distinction": "überlässt auch die Erträge, z. B. Land oder Betrieb"
+        },
+        {
+          "lemma": "untervermieten",
+          "distinction": "als Mieter an einen Dritten weitervermieten"
+        }
+      ]
+    },
+    "kündigen": {
+      "meaning_de": "ein Vertrags- oder Arbeitsverhältnis förmlich beenden",
+      "meaning_en": "to give notice; to terminate; to quit",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er kündigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er kündigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gekündigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er kündigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas kündigen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemandem kündigen",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Vertrag kündigen",
+          "gloss_en": "to terminate the contract"
+        },
+        {
+          "phrase": "fristgerecht kündigen",
+          "gloss_en": "to give notice on time"
+        },
+        {
+          "phrase": "die Wohnung kündigen",
+          "gloss_en": "to give notice on the flat"
+        },
+        {
+          "phrase": "einem Mitarbeiter kündigen",
+          "gloss_en": "to give an employee notice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat den Mietvertrag zum Monatsende gekündigt.",
+          "en": "She gave notice on the tenancy to the end of the month."
+        },
+        {
+          "de": "Man kann der Versicherung schriftlich kündigen.",
+          "en": "You can cancel the insurance in writing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; 'etwas kündigen' beendet den Vertrag, 'jemandem kündigen' entlässt die Person.",
+      "near_synonyms": [
+        {
+          "lemma": "auflösen",
+          "distinction": "beendet einvernehmlich, oft einen ganzen Vertrag"
+        },
+        {
+          "lemma": "entlassen",
+          "distinction": "nur auf Personen bezogen, die Arbeit betreffend"
+        }
+      ]
+    },
+    "entsorgen": {
+      "meaning_de": "Abfall oder nicht mehr Gebrauchtes fachgerecht beseitigen",
+      "meaning_en": "to dispose of",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entsorgt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entsorgte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entsorgt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entsorgte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas entsorgen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Müll entsorgen",
+          "gloss_en": "to dispose of the rubbish"
+        },
+        {
+          "phrase": "umweltgerecht entsorgen",
+          "gloss_en": "to dispose of in an eco-friendly way"
+        },
+        {
+          "phrase": "Sperrmüll entsorgen",
+          "gloss_en": "to dispose of bulky waste"
+        },
+        {
+          "phrase": "alte Geräte entsorgen",
+          "gloss_en": "to dispose of old appliances"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Alte Batterien muss man gesondert entsorgen.",
+          "en": "Old batteries have to be disposed of separately."
+        },
+        {
+          "de": "Den kaputten Schrank haben wir beim Wertstoffhof entsorgt.",
+          "en": "We disposed of the broken cupboard at the recycling centre."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlicher als 'wegwerfen', betont die geordnete Beseitigung.",
+      "near_synonyms": [
+        {
+          "lemma": "wegwerfen",
+          "distinction": "umgangssprachlich, ohne den Aspekt der Ordnung"
+        },
+        {
+          "lemma": "beseitigen",
+          "distinction": "allgemeiner, auch für Hindernisse und Probleme"
+        }
+      ]
+    },
+    "reklamieren": {
+      "meaning_de": "eine mangelhafte Ware oder Leistung beim Verkäufer beanstanden",
+      "meaning_en": "to complain about; to make a claim",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er reklamiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er reklamierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat reklamiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er reklamierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas reklamieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Ware reklamieren",
+          "gloss_en": "to complain about the goods"
+        },
+        {
+          "phrase": "einen Mangel reklamieren",
+          "gloss_en": "to claim over a defect"
+        },
+        {
+          "phrase": "erfolgreich reklamieren",
+          "gloss_en": "to complain successfully"
+        },
+        {
+          "phrase": "beim Händler reklamieren",
+          "gloss_en": "to complain to the retailer"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte diese Schuhe reklamieren, die Naht ist aufgegangen.",
+          "en": "I'd like to complain about these shoes; the seam has come apart."
+        },
+        {
+          "de": "Er reklamierte das defekte Gerät und bekam ein neues.",
+          "en": "He claimed over the faulty device and got a new one."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Handel und Alltag beim Umtausch gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "beanstanden",
+          "distinction": "förmlicher und sachlicher"
+        },
+        {
+          "lemma": "sich beschweren",
+          "distinction": "allgemeiner, auch über Verhalten, nicht nur Ware"
+        }
+      ]
+    },
+    "umtauschen": {
+      "meaning_de": "eine gekaufte Ware gegen eine andere oder gegen Geld zurückgeben",
+      "meaning_en": "to exchange; to return (goods)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er tauscht um"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er tauschte um"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat umgetauscht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er tauschte um"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas umtauschen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "etwas gegen etwas umtauschen",
+          "cases": "Akk. gegen Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Ware umtauschen",
+          "gloss_en": "to exchange the goods"
+        },
+        {
+          "phrase": "gegen eine andere Größe umtauschen",
+          "gloss_en": "to exchange for a different size"
+        },
+        {
+          "phrase": "ohne Kassenbon umtauschen",
+          "gloss_en": "to exchange without a receipt"
+        },
+        {
+          "phrase": "Geld umtauschen",
+          "gloss_en": "to change money"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Hemd ist zu klein, ich tausche es um.",
+          "en": "The shirt is too small, I'll exchange it."
+        },
+        {
+          "de": "Ohne Kassenbon kann man die Ware nicht umtauschen.",
+          "en": "Without a receipt you cannot exchange the goods."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Einkauf alltäglich, auch für Geldwechsel gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "zurückgeben",
+          "distinction": "gibt zurück, ohne notwendig etwas dafür zu nehmen"
+        },
+        {
+          "lemma": "austauschen",
+          "distinction": "ersetzt ein Teil durch ein gleichwertiges anderes"
+        }
+      ]
+    },
+    "anschaffen": {
+      "meaning_de": "einen meist größeren Gegenstand kaufen und in Besitz nehmen",
+      "meaning_en": "to purchase; to buy (esp. something sizeable)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er schafft an"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er schaffte an"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat angeschafft"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er schaffte an"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich etwas anschaffen",
+          "cases": "Dat. (refl.) + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich ein Auto anschaffen",
+          "gloss_en": "to buy oneself a car"
+        },
+        {
+          "phrase": "neue Möbel anschaffen",
+          "gloss_en": "to purchase new furniture"
+        },
+        {
+          "phrase": "sich einen Hund anschaffen",
+          "gloss_en": "to get oneself a dog"
+        },
+        {
+          "phrase": "etwas neu anschaffen",
+          "gloss_en": "to buy something new"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns endlich eine neue Waschmaschine angeschafft.",
+          "en": "We have finally bought ourselves a new washing machine."
+        },
+        {
+          "de": "Bevor man sich ein Haustier anschafft, sollte man gut überlegen.",
+          "en": "Before getting a pet you should think it over carefully."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; meist reflexiv mit Dativ ('sich etwas anschaffen').",
+      "near_synonyms": [
+        {
+          "lemma": "kaufen",
+          "distinction": "neutraler und allgemeiner, auch für Kleinigkeiten"
+        },
+        {
+          "lemma": "erwerben",
+          "distinction": "gehoben, auch für Rechte und Grundstücke"
+        }
+      ]
+    },
+    "erledigen": {
+      "meaning_de": "eine Aufgabe oder Angelegenheit zu Ende bringen und abschließen",
+      "meaning_en": "to deal with; to get done; to take care of",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er erledigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er erledigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat erledigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er erledigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas erledigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Aufgabe erledigen",
+          "gloss_en": "to get a task done"
+        },
+        {
+          "phrase": "die Post erledigen",
+          "gloss_en": "to deal with the mail"
+        },
+        {
+          "phrase": "etwas schnell erledigen",
+          "gloss_en": "to take care of something quickly"
+        },
+        {
+          "phrase": "das ist erledigt",
+          "gloss_en": "that's taken care of"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich muss heute noch ein paar wichtige Dinge erledigen.",
+          "en": "I still have to take care of a few important things today."
+        },
+        {
+          "de": "Die Anmeldung ist bereits erledigt.",
+          "en": "The registration has already been dealt with."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sehr gebräuchlich für abgeschlossene Aufgaben und Besorgungen.",
+      "near_synonyms": [
+        {
+          "lemma": "abwickeln",
+          "distinction": "betont den geordneten Ablauf eines Vorgangs"
+        },
+        {
+          "lemma": "besorgen",
+          "distinction": "vor allem beschaffen und einkaufen"
+        }
+      ]
+    },
+    "besichtigen": {
+      "meaning_de": "etwas gründlich ansehen und prüfen, etwa eine Wohnung oder Sehenswürdigkeit",
+      "meaning_en": "to view; to inspect; to tour",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er besichtigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er besichtigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat besichtigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er besichtigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas besichtigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Wohnung besichtigen",
+          "gloss_en": "to view a flat"
+        },
+        {
+          "phrase": "das Schloss besichtigen",
+          "gloss_en": "to tour the castle"
+        },
+        {
+          "phrase": "vor dem Kauf besichtigen",
+          "gloss_en": "to inspect before buying"
+        },
+        {
+          "phrase": "die Baustelle besichtigen",
+          "gloss_en": "to inspect the building site"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Nachmittag besichtigen wir die neue Wohnung.",
+          "en": "In the afternoon we're viewing the new flat."
+        },
+        {
+          "de": "Touristen besichtigen jedes Jahr den alten Dom.",
+          "en": "Every year tourists tour the old cathedral."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; setzt ein gründliches, prüfendes Betrachten voraus.",
+      "near_synonyms": [
+        {
+          "lemma": "anschauen",
+          "distinction": "allgemeiner und beiläufiger, ohne prüfende Absicht"
+        },
+        {
+          "lemma": "inspizieren",
+          "distinction": "förmlicher, betont die genaue Kontrolle"
+        }
+      ]
+    },
+    "einrichten": {
+      "meaning_de": "eine Wohnung mit Möbeln und Gegenständen ausstatten; auch: etwas einrichten oder ermöglichen",
+      "meaning_en": "to furnish; to set up",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er richtet ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er richtete ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat eingerichtet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er richtete ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas einrichten",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "sich auf etwas einrichten",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Wohnung einrichten",
+          "gloss_en": "to furnish a flat"
+        },
+        {
+          "phrase": "gemütlich einrichten",
+          "gloss_en": "to furnish cosily"
+        },
+        {
+          "phrase": "ein Konto einrichten",
+          "gloss_en": "to set up an account"
+        },
+        {
+          "phrase": "sich häuslich einrichten",
+          "gloss_en": "to settle in"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie haben ihre neue Wohnung sehr geschmackvoll eingerichtet.",
+          "en": "They have furnished their new flat very tastefully."
+        },
+        {
+          "de": "Wir müssen uns darauf einrichten, länger zu warten.",
+          "en": "We have to prepare ourselves for a longer wait."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Wohnkontext 'möblieren', reflexiv auch 'sich auf etwas vorbereiten'.",
+      "near_synonyms": [
+        {
+          "lemma": "möblieren",
+          "distinction": "nur das Aufstellen von Möbeln, enger gefasst"
+        },
+        {
+          "lemma": "ausstatten",
+          "distinction": "allgemeiner, mit allem Nötigen versehen"
+        }
+      ]
+    },
+    "geräumig": {
+      "meaning_de": "viel Platz bietend; mit reichlich Raum",
+      "meaning_en": "spacious; roomy",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "geräumiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am geräumigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine geräumige Wohnung",
+          "gloss_en": "a spacious flat"
+        },
+        {
+          "phrase": "ein geräumiger Kofferraum",
+          "gloss_en": "a roomy boot"
+        },
+        {
+          "phrase": "geräumig und hell",
+          "gloss_en": "spacious and bright"
+        },
+        {
+          "phrase": "überraschend geräumig",
+          "gloss_en": "surprisingly spacious"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Wohnung ist überraschend geräumig und gut geschnitten.",
+          "en": "The flat is surprisingly spacious and well laid out."
+        },
+        {
+          "de": "Wir suchen ein geräumigeres Haus für die wachsende Familie.",
+          "en": "We are looking for a roomier house for our growing family."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; positiv besetzt, häufig in Wohnungsinseraten.",
+      "near_synonyms": [
+        {
+          "lemma": "weitläufig",
+          "distinction": "betont große Flächen und Ausdehnung"
+        },
+        {
+          "lemma": "großzügig",
+          "distinction": "hebt den angenehm reichlichen Zuschnitt hervor"
+        }
+      ]
+    },
+    "hellhörig": {
+      "meaning_de": "so gebaut, dass Geräusche aus Nachbarräumen leicht zu hören sind",
+      "meaning_en": "poorly soundproofed; where sound carries easily",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "hellhöriger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am hellhörigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine hellhörige Wohnung",
+          "gloss_en": "a flat where sound carries"
+        },
+        {
+          "phrase": "die Wände sind hellhörig",
+          "gloss_en": "the walls are thin"
+        },
+        {
+          "phrase": "das Haus ist hellhörig",
+          "gloss_en": "the building is poorly soundproofed"
+        },
+        {
+          "phrase": "sehr hellhörig sein",
+          "gloss_en": "to let a lot of noise through"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Wohnung ist so hellhörig, dass man jedes Wort der Nachbarn hört.",
+          "en": "The flat is so poorly soundproofed that you hear every word from the neighbours."
+        },
+        {
+          "de": "In diesem Altbau sind die Wände leider sehr hellhörig.",
+          "en": "In this old building the walls unfortunately carry a lot of sound."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in der wörtlichen Bedeutung fast immer negativ; übertragen auch 'aufmerksam werdend'.",
+      "near_synonyms": [
+        {
+          "lemma": "schalldurchlässig",
+          "distinction": "technischer und sachlicher"
+        },
+        {
+          "lemma": "dünnwandig",
+          "distinction": "beschreibt die Ursache, die dünnen Wände"
+        }
+      ]
+    },
+    "baufällig": {
+      "meaning_de": "so beschädigt oder verfallen, dass Einsturz oder Schäden drohen",
+      "meaning_en": "dilapidated; ramshackle",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "baufälliger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am baufälligsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein baufälliges Haus",
+          "gloss_en": "a dilapidated house"
+        },
+        {
+          "phrase": "die baufällige Brücke",
+          "gloss_en": "the ramshackle bridge"
+        },
+        {
+          "phrase": "baufällig und einsturzgefährdet",
+          "gloss_en": "dilapidated and unsafe"
+        },
+        {
+          "phrase": "das Gebäude ist baufällig",
+          "gloss_en": "the building is dilapidated"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das alte Haus ist so baufällig, dass es abgerissen werden muss.",
+          "en": "The old house is so dilapidated that it has to be demolished."
+        },
+        {
+          "de": "Die baufällige Scheune darf nicht mehr betreten werden.",
+          "en": "The ramshackle barn may no longer be entered."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; deutlich negativer als 'renovierungsbedürftig'.",
+      "near_synonyms": [
+        {
+          "lemma": "verfallen",
+          "distinction": "betont den fortgeschrittenen Verfall über die Zeit"
+        },
+        {
+          "lemma": "einsturzgefährdet",
+          "distinction": "hebt speziell die Gefahr des Einsturzes hervor"
+        }
+      ]
+    },
+    "sanierungsbedürftig": {
+      "meaning_de": "in einem Zustand, der eine umfassende Sanierung nötig macht",
+      "meaning_en": "in need of renovation; requiring refurbishment",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein sanierungsbedürftiges Gebäude",
+          "gloss_en": "a building in need of renovation"
+        },
+        {
+          "phrase": "sanierungsbedürftig sein",
+          "gloss_en": "to require refurbishment"
+        },
+        {
+          "phrase": "die sanierungsbedürftige Fassade",
+          "gloss_en": "the façade in need of refurbishment"
+        },
+        {
+          "phrase": "dringend sanierungsbedürftig",
+          "gloss_en": "urgently in need of renovation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Objekt ist günstig, aber stark sanierungsbedürftig.",
+          "en": "The property is cheap but badly in need of renovation."
+        },
+        {
+          "de": "Viele Schulen im Land sind dringend sanierungsbedürftig.",
+          "en": "Many schools in the country are urgently in need of refurbishment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; typisch in Immobilienanzeigen und Bauberichten.",
+      "near_synonyms": [
+        {
+          "lemma": "renovierungsbedürftig",
+          "distinction": "leichter, es genügt eine Renovierung statt Sanierung"
+        },
+        {
+          "lemma": "baufällig",
+          "distinction": "stärker, mit drohendem Einsturz oder Verfall"
+        }
+      ]
+    },
+    "möbliert": {
+      "meaning_de": "mit Möbeln ausgestattet und dadurch bezugsfertig",
+      "meaning_en": "furnished",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein möbliertes Zimmer",
+          "gloss_en": "a furnished room"
+        },
+        {
+          "phrase": "möbliert vermieten",
+          "gloss_en": "to let furnished"
+        },
+        {
+          "phrase": "voll möbliert",
+          "gloss_en": "fully furnished"
+        },
+        {
+          "phrase": "eine möblierte Wohnung",
+          "gloss_en": "a furnished flat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für ein Jahr suche ich ein möbliertes Zimmer in der Nähe der Uni.",
+          "en": "For a year I'm looking for a furnished room near the university."
+        },
+        {
+          "de": "Die Wohnung wird voll möbliert vermietet.",
+          "en": "The flat is let fully furnished."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Partizip, das den ausgestatteten Zustand angibt, kaum steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "eingerichtet",
+          "distinction": "betont die gesamte Ausstattung, nicht nur die Möbel"
+        },
+        {
+          "lemma": "ausgestattet",
+          "distinction": "allgemeiner, mit beliebiger Ausrüstung"
+        }
+      ]
+    },
+    "barrierefrei": {
+      "meaning_de": "ohne Hindernisse zugänglich, besonders für Menschen mit Behinderung",
+      "meaning_en": "accessible; barrier-free; step-free",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine barrierefreie Wohnung",
+          "gloss_en": "an accessible flat"
+        },
+        {
+          "phrase": "barrierefrei zugänglich",
+          "gloss_en": "accessible without barriers"
+        },
+        {
+          "phrase": "einen Zugang barrierefrei gestalten",
+          "gloss_en": "to make an entrance step-free"
+        },
+        {
+          "phrase": "barrierefreie Toiletten",
+          "gloss_en": "accessible toilets"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die neue Wohnung ist barrierefrei und rollstuhlgerecht.",
+          "en": "The new flat is barrier-free and wheelchair-accessible."
+        },
+        {
+          "de": "Der Bahnhof wurde barrierefrei umgebaut.",
+          "en": "The station was rebuilt to be step-free."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; wichtiger Begriff in Bau, Verwaltung und Verkehr.",
+      "near_synonyms": [
+        {
+          "lemma": "rollstuhlgerecht",
+          "distinction": "speziell auf Rollstuhlfahrer zugeschnitten"
+        },
+        {
+          "lemma": "behindertengerecht",
+          "distinction": "weiter, auf verschiedene Behinderungen bezogen"
+        }
+      ]
+    },
+    "alltäglich": {
+      "meaning_de": "täglich vorkommend und daher gewöhnlich oder unauffällig",
+      "meaning_en": "everyday; ordinary; commonplace",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "alltäglicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am alltäglichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "alltägliche Dinge",
+          "gloss_en": "everyday things"
+        },
+        {
+          "phrase": "nichts Alltägliches",
+          "gloss_en": "nothing ordinary"
+        },
+        {
+          "phrase": "die alltäglichen Sorgen",
+          "gloss_en": "everyday worries"
+        },
+        {
+          "phrase": "ein alltäglicher Anblick",
+          "gloss_en": "a common sight"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Solche Staus sind hier ein ganz alltäglicher Anblick.",
+          "en": "Traffic jams like this are a completely ordinary sight here."
+        },
+        {
+          "de": "Sie erzählte von den kleinen alltäglichen Freuden.",
+          "en": "She talked about the small everyday joys."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; kann wertend 'unauffällig, nichts Besonderes' bedeuten.",
+      "near_synonyms": [
+        {
+          "lemma": "gewöhnlich",
+          "distinction": "betont die Normalität, nicht die tägliche Wiederkehr"
+        },
+        {
+          "lemma": "alltagstauglich",
+          "distinction": "für den täglichen Gebrauch geeignet, positiver"
+        }
+      ]
+    },
+    "gemeinschaftlich": {
+      "meaning_de": "mehreren gemeinsam gehörend oder von mehreren zusammen getan",
+      "meaning_en": "communal; joint; shared",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die gemeinschaftliche Nutzung",
+          "gloss_en": "communal use"
+        },
+        {
+          "phrase": "gemeinschaftliche Räume",
+          "gloss_en": "shared rooms"
+        },
+        {
+          "phrase": "gemeinschaftlich handeln",
+          "gloss_en": "to act jointly"
+        },
+        {
+          "phrase": "der gemeinschaftliche Garten",
+          "gloss_en": "the communal garden"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Garten steht allen Bewohnern zur gemeinschaftlichen Nutzung.",
+          "en": "The garden is available to all residents for communal use."
+        },
+        {
+          "de": "Die Entscheidung wurde gemeinschaftlich getroffen.",
+          "en": "The decision was made jointly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; förmlicher als das schlichte 'gemeinsam'.",
+      "near_synonyms": [
+        {
+          "lemma": "gemeinsam",
+          "distinction": "alltäglicher und flexibler, auch als Adverb"
+        },
+        {
+          "lemma": "kollektiv",
+          "distinction": "betont die Gruppe als Ganzes, oft politisch"
+        }
+      ]
+    }
+  }
+}
