@@ -25,6 +25,17 @@ dossiers yet**, so none are offerable until authored (§3.4 requires a current d
 Genders/plurals/verb-forms are author's German (parallel Sonnet sub-agents) and want the
 §7.1 Wiktionary/Duden spot-check before trusting — do it as a local script, not web lookups.
 
+**Dossier campaign started (2026-07-27):** first wave of 3 domain batches authored (Opus
+sub-agents) and committed — `dossiers.b2-01.json` (Arbeit & Beruf), `dossiers.c1-01.json`
+(Wissenschaft), `dossiers.c1-08.json` (formal adj/adv), 150 dossiers, all schema-clean.
+`npm run collect` now reports **735 words still needing a dossier** (down from 885). Wave
+stopped there on an Anthropic session limit, not a content issue. To continue: run
+`npm run collect` for the authoritative missing-lemma list, partition into disjoint domain
+batches, and spawn one **Opus** author per batch against the dossier brief (schema in
+`src/core/dossier/schema.ts`; conventions: noun→Genitiv/Plural, verb→Präsens/Präteritum/
+Perfekt/Konjunktiv II, adj→Komparativ/Superlativ, adv→[]). Validate + install + `collect`
++ commit per wave.
+
 **Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
 lists ever.** The word list is a hand-curated pool we grow together; specific coverage
 doesn't matter — only skipping known words and capturing unknown ones. Phase 5 (composite
