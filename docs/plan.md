@@ -25,16 +25,26 @@ dossiers yet**, so none are offerable until authored (§3.4 requires a current d
 Genders/plurals/verb-forms are author's German (parallel Sonnet sub-agents) and want the
 §7.1 Wiktionary/Duden spot-check before trusting — do it as a local script, not web lookups.
 
-**Dossier campaign started (2026-07-27):** first wave of 3 domain batches authored (Opus
-sub-agents) and committed — `dossiers.b2-01.json` (Arbeit & Beruf), `dossiers.c1-01.json`
-(Wissenschaft), `dossiers.c1-08.json` (formal adj/adv), 150 dossiers, all schema-clean.
-`npm run collect` now reports **735 words still needing a dossier** (down from 885). Wave
-stopped there on an Anthropic session limit, not a content issue. To continue: run
-`npm run collect` for the authoritative missing-lemma list, partition into disjoint domain
-batches, and spawn one **Opus** author per batch against the dossier brief (schema in
-`src/core/dossier/schema.ts`; conventions: noun→Genitiv/Plural, verb→Präsens/Präteritum/
-Perfekt/Konjunktiv II, adj→Komparativ/Superlativ, adv→[]). Validate + install + `collect`
-+ commit per wave.
+**Dossier campaign (2026-07-27):** authoring dossiers for the 1000-word pool in waves of
+disjoint domain batches (**Opus** sub-agents). **765 of 1000 done, all schema-clean, 0
+skips** — `npm run collect` reports **250 words still needing a dossier**. Committed so far:
+all 10 B2 domains (`dossiers.b2-01..b2-10.json`) plus C1 `dossiers.c1-01.json` (Wissenschaft)
+and `dossiers.c1-08.json` (formal adj/adv).
+
+**Still to author — 6 C1 batches (~250 words):** `c1-03` Wirtschaft/Finanzen/Politik,
+`c1-04` Psychologie, `c1-05` Kultur/Kunst/Literatur, `c1-06` Geschichte/Gesellschaft/
+Philosophie, `c1-07` formal verbs, and `c1-topup` (the 21 words from `words.c1-3.json` that
+rounded the pool to 1000). Each has a word-list input in the session scratchpad
+(`out/<id>.json`); if that's gone, re-derive the missing lemmas from `npm run collect`.
+
+**To finish:** spawn one **Opus** author per remaining batch against the dossier brief
+(schema in `src/core/dossier/schema.ts`; conventions: noun→Genitiv/Plural, verb→Präsens/
+Präteritum/Perfekt/Konjunktiv II, adj→Komparativ/Superlativ, adv→[]). Then validate →
+install → `collect` → commit. NB the `c1-topup` dossier file must NOT be named
+`dossiers.c1-3.json` (that already exists for the original C1 list) — use e.g.
+`dossiers.c1-topup.json`. Waves keep tripping the Anthropic session limit near ~5 agents;
+the interrupted agents had already written complete output, so always check disk + validate
+before assuming a "failed" batch is lost.
 
 **Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
 lists ever.** The word list is a hand-curated pool we grow together; specific coverage
