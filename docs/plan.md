@@ -33,10 +33,20 @@ reports "All words have dossiers; all captures resolved." Files: all 10 B2 domai
 `c1-06` (Geschichte/Philosophie), `c1-07` (formal verbs), `c1-08` (formal adj/adv), and
 `dossiers.c1-topup.json` (the 21 rounding words). All batches validated schema-clean (0 skips).
 
-**Next: the §7.1 quality gate.** All 1000 dossiers are author's/Opus German and unverified —
-register, Rektion, examples, and the word-level genders/plurals all want a DWDS/Duden
-spot-check. Do metadata (gender/plural) verification as a **local script** (curl Wiktionary),
-not per-word WebFetch (see the 2026-07-26 cost note). Then Phase 4 (get it on the phone).
+**§7.1 metadata verification tool built (2026-07-27):** `npm run verify` (`scripts/verify-words.ts`)
+checks every noun's gender+plural and every verb's auxiliary against German Wiktionary —
+a **local** script hitting the API directly (no model calls, no per-word WebFetch), with
+cached responses under `data/.cache/` (gitignored) and a full report at `data/verify-report.json`.
+Flags: `--pos=`, `--level=`, `--limit=`, `--refresh`. First run: **807 checked, 713 clean.**
+Only 6 true flags, all **dual-auxiliary verbs** where we chose *sein* and Wiktionary lists
+*haben* — `fusionieren`, `eskalieren`, `verrohen`, `konvergieren`, `divergieren`, `kulminieren`
+(several genuinely take both; `konvergieren`/`divergieren` likely want *haben* — they're my
+top-up additions). Non-issues the tool separates out: 64 abstract nouns where we omit a rare
+plural Wiktionary lists, and 22 transparent compounds Wiktionary simply doesn't lemmatize.
+
+**Still open:** decide the 6 aux flags (word entries + the dossiers' Perfekt row), and the
+register/Rektion/examples spot-check the tool can't do (that part still needs DWDS/Duden by
+eye). Then Phase 4 (get it on the phone).
 
 **Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
 lists ever.** The word list is a hand-curated pool we grow together; specific coverage

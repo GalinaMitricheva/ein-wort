@@ -16,4 +16,8 @@ data/*.db
 # Build artifacts from the word-list pipeline are committed; raw sources are not
 data/build/sources/
 
+# Wiktionary verification (scripts/verify-words.ts): cached API responses + report
+data/.cache/
+data/verify-report.json
+
 .DS_Store
