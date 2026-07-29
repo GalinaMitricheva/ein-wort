@@ -1,0 +1,2895 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 domain batch: Geschichte, Gesellschaft & Philosophie (c1-06).",
+  "dossiers": {
+    "Weltanschauung": {
+      "meaning_de": "ein umfassendes Gedankengebäude, das die Sicht auf Welt, Mensch und Sinn prägt",
+      "meaning_en": "worldview; comprehensive philosophy of life",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Weltanschauung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Weltanschauungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine materialistische Weltanschauung",
+          "gloss_en": "a materialist worldview"
+        },
+        {
+          "phrase": "seine Weltanschauung vertreten",
+          "gloss_en": "to hold one's worldview"
+        },
+        {
+          "phrase": "religiöse und politische Weltanschauungen",
+          "gloss_en": "religious and political worldviews"
+        },
+        {
+          "phrase": "eine geschlossene Weltanschauung",
+          "gloss_en": "a closed, all-encompassing worldview"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine gesamte Weltanschauung gründete auf der Vernunft.",
+          "en": "His entire worldview was grounded in reason."
+        },
+        {
+          "de": "Das Grundgesetz schützt vor Diskriminierung wegen der Weltanschauung.",
+          "en": "The constitution protects against discrimination on grounds of belief."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Philosophie, Politik und Recht fest verankert, oft umfassender als bloße Meinung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ideologie",
+          "distinction": "stärker politisch und oft wertend, ein geschlossenes Programm"
+        },
+        {
+          "lemma": "das Weltbild",
+          "distinction": "eher die Vorstellung von der Beschaffenheit der Welt als ein Wertsystem"
+        }
+      ]
+    },
+    "Epoche": {
+      "meaning_de": "ein größerer, in sich zusammenhängender Zeitabschnitt der Geschichte",
+      "meaning_en": "epoch; era; age",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Epoche"
+        },
+        {
+          "label": "Plural",
+          "value": "die Epochen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine neue Epoche einläuten",
+          "gloss_en": "to usher in a new era"
+        },
+        {
+          "phrase": "die Epoche der Aufklärung",
+          "gloss_en": "the era of the Enlightenment"
+        },
+        {
+          "phrase": "Epoche machen",
+          "gloss_en": "to be epoch-making"
+        },
+        {
+          "phrase": "eine vergangene Epoche",
+          "gloss_en": "a bygone era"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit der Erfindung des Buchdrucks begann eine neue Epoche.",
+          "en": "A new era began with the invention of printing."
+        },
+        {
+          "de": "Diese Entdeckung machte in der Wissenschaft Epoche.",
+          "en": "This discovery was epoch-making in science."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; in Geschichte, Kunst und Literatur die übliche Gliederungseinheit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ära",
+          "distinction": "betont oft eine von einer Person oder Macht geprägte Zeit"
+        },
+        {
+          "lemma": "das Zeitalter",
+          "distinction": "meist noch größer und durch ein Leitmotiv gekennzeichnet"
+        }
+      ]
+    },
+    "Umbruch": {
+      "meaning_de": "ein tiefgreifender Wandel, der bisherige Verhältnisse grundlegend verändert",
+      "meaning_en": "upheaval; radical change; turning point",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Umbruchs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Umbrüche"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gesellschaftlicher Umbruch",
+          "gloss_en": "a social upheaval"
+        },
+        {
+          "phrase": "im Umbruch sein",
+          "gloss_en": "to be in a state of flux"
+        },
+        {
+          "phrase": "einen Umbruch bewirken",
+          "gloss_en": "to bring about an upheaval"
+        },
+        {
+          "phrase": "eine Zeit des Umbruchs",
+          "gloss_en": "a time of upheaval"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Gesellschaft befindet sich in einem tiefen Umbruch.",
+          "en": "Society is undergoing a profound upheaval."
+        },
+        {
+          "de": "Der digitale Umbruch verändert die Arbeitswelt radikal.",
+          "en": "The digital upheaval is radically changing the world of work."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; häufig in politischen, wirtschaftlichen und historischen Analysen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Wandel",
+          "distinction": "allgemeiner und oft allmählich, ohne den Bruch zu betonen"
+        },
+        {
+          "lemma": "die Umwälzung",
+          "distinction": "noch heftiger, betont das Auf-den-Kopf-Stellen"
+        }
+      ]
+    },
+    "Ideologie": {
+      "meaning_de": "ein geschlossenes System von Ideen und Wertungen, das politisches Handeln leitet und rechtfertigt",
+      "meaning_en": "ideology",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ideologie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ideologien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine gefährliche Ideologie",
+          "gloss_en": "a dangerous ideology"
+        },
+        {
+          "phrase": "der Ideologie verfallen",
+          "gloss_en": "to succumb to an ideology"
+        },
+        {
+          "phrase": "frei von Ideologie",
+          "gloss_en": "free of ideology"
+        },
+        {
+          "phrase": "eine Ideologie verbreiten",
+          "gloss_en": "to spread an ideology"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Politik ist von einer starren Ideologie geprägt.",
+          "en": "Their politics are shaped by a rigid ideology."
+        },
+        {
+          "de": "Er durchschaute die Ideologie hinter der Propaganda.",
+          "en": "He saw through the ideology behind the propaganda."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral, im Alltag jedoch oft abwertend ('bloße Ideologie') für ein realitätsfernes Denken.",
+      "near_synonyms": [
+        {
+          "lemma": "die Weltanschauung",
+          "distinction": "umfassender und nicht zwingend politisch oder wertend"
+        },
+        {
+          "lemma": "die Doktrin",
+          "distinction": "eher der starre Lehrsatz als das ganze Ideensystem"
+        }
+      ]
+    },
+    "Legitimation": {
+      "meaning_de": "die anerkannte Rechtfertigung, die einer Macht oder Handlung Berechtigung verleiht",
+      "meaning_en": "legitimation; justification; authorization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Legitimation"
+        },
+        {
+          "label": "Plural",
+          "value": "die Legitimationen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Legitimation für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "demokratische Legitimation",
+          "gloss_en": "democratic legitimacy"
+        },
+        {
+          "phrase": "die Legitimation entziehen",
+          "gloss_en": "to withdraw legitimacy"
+        },
+        {
+          "phrase": "sich die Legitimation verschaffen",
+          "gloss_en": "to secure legitimacy for oneself"
+        },
+        {
+          "phrase": "der Legitimation bedürfen",
+          "gloss_en": "to require legitimation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Regierung fehlt die demokratische Legitimation.",
+          "en": "The government lacks democratic legitimacy."
+        },
+        {
+          "de": "Wahlen verschaffen der Macht ihre Legitimation.",
+          "en": "Elections give power its legitimacy."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich in Politik, Recht und Soziologie zu Hause.",
+      "near_synonyms": [
+        {
+          "lemma": "die Rechtfertigung",
+          "distinction": "allgemeiner, das Begründen einer Handlung im Nachhinein"
+        },
+        {
+          "lemma": "die Berechtigung",
+          "distinction": "das schlichte Recht dazu, ohne den theoretischen Anspruch"
+        }
+      ]
+    },
+    "Zäsur": {
+      "meaning_de": "ein deutlicher Einschnitt, der einen Abschnitt beendet und einen neuen beginnen lässt",
+      "meaning_en": "caesura; decisive turning point",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zäsur"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zäsuren"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine historische Zäsur",
+          "gloss_en": "a historical turning point"
+        },
+        {
+          "phrase": "eine tiefe Zäsur",
+          "gloss_en": "a deep caesura"
+        },
+        {
+          "phrase": "eine Zäsur markieren",
+          "gloss_en": "to mark a turning point"
+        },
+        {
+          "phrase": "eine Zäsur bedeuten",
+          "gloss_en": "to represent a watershed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Fall der Mauer war eine Zäsur in der deutschen Geschichte.",
+          "en": "The fall of the Wall was a watershed in German history."
+        },
+        {
+          "de": "Der Krieg bildete eine tiefe Zäsur im Leben der Familie.",
+          "en": "The war marked a deep caesura in the family's life."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ursprünglich aus Metrik und Musik, im Bildungssprachgebrauch für einen historischen Einschnitt.",
+      "near_synonyms": [
+        {
+          "lemma": "der Einschnitt",
+          "distinction": "etwas alltäglicher, auch für persönliche Wendepunkte"
+        },
+        {
+          "lemma": "der Wendepunkt",
+          "distinction": "betont die Richtungsänderung, nicht das Ende eines Abschnitts"
+        }
+      ]
+    },
+    "Paradigma": {
+      "meaning_de": "ein grundlegendes Denkmuster, das eine Zeit oder Wissenschaft bestimmt",
+      "meaning_en": "paradigm",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Paradigmas"
+        },
+        {
+          "label": "Plural",
+          "value": "die Paradigmen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein wissenschaftliches Paradigma",
+          "gloss_en": "a scientific paradigm"
+        },
+        {
+          "phrase": "ein Paradigma ablösen",
+          "gloss_en": "to supplant a paradigm"
+        },
+        {
+          "phrase": "das herrschende Paradigma",
+          "gloss_en": "the prevailing paradigm"
+        },
+        {
+          "phrase": "ein neues Paradigma etablieren",
+          "gloss_en": "to establish a new paradigm"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Relativitätstheorie löste das newtonsche Paradigma ab.",
+          "en": "Relativity supplanted the Newtonian paradigm."
+        },
+        {
+          "de": "Ein Wechsel des Paradigmas verändert die ganze Disziplin.",
+          "en": "A shift of paradigm transforms the whole discipline."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; vor allem in Wissenschaftstheorie (Kuhn) und Forschung.",
+      "near_synonyms": [
+        {
+          "lemma": "das Denkmuster",
+          "distinction": "alltäglicher und weniger theoretisch aufgeladen"
+        },
+        {
+          "lemma": "das Modell",
+          "distinction": "konkreter, eine einzelne Abbildung, kein ganzes Denksystem"
+        }
+      ]
+    },
+    "Weltordnung": {
+      "meaning_de": "das Gefüge der Machtverhältnisse und Regeln zwischen den Staaten der Welt",
+      "meaning_en": "world order",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Weltordnung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Weltordnungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die bestehende Weltordnung",
+          "gloss_en": "the existing world order"
+        },
+        {
+          "phrase": "eine neue Weltordnung",
+          "gloss_en": "a new world order"
+        },
+        {
+          "phrase": "die Weltordnung infrage stellen",
+          "gloss_en": "to challenge the world order"
+        },
+        {
+          "phrase": "die multipolare Weltordnung",
+          "gloss_en": "the multipolar world order"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Krieg erschütterte die bestehende Weltordnung.",
+          "en": "The war shook the existing world order."
+        },
+        {
+          "de": "Manche sprechen bereits von einer neuen Weltordnung.",
+          "en": "Some already speak of a new world order."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Politik, Diplomatie und geschichtsphilosophische Debatten.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ordnung",
+          "distinction": "allgemein, ohne den weltpolitischen Bezug"
+        },
+        {
+          "lemma": "das Kräftegleichgewicht",
+          "distinction": "betont die Balance der Mächte, nicht das ganze Regelwerk"
+        }
+      ]
+    },
+    "Entkolonialisierung": {
+      "meaning_de": "der Prozess, in dem Kolonien ihre politische Unabhängigkeit erlangen",
+      "meaning_en": "decolonization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Entkolonialisierung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Entkolonialisierung Afrikas",
+          "gloss_en": "the decolonization of Africa"
+        },
+        {
+          "phrase": "der Prozess der Entkolonialisierung",
+          "gloss_en": "the process of decolonization"
+        },
+        {
+          "phrase": "die Folgen der Entkolonialisierung",
+          "gloss_en": "the consequences of decolonization"
+        },
+        {
+          "phrase": "die Entkolonialisierung des Denkens",
+          "gloss_en": "the decolonization of thought"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Entkolonialisierung veränderte die Landkarte des 20. Jahrhunderts.",
+          "en": "Decolonization redrew the map of the twentieth century."
+        },
+        {
+          "de": "Nach der Entkolonialisierung blieben viele Grenzen willkürlich.",
+          "en": "After decolonization many borders remained arbitrary."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; in Geschichtswissenschaft und Politik gebräuchlich, Nebenform: Dekolonisation.",
+      "near_synonyms": [
+        {
+          "lemma": "die Dekolonisation",
+          "distinction": "bedeutungsgleich, stärker international geprägte Variante"
+        },
+        {
+          "lemma": "die Unabhängigkeit",
+          "distinction": "das Ergebnis, nicht der ganze Ablösungsprozess"
+        }
+      ]
+    },
+    "Vergangenheitsbewältigung": {
+      "meaning_de": "die kritische, oft gesellschaftliche Auseinandersetzung mit einer belastenden Vergangenheit",
+      "meaning_en": "coming to terms with the past",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Vergangenheitsbewältigung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die deutsche Vergangenheitsbewältigung",
+          "gloss_en": "Germany's reckoning with its past"
+        },
+        {
+          "phrase": "der Prozess der Vergangenheitsbewältigung",
+          "gloss_en": "the process of coming to terms with the past"
+        },
+        {
+          "phrase": "eine ehrliche Vergangenheitsbewältigung",
+          "gloss_en": "an honest reckoning with the past"
+        },
+        {
+          "phrase": "zur Vergangenheitsbewältigung beitragen",
+          "gloss_en": "to contribute to coming to terms with the past"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Vergangenheitsbewältigung gilt als Vorbild für andere Länder.",
+          "en": "This reckoning with the past is seen as a model for other countries."
+        },
+        {
+          "de": "Ohne ehrliche Vergangenheitsbewältigung bleiben alte Wunden offen.",
+          "en": "Without an honest reckoning, old wounds stay open."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein typisch deutscher Begriff, vor allem für den Umgang mit der NS-Zeit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aufarbeitung",
+          "distinction": "allgemeiner, auch für nichthistorische Themen verwendbar"
+        },
+        {
+          "lemma": "die Erinnerungskultur",
+          "distinction": "betont das kollektive Gedenken, nicht das Verarbeiten"
+        }
+      ]
+    },
+    "Barbarei": {
+      "meaning_de": "roheste Unmenschlichkeit und Grausamkeit, als Gegenteil von Kultur und Zivilisation",
+      "meaning_en": "barbarism; barbarity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Barbarei"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in Barbarei verfallen",
+          "gloss_en": "to descend into barbarism"
+        },
+        {
+          "phrase": "die Barbarei des Krieges",
+          "gloss_en": "the barbarity of war"
+        },
+        {
+          "phrase": "der Rückfall in die Barbarei",
+          "gloss_en": "the relapse into barbarism"
+        },
+        {
+          "phrase": "gegen die Barbarei kämpfen",
+          "gloss_en": "to fight against barbarism"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Zivilisationsbruch offenbarte die Barbarei mitten in Europa.",
+          "en": "The collapse of civilization revealed barbarism in the heart of Europe."
+        },
+        {
+          "de": "Sie warnte vor einem Rückfall in die Barbarei.",
+          "en": "She warned of a relapse into barbarism."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und stark wertend; in geschichts- und kulturphilosophischen Texten geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "die Grausamkeit",
+          "distinction": "die einzelne rohe Tat, weniger der Kulturverlust"
+        },
+        {
+          "lemma": "die Unmenschlichkeit",
+          "distinction": "betont das Fehlen von Mitgefühl, nicht die Kulturlosigkeit"
+        }
+      ]
+    },
+    "Menschenwürde": {
+      "meaning_de": "der unantastbare, jedem Menschen eigene Wert, der Achtung verlangt",
+      "meaning_en": "human dignity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Menschenwürde"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Menschenwürde achten",
+          "gloss_en": "to respect human dignity"
+        },
+        {
+          "phrase": "die Menschenwürde verletzen",
+          "gloss_en": "to violate human dignity"
+        },
+        {
+          "phrase": "die unantastbare Menschenwürde",
+          "gloss_en": "inviolable human dignity"
+        },
+        {
+          "phrase": "im Namen der Menschenwürde",
+          "gloss_en": "in the name of human dignity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Würde des Menschen ist unantastbar.",
+          "en": "Human dignity is inviolable."
+        },
+        {
+          "de": "Solche Haftbedingungen verletzen die Menschenwürde.",
+          "en": "Such prison conditions violate human dignity."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein zentraler Begriff des Grundgesetzes, der Ethik und der Menschenrechte.",
+      "near_synonyms": [
+        {
+          "lemma": "die Würde",
+          "distinction": "allgemeiner, auch persönliche oder amtliche Würde"
+        },
+        {
+          "lemma": "die Menschenrechte",
+          "distinction": "die konkreten Ansprüche, die aus der Würde folgen"
+        }
+      ]
+    },
+    "Gemeinwohl": {
+      "meaning_de": "das Wohl der Allgemeinheit, das über den Interessen des Einzelnen steht",
+      "meaning_en": "common good; public welfare",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gemeinwohls"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "dem Gemeinwohl dienen",
+          "gloss_en": "to serve the common good"
+        },
+        {
+          "phrase": "im Interesse des Gemeinwohls",
+          "gloss_en": "in the interest of the common good"
+        },
+        {
+          "phrase": "das Gemeinwohl fördern",
+          "gloss_en": "to promote the public welfare"
+        },
+        {
+          "phrase": "Eigennutz und Gemeinwohl",
+          "gloss_en": "self-interest and the common good"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eigentum verpflichtet und soll dem Gemeinwohl dienen.",
+          "en": "Property entails obligations and should serve the common good."
+        },
+        {
+          "de": "Er stellte das Gemeinwohl über den eigenen Vorteil.",
+          "en": "He put the common good above his own advantage."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Politik, Recht und politischer Philosophie fest verankert.",
+      "near_synonyms": [
+        {
+          "lemma": "das Allgemeinwohl",
+          "distinction": "nahezu bedeutungsgleich, etwas seltener"
+        },
+        {
+          "lemma": "das öffentliche Interesse",
+          "distinction": "juristischer, oft ein konkreter Abwägungsgrund"
+        }
+      ]
+    },
+    "Ungerechtigkeit": {
+      "meaning_de": "ein Zustand oder eine Handlung, die dem Empfinden von Recht und Fairness widerspricht",
+      "meaning_en": "injustice; unfairness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ungerechtigkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ungerechtigkeiten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "soziale Ungerechtigkeit",
+          "gloss_en": "social injustice"
+        },
+        {
+          "phrase": "eine Ungerechtigkeit begehen",
+          "gloss_en": "to commit an injustice"
+        },
+        {
+          "phrase": "gegen die Ungerechtigkeit ankämpfen",
+          "gloss_en": "to fight against injustice"
+        },
+        {
+          "phrase": "eine himmelschreiende Ungerechtigkeit",
+          "gloss_en": "a glaring injustice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die wachsende soziale Ungerechtigkeit sorgt für Unmut.",
+          "en": "The growing social injustice is causing resentment."
+        },
+        {
+          "de": "Er empfand die Entscheidung als schreiende Ungerechtigkeit.",
+          "en": "He felt the decision was a glaring injustice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Alltag wie in politischen Debatten gleichermaßen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Unrecht",
+          "distinction": "grundsätzlicher und schwerer, oft auf einer Rechtsverletzung beruhend"
+        },
+        {
+          "lemma": "die Benachteiligung",
+          "distinction": "konkreter, das Schlechterstellen einer bestimmten Gruppe"
+        }
+      ]
+    },
+    "Tugend": {
+      "meaning_de": "eine sittlich wertvolle, gefestigte Charaktereigenschaft",
+      "meaning_en": "virtue",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Tugend"
+        },
+        {
+          "label": "Plural",
+          "value": "die Tugenden"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine seltene Tugend",
+          "gloss_en": "a rare virtue"
+        },
+        {
+          "phrase": "aus der Not eine Tugend machen",
+          "gloss_en": "to make a virtue of necessity"
+        },
+        {
+          "phrase": "bürgerliche Tugenden",
+          "gloss_en": "civic virtues"
+        },
+        {
+          "phrase": "Geduld ist eine Tugend",
+          "gloss_en": "patience is a virtue"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bescheidenheit galt lange als höchste Tugend.",
+          "en": "Modesty was long regarded as the highest virtue."
+        },
+        {
+          "de": "Er machte aus der Not eine Tugend.",
+          "en": "He made a virtue of necessity."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Ethik und Philosophie zentral, im Alltag oft leicht altertümlich klingend.",
+      "near_synonyms": [
+        {
+          "lemma": "die Tüchtigkeit",
+          "distinction": "betont die praktische Leistungsfähigkeit, nicht die Sittlichkeit"
+        },
+        {
+          "lemma": "die Vorzüge",
+          "distinction": "allgemeine gute Eigenschaften, ohne den moralischen Anspruch"
+        }
+      ]
+    },
+    "Laster": {
+      "meaning_de": "eine tief eingewurzelte schlechte Gewohnheit oder moralische Untugend",
+      "meaning_en": "vice",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Lasters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Laster"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einem Laster frönen",
+          "gloss_en": "to indulge in a vice"
+        },
+        {
+          "phrase": "Tugend und Laster",
+          "gloss_en": "virtue and vice"
+        },
+        {
+          "phrase": "ein heimliches Laster",
+          "gloss_en": "a secret vice"
+        },
+        {
+          "phrase": "seine Laster ablegen",
+          "gloss_en": "to give up one's vices"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Rauchen war sein einziges Laster.",
+          "en": "Smoking was his only vice."
+        },
+        {
+          "de": "In der Predigt ging es um Tugend und Laster.",
+          "en": "The sermon was about virtue and vice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; heute oft halb scherzhaft ('kleines Laster'), im moralischen Sinn gehoben. Nicht zu verwechseln mit 'der Laster' (Lkw).",
+      "near_synonyms": [
+        {
+          "lemma": "die Untugend",
+          "distinction": "milder, eher eine unschöne Angewohnheit als ein moralisches Übel"
+        },
+        {
+          "lemma": "die Sucht",
+          "distinction": "betont die krankhafte Abhängigkeit, nicht die sittliche Wertung"
+        }
+      ]
+    },
+    "Mündigkeit": {
+      "meaning_de": "die Fähigkeit und Reife, selbstständig und verantwortlich zu denken und zu handeln",
+      "meaning_en": "maturity; autonomy of judgement",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Mündigkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die politische Mündigkeit",
+          "gloss_en": "political maturity"
+        },
+        {
+          "phrase": "zur Mündigkeit erziehen",
+          "gloss_en": "to educate towards autonomy"
+        },
+        {
+          "phrase": "die Mündigkeit des Bürgers",
+          "gloss_en": "the autonomy of the citizen"
+        },
+        {
+          "phrase": "geistige Mündigkeit",
+          "gloss_en": "intellectual autonomy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aufklärung bedeutet den Ausgang aus der selbstverschuldeten Unmündigkeit hin zur Mündigkeit.",
+          "en": "Enlightenment means the move out of self-imposed immaturity towards autonomy."
+        },
+        {
+          "de": "Bildung soll zur Mündigkeit befähigen.",
+          "en": "Education should enable autonomy of judgement."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein Schlüsselbegriff der Aufklärung (Kant) und der Pädagogik.",
+      "near_synonyms": [
+        {
+          "lemma": "die Selbstbestimmung",
+          "distinction": "betont das eigene Entscheiden über sich, nicht die geistige Reife"
+        },
+        {
+          "lemma": "die Reife",
+          "distinction": "allgemeiner, auch emotional oder körperlich gemeint"
+        }
+      ]
+    },
+    "Entmündigung": {
+      "meaning_de": "das Absprechen der Fähigkeit, für sich selbst zu entscheiden; die Bevormundung eines Menschen",
+      "meaning_en": "disempowerment; incapacitation; patronizing",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Entmündigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Entmündigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Entmündigung des Bürgers",
+          "gloss_en": "the disempowerment of the citizen"
+        },
+        {
+          "phrase": "eine schleichende Entmündigung",
+          "gloss_en": "a creeping disempowerment"
+        },
+        {
+          "phrase": "Entmündigung durch den Staat",
+          "gloss_en": "disempowerment by the state"
+        },
+        {
+          "phrase": "sich gegen die Entmündigung wehren",
+          "gloss_en": "to resist being disempowered"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Kritiker sehen in der Regelung eine Entmündigung der Verbraucher.",
+          "en": "Critics see the rule as a disempowerment of consumers."
+        },
+        {
+          "de": "Die ständige Kontrolle kam einer Entmündigung gleich.",
+          "en": "The constant control amounted to disempowerment."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und wertend; der frühere Rechtsbegriff wurde 1992 durch die Betreuung ersetzt, heute meist übertragen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Bevormundung",
+          "distinction": "milder, das Für-andere-Entscheiden im Alltag, ohne Rechtsakt"
+        },
+        {
+          "lemma": "die Fremdbestimmung",
+          "distinction": "betont, dass andere bestimmen, nicht das Absprechen der Fähigkeit"
+        }
+      ]
+    },
+    "Beliebigkeit": {
+      "meaning_de": "das Fehlen fester Maßstäbe, sodass alles gleich gültig und austauschbar erscheint",
+      "meaning_en": "arbitrariness; interchangeability; lack of commitment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Beliebigkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in die Beliebigkeit abgleiten",
+          "gloss_en": "to slide into arbitrariness"
+        },
+        {
+          "phrase": "eine gewisse Beliebigkeit",
+          "gloss_en": "a certain arbitrariness"
+        },
+        {
+          "phrase": "der Beliebigkeit preisgegeben",
+          "gloss_en": "left to arbitrariness"
+        },
+        {
+          "phrase": "Beliebigkeit vermeiden",
+          "gloss_en": "to avoid arbitrariness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne klare Werte droht die Kunst in Beliebigkeit zu versinken.",
+          "en": "Without clear values art risks sinking into arbitrariness."
+        },
+        {
+          "de": "Seine Aussagen litten unter einer gewissen Beliebigkeit.",
+          "en": "His statements suffered from a certain arbitrariness."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und meist abwertend; häufig in Kultur-, Kunst- und Wertedebatten.",
+      "near_synonyms": [
+        {
+          "lemma": "die Willkür",
+          "distinction": "betont die unbegründete Entscheidung einer Macht, nicht die Gleichgültigkeit"
+        },
+        {
+          "lemma": "die Gleichgültigkeit",
+          "distinction": "eine innere Haltung des Desinteresses, nicht die Austauschbarkeit selbst"
+        }
+      ]
+    },
+    "Doktrin": {
+      "meaning_de": "ein starr festgelegter Lehrsatz oder Grundsatz, an dem unbedingt festgehalten wird",
+      "meaning_en": "doctrine",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Doktrin"
+        },
+        {
+          "label": "Plural",
+          "value": "die Doktrinen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine politische Doktrin",
+          "gloss_en": "a political doctrine"
+        },
+        {
+          "phrase": "an einer Doktrin festhalten",
+          "gloss_en": "to cling to a doctrine"
+        },
+        {
+          "phrase": "die herrschende Doktrin",
+          "gloss_en": "the prevailing doctrine"
+        },
+        {
+          "phrase": "eine Doktrin aufgeben",
+          "gloss_en": "to abandon a doctrine"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Partei hielt starr an ihrer alten Doktrin fest.",
+          "en": "The party rigidly clung to its old doctrine."
+        },
+        {
+          "de": "Diese militärische Doktrin gilt heute als überholt.",
+          "en": "This military doctrine is now considered outdated."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft leicht abwertend für ein dogmatisches, unflexibles Festhalten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Dogma",
+          "distinction": "noch unumstößlicher, ein Glaubenssatz, der nicht hinterfragt werden darf"
+        },
+        {
+          "lemma": "der Grundsatz",
+          "distinction": "neutraler, eine Leitlinie ohne den starren, ideologischen Beiklang"
+        }
+      ]
+    },
+    "Utopie": {
+      "meaning_de": "der Entwurf einer idealen, aber (noch) nicht verwirklichten Gesellschaft oder Zukunft",
+      "meaning_en": "utopia",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Utopie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Utopien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine reine Utopie",
+          "gloss_en": "a mere pipe dream"
+        },
+        {
+          "phrase": "die soziale Utopie",
+          "gloss_en": "the social utopia"
+        },
+        {
+          "phrase": "an einer Utopie festhalten",
+          "gloss_en": "to hold on to a utopia"
+        },
+        {
+          "phrase": "Utopie und Wirklichkeit",
+          "gloss_en": "utopia and reality"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine Gesellschaft ohne Konflikte bleibt eine Utopie.",
+          "en": "A society without conflict remains a utopia."
+        },
+        {
+          "de": "Was gestern Utopie war, ist heute Wirklichkeit.",
+          "en": "What was utopia yesterday is reality today."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; im Alltag oft abwertend für etwas Unrealistisches, in der Philosophie wertfrei.",
+      "near_synonyms": [
+        {
+          "lemma": "das Ideal",
+          "distinction": "der erstrebte Maßstab, nicht der ausgemalte Gesellschaftsentwurf"
+        },
+        {
+          "lemma": "die Vision",
+          "distinction": "eine persönliche Zukunftsvorstellung, weniger systematisch ausgearbeitet"
+        }
+      ]
+    },
+    "Dystopie": {
+      "meaning_de": "der Entwurf einer düsteren, unerwünschten Zukunftsgesellschaft als Gegenbild zur Utopie",
+      "meaning_en": "dystopia",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Dystopie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Dystopien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine düstere Dystopie",
+          "gloss_en": "a bleak dystopia"
+        },
+        {
+          "phrase": "eine Dystopie entwerfen",
+          "gloss_en": "to depict a dystopia"
+        },
+        {
+          "phrase": "die literarische Dystopie",
+          "gloss_en": "the literary dystopia"
+        },
+        {
+          "phrase": "zur Dystopie werden",
+          "gloss_en": "to turn into a dystopia"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Roman zeichnet eine bedrückende Dystopie der Überwachung.",
+          "en": "The novel paints an oppressive dystopia of surveillance."
+        },
+        {
+          "de": "Manche fürchten, die Technik führe in eine Dystopie.",
+          "en": "Some fear technology is leading into a dystopia."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; vor allem in Literaturwissenschaft und Zukunftsdebatten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Schreckensbild",
+          "distinction": "allgemeiner und alltäglicher, nicht auf eine Gesellschaftsform bezogen"
+        },
+        {
+          "lemma": "die Anti-Utopie",
+          "distinction": "bedeutungsgleich, betont ausdrücklich den Gegensatz zur Utopie"
+        }
+      ]
+    },
+    "Umsturz": {
+      "meaning_de": "der gewaltsame Sturz und die Beseitigung einer bestehenden Herrschaft oder Ordnung",
+      "meaning_en": "coup; overthrow (of a regime)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Umsturzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Umstürze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Umsturz planen",
+          "gloss_en": "to plan a coup"
+        },
+        {
+          "phrase": "ein gewaltsamer Umsturz",
+          "gloss_en": "a violent overthrow"
+        },
+        {
+          "phrase": "einen Umsturz herbeiführen",
+          "gloss_en": "to bring about an overthrow"
+        },
+        {
+          "phrase": "der politische Umsturz",
+          "gloss_en": "the political upheaval"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Militärs planten einen gewaltsamen Umsturz.",
+          "en": "The military planned a violent coup."
+        },
+        {
+          "de": "Der Umsturz stürzte das Land ins Chaos.",
+          "en": "The overthrow plunged the country into chaos."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für politische und historische Darstellungen von Machtwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "der Putsch",
+          "distinction": "meist von Militär oder Elite ausgehend, ein plötzlicher Handstreich"
+        },
+        {
+          "lemma": "die Revolution",
+          "distinction": "umfassender, ein tiefgreifender Umbau der ganzen Ordnung, oft von unten"
+        }
+      ]
+    },
+    "Repression": {
+      "meaning_de": "die gewaltsame Unterdrückung von Widerstand und Freiheiten durch die Staatsmacht",
+      "meaning_en": "repression",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Repression"
+        },
+        {
+          "label": "Plural",
+          "value": "die Repressionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "staatliche Repression",
+          "gloss_en": "state repression"
+        },
+        {
+          "phrase": "brutale Repression",
+          "gloss_en": "brutal repression"
+        },
+        {
+          "phrase": "der Repression ausgesetzt sein",
+          "gloss_en": "to be subjected to repression"
+        },
+        {
+          "phrase": "mit Repression reagieren",
+          "gloss_en": "to respond with repression"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Regime antwortete auf die Proteste mit brutaler Repression.",
+          "en": "The regime answered the protests with brutal repression."
+        },
+        {
+          "de": "Viele Oppositionelle litten unter der staatlichen Repression.",
+          "en": "Many dissidents suffered under state repression."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; in Politik, Geschichte und Soziologie gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Unterdrückung",
+          "distinction": "allgemeiner und alltäglicher, auch außerhalb der Politik"
+        },
+        {
+          "lemma": "die Verfolgung",
+          "distinction": "richtet sich gezielt gegen bestimmte Personen oder Gruppen"
+        }
+      ]
+    },
+    "Unterdrückung": {
+      "meaning_de": "das gewaltsame Kleinhalten und Beschränken von Menschen, Gruppen oder Freiheiten",
+      "meaning_en": "oppression; suppression",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Unterdrückung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Unterdrückungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "politische Unterdrückung",
+          "gloss_en": "political oppression"
+        },
+        {
+          "phrase": "die Unterdrückung von Minderheiten",
+          "gloss_en": "the oppression of minorities"
+        },
+        {
+          "phrase": "sich gegen die Unterdrückung erheben",
+          "gloss_en": "to rise up against oppression"
+        },
+        {
+          "phrase": "jahrhundertelange Unterdrückung",
+          "gloss_en": "centuries of oppression"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Volk erhob sich gegen jahrhundertelange Unterdrückung.",
+          "en": "The people rose up against centuries of oppression."
+        },
+        {
+          "de": "Die Unterdrückung der Meinungsfreiheit nahm zu.",
+          "en": "The suppression of free speech increased."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; breiter verwendbar als Repression, auch für Gefühle ('Unterdrückung von Wut').",
+      "near_synonyms": [
+        {
+          "lemma": "die Repression",
+          "distinction": "enger auf staatliche, gezielte Gewalt gegen Widerstand bezogen"
+        },
+        {
+          "lemma": "die Knechtung",
+          "distinction": "gehoben und drastisch, betont die völlige Versklavung"
+        }
+      ]
+    },
+    "Restauration": {
+      "meaning_de": "die Wiederherstellung einer früheren, meist konservativen politischen Ordnung",
+      "meaning_en": "restoration (of a former order)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Restauration"
+        },
+        {
+          "label": "Plural",
+          "value": "die Restaurationen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Epoche der Restauration",
+          "gloss_en": "the age of Restoration"
+        },
+        {
+          "phrase": "die politische Restauration",
+          "gloss_en": "the political restoration"
+        },
+        {
+          "phrase": "eine Restauration der alten Ordnung",
+          "gloss_en": "a restoration of the old order"
+        },
+        {
+          "phrase": "Reform und Restauration",
+          "gloss_en": "reform and restoration"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Wiener Kongress folgte die Zeit der Restauration.",
+          "en": "The Congress of Vienna was followed by the age of Restoration."
+        },
+        {
+          "de": "Die Revolution scheiterte, und es kam zur Restauration.",
+          "en": "The revolution failed and a restoration ensued."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; im politischen Sinn ein Epochenbegriff, daneben auch für Kunstrestaurierung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Rückkehr",
+          "distinction": "allgemein, ohne den politisch-programmatischen Beiklang"
+        },
+        {
+          "lemma": "die Reaktion",
+          "distinction": "betont die gegen den Fortschritt gerichtete Haltung, nicht nur die Wiederherstellung"
+        }
+      ]
+    },
+    "Säkularisierung": {
+      "meaning_de": "der Prozess, in dem Religion an Einfluss auf Staat und Gesellschaft verliert",
+      "meaning_en": "secularization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Säkularisierung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die fortschreitende Säkularisierung",
+          "gloss_en": "advancing secularization"
+        },
+        {
+          "phrase": "der Prozess der Säkularisierung",
+          "gloss_en": "the process of secularization"
+        },
+        {
+          "phrase": "die Säkularisierung der Gesellschaft",
+          "gloss_en": "the secularization of society"
+        },
+        {
+          "phrase": "die Folgen der Säkularisierung",
+          "gloss_en": "the consequences of secularization"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Säkularisierung schwächte die Macht der Kirche.",
+          "en": "Secularization weakened the power of the church."
+        },
+        {
+          "de": "In vielen Ländern schreitet die Säkularisierung voran.",
+          "en": "In many countries secularization is advancing."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; in Soziologie, Geschichte und Religionswissenschaft gebräuchlich. Historisch auch: Verstaatlichung von Kirchengut.",
+      "near_synonyms": [
+        {
+          "lemma": "die Entkirchlichung",
+          "distinction": "enger, das Abwenden der Menschen von der Kirche"
+        },
+        {
+          "lemma": "die Verweltlichung",
+          "distinction": "eher deutsche Entsprechung, etwas allgemeiner"
+        }
+      ]
+    },
+    "Leibeigenschaft": {
+      "meaning_de": "die persönliche Abhängigkeit eines Bauern von seinem Grundherrn im Feudalsystem",
+      "meaning_en": "serfdom",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Leibeigenschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Aufhebung der Leibeigenschaft",
+          "gloss_en": "the abolition of serfdom"
+        },
+        {
+          "phrase": "in Leibeigenschaft leben",
+          "gloss_en": "to live in serfdom"
+        },
+        {
+          "phrase": "aus der Leibeigenschaft befreien",
+          "gloss_en": "to free from serfdom"
+        },
+        {
+          "phrase": "die Bauern in Leibeigenschaft halten",
+          "gloss_en": "to keep the peasants in serfdom"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bauern wurden erst spät aus der Leibeigenschaft entlassen.",
+          "en": "The peasants were released from serfdom only late."
+        },
+        {
+          "de": "Die Aufhebung der Leibeigenschaft war ein wichtiger Schritt.",
+          "en": "The abolition of serfdom was an important step."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; ein historischer Begriff der Sozial- und Wirtschaftsgeschichte.",
+      "near_synonyms": [
+        {
+          "lemma": "die Hörigkeit",
+          "distinction": "weiter gefasste Abhängigkeit, nicht immer die volle persönliche Unfreiheit"
+        },
+        {
+          "lemma": "die Sklaverei",
+          "distinction": "völlige Rechtlosigkeit als Eigentum, nicht an Grund und Boden gebunden"
+        }
+      ]
+    },
+    "Feudalismus": {
+      "meaning_de": "die mittelalterliche Gesellschaftsordnung aus Lehnswesen, Grundherrschaft und Ständen",
+      "meaning_en": "feudalism",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Feudalismus"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Zeitalter des Feudalismus",
+          "gloss_en": "the age of feudalism"
+        },
+        {
+          "phrase": "die Überwindung des Feudalismus",
+          "gloss_en": "the overcoming of feudalism"
+        },
+        {
+          "phrase": "der europäische Feudalismus",
+          "gloss_en": "European feudalism"
+        },
+        {
+          "phrase": "vom Feudalismus zum Kapitalismus",
+          "gloss_en": "from feudalism to capitalism"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Feudalismus prägte das gesellschaftliche Leben des Mittelalters.",
+          "en": "Feudalism shaped social life in the Middle Ages."
+        },
+        {
+          "de": "Mit dem Bürgertum begann die Ablösung des Feudalismus.",
+          "en": "With the rise of the bourgeoisie the decline of feudalism began."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; in Geschichte, Soziologie und marxistischer Theorie zentral.",
+      "near_synonyms": [
+        {
+          "lemma": "das Lehnswesen",
+          "distinction": "enger, nur das System von Lehen und Treuepflichten, ein Teil des Feudalismus"
+        },
+        {
+          "lemma": "die Ständegesellschaft",
+          "distinction": "betont die Gliederung in Stände, nicht das Lehnsverhältnis"
+        }
+      ]
+    },
+    "Ständegesellschaft": {
+      "meaning_de": "eine Gesellschaft, die streng in Stände mit festgelegten Rechten und Pflichten gegliedert ist",
+      "meaning_en": "estate-based society; society of orders",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ständegesellschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ständegesellschaften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die feudale Ständegesellschaft",
+          "gloss_en": "the feudal estate society"
+        },
+        {
+          "phrase": "die Auflösung der Ständegesellschaft",
+          "gloss_en": "the dissolution of the estate society"
+        },
+        {
+          "phrase": "in einer Ständegesellschaft leben",
+          "gloss_en": "to live in an estate-based society"
+        },
+        {
+          "phrase": "die starre Ständegesellschaft",
+          "gloss_en": "the rigid estate society"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Ständegesellschaft bestimmte die Geburt den Rang.",
+          "en": "In the estate-based society birth determined one's rank."
+        },
+        {
+          "de": "Die Französische Revolution zerbrach die Ständegesellschaft.",
+          "en": "The French Revolution shattered the society of orders."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; ein Begriff der Geschichts- und Sozialwissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "die Klassengesellschaft",
+          "distinction": "gliedert nach ökonomischen Klassen, nicht nach geburtsständischen Rängen"
+        },
+        {
+          "lemma": "die Hierarchie",
+          "distinction": "allgemeine Rangordnung, ohne die konkrete Ständeeinteilung"
+        }
+      ]
+    },
+    "sich emanzipieren": {
+      "meaning_de": "sich aus Abhängigkeit oder Bevormundung lösen und selbstständig werden",
+      "meaning_en": "to emancipate oneself; to become independent",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er emanzipiert sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er emanzipierte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich emanzipiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er emanzipierte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich von jemandem/etwas emanzipieren",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich von den Eltern emanzipieren",
+          "gloss_en": "to break free from one's parents"
+        },
+        {
+          "phrase": "sich gesellschaftlich emanzipieren",
+          "gloss_en": "to emancipate oneself socially"
+        },
+        {
+          "phrase": "sich politisch emanzipieren",
+          "gloss_en": "to become politically independent"
+        },
+        {
+          "phrase": "sich vom Vorbild emanzipieren",
+          "gloss_en": "to move out of a model's shadow"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Kolonien emanzipierten sich nach und nach vom Mutterland.",
+          "en": "The colonies gradually emancipated themselves from the mother country."
+        },
+        {
+          "de": "Sie hat sich früh von überkommenen Rollenbildern emanzipiert.",
+          "en": "She freed herself early from outdated gender roles."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in gesellschaftlichen, politischen und geschichtlichen Zusammenhängen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "sich befreien",
+          "distinction": "allgemeiner und drastischer, oft aus akuter Not oder Zwang"
+        },
+        {
+          "lemma": "sich lösen",
+          "distinction": "neutraler, betont das Ablösen der Bindung ohne den Reifeaspekt"
+        }
+      ]
+    },
+    "entzweien": {
+      "meaning_de": "Personen oder Gruppen in Streit bringen und ihre Einheit zerstören",
+      "meaning_en": "to set at odds; to divide; to estrange",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entzweit"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entzweite"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entzweit"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entzweite"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich mit jemandem entzweien",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Familie entzweien",
+          "gloss_en": "to tear a family apart"
+        },
+        {
+          "phrase": "sich über etwas entzweien",
+          "gloss_en": "to fall out over something"
+        },
+        {
+          "phrase": "das Volk entzweien",
+          "gloss_en": "to divide the people"
+        },
+        {
+          "phrase": "zerstrittene, entzweite Lager",
+          "gloss_en": "divided, estranged camps"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Streit ums Erbe entzweite die beiden Brüder.",
+          "en": "The dispute over the inheritance estranged the two brothers."
+        },
+        {
+          "de": "Die Frage entzweite die Partei bis heute.",
+          "en": "The question has divided the party to this day."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft reflexiv ('sich entzweien') und in gehobener Schriftsprache.",
+      "near_synonyms": [
+        {
+          "lemma": "spalten",
+          "distinction": "betont die Teilung in Lager, oft im politischen Sinn"
+        },
+        {
+          "lemma": "verfeinden",
+          "distinction": "stärker, macht aus den Beteiligten regelrechte Feinde"
+        }
+      ]
+    },
+    "verrohen": {
+      "meaning_de": "roh, gefühllos und gewaltbereit werden; sittlich verwildern",
+      "meaning_en": "to become brutalized; to grow coarse",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verroht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verrohte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist verroht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verrohte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Sitten verrohen",
+          "gloss_en": "morals grow coarse"
+        },
+        {
+          "phrase": "die Gesellschaft verroht",
+          "gloss_en": "society is becoming brutalized"
+        },
+        {
+          "phrase": "der verrohte Umgangston",
+          "gloss_en": "the coarsened tone"
+        },
+        {
+          "phrase": "durch Gewalt verrohen",
+          "gloss_en": "to be brutalized by violence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Kritiker meinen, die öffentliche Debatte verrohe zusehends.",
+          "en": "Critics say public debate is visibly growing coarse."
+        },
+        {
+          "de": "Im langen Krieg waren die Soldaten verroht.",
+          "en": "In the long war the soldiers had become brutalized."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; meist mit 'sein' konjugiert (Zustandswechsel), oft in kulturkritischen Texten.",
+      "near_synonyms": [
+        {
+          "lemma": "verwildern",
+          "distinction": "betont den Verfall von Ordnung und Manieren, weniger die Gewalt"
+        },
+        {
+          "lemma": "abstumpfen",
+          "distinction": "das Gefühllos-Werden, ohne die Gewaltbereitschaft"
+        }
+      ]
+    },
+    "huldigen": {
+      "meaning_de": "jemandem ehrerbietig Verehrung erweisen; sich einer Sache hingeben",
+      "meaning_en": "to pay homage to; to indulge in",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er huldigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er huldigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gehuldigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er huldigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem/einer Sache huldigen",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "dem Herrscher huldigen",
+          "gloss_en": "to pay homage to the ruler"
+        },
+        {
+          "phrase": "einem Idol huldigen",
+          "gloss_en": "to worship an idol"
+        },
+        {
+          "phrase": "einem Irrtum huldigen",
+          "gloss_en": "to cling to a fallacy"
+        },
+        {
+          "phrase": "dem Luxus huldigen",
+          "gloss_en": "to indulge in luxury"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Fürsten huldigten dem neuen König.",
+          "en": "The princes paid homage to the new king."
+        },
+        {
+          "de": "Er huldigte lange einer überholten Theorie.",
+          "en": "He long clung to an outdated theory."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; historisch der feierliche Treueeid, heute oft leicht ironisch für Hingabe.",
+      "near_synonyms": [
+        {
+          "lemma": "verehren",
+          "distinction": "die innere Hochachtung, nicht die förmliche Erweisung"
+        },
+        {
+          "lemma": "frönen",
+          "distinction": "nur im Sinne von 'sich einer Sache hingeben', nie einer Person"
+        }
+      ]
+    },
+    "unterjochen": {
+      "meaning_de": "ein Volk oder einen Menschen gewaltsam unterwerfen und in Abhängigkeit zwingen",
+      "meaning_en": "to subjugate; to enslave",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er unterjocht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er unterjochte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat unterjocht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er unterjochte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden unterjochen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Volk unterjochen",
+          "gloss_en": "to subjugate a people"
+        },
+        {
+          "phrase": "unterworfene und unterjochte Völker",
+          "gloss_en": "conquered and subjugated peoples"
+        },
+        {
+          "phrase": "gewaltsam unterjochen",
+          "gloss_en": "to subjugate by force"
+        },
+        {
+          "phrase": "die Natur unterjochen",
+          "gloss_en": "to subjugate nature"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Eroberer unterjochten die einheimische Bevölkerung.",
+          "en": "The conquerors subjugated the native population."
+        },
+        {
+          "de": "Kein Volk lässt sich auf Dauer unterjochen.",
+          "en": "No people can be subjugated forever."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und drastisch; vor allem in historischen und politischen Darstellungen.",
+      "near_synonyms": [
+        {
+          "lemma": "unterwerfen",
+          "distinction": "etwas neutraler, betont das Erzwingen von Gehorsam"
+        },
+        {
+          "lemma": "knechten",
+          "distinction": "gehoben und bildhaft, betont die entwürdigende Ausbeutung"
+        }
+      ]
+    },
+    "entmündigen": {
+      "meaning_de": "jemandem die Fähigkeit absprechen, für sich selbst zu entscheiden; ihn bevormunden",
+      "meaning_en": "to disempower; to declare legally incapable; to patronize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entmündigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entmündigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entmündigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entmündigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden entmündigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Bürger entmündigen",
+          "gloss_en": "to disempower the citizen"
+        },
+        {
+          "phrase": "sich entmündigen lassen",
+          "gloss_en": "to let oneself be disempowered"
+        },
+        {
+          "phrase": "jemanden faktisch entmündigen",
+          "gloss_en": "to disempower someone in effect"
+        },
+        {
+          "phrase": "die Verbraucher entmündigen",
+          "gloss_en": "to patronize consumers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Solche Vorschriften entmündigen die Bürger.",
+          "en": "Such rules disempower the citizens."
+        },
+        {
+          "de": "Er fühlte sich durch die ständige Kontrolle entmündigt.",
+          "en": "He felt disempowered by the constant control."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und wertend; der juristische Sinn ist veraltet, heute meist übertragen für Bevormundung.",
+      "near_synonyms": [
+        {
+          "lemma": "bevormunden",
+          "distinction": "milder, das ungefragte Für-andere-Entscheiden, ohne die Fähigkeit ganz abzusprechen"
+        },
+        {
+          "lemma": "gängeln",
+          "distinction": "abwertend und alltäglicher, das kleinliche Vorschreiben jedes Schrittes"
+        }
+      ]
+    },
+    "bevormunden": {
+      "meaning_de": "über andere bestimmen, als wären sie unfähig, selbst zu entscheiden",
+      "meaning_en": "to patronize; to boss around; to treat as incapable",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bevormundet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bevormundete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bevormundet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bevormundete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden bevormunden",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich nicht bevormunden lassen",
+          "gloss_en": "not to let oneself be patronized"
+        },
+        {
+          "phrase": "den Bürger bevormunden",
+          "gloss_en": "to patronize the citizen"
+        },
+        {
+          "phrase": "ständig bevormundet werden",
+          "gloss_en": "to be constantly patronized"
+        },
+        {
+          "phrase": "erwachsene Menschen bevormunden",
+          "gloss_en": "to patronize grown adults"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich in dieser Frage von niemandem bevormunden.",
+          "en": "I won't be patronized by anyone on this question."
+        },
+        {
+          "de": "Der Staat solle die Menschen nicht bevormunden, meinte sie.",
+          "en": "The state should not patronize people, she argued."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis leicht gehoben, aber immer wertend-kritisch; häufig in politischen Freiheitsdebatten.",
+      "near_synonyms": [
+        {
+          "lemma": "entmündigen",
+          "distinction": "stärker, spricht die Entscheidungsfähigkeit grundsätzlich ab"
+        },
+        {
+          "lemma": "gängeln",
+          "distinction": "abwertender, betont das kleinliche Kontrollieren jeder Handlung"
+        }
+      ]
+    },
+    "verklären": {
+      "meaning_de": "etwas in der Rückschau schöner, edler oder reiner darstellen, als es war",
+      "meaning_en": "to romanticize; to glorify; to idealize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verklärt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verklärte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verklärt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verklärte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verklären",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Vergangenheit verklären",
+          "gloss_en": "to romanticize the past"
+        },
+        {
+          "phrase": "die Kindheit verklären",
+          "gloss_en": "to idealize one's childhood"
+        },
+        {
+          "phrase": "nostalgisch verklären",
+          "gloss_en": "to glorify nostalgically"
+        },
+        {
+          "phrase": "ein verklärtes Bild",
+          "gloss_en": "an idealized image"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Erinnerung verklärt oft die schwierigen Jahre.",
+          "en": "Memory often romanticizes the difficult years."
+        },
+        {
+          "de": "Man sollte das alte Regime nicht nachträglich verklären.",
+          "en": "One should not glorify the old regime in hindsight."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft kritisch für ein beschönigendes, unrealistisches Erinnern.",
+      "near_synonyms": [
+        {
+          "lemma": "beschönigen",
+          "distinction": "etwas als weniger schlimm darstellen, ohne es zu idealisieren"
+        },
+        {
+          "lemma": "idealisieren",
+          "distinction": "als vollkommen darstellen, nicht speziell im Rückblick oder Glanz"
+        }
+      ]
+    },
+    "säkularisieren": {
+      "meaning_de": "etwas dem Einfluss der Religion entziehen und weltlich machen; historisch: Kirchengut verstaatlichen",
+      "meaning_en": "to secularize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er säkularisiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er säkularisierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat säkularisiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er säkularisierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas säkularisieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Gesellschaft säkularisieren",
+          "gloss_en": "to secularize society"
+        },
+        {
+          "phrase": "Kirchengut säkularisieren",
+          "gloss_en": "to secularize church property"
+        },
+        {
+          "phrase": "das Bildungswesen säkularisieren",
+          "gloss_en": "to secularize education"
+        },
+        {
+          "phrase": "eine säkularisierte Welt",
+          "gloss_en": "a secularized world"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Staat säkularisierte im 19. Jahrhundert weite Teile des Kirchenbesitzes.",
+          "en": "In the nineteenth century the state secularized large parts of church property."
+        },
+        {
+          "de": "Viele einst religiöse Feste sind heute weitgehend säkularisiert.",
+          "en": "Many once religious festivals are now largely secularized."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; in Geschichte, Recht und Religionswissenschaft gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "verweltlichen",
+          "distinction": "deutsche Entsprechung, allgemeiner und weniger fachsprachlich"
+        },
+        {
+          "lemma": "verstaatlichen",
+          "distinction": "nur das Überführen in Staatsbesitz, ohne den religiösen Bezug"
+        }
+      ]
+    },
+    "sich auflehnen": {
+      "meaning_de": "sich einer Macht oder Ordnung offen widersetzen und dagegen aufbegehren",
+      "meaning_en": "to rebel; to rise up against",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lehnt sich auf"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er lehnte sich auf"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich aufgelehnt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er lehnte sich auf"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich gegen jemanden/etwas auflehnen",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich gegen die Obrigkeit auflehnen",
+          "gloss_en": "to rebel against authority"
+        },
+        {
+          "phrase": "sich gegen Unterdrückung auflehnen",
+          "gloss_en": "to rise up against oppression"
+        },
+        {
+          "phrase": "sich gegen sein Schicksal auflehnen",
+          "gloss_en": "to rebel against one's fate"
+        },
+        {
+          "phrase": "offen auflehnen",
+          "gloss_en": "to rebel openly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Volk lehnte sich gegen die Tyrannei auf.",
+          "en": "The people rose up against the tyranny."
+        },
+        {
+          "de": "Sie lehnte sich schon als Jugendliche gegen jede Autorität auf.",
+          "en": "Even as a teenager she rebelled against every authority."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ausdrucksstärker als 'sich wehren', oft in politischen und historischen Kontexten.",
+      "near_synonyms": [
+        {
+          "lemma": "sich empören",
+          "distinction": "betont die moralische Entrüstung, nicht unbedingt aktiven Widerstand"
+        },
+        {
+          "lemma": "rebellieren",
+          "distinction": "nahezu bedeutungsgleich, etwas moderner und salopper"
+        }
+      ]
+    },
+    "entmachten": {
+      "meaning_de": "jemandem seine Macht und seinen Einfluss nehmen",
+      "meaning_en": "to strip of power; to depose",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entmachtet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entmachtete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entmachtet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entmachtete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden entmachten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Diktator entmachten",
+          "gloss_en": "to strip the dictator of power"
+        },
+        {
+          "phrase": "das Parlament entmachten",
+          "gloss_en": "to strip parliament of its powers"
+        },
+        {
+          "phrase": "schrittweise entmachten",
+          "gloss_en": "to gradually strip of power"
+        },
+        {
+          "phrase": "faktisch entmachtet sein",
+          "gloss_en": "to be effectively powerless"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Putsch entmachtete den gewählten Präsidenten.",
+          "en": "The coup stripped the elected president of power."
+        },
+        {
+          "de": "Nach der Reform war das Gremium praktisch entmachtet.",
+          "en": "After the reform the body was practically powerless."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für politische, historische und institutionelle Zusammenhänge.",
+      "near_synonyms": [
+        {
+          "lemma": "stürzen",
+          "distinction": "drastischer, das gewaltsame Beseitigen aus dem Amt"
+        },
+        {
+          "lemma": "absetzen",
+          "distinction": "das förmliche Entlassen aus einem Amt, ohne den Machtaspekt zu betonen"
+        }
+      ]
+    },
+    "instrumentalisieren": {
+      "meaning_de": "jemanden oder etwas gezielt für eigene Zwecke ausnutzen",
+      "meaning_en": "to instrumentalize; to exploit for one's own ends",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er instrumentalisiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er instrumentalisierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat instrumentalisiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er instrumentalisierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden/etwas für etwas instrumentalisieren",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Thema politisch instrumentalisieren",
+          "gloss_en": "to exploit an issue politically"
+        },
+        {
+          "phrase": "die Angst instrumentalisieren",
+          "gloss_en": "to exploit fear"
+        },
+        {
+          "phrase": "Opfer instrumentalisieren",
+          "gloss_en": "to exploit victims"
+        },
+        {
+          "phrase": "für eigene Zwecke instrumentalisieren",
+          "gloss_en": "to instrumentalize for one's own ends"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Regierung instrumentalisierte die Krise für ihre Zwecke.",
+          "en": "The government exploited the crisis for its own ends."
+        },
+        {
+          "de": "Er warf den Medien vor, das Leid zu instrumentalisieren.",
+          "en": "He accused the media of exploiting the suffering."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und wertend-kritisch; häufig in politischen und medialen Debatten.",
+      "near_synonyms": [
+        {
+          "lemma": "ausnutzen",
+          "distinction": "allgemeiner und alltäglicher, ohne den kühl-strategischen Beiklang"
+        },
+        {
+          "lemma": "missbrauchen",
+          "distinction": "stärker, betont den Verstoß gegen den eigentlichen Zweck"
+        }
+      ]
+    },
+    "umwälzend": {
+      "meaning_de": "etwas von Grund auf verändernd; tiefgreifend und revolutionär",
+      "meaning_en": "revolutionary; radically transformative",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "umwälzender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am umwälzendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "umwälzende Veränderungen",
+          "gloss_en": "sweeping changes"
+        },
+        {
+          "phrase": "eine umwälzende Erfindung",
+          "gloss_en": "a revolutionary invention"
+        },
+        {
+          "phrase": "umwälzende Neuerungen",
+          "gloss_en": "transformative innovations"
+        },
+        {
+          "phrase": "von umwälzender Bedeutung",
+          "gloss_en": "of revolutionary significance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Digitalisierung brachte umwälzende Veränderungen mit sich.",
+          "en": "Digitalization brought sweeping changes with it."
+        },
+        {
+          "de": "Es war eine der umwälzendsten Entdeckungen des Jahrhunderts.",
+          "en": "It was one of the most revolutionary discoveries of the century."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; das Partizip zu 'umwälzen', betont eine radikale, grundlegende Veränderung.",
+      "near_synonyms": [
+        {
+          "lemma": "revolutionär",
+          "distinction": "nahezu bedeutungsgleich, verbreiteter und auch politisch aufgeladen"
+        },
+        {
+          "lemma": "bahnbrechend",
+          "distinction": "betont das erstmalige, wegweisende Neue, nicht den Umsturz des Alten"
+        }
+      ]
+    },
+    "epochal": {
+      "meaning_de": "von so großer Bedeutung, dass es eine ganze Epoche prägt oder einleitet",
+      "meaning_en": "epoch-making; momentous",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "epochaler"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am epochalsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein epochales Ereignis",
+          "gloss_en": "an epoch-making event"
+        },
+        {
+          "phrase": "von epochaler Bedeutung",
+          "gloss_en": "of momentous significance"
+        },
+        {
+          "phrase": "eine epochale Leistung",
+          "gloss_en": "a landmark achievement"
+        },
+        {
+          "phrase": "epochaler Wandel",
+          "gloss_en": "epoch-making change"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Mondlandung war ein epochales Ereignis.",
+          "en": "The moon landing was an epoch-making event."
+        },
+        {
+          "de": "Man sprach von einer Entdeckung epochaler Tragweite.",
+          "en": "People spoke of a discovery of momentous import."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ein starkes Wertwort, das eine besondere geschichtliche Bedeutung hervorhebt.",
+      "near_synonyms": [
+        {
+          "lemma": "bahnbrechend",
+          "distinction": "betont das wegweisend Neue, nicht die Epochengrenze"
+        },
+        {
+          "lemma": "historisch",
+          "distinction": "allgemeiner, 'geschichtlich bedeutsam', ohne den Epochenbezug"
+        }
+      ]
+    },
+    "weltanschaulich": {
+      "meaning_de": "eine Weltanschauung betreffend; von grundsätzlichen Überzeugungen bestimmt",
+      "meaning_en": "ideological; relating to a worldview",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "weltanschauliche Gründe",
+          "gloss_en": "reasons of principle / conviction"
+        },
+        {
+          "phrase": "weltanschaulich neutral",
+          "gloss_en": "ideologically neutral"
+        },
+        {
+          "phrase": "weltanschauliche Differenzen",
+          "gloss_en": "differences of worldview"
+        },
+        {
+          "phrase": "weltanschaulich geprägt",
+          "gloss_en": "shaped by a worldview"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Staat soll weltanschaulich neutral bleiben.",
+          "en": "The state should remain ideologically neutral."
+        },
+        {
+          "de": "Zwischen ihnen bestanden tiefe weltanschauliche Differenzen.",
+          "en": "There were deep differences of worldview between them."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; nicht steigerbar, das Adjektiv zu 'Weltanschauung', vor allem in Politik und Recht.",
+      "near_synonyms": [
+        {
+          "lemma": "ideologisch",
+          "distinction": "stärker politisch und oft abwertend gefärbt"
+        },
+        {
+          "lemma": "philosophisch",
+          "distinction": "bezieht sich auf das systematische Denken, nicht auf gelebte Überzeugungen"
+        }
+      ]
+    },
+    "totalitär": {
+      "meaning_de": "eine Herrschaft betreffend, die das gesamte Leben lückenlos kontrolliert und keine Freiheit duldet",
+      "meaning_en": "totalitarian",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "totalitärer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am totalitärsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein totalitäres Regime",
+          "gloss_en": "a totalitarian regime"
+        },
+        {
+          "phrase": "die totalitäre Herrschaft",
+          "gloss_en": "totalitarian rule"
+        },
+        {
+          "phrase": "totalitäre Ideologien",
+          "gloss_en": "totalitarian ideologies"
+        },
+        {
+          "phrase": "totalitäre Kontrolle",
+          "gloss_en": "totalitarian control"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im totalitären Staat gibt es keinen Raum für Opposition.",
+          "en": "In the totalitarian state there is no room for opposition."
+        },
+        {
+          "de": "Beide totalitären Systeme verachteten die Menschenwürde.",
+          "en": "Both totalitarian systems despised human dignity."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; ein zentraler Begriff der Politikwissenschaft, stärker als 'autoritär'.",
+      "near_synonyms": [
+        {
+          "lemma": "autoritär",
+          "distinction": "schwächer, unterdrückt Freiheit, kontrolliert aber nicht jeden Lebensbereich"
+        },
+        {
+          "lemma": "diktatorisch",
+          "distinction": "betont die Alleinherrschaft, ohne den Anspruch der Totalkontrolle"
+        }
+      ]
+    },
+    "autoritär": {
+      "meaning_de": "auf strengen Gehorsam und die Unterdrückung von Freiheit und Mitbestimmung gerichtet",
+      "meaning_en": "authoritarian",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "autoritärer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am autoritärsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein autoritärer Staat",
+          "gloss_en": "an authoritarian state"
+        },
+        {
+          "phrase": "ein autoritärer Führungsstil",
+          "gloss_en": "an authoritarian leadership style"
+        },
+        {
+          "phrase": "autoritäre Strukturen",
+          "gloss_en": "authoritarian structures"
+        },
+        {
+          "phrase": "autoritär regieren",
+          "gloss_en": "to rule in an authoritarian way"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Land driftet in einen autoritären Staat ab.",
+          "en": "The country is drifting towards an authoritarian state."
+        },
+        {
+          "de": "Sein autoritärer Führungsstil stieß auf Widerstand.",
+          "en": "His authoritarian leadership style met with resistance."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben, aber breit gebräuchlich; auch für Erziehung und Führungsstil, nicht nur für Staaten.",
+      "near_synonyms": [
+        {
+          "lemma": "totalitär",
+          "distinction": "stärker, will das gesamte Leben lückenlos beherrschen"
+        },
+        {
+          "lemma": "diktatorisch",
+          "distinction": "betont die Alleinherrschaft einer Person oder Gruppe"
+        }
+      ]
+    },
+    "emanzipatorisch": {
+      "meaning_de": "auf Befreiung aus Abhängigkeit und Bevormundung gerichtet",
+      "meaning_en": "emancipatory",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein emanzipatorischer Anspruch",
+          "gloss_en": "an emancipatory aspiration"
+        },
+        {
+          "phrase": "emanzipatorische Bewegungen",
+          "gloss_en": "emancipatory movements"
+        },
+        {
+          "phrase": "emanzipatorische Bildung",
+          "gloss_en": "emancipatory education"
+        },
+        {
+          "phrase": "eine emanzipatorische Wirkung",
+          "gloss_en": "an emancipatory effect"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Aufklärung verfolgte ein emanzipatorisches Ziel.",
+          "en": "The Enlightenment pursued an emancipatory aim."
+        },
+        {
+          "de": "Bildung kann eine emanzipatorische Wirkung entfalten.",
+          "en": "Education can have an emancipatory effect."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; nicht steigerbar, vor allem in Philosophie, Pädagogik und Politik.",
+      "near_synonyms": [
+        {
+          "lemma": "befreiend",
+          "distinction": "allgemeiner und alltäglicher, auch für ein Gefühl der Erleichterung"
+        },
+        {
+          "lemma": "fortschrittlich",
+          "distinction": "betont die Ausrichtung auf Fortschritt, nicht speziell die Befreiung"
+        }
+      ]
+    },
+    "anachronistisch": {
+      "meaning_de": "aus der Zeit gefallen; nicht mehr in die Gegenwart passend",
+      "meaning_en": "anachronistic; outdated",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "anachronistischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am anachronistischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "anachronistisch wirken",
+          "gloss_en": "to seem anachronistic"
+        },
+        {
+          "phrase": "eine anachronistische Vorstellung",
+          "gloss_en": "an anachronistic notion"
+        },
+        {
+          "phrase": "anachronistische Strukturen",
+          "gloss_en": "anachronistic structures"
+        },
+        {
+          "phrase": "geradezu anachronistisch",
+          "gloss_en": "downright anachronistic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Solche Standesregeln wirken heute anachronistisch.",
+          "en": "Such rules of rank seem anachronistic today."
+        },
+        {
+          "de": "Sein Rollenbild ist zutiefst anachronistisch.",
+          "en": "His notion of gender roles is deeply anachronistic."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft leicht abwertend für etwas Überholtes, das nicht mehr in die Zeit passt.",
+      "near_synonyms": [
+        {
+          "lemma": "überholt",
+          "distinction": "neutraler und alltäglicher, 'nicht mehr aktuell'"
+        },
+        {
+          "lemma": "veraltet",
+          "distinction": "betont schlicht das Alter, ohne den Aspekt des Nicht-mehr-Hineinpassens"
+        }
+      ]
+    },
+    "menschenverachtend": {
+      "meaning_de": "den Wert und die Würde des Menschen zutiefst missachtend",
+      "meaning_en": "inhuman; contemptuous of human dignity",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "menschenverachtender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am menschenverachtendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine menschenverachtende Ideologie",
+          "gloss_en": "an inhuman ideology"
+        },
+        {
+          "phrase": "menschenverachtende Zustände",
+          "gloss_en": "degrading conditions"
+        },
+        {
+          "phrase": "menschenverachtende Äußerungen",
+          "gloss_en": "contemptuous, dehumanizing remarks"
+        },
+        {
+          "phrase": "zutiefst menschenverachtend",
+          "gloss_en": "profoundly inhuman"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Propaganda war von menschenverachtendem Zynismus.",
+          "en": "The propaganda was of an inhuman cynicism."
+        },
+        {
+          "de": "In den Lagern herrschten menschenverachtende Zustände.",
+          "en": "Conditions in the camps were utterly degrading."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und stark wertend; eines der schärfsten moralischen Urteilswörter im Deutschen.",
+      "near_synonyms": [
+        {
+          "lemma": "unmenschlich",
+          "distinction": "allgemeiner, betont die Grausamkeit, nicht die grundsätzliche Verachtung"
+        },
+        {
+          "lemma": "entwürdigend",
+          "distinction": "betont die konkrete Demütigung, nicht die Ideologie dahinter"
+        }
+      ]
+    }
+  }
+}
