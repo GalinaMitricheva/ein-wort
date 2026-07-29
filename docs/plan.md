@@ -20,31 +20,23 @@ the collection task (`npm run collect`), **all 101 C1 words with real dossiers**
 `data/words.b2.json` (493 new B2), `data/words.c1-2.json` (371 new C1), `data/words.c1-3.json`
 (21 C1 top-up) joined the original `words.c1.json` (100) and `words.fixture.json` (20).
 `seed.ts` now **globs `words.*.json`** (was a hardcoded two-file list), so new batches load
-automatically like dossiers do. **Only word entries exist for the ~885 new words — no
-dossiers yet**, so none are offerable until authored (§3.4 requires a current dossier).
+automatically like dossiers do. **All 1000 words now have authored dossiers** (see the
+campaign note below), so the whole pool is offerable.
 Genders/plurals/verb-forms are author's German (parallel Sonnet sub-agents) and want the
 §7.1 Wiktionary/Duden spot-check before trusting — do it as a local script, not web lookups.
 
-**Dossier campaign (2026-07-27):** authoring dossiers for the 1000-word pool in waves of
-disjoint domain batches (**Opus** sub-agents). **765 of 1000 done, all schema-clean, 0
-skips** — `npm run collect` reports **250 words still needing a dossier**. Committed so far:
-all 10 B2 domains (`dossiers.b2-01..b2-10.json`) plus C1 `dossiers.c1-01.json` (Wissenschaft)
-and `dossiers.c1-08.json` (formal adj/adv).
+**Dossier campaign COMPLETE (2026-07-27):** every word in the 1000-word pool now has a
+hand-authored dossier (**Opus** sub-agents, disjoint domain batches). `npm run collect`
+reports "All words have dossiers; all captures resolved." Files: all 10 B2 domains
+(`dossiers.b2-01..b2-10.json`), C1 domains `dossiers.c1-01.json` (Wissenschaft),
+`c1-02` (Recht), `c1-03` (Wirtschaft/Politik), `c1-04` (Psychologie), `c1-05` (Kultur),
+`c1-06` (Geschichte/Philosophie), `c1-07` (formal verbs), `c1-08` (formal adj/adv), and
+`dossiers.c1-topup.json` (the 21 rounding words). All batches validated schema-clean (0 skips).
 
-**Still to author — 6 C1 batches (~250 words):** `c1-03` Wirtschaft/Finanzen/Politik,
-`c1-04` Psychologie, `c1-05` Kultur/Kunst/Literatur, `c1-06` Geschichte/Gesellschaft/
-Philosophie, `c1-07` formal verbs, and `c1-topup` (the 21 words from `words.c1-3.json` that
-rounded the pool to 1000). Each has a word-list input in the session scratchpad
-(`out/<id>.json`); if that's gone, re-derive the missing lemmas from `npm run collect`.
-
-**To finish:** spawn one **Opus** author per remaining batch against the dossier brief
-(schema in `src/core/dossier/schema.ts`; conventions: noun→Genitiv/Plural, verb→Präsens/
-Präteritum/Perfekt/Konjunktiv II, adj→Komparativ/Superlativ, adv→[]). Then validate →
-install → `collect` → commit. NB the `c1-topup` dossier file must NOT be named
-`dossiers.c1-3.json` (that already exists for the original C1 list) — use e.g.
-`dossiers.c1-topup.json`. Waves keep tripping the Anthropic session limit near ~5 agents;
-the interrupted agents had already written complete output, so always check disk + validate
-before assuming a "failed" batch is lost.
+**Next: the §7.1 quality gate.** All 1000 dossiers are author's/Opus German and unverified —
+register, Rektion, examples, and the word-level genders/plurals all want a DWDS/Duden
+spot-check. Do metadata (gender/plural) verification as a **local script** (curl Wiktionary),
+not per-word WebFetch (see the 2026-07-26 cost note). Then Phase 4 (get it on the phone).
 
 **Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
 lists ever.** The word list is a hand-curated pool we grow together; specific coverage
