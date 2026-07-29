@@ -1,0 +1,2932 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 domain batch: Psychologie, Kognition & Verhalten (c1-04). Keyed by lemma.",
+  "dossiers": {
+    "Wahrnehmung": {
+      "meaning_de": "das Aufnehmen und Deuten von Sinneseindrücken; auch: die Art, wie man etwas auffasst",
+      "meaning_en": "perception; awareness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Wahrnehmung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wahrnehmungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die selektive Wahrnehmung",
+          "gloss_en": "selective perception"
+        },
+        {
+          "phrase": "die eigene Wahrnehmung hinterfragen",
+          "gloss_en": "to question one's own perception"
+        },
+        {
+          "phrase": "jenseits der Wahrnehmung",
+          "gloss_en": "beyond perception"
+        },
+        {
+          "phrase": "die verzerrte Wahrnehmung",
+          "gloss_en": "distorted perception"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Unsere Wahrnehmung wird stark von Erwartungen geprägt.",
+          "en": "Our perception is strongly shaped by expectations."
+        },
+        {
+          "de": "Er hat eine sehr differenzierte Wahrnehmung für zwischenmenschliche Signale.",
+          "en": "He has a very nuanced awareness of interpersonal signals."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; zentral in Psychologie und Alltagssprache.",
+      "near_synonyms": [
+        {
+          "lemma": "die Auffassung",
+          "distinction": "eher das gedankliche Verstehen als der Sinneseindruck"
+        },
+        {
+          "lemma": "die Empfindung",
+          "distinction": "stärker das unmittelbare, körperlich-gefühlte Erleben"
+        }
+      ]
+    },
+    "Antrieb": {
+      "meaning_de": "die innere Kraft, die jemanden zum Handeln bewegt",
+      "meaning_en": "drive; motivation; impetus",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Antriebs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Antriebe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "der Antrieb zu etwas",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "aus eigenem Antrieb",
+          "gloss_en": "of one's own accord"
+        },
+        {
+          "phrase": "der innere Antrieb",
+          "gloss_en": "the inner drive"
+        },
+        {
+          "phrase": "keinen Antrieb haben",
+          "gloss_en": "to have no motivation"
+        },
+        {
+          "phrase": "neuen Antrieb geben",
+          "gloss_en": "to give fresh impetus"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr größter Antrieb ist die Neugier.",
+          "en": "Her greatest driving force is curiosity."
+        },
+        {
+          "de": "Seit der Erschöpfung fehlt ihm jeder Antrieb.",
+          "en": "Since the burnout he has lacked all motivation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im psychologischen Sinn auch fachsprachlich (Antriebsstörung).",
+      "near_synonyms": [
+        {
+          "lemma": "die Motivation",
+          "distinction": "stärker zielgerichtet und bewusst"
+        },
+        {
+          "lemma": "der Ansporn",
+          "distinction": "meist ein äußerer Anreiz, der anspornt"
+        }
+      ]
+    },
+    "Impuls": {
+      "meaning_de": "ein plötzlicher innerer Anstoß, etwas zu tun; auch: ein Anstoß von außen",
+      "meaning_en": "impulse; stimulus",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Impulses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Impulse"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "der Impuls zu etwas",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einem Impuls folgen",
+          "gloss_en": "to follow an impulse"
+        },
+        {
+          "phrase": "einen Impuls unterdrücken",
+          "gloss_en": "to suppress an impulse"
+        },
+        {
+          "phrase": "neue Impulse setzen",
+          "gloss_en": "to provide fresh stimulus"
+        },
+        {
+          "phrase": "aus einem Impuls heraus",
+          "gloss_en": "on an impulse"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie handelte aus einem spontanen Impuls heraus.",
+          "en": "She acted on a spontaneous impulse."
+        },
+        {
+          "de": "Das Gespräch gab mir wichtige Impulse für meine Arbeit.",
+          "en": "The conversation gave me important stimulus for my work."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im übertragenen Sinn (Anregung) besonders gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Anstoß",
+          "distinction": "eher der auslösende Moment als das innere Drängen"
+        },
+        {
+          "lemma": "der Trieb",
+          "distinction": "dauerhafter und grundlegender, biologisch verwurzelt"
+        }
+      ]
+    },
+    "Empathie": {
+      "meaning_de": "die Fähigkeit, sich in die Gefühle und Gedanken anderer hineinzuversetzen",
+      "meaning_en": "empathy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Empathie"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Empathie für jemanden",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Empathie zeigen",
+          "gloss_en": "to show empathy"
+        },
+        {
+          "phrase": "ein hohes Maß an Empathie",
+          "gloss_en": "a high degree of empathy"
+        },
+        {
+          "phrase": "Empathie für andere empfinden",
+          "gloss_en": "to feel empathy for others"
+        },
+        {
+          "phrase": "es fehlt an Empathie",
+          "gloss_en": "there is a lack of empathy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne Empathie lässt sich kein Vertrauen aufbauen.",
+          "en": "Without empathy no trust can be built."
+        },
+        {
+          "de": "Sie begegnete dem Patienten mit großer Empathie.",
+          "en": "She treated the patient with great empathy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral, aber bildungssprachlich; in Psychologie und Pädagogik zentral.",
+      "near_synonyms": [
+        {
+          "lemma": "das Mitgefühl",
+          "distinction": "betont stärker das mitfühlende Ergriffensein"
+        },
+        {
+          "lemma": "das Einfühlungsvermögen",
+          "distinction": "deutscher, fast bedeutungsgleich, betont die Fähigkeit"
+        }
+      ]
+    },
+    "Achtsamkeit": {
+      "meaning_de": "das bewusste, wertungsfreie Wahrnehmen des gegenwärtigen Augenblicks",
+      "meaning_en": "mindfulness; attentiveness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Achtsamkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Achtsamkeit üben",
+          "gloss_en": "to practise mindfulness"
+        },
+        {
+          "phrase": "mit Achtsamkeit",
+          "gloss_en": "with attentiveness"
+        },
+        {
+          "phrase": "Achtsamkeit im Alltag",
+          "gloss_en": "mindfulness in everyday life"
+        },
+        {
+          "phrase": "die innere Achtsamkeit",
+          "gloss_en": "inner mindfulness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Durch Achtsamkeit lernt man, Gedanken nicht sofort zu bewerten.",
+          "en": "Through mindfulness one learns not to judge thoughts immediately."
+        },
+        {
+          "de": "Schon wenige Minuten Achtsamkeit am Tag können helfen.",
+          "en": "Even a few minutes of mindfulness a day can help."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; als Fachbegriff aus der Psychologie und Meditation etabliert.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aufmerksamkeit",
+          "distinction": "allgemeiner, das bloße Konzentrieren auf etwas"
+        },
+        {
+          "lemma": "die Umsicht",
+          "distinction": "eher vorausschauendes, sorgsames Handeln"
+        }
+      ]
+    },
+    "Verhaltensweise": {
+      "meaning_de": "eine bestimmte, wiederkehrende Art, sich zu verhalten",
+      "meaning_en": "way of behaving; pattern of behaviour",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verhaltensweise"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verhaltensweisen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein erlerntes Verhaltensweise",
+          "gloss_en": "a learned behaviour"
+        },
+        {
+          "phrase": "typische Verhaltensweisen",
+          "gloss_en": "typical patterns of behaviour"
+        },
+        {
+          "phrase": "auffällige Verhaltensweisen",
+          "gloss_en": "conspicuous behaviours"
+        },
+        {
+          "phrase": "eine Verhaltensweise ablegen",
+          "gloss_en": "to shed a habit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Viele Verhaltensweisen werden in der Kindheit geprägt.",
+          "en": "Many behaviours are shaped in childhood."
+        },
+        {
+          "de": "Diese aggressive Verhaltensweise legte sie mit der Zeit ab.",
+          "en": "She gradually shed this aggressive behaviour."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sachlicher und fachsprachlicher als das schlichte Verhalten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Verhalten",
+          "distinction": "der Oberbegriff, oft unzählbar und allgemeiner"
+        },
+        {
+          "lemma": "die Angewohnheit",
+          "distinction": "stärker eingeschliffen und auf den Einzelnen bezogen"
+        }
+      ]
+    },
+    "Trieb": {
+      "meaning_de": "ein starker, meist angeborener Drang, der das Verhalten steuert",
+      "meaning_en": "drive; urge; instinct",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Triebs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Triebe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Trieb ausleben",
+          "gloss_en": "to act out a drive"
+        },
+        {
+          "phrase": "seine Triebe beherrschen",
+          "gloss_en": "to control one's urges"
+        },
+        {
+          "phrase": "der natürliche Trieb",
+          "gloss_en": "the natural instinct"
+        },
+        {
+          "phrase": "von Trieben gesteuert",
+          "gloss_en": "governed by urges"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Mensch ist nicht nur von Trieben gesteuert.",
+          "en": "Human beings are not governed by drives alone."
+        },
+        {
+          "de": "Freud unterschied verschiedene Triebe des Menschen.",
+          "en": "Freud distinguished various human drives."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Psychologie und Biologie ein fester Fachbegriff.",
+      "near_synonyms": [
+        {
+          "lemma": "der Instinkt",
+          "distinction": "stärker das angeborene, reflexhafte Verhaltensmuster"
+        },
+        {
+          "lemma": "der Drang",
+          "distinction": "das akute, situative Drängen, weniger dauerhaft angelegt"
+        }
+      ]
+    },
+    "Verzerrung": {
+      "meaning_de": "eine Abweichung vom richtigen oder neutralen Bild; die Entstellung von etwas",
+      "meaning_en": "distortion; bias",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verzerrung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verzerrungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine kognitive Verzerrung",
+          "gloss_en": "a cognitive bias"
+        },
+        {
+          "phrase": "die Verzerrung der Wahrnehmung",
+          "gloss_en": "the distortion of perception"
+        },
+        {
+          "phrase": "zu Verzerrungen führen",
+          "gloss_en": "to lead to distortions"
+        },
+        {
+          "phrase": "Verzerrungen vermeiden",
+          "gloss_en": "to avoid distortions"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Kognitive Verzerrungen beeinflussen unsere Entscheidungen unbewusst.",
+          "en": "Cognitive biases influence our decisions unconsciously."
+        },
+        {
+          "de": "Die Statistik enthält eine deutliche Verzerrung.",
+          "en": "The statistic contains a clear distortion."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; kognitive Verzerrung ist ein Terminus der Psychologie.",
+      "near_synonyms": [
+        {
+          "lemma": "die Entstellung",
+          "distinction": "stärker die sichtbare, grobe Veränderung des Bildes"
+        },
+        {
+          "lemma": "der Denkfehler",
+          "distinction": "der konkrete logische Fehlschluss, nicht die Tendenz"
+        }
+      ]
+    },
+    "Voreingenommenheit": {
+      "meaning_de": "eine von vornherein festgelegte, meist einseitige Haltung gegenüber jemandem oder etwas",
+      "meaning_en": "prejudice; bias; partiality",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Voreingenommenheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Voreingenommenheit gegenüber jemandem",
+          "cases": "gegenüber + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "seine Voreingenommenheit ablegen",
+          "gloss_en": "to set aside one's bias"
+        },
+        {
+          "phrase": "ohne jede Voreingenommenheit",
+          "gloss_en": "without any bias"
+        },
+        {
+          "phrase": "unbewusste Voreingenommenheit",
+          "gloss_en": "unconscious bias"
+        },
+        {
+          "phrase": "von Voreingenommenheit geprägt",
+          "gloss_en": "marked by prejudice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er urteilte ohne jede Voreingenommenheit.",
+          "en": "He judged without any bias."
+        },
+        {
+          "de": "Ihre Voreingenommenheit gegenüber Fremden war ihr nicht bewusst.",
+          "en": "She was not aware of her bias towards strangers."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; abstrakter und förmlicher als das konkrete Vorurteil.",
+      "near_synonyms": [
+        {
+          "lemma": "das Vorurteil",
+          "distinction": "die konkrete vorgefasste Meinung, oft zählbar"
+        },
+        {
+          "lemma": "die Befangenheit",
+          "distinction": "betont die mangelnde Unparteilichkeit, oft juristisch"
+        }
+      ]
+    },
+    "Vorurteil": {
+      "meaning_de": "eine vorgefasste, oft negative Meinung ohne Prüfung der Tatsachen",
+      "meaning_en": "prejudice; preconception",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Vorurteils"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vorurteile"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Vorurteile gegen jemanden",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Vorurteile abbauen",
+          "gloss_en": "to break down prejudices"
+        },
+        {
+          "phrase": "mit einem Vorurteil aufräumen",
+          "gloss_en": "to dispel a prejudice"
+        },
+        {
+          "phrase": "tief sitzende Vorurteile",
+          "gloss_en": "deep-seated prejudices"
+        },
+        {
+          "phrase": "frei von Vorurteilen",
+          "gloss_en": "free of prejudice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Gegen dieses Vorurteil kämpfe ich seit Jahren.",
+          "en": "I have been fighting this prejudice for years."
+        },
+        {
+          "de": "Vorurteile entstehen oft aus Unwissenheit.",
+          "en": "Prejudices often arise from ignorance."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltagssprachlich wie fachsprachlich gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Voreingenommenheit",
+          "distinction": "die Haltung als Ganzes, abstrakter und förmlicher"
+        },
+        {
+          "lemma": "das Klischee",
+          "distinction": "ein abgegriffenes, verallgemeinerndes Bild ohne Wertung im Kern"
+        }
+      ]
+    },
+    "Selbstwirksamkeit": {
+      "meaning_de": "die Überzeugung, mit den eigenen Fähigkeiten Herausforderungen bewältigen zu können",
+      "meaning_en": "self-efficacy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Selbstwirksamkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Gefühl der Selbstwirksamkeit",
+          "gloss_en": "the sense of self-efficacy"
+        },
+        {
+          "phrase": "Selbstwirksamkeit erleben",
+          "gloss_en": "to experience self-efficacy"
+        },
+        {
+          "phrase": "die Selbstwirksamkeit stärken",
+          "gloss_en": "to strengthen self-efficacy"
+        },
+        {
+          "phrase": "geringe Selbstwirksamkeit",
+          "gloss_en": "low self-efficacy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Erfolgserlebnisse fördern die Selbstwirksamkeit von Kindern.",
+          "en": "Experiences of success foster children's self-efficacy."
+        },
+        {
+          "de": "Wer Selbstwirksamkeit erlebt, gibt bei Rückschlägen seltener auf.",
+          "en": "Those who experience self-efficacy give up less easily after setbacks."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; von Bandura geprägter Begriff der Psychologie.",
+      "near_synonyms": [
+        {
+          "lemma": "das Selbstvertrauen",
+          "distinction": "allgemeiner, weniger auf konkrete Aufgaben bezogen"
+        },
+        {
+          "lemma": "die Selbstwirksamkeitserwartung",
+          "distinction": "die vollständige Fachform, betont die Erwartung"
+        }
+      ]
+    },
+    "Resilienz": {
+      "meaning_de": "die psychische Widerstandskraft, mit Belastungen umzugehen und sich zu erholen",
+      "meaning_en": "resilience",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Resilienz"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Resilienz aufbauen",
+          "gloss_en": "to build resilience"
+        },
+        {
+          "phrase": "die psychische Resilienz",
+          "gloss_en": "psychological resilience"
+        },
+        {
+          "phrase": "über Resilienz verfügen",
+          "gloss_en": "to possess resilience"
+        },
+        {
+          "phrase": "die Resilienz stärken",
+          "gloss_en": "to strengthen resilience"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Resilienz lässt sich bis ins Erwachsenenalter trainieren.",
+          "en": "Resilience can be trained well into adulthood."
+        },
+        {
+          "de": "Ihre Resilienz half ihr, die Krise zu überstehen.",
+          "en": "Her resilience helped her get through the crisis."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich, aber zunehmend alltäglich; aus Psychologie und Ratgebern.",
+      "near_synonyms": [
+        {
+          "lemma": "die Widerstandsfähigkeit",
+          "distinction": "deutscher, allgemeiner, auch auf Material beziehbar"
+        },
+        {
+          "lemma": "die Belastbarkeit",
+          "distinction": "betont, wie viel Druck jemand aushält, weniger die Erholung"
+        }
+      ]
+    },
+    "Groll": {
+      "meaning_de": "ein anhaltender, verhaltener Zorn über erlittenes Unrecht",
+      "meaning_en": "resentment; grudge; rancour",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Grolls"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Groll gegen jemanden",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Groll hegen",
+          "gloss_en": "to harbour a grudge"
+        },
+        {
+          "phrase": "seinen Groll überwinden",
+          "gloss_en": "to overcome one's resentment"
+        },
+        {
+          "phrase": "alter Groll",
+          "gloss_en": "old resentment"
+        },
+        {
+          "phrase": "voller Groll",
+          "gloss_en": "full of rancour"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hegte jahrelang Groll gegen ihren früheren Chef.",
+          "en": "For years she harboured a grudge against her former boss."
+        },
+        {
+          "de": "In seinen Worten schwang unterdrückter Groll mit.",
+          "en": "His words carried a note of suppressed resentment."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und literarisch; im Alltag oft durch Groll hegen fest verankert.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zorn",
+          "distinction": "heftiger und offener, weniger verhalten und dauerhaft"
+        },
+        {
+          "lemma": "die Verbitterung",
+          "distinction": "stärker die durchdringende, resignierte Grundstimmung"
+        }
+      ]
+    },
+    "Gelassenheit": {
+      "meaning_de": "die innere Ruhe, mit der man auch schwierige Dinge ohne Aufregung hinnimmt",
+      "meaning_en": "composure; serenity; equanimity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gelassenheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "etwas mit Gelassenheit nehmen",
+          "gloss_en": "to take something calmly"
+        },
+        {
+          "phrase": "innere Gelassenheit",
+          "gloss_en": "inner serenity"
+        },
+        {
+          "phrase": "Gelassenheit ausstrahlen",
+          "gloss_en": "to radiate composure"
+        },
+        {
+          "phrase": "die nötige Gelassenheit bewahren",
+          "gloss_en": "to keep the necessary composure"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit den Jahren gewann er an Gelassenheit.",
+          "en": "Over the years he gained composure."
+        },
+        {
+          "de": "Sie reagierte auf die Kritik mit erstaunlicher Gelassenheit.",
+          "en": "She responded to the criticism with remarkable equanimity."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; positiv besetzt, oft in Ratgebern und Reflexionen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ruhe",
+          "distinction": "allgemeiner, auch äußerlich und situativ"
+        },
+        {
+          "lemma": "die Besonnenheit",
+          "distinction": "betont das überlegte Handeln, nicht nur die Stimmung"
+        }
+      ]
+    },
+    "Erschöpfung": {
+      "meaning_de": "ein Zustand völliger körperlicher oder seelischer Kraftlosigkeit",
+      "meaning_en": "exhaustion; fatigue",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Erschöpfung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "bis zur Erschöpfung",
+          "gloss_en": "to the point of exhaustion"
+        },
+        {
+          "phrase": "völlige Erschöpfung",
+          "gloss_en": "complete exhaustion"
+        },
+        {
+          "phrase": "vor Erschöpfung zusammenbrechen",
+          "gloss_en": "to collapse from exhaustion"
+        },
+        {
+          "phrase": "chronische Erschöpfung",
+          "gloss_en": "chronic fatigue"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Prüfungsphase fiel sie in tiefe Erschöpfung.",
+          "en": "After the exam period she fell into deep exhaustion."
+        },
+        {
+          "de": "Anhaltende Erschöpfung sollte man ärztlich abklären lassen.",
+          "en": "Persistent exhaustion should be checked by a doctor."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl körperlich als auch seelisch (emotionale Erschöpfung).",
+      "near_synonyms": [
+        {
+          "lemma": "die Müdigkeit",
+          "distinction": "leichter und vorübergehend, kein völliger Zusammenbruch"
+        },
+        {
+          "lemma": "die Ermattung",
+          "distinction": "gehobener, betont das allmähliche Nachlassen der Kraft"
+        }
+      ]
+    },
+    "Verunsicherung": {
+      "meaning_de": "der Zustand, in dem man sich unsicher und in seinem Urteil erschüttert fühlt",
+      "meaning_en": "uncertainty; insecurity; unsettlement",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verunsicherung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "große Verunsicherung auslösen",
+          "gloss_en": "to cause great uncertainty"
+        },
+        {
+          "phrase": "die Verunsicherung wächst",
+          "gloss_en": "the sense of uncertainty is growing"
+        },
+        {
+          "phrase": "allgemeine Verunsicherung",
+          "gloss_en": "general unsettlement"
+        },
+        {
+          "phrase": "der Verunsicherung entgegenwirken",
+          "gloss_en": "to counteract the uncertainty"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die widersprüchlichen Berichte sorgten für allgemeine Verunsicherung.",
+          "en": "The contradictory reports caused general uncertainty."
+        },
+        {
+          "de": "In seiner Stimme lag eine deutliche Verunsicherung.",
+          "en": "There was clear insecurity in his voice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; oft im gesellschaftlichen wie im persönlichen Sinn.",
+      "near_synonyms": [
+        {
+          "lemma": "die Unsicherheit",
+          "distinction": "der Zustand selbst, ohne den Akzent des Ausgelöstwerdens"
+        },
+        {
+          "lemma": "die Verwirrung",
+          "distinction": "eher die geistige Desorientierung als das Erschütterte Selbstvertrauen"
+        }
+      ]
+    },
+    "Selbstwertgefühl": {
+      "meaning_de": "das Gefühl für den eigenen Wert und die Zufriedenheit mit sich selbst",
+      "meaning_en": "self-esteem; sense of self-worth",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Selbstwertgefühls"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein geringes Selbstwertgefühl",
+          "gloss_en": "low self-esteem"
+        },
+        {
+          "phrase": "das Selbstwertgefühl stärken",
+          "gloss_en": "to boost self-esteem"
+        },
+        {
+          "phrase": "am Selbstwertgefühl kratzen",
+          "gloss_en": "to dent someone's self-esteem"
+        },
+        {
+          "phrase": "ein stabiles Selbstwertgefühl",
+          "gloss_en": "a stable sense of self-worth"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ständige Kritik untergräbt das Selbstwertgefühl.",
+          "en": "Constant criticism undermines one's self-esteem."
+        },
+        {
+          "de": "Ihr gesundes Selbstwertgefühl ließ sie die Absage gut verkraften.",
+          "en": "Her healthy self-esteem helped her cope with the rejection."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Psychologie und Alltagssprache gleichermaßen verbreitet.",
+      "near_synonyms": [
+        {
+          "lemma": "das Selbstbewusstsein",
+          "distinction": "betont mehr das sichere Auftreten nach außen"
+        },
+        {
+          "lemma": "der Selbstwert",
+          "distinction": "der zugrunde liegende Wert selbst, nüchterner"
+        }
+      ]
+    },
+    "Kränkung": {
+      "meaning_de": "eine Verletzung des Selbstwertgefühls durch Worte oder Verhalten",
+      "meaning_en": "insult; hurt; slight",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kränkung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kränkungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine tiefe Kränkung",
+          "gloss_en": "a deep hurt"
+        },
+        {
+          "phrase": "eine Kränkung verwinden",
+          "gloss_en": "to get over a slight"
+        },
+        {
+          "phrase": "als Kränkung empfinden",
+          "gloss_en": "to perceive as an insult"
+        },
+        {
+          "phrase": "narzisstische Kränkung",
+          "gloss_en": "narcissistic injury"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die abfällige Bemerkung war für ihn eine schwere Kränkung.",
+          "en": "The derogatory remark was a serious insult to him."
+        },
+        {
+          "de": "Alte Kränkungen wirken oft noch Jahre nach.",
+          "en": "Old hurts often continue to have an effect for years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; das Substantiv zu kränken, betont die seelische Verletzung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Beleidigung",
+          "distinction": "stärker die bewusste, oft grobe Herabsetzung"
+        },
+        {
+          "lemma": "die Verletzung",
+          "distinction": "allgemeiner, auch körperlich zu verstehen"
+        }
+      ]
+    },
+    "Argwohn": {
+      "meaning_de": "ein schwer zu zerstreuendes Misstrauen, dass jemand Böses im Schilde führt",
+      "meaning_en": "suspicion; distrust; wariness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Argwohns"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Argwohn gegen jemanden",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Argwohn erregen",
+          "gloss_en": "to arouse suspicion"
+        },
+        {
+          "phrase": "mit Argwohn betrachten",
+          "gloss_en": "to regard with suspicion"
+        },
+        {
+          "phrase": "jemandes Argwohn wecken",
+          "gloss_en": "to arouse someone's suspicion"
+        },
+        {
+          "phrase": "voller Argwohn",
+          "gloss_en": "full of suspicion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sein plötzlicher Reichtum weckte den Argwohn der Nachbarn.",
+          "en": "His sudden wealth aroused the neighbours' suspicion."
+        },
+        {
+          "de": "Sie beobachtete den Fremden mit wachsendem Argwohn.",
+          "en": "She watched the stranger with growing suspicion."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und literarisch; förmlicher als das alltägliche Misstrauen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Misstrauen",
+          "distinction": "neutraler und alltäglicher, weniger zugespitzt"
+        },
+        {
+          "lemma": "der Verdacht",
+          "distinction": "konkreter auf eine bestimmte Tat oder Person gerichtet"
+        }
+      ]
+    },
+    "Misstrauen": {
+      "meaning_de": "das mangelnde Vertrauen und die Erwartung, getäuscht zu werden",
+      "meaning_en": "mistrust; distrust",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Misstrauens"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Misstrauen gegen jemanden",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Misstrauen hegen",
+          "gloss_en": "to harbour mistrust"
+        },
+        {
+          "phrase": "Misstrauen säen",
+          "gloss_en": "to sow distrust"
+        },
+        {
+          "phrase": "tiefes Misstrauen",
+          "gloss_en": "deep mistrust"
+        },
+        {
+          "phrase": "das gegenseitige Misstrauen",
+          "gloss_en": "mutual mistrust"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen den beiden Ländern herrscht tiefes Misstrauen.",
+          "en": "There is deep mistrust between the two countries."
+        },
+        {
+          "de": "Ihr ständiges Nachfragen zeugte von Misstrauen.",
+          "en": "Her constant questioning betrayed a distrust."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglich wie in politischen Kontexten (Misstrauensvotum).",
+      "near_synonyms": [
+        {
+          "lemma": "der Argwohn",
+          "distinction": "gehobener und zugespitzter, oft mit dem Verdacht böser Absicht"
+        },
+        {
+          "lemma": "der Zweifel",
+          "distinction": "richtet sich auf die Richtigkeit einer Sache, nicht auf Personen"
+        }
+      ]
+    },
+    "Abneigung": {
+      "meaning_de": "ein deutliches Gefühl der Ablehnung gegenüber jemandem oder etwas",
+      "meaning_en": "aversion; dislike; distaste",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Abneigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abneigungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Abneigung gegen jemanden",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine tiefe Abneigung",
+          "gloss_en": "a deep aversion"
+        },
+        {
+          "phrase": "Abneigung empfinden",
+          "gloss_en": "to feel aversion"
+        },
+        {
+          "phrase": "seine Abneigung überwinden",
+          "gloss_en": "to overcome one's dislike"
+        },
+        {
+          "phrase": "eine instinktive Abneigung",
+          "gloss_en": "an instinctive dislike"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er hegte eine tiefe Abneigung gegen jede Form von Heuchelei.",
+          "en": "He harboured a deep aversion to any form of hypocrisy."
+        },
+        {
+          "de": "Ihre Abneigung gegeneinander war von Anfang an spürbar.",
+          "en": "Their mutual dislike was noticeable from the start."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; etwas gehobener als das schlichte nicht mögen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Widerwille",
+          "distinction": "stärker, oft mit körperlichem Ekel verbunden"
+        },
+        {
+          "lemma": "die Antipathie",
+          "distinction": "bildungssprachlich, meist auf Personen bezogen"
+        }
+      ]
+    },
+    "Übersprungshandlung": {
+      "meaning_de": "eine unpassende Ersatzhandlung, die in einer Konfliktsituation die Spannung ableitet",
+      "meaning_en": "displacement activity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Übersprungshandlung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Übersprungshandlungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine typische Übersprungshandlung",
+          "gloss_en": "a typical displacement activity"
+        },
+        {
+          "phrase": "als Übersprungshandlung deuten",
+          "gloss_en": "to interpret as a displacement activity"
+        },
+        {
+          "phrase": "in Übersprungshandlungen flüchten",
+          "gloss_en": "to escape into displacement activities"
+        },
+        {
+          "phrase": "eine unbewusste Übersprungshandlung",
+          "gloss_en": "an unconscious displacement activity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das nervöse Aufräumen vor der Prüfung war eine klassische Übersprungshandlung.",
+          "en": "The nervous tidying before the exam was a classic displacement activity."
+        },
+        {
+          "de": "In der Verhaltensforschung sind Übersprungshandlungen gut dokumentiert.",
+          "en": "In behavioural research, displacement activities are well documented."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; Terminus aus Verhaltensbiologie und Psychologie.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ersatzhandlung",
+          "distinction": "allgemeiner, jede stellvertretende Handlung, ohne den Konfliktakzent"
+        },
+        {
+          "lemma": "die Verlegenheitsgeste",
+          "distinction": "kleiner und äußerlicher, meist nur ein Zeichen der Unsicherheit"
+        }
+      ]
+    },
+    "Verinnerlichung": {
+      "meaning_de": "das Übernehmen von Werten oder Normen, sodass sie zum eigenen Empfinden werden",
+      "meaning_en": "internalization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verinnerlichung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verinnerlichungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Verinnerlichung von Werten",
+          "gloss_en": "the internalization of values"
+        },
+        {
+          "phrase": "die Verinnerlichung sozialer Normen",
+          "gloss_en": "the internalization of social norms"
+        },
+        {
+          "phrase": "durch Verinnerlichung",
+          "gloss_en": "through internalization"
+        },
+        {
+          "phrase": "die frühe Verinnerlichung",
+          "gloss_en": "early internalization"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Verinnerlichung moralischer Regeln beginnt schon in der Kindheit.",
+          "en": "The internalization of moral rules begins in childhood."
+        },
+        {
+          "de": "Erst durch Verinnerlichung wird eine Norm wirklich handlungsleitend.",
+          "en": "Only through internalization does a norm truly guide behaviour."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; in Psychologie, Pädagogik und Soziologie gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aneignung",
+          "distinction": "allgemeiner, auch das Sich-Zu-eigen-Machen von Wissen oder Fertigkeiten"
+        },
+        {
+          "lemma": "die Übernahme",
+          "distinction": "neutraler, betont nicht das tiefe Zu-eigen-Werden"
+        }
+      ]
+    },
+    "Impulskontrolle": {
+      "meaning_de": "die Fähigkeit, spontane Impulse zu steuern und nicht sofort auszuleben",
+      "meaning_en": "impulse control",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Impulskontrolle"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine gute Impulskontrolle",
+          "gloss_en": "good impulse control"
+        },
+        {
+          "phrase": "die Impulskontrolle verlieren",
+          "gloss_en": "to lose impulse control"
+        },
+        {
+          "phrase": "eine gestörte Impulskontrolle",
+          "gloss_en": "impaired impulse control"
+        },
+        {
+          "phrase": "die Impulskontrolle trainieren",
+          "gloss_en": "to train impulse control"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Kinder lernen Impulskontrolle erst nach und nach.",
+          "en": "Children learn impulse control only gradually."
+        },
+        {
+          "de": "Bei Stress lässt seine Impulskontrolle merklich nach.",
+          "en": "Under stress his impulse control noticeably weakens."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; Begriff aus der Psychologie und Verhaltenstherapie.",
+      "near_synonyms": [
+        {
+          "lemma": "die Selbstbeherrschung",
+          "distinction": "alltäglicher und breiter, nicht nur auf Impulse bezogen"
+        },
+        {
+          "lemma": "die Selbstkontrolle",
+          "distinction": "umfassender, schließt langfristige Steuerung mit ein"
+        }
+      ]
+    },
+    "Selbstbeherrschung": {
+      "meaning_de": "die Fähigkeit, Gefühle und Reaktionen bewusst zu zügeln",
+      "meaning_en": "self-control; self-restraint",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Selbstbeherrschung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Selbstbeherrschung verlieren",
+          "gloss_en": "to lose one's self-control"
+        },
+        {
+          "phrase": "eiserne Selbstbeherrschung",
+          "gloss_en": "iron self-control"
+        },
+        {
+          "phrase": "Selbstbeherrschung bewahren",
+          "gloss_en": "to maintain self-control"
+        },
+        {
+          "phrase": "mit großer Selbstbeherrschung",
+          "gloss_en": "with great self-restraint"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nur mit großer Selbstbeherrschung blieb sie ruhig.",
+          "en": "Only with great self-control did she stay calm."
+        },
+        {
+          "de": "Bei der Provokation verlor er beinahe die Selbstbeherrschung.",
+          "en": "At the provocation he nearly lost his self-control."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; positiv besetzt, betont bewusste Zügelung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Impulskontrolle",
+          "distinction": "fachsprachlicher, enger auf spontane Impulse bezogen"
+        },
+        {
+          "lemma": "die Disziplin",
+          "distinction": "eher das dauerhafte, geregelte Verhalten als der akute Moment"
+        }
+      ]
+    },
+    "Triebfeder": {
+      "meaning_de": "der eigentliche Beweggrund, der eine Entwicklung oder Handlung vorantreibt",
+      "meaning_en": "driving force; mainspring; motive",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Triebfeder"
+        },
+        {
+          "label": "Plural",
+          "value": "die Triebfedern"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Triebfeder für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die treibende Triebfeder",
+          "gloss_en": "the driving motive"
+        },
+        {
+          "phrase": "die wahre Triebfeder",
+          "gloss_en": "the true driving force"
+        },
+        {
+          "phrase": "die Triebfeder des Fortschritts",
+          "gloss_en": "the mainspring of progress"
+        },
+        {
+          "phrase": "als Triebfeder dienen",
+          "gloss_en": "to serve as a driving force"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Neugier war die eigentliche Triebfeder seiner Forschung.",
+          "en": "Curiosity was the real driving force behind his research."
+        },
+        {
+          "de": "Angst kann eine mächtige Triebfeder des Handelns sein.",
+          "en": "Fear can be a powerful motive for action."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und bildhaft; ursprünglich die Feder im Uhrwerk, heute meist übertragen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Antrieb",
+          "distinction": "neutraler und breiter, auch für innere Energie allgemein"
+        },
+        {
+          "lemma": "der Beweggrund",
+          "distinction": "der einzelne Grund einer Handlung, weniger die vorantreibende Kraft"
+        }
+      ]
+    },
+    "Gemütszustand": {
+      "meaning_de": "die augenblickliche seelische Verfassung eines Menschen",
+      "meaning_en": "state of mind; mood; frame of mind",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gemütszustands"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gemütszustände"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein ausgeglichener Gemütszustand",
+          "gloss_en": "a balanced state of mind"
+        },
+        {
+          "phrase": "der schwankende Gemütszustand",
+          "gloss_en": "the fluctuating mood"
+        },
+        {
+          "phrase": "sich in einem schlechten Gemütszustand befinden",
+          "gloss_en": "to be in a bad frame of mind"
+        },
+        {
+          "phrase": "der seelische Gemütszustand",
+          "gloss_en": "the emotional state"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Gemütszustand besserte sich mit dem Frühling merklich.",
+          "en": "Her state of mind improved noticeably with spring."
+        },
+        {
+          "de": "In diesem aufgewühlten Gemütszustand traf er die Entscheidung.",
+          "en": "He made the decision in this agitated frame of mind."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; etwas förmlicher als das alltägliche Stimmung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Stimmung",
+          "distinction": "alltäglicher und flüchtiger, oft situativ"
+        },
+        {
+          "lemma": "die Gemütslage",
+          "distinction": "fast bedeutungsgleich, betont die längerfristige Verfassung"
+        }
+      ]
+    },
+    "Zwangsvorstellung": {
+      "meaning_de": "ein aufdrängender, nicht abstellbarer Gedanke, der als quälend erlebt wird",
+      "meaning_en": "obsession; obsessive thought",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zwangsvorstellung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zwangsvorstellungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter Zwangsvorstellungen leiden",
+          "gloss_en": "to suffer from obsessive thoughts"
+        },
+        {
+          "phrase": "eine quälende Zwangsvorstellung",
+          "gloss_en": "a tormenting obsession"
+        },
+        {
+          "phrase": "sich zu einer Zwangsvorstellung steigern",
+          "gloss_en": "to escalate into an obsession"
+        },
+        {
+          "phrase": "wiederkehrende Zwangsvorstellungen",
+          "gloss_en": "recurring obsessive thoughts"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Angst vor Krankheiten wurde ihm zur Zwangsvorstellung.",
+          "en": "The fear of illness became an obsession for him."
+        },
+        {
+          "de": "Zwangsvorstellungen lassen sich mit einer Therapie oft gut behandeln.",
+          "en": "Obsessive thoughts can often be treated well with therapy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; klinischer Begriff, aber auch alltäglich übertragen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Besessenheit",
+          "distinction": "eher das leidenschaftliche Beherrschtsein, weniger klinisch"
+        },
+        {
+          "lemma": "die fixe Idee",
+          "distinction": "umgangssprachlicher, betont die unumstößliche Überzeugung"
+        }
+      ]
+    },
+    "Selbsttäuschung": {
+      "meaning_de": "das unbewusste Belügen seiner selbst über die eigene Lage oder die eigenen Motive",
+      "meaning_en": "self-deception; self-delusion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Selbsttäuschung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Selbsttäuschungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine bewusste Selbsttäuschung",
+          "gloss_en": "a conscious self-deception"
+        },
+        {
+          "phrase": "sich einer Selbsttäuschung hingeben",
+          "gloss_en": "to indulge in self-deception"
+        },
+        {
+          "phrase": "die Selbsttäuschung durchschauen",
+          "gloss_en": "to see through the self-deception"
+        },
+        {
+          "phrase": "eine Form der Selbsttäuschung",
+          "gloss_en": "a form of self-deception"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Glaube, alles im Griff zu haben, war reine Selbsttäuschung.",
+          "en": "The belief that he had everything under control was pure self-deception."
+        },
+        {
+          "de": "Manchmal schützt uns eine kleine Selbsttäuschung vor der harten Wahrheit.",
+          "en": "Sometimes a little self-deception protects us from the harsh truth."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; reflektierend, oft in psychologischen und philosophischen Texten.",
+      "near_synonyms": [
+        {
+          "lemma": "die Illusion",
+          "distinction": "die falsche Vorstellung selbst, ohne den Akt des Sich-Täuschens"
+        },
+        {
+          "lemma": "die Verdrängung",
+          "distinction": "das Fernhalten von Unangenehmem, nicht das aktive Sich-Belügen"
+        }
+      ]
+    },
+    "Gruppendynamik": {
+      "meaning_de": "die Wechselwirkungen und Kräfte, die das Verhalten in einer Gruppe bestimmen",
+      "meaning_en": "group dynamics",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gruppendynamik"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Gruppendynamik verstehen",
+          "gloss_en": "to understand group dynamics"
+        },
+        {
+          "phrase": "eine gefährliche Gruppendynamik",
+          "gloss_en": "a dangerous group dynamic"
+        },
+        {
+          "phrase": "die Gruppendynamik entwickelt eine Eigendynamik",
+          "gloss_en": "the group dynamic takes on a momentum of its own"
+        },
+        {
+          "phrase": "die positive Gruppendynamik nutzen",
+          "gloss_en": "to harness the positive group dynamic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Krise entwickelte das Team eine erstaunliche Gruppendynamik.",
+          "en": "In the crisis the team developed a remarkable group dynamic."
+        },
+        {
+          "de": "Eine ungesunde Gruppendynamik kann Einzelne stark unter Druck setzen.",
+          "en": "An unhealthy group dynamic can put individuals under great pressure."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; aus der Sozialpsychologie, heute breit gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Gruppenverhalten",
+          "distinction": "beschreibend, das Verhalten selbst statt der wirkenden Kräfte"
+        },
+        {
+          "lemma": "der Gruppenzwang",
+          "distinction": "nur der Druck zur Anpassung, ein Teilaspekt"
+        }
+      ]
+    },
+    "verdrängen": {
+      "meaning_de": "etwas Unangenehmes unbewusst aus dem Bewusstsein fernhalten; auch: jemanden von einem Platz drängen",
+      "meaning_en": "to repress; to suppress; to displace",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verdrängt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verdrängte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verdrängt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verdrängte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verdrängen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Trauma verdrängen",
+          "gloss_en": "to repress a trauma"
+        },
+        {
+          "phrase": "die Wahrheit verdrängen",
+          "gloss_en": "to suppress the truth"
+        },
+        {
+          "phrase": "Ängste verdrängen",
+          "gloss_en": "to repress fears"
+        },
+        {
+          "phrase": "einen Konkurrenten vom Markt verdrängen",
+          "gloss_en": "to push a competitor out of the market"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er verdrängte die schmerzhaften Erinnerungen jahrelang.",
+          "en": "He repressed the painful memories for years."
+        },
+        {
+          "de": "Verdrängte Konflikte kommen früher oder später wieder hoch.",
+          "en": "Repressed conflicts resurface sooner or later."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im psychologischen Sinn ein Fachbegriff (Verdrängung), sonst auch konkret räumlich.",
+      "near_synonyms": [
+        {
+          "lemma": "unterdrücken",
+          "distinction": "eher das bewusste Zurückhalten, nicht das unbewusste Fernhalten"
+        },
+        {
+          "lemma": "vergessen",
+          "distinction": "das bloße Nichtmehrwissen, ohne den Abwehrcharakter"
+        }
+      ]
+    },
+    "wahrnehmen": {
+      "meaning_de": "etwas mit den Sinnen oder dem Verstand erfassen; auch: eine Gelegenheit nutzen",
+      "meaning_en": "to perceive; to notice; to take up (an opportunity)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er nimmt wahr"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er nahm wahr"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat wahrgenommen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er nähme wahr"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas wahrnehmen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Termin wahrnehmen",
+          "gloss_en": "to keep an appointment"
+        },
+        {
+          "phrase": "eine Chance wahrnehmen",
+          "gloss_en": "to seize an opportunity"
+        },
+        {
+          "phrase": "seine Interessen wahrnehmen",
+          "gloss_en": "to look after one's interests"
+        },
+        {
+          "phrase": "etwas bewusst wahrnehmen",
+          "gloss_en": "to perceive something consciously"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Augenwinkel nahm sie eine Bewegung wahr.",
+          "en": "Out of the corner of her eye she noticed a movement."
+        },
+        {
+          "de": "Bitte nehmen Sie den vereinbarten Termin unbedingt wahr.",
+          "en": "Please be sure to keep the agreed appointment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; die Bedeutungen Sinne und Gelegenheit/Interessen sind gleichermaßen üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "bemerken",
+          "distinction": "nur das Registrieren, nicht das Nutzen einer Gelegenheit"
+        },
+        {
+          "lemma": "erfassen",
+          "distinction": "betont stärker das gedankliche Begreifen"
+        }
+      ]
+    },
+    "empfinden": {
+      "meaning_de": "etwas gefühlsmäßig erleben oder als etwas Bestimmtes auffassen",
+      "meaning_en": "to feel; to sense; to perceive (as)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er empfindet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er empfand"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat empfunden"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er empfände"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas als etwas empfinden",
+          "cases": "Akk. + als"
+        },
+        {
+          "pattern": "etwas für jemanden empfinden",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Freude empfinden",
+          "gloss_en": "to feel joy"
+        },
+        {
+          "phrase": "etwas als Belastung empfinden",
+          "gloss_en": "to perceive something as a burden"
+        },
+        {
+          "phrase": "Mitleid empfinden",
+          "gloss_en": "to feel pity"
+        },
+        {
+          "phrase": "tiefe Zuneigung empfinden",
+          "gloss_en": "to feel deep affection"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie empfand die Bemerkung als verletzend.",
+          "en": "She perceived the remark as hurtful."
+        },
+        {
+          "de": "Er empfand keinerlei Reue.",
+          "en": "He felt no remorse whatsoever."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; feiner und reflektierter als das schlichte fühlen.",
+      "near_synonyms": [
+        {
+          "lemma": "fühlen",
+          "distinction": "alltäglicher, oft auch körperlich und unmittelbar"
+        },
+        {
+          "lemma": "verspüren",
+          "distinction": "betont das plötzliche Aufkommen eines Gefühls oder Bedürfnisses"
+        }
+      ]
+    },
+    "kränken": {
+      "meaning_de": "jemanden durch Worte oder Verhalten in seinem Selbstwertgefühl verletzen",
+      "meaning_en": "to hurt; to offend; to wound (someone's feelings)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er kränkt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er kränkte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gekränkt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er kränkte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden kränken",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemanden zutiefst kränken",
+          "gloss_en": "to hurt someone deeply"
+        },
+        {
+          "phrase": "gekränkt sein",
+          "gloss_en": "to feel hurt"
+        },
+        {
+          "phrase": "gekränkte Eitelkeit",
+          "gloss_en": "wounded vanity"
+        },
+        {
+          "phrase": "sich gekränkt fühlen",
+          "gloss_en": "to feel offended"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit dieser Bemerkung hat er sie tief gekränkt.",
+          "en": "With that remark he hurt her deeply."
+        },
+        {
+          "de": "Sie war so gekränkt, dass sie tagelang nicht mit ihm sprach.",
+          "en": "She was so offended that she didn't speak to him for days."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; zielt auf die seelische Verletzung, nicht auf grobe Beschimpfung.",
+      "near_synonyms": [
+        {
+          "lemma": "verletzen",
+          "distinction": "allgemeiner, auch körperlich zu verstehen"
+        },
+        {
+          "lemma": "beleidigen",
+          "distinction": "stärker die aktive, oft grobe Herabsetzung"
+        }
+      ]
+    },
+    "entfremden": {
+      "meaning_de": "die innere Verbindung zu jemandem oder etwas verlieren lassen; sich fremd werden",
+      "meaning_en": "to alienate; to estrange",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entfremdet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entfremdete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entfremdet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entfremdete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich jemandem entfremden",
+          "cases": "Dat."
+        },
+        {
+          "pattern": "jemanden von jemandem entfremden",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich einander entfremden",
+          "gloss_en": "to grow apart"
+        },
+        {
+          "phrase": "sich seiner Familie entfremden",
+          "gloss_en": "to become estranged from one's family"
+        },
+        {
+          "phrase": "entfremdete Arbeit",
+          "gloss_en": "alienated labour"
+        },
+        {
+          "phrase": "sich der Heimat entfremden",
+          "gloss_en": "to grow estranged from one's homeland"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Über die Jahre hatten sich die beiden völlig entfremdet.",
+          "en": "Over the years the two had become completely estranged."
+        },
+        {
+          "de": "Die lange Reise entfremdete ihn seinen alten Freunden.",
+          "en": "The long journey estranged him from his old friends."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft reflexiv, in der Philosophie auch als Terminus (Entfremdung).",
+      "near_synonyms": [
+        {
+          "lemma": "sich distanzieren",
+          "distinction": "bewusster und aktiver, oft aus Überzeugung"
+        },
+        {
+          "lemma": "auseinanderleben",
+          "distinction": "umgangssprachlicher, betont die allmähliche Trennung im Alltag"
+        }
+      ]
+    },
+    "konditionieren": {
+      "meaning_de": "durch wiederholte Reize ein bestimmtes Verhalten oder eine Reaktion einüben",
+      "meaning_en": "to condition",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er konditioniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er konditionierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat konditioniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er konditionierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden auf etwas konditionieren",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Reflex konditionieren",
+          "gloss_en": "to condition a reflex"
+        },
+        {
+          "phrase": "auf einen Reiz konditionieren",
+          "gloss_en": "to condition to a stimulus"
+        },
+        {
+          "phrase": "klassisch konditionieren",
+          "gloss_en": "to classically condition"
+        },
+        {
+          "phrase": "anerzogen und konditioniert",
+          "gloss_en": "trained and conditioned"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Pawlow konditionierte seine Hunde auf das Läuten einer Glocke.",
+          "en": "Pavlov conditioned his dogs to the ringing of a bell."
+        },
+        {
+          "de": "Wir sind darauf konditioniert, auf Belohnungen zu reagieren.",
+          "en": "We are conditioned to respond to rewards."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; Terminus der Lernpsychologie, oft im Passiv.",
+      "near_synonyms": [
+        {
+          "lemma": "abrichten",
+          "distinction": "auf Tiere bezogen, betont den Drill"
+        },
+        {
+          "lemma": "prägen",
+          "distinction": "allgemeiner, das nachhaltige Formen, nicht der Reiz-Reaktion-Mechanismus"
+        }
+      ]
+    },
+    "verunsichern": {
+      "meaning_de": "jemanden unsicher machen und in seinem Urteil oder Selbstvertrauen erschüttern",
+      "meaning_en": "to unsettle; to make insecure; to disconcert",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verunsichert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verunsicherte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verunsichert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verunsicherte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden verunsichern",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Anleger verunsichern",
+          "gloss_en": "to unsettle investors"
+        },
+        {
+          "phrase": "zutiefst verunsichert sein",
+          "gloss_en": "to be deeply unsettled"
+        },
+        {
+          "phrase": "sich verunsichern lassen",
+          "gloss_en": "to let oneself be thrown off"
+        },
+        {
+          "phrase": "widersprüchliche Signale verunsichern",
+          "gloss_en": "contradictory signals unsettle"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die ständigen Regeländerungen verunsichern die Beschäftigten.",
+          "en": "The constant rule changes unsettle the employees."
+        },
+        {
+          "de": "Lass dich von seiner Kritik nicht verunsichern.",
+          "en": "Don't let his criticism throw you off."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; häufig im Passiv oder reflexiv (sich verunsichern lassen).",
+      "near_synonyms": [
+        {
+          "lemma": "irritieren",
+          "distinction": "leichter, eher kurzzeitiges Befremden als tiefe Erschütterung"
+        },
+        {
+          "lemma": "einschüchtern",
+          "distinction": "zielt auf Angst und Unterlegenheit, nicht nur auf Unsicherheit"
+        }
+      ]
+    },
+    "resignieren": {
+      "meaning_de": "aus Enttäuschung aufgeben und sich mutlos in etwas fügen",
+      "meaning_en": "to give up; to resign oneself; to become resigned",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er resigniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er resignierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat resigniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er resignierte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "innerlich resignieren",
+          "gloss_en": "to become inwardly resigned"
+        },
+        {
+          "phrase": "völlig resigniert",
+          "gloss_en": "utterly resigned"
+        },
+        {
+          "phrase": "resigniert aufgeben",
+          "gloss_en": "to give up in resignation"
+        },
+        {
+          "phrase": "mit einem resignierten Seufzer",
+          "gloss_en": "with a resigned sigh"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach vielen vergeblichen Versuchen resignierte er schließlich.",
+          "en": "After many futile attempts he finally gave up."
+        },
+        {
+          "de": "Man sah ihr an, dass sie längst resigniert hatte.",
+          "en": "You could tell she had long since given up."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; anders als das englische resign nie zurücktreten, sondern aufgeben.",
+      "near_synonyms": [
+        {
+          "lemma": "aufgeben",
+          "distinction": "neutraler und breiter, nicht zwingend aus Mutlosigkeit"
+        },
+        {
+          "lemma": "kapitulieren",
+          "distinction": "betont das endgültige Sich-Geschlagen-Geben"
+        }
+      ]
+    },
+    "grübeln": {
+      "meaning_de": "lange und quälend über etwas nachdenken, ohne zu einem Ergebnis zu kommen",
+      "meaning_en": "to brood; to ruminate; to ponder",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er grübelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er grübelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gegrübelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er grübelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "über etwas grübeln",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "über ein Problem grübeln",
+          "gloss_en": "to brood over a problem"
+        },
+        {
+          "phrase": "stundenlang grübeln",
+          "gloss_en": "to ponder for hours"
+        },
+        {
+          "phrase": "vor sich hin grübeln",
+          "gloss_en": "to brood to oneself"
+        },
+        {
+          "phrase": "ins Grübeln geraten",
+          "gloss_en": "to fall to brooding"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nachts liegt sie oft wach und grübelt über die Zukunft.",
+          "en": "At night she often lies awake brooding over the future."
+        },
+        {
+          "de": "Grüble nicht so viel, das führt zu nichts.",
+          "en": "Don't brood so much, it gets you nowhere."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; anders als überlegen betont es das erfolglose, kreisende Denken.",
+      "near_synonyms": [
+        {
+          "lemma": "brüten",
+          "distinction": "umgangssprachlicher, oft über einer konkreten Aufgabe"
+        },
+        {
+          "lemma": "nachdenken",
+          "distinction": "neutral und ergebnisoffen, ohne den quälenden Beiklang"
+        }
+      ]
+    },
+    "hadern": {
+      "meaning_de": "mit jemandem oder etwas unzufrieden ringen und darüber klagen",
+      "meaning_en": "to be at odds with; to quarrel with; to struggle with (one's fate)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er hadert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er haderte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gehadert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er haderte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "mit etwas hadern",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "mit dem Schicksal hadern",
+          "gloss_en": "to struggle with one's fate"
+        },
+        {
+          "phrase": "mit sich selbst hadern",
+          "gloss_en": "to be at odds with oneself"
+        },
+        {
+          "phrase": "mit einer Entscheidung hadern",
+          "gloss_en": "to agonize over a decision"
+        },
+        {
+          "phrase": "mit dem Leben hadern",
+          "gloss_en": "to be at odds with life"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Lange haderte sie mit ihrer Entscheidung, gekündigt zu haben.",
+          "en": "For a long time she agonized over her decision to have quit."
+        },
+        {
+          "de": "Es bringt nichts, mit dem Vergangenen zu hadern.",
+          "en": "There is no point in quarrelling with the past."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und literarisch; fast immer mit der Präposition mit.",
+      "near_synonyms": [
+        {
+          "lemma": "ringen",
+          "distinction": "betont das aktive Kämpfen, nicht die klagende Unzufriedenheit"
+        },
+        {
+          "lemma": "sich auflehnen",
+          "distinction": "aktiver Widerstand, nicht bloß das innere Hadern"
+        }
+      ]
+    },
+    "empfänglich": {
+      "meaning_de": "offen und leicht ansprechbar für Einflüsse, Reize oder Eindrücke",
+      "meaning_en": "receptive; susceptible; open to",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "empfänglicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am empfänglichsten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "empfänglich für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "empfänglich für Lob",
+          "gloss_en": "receptive to praise"
+        },
+        {
+          "phrase": "empfänglich für Schmeicheleien",
+          "gloss_en": "susceptible to flattery"
+        },
+        {
+          "phrase": "empfänglich für Kritik",
+          "gloss_en": "open to criticism"
+        },
+        {
+          "phrase": "leicht empfänglich sein",
+          "gloss_en": "to be easily influenced"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In dieser Stimmung war er besonders empfänglich für Trost.",
+          "en": "In this mood he was especially receptive to comfort."
+        },
+        {
+          "de": "Kinder sind sehr empfänglich für die Stimmungen ihrer Eltern.",
+          "en": "Children are very susceptible to their parents' moods."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; fast immer mit für, positiv wie negativ verwendbar.",
+      "near_synonyms": [
+        {
+          "lemma": "aufgeschlossen",
+          "distinction": "aktiver und wertend positiv, betont die geistige Offenheit"
+        },
+        {
+          "lemma": "anfällig",
+          "distinction": "meist negativ, eher für Schwächen und Krankheiten"
+        }
+      ]
+    },
+    "unterschwellig": {
+      "meaning_de": "unter der Schwelle des Bewusstseins wirkend; nicht offen, aber spürbar",
+      "meaning_en": "subliminal; subconscious; underlying",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine unterschwellige Botschaft",
+          "gloss_en": "a subliminal message"
+        },
+        {
+          "phrase": "unterschwellige Aggression",
+          "gloss_en": "underlying aggression"
+        },
+        {
+          "phrase": "unterschwellig wirken",
+          "gloss_en": "to work subliminally"
+        },
+        {
+          "phrase": "eine unterschwellige Anspielung",
+          "gloss_en": "a veiled allusion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen den beiden lag eine unterschwellige Spannung.",
+          "en": "There was an underlying tension between the two of them."
+        },
+        {
+          "de": "Werbung wirkt oft unterschwellig auf unsere Entscheidungen.",
+          "en": "Advertising often works subliminally on our decisions."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; beschreibt Wirkungen unterhalb der bewussten Wahrnehmung.",
+      "near_synonyms": [
+        {
+          "lemma": "unterbewusst",
+          "distinction": "verortet das Geschehen im Unbewussten, nicht seine schwache Wirkung"
+        },
+        {
+          "lemma": "latent",
+          "distinction": "betont das Verborgen-Vorhandene, das noch nicht hervortritt"
+        }
+      ]
+    },
+    "feinfühlig": {
+      "meaning_de": "mit einem feinen Gespür für die Gefühle und Stimmungen anderer",
+      "meaning_en": "sensitive; tactful; delicate (in feeling)",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "feinfühliger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am feinfühligsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "feinfühlig reagieren",
+          "gloss_en": "to react sensitively"
+        },
+        {
+          "phrase": "ein feinfühliger Umgang",
+          "gloss_en": "a tactful manner"
+        },
+        {
+          "phrase": "feinfühlig auf jemanden eingehen",
+          "gloss_en": "to respond sensitively to someone"
+        },
+        {
+          "phrase": "besonders feinfühlig sein",
+          "gloss_en": "to be especially sensitive"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ging feinfühlig auf die Sorgen des Patienten ein.",
+          "en": "She responded sensitively to the patient's worries."
+        },
+        {
+          "de": "Es braucht einen feinfühligen Menschen, um so etwas anzusprechen.",
+          "en": "It takes a sensitive person to bring something like that up."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; durchweg positiv, betont das taktvolle Gespür.",
+      "near_synonyms": [
+        {
+          "lemma": "einfühlsam",
+          "distinction": "betont stärker das Sich-Hineinversetzen in andere"
+        },
+        {
+          "lemma": "taktvoll",
+          "distinction": "eher das rücksichtsvolle Verhalten als das feine Gespür"
+        }
+      ]
+    },
+    "empathisch": {
+      "meaning_de": "fähig und bereit, sich in die Gefühle anderer einzufühlen",
+      "meaning_en": "empathetic; empathic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "empathischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am empathischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "empathisch zuhören",
+          "gloss_en": "to listen empathetically"
+        },
+        {
+          "phrase": "ein empathischer Mensch",
+          "gloss_en": "an empathetic person"
+        },
+        {
+          "phrase": "empathisch auf jemanden reagieren",
+          "gloss_en": "to respond empathetically to someone"
+        },
+        {
+          "phrase": "empathische Führung",
+          "gloss_en": "empathetic leadership"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine gute Führungskraft handelt empathisch und klar zugleich.",
+          "en": "A good leader acts both empathetically and clearly."
+        },
+        {
+          "de": "Er reagierte auf ihre Trauer sehr empathisch.",
+          "en": "He responded to her grief very empathetically."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral, aber bildungssprachlich; das Adjektiv zu Empathie, heute weit verbreitet.",
+      "near_synonyms": [
+        {
+          "lemma": "einfühlsam",
+          "distinction": "deutscher und alltäglicher, praktisch bedeutungsgleich"
+        },
+        {
+          "lemma": "mitfühlend",
+          "distinction": "betont das Mitleiden, nicht nur das Verstehen der Gefühle"
+        }
+      ]
+    },
+    "selbstbezogen": {
+      "meaning_de": "vor allem auf sich selbst und die eigenen Bedürfnisse ausgerichtet",
+      "meaning_en": "self-centred; self-absorbed",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "selbstbezogener"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am selbstbezogensten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "selbstbezogenes Verhalten",
+          "gloss_en": "self-centred behaviour"
+        },
+        {
+          "phrase": "ein selbstbezogener Mensch",
+          "gloss_en": "a self-absorbed person"
+        },
+        {
+          "phrase": "zunehmend selbstbezogen",
+          "gloss_en": "increasingly self-centred"
+        },
+        {
+          "phrase": "eine selbstbezogene Sichtweise",
+          "gloss_en": "a self-centred outlook"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Krise wurde er immer selbstbezogener.",
+          "en": "During the crisis he became increasingly self-absorbed."
+        },
+        {
+          "de": "Ihre selbstbezogene Art ließ wenig Raum für andere.",
+          "en": "Her self-centred manner left little room for others."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral, aber deutlich negativ wertend; sachlicher als egoistisch.",
+      "near_synonyms": [
+        {
+          "lemma": "egozentrisch",
+          "distinction": "stärker, macht das eigene Ich zum Mittelpunkt von allem"
+        },
+        {
+          "lemma": "egoistisch",
+          "distinction": "betont die Rücksichtslosigkeit gegenüber anderen, nicht nur die Ausrichtung auf sich"
+        }
+      ]
+    },
+    "fremdbestimmt": {
+      "meaning_de": "in seinem Handeln von anderen oder äußeren Umständen gelenkt, nicht selbstbestimmt",
+      "meaning_en": "externally controlled; heteronomous",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein fremdbestimmtes Leben",
+          "gloss_en": "an externally controlled life"
+        },
+        {
+          "phrase": "sich fremdbestimmt fühlen",
+          "gloss_en": "to feel controlled by others"
+        },
+        {
+          "phrase": "fremdbestimmte Arbeit",
+          "gloss_en": "heteronomous work"
+        },
+        {
+          "phrase": "völlig fremdbestimmt sein",
+          "gloss_en": "to be entirely externally controlled"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Viele empfinden ihren Arbeitsalltag als fremdbestimmt.",
+          "en": "Many experience their working day as externally controlled."
+        },
+        {
+          "de": "Ein fremdbestimmtes Dasein macht auf Dauer unzufrieden.",
+          "en": "An externally controlled existence makes one dissatisfied in the long run."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; das begriffliche Gegenteil zu selbstbestimmt, oft soziologisch.",
+      "near_synonyms": [
+        {
+          "lemma": "abhängig",
+          "distinction": "allgemeiner, betont das Angewiesensein, nicht die Lenkung"
+        },
+        {
+          "lemma": "gesteuert",
+          "distinction": "neutraler und technischer, ohne den Gegensatz zur Autonomie"
+        }
+      ]
+    },
+    "reizbar": {
+      "meaning_de": "leicht gereizt und zu Ärger oder Wut zu bringen",
+      "meaning_en": "irritable; touchy; short-tempered",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "reizbarer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am reizbarsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "leicht reizbar",
+          "gloss_en": "easily irritable"
+        },
+        {
+          "phrase": "reizbar reagieren",
+          "gloss_en": "to react touchily"
+        },
+        {
+          "phrase": "gereizt und reizbar",
+          "gloss_en": "tense and irritable"
+        },
+        {
+          "phrase": "zunehmend reizbar werden",
+          "gloss_en": "to grow increasingly irritable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor Müdigkeit war er den ganzen Tag reizbar.",
+          "en": "Out of tiredness he was irritable all day."
+        },
+        {
+          "de": "In der Schwangerschaft wird sie manchmal etwas reizbar.",
+          "en": "During pregnancy she sometimes gets a little irritable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; beschreibt eine vorübergehende oder charakterliche Reizbarkeit.",
+      "near_synonyms": [
+        {
+          "lemma": "gereizt",
+          "distinction": "der aktuelle Zustand, nicht die dauerhafte Neigung"
+        },
+        {
+          "lemma": "jähzornig",
+          "distinction": "stärker, betont plötzliche, heftige Wutausbrüche"
+        }
+      ]
+    },
+    "zwanghaft": {
+      "meaning_de": "von einem inneren Zwang bestimmt, den man nicht abstellen kann",
+      "meaning_en": "compulsive; obsessive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "zwanghafter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am zwanghaftesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zwanghaftes Verhalten",
+          "gloss_en": "compulsive behaviour"
+        },
+        {
+          "phrase": "ein zwanghafter Drang",
+          "gloss_en": "a compulsive urge"
+        },
+        {
+          "phrase": "zwanghaft alles kontrollieren",
+          "gloss_en": "to compulsively control everything"
+        },
+        {
+          "phrase": "zwanghafte Ordnung",
+          "gloss_en": "obsessive tidiness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er räumt zwanghaft auf, sobald etwas nicht an seinem Platz liegt.",
+          "en": "He tidies up compulsively as soon as anything is out of place."
+        },
+        {
+          "de": "Ihr zwanghaftes Streben nach Perfektion erschöpfte sie.",
+          "en": "Her compulsive striving for perfection exhausted her."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; klinisch (zwanghafte Störung) wie alltäglich übertreibend.",
+      "near_synonyms": [
+        {
+          "lemma": "obsessiv",
+          "distinction": "bildungssprachlich, betont stärker das gedankliche Kreisen"
+        },
+        {
+          "lemma": "krankhaft",
+          "distinction": "allgemeiner, betont das Übermaß, nicht den inneren Zwang"
+        }
+      ]
+    },
+    "nachtragend": {
+      "meaning_de": "geneigt, erlittenes Unrecht lange übelzunehmen und nicht zu verzeihen",
+      "meaning_en": "resentful; unforgiving; one to hold a grudge",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "nachtragender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am nachtragendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "nachtragend sein",
+          "gloss_en": "to be resentful"
+        },
+        {
+          "phrase": "überhaupt nicht nachtragend",
+          "gloss_en": "not at all one to hold a grudge"
+        },
+        {
+          "phrase": "ein nachtragender Mensch",
+          "gloss_en": "an unforgiving person"
+        },
+        {
+          "phrase": "lange nachtragend bleiben",
+          "gloss_en": "to stay resentful for a long time"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ist überhaupt nicht nachtragend und vergisst Streit schnell.",
+          "en": "She isn't one to hold a grudge at all and forgets arguments quickly."
+        },
+        {
+          "de": "Sei nicht so nachtragend, es war doch keine Absicht.",
+          "en": "Don't be so resentful, it wasn't intentional."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglich und leicht negativ wertend, meist mit sein.",
+      "near_synonyms": [
+        {
+          "lemma": "rachsüchtig",
+          "distinction": "stärker, sinnt aktiv auf Vergeltung statt bloß nachzutragen"
+        },
+        {
+          "lemma": "unversöhnlich",
+          "distinction": "betont das grundsätzliche Nicht-verzeihen-Wollen"
+        }
+      ]
+    },
+    "feindselig": {
+      "meaning_de": "von offener Ablehnung und Feindschaft gegenüber jemandem geprägt",
+      "meaning_en": "hostile; antagonistic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "feindseliger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am feindseligsten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "feindselig gegenüber jemandem",
+          "cases": "gegenüber + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine feindselige Haltung",
+          "gloss_en": "a hostile attitude"
+        },
+        {
+          "phrase": "feindselig reagieren",
+          "gloss_en": "to react with hostility"
+        },
+        {
+          "phrase": "ein feindseliges Klima",
+          "gloss_en": "a hostile atmosphere"
+        },
+        {
+          "phrase": "feindselig gesinnt",
+          "gloss_en": "hostilely disposed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Neuankömmlinge wurden feindselig empfangen.",
+          "en": "The newcomers were given a hostile reception."
+        },
+        {
+          "de": "In seinem Blick lag etwas Feindseliges.",
+          "en": "There was something hostile in his gaze."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; stärker und grundsätzlicher als bloß unfreundlich.",
+      "near_synonyms": [
+        {
+          "lemma": "aggressiv",
+          "distinction": "betont das aktive Angreifen, nicht nur die ablehnende Gesinnung"
+        },
+        {
+          "lemma": "abweisend",
+          "distinction": "schwächer, kühle Zurückweisung ohne offene Feindschaft"
+        }
+      ]
+    }
+  }
+}
