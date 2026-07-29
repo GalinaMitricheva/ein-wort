@@ -1,0 +1,2859 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 domain batch 'Wirtschaft, Finanzen & Politik' (c1-03). Keyed by lemma.",
+  "dossiers": {
+    "Konjunktur": {
+      "meaning_de": "die gesamtwirtschaftliche Lage und ihre auf- und abschwingende Entwicklung",
+      "meaning_en": "economic situation; business cycle",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Konjunktur"
+        },
+        {
+          "label": "Plural",
+          "value": "die Konjunkturen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Konjunktur ankurbeln",
+          "gloss_en": "to boost the economy"
+        },
+        {
+          "phrase": "die brummende Konjunktur",
+          "gloss_en": "the booming economy"
+        },
+        {
+          "phrase": "die Konjunktur schwächt sich ab",
+          "gloss_en": "the economy is slowing down"
+        },
+        {
+          "phrase": "einen Konjunktureinbruch fürchten",
+          "gloss_en": "to fear an economic downturn"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Regierung will die Konjunktur mit Investitionen ankurbeln.",
+          "en": "The government wants to stimulate the economy with investment."
+        },
+        {
+          "de": "Nach dem Boom kühlt sich die Konjunktur spürbar ab.",
+          "en": "After the boom the economy is cooling down noticeably."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachsprachlich der Wirtschaft, aber auch im Alltag geläufig; im Singular überwiegt die Verwendung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Wirtschaftslage",
+          "distinction": "beschreibt den Zustand, nicht die zyklische Bewegung"
+        },
+        {
+          "lemma": "der Konjunkturzyklus",
+          "distinction": "betont ausdrücklich das Auf und Ab über die Zeit"
+        }
+      ]
+    },
+    "Rezession": {
+      "meaning_de": "eine Phase, in der die Wirtschaft über längere Zeit schrumpft",
+      "meaning_en": "recession",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rezession"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rezessionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in eine Rezession rutschen",
+          "gloss_en": "to slip into a recession"
+        },
+        {
+          "phrase": "eine tiefe Rezession",
+          "gloss_en": "a deep recession"
+        },
+        {
+          "phrase": "die Rezession überwinden",
+          "gloss_en": "to overcome the recession"
+        },
+        {
+          "phrase": "am Rande einer Rezession",
+          "gloss_en": "on the brink of recession"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwei Quartale mit Minuswachstum gelten als technische Rezession.",
+          "en": "Two quarters of negative growth count as a technical recession."
+        },
+        {
+          "de": "Die Wirtschaft steuert auf eine Rezession zu.",
+          "en": "The economy is heading for a recession."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschaftlicher Fachbegriff, in Nachrichten und Politik fest verankert.",
+      "near_synonyms": [
+        {
+          "lemma": "der Abschwung",
+          "distinction": "allgemeiner, die bloße Abwärtsbewegung ohne feste Definition"
+        },
+        {
+          "lemma": "die Depression",
+          "distinction": "eine besonders lange und schwere Wirtschaftskrise"
+        }
+      ]
+    },
+    "Leitzins": {
+      "meaning_de": "der von der Zentralbank festgelegte Zinssatz, an dem sich die Kreditzinsen orientieren",
+      "meaning_en": "key interest rate; base rate",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Leitzinses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Leitzinsen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Leitzins anheben",
+          "gloss_en": "to raise the key interest rate"
+        },
+        {
+          "phrase": "den Leitzins senken",
+          "gloss_en": "to cut the key interest rate"
+        },
+        {
+          "phrase": "den Leitzins unverändert lassen",
+          "gloss_en": "to leave the key rate unchanged"
+        },
+        {
+          "phrase": "die Leitzinserhöhung",
+          "gloss_en": "the interest rate hike"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Zentralbank hat den Leitzins um einen halben Prozentpunkt erhöht.",
+          "en": "The central bank raised the key interest rate by half a percentage point."
+        },
+        {
+          "de": "Ein hoher Leitzins bremst die Kreditvergabe.",
+          "en": "A high key interest rate slows down lending."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanzfachsprache, in Wirtschaftsberichten alltäglich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zinssatz",
+          "distinction": "allgemein jeder Zinssatz, nicht nur der der Zentralbank"
+        },
+        {
+          "lemma": "der Basiszins",
+          "distinction": "gesetzlicher Referenzzins, rechtlich definiert und enger"
+        }
+      ]
+    },
+    "Staatsverschuldung": {
+      "meaning_de": "die Gesamtheit der Schulden, die ein Staat aufgenommen hat",
+      "meaning_en": "national debt; public debt",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Staatsverschuldung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die steigende Staatsverschuldung",
+          "gloss_en": "the rising national debt"
+        },
+        {
+          "phrase": "die Staatsverschuldung abbauen",
+          "gloss_en": "to reduce the national debt"
+        },
+        {
+          "phrase": "die Höhe der Staatsverschuldung",
+          "gloss_en": "the level of national debt"
+        },
+        {
+          "phrase": "die Staatsverschuldung begrenzen",
+          "gloss_en": "to limit public debt"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Staatsverschuldung ist in der Krise stark gestiegen.",
+          "en": "The national debt rose sharply during the crisis."
+        },
+        {
+          "de": "Ohne Reformen lässt sich die Staatsverschuldung kaum abbauen.",
+          "en": "Without reforms the national debt can hardly be reduced."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschafts- und politischer Fachbegriff; wird fast nur im Singular gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Staatsschulden",
+          "distinction": "gleichbedeutend, aber konkreter als Plural der Einzelschulden"
+        },
+        {
+          "lemma": "das Haushaltsdefizit",
+          "distinction": "die jährliche Neuverschuldung, nicht der Gesamtschuldenstand"
+        }
+      ]
+    },
+    "Haushaltsüberschuss": {
+      "meaning_de": "der Betrag, um den die Einnahmen eines öffentlichen Haushalts die Ausgaben übersteigen",
+      "meaning_en": "budget surplus",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Haushaltsüberschusses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Haushaltsüberschüsse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Haushaltsüberschuss erzielen",
+          "gloss_en": "to achieve a budget surplus"
+        },
+        {
+          "phrase": "der erwartete Haushaltsüberschuss",
+          "gloss_en": "the expected budget surplus"
+        },
+        {
+          "phrase": "den Überschuss zur Schuldentilgung nutzen",
+          "gloss_en": "to use the surplus to pay down debt"
+        },
+        {
+          "phrase": "ein hoher Haushaltsüberschuss",
+          "gloss_en": "a high budget surplus"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bund erwirtschaftete zum ersten Mal seit Jahren einen Haushaltsüberschuss.",
+          "en": "The federal government posted a budget surplus for the first time in years."
+        },
+        {
+          "de": "Der Haushaltsüberschuss soll in die Infrastruktur fließen.",
+          "en": "The budget surplus is to be invested in infrastructure."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanz- und politischer Fachbegriff, sachlich und neutral.",
+      "near_synonyms": [
+        {
+          "lemma": "der Überschuss",
+          "distinction": "allgemein jeder Einnahmenüberhang, nicht nur im Haushalt"
+        },
+        {
+          "lemma": "der Etatüberschuss",
+          "distinction": "bedeutungsgleich, mit dem Fremdwort Etat für Haushalt"
+        }
+      ]
+    },
+    "Haushaltsdefizit": {
+      "meaning_de": "der Betrag, um den die Ausgaben eines öffentlichen Haushalts die Einnahmen übersteigen",
+      "meaning_en": "budget deficit",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Haushaltsdefizits"
+        },
+        {
+          "label": "Plural",
+          "value": "die Haushaltsdefizite"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Haushaltsdefizit verringern",
+          "gloss_en": "to reduce the budget deficit"
+        },
+        {
+          "phrase": "ein wachsendes Haushaltsdefizit",
+          "gloss_en": "a growing budget deficit"
+        },
+        {
+          "phrase": "das Defizit durch Kredite decken",
+          "gloss_en": "to cover the deficit with loans"
+        },
+        {
+          "phrase": "die zulässige Defizitgrenze",
+          "gloss_en": "the permitted deficit ceiling"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Haushaltsdefizit überschreitet die von der EU erlaubte Grenze.",
+          "en": "The budget deficit exceeds the limit permitted by the EU."
+        },
+        {
+          "de": "Um das Haushaltsdefizit zu senken, wurden Ausgaben gekürzt.",
+          "en": "To reduce the budget deficit, spending was cut."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanz- und politischer Fachbegriff; das Gegenstück zum Haushaltsüberschuss.",
+      "near_synonyms": [
+        {
+          "lemma": "das Defizit",
+          "distinction": "allgemein jeder Fehlbetrag, auch außerhalb des Haushalts"
+        },
+        {
+          "lemma": "die Neuverschuldung",
+          "distinction": "betont die im Jahr neu aufgenommenen Schulden"
+        }
+      ]
+    },
+    "Aufschwung": {
+      "meaning_de": "eine Phase, in der die Wirtschaft wieder wächst und sich belebt",
+      "meaning_en": "upturn; upswing; economic recovery",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Aufschwungs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aufschwünge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Aufschwung erleben",
+          "gloss_en": "to experience an upturn"
+        },
+        {
+          "phrase": "der wirtschaftliche Aufschwung",
+          "gloss_en": "the economic recovery"
+        },
+        {
+          "phrase": "den Aufschwung beschleunigen",
+          "gloss_en": "to accelerate the upturn"
+        },
+        {
+          "phrase": "einen kräftigen Aufschwung verzeichnen",
+          "gloss_en": "to register a strong upturn"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Krise setzte ein kräftiger Aufschwung ein.",
+          "en": "After the crisis a strong upturn set in."
+        },
+        {
+          "de": "Die Branche erlebt derzeit einen ungeahnten Aufschwung.",
+          "en": "The industry is currently experiencing an unexpected boom."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im wirtschaftlichen Sinn Gegenstück zu Abschwung, auch übertragen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Boom",
+          "distinction": "stärker, ein sprunghafter, oft überhitzter Anstieg"
+        },
+        {
+          "lemma": "die Erholung",
+          "distinction": "betont das Wiedergesundwerden nach einem Tief"
+        }
+      ]
+    },
+    "Geldpolitik": {
+      "meaning_de": "die Steuerung von Geldmenge und Zinsen durch die Zentralbank",
+      "meaning_en": "monetary policy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Geldpolitik"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine lockere Geldpolitik",
+          "gloss_en": "a loose monetary policy"
+        },
+        {
+          "phrase": "die straffe Geldpolitik",
+          "gloss_en": "the tight monetary policy"
+        },
+        {
+          "phrase": "die Geldpolitik straffen",
+          "gloss_en": "to tighten monetary policy"
+        },
+        {
+          "phrase": "die Wende in der Geldpolitik",
+          "gloss_en": "the turnaround in monetary policy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Zentralbank verfolgt eine restriktive Geldpolitik, um die Inflation zu dämpfen.",
+          "en": "The central bank is pursuing a restrictive monetary policy to curb inflation."
+        },
+        {
+          "de": "Über die künftige Geldpolitik wird heftig gestritten.",
+          "en": "There is fierce debate about future monetary policy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachbegriff der Wirtschaftspolitik; abzugrenzen von der Fiskalpolitik des Staates.",
+      "near_synonyms": [
+        {
+          "lemma": "die Fiskalpolitik",
+          "distinction": "betrifft Steuern und Staatsausgaben, nicht die Zentralbank"
+        },
+        {
+          "lemma": "die Währungspolitik",
+          "distinction": "richtet den Blick stärker auf den Außenwert des Geldes"
+        }
+      ]
+    },
+    "Kapitalmarkt": {
+      "meaning_de": "der Markt, auf dem langfristiges Kapital in Form von Wertpapieren gehandelt wird",
+      "meaning_en": "capital market",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kapitalmarkts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kapitalmärkte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich am Kapitalmarkt finanzieren",
+          "gloss_en": "to raise funds on the capital market"
+        },
+        {
+          "phrase": "die internationalen Kapitalmärkte",
+          "gloss_en": "the international capital markets"
+        },
+        {
+          "phrase": "Kapital am Markt aufnehmen",
+          "gloss_en": "to raise capital on the market"
+        },
+        {
+          "phrase": "die Reaktion der Kapitalmärkte",
+          "gloss_en": "the reaction of the capital markets"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Staat leiht sich das Geld am Kapitalmarkt.",
+          "en": "The state borrows the money on the capital market."
+        },
+        {
+          "de": "Nervöse Kapitalmärkte reagierten mit fallenden Kursen.",
+          "en": "Nervous capital markets responded with falling prices."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanzfachsprache; abzugrenzen vom Geldmarkt für kurzfristige Mittel.",
+      "near_synonyms": [
+        {
+          "lemma": "der Finanzmarkt",
+          "distinction": "der Oberbegriff für alle Märkte finanzieller Mittel"
+        },
+        {
+          "lemma": "die Börse",
+          "distinction": "der konkrete Handelsplatz, nicht der abstrakte Markt"
+        }
+      ]
+    },
+    "Zahlungsbilanz": {
+      "meaning_de": "die Gesamtrechnung aller wirtschaftlichen Transaktionen eines Landes mit dem Ausland",
+      "meaning_en": "balance of payments",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zahlungsbilanz"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zahlungsbilanzen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine ausgeglichene Zahlungsbilanz",
+          "gloss_en": "a balanced balance of payments"
+        },
+        {
+          "phrase": "ein Defizit in der Zahlungsbilanz",
+          "gloss_en": "a balance-of-payments deficit"
+        },
+        {
+          "phrase": "die Zahlungsbilanz belasten",
+          "gloss_en": "to weigh on the balance of payments"
+        },
+        {
+          "phrase": "der Überschuss der Zahlungsbilanz",
+          "gloss_en": "the balance-of-payments surplus"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Hohe Rohstoffimporte belasten die Zahlungsbilanz des Landes.",
+          "en": "High commodity imports weigh on the country's balance of payments."
+        },
+        {
+          "de": "Die Zahlungsbilanz umfasst weit mehr als nur den Warenhandel.",
+          "en": "The balance of payments covers far more than just trade in goods."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Volkswirtschaft, außerhalb der Wirtschaft kaum gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Handelsbilanz",
+          "distinction": "nur der Waren-Teil, ein Bestandteil der Zahlungsbilanz"
+        },
+        {
+          "lemma": "die Leistungsbilanz",
+          "distinction": "erfasst Waren, Dienstleistungen und Übertragungen, ohne Kapitalverkehr"
+        }
+      ]
+    },
+    "Wechselkurs": {
+      "meaning_de": "das Verhältnis, zu dem eine Währung in eine andere getauscht wird",
+      "meaning_en": "exchange rate",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wechselkurses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wechselkurse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der schwankende Wechselkurs",
+          "gloss_en": "the fluctuating exchange rate"
+        },
+        {
+          "phrase": "den Wechselkurs stützen",
+          "gloss_en": "to prop up the exchange rate"
+        },
+        {
+          "phrase": "ein fester Wechselkurs",
+          "gloss_en": "a fixed exchange rate"
+        },
+        {
+          "phrase": "der Wechselkurs zum Dollar",
+          "gloss_en": "the exchange rate against the dollar"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Wechselkurs des Euro zum Dollar ist heute gefallen.",
+          "en": "The euro's exchange rate against the dollar fell today."
+        },
+        {
+          "de": "Ein schwacher Wechselkurs verbilligt die Exporte.",
+          "en": "A weak exchange rate makes exports cheaper."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanzfachbegriff, aber auch Reisenden und im Alltag geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "der Devisenkurs",
+          "distinction": "fast bedeutungsgleich, betont den Handel mit ausländischen Zahlungsmitteln"
+        },
+        {
+          "lemma": "der Umrechnungskurs",
+          "distinction": "der konkrete Kurs für eine einzelne Umrechnung"
+        }
+      ]
+    },
+    "Exportquote": {
+      "meaning_de": "der Anteil der Exporte an der gesamten Wirtschaftsleistung oder Produktion",
+      "meaning_en": "export ratio; export quota",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Exportquote"
+        },
+        {
+          "label": "Plural",
+          "value": "die Exportquoten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine hohe Exportquote",
+          "gloss_en": "a high export ratio"
+        },
+        {
+          "phrase": "die Exportquote steigern",
+          "gloss_en": "to increase the export ratio"
+        },
+        {
+          "phrase": "die Exportquote der Branche",
+          "gloss_en": "the industry's export ratio"
+        },
+        {
+          "phrase": "eine sinkende Exportquote",
+          "gloss_en": "a falling export ratio"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die deutsche Autoindustrie hat eine besonders hohe Exportquote.",
+          "en": "The German car industry has a particularly high export ratio."
+        },
+        {
+          "de": "Eine hohe Exportquote macht die Wirtschaft anfällig für die Weltkonjunktur.",
+          "en": "A high export ratio makes the economy vulnerable to the global economy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschaftsstatistischer Begriff, überwiegend in Berichten und Analysen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Exportanteil",
+          "distinction": "gleichbedeutend, weniger als fester statistischer Kennwert"
+        },
+        {
+          "lemma": "der Außenhandelsanteil",
+          "distinction": "umfasst auch Importe, nicht nur die Ausfuhren"
+        }
+      ]
+    },
+    "Protektionismus": {
+      "meaning_de": "eine Handelspolitik, die die heimische Wirtschaft durch Zölle und Beschränkungen vor Konkurrenz schützt",
+      "meaning_en": "protectionism",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Protektionismus"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in den Protektionismus verfallen",
+          "gloss_en": "to lapse into protectionism"
+        },
+        {
+          "phrase": "der wachsende Protektionismus",
+          "gloss_en": "the growing protectionism"
+        },
+        {
+          "phrase": "vor Protektionismus warnen",
+          "gloss_en": "to warn against protectionism"
+        },
+        {
+          "phrase": "protektionistische Maßnahmen",
+          "gloss_en": "protectionist measures"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Neue Strafzölle sind ein deutliches Zeichen von Protektionismus.",
+          "en": "New punitive tariffs are a clear sign of protectionism."
+        },
+        {
+          "de": "Ökonomen warnen davor, dass Protektionismus den Welthandel lähmt.",
+          "en": "Economists warn that protectionism paralyses world trade."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Handelspolitik, meist mit kritischem Unterton verwendet; nur Singular.",
+      "near_synonyms": [
+        {
+          "lemma": "die Abschottung",
+          "distinction": "bildlicher, betont das Sich-Verschließen gegen außen"
+        },
+        {
+          "lemma": "die Handelsbarriere",
+          "distinction": "das konkrete Hindernis, nicht die politische Haltung"
+        }
+      ]
+    },
+    "Subvention": {
+      "meaning_de": "eine finanzielle Zuwendung des Staates zur Förderung bestimmter Wirtschaftszweige",
+      "meaning_en": "subsidy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Subvention"
+        },
+        {
+          "label": "Plural",
+          "value": "die Subventionen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Subventionen streichen",
+          "gloss_en": "to cut subsidies"
+        },
+        {
+          "phrase": "staatliche Subventionen erhalten",
+          "gloss_en": "to receive state subsidies"
+        },
+        {
+          "phrase": "der Abbau von Subventionen",
+          "gloss_en": "the reduction of subsidies"
+        },
+        {
+          "phrase": "Subventionen beantragen",
+          "gloss_en": "to apply for subsidies"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Landwirtschaft ist auf hohe Subventionen angewiesen.",
+          "en": "Agriculture depends on high subsidies."
+        },
+        {
+          "de": "Kritiker fordern, klimaschädliche Subventionen abzuschaffen.",
+          "en": "Critics demand the abolition of climate-damaging subsidies."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschafts- und politischer Fachbegriff, im Plural am häufigsten.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zuschuss",
+          "distinction": "allgemeiner, auch an Privatpersonen, ohne wirtschaftspolitischen Beiklang"
+        },
+        {
+          "lemma": "die Förderung",
+          "distinction": "umfassender, auch nichtfinanzielle Unterstützung"
+        }
+      ]
+    },
+    "Gläubiger": {
+      "meaning_de": "jemand, der von einem anderen die Rückzahlung einer Forderung verlangen kann",
+      "meaning_en": "creditor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gläubigers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gläubiger"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Gläubiger befriedigen",
+          "gloss_en": "to satisfy the creditors"
+        },
+        {
+          "phrase": "die Forderungen der Gläubiger",
+          "gloss_en": "the creditors' claims"
+        },
+        {
+          "phrase": "sich mit den Gläubigern einigen",
+          "gloss_en": "to reach a settlement with creditors"
+        },
+        {
+          "phrase": "der größte Gläubiger",
+          "gloss_en": "the largest creditor"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Insolvenzverfahren gehen die Gläubiger oft leer aus.",
+          "en": "In insolvency proceedings the creditors often come away empty-handed."
+        },
+        {
+          "de": "Der Staat ist zum wichtigsten Gläubiger des Unternehmens geworden.",
+          "en": "The state has become the company's most important creditor."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Rechts- und Finanzbegriff; das Gegenstück zum Schuldner.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kreditgeber",
+          "distinction": "enger, wer aktiv einen Kredit vergibt"
+        },
+        {
+          "lemma": "der Geldgeber",
+          "distinction": "allgemeiner, auch Investoren ohne Rückzahlungsanspruch"
+        }
+      ]
+    },
+    "Schuldner": {
+      "meaning_de": "jemand, der einem anderen die Erfüllung einer Forderung schuldet",
+      "meaning_en": "debtor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Schuldners"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schuldner"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein säumiger Schuldner",
+          "gloss_en": "a defaulting debtor"
+        },
+        {
+          "phrase": "den Schuldner mahnen",
+          "gloss_en": "to send the debtor a reminder"
+        },
+        {
+          "phrase": "der zahlungsunfähige Schuldner",
+          "gloss_en": "the insolvent debtor"
+        },
+        {
+          "phrase": "gegen den Schuldner vorgehen",
+          "gloss_en": "to take action against the debtor"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Schuldner konnte seine Raten nicht mehr aufbringen.",
+          "en": "The debtor could no longer manage his instalments."
+        },
+        {
+          "de": "Bleibt der Schuldner säumig, folgt die Zwangsvollstreckung.",
+          "en": "If the debtor remains in arrears, enforcement follows."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Rechts- und Finanzbegriff; Gegenstück zum Gläubiger.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kreditnehmer",
+          "distinction": "enger, wer einen konkreten Kredit aufgenommen hat"
+        },
+        {
+          "lemma": "der Zahlungspflichtige",
+          "distinction": "amtssprachlich, wer zur Zahlung verpflichtet ist"
+        }
+      ]
+    },
+    "Bonität": {
+      "meaning_de": "die Kreditwürdigkeit einer Person oder Institution, also ihre Fähigkeit, Schulden zu bedienen",
+      "meaning_en": "creditworthiness; credit rating",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bonität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Bonität prüfen",
+          "gloss_en": "to check creditworthiness"
+        },
+        {
+          "phrase": "eine gute Bonität",
+          "gloss_en": "good creditworthiness"
+        },
+        {
+          "phrase": "die Bonität herabstufen",
+          "gloss_en": "to downgrade the credit rating"
+        },
+        {
+          "phrase": "die Bonität eines Kunden",
+          "gloss_en": "a customer's creditworthiness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor der Kreditvergabe prüft die Bank die Bonität des Antragstellers.",
+          "en": "Before granting a loan the bank checks the applicant's creditworthiness."
+        },
+        {
+          "de": "Die Ratingagentur stufte die Bonität des Landes herab.",
+          "en": "The rating agency downgraded the country's credit rating."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Finanzfachbegriff; wird nahezu ausschließlich im Singular verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "die Kreditwürdigkeit",
+          "distinction": "das deutsche Pendant, inhaltlich deckungsgleich"
+        },
+        {
+          "lemma": "die Zahlungsfähigkeit",
+          "distinction": "nur die aktuelle Fähigkeit zu zahlen, ohne Langfristbewertung"
+        }
+      ]
+    },
+    "Rendite": {
+      "meaning_de": "der Ertrag einer Kapitalanlage, meist als Prozentsatz des eingesetzten Kapitals",
+      "meaning_en": "return; yield",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rendite"
+        },
+        {
+          "label": "Plural",
+          "value": "die Renditen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine hohe Rendite erzielen",
+          "gloss_en": "to achieve a high return"
+        },
+        {
+          "phrase": "die erwartete Rendite",
+          "gloss_en": "the expected return"
+        },
+        {
+          "phrase": "die Rendite einer Anleihe",
+          "gloss_en": "the yield of a bond"
+        },
+        {
+          "phrase": "Sicherheit und Rendite abwägen",
+          "gloss_en": "to weigh security against return"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Höhere Renditen sind fast immer mit höherem Risiko verbunden.",
+          "en": "Higher returns almost always come with higher risk."
+        },
+        {
+          "de": "Die Anleihe wirft kaum noch eine Rendite ab.",
+          "en": "The bond hardly yields any return anymore."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanzfachbegriff, aber auch Privatanlegern geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "der Ertrag",
+          "distinction": "der absolute Gewinn, nicht das Verhältnis zum Kapital"
+        },
+        {
+          "lemma": "die Verzinsung",
+          "distinction": "nur der Zinsertrag, enger als die Gesamtrendite"
+        }
+      ]
+    },
+    "Börsengang": {
+      "meaning_de": "die erstmalige Notierung der Aktien eines Unternehmens an der Börse",
+      "meaning_en": "IPO; stock market flotation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Börsengangs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Börsengänge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Börsengang planen",
+          "gloss_en": "to plan an IPO"
+        },
+        {
+          "phrase": "den Börsengang wagen",
+          "gloss_en": "to go public"
+        },
+        {
+          "phrase": "ein erfolgreicher Börsengang",
+          "gloss_en": "a successful IPO"
+        },
+        {
+          "phrase": "den Börsengang verschieben",
+          "gloss_en": "to postpone the IPO"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit dem Börsengang will das Start-up frisches Kapital einsammeln.",
+          "en": "With the IPO the start-up wants to raise fresh capital."
+        },
+        {
+          "de": "Wegen der unruhigen Märkte wurde der Börsengang verschoben.",
+          "en": "Because of the turbulent markets the IPO was postponed."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Finanzfachbegriff, in Wirtschaftsnachrichten alltäglich; englisch oft IPO.",
+      "near_synonyms": [
+        {
+          "lemma": "die Erstnotierung",
+          "distinction": "betont den konkreten ersten Handelstag an der Börse"
+        },
+        {
+          "lemma": "die Neuemission",
+          "distinction": "die Ausgabe der Wertpapiere selbst, nicht der Schritt an die Börse"
+        }
+      ]
+    },
+    "Aufsichtsrat": {
+      "meaning_de": "das Gremium, das die Geschäftsführung einer Aktiengesellschaft überwacht und bestellt",
+      "meaning_en": "supervisory board",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Aufsichtsrats"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aufsichtsräte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in den Aufsichtsrat berufen werden",
+          "gloss_en": "to be appointed to the supervisory board"
+        },
+        {
+          "phrase": "der Vorsitzende des Aufsichtsrats",
+          "gloss_en": "the chairman of the supervisory board"
+        },
+        {
+          "phrase": "der Aufsichtsrat tagt",
+          "gloss_en": "the supervisory board convenes"
+        },
+        {
+          "phrase": "die Zustimmung des Aufsichtsrats",
+          "gloss_en": "the approval of the supervisory board"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Aufsichtsrat bestellte einen neuen Vorstandsvorsitzenden.",
+          "en": "The supervisory board appointed a new CEO."
+        },
+        {
+          "de": "Ohne Zustimmung des Aufsichtsrats darf der Vorstand nicht investieren.",
+          "en": "Without the supervisory board's approval the management may not invest."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gesellschaftsrechtlicher Fachbegriff; bezeichnet zugleich das Gremium und dessen Mitglieder.",
+      "near_synonyms": [
+        {
+          "lemma": "der Verwaltungsrat",
+          "distinction": "das entsprechende Organ in der Schweiz oder im monistischen System"
+        },
+        {
+          "lemma": "der Vorstand",
+          "distinction": "die geführte Leitung selbst, nicht das kontrollierende Organ"
+        }
+      ]
+    },
+    "Hauptversammlung": {
+      "meaning_de": "die jährliche Versammlung, auf der die Aktionäre einer AG ihre Rechte ausüben",
+      "meaning_en": "annual general meeting; shareholders' meeting",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Hauptversammlung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hauptversammlungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Hauptversammlung einberufen",
+          "gloss_en": "to convene the general meeting"
+        },
+        {
+          "phrase": "auf der Hauptversammlung abstimmen",
+          "gloss_en": "to vote at the general meeting"
+        },
+        {
+          "phrase": "der Beschluss der Hauptversammlung",
+          "gloss_en": "the resolution of the general meeting"
+        },
+        {
+          "phrase": "die ordentliche Hauptversammlung",
+          "gloss_en": "the ordinary general meeting"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auf der Hauptversammlung stimmten die Aktionäre über die Dividende ab.",
+          "en": "At the general meeting the shareholders voted on the dividend."
+        },
+        {
+          "de": "Die Hauptversammlung entlastete den Vorstand mit großer Mehrheit.",
+          "en": "The general meeting approved the management's actions by a large majority."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gesellschaftsrechtlicher Fachbegriff, meist auf Aktiengesellschaften bezogen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gesellschafterversammlung",
+          "distinction": "das Pendant bei der GmbH, nicht bei der AG"
+        },
+        {
+          "lemma": "die Aktionärsversammlung",
+          "distinction": "umgangssprachlicher, weniger als rechtlicher Terminus"
+        }
+      ]
+    },
+    "Fusion": {
+      "meaning_de": "der Zusammenschluss zweier oder mehrerer Unternehmen zu einer Einheit",
+      "meaning_en": "merger",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fusion"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fusionen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Fusion mit etwas",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Fusion ankündigen",
+          "gloss_en": "to announce a merger"
+        },
+        {
+          "phrase": "die geplante Fusion",
+          "gloss_en": "the planned merger"
+        },
+        {
+          "phrase": "die Fusion genehmigen",
+          "gloss_en": "to approve the merger"
+        },
+        {
+          "phrase": "die Fusion zweier Konzerne",
+          "gloss_en": "the merger of two corporations"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Fusion der beiden Banken schuf einen neuen Marktführer.",
+          "en": "The merger of the two banks created a new market leader."
+        },
+        {
+          "de": "Die Kartellbehörde muss der Fusion noch zustimmen.",
+          "en": "The antitrust authority still has to approve the merger."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschaftsfachbegriff; auch übertragen (Fusion von Ideen) möglich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zusammenschluss",
+          "distinction": "das deutsche Pendant, etwas allgemeiner"
+        },
+        {
+          "lemma": "die Übernahme",
+          "distinction": "einseitig: ein Unternehmen kauft das andere, keine Verschmelzung"
+        }
+      ]
+    },
+    "Zusammenschluss": {
+      "meaning_de": "die Vereinigung mehrerer Personen, Gruppen oder Firmen zu einer größeren Einheit",
+      "meaning_en": "merger; union; alliance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zusammenschlusses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zusammenschlüsse"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Zusammenschluss zu etwas",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Zusammenschluss zu einem Verband",
+          "gloss_en": "a merger into an association"
+        },
+        {
+          "phrase": "den Zusammenschluss vollziehen",
+          "gloss_en": "to complete the merger"
+        },
+        {
+          "phrase": "ein freiwilliger Zusammenschluss",
+          "gloss_en": "a voluntary union"
+        },
+        {
+          "phrase": "der Zusammenschluss der Gemeinden",
+          "gloss_en": "the merger of the municipalities"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Zusammenschluss mehrerer kleiner Betriebe stärkte ihre Position.",
+          "en": "The merger of several small businesses strengthened their position."
+        },
+        {
+          "de": "Aus dem Zusammenschluss entstand die größte Genossenschaft der Region.",
+          "en": "The merger gave rise to the largest cooperative in the region."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; breiter als Fusion, auch für Vereine, Parteien und Gemeinden.",
+      "near_synonyms": [
+        {
+          "lemma": "die Fusion",
+          "distinction": "enger auf Unternehmen bezogen, das Fremdwort"
+        },
+        {
+          "lemma": "das Bündnis",
+          "distinction": "eine Verbindung mit gemeinsamem Ziel, ohne völlige Verschmelzung"
+        }
+      ]
+    },
+    "Volatilität": {
+      "meaning_de": "das Ausmaß, in dem Kurse oder Preise in kurzer Zeit schwanken",
+      "meaning_en": "volatility",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Volatilität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die hohe Volatilität",
+          "gloss_en": "the high volatility"
+        },
+        {
+          "phrase": "die Volatilität der Märkte",
+          "gloss_en": "the volatility of the markets"
+        },
+        {
+          "phrase": "die Volatilität nimmt zu",
+          "gloss_en": "volatility is increasing"
+        },
+        {
+          "phrase": "von der Volatilität profitieren",
+          "gloss_en": "to profit from volatility"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In Krisenzeiten steigt die Volatilität an den Börsen deutlich.",
+          "en": "In times of crisis volatility on the stock exchanges rises sharply."
+        },
+        {
+          "de": "Die hohe Volatilität schreckt vorsichtige Anleger ab.",
+          "en": "The high volatility deters cautious investors."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Finanzfachbegriff aus der Statistik; überwiegend im Singular.",
+      "near_synonyms": [
+        {
+          "lemma": "die Schwankungsbreite",
+          "distinction": "das deutsche Pendant, anschaulicher und weniger fachlich"
+        },
+        {
+          "lemma": "die Unbeständigkeit",
+          "distinction": "allgemeinsprachlich, nicht auf Kurse und Preise beschränkt"
+        }
+      ]
+    },
+    "Legislaturperiode": {
+      "meaning_de": "der Zeitraum, für den ein Parlament gewählt ist und arbeitet",
+      "meaning_en": "legislative period; parliamentary term",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Legislaturperiode"
+        },
+        {
+          "label": "Plural",
+          "value": "die Legislaturperioden"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die laufende Legislaturperiode",
+          "gloss_en": "the current legislative term"
+        },
+        {
+          "phrase": "am Ende der Legislaturperiode",
+          "gloss_en": "at the end of the parliamentary term"
+        },
+        {
+          "phrase": "noch in dieser Legislaturperiode",
+          "gloss_en": "still in this legislative term"
+        },
+        {
+          "phrase": "die vierjährige Legislaturperiode",
+          "gloss_en": "the four-year parliamentary term"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gesetz soll noch in dieser Legislaturperiode verabschiedet werden.",
+          "en": "The law is to be passed still within this legislative term."
+        },
+        {
+          "de": "Zu Beginn der Legislaturperiode stellte die Regierung ihr Programm vor.",
+          "en": "At the start of the parliamentary term the government presented its programme."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Politischer Fachbegriff; gleichbedeutend mit Wahlperiode.",
+      "near_synonyms": [
+        {
+          "lemma": "die Wahlperiode",
+          "distinction": "das gebräuchlichere deutsche Wort, inhaltlich identisch"
+        },
+        {
+          "lemma": "die Amtszeit",
+          "distinction": "die Dauer eines Amtes, nicht die Sitzungsperiode des Parlaments"
+        }
+      ]
+    },
+    "Gesetzentwurf": {
+      "meaning_de": "der ausgearbeitete Text, der als Vorlage für ein neues Gesetz ins Parlament eingebracht wird",
+      "meaning_en": "draft law; bill",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gesetzentwurfs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gesetzentwürfe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Gesetzentwurf einbringen",
+          "gloss_en": "to introduce a bill"
+        },
+        {
+          "phrase": "den Gesetzentwurf verabschieden",
+          "gloss_en": "to pass the bill"
+        },
+        {
+          "phrase": "über den Gesetzentwurf beraten",
+          "gloss_en": "to debate the draft law"
+        },
+        {
+          "phrase": "einen Gesetzentwurf ablehnen",
+          "gloss_en": "to reject a bill"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Regierung brachte einen Gesetzentwurf zum Klimaschutz ein.",
+          "en": "The government introduced a draft law on climate protection."
+        },
+        {
+          "de": "Der Gesetzentwurf wurde im Bundestag in erster Lesung beraten.",
+          "en": "The bill was debated in its first reading in the Bundestag."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Politisch-juristischer Fachbegriff; die Variante Gesetzesentwurf ist ebenfalls gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gesetzesvorlage",
+          "distinction": "betont die förmliche Vorlage im parlamentarischen Verfahren"
+        },
+        {
+          "lemma": "der Referentenentwurf",
+          "distinction": "eine frühere, ministeriell erarbeitete Vorstufe des Entwurfs"
+        }
+      ]
+    },
+    "Gewaltenteilung": {
+      "meaning_de": "das Prinzip, die Staatsgewalt auf Gesetzgebung, Verwaltung und Rechtsprechung zu verteilen",
+      "meaning_en": "separation of powers",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gewaltenteilung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Prinzip der Gewaltenteilung",
+          "gloss_en": "the principle of the separation of powers"
+        },
+        {
+          "phrase": "die Gewaltenteilung aushöhlen",
+          "gloss_en": "to erode the separation of powers"
+        },
+        {
+          "phrase": "die Gewaltenteilung wahren",
+          "gloss_en": "to uphold the separation of powers"
+        },
+        {
+          "phrase": "ein Verstoß gegen die Gewaltenteilung",
+          "gloss_en": "a breach of the separation of powers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Gewaltenteilung schützt vor der Machtkonzentration in einer Hand.",
+          "en": "The separation of powers protects against the concentration of power in one hand."
+        },
+        {
+          "de": "Kritiker sehen in der Reform einen Angriff auf die Gewaltenteilung.",
+          "en": "Critics see the reform as an attack on the separation of powers."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Staatsrechtlicher Grundbegriff; wird nur im Singular gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gewaltenkontrolle",
+          "distinction": "betont die gegenseitige Kontrolle statt der bloßen Aufteilung"
+        },
+        {
+          "lemma": "das Machtgleichgewicht",
+          "distinction": "allgemeiner, das Ergebnis, nicht das verfassungsrechtliche Prinzip"
+        }
+      ]
+    },
+    "Souveränität": {
+      "meaning_de": "die höchste, von außen unabhängige Entscheidungsgewalt eines Staates",
+      "meaning_en": "sovereignty",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Souveränität"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die nationale Souveränität",
+          "gloss_en": "national sovereignty"
+        },
+        {
+          "phrase": "die Souveränität wahren",
+          "gloss_en": "to preserve sovereignty"
+        },
+        {
+          "phrase": "die Souveränität eines Staates verletzen",
+          "gloss_en": "to violate a state's sovereignty"
+        },
+        {
+          "phrase": "Souveränität abgeben",
+          "gloss_en": "to cede sovereignty"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit dem Beitritt gibt ein Land einen Teil seiner Souveränität ab.",
+          "en": "By joining, a country cedes part of its sovereignty."
+        },
+        {
+          "de": "Die Regierung pocht auf die volle Souveränität des Staates.",
+          "en": "The government insists on the state's full sovereignty."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Politisch-völkerrechtlicher Fachbegriff; auch übertragen für persönliche Selbstbestimmung; meist Singular.",
+      "near_synonyms": [
+        {
+          "lemma": "die Selbstbestimmung",
+          "distinction": "das Recht, über sich selbst zu entscheiden, auch für Völker und Personen"
+        },
+        {
+          "lemma": "die Unabhängigkeit",
+          "distinction": "das Freisein von fremder Herrschaft, weniger die formale Hoheitsgewalt"
+        }
+      ]
+    },
+    "Ratifizierung": {
+      "meaning_de": "die verbindliche Bestätigung eines völkerrechtlichen Vertrags durch das zuständige Staatsorgan",
+      "meaning_en": "ratification",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ratifizierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ratifizierungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Ratifizierung des Vertrags",
+          "gloss_en": "the ratification of the treaty"
+        },
+        {
+          "phrase": "die Ratifizierung verweigern",
+          "gloss_en": "to refuse ratification"
+        },
+        {
+          "phrase": "nach der Ratifizierung durch das Parlament",
+          "gloss_en": "after ratification by parliament"
+        },
+        {
+          "phrase": "die Ratifizierung steht noch aus",
+          "gloss_en": "ratification is still pending"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Abkommen tritt erst nach der Ratifizierung durch alle Mitgliedstaaten in Kraft.",
+          "en": "The agreement only comes into force after ratification by all member states."
+        },
+        {
+          "de": "Das Parlament verweigerte die Ratifizierung des Vertrags.",
+          "en": "Parliament refused to ratify the treaty."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Völkerrechtlicher Fachbegriff; die Variante Ratifikation ist gleichbedeutend.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ratifikation",
+          "distinction": "bedeutungsgleiche Variante, in Fachtexten häufiger"
+        },
+        {
+          "lemma": "die Genehmigung",
+          "distinction": "allgemeiner, nicht speziell die Bestätigung von Verträgen"
+        }
+      ]
+    },
+    "Referendum": {
+      "meaning_de": "eine Abstimmung, bei der das Volk direkt über eine politische Frage entscheidet",
+      "meaning_en": "referendum",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Referendums"
+        },
+        {
+          "label": "Plural",
+          "value": "die Referenden"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Referendum über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Referendum abhalten",
+          "gloss_en": "to hold a referendum"
+        },
+        {
+          "phrase": "ein Referendum ansetzen",
+          "gloss_en": "to call a referendum"
+        },
+        {
+          "phrase": "im Referendum abstimmen",
+          "gloss_en": "to vote in the referendum"
+        },
+        {
+          "phrase": "das Ergebnis des Referendums",
+          "gloss_en": "the result of the referendum"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Über den Beitritt soll ein Referendum entscheiden.",
+          "en": "A referendum is to decide on the accession."
+        },
+        {
+          "de": "Im Referendum sprach sich eine knappe Mehrheit dagegen aus.",
+          "en": "In the referendum a narrow majority voted against it."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Politischer Fachbegriff; der Plural lautet Referenden, seltener Referenda.",
+      "near_synonyms": [
+        {
+          "lemma": "die Volksabstimmung",
+          "distinction": "das gebräuchlichere deutsche Wort, inhaltlich gleich"
+        },
+        {
+          "lemma": "der Volksentscheid",
+          "distinction": "in Deutschland ein rechtlich verbindlicher, förmlich geregelter Entscheid"
+        }
+      ]
+    },
+    "florieren": {
+      "meaning_de": "sich prächtig entwickeln, gut gedeihen und erfolgreich sein",
+      "meaning_en": "to flourish; to thrive; to prosper",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er floriert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er florierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat floriert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er florierte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Geschäft floriert",
+          "gloss_en": "business is flourishing"
+        },
+        {
+          "phrase": "der Handel floriert",
+          "gloss_en": "trade is thriving"
+        },
+        {
+          "phrase": "die Wirtschaft floriert",
+          "gloss_en": "the economy is booming"
+        },
+        {
+          "phrase": "ein florierendes Unternehmen",
+          "gloss_en": "a thriving company"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Trotz der Krise floriert das Geschäft mit Luxusgütern.",
+          "en": "Despite the crisis, the luxury goods business is flourishing."
+        },
+        {
+          "de": "In der Grenzregion florierte lange der Schmuggel.",
+          "en": "For a long time smuggling flourished in the border region."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; positiv wertend, oft für Wirtschaft, Handel und Betriebe.",
+      "near_synonyms": [
+        {
+          "lemma": "gedeihen",
+          "distinction": "breiter, auch für Pflanzen, Kinder und Vorhaben"
+        },
+        {
+          "lemma": "blühen",
+          "distinction": "bildlicher, betont die Blütezeit; oft aufblühen"
+        }
+      ]
+    },
+    "stagnieren": {
+      "meaning_de": "auf gleichem Stand verharren, ohne Fortschritt oder Wachstum",
+      "meaning_en": "to stagnate; to remain flat",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er stagniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er stagnierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat stagniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er stagnierte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Wirtschaft stagniert",
+          "gloss_en": "the economy is stagnating"
+        },
+        {
+          "phrase": "die Umsätze stagnieren",
+          "gloss_en": "sales are flat"
+        },
+        {
+          "phrase": "auf niedrigem Niveau stagnieren",
+          "gloss_en": "to stagnate at a low level"
+        },
+        {
+          "phrase": "die Verhandlungen stagnieren",
+          "gloss_en": "the negotiations are at a standstill"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Löhne stagnieren seit Jahren, während die Preise steigen.",
+          "en": "Wages have stagnated for years while prices rise."
+        },
+        {
+          "de": "Das Wachstum stagnierte im letzten Quartal.",
+          "en": "Growth stagnated in the last quarter."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachsprachlich-neutral; meist negativ konnotiert, Gegenbegriff zu wachsen.",
+      "near_synonyms": [
+        {
+          "lemma": "stillstehen",
+          "distinction": "anschaulicher, betont den völligen Stillstand"
+        },
+        {
+          "lemma": "stocken",
+          "distinction": "eine zeitweilige Unterbrechung, weniger dauerhafter Zustand"
+        }
+      ]
+    },
+    "subventionieren": {
+      "meaning_de": "einen Wirtschaftszweig oder ein Vorhaben mit staatlichen Geldern fördern",
+      "meaning_en": "to subsidise",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er subventioniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er subventionierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat subventioniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er subventionierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas subventionieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Landwirtschaft subventionieren",
+          "gloss_en": "to subsidise agriculture"
+        },
+        {
+          "phrase": "staatlich subventioniert werden",
+          "gloss_en": "to be state-subsidised"
+        },
+        {
+          "phrase": "Wohnraum subventionieren",
+          "gloss_en": "to subsidise housing"
+        },
+        {
+          "phrase": "hoch subventioniert",
+          "gloss_en": "heavily subsidised"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Staat subventioniert den öffentlichen Nahverkehr mit Milliarden.",
+          "en": "The state subsidises public transport with billions."
+        },
+        {
+          "de": "Kritiker fragen, warum diese Branche noch immer subventioniert wird.",
+          "en": "Critics ask why this industry is still being subsidised."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschafts- und politischer Fachbegriff, sachlich neutral.",
+      "near_synonyms": [
+        {
+          "lemma": "fördern",
+          "distinction": "allgemeiner, auch ohne Geld und außerhalb der Wirtschaft"
+        },
+        {
+          "lemma": "bezuschussen",
+          "distinction": "betont den einzelnen Zuschuss, oft an Privatpersonen"
+        }
+      ]
+    },
+    "privatisieren": {
+      "meaning_de": "staatliches Eigentum oder öffentliche Aufgaben in private Hand überführen",
+      "meaning_en": "to privatise",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er privatisiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er privatisierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat privatisiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er privatisierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas privatisieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Staatsbetrieb privatisieren",
+          "gloss_en": "to privatise a state-owned company"
+        },
+        {
+          "phrase": "die Bahn privatisieren",
+          "gloss_en": "to privatise the railway"
+        },
+        {
+          "phrase": "öffentliche Aufgaben privatisieren",
+          "gloss_en": "to privatise public services"
+        },
+        {
+          "phrase": "teilweise privatisieren",
+          "gloss_en": "to partially privatise"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In den neunziger Jahren wurden viele Staatsbetriebe privatisiert.",
+          "en": "In the nineties many state-owned enterprises were privatised."
+        },
+        {
+          "de": "Die Regierung will die Wasserversorgung nicht privatisieren.",
+          "en": "The government does not want to privatise the water supply."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschafts- und politischer Fachbegriff; Gegenbegriff zu verstaatlichen.",
+      "near_synonyms": [
+        {
+          "lemma": "veräußern",
+          "distinction": "allgemein verkaufen, ohne den Wechsel von öffentlich zu privat"
+        },
+        {
+          "lemma": "entstaatlichen",
+          "distinction": "betont ausdrücklich den Rückzug des Staates, seltener"
+        }
+      ]
+    },
+    "verstaatlichen": {
+      "meaning_de": "privates Eigentum in staatlichen Besitz überführen",
+      "meaning_en": "to nationalise",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verstaatlicht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verstaatlichte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verstaatlicht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verstaatlichte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verstaatlichen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Bank verstaatlichen",
+          "gloss_en": "to nationalise a bank"
+        },
+        {
+          "phrase": "die Industrie verstaatlichen",
+          "gloss_en": "to nationalise industry"
+        },
+        {
+          "phrase": "Schlüsselbetriebe verstaatlichen",
+          "gloss_en": "to nationalise key enterprises"
+        },
+        {
+          "phrase": "vorübergehend verstaatlichen",
+          "gloss_en": "to temporarily nationalise"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Um sie zu retten, wurde die Bank vorübergehend verstaatlicht.",
+          "en": "To save it, the bank was temporarily nationalised."
+        },
+        {
+          "de": "Die Partei fordert, den Energiesektor zu verstaatlichen.",
+          "en": "The party demands that the energy sector be nationalised."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschafts- und politischer Fachbegriff; Gegenbegriff zu privatisieren.",
+      "near_synonyms": [
+        {
+          "lemma": "enteignen",
+          "distinction": "dem Eigentümer entziehen, nicht zwingend zugunsten des Staates"
+        },
+        {
+          "lemma": "vergesellschaften",
+          "distinction": "in Gemeineigentum überführen, ideologisch geprägter"
+        }
+      ]
+    },
+    "liberalisieren": {
+      "meaning_de": "einen Markt oder Bereich von staatlichen Beschränkungen befreien und für Wettbewerb öffnen",
+      "meaning_en": "to liberalise; to deregulate a market",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er liberalisiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er liberalisierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat liberalisiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er liberalisierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas liberalisieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Markt liberalisieren",
+          "gloss_en": "to liberalise the market"
+        },
+        {
+          "phrase": "den Handel liberalisieren",
+          "gloss_en": "to liberalise trade"
+        },
+        {
+          "phrase": "den Strommarkt liberalisieren",
+          "gloss_en": "to liberalise the electricity market"
+        },
+        {
+          "phrase": "schrittweise liberalisieren",
+          "gloss_en": "to liberalise step by step"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die EU hat den Telekommunikationsmarkt weitgehend liberalisiert.",
+          "en": "The EU has largely liberalised the telecommunications market."
+        },
+        {
+          "de": "Wer den Arbeitsmarkt liberalisiert, muss auch soziale Folgen bedenken.",
+          "en": "Whoever liberalises the labour market must also consider the social consequences."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Wirtschaftspolitischer Fachbegriff, sachlich; in der Sache oft umstritten.",
+      "near_synonyms": [
+        {
+          "lemma": "deregulieren",
+          "distinction": "enger, das Abbauen konkreter Vorschriften"
+        },
+        {
+          "lemma": "öffnen",
+          "distinction": "allgemeiner, ohne den marktwirtschaftlichen Fachsinn"
+        }
+      ]
+    },
+    "deregulieren": {
+      "meaning_de": "staatliche Vorschriften und Auflagen für einen Bereich abbauen",
+      "meaning_en": "to deregulate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er dereguliert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er deregulierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat dereguliert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er deregulierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas deregulieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Finanzmärkte deregulieren",
+          "gloss_en": "to deregulate the financial markets"
+        },
+        {
+          "phrase": "eine Branche deregulieren",
+          "gloss_en": "to deregulate an industry"
+        },
+        {
+          "phrase": "stark deregulierte Märkte",
+          "gloss_en": "heavily deregulated markets"
+        },
+        {
+          "phrase": "den Arbeitsmarkt deregulieren",
+          "gloss_en": "to deregulate the labour market"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Viele Krisen entstanden, weil man die Finanzmärkte zu stark deregulierte.",
+          "en": "Many crises arose because the financial markets were deregulated too much."
+        },
+        {
+          "de": "Die Regierung plant, den Wohnungsmarkt weiter zu deregulieren.",
+          "en": "The government plans to deregulate the housing market further."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Wirtschaftspolitischer Fachbegriff; Gegenbegriff zu regulieren.",
+      "near_synonyms": [
+        {
+          "lemma": "liberalisieren",
+          "distinction": "umfassender, öffnet zusätzlich für Wettbewerb"
+        },
+        {
+          "lemma": "entbürokratisieren",
+          "distinction": "zielt auf den Abbau von Verwaltungsaufwand, nicht auf Marktöffnung"
+        }
+      ]
+    },
+    "fusionieren": {
+      "meaning_de": "sich mit einem anderen Unternehmen zu einer Einheit zusammenschließen",
+      "meaning_en": "to merge",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er fusioniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er fusionierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist fusioniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er fusionierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "mit etwas fusionieren",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "mit einem Konkurrenten fusionieren",
+          "gloss_en": "to merge with a competitor"
+        },
+        {
+          "phrase": "zu einem Konzern fusionieren",
+          "gloss_en": "to merge into a corporation"
+        },
+        {
+          "phrase": "die beiden Banken fusionieren",
+          "gloss_en": "the two banks merge"
+        },
+        {
+          "phrase": "geplant zu fusionieren",
+          "gloss_en": "planning to merge"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Autobauer wollen zu einem Weltkonzern fusionieren.",
+          "en": "The two carmakers want to merge into a global corporation."
+        },
+        {
+          "de": "Das kleinere Institut fusionierte mit einer großen Bank.",
+          "en": "The smaller institution merged with a large bank."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschaftsfachbegriff; das Perfekt wird mit sein gebildet.",
+      "near_synonyms": [
+        {
+          "lemma": "sich zusammenschließen",
+          "distinction": "das deutsche Pendant, breiter auch für Vereine und Parteien"
+        },
+        {
+          "lemma": "verschmelzen",
+          "distinction": "betont das restlose Aufgehen zu einem Ganzen"
+        }
+      ]
+    },
+    "boykottieren": {
+      "meaning_de": "aus Protest die Zusammenarbeit mit jemandem oder den Kauf von etwas verweigern",
+      "meaning_en": "to boycott",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er boykottiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er boykottierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat boykottiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er boykottierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas/jemanden boykottieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Wahl boykottieren",
+          "gloss_en": "to boycott the election"
+        },
+        {
+          "phrase": "ein Produkt boykottieren",
+          "gloss_en": "to boycott a product"
+        },
+        {
+          "phrase": "die Verhandlungen boykottieren",
+          "gloss_en": "to boycott the negotiations"
+        },
+        {
+          "phrase": "zum Boykott aufrufen",
+          "gloss_en": "to call for a boycott"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mehrere Länder boykottierten die Eröffnungsfeier.",
+          "en": "Several countries boycotted the opening ceremony."
+        },
+        {
+          "de": "Verbraucher riefen dazu auf, die Marke zu boykottieren.",
+          "en": "Consumers called for a boycott of the brand."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; politisch und wirtschaftlich, oft im Kontext von Protest.",
+      "near_synonyms": [
+        {
+          "lemma": "meiden",
+          "distinction": "allgemein aus dem Weg gehen, ohne politischen Protest"
+        },
+        {
+          "lemma": "bestreiken",
+          "distinction": "nur mit Streik, bezogen auf Arbeit und Betriebe"
+        }
+      ]
+    },
+    "annektieren": {
+      "meaning_de": "ein fremdes Gebiet gewaltsam dem eigenen Staat einverleiben",
+      "meaning_en": "to annex",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er annektiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er annektierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat annektiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er annektierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas annektieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Gebiet annektieren",
+          "gloss_en": "to annex a territory"
+        },
+        {
+          "phrase": "völkerrechtswidrig annektieren",
+          "gloss_en": "to annex in violation of international law"
+        },
+        {
+          "phrase": "eine Halbinsel annektieren",
+          "gloss_en": "to annex a peninsula"
+        },
+        {
+          "phrase": "ein Land gewaltsam annektieren",
+          "gloss_en": "to annex a country by force"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Nachbarland annektierte die Provinz unter internationalem Protest.",
+          "en": "The neighbouring country annexed the province amid international protest."
+        },
+        {
+          "de": "Die Staatengemeinschaft erkennt die annektierten Gebiete nicht an.",
+          "en": "The international community does not recognise the annexed territories."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Völkerrechtlicher Fachbegriff, stark negativ konnotiert.",
+      "near_synonyms": [
+        {
+          "lemma": "einverleiben",
+          "distinction": "bildlicher und breiter, auch übertragen verwendbar"
+        },
+        {
+          "lemma": "erobern",
+          "distinction": "betont die militärische Eroberung, nicht die staatsrechtliche Angliederung"
+        }
+      ]
+    },
+    "sanktionieren": {
+      "meaning_de": "ein Verhalten mit Strafmaßnahmen belegen; auch: etwas offiziell billigen",
+      "meaning_en": "to sanction; to penalise",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er sanktioniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er sanktionierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sanktioniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er sanktionierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas/jemanden sanktionieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Verstoß sanktionieren",
+          "gloss_en": "to penalise a violation"
+        },
+        {
+          "phrase": "ein Land sanktionieren",
+          "gloss_en": "to impose sanctions on a country"
+        },
+        {
+          "phrase": "hart sanktionieren",
+          "gloss_en": "to penalise harshly"
+        },
+        {
+          "phrase": "ein Fehlverhalten sanktionieren",
+          "gloss_en": "to penalise misconduct"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Verstöße gegen die Regeln werden konsequent sanktioniert.",
+          "en": "Violations of the rules are consistently penalised."
+        },
+        {
+          "de": "Der Westen sanktionierte das Regime wegen der Menschenrechtslage.",
+          "en": "The West imposed sanctions on the regime over its human rights record."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; meist im Sinne von bestrafen, seltener gegenteilig als billigen.",
+      "near_synonyms": [
+        {
+          "lemma": "bestrafen",
+          "distinction": "allgemeiner und alltäglicher, ohne den formellen Beiklang"
+        },
+        {
+          "lemma": "ahnden",
+          "distinction": "gehoben-juristisch, ein Vergehen amtlich verfolgen"
+        }
+      ]
+    },
+    "eskalieren": {
+      "meaning_de": "sich in Heftigkeit oder Ausmaß steigern und außer Kontrolle geraten",
+      "meaning_en": "to escalate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er eskaliert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er eskalierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist eskaliert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er eskalierte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Konflikt eskaliert",
+          "gloss_en": "the conflict is escalating"
+        },
+        {
+          "phrase": "die Lage eskaliert",
+          "gloss_en": "the situation is escalating"
+        },
+        {
+          "phrase": "die Gewalt eskaliert",
+          "gloss_en": "the violence is escalating"
+        },
+        {
+          "phrase": "die Situation eskalieren lassen",
+          "gloss_en": "to let the situation escalate"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus einem Streit eskalierte die Auseinandersetzung zu einer Schlägerei.",
+          "en": "A quarrel escalated into a brawl."
+        },
+        {
+          "de": "Beide Seiten wollen verhindern, dass der Konflikt weiter eskaliert.",
+          "en": "Both sides want to prevent the conflict from escalating further."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; überwiegend intransitiv, das Perfekt wird mit sein gebildet.",
+      "near_synonyms": [
+        {
+          "lemma": "sich zuspitzen",
+          "distinction": "betont das Kritischerwerden, nicht zwingend Gewalt"
+        },
+        {
+          "lemma": "hochkochen",
+          "distinction": "umgangssprachlich, bildlich für aufflammende Emotionen"
+        }
+      ]
+    },
+    "konjunkturell": {
+      "meaning_de": "die wirtschaftliche Konjunktur betreffend, durch den Konjunkturverlauf bedingt",
+      "meaning_en": "cyclical; relating to the economic situation",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die konjunkturelle Lage",
+          "gloss_en": "the economic situation"
+        },
+        {
+          "phrase": "aus konjunkturellen Gründen",
+          "gloss_en": "for cyclical reasons"
+        },
+        {
+          "phrase": "der konjunkturelle Abschwung",
+          "gloss_en": "the cyclical downturn"
+        },
+        {
+          "phrase": "konjunkturell bedingt",
+          "gloss_en": "cyclically induced"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Arbeitslosigkeit ist derzeit vor allem konjunkturell bedingt.",
+          "en": "Unemployment is currently mainly due to the economic cycle."
+        },
+        {
+          "de": "Die konjunkturellen Aussichten haben sich eingetrübt.",
+          "en": "The economic outlook has darkened."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschaftliches Fachadjektiv; als Beziehungsadjektiv nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "zyklisch",
+          "distinction": "betont die regelmäßige Wiederkehr, nicht speziell die Wirtschaftslage"
+        },
+        {
+          "lemma": "wirtschaftlich",
+          "distinction": "viel allgemeiner, die Wirtschaft insgesamt betreffend"
+        }
+      ]
+    },
+    "inflationär": {
+      "meaning_de": "die Inflation betreffend oder sie antreibend; auch: im Übermaß auftretend",
+      "meaning_en": "inflationary",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "inflationäre Tendenzen",
+          "gloss_en": "inflationary tendencies"
+        },
+        {
+          "phrase": "eine inflationäre Entwicklung",
+          "gloss_en": "an inflationary development"
+        },
+        {
+          "phrase": "inflationärer Druck",
+          "gloss_en": "inflationary pressure"
+        },
+        {
+          "phrase": "inflationär gebrauchen",
+          "gloss_en": "to use excessively"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die stark steigenden Energiepreise wirken inflationär.",
+          "en": "The sharply rising energy prices have an inflationary effect."
+        },
+        {
+          "de": "Der Begriff wird heute geradezu inflationär verwendet.",
+          "en": "The term is used almost excessively nowadays."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich der Wirtschaft; übertragen im Sinne von im Übermaß; nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "preistreibend",
+          "distinction": "anschaulicher, betont ausdrücklich den Effekt auf die Preise"
+        },
+        {
+          "lemma": "teuerungsbedingt",
+          "distinction": "durch die Teuerung verursacht, nicht sie verursachend"
+        }
+      ]
+    },
+    "fiskalisch": {
+      "meaning_de": "die Staatsfinanzen, also Steuern und öffentliche Ausgaben, betreffend",
+      "meaning_en": "fiscal",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die fiskalische Belastung",
+          "gloss_en": "the fiscal burden"
+        },
+        {
+          "phrase": "aus fiskalischen Gründen",
+          "gloss_en": "for fiscal reasons"
+        },
+        {
+          "phrase": "der fiskalische Spielraum",
+          "gloss_en": "the fiscal leeway"
+        },
+        {
+          "phrase": "fiskalische Anreize",
+          "gloss_en": "fiscal incentives"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Reform verfolgt vor allem fiskalische Ziele.",
+          "en": "The reform pursues mainly fiscal goals."
+        },
+        {
+          "de": "Der Staat hat kaum noch fiskalischen Spielraum.",
+          "en": "The state has hardly any fiscal leeway left."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachadjektiv der Finanzpolitik; als Beziehungsadjektiv nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "steuerlich",
+          "distinction": "enger, nur die Steuern betreffend, nicht die Ausgaben"
+        },
+        {
+          "lemma": "haushaltspolitisch",
+          "distinction": "betont den öffentlichen Haushalt und seine Planung"
+        }
+      ]
+    },
+    "geldpolitisch": {
+      "meaning_de": "die Geldpolitik der Zentralbank betreffend",
+      "meaning_en": "monetary; relating to monetary policy",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "geldpolitische Maßnahmen",
+          "gloss_en": "monetary policy measures"
+        },
+        {
+          "phrase": "die geldpolitische Wende",
+          "gloss_en": "the monetary policy turnaround"
+        },
+        {
+          "phrase": "geldpolitischer Spielraum",
+          "gloss_en": "monetary policy room"
+        },
+        {
+          "phrase": "geldpolitisch gegensteuern",
+          "gloss_en": "to counteract through monetary policy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Notenbank hat ihren geldpolitischen Kurs deutlich gestrafft.",
+          "en": "The central bank has tightened its monetary policy course considerably."
+        },
+        {
+          "de": "Geldpolitisch sind der Zentralbank die Hände gebunden.",
+          "en": "In terms of monetary policy the central bank's hands are tied."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachadjektiv der Wirtschaftspolitik; als Beziehungsadjektiv nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "monetär",
+          "distinction": "das Geld selbst betreffend, breiter als nur die Zentralbankpolitik"
+        },
+        {
+          "lemma": "währungspolitisch",
+          "distinction": "richtet den Blick auf den Außenwert der Währung"
+        }
+      ]
+    },
+    "wettbewerbsfähig": {
+      "meaning_de": "fähig, sich im Wettbewerb gegen Konkurrenten zu behaupten",
+      "meaning_en": "competitive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "wettbewerbsfähiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am wettbewerbsfähigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "wettbewerbsfähig bleiben",
+          "gloss_en": "to stay competitive"
+        },
+        {
+          "phrase": "international wettbewerbsfähig",
+          "gloss_en": "internationally competitive"
+        },
+        {
+          "phrase": "wettbewerbsfähige Preise",
+          "gloss_en": "competitive prices"
+        },
+        {
+          "phrase": "die Wirtschaft wettbewerbsfähig machen",
+          "gloss_en": "to make the economy competitive"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne Investitionen in Forschung bleibt kein Standort wettbewerbsfähig.",
+          "en": "Without investment in research no location remains competitive."
+        },
+        {
+          "de": "Dank niedriger Kosten sind die Produkte sehr wettbewerbsfähig.",
+          "en": "Thanks to low costs the products are very competitive."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Wirtschaftlich-neutral, in Politik und Unternehmen gebräuchlich; steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "konkurrenzfähig",
+          "distinction": "nahezu bedeutungsgleich, etwas alltäglicher"
+        },
+        {
+          "lemma": "leistungsfähig",
+          "distinction": "betont die Leistung an sich, nicht den Vergleich mit Rivalen"
+        }
+      ]
+    },
+    "zahlungsunfähig": {
+      "meaning_de": "nicht mehr in der Lage, fällige Zahlungen zu leisten; insolvent",
+      "meaning_en": "insolvent; unable to pay",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zahlungsunfähig werden",
+          "gloss_en": "to become insolvent"
+        },
+        {
+          "phrase": "einen zahlungsunfähigen Schuldner",
+          "gloss_en": "an insolvent debtor"
+        },
+        {
+          "phrase": "das Unternehmen ist zahlungsunfähig",
+          "gloss_en": "the company is insolvent"
+        },
+        {
+          "phrase": "drohende Zahlungsunfähigkeit",
+          "gloss_en": "impending insolvency"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das überschuldete Unternehmen wurde zahlungsunfähig und musste Insolvenz anmelden.",
+          "en": "The over-indebted company became insolvent and had to file for bankruptcy."
+        },
+        {
+          "de": "Droht der Staat zahlungsunfähig zu werden, sinkt seine Bonität.",
+          "en": "If the state threatens to become insolvent, its credit rating falls."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Rechts- und Finanzbegriff; als Zustand ohne Zwischenstufen nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "insolvent",
+          "distinction": "das Fremdwort, juristisch identisch verwendet"
+        },
+        {
+          "lemma": "pleite",
+          "distinction": "umgangssprachlich für zahlungsunfähig, salopp"
+        }
+      ]
+    },
+    "multilateral": {
+      "meaning_de": "mehrere Staaten oder Parteien gemeinsam betreffend; von vielen Seiten getragen",
+      "meaning_en": "multilateral",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein multilaterales Abkommen",
+          "gloss_en": "a multilateral agreement"
+        },
+        {
+          "phrase": "multilaterale Verhandlungen",
+          "gloss_en": "multilateral negotiations"
+        },
+        {
+          "phrase": "die multilaterale Zusammenarbeit",
+          "gloss_en": "multilateral cooperation"
+        },
+        {
+          "phrase": "multilaterale Institutionen",
+          "gloss_en": "multilateral institutions"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Problem lässt sich nur durch multilaterale Zusammenarbeit lösen.",
+          "en": "The problem can only be solved through multilateral cooperation."
+        },
+        {
+          "de": "Die Regierung setzt weiterhin auf multilaterale Bündnisse.",
+          "en": "The government continues to rely on multilateral alliances."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachbegriff der Diplomatie; als Beziehungsadjektiv nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "bilateral",
+          "distinction": "das Gegenstück: nur zwei Seiten betreffend"
+        },
+        {
+          "lemma": "international",
+          "distinction": "allgemein zwischen Staaten, ohne die Betonung auf mehreren Parteien"
+        }
+      ]
+    },
+    "autokratisch": {
+      "meaning_de": "von einem Alleinherrscher geprägt, der die Macht ohne Kontrolle ausübt",
+      "meaning_en": "autocratic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "autokratischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am autokratischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein autokratisches Regime",
+          "gloss_en": "an autocratic regime"
+        },
+        {
+          "phrase": "autokratisch regieren",
+          "gloss_en": "to rule autocratically"
+        },
+        {
+          "phrase": "ein autokratischer Führungsstil",
+          "gloss_en": "an autocratic leadership style"
+        },
+        {
+          "phrase": "autokratische Herrscher",
+          "gloss_en": "autocratic rulers"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Präsident regiert zunehmend autokratisch und schaltet die Opposition aus.",
+          "en": "The president governs increasingly autocratically and sidelines the opposition."
+        },
+        {
+          "de": "In autokratischen Staaten fehlt eine unabhängige Presse.",
+          "en": "In autocratic states there is no independent press."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Politisch-fachlich, wertend negativ; steigerbar im Sinne von mehr oder weniger diktatorisch.",
+      "near_synonyms": [
+        {
+          "lemma": "diktatorisch",
+          "distinction": "stärker, betont Zwang und Unterdrückung deutlicher"
+        },
+        {
+          "lemma": "autoritär",
+          "distinction": "betont Gehorsam und starke Hand, nicht zwingend Alleinherrschaft"
+        }
+      ]
+    }
+  }
+}
