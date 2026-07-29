@@ -1,0 +1,3408 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 formal verbs batch (c1-07): gehobene Verben für Analyse, Bildungssprache und Sachtexte, keyed by lemma.",
+  "dossiers": {
+    "verharren": {
+      "meaning_de": "in einer Haltung, Lage oder einem Zustand unbeweglich bleiben und nicht davon abweichen",
+      "meaning_en": "to remain (motionless); to persist in a state or position",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verharrt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verharrte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verharrt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verharrte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "in etwas verharren",
+          "cases": "in + Dat."
+        },
+        {
+          "pattern": "bei etwas verharren",
+          "cases": "bei + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "in Schweigen verharren",
+          "gloss_en": "to remain silent"
+        },
+        {
+          "phrase": "in seiner Haltung verharren",
+          "gloss_en": "to persist in one's stance"
+        },
+        {
+          "phrase": "reglos verharren",
+          "gloss_en": "to remain motionless"
+        },
+        {
+          "phrase": "in Passivität verharren",
+          "gloss_en": "to remain passive"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Regierung verharrt in ihrer abwartenden Haltung.",
+          "en": "The government persists in its wait-and-see stance."
+        },
+        {
+          "de": "Sekundenlang verharrte er reglos in der Tür.",
+          "en": "For a few seconds he remained motionless in the doorway."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont das starre, unveränderte Ausharren, oft mit negativem Beiklang.",
+      "near_synonyms": [
+        {
+          "lemma": "verweilen",
+          "distinction": "neutraler, betont das ruhige Bleiben ohne Starre"
+        },
+        {
+          "lemma": "beharren",
+          "distinction": "meint das Festhalten an einer Meinung, nicht die Lage"
+        }
+      ]
+    },
+    "sich abzeichnen": {
+      "meaning_de": "allmählich erkennbar werden, sich als Entwicklung oder Umriss andeuten",
+      "meaning_en": "to emerge; to become apparent; to be on the horizon",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es zeichnet sich ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es zeichnete sich ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat sich abgezeichnet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es zeichnete sich ab"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Lösung zeichnet sich ab",
+          "gloss_en": "a solution is emerging"
+        },
+        {
+          "phrase": "ein Trend zeichnet sich ab",
+          "gloss_en": "a trend is becoming apparent"
+        },
+        {
+          "phrase": "sich deutlich abzeichnen",
+          "gloss_en": "to emerge clearly"
+        },
+        {
+          "phrase": "sich am Horizont abzeichnen",
+          "gloss_en": "to loom on the horizon"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine Einigung zeichnet sich langsam ab.",
+          "en": "An agreement is slowly emerging."
+        },
+        {
+          "de": "Schon damals zeichnete sich die Krise ab.",
+          "en": "Even then the crisis was becoming apparent."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Analysen und Berichte über sich anbahnende Entwicklungen.",
+      "near_synonyms": [
+        {
+          "lemma": "sich andeuten",
+          "distinction": "vager, ein erster schwacher Hinweis"
+        },
+        {
+          "lemma": "sich anbahnen",
+          "distinction": "betont stärker den Prozess des Entstehens"
+        }
+      ]
+    },
+    "anstreben": {
+      "meaning_de": "sich um das Erreichen eines Ziels bewusst und zielgerichtet bemühen",
+      "meaning_en": "to aspire to; to strive for; to aim at",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er strebt an"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er strebte an"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat angestrebt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er strebte an"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas anstreben",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Lösung anstreben",
+          "gloss_en": "to aim for a solution"
+        },
+        {
+          "phrase": "einen Kompromiss anstreben",
+          "gloss_en": "to seek a compromise"
+        },
+        {
+          "phrase": "eine Karriere anstreben",
+          "gloss_en": "to aspire to a career"
+        },
+        {
+          "phrase": "eine Mehrheit anstreben",
+          "gloss_en": "to aim for a majority"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beide Seiten streben eine dauerhafte Lösung an.",
+          "en": "Both sides are aiming for a lasting solution."
+        },
+        {
+          "de": "Sie strebte von Anfang an eine leitende Position an.",
+          "en": "From the start she aspired to a leading position."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als 'erreichen wollen', häufig in Politik und Beruf.",
+      "near_synonyms": [
+        {
+          "lemma": "erstreben",
+          "distinction": "noch gehobener und seltener, fast synonym"
+        },
+        {
+          "lemma": "abzielen",
+          "distinction": "nur mit 'auf', betont die Ausrichtung, nicht das Wollen"
+        }
+      ]
+    },
+    "aufzeigen": {
+      "meaning_de": "etwas deutlich sichtbar machen und darlegen, sodass es erkennbar wird",
+      "meaning_en": "to point out; to reveal; to demonstrate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zeigt auf"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zeigte auf"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat aufgezeigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zeigte auf"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas aufzeigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Möglichkeiten aufzeigen",
+          "gloss_en": "to point out options"
+        },
+        {
+          "phrase": "Zusammenhänge aufzeigen",
+          "gloss_en": "to reveal connections"
+        },
+        {
+          "phrase": "Grenzen aufzeigen",
+          "gloss_en": "to indicate limits"
+        },
+        {
+          "phrase": "Lösungswege aufzeigen",
+          "gloss_en": "to outline ways to a solution"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Studie zeigt deutliche Zusammenhänge auf.",
+          "en": "The study reveals clear connections."
+        },
+        {
+          "de": "Der Bericht zeigt Wege aus der Krise auf.",
+          "en": "The report points out ways out of the crisis."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; sachlich-analytisch, typisch für Studien, Berichte und Vorträge.",
+      "near_synonyms": [
+        {
+          "lemma": "darlegen",
+          "distinction": "betont das ausführliche Erläutern, nicht das Sichtbarmachen"
+        },
+        {
+          "lemma": "verdeutlichen",
+          "distinction": "zielt auf besseres Verstehen, nicht auf das Enthüllen"
+        }
+      ]
+    },
+    "ausräumen": {
+      "meaning_de": "Bedenken, Zweifel oder Missverständnisse beseitigen; auch: einen Raum leeren",
+      "meaning_en": "to dispel; to clear up (doubts); to clear out",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er räumt aus"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er räumte aus"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat ausgeräumt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er räumte aus"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas ausräumen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Zweifel ausräumen",
+          "gloss_en": "to dispel doubts"
+        },
+        {
+          "phrase": "Bedenken ausräumen",
+          "gloss_en": "to allay reservations"
+        },
+        {
+          "phrase": "Missverständnisse ausräumen",
+          "gloss_en": "to clear up misunderstandings"
+        },
+        {
+          "phrase": "ein Hindernis ausräumen",
+          "gloss_en": "to remove an obstacle"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gespräch konnte alle Zweifel ausräumen.",
+          "en": "The conversation was able to dispel all doubts."
+        },
+        {
+          "de": "Die letzten Bedenken sind damit ausgeräumt.",
+          "en": "The last reservations have thereby been allayed."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Im übertragenen Sinn gehoben; die konkrete Bedeutung (leerräumen) ist neutral.",
+      "near_synonyms": [
+        {
+          "lemma": "beseitigen",
+          "distinction": "allgemeiner, für Dinge und Probleme aller Art"
+        },
+        {
+          "lemma": "zerstreuen",
+          "distinction": "vor allem für Zweifel und Bedenken, etwas bildhafter"
+        }
+      ]
+    },
+    "begünstigen": {
+      "meaning_de": "etwas fördern oder erleichtern; jemandem einen Vorteil verschaffen",
+      "meaning_en": "to favour; to facilitate; to promote",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er begünstigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er begünstigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat begünstigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er begünstigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas/jemanden begünstigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Entwicklung begünstigen",
+          "gloss_en": "to favour a development"
+        },
+        {
+          "phrase": "das Wachstum begünstigen",
+          "gloss_en": "to promote growth"
+        },
+        {
+          "phrase": "einseitig begünstigen",
+          "gloss_en": "to favour one-sidedly"
+        },
+        {
+          "phrase": "die Ausbreitung begünstigen",
+          "gloss_en": "to facilitate the spread"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Warme Witterung begünstigt die Ausbreitung des Erregers.",
+          "en": "Warm weather favours the spread of the pathogen."
+        },
+        {
+          "de": "Die Regelung begünstigt vor allem große Unternehmen.",
+          "en": "The rule mainly favours large companies."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; sachlich in Wissenschaft, Recht und Wirtschaft, oft mit Vorteilscharakter.",
+      "near_synonyms": [
+        {
+          "lemma": "fördern",
+          "distinction": "aktiver und wohlwollender, gezielte Unterstützung"
+        },
+        {
+          "lemma": "bevorzugen",
+          "distinction": "meint das Vorziehen einer Person oder Sache"
+        }
+      ]
+    },
+    "sich bewähren": {
+      "meaning_de": "sich in einer Belastung oder über die Zeit als tauglich und verlässlich erweisen",
+      "meaning_en": "to prove oneself; to stand the test; to prove reliable",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bewährt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bewährte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich bewährt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bewährte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich in etwas bewähren",
+          "cases": "in + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich in der Praxis bewähren",
+          "gloss_en": "to prove itself in practice"
+        },
+        {
+          "phrase": "sich in der Krise bewähren",
+          "gloss_en": "to stand the test in a crisis"
+        },
+        {
+          "phrase": "ein bewährtes Verfahren",
+          "gloss_en": "a tried-and-tested method"
+        },
+        {
+          "phrase": "sich als zuverlässig bewähren",
+          "gloss_en": "to prove reliable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Konzept hat sich in der Praxis bewährt.",
+          "en": "The concept has proven itself in practice."
+        },
+        {
+          "de": "In der Krise bewährte sich das eingespielte Team.",
+          "en": "In the crisis the well-established team proved its worth."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral; das Partizip 'bewährt' ist besonders geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "sich beweisen",
+          "distinction": "betont das einmalige Zeigen von Können"
+        },
+        {
+          "lemma": "sich behaupten",
+          "distinction": "meint das Sich-Durchsetzen gegen Widerstand"
+        }
+      ]
+    },
+    "einbüßen": {
+      "meaning_de": "etwas Wertvolles ganz oder teilweise verlieren, meist als Folge eines Ereignisses",
+      "meaning_en": "to forfeit; to lose; to sacrifice",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er büßt ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er büßte ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat eingebüßt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er büßte ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas einbüßen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "an Bedeutung einbüßen",
+          "gloss_en": "to lose importance"
+        },
+        {
+          "phrase": "an Wert einbüßen",
+          "gloss_en": "to lose value"
+        },
+        {
+          "phrase": "die Glaubwürdigkeit einbüßen",
+          "gloss_en": "to forfeit credibility"
+        },
+        {
+          "phrase": "viel einbüßen",
+          "gloss_en": "to lose a great deal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Partei büßte bei der Wahl viele Stimmen ein.",
+          "en": "The party lost many votes in the election."
+        },
+        {
+          "de": "Das Material hat mit der Zeit an Festigkeit eingebüßt.",
+          "en": "Over time the material has lost some of its strength."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft mit 'an + Dat.' für teilweisen Verlust, förmlicher als 'verlieren'.",
+      "near_synonyms": [
+        {
+          "lemma": "verlieren",
+          "distinction": "neutral und alltäglich, breiter verwendbar"
+        },
+        {
+          "lemma": "verwirken",
+          "distinction": "juristisch, ein Recht durch eigenes Verschulden verlieren"
+        }
+      ]
+    },
+    "sich erübrigen": {
+      "meaning_de": "überflüssig oder unnötig werden, weil kein Anlass mehr besteht",
+      "meaning_en": "to become unnecessary; to be superfluous",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es erübrigt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es erübrigte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat sich erübrigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es erübrigte sich"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "jede weitere Diskussion erübrigt sich",
+          "gloss_en": "any further discussion is unnecessary"
+        },
+        {
+          "phrase": "eine Antwort erübrigt sich",
+          "gloss_en": "a reply is superfluous"
+        },
+        {
+          "phrase": "sich damit erübrigen",
+          "gloss_en": "to become unnecessary as a result"
+        },
+        {
+          "phrase": "es erübrigt sich zu sagen",
+          "gloss_en": "it goes without saying"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dieser Klarstellung erübrigt sich jede weitere Frage.",
+          "en": "After this clarification any further question is unnecessary."
+        },
+        {
+          "de": "Die Reise hat sich erübrigt, weil man online verhandelte.",
+          "en": "The trip became unnecessary because negotiations were held online."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fast nur unpersönlich mit 'es' oder einem Sachsubjekt gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "entfallen",
+          "distinction": "etwas fällt weg, ohne den Aspekt der Überflüssigkeit"
+        },
+        {
+          "lemma": "sich überleben",
+          "distinction": "etwas wird durch die Zeit überholt und obsolet"
+        }
+      ]
+    },
+    "gedeihen": {
+      "meaning_de": "sich gut und kräftig entwickeln, prächtig wachsen oder florieren",
+      "meaning_en": "to thrive; to flourish; to prosper",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er gedeiht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er gedieh"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist gediehen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er gediehe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "prächtig gedeihen",
+          "gloss_en": "to thrive splendidly"
+        },
+        {
+          "phrase": "eine Pflanze gedeiht",
+          "gloss_en": "a plant flourishes"
+        },
+        {
+          "phrase": "ein Unternehmen gedeiht",
+          "gloss_en": "a business prospers"
+        },
+        {
+          "phrase": "weit gediehen sein",
+          "gloss_en": "to be well advanced"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In diesem Klima gedeihen selbst empfindliche Pflanzen.",
+          "en": "In this climate even delicate plants thrive."
+        },
+        {
+          "de": "Die Verhandlungen sind schon weit gediehen.",
+          "en": "The negotiations are already well advanced."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildet das Perfekt mit 'sein'; das Partizip 'gediehen' meint auch 'fortgeschritten'.",
+      "near_synonyms": [
+        {
+          "lemma": "florieren",
+          "distinction": "vor allem für Wirtschaft und Geschäfte"
+        },
+        {
+          "lemma": "sprießen",
+          "distinction": "nur für Pflanzen, betont das rasche Hervorkommen"
+        }
+      ]
+    },
+    "herbeiführen": {
+      "meaning_de": "durch eigenes Handeln bewirken, dass ein bestimmter Zustand oder ein Ereignis eintritt",
+      "meaning_en": "to bring about; to induce; to precipitate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er führt herbei"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er führte herbei"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat herbeigeführt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er führte herbei"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas herbeiführen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Entscheidung herbeiführen",
+          "gloss_en": "to bring about a decision"
+        },
+        {
+          "phrase": "eine Einigung herbeiführen",
+          "gloss_en": "to bring about an agreement"
+        },
+        {
+          "phrase": "eine Wende herbeiführen",
+          "gloss_en": "to precipitate a turnaround"
+        },
+        {
+          "phrase": "den Tod herbeiführen",
+          "gloss_en": "to cause death"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Vermittler führten schließlich eine Einigung herbei.",
+          "en": "The mediators finally brought about an agreement."
+        },
+        {
+          "de": "Er versuchte, eine Abstimmung herbeizuführen.",
+          "en": "He tried to bring about a vote."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont das gezielte Bewirken, häufig in Politik, Recht und Verwaltung.",
+      "near_synonyms": [
+        {
+          "lemma": "bewirken",
+          "distinction": "allgemeiner, auch ungewollte Wirkungen"
+        },
+        {
+          "lemma": "auslösen",
+          "distinction": "betont den Anstoß, nicht das planvolle Erreichen"
+        }
+      ]
+    },
+    "sich verschärfen": {
+      "meaning_de": "an Schärfe, Ernst oder Bedrohlichkeit zunehmen; sich zuspitzen",
+      "meaning_en": "to intensify; to worsen; to escalate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es verschärft sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es verschärfte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat sich verschärft"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es verschärfte sich"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Lage verschärft sich",
+          "gloss_en": "the situation is worsening"
+        },
+        {
+          "phrase": "der Konflikt verschärft sich",
+          "gloss_en": "the conflict is escalating"
+        },
+        {
+          "phrase": "die Krise verschärft sich",
+          "gloss_en": "the crisis is intensifying"
+        },
+        {
+          "phrase": "sich zusehends verschärfen",
+          "gloss_en": "to worsen visibly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die wirtschaftliche Lage hat sich weiter verschärft.",
+          "en": "The economic situation has worsened further."
+        },
+        {
+          "de": "Durch die Dürre verschärfte sich der Wassermangel.",
+          "en": "The drought intensified the water shortage."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral; transitiv ('etwas verschärfen') meint das Verschärfen von Regeln.",
+      "near_synonyms": [
+        {
+          "lemma": "sich zuspitzen",
+          "distinction": "betont das Zulaufen auf einen Höhepunkt"
+        },
+        {
+          "lemma": "eskalieren",
+          "distinction": "vor allem für Konflikte, die außer Kontrolle geraten"
+        }
+      ]
+    },
+    "vollziehen": {
+      "meaning_de": "eine Handlung förmlich ausführen; sich vollziehen: sich als Vorgang ereignen",
+      "meaning_en": "to carry out; to perform; (reflexive) to take place",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vollzieht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vollzog"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vollzogen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vollzöge"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas vollziehen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Schritt vollziehen",
+          "gloss_en": "to take a step"
+        },
+        {
+          "phrase": "eine Wende vollziehen",
+          "gloss_en": "to complete a turnaround"
+        },
+        {
+          "phrase": "sich in Etappen vollziehen",
+          "gloss_en": "to take place in stages"
+        },
+        {
+          "phrase": "einen Wandel vollziehen",
+          "gloss_en": "to carry out a transformation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Wandel vollzog sich langsam, aber unaufhaltsam.",
+          "en": "The change took place slowly but inexorably."
+        },
+        {
+          "de": "Die Behörde vollzieht die gerichtliche Anordnung.",
+          "en": "The authority carries out the court order."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; transitiv förmlich-behördlich, reflexiv ('sich vollziehen') für Vorgänge.",
+      "near_synonyms": [
+        {
+          "lemma": "ausführen",
+          "distinction": "neutraler, alltäglicher, weniger feierlich"
+        },
+        {
+          "lemma": "sich ereignen",
+          "distinction": "reflexiv, meint ein einzelnes Geschehen, keinen Prozess"
+        }
+      ]
+    },
+    "vorherrschen": {
+      "meaning_de": "in einem Bereich am stärksten vertreten sein und das Bild bestimmen; überwiegen",
+      "meaning_en": "to predominate; to prevail; to be prevalent",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es herrscht vor"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es herrschte vor"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat vorgeherrscht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es herrschte vor"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Meinung herrscht vor",
+          "gloss_en": "an opinion predominates"
+        },
+        {
+          "phrase": "die vorherrschende Ansicht",
+          "gloss_en": "the prevailing view"
+        },
+        {
+          "phrase": "Skepsis herrscht vor",
+          "gloss_en": "scepticism prevails"
+        },
+        {
+          "phrase": "die vorherrschende Windrichtung",
+          "gloss_en": "the prevailing wind direction"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Debatte herrschte große Skepsis vor.",
+          "en": "Great scepticism prevailed in the debate."
+        },
+        {
+          "de": "Damals herrschte eine ganz andere Auffassung vor.",
+          "en": "At that time a quite different view predominated."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; das Partizip 'vorherrschend' als Adjektiv ist besonders gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "überwiegen",
+          "distinction": "betont das mengenmäßige Übergewicht"
+        },
+        {
+          "lemma": "dominieren",
+          "distinction": "stärker, meint das beherrschende Bestimmen"
+        }
+      ]
+    },
+    "widerspiegeln": {
+      "meaning_de": "etwas erkennbar zum Ausdruck bringen oder abbilden; sich widerspiegeln: sichtbar werden",
+      "meaning_en": "to reflect; to mirror; (reflexive) to be reflected",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es spiegelt wider"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es spiegelte wider"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat widergespiegelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es spiegelte wider"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas widerspiegeln",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Stimmung widerspiegeln",
+          "gloss_en": "to reflect the mood"
+        },
+        {
+          "phrase": "die Realität widerspiegeln",
+          "gloss_en": "to mirror reality"
+        },
+        {
+          "phrase": "sich in etwas widerspiegeln",
+          "gloss_en": "to be reflected in something"
+        },
+        {
+          "phrase": "die Ergebnisse widerspiegeln",
+          "gloss_en": "to reflect the results"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Umfrage spiegelt die Stimmung im Land wider.",
+          "en": "The survey reflects the mood in the country."
+        },
+        {
+          "de": "In seinen Werken spiegelt sich der Geist der Zeit wider.",
+          "en": "The spirit of the age is reflected in his works."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im übertragenen Sinn; die Vorsilbe 'wider-' bleibt beim Trennen erhalten.",
+      "near_synonyms": [
+        {
+          "lemma": "abbilden",
+          "distinction": "sachlicher, meint das getreue Darstellen"
+        },
+        {
+          "lemma": "zum Ausdruck bringen",
+          "distinction": "aktiver, betont das bewusste Ausdrücken"
+        }
+      ]
+    },
+    "zeugen": {
+      "meaning_de": "ein Anzeichen für etwas sein und es damit erkennbar bezeugen",
+      "meaning_en": "to bear witness to; to testify to; to be evidence of",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zeugt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zeugte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gezeugt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zeugte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "von etwas zeugen",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "von Mut zeugen",
+          "gloss_en": "to bear witness to courage"
+        },
+        {
+          "phrase": "von Sachverstand zeugen",
+          "gloss_en": "to testify to expertise"
+        },
+        {
+          "phrase": "von schlechtem Geschmack zeugen",
+          "gloss_en": "to be evidence of bad taste"
+        },
+        {
+          "phrase": "vor Gericht zeugen",
+          "gloss_en": "to testify in court"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Antwort zeugt von großer Reife.",
+          "en": "Her answer bears witness to great maturity."
+        },
+        {
+          "de": "Die Ruinen zeugen von einer bewegten Geschichte.",
+          "en": "The ruins testify to a turbulent history."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben in 'von etwas zeugen'; daneben konkret 'ein Kind zeugen' (Akk.).",
+      "near_synonyms": [
+        {
+          "lemma": "zeigen",
+          "distinction": "neutral und direkt, ohne den feierlichen Beiklang"
+        },
+        {
+          "lemma": "bezeugen",
+          "distinction": "aktiver, jemand legt bewusst Zeugnis ab"
+        }
+      ]
+    },
+    "abzielen": {
+      "meaning_de": "auf ein bestimmtes Ziel gerichtet sein; etwas als Zweck verfolgen",
+      "meaning_en": "to aim at; to be directed at; to be intended to",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zielt ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zielte ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abgezielt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zielte ab"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "auf etwas abzielen",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "auf einen Kompromiss abzielen",
+          "gloss_en": "to aim at a compromise"
+        },
+        {
+          "phrase": "auf einen Effekt abzielen",
+          "gloss_en": "to be aimed at an effect"
+        },
+        {
+          "phrase": "eindeutig abzielen auf",
+          "gloss_en": "to be clearly directed at"
+        },
+        {
+          "phrase": "darauf abzielen, etwas zu tun",
+          "gloss_en": "to be intended to do something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Maßnahme zielt auf mehr Transparenz ab.",
+          "en": "The measure is aimed at greater transparency."
+        },
+        {
+          "de": "Seine Frage zielte offenkundig auf einen Widerspruch ab.",
+          "en": "His question was evidently aimed at exposing a contradiction."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fast immer mit 'auf + Akk.', typisch für Analysen von Absichten.",
+      "near_synonyms": [
+        {
+          "lemma": "bezwecken",
+          "distinction": "transitiv mit Akkusativ, betont die eigene Absicht"
+        },
+        {
+          "lemma": "hinauslaufen",
+          "distinction": "meint das Ergebnis, nicht die beabsichtigte Ausrichtung"
+        }
+      ]
+    },
+    "sich anbahnen": {
+      "meaning_de": "sich allmählich entwickeln und als kommendes Ereignis erkennbar werden",
+      "meaning_en": "to be in the offing; to be developing; to loom",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es bahnt sich an"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es bahnte sich an"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat sich angebahnt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es bahnte sich an"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Krise bahnt sich an",
+          "gloss_en": "a crisis is in the offing"
+        },
+        {
+          "phrase": "eine Wende bahnt sich an",
+          "gloss_en": "a turnaround is developing"
+        },
+        {
+          "phrase": "sich eine Lösung anbahnen",
+          "gloss_en": "for a solution to be emerging"
+        },
+        {
+          "phrase": "eine Freundschaft bahnt sich an",
+          "gloss_en": "a friendship is beginning to form"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen den Konzernen bahnt sich eine Fusion an.",
+          "en": "A merger is in the offing between the corporations."
+        },
+        {
+          "de": "Schon im Frühjahr bahnte sich der Konflikt an.",
+          "en": "The conflict was already developing in spring."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fast nur reflexiv und mit Sachsubjekt, betont die frühe Phase.",
+      "near_synonyms": [
+        {
+          "lemma": "sich abzeichnen",
+          "distinction": "betont das Erkennbarwerden, weniger das Entstehen"
+        },
+        {
+          "lemma": "sich zusammenbrauen",
+          "distinction": "bildhaft und meist auf Bedrohliches bezogen"
+        }
+      ]
+    },
+    "aufgreifen": {
+      "meaning_de": "einen Gedanken oder ein Thema aufnehmen und weiterverfolgen; auch: jemanden aufspüren",
+      "meaning_en": "to take up (a topic); to pick up on; to apprehend",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er greift auf"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er griff auf"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat aufgegriffen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er griffe auf"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas aufgreifen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Thema aufgreifen",
+          "gloss_en": "to take up a topic"
+        },
+        {
+          "phrase": "einen Vorschlag aufgreifen",
+          "gloss_en": "to pick up on a suggestion"
+        },
+        {
+          "phrase": "eine Idee aufgreifen",
+          "gloss_en": "to take up an idea"
+        },
+        {
+          "phrase": "die Anregung aufgreifen",
+          "gloss_en": "to act on the suggestion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Redner griff die Frage aus dem Publikum auf.",
+          "en": "The speaker took up the question from the audience."
+        },
+        {
+          "de": "Die Presse hat das Thema begierig aufgegriffen.",
+          "en": "The press eagerly picked up on the topic."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral im übertragenen Sinn; konkret 'aufgreifen' = festnehmen.",
+      "near_synonyms": [
+        {
+          "lemma": "aufnehmen",
+          "distinction": "allgemeiner, ohne den Aspekt des Weiterverfolgens"
+        },
+        {
+          "lemma": "anknüpfen",
+          "distinction": "nur mit 'an', meint das Fortsetzen von etwas Bestehendem"
+        }
+      ]
+    },
+    "sich ausweiten": {
+      "meaning_de": "sich in Umfang, Reichweite oder Ausmaß vergrößern; sich ausbreiten",
+      "meaning_en": "to expand; to spread; to widen",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es weitet sich aus"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es weitete sich aus"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat sich ausgeweitet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es weitete sich aus"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich zu etwas ausweiten",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "der Konflikt weitet sich aus",
+          "gloss_en": "the conflict is spreading"
+        },
+        {
+          "phrase": "sich zu einer Krise ausweiten",
+          "gloss_en": "to escalate into a crisis"
+        },
+        {
+          "phrase": "das Geschäft weitet sich aus",
+          "gloss_en": "the business is expanding"
+        },
+        {
+          "phrase": "sich rasch ausweiten",
+          "gloss_en": "to spread rapidly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Streik weitete sich auf weitere Branchen aus.",
+          "en": "The strike spread to further sectors."
+        },
+        {
+          "de": "Aus dem Zwischenfall hat sich ein Skandal ausgeweitet.",
+          "en": "The incident has grown into a scandal."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral; transitiv 'etwas ausweiten' meint das gezielte Erweitern.",
+      "near_synonyms": [
+        {
+          "lemma": "sich ausbreiten",
+          "distinction": "räumlicher, meint das Umsichgreifen"
+        },
+        {
+          "lemma": "sich ausdehnen",
+          "distinction": "auch zeitlich und physisch, neutraler"
+        }
+      ]
+    },
+    "entgegenwirken": {
+      "meaning_de": "einer Entwicklung oder Wirkung gezielt gegensteuern, um sie abzuschwächen",
+      "meaning_en": "to counteract; to work against; to counter",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er wirkt entgegen"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er wirkte entgegen"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entgegengewirkt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er wirkte entgegen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "einer Sache entgegenwirken",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einer Entwicklung entgegenwirken",
+          "gloss_en": "to counteract a development"
+        },
+        {
+          "phrase": "dem Trend entgegenwirken",
+          "gloss_en": "to work against the trend"
+        },
+        {
+          "phrase": "der Inflation entgegenwirken",
+          "gloss_en": "to counter inflation"
+        },
+        {
+          "phrase": "gezielt entgegenwirken",
+          "gloss_en": "to counteract deliberately"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Notenbank versucht, der Inflation entgegenzuwirken.",
+          "en": "The central bank is trying to counteract inflation."
+        },
+        {
+          "de": "Frühe Maßnahmen können dem Trend entgegenwirken.",
+          "en": "Early measures can counteract the trend."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; verlangt den Dativ, typisch in Wirtschaft, Politik und Medizin.",
+      "near_synonyms": [
+        {
+          "lemma": "gegensteuern",
+          "distinction": "bildhafter, oft in Wirtschaft und Verwaltung"
+        },
+        {
+          "lemma": "vorbeugen",
+          "distinction": "zielt auf Verhindern im Voraus, nicht auf Gegenwirken"
+        }
+      ]
+    },
+    "bemessen": {
+      "meaning_de": "das Maß oder die Höhe von etwas nach bestimmten Kriterien festlegen",
+      "meaning_en": "to gauge; to calculate; to apportion",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bemisst"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bemaß"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bemessen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bemäße"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas nach etwas bemessen",
+          "cases": "Akk., nach + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Strafe bemessen",
+          "gloss_en": "to determine the penalty"
+        },
+        {
+          "phrase": "den Beitrag bemessen",
+          "gloss_en": "to calculate the contribution"
+        },
+        {
+          "phrase": "knapp bemessen sein",
+          "gloss_en": "to be in short supply"
+        },
+        {
+          "phrase": "nach dem Einkommen bemessen",
+          "gloss_en": "to assess according to income"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Beitrag bemisst sich nach dem Einkommen.",
+          "en": "The contribution is calculated according to income."
+        },
+        {
+          "de": "Die Zeit für die Prüfung war knapp bemessen.",
+          "en": "The time for the exam was tightly measured."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft reflexiv 'sich bemessen nach'; das Partizip 'bemessen' ist sehr geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "bestimmen",
+          "distinction": "allgemeiner, ohne den Aspekt des abgestuften Maßes"
+        },
+        {
+          "lemma": "veranschlagen",
+          "distinction": "meint das vorläufige Schätzen von Kosten oder Zeit"
+        }
+      ]
+    },
+    "beschwören": {
+      "meaning_de": "eindringlich an jemanden appellieren; feierlich beteuern; auch: Geister herbeirufen",
+      "meaning_en": "to implore; to invoke; to conjure up",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er beschwört"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er beschwor"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat beschworen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er beschwöre"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden/etwas beschwören",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Einheit beschwören",
+          "gloss_en": "to invoke unity"
+        },
+        {
+          "phrase": "eine Gefahr beschwören",
+          "gloss_en": "to conjure up a danger"
+        },
+        {
+          "phrase": "die Vergangenheit beschwören",
+          "gloss_en": "to evoke the past"
+        },
+        {
+          "phrase": "jemanden inständig beschwören",
+          "gloss_en": "to implore someone urgently"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In seiner Rede beschwor er die Einheit der Nation.",
+          "en": "In his speech he invoked the unity of the nation."
+        },
+        {
+          "de": "Sie beschwor ihn, den Plan aufzugeben.",
+          "en": "She implored him to abandon the plan."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und pathetisch; die konkrete Bedeutung (Geister rufen) ist heute selten.",
+      "near_synonyms": [
+        {
+          "lemma": "anflehen",
+          "distinction": "rein bittend, ohne den feierlich-eindringlichen Ton"
+        },
+        {
+          "lemma": "heraufbeschwören",
+          "distinction": "meint das ungewollte Auslösen von Unheil"
+        }
+      ]
+    },
+    "bewahren": {
+      "meaning_de": "etwas erhalten und vor Verlust schützen; jemanden vor etwas schützen",
+      "meaning_en": "to preserve; to keep; to protect (from)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bewahrt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bewahrte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bewahrt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bewahrte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas bewahren",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemanden vor etwas bewahren",
+          "cases": "Akk., vor + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Ruhe bewahren",
+          "gloss_en": "to keep calm"
+        },
+        {
+          "phrase": "Stillschweigen bewahren",
+          "gloss_en": "to maintain silence"
+        },
+        {
+          "phrase": "die Fassung bewahren",
+          "gloss_en": "to keep one's composure"
+        },
+        {
+          "phrase": "jemanden vor Schaden bewahren",
+          "gloss_en": "to protect someone from harm"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Trotz des Chaos bewahrte sie die Ruhe.",
+          "en": "Despite the chaos she kept calm."
+        },
+        {
+          "de": "Nur sein Eingreifen bewahrte uns vor dem Schlimmsten.",
+          "en": "Only his intervention protected us from the worst."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral; in festen Wendungen ('die Ruhe bewahren') breit gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "erhalten",
+          "distinction": "betont das Fortbestehenlassen, nicht das Schützen"
+        },
+        {
+          "lemma": "schützen",
+          "distinction": "allgemeiner für Abwehr von Gefahr, ohne 'vor'-Zwang"
+        }
+      ]
+    },
+    "bündeln": {
+      "meaning_de": "einzelne Dinge oder Kräfte zusammenfassen und auf ein Ziel konzentrieren",
+      "meaning_en": "to bundle; to consolidate; to pool",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bündelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bündelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gebündelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bündelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas bündeln",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Kräfte bündeln",
+          "gloss_en": "to pool forces"
+        },
+        {
+          "phrase": "Kompetenzen bündeln",
+          "gloss_en": "to consolidate expertise"
+        },
+        {
+          "phrase": "Interessen bündeln",
+          "gloss_en": "to bundle interests"
+        },
+        {
+          "phrase": "Ressourcen bündeln",
+          "gloss_en": "to pool resources"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Firmen bündeln ihre Kräfte in einem gemeinsamen Projekt.",
+          "en": "The companies are pooling their forces in a joint project."
+        },
+        {
+          "de": "Die Reform bündelt mehrere Zuständigkeiten in einer Behörde.",
+          "en": "The reform consolidates several responsibilities in one authority."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; im übertragenen Sinn typisch für Wirtschaft und Verwaltung.",
+      "near_synonyms": [
+        {
+          "lemma": "zusammenfassen",
+          "distinction": "allgemeiner, auch für Inhalte und Texte"
+        },
+        {
+          "lemma": "konzentrieren",
+          "distinction": "betont das Zusammenziehen an einem Punkt"
+        }
+      ]
+    },
+    "sich einbürgern": {
+      "meaning_de": "sich als Brauch oder Gewohnheit allmählich durchsetzen und üblich werden",
+      "meaning_en": "to become established; to catch on; (of a person) to be naturalized",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es bürgert sich ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es bürgerte sich ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat sich eingebürgert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es bürgerte sich ein"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Brauch bürgert sich ein",
+          "gloss_en": "a custom becomes established"
+        },
+        {
+          "phrase": "eine Gewohnheit bürgert sich ein",
+          "gloss_en": "a habit takes hold"
+        },
+        {
+          "phrase": "ein Begriff bürgert sich ein",
+          "gloss_en": "a term catches on"
+        },
+        {
+          "phrase": "sich rasch einbürgern",
+          "gloss_en": "to become established quickly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der englische Ausdruck hat sich längst eingebürgert.",
+          "en": "The English expression has long since become established."
+        },
+        {
+          "de": "Nach und nach bürgerte sich diese Praxis ein.",
+          "en": "Gradually this practice became the norm."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben für Bräuche; die Bedeutung 'Staatsbürger werden' ist rechtlich.",
+      "near_synonyms": [
+        {
+          "lemma": "sich durchsetzen",
+          "distinction": "betont das Überwinden von Widerstand"
+        },
+        {
+          "lemma": "sich etablieren",
+          "distinction": "gehobener, auch für Personen und Institutionen"
+        }
+      ]
+    },
+    "einwirken": {
+      "meaning_de": "auf jemanden oder etwas eine beeinflussende oder verändernde Wirkung ausüben",
+      "meaning_en": "to act on; to have an effect on; to influence",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er wirkt ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er wirkte ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat eingewirkt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er wirkte ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "auf jemanden/etwas einwirken",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "auf jemanden einwirken",
+          "gloss_en": "to work on someone"
+        },
+        {
+          "phrase": "beruhigend einwirken",
+          "gloss_en": "to have a calming effect"
+        },
+        {
+          "phrase": "einwirken lassen",
+          "gloss_en": "to let something take effect"
+        },
+        {
+          "phrase": "auf eine Entscheidung einwirken",
+          "gloss_en": "to influence a decision"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Man versuchte, mäßigend auf die Streitenden einzuwirken.",
+          "en": "Attempts were made to have a moderating effect on the disputants."
+        },
+        {
+          "de": "Lassen Sie das Mittel einige Minuten einwirken.",
+          "en": "Let the product take effect for a few minutes."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral; 'auf jemanden einwirken' meint beeinflussendes Zureden.",
+      "near_synonyms": [
+        {
+          "lemma": "beeinflussen",
+          "distinction": "transitiv mit Akkusativ, direkter und breiter"
+        },
+        {
+          "lemma": "wirken",
+          "distinction": "allgemeiner, ohne die gerichtete Präposition 'auf'"
+        }
+      ]
+    },
+    "entbehren": {
+      "meaning_de": "ohne etwas Notwendiges auskommen müssen; gehoben: einer Sache ermangeln",
+      "meaning_en": "to do without; to be deprived of; to lack",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entbehrt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entbehrte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entbehrt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entbehrte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas entbehren (auskommen ohne)",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "einer Sache entbehren (ermangeln)",
+          "cases": "Gen."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jeder Grundlage entbehren",
+          "gloss_en": "to be devoid of any basis"
+        },
+        {
+          "phrase": "nicht zu entbehren sein",
+          "gloss_en": "to be indispensable"
+        },
+        {
+          "phrase": "das Nötigste entbehren",
+          "gloss_en": "to go without the bare essentials"
+        },
+        {
+          "phrase": "jeder Logik entbehren",
+          "gloss_en": "to lack all logic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vorwurf entbehrt jeder sachlichen Grundlage.",
+          "en": "The accusation lacks any factual basis."
+        },
+        {
+          "de": "Jahrelang musste die Familie das Nötigste entbehren.",
+          "en": "For years the family had to do without the bare essentials."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; die Genitiv-Rektion ('jeder Grundlage entbehren') ist besonders förmlich.",
+      "near_synonyms": [
+        {
+          "lemma": "vermissen",
+          "distinction": "betont das Fehlen als schmerzliches Gefühl"
+        },
+        {
+          "lemma": "ermangeln",
+          "distinction": "noch gehobener, nur mit Genitiv, fast bedeutungsgleich"
+        }
+      ]
+    },
+    "entfalten": {
+      "meaning_de": "etwas zur Wirkung oder Geltung bringen; sich entfalten: sich frei entwickeln",
+      "meaning_en": "to unfold; to develop; to bring to bear",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entfaltet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entfaltete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat entfaltet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entfaltete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas entfalten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "seine Wirkung entfalten",
+          "gloss_en": "to take effect"
+        },
+        {
+          "phrase": "sein Potenzial entfalten",
+          "gloss_en": "to realize one's potential"
+        },
+        {
+          "phrase": "Aktivitäten entfalten",
+          "gloss_en": "to engage in activities"
+        },
+        {
+          "phrase": "sich frei entfalten",
+          "gloss_en": "to develop freely"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament entfaltet seine Wirkung erst nach Stunden.",
+          "en": "The medicine takes effect only after hours."
+        },
+        {
+          "de": "Hier kann sich jeder Einzelne frei entfalten.",
+          "en": "Here every individual can develop freely."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; reflexiv häufig im Sinne der freien Persönlichkeitsentwicklung.",
+      "near_synonyms": [
+        {
+          "lemma": "entwickeln",
+          "distinction": "neutraler und allgemeiner verwendbar"
+        },
+        {
+          "lemma": "ausbreiten",
+          "distinction": "räumlicher, meint das Auseinanderlegen"
+        }
+      ]
+    },
+    "entstammen": {
+      "meaning_de": "seinen Ursprung oder seine Herkunft in etwas haben; aus etwas hervorgegangen sein",
+      "meaning_en": "to descend from; to originate from; to come from",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er entstammt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er entstammte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist entstammt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er entstammte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "einer Sache entstammen",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einer Familie entstammen",
+          "gloss_en": "to come from a family"
+        },
+        {
+          "phrase": "einer Epoche entstammen",
+          "gloss_en": "to date from an era"
+        },
+        {
+          "phrase": "der Feder entstammen",
+          "gloss_en": "to come from the pen of"
+        },
+        {
+          "phrase": "einer Tradition entstammen",
+          "gloss_en": "to spring from a tradition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie entstammt einer alten Gelehrtenfamilie.",
+          "en": "She comes from an old family of scholars."
+        },
+        {
+          "de": "Das Zitat entstammt einem Brief aus dem 18. Jahrhundert.",
+          "en": "The quotation comes from a letter from the 18th century."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; verlangt den Dativ, häufig bei Herkunft von Personen, Texten und Epochen.",
+      "near_synonyms": [
+        {
+          "lemma": "stammen aus",
+          "distinction": "neutraler, mit Präposition 'aus', breiter gebräuchlich"
+        },
+        {
+          "lemma": "hervorgehen",
+          "distinction": "betont das Resultat eines Prozesses, mit 'aus'"
+        }
+      ]
+    },
+    "erwirken": {
+      "meaning_de": "durch gezieltes Bemühen bei einer Stelle etwas erreichen und durchsetzen",
+      "meaning_en": "to obtain; to secure; to bring about (through effort)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er erwirkt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er erwirkte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat erwirkt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er erwirkte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas erwirken",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine einstweilige Verfügung erwirken",
+          "gloss_en": "to obtain an injunction"
+        },
+        {
+          "phrase": "einen Aufschub erwirken",
+          "gloss_en": "to secure a postponement"
+        },
+        {
+          "phrase": "eine Genehmigung erwirken",
+          "gloss_en": "to obtain a permit"
+        },
+        {
+          "phrase": "einen Haftbefehl erwirken",
+          "gloss_en": "to obtain an arrest warrant"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Anwälte erwirkten eine einstweilige Verfügung.",
+          "en": "The lawyers obtained an injunction."
+        },
+        {
+          "de": "Er erwirkte beim Gericht einen Aufschub der Räumung.",
+          "en": "He secured a postponement of the eviction from the court."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und stark juristisch; das Erreichte wird von einer Behörde gewährt.",
+      "near_synonyms": [
+        {
+          "lemma": "durchsetzen",
+          "distinction": "betont das Überwinden von Widerstand"
+        },
+        {
+          "lemma": "erreichen",
+          "distinction": "neutraler und allgemeiner, ohne amtlichen Beiklang"
+        }
+      ]
+    },
+    "sich etablieren": {
+      "meaning_de": "sich einen festen, anerkannten Platz verschaffen und sich dauerhaft behaupten",
+      "meaning_en": "to establish oneself; to become established",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er etabliert sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er etablierte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich etabliert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er etablierte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich als etwas etablieren",
+          "cases": "als + Nom."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich am Markt etablieren",
+          "gloss_en": "to establish oneself in the market"
+        },
+        {
+          "phrase": "sich als Standard etablieren",
+          "gloss_en": "to become established as a standard"
+        },
+        {
+          "phrase": "sich fest etablieren",
+          "gloss_en": "to become firmly established"
+        },
+        {
+          "phrase": "sich als Marke etablieren",
+          "gloss_en": "to establish oneself as a brand"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Verfahren hat sich als Standard etabliert.",
+          "en": "The method has become established as a standard."
+        },
+        {
+          "de": "Sie etablierte sich rasch als führende Expertin.",
+          "en": "She quickly established herself as a leading expert."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; auch transitiv ('etwas etablieren') für das Einführen von Verfahren.",
+      "near_synonyms": [
+        {
+          "lemma": "sich durchsetzen",
+          "distinction": "betont den Erfolg gegen Konkurrenz"
+        },
+        {
+          "lemma": "Fuß fassen",
+          "distinction": "meint das erste Ankommen, noch nicht die Festigung"
+        }
+      ]
+    },
+    "hervorbringen": {
+      "meaning_de": "etwas Neues erzeugen oder als Ergebnis entstehen lassen; auch: mühsam äußern",
+      "meaning_en": "to produce; to bring forth; to give rise to",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bringt hervor"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er brachte hervor"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat hervorgebracht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er brächte hervor"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas hervorbringen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Talente hervorbringen",
+          "gloss_en": "to produce talents"
+        },
+        {
+          "phrase": "Neues hervorbringen",
+          "gloss_en": "to bring forth something new"
+        },
+        {
+          "phrase": "kein Wort hervorbringen",
+          "gloss_en": "to be unable to utter a word"
+        },
+        {
+          "phrase": "große Werke hervorbringen",
+          "gloss_en": "to produce great works"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Region hat zahlreiche bedeutende Künstler hervorgebracht.",
+          "en": "This region has produced numerous important artists."
+        },
+        {
+          "de": "Vor Aufregung brachte er kein Wort hervor.",
+          "en": "He was so excited he couldn't utter a word."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im Sinne von 'erzeugen' feierlich, im Sinne von 'äußern' meist mit Mühe.",
+      "near_synonyms": [
+        {
+          "lemma": "erzeugen",
+          "distinction": "sachlicher und technischer, oft für Produkte"
+        },
+        {
+          "lemma": "schaffen",
+          "distinction": "betont den kreativen Akt des Neuschöpfens"
+        }
+      ]
+    },
+    "innewohnen": {
+      "meaning_de": "als wesentliche Eigenschaft untrennbar in etwas enthalten sein",
+      "meaning_en": "to be inherent in; to be intrinsic to",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es wohnt inne"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es wohnte inne"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat innegewohnt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es wohnte inne"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "einer Sache innewohnen",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einer Sache innewohnen",
+          "gloss_en": "to be inherent in something"
+        },
+        {
+          "phrase": "die innewohnende Logik",
+          "gloss_en": "the inherent logic"
+        },
+        {
+          "phrase": "eine Kraft wohnt inne",
+          "gloss_en": "a force is intrinsic"
+        },
+        {
+          "phrase": "die innewohnende Dynamik",
+          "gloss_en": "the inherent dynamic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Jedem Anfang wohnt ein Zauber inne.",
+          "en": "A magic is inherent in every beginning."
+        },
+        {
+          "de": "Dem System wohnt eine gewisse Trägheit inne.",
+          "en": "A certain inertia is intrinsic to the system."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Stark gehoben und literarisch; verlangt den Dativ, oft mit dem Partizip 'innewohnend'.",
+      "near_synonyms": [
+        {
+          "lemma": "eigen sein",
+          "distinction": "neutraler, ebenfalls mit Dativ, weniger feierlich"
+        },
+        {
+          "lemma": "zugrunde liegen",
+          "distinction": "meint das Fundament, nicht die untrennbare Eigenschaft"
+        }
+      ]
+    },
+    "konstatieren": {
+      "meaning_de": "etwas als Tatsache sachlich feststellen und ausdrücklich benennen",
+      "meaning_en": "to state; to note; to ascertain",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er konstatiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er konstatierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat konstatiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er konstatierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas konstatieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Rückgang konstatieren",
+          "gloss_en": "to note a decline"
+        },
+        {
+          "phrase": "nüchtern konstatieren",
+          "gloss_en": "to state soberly"
+        },
+        {
+          "phrase": "eine Veränderung konstatieren",
+          "gloss_en": "to ascertain a change"
+        },
+        {
+          "phrase": "mit Bedauern konstatieren",
+          "gloss_en": "to note with regret"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Arzt konstatierte eine deutliche Besserung.",
+          "en": "The doctor noted a marked improvement."
+        },
+        {
+          "de": "Man muss nüchtern konstatieren, dass das Ziel verfehlt wurde.",
+          "en": "One must soberly state that the goal was missed."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und bildungssprachlich; sachlich-distanziert, typisch für Berichte und Analysen.",
+      "near_synonyms": [
+        {
+          "lemma": "feststellen",
+          "distinction": "neutraler und alltäglicher, gleiche Grundbedeutung"
+        },
+        {
+          "lemma": "vermerken",
+          "distinction": "betont das schriftliche Festhalten"
+        }
+      ]
+    },
+    "mahnen": {
+      "meaning_de": "eindringlich zu einem Verhalten auffordern oder vor etwas warnen; auch: zur Zahlung auffordern",
+      "meaning_en": "to admonish; to urge; to warn",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er mahnt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er mahnte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gemahnt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er mahnte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "zu etwas mahnen",
+          "cases": "zu + Dat."
+        },
+        {
+          "pattern": "jemanden mahnen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zur Vorsicht mahnen",
+          "gloss_en": "to urge caution"
+        },
+        {
+          "phrase": "zur Eile mahnen",
+          "gloss_en": "to urge haste"
+        },
+        {
+          "phrase": "zur Besonnenheit mahnen",
+          "gloss_en": "to counsel level-headedness"
+        },
+        {
+          "phrase": "eindringlich mahnen",
+          "gloss_en": "to admonish urgently"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Experten mahnen zur Vorsicht bei der Auslegung der Daten.",
+          "en": "Experts urge caution in interpreting the data."
+        },
+        {
+          "de": "Der Vorfall mahnt uns, wachsam zu bleiben.",
+          "en": "The incident admonishes us to stay vigilant."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; im Sinne von 'zur Zahlung mahnen' auch geschäftlich-neutral gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "auffordern",
+          "distinction": "neutraler und direkter, ohne den warnenden Ton"
+        },
+        {
+          "lemma": "ermahnen",
+          "distinction": "stärker tadelnd, richtet sich meist an eine Person"
+        }
+      ]
+    },
+    "postulieren": {
+      "meaning_de": "etwas als gültig voraussetzen und nachdrücklich als Forderung oder These aufstellen",
+      "meaning_en": "to postulate; to assert; to call for",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er postuliert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er postulierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat postuliert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er postulierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas postulieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Zusammenhang postulieren",
+          "gloss_en": "to postulate a connection"
+        },
+        {
+          "phrase": "eine These postulieren",
+          "gloss_en": "to put forward a thesis"
+        },
+        {
+          "phrase": "einen Grundsatz postulieren",
+          "gloss_en": "to postulate a principle"
+        },
+        {
+          "phrase": "die Gleichheit postulieren",
+          "gloss_en": "to assert equality"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Theorie postuliert einen unmittelbaren Zusammenhang.",
+          "en": "The theory postulates a direct connection."
+        },
+        {
+          "de": "Kant postulierte die Freiheit des Willens.",
+          "en": "Kant postulated the freedom of the will."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Stark bildungssprachlich; typisch für Wissenschaft, Philosophie und Theoriebildung.",
+      "near_synonyms": [
+        {
+          "lemma": "voraussetzen",
+          "distinction": "neutraler, betont die Annahme als Bedingung"
+        },
+        {
+          "lemma": "behaupten",
+          "distinction": "alltäglicher, ohne den Anspruch auf Grundsätzlichkeit"
+        }
+      ]
+    },
+    "präzisieren": {
+      "meaning_de": "eine Aussage genauer fassen und von Ungenauigkeiten befreien",
+      "meaning_en": "to specify; to make more precise; to clarify",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er präzisiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er präzisierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat präzisiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er präzisierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas präzisieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Aussage präzisieren",
+          "gloss_en": "to make a statement more precise"
+        },
+        {
+          "phrase": "die Angaben präzisieren",
+          "gloss_en": "to specify the details"
+        },
+        {
+          "phrase": "die Forderung präzisieren",
+          "gloss_en": "to spell out the demand"
+        },
+        {
+          "phrase": "später präzisieren",
+          "gloss_en": "to clarify later"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Können Sie Ihre Forderung noch etwas präzisieren?",
+          "en": "Could you make your demand a little more precise?"
+        },
+        {
+          "de": "Der Sprecher präzisierte die Angaben auf Nachfrage.",
+          "en": "The spokesperson specified the details when asked."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und bildungssprachlich; sachlich, häufig in Diskussion und Verhandlung.",
+      "near_synonyms": [
+        {
+          "lemma": "konkretisieren",
+          "distinction": "meint das Anschaulich- und Greifbarmachen"
+        },
+        {
+          "lemma": "klarstellen",
+          "distinction": "beseitigt ein Missverständnis, statt Genauigkeit zu erhöhen"
+        }
+      ]
+    },
+    "rechtfertigen": {
+      "meaning_de": "durch Gründe als berechtigt erweisen; sich rechtfertigen: sich gegen Vorwürfe verteidigen",
+      "meaning_en": "to justify; to warrant; (reflexive) to defend oneself",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er rechtfertigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er rechtfertigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gerechtfertigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er rechtfertigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas rechtfertigen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "sich für etwas rechtfertigen",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Kosten rechtfertigen",
+          "gloss_en": "to justify the costs"
+        },
+        {
+          "phrase": "den Aufwand rechtfertigen",
+          "gloss_en": "to warrant the effort"
+        },
+        {
+          "phrase": "sich rechtfertigen müssen",
+          "gloss_en": "to have to justify oneself"
+        },
+        {
+          "phrase": "durch nichts zu rechtfertigen",
+          "gloss_en": "in no way justifiable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Nutzen rechtfertigt den hohen Aufwand.",
+          "en": "The benefit justifies the high effort."
+        },
+        {
+          "de": "Er musste sich für seine Entscheidung rechtfertigen.",
+          "en": "He had to justify his decision."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; reflexiv oft mit dem Beiklang, in die Defensive gedrängt zu sein.",
+      "near_synonyms": [
+        {
+          "lemma": "begründen",
+          "distinction": "gibt Gründe an, ohne den Aspekt der Verteidigung"
+        },
+        {
+          "lemma": "verteidigen",
+          "distinction": "betont das Abwehren von Angriffen stärker"
+        }
+      ]
+    },
+    "resultieren": {
+      "meaning_de": "sich als Folge aus etwas ergeben; als Ergebnis in etwas münden",
+      "meaning_en": "to result (from); to arise (from)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "es resultiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "es resultierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "es hat resultiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "es resultierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "aus etwas resultieren",
+          "cases": "aus + Dat."
+        },
+        {
+          "pattern": "in etwas resultieren",
+          "cases": "in + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "aus etwas resultieren",
+          "gloss_en": "to result from something"
+        },
+        {
+          "phrase": "daraus resultieren",
+          "gloss_en": "to result from that"
+        },
+        {
+          "phrase": "in einem Konflikt resultieren",
+          "gloss_en": "to result in a conflict"
+        },
+        {
+          "phrase": "die resultierende Wirkung",
+          "gloss_en": "the resulting effect"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Fehler resultierte aus einer falschen Annahme.",
+          "en": "The error resulted from a false assumption."
+        },
+        {
+          "de": "Aus dem Streit resultierte eine langjährige Feindschaft.",
+          "en": "The quarrel resulted in a long-lasting enmity."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und bildungssprachlich; meist mit 'aus + Dat.', seltener mit 'in + Dat.'.",
+      "near_synonyms": [
+        {
+          "lemma": "sich ergeben",
+          "distinction": "neutraler, ebenfalls mit 'aus', weniger fachsprachlich"
+        },
+        {
+          "lemma": "hervorgehen",
+          "distinction": "betont das Herkommen aus einer Quelle"
+        }
+      ]
+    },
+    "skizzieren": {
+      "meaning_de": "etwas in groben Zügen umreißen oder zeichnerisch andeuten",
+      "meaning_en": "to sketch; to outline; to draft roughly",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er skizziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er skizzierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat skizziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er skizzierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas skizzieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Plan skizzieren",
+          "gloss_en": "to outline a plan"
+        },
+        {
+          "phrase": "die Lage skizzieren",
+          "gloss_en": "to sketch the situation"
+        },
+        {
+          "phrase": "in groben Zügen skizzieren",
+          "gloss_en": "to outline in broad strokes"
+        },
+        {
+          "phrase": "ein Szenario skizzieren",
+          "gloss_en": "to sketch a scenario"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Referent skizzierte kurz die geplanten Reformen.",
+          "en": "The speaker briefly outlined the planned reforms."
+        },
+        {
+          "de": "Sie skizzierte ihre Idee auf einer Serviette.",
+          "en": "She sketched her idea on a napkin."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral im übertragenen Sinn; konkret 'zeichnerisch entwerfen'.",
+      "near_synonyms": [
+        {
+          "lemma": "umreißen",
+          "distinction": "nur übertragen, betont die groben Umrisse"
+        },
+        {
+          "lemma": "entwerfen",
+          "distinction": "meint ein ausgearbeiteteres, verbindlicheres Konzept"
+        }
+      ]
+    },
+    "stiften": {
+      "meaning_de": "etwas Gutes ins Leben rufen oder spenden; auch: etwas Unerwünschtes verursachen",
+      "meaning_en": "to found; to donate; to cause (discord)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er stiftet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er stiftete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gestiftet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er stiftete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas stiften",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Frieden stiften",
+          "gloss_en": "to make peace"
+        },
+        {
+          "phrase": "Unruhe stiften",
+          "gloss_en": "to cause unrest"
+        },
+        {
+          "phrase": "einen Preis stiften",
+          "gloss_en": "to endow a prize"
+        },
+        {
+          "phrase": "Verwirrung stiften",
+          "gloss_en": "to cause confusion"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Unternehmer stiftete ein neues Forschungsinstitut.",
+          "en": "The entrepreneur founded a new research institute."
+        },
+        {
+          "de": "Mit seiner Bemerkung stiftete er nur Verwirrung.",
+          "en": "With his remark he only caused confusion."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; 'einen Preis stiften' gehoben, 'Unruhe stiften' eher wertend-negativ.",
+      "near_synonyms": [
+        {
+          "lemma": "gründen",
+          "distinction": "nur für Institutionen, ohne den Aspekt des Spendens"
+        },
+        {
+          "lemma": "verursachen",
+          "distinction": "für negative Folgen, ohne den positiven Sinn des Stiftens"
+        }
+      ]
+    },
+    "tendieren": {
+      "meaning_de": "zu einer bestimmten Richtung, Meinung oder Entscheidung neigen",
+      "meaning_en": "to tend (towards); to be inclined (to)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er tendiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er tendierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat tendiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er tendierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "zu etwas tendieren",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zu einer Lösung tendieren",
+          "gloss_en": "to lean towards a solution"
+        },
+        {
+          "phrase": "eher dazu tendieren",
+          "gloss_en": "to be more inclined to"
+        },
+        {
+          "phrase": "gegen null tendieren",
+          "gloss_en": "to tend towards zero"
+        },
+        {
+          "phrase": "zu Übertreibungen tendieren",
+          "gloss_en": "to tend to exaggerate"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich tendiere eher zu der zweiten Variante.",
+          "en": "I'm rather inclined towards the second option."
+        },
+        {
+          "de": "Die Umfragewerte tendieren nach oben.",
+          "en": "The poll figures are trending upwards."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben bis neutral, bildungssprachlich; verlangt meist 'zu + Dat.'.",
+      "near_synonyms": [
+        {
+          "lemma": "neigen",
+          "distinction": "gleichbedeutend, etwas alltäglicher, ebenfalls mit 'zu'"
+        },
+        {
+          "lemma": "hinauslaufen",
+          "distinction": "meint das absehbare Ergebnis, nicht die Neigung"
+        }
+      ]
+    },
+    "überdauern": {
+      "meaning_de": "eine lange oder schwierige Zeit unbeschadet überstehen und fortbestehen",
+      "meaning_en": "to outlast; to survive; to endure",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er überdauert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er überdauerte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat überdauert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er überdauerte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas überdauern",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Jahrhunderte überdauern",
+          "gloss_en": "to survive the centuries"
+        },
+        {
+          "phrase": "die Zeit überdauern",
+          "gloss_en": "to outlast time"
+        },
+        {
+          "phrase": "eine Krise überdauern",
+          "gloss_en": "to survive a crisis"
+        },
+        {
+          "phrase": "unbeschadet überdauern",
+          "gloss_en": "to endure unscathed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Diese Bauwerke haben die Jahrhunderte überdauert.",
+          "en": "These buildings have survived the centuries."
+        },
+        {
+          "de": "Nur wenige Handschriften überdauerten den Krieg.",
+          "en": "Only a few manuscripts survived the war."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; betont das dauerhafte Fortbestehen trotz widriger Umstände.",
+      "near_synonyms": [
+        {
+          "lemma": "überstehen",
+          "distinction": "neutraler, betont das Durchkommen ohne Dauer"
+        },
+        {
+          "lemma": "fortbestehen",
+          "distinction": "intransitiv, meint schlicht das Weiterexistieren"
+        }
+      ]
+    },
+    "sich vergegenwärtigen": {
+      "meaning_de": "sich etwas bewusst und deutlich vor Augen führen, um es klar zu erfassen",
+      "meaning_en": "to call to mind; to visualize; to picture clearly",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vergegenwärtigt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vergegenwärtigte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich vergegenwärtigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vergegenwärtigte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich etwas vergegenwärtigen",
+          "cases": "Dat. (Reflexivpronomen) + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich die Folgen vergegenwärtigen",
+          "gloss_en": "to picture the consequences"
+        },
+        {
+          "phrase": "sich die Lage vergegenwärtigen",
+          "gloss_en": "to call the situation to mind"
+        },
+        {
+          "phrase": "sich etwas deutlich vergegenwärtigen",
+          "gloss_en": "to visualize something clearly"
+        },
+        {
+          "phrase": "sich das Ausmaß vergegenwärtigen",
+          "gloss_en": "to grasp the scale"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Man muss sich vergegenwärtigen, was auf dem Spiel steht.",
+          "en": "One must call to mind what is at stake."
+        },
+        {
+          "de": "Vergegenwärtigt man sich die Zahlen, wird das Problem deutlich.",
+          "en": "If you picture the figures clearly, the problem becomes evident."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Stark gehoben und bildungssprachlich; das Reflexivpronomen steht im Dativ.",
+      "near_synonyms": [
+        {
+          "lemma": "sich bewusst machen",
+          "distinction": "alltäglicher, gleiche Bedeutung"
+        },
+        {
+          "lemma": "sich vorstellen",
+          "distinction": "allgemeiner, ohne den Aspekt des klaren Bewusstmachens"
+        }
+      ]
+    },
+    "verheißen": {
+      "meaning_de": "etwas Bedeutsames feierlich in Aussicht stellen oder ankündigen",
+      "meaning_en": "to promise; to herald; to portend",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verheißt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verhieß"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verheißen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verhieße"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verheißen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemandem etwas verheißen",
+          "cases": "Dat. + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "nichts Gutes verheißen",
+          "gloss_en": "to bode no good"
+        },
+        {
+          "phrase": "eine bessere Zukunft verheißen",
+          "gloss_en": "to promise a better future"
+        },
+        {
+          "phrase": "das verheißene Land",
+          "gloss_en": "the promised land"
+        },
+        {
+          "phrase": "Wohlstand verheißen",
+          "gloss_en": "to herald prosperity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die dunklen Wolken verheißen nichts Gutes.",
+          "en": "The dark clouds bode no good."
+        },
+        {
+          "de": "Die Erfindung verhieß eine neue Ära der Mobilität.",
+          "en": "The invention heralded a new era of mobility."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Stark gehoben, feierlich-literarisch und biblisch geprägt ('das verheißene Land').",
+      "near_synonyms": [
+        {
+          "lemma": "versprechen",
+          "distinction": "neutral und alltäglich, ohne feierlichen Beiklang"
+        },
+        {
+          "lemma": "ankündigen",
+          "distinction": "sachlich, meint bloßes Bekanntgeben, ohne Verheißung"
+        }
+      ]
+    },
+    "verkennen": {
+      "meaning_de": "die wahre Bedeutung oder den Wert von etwas falsch einschätzen oder übersehen",
+      "meaning_en": "to misjudge; to fail to recognize; to underrate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verkennt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verkannte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verkannt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verkennte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas/jemanden verkennen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Lage verkennen",
+          "gloss_en": "to misjudge the situation"
+        },
+        {
+          "phrase": "die Zeichen verkennen",
+          "gloss_en": "to fail to read the signs"
+        },
+        {
+          "phrase": "nicht zu verkennen sein",
+          "gloss_en": "to be unmistakable"
+        },
+        {
+          "phrase": "ein verkanntes Genie",
+          "gloss_en": "a misjudged genius"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er verkannte den Ernst der Lage völlig.",
+          "en": "He completely misjudged the seriousness of the situation."
+        },
+        {
+          "de": "Es ist nicht zu verkennen, dass sich etwas geändert hat.",
+          "en": "It is unmistakable that something has changed."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; oft im Partizip 'verkannt' (unterschätzt) und in der Wendung 'nicht zu verkennen'.",
+      "near_synonyms": [
+        {
+          "lemma": "unterschätzen",
+          "distinction": "meint nur das Zu-gering-Einschätzen, nicht das Übersehen"
+        },
+        {
+          "lemma": "übersehen",
+          "distinction": "betont das Nichtwahrnehmen, nicht die falsche Bewertung"
+        }
+      ]
+    },
+    "vermitteln": {
+      "meaning_de": "zwischen Parteien schlichtend wirken; jemandem etwas beibringen oder verschaffen",
+      "meaning_en": "to mediate; to convey; to arrange (for someone)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vermittelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vermittelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vermittelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vermittelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem etwas vermitteln",
+          "cases": "Dat. + Akk."
+        },
+        {
+          "pattern": "zwischen Parteien vermitteln",
+          "cases": "zwischen + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Wissen vermitteln",
+          "gloss_en": "to impart knowledge"
+        },
+        {
+          "phrase": "einen Eindruck vermitteln",
+          "gloss_en": "to convey an impression"
+        },
+        {
+          "phrase": "zwischen den Parteien vermitteln",
+          "gloss_en": "to mediate between the parties"
+        },
+        {
+          "phrase": "eine Stelle vermitteln",
+          "gloss_en": "to arrange a job"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Schule soll nicht nur Wissen vermitteln.",
+          "en": "School should not only impart knowledge."
+        },
+        {
+          "de": "Die Diplomatin vermittelte erfolgreich zwischen den Konfliktparteien.",
+          "en": "The diplomat successfully mediated between the conflicting parties."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; vielseitig zwischen Bildung, Diplomatie und Wirtschaft einsetzbar.",
+      "near_synonyms": [
+        {
+          "lemma": "schlichten",
+          "distinction": "nur im Sinne des Streitbeilegens, enger"
+        },
+        {
+          "lemma": "beibringen",
+          "distinction": "nur für das Lehren von Wissen und Fertigkeiten"
+        }
+      ]
+    },
+    "veranlassen": {
+      "meaning_de": "bewirken, dass etwas geschieht; jemanden zu einem Handeln bewegen",
+      "meaning_en": "to prompt; to arrange for; to cause",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er veranlasst"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er veranlasste"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat veranlasst"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er veranlasste"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas veranlassen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "jemanden zu etwas veranlassen",
+          "cases": "Akk., zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Maßnahmen veranlassen",
+          "gloss_en": "to arrange for measures"
+        },
+        {
+          "phrase": "das Nötige veranlassen",
+          "gloss_en": "to arrange what is necessary"
+        },
+        {
+          "phrase": "eine Untersuchung veranlassen",
+          "gloss_en": "to order an investigation"
+        },
+        {
+          "phrase": "sich veranlasst sehen",
+          "gloss_en": "to feel prompted"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vorfall veranlasste die Behörde zu einer Prüfung.",
+          "en": "The incident prompted the authority to carry out an inspection."
+        },
+        {
+          "de": "Ich sehe mich veranlasst, Widerspruch einzulegen.",
+          "en": "I feel prompted to file an objection."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und behördlich; die Wendung 'sich veranlasst sehen' ist besonders förmlich.",
+      "near_synonyms": [
+        {
+          "lemma": "bewegen",
+          "distinction": "betont das innere Beeinflussen einer Person"
+        },
+        {
+          "lemma": "in die Wege leiten",
+          "distinction": "meint das Anstoßen eines organisatorischen Ablaufs"
+        }
+      ]
+    },
+    "zeitigen": {
+      "meaning_de": "als Folge oder Ergebnis hervorbringen; bestimmte Wirkungen zur Folge haben",
+      "meaning_en": "to produce; to yield; to result in",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zeitigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zeitigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gezeitigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zeitigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas zeitigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Ergebnisse zeitigen",
+          "gloss_en": "to produce results"
+        },
+        {
+          "phrase": "Erfolge zeitigen",
+          "gloss_en": "to yield successes"
+        },
+        {
+          "phrase": "Wirkung zeitigen",
+          "gloss_en": "to have an effect"
+        },
+        {
+          "phrase": "Folgen zeitigen",
+          "gloss_en": "to have consequences"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bemühungen zeitigten erste Erfolge.",
+          "en": "The efforts yielded their first successes."
+        },
+        {
+          "de": "Die Reform zeitigte unerwartete Nebenwirkungen.",
+          "en": "The reform produced unexpected side effects."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Stark gehoben und bildungssprachlich; fast nur mit Objekten wie 'Ergebnisse' oder 'Erfolge'.",
+      "near_synonyms": [
+        {
+          "lemma": "hervorbringen",
+          "distinction": "breiter, auch für Schöpferisches und Personen"
+        },
+        {
+          "lemma": "bewirken",
+          "distinction": "neutraler, betont die Ursache-Wirkung-Beziehung"
+        }
+      ]
+    }
+  }
+}
