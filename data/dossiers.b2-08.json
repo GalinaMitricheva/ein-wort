@@ -1,0 +1,2956 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2-Domäne 'Bildung, Lernen & Sprache', Batch b2-08. Keyed by lemma.",
+  "dossiers": {
+    "Prüfung": {
+      "meaning_de": "eine Kontrolle von Wissen oder Können, meist mündlich oder schriftlich",
+      "meaning_en": "exam; test; assessment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Prüfung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Prüfungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Prüfung ablegen",
+          "gloss_en": "to sit an exam"
+        },
+        {
+          "phrase": "eine Prüfung bestehen",
+          "gloss_en": "to pass an exam"
+        },
+        {
+          "phrase": "durch eine Prüfung fallen",
+          "gloss_en": "to fail an exam"
+        },
+        {
+          "phrase": "sich auf eine Prüfung vorbereiten",
+          "gloss_en": "to prepare for an exam"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nächste Woche habe ich eine wichtige Prüfung.",
+          "en": "I have an important exam next week."
+        },
+        {
+          "de": "Sie hat die Prüfung mit Bestnote bestanden.",
+          "en": "She passed the exam with top marks."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; der Oberbegriff für schriftliche wie mündliche Leistungskontrollen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Klausur",
+          "distinction": "speziell eine schriftliche Prüfung an Schule oder Uni"
+        },
+        {
+          "lemma": "der Test",
+          "distinction": "kürzer und weniger formell, oft zwischendurch"
+        }
+      ]
+    },
+    "Klausur": {
+      "meaning_de": "eine schriftliche Prüfung, meist unter Aufsicht in begrenzter Zeit",
+      "meaning_en": "written exam; test paper",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Klausur"
+        },
+        {
+          "label": "Plural",
+          "value": "die Klausuren"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Klausur schreiben",
+          "gloss_en": "to sit a written exam"
+        },
+        {
+          "phrase": "die Klausur nachschreiben",
+          "gloss_en": "to take a make-up exam"
+        },
+        {
+          "phrase": "eine Klausur korrigieren",
+          "gloss_en": "to mark an exam paper"
+        },
+        {
+          "phrase": "durch die Klausur fallen",
+          "gloss_en": "to fail the exam"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Klausur durften wir kein Wörterbuch benutzen.",
+          "en": "We weren't allowed a dictionary in the exam."
+        },
+        {
+          "de": "Die Klausur dauert neunzig Minuten.",
+          "en": "The written exam lasts ninety minutes."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch für Schule und Universität, immer schriftlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Prüfung",
+          "distinction": "Oberbegriff, auch mündlich möglich"
+        },
+        {
+          "lemma": "die Arbeit",
+          "distinction": "umgangssprachlich in der Schule ('eine Arbeit schreiben')"
+        }
+      ]
+    },
+    "Zeugnis": {
+      "meaning_de": "ein Dokument, das die erbrachten Leistungen oder Noten bescheinigt",
+      "meaning_en": "report card; certificate; reference",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zeugnisses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zeugnisse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gutes Zeugnis bekommen",
+          "gloss_en": "to get a good report"
+        },
+        {
+          "phrase": "das Zeugnis ausstellen",
+          "gloss_en": "to issue a certificate"
+        },
+        {
+          "phrase": "ein Zeugnis vorlegen",
+          "gloss_en": "to submit a certificate"
+        },
+        {
+          "phrase": "das Abschlusszeugnis",
+          "gloss_en": "the leaving certificate"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Morgen bekommen die Schüler ihre Zeugnisse.",
+          "en": "The pupils get their report cards tomorrow."
+        },
+        {
+          "de": "Für die Bewerbung braucht sie ein qualifiziertes Zeugnis.",
+          "en": "She needs a detailed reference for the application."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; sowohl das Schulzeugnis als auch das Arbeitszeugnis.",
+      "near_synonyms": [
+        {
+          "lemma": "die Bescheinigung",
+          "distinction": "bestätigt schlicht einen Sachverhalt, ohne Bewertung"
+        },
+        {
+          "lemma": "das Zertifikat",
+          "distinction": "meist für eine bestandene Prüfung oder Qualifikation"
+        }
+      ]
+    },
+    "Abschluss": {
+      "meaning_de": "das erfolgreiche Beenden einer Ausbildung; auch der erworbene Grad",
+      "meaning_en": "degree; qualification; completion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Abschlusses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abschlüsse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Abschluss machen",
+          "gloss_en": "to get a degree"
+        },
+        {
+          "phrase": "der akademische Abschluss",
+          "gloss_en": "the academic degree"
+        },
+        {
+          "phrase": "ohne Abschluss abbrechen",
+          "gloss_en": "to drop out without a qualification"
+        },
+        {
+          "phrase": "das Studium zum Abschluss bringen",
+          "gloss_en": "to complete one's studies"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Abschluss suchte er sofort eine Stelle.",
+          "en": "After graduating he immediately looked for a job."
+        },
+        {
+          "de": "Für diese Stelle ist ein Hochschulabschluss erforderlich.",
+          "en": "This position requires a university degree."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Bildungskontext meist der Studien- oder Schulabschluss.",
+      "near_synonyms": [
+        {
+          "lemma": "das Diplom",
+          "distinction": "ein konkreter, früher üblicher akademischer Grad"
+        },
+        {
+          "lemma": "der Abschied",
+          "distinction": "das Fortgehen, nicht das Beenden einer Ausbildung"
+        }
+      ]
+    },
+    "Stipendium": {
+      "meaning_de": "eine finanzielle Förderung für Studium oder Forschung",
+      "meaning_en": "scholarship; grant",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Stipendiums"
+        },
+        {
+          "label": "Plural",
+          "value": "die Stipendien"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Stipendium für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich um ein Stipendium bewerben",
+          "gloss_en": "to apply for a scholarship"
+        },
+        {
+          "phrase": "ein Stipendium bekommen",
+          "gloss_en": "to receive a scholarship"
+        },
+        {
+          "phrase": "ein Stipendium vergeben",
+          "gloss_en": "to award a scholarship"
+        },
+        {
+          "phrase": "durch ein Stipendium gefördert werden",
+          "gloss_en": "to be funded by a scholarship"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie finanziert ihr Studium mit einem Stipendium.",
+          "en": "She funds her studies with a scholarship."
+        },
+        {
+          "de": "Er hat ein Stipendium für ein Auslandsjahr erhalten.",
+          "en": "He received a scholarship for a year abroad."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff im Hochschul- und Forschungsbereich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Förderung",
+          "distinction": "allgemeiner, jede Art von Unterstützung"
+        },
+        {
+          "lemma": "das BAföG",
+          "distinction": "die staatliche Ausbildungsförderung, teils rückzahlbar"
+        }
+      ]
+    },
+    "Vorlesung": {
+      "meaning_de": "ein akademischer Vortrag, in dem ein Dozent Stoff vermittelt",
+      "meaning_en": "lecture",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Vorlesung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vorlesungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Vorlesung über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Vorlesung halten",
+          "gloss_en": "to give a lecture"
+        },
+        {
+          "phrase": "eine Vorlesung besuchen",
+          "gloss_en": "to attend a lecture"
+        },
+        {
+          "phrase": "in der Vorlesung mitschreiben",
+          "gloss_en": "to take notes in the lecture"
+        },
+        {
+          "phrase": "die Vorlesung schwänzen",
+          "gloss_en": "to skip the lecture"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Vorlesung beginnt pünktlich um zehn Uhr.",
+          "en": "The lecture starts at ten o'clock sharp."
+        },
+        {
+          "de": "In der Vorlesung waren über dreihundert Studierende.",
+          "en": "There were over three hundred students in the lecture."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; klar von 'Seminar' abzugrenzen, meist frontal und in großer Runde.",
+      "near_synonyms": [
+        {
+          "lemma": "das Seminar",
+          "distinction": "kleiner und interaktiv, mit aktiver Mitarbeit"
+        },
+        {
+          "lemma": "der Vortrag",
+          "distinction": "einmalig und zu einem Einzelthema, nicht als Reihe"
+        }
+      ]
+    },
+    "Seminar": {
+      "meaning_de": "eine kleinere Lehrveranstaltung mit aktiver Mitarbeit der Teilnehmer",
+      "meaning_en": "seminar; tutorial course",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Seminars"
+        },
+        {
+          "label": "Plural",
+          "value": "die Seminare"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Seminar über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Seminar belegen",
+          "gloss_en": "to sign up for a seminar"
+        },
+        {
+          "phrase": "ein Seminar leiten",
+          "gloss_en": "to lead a seminar"
+        },
+        {
+          "phrase": "im Seminar ein Referat halten",
+          "gloss_en": "to give a presentation in the seminar"
+        },
+        {
+          "phrase": "einen Schein im Seminar erwerben",
+          "gloss_en": "to earn credit in the seminar"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Seminar diskutieren wir jede Woche einen Text.",
+          "en": "In the seminar we discuss a text every week."
+        },
+        {
+          "de": "Für das Seminar musst du eine Hausarbeit schreiben.",
+          "en": "For the seminar you have to write a term paper."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Studium der Gegenpol zur großen Vorlesung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vorlesung",
+          "distinction": "größer und frontal, ohne aktive Mitarbeit"
+        },
+        {
+          "lemma": "die Übung",
+          "distinction": "dient dem praktischen Anwenden des Stoffs"
+        }
+      ]
+    },
+    "Lehrplan": {
+      "meaning_de": "die verbindliche Übersicht der Lerninhalte eines Fachs oder einer Schule",
+      "meaning_en": "curriculum; syllabus",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Lehrplans"
+        },
+        {
+          "label": "Plural",
+          "value": "die Lehrpläne"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "im Lehrplan stehen",
+          "gloss_en": "to be on the curriculum"
+        },
+        {
+          "phrase": "den Lehrplan überarbeiten",
+          "gloss_en": "to revise the curriculum"
+        },
+        {
+          "phrase": "den Lehrplan einhalten",
+          "gloss_en": "to stick to the syllabus"
+        },
+        {
+          "phrase": "etwas in den Lehrplan aufnehmen",
+          "gloss_en": "to add something to the curriculum"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Dieses Thema ist im neuen Lehrplan nicht mehr vorgesehen.",
+          "en": "This topic is no longer part of the new curriculum."
+        },
+        {
+          "de": "Der Lehrplan lässt den Lehrkräften wenig Spielraum.",
+          "en": "The syllabus leaves teachers little leeway."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; im Schulwesen der amtlich festgelegte Rahmen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Lehrstoff",
+          "distinction": "der konkrete Inhalt, nicht das planende Dokument"
+        },
+        {
+          "lemma": "das Curriculum",
+          "distinction": "fachsprachlich, oft umfassender und modular gedacht"
+        }
+      ]
+    },
+    "Studiengang": {
+      "meaning_de": "ein abgegrenzter Studienweg, der zu einem bestimmten Abschluss führt",
+      "meaning_en": "degree programme; course of study",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Studiengangs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Studiengänge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Studiengang wählen",
+          "gloss_en": "to choose a degree programme"
+        },
+        {
+          "phrase": "sich für einen Studiengang einschreiben",
+          "gloss_en": "to enrol in a programme"
+        },
+        {
+          "phrase": "der zulassungsbeschränkte Studiengang",
+          "gloss_en": "the restricted-admission programme"
+        },
+        {
+          "phrase": "einen Studiengang wechseln",
+          "gloss_en": "to switch degree programmes"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich für einen Studiengang in Psychologie entschieden.",
+          "en": "She decided on a degree programme in psychology."
+        },
+        {
+          "de": "Der Studiengang ist auf sechs Semester angelegt.",
+          "en": "The programme is designed for six semesters."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; die Verwaltungseinheit eines Studiums an der Hochschule.",
+      "near_synonyms": [
+        {
+          "lemma": "das Studienfach",
+          "distinction": "die inhaltliche Disziplin, nicht der organisatorische Weg"
+        },
+        {
+          "lemma": "die Fachrichtung",
+          "distinction": "die grobe Sparte, allgemeiner als der einzelne Studiengang"
+        }
+      ]
+    },
+    "Fachrichtung": {
+      "meaning_de": "ein Fachgebiet oder Spezialisierungsbereich innerhalb eines Studiums oder Berufs",
+      "meaning_en": "specialist field; discipline; branch of study",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fachrichtung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fachrichtungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Fachrichtung einschlagen",
+          "gloss_en": "to go into a field"
+        },
+        {
+          "phrase": "die medizinische Fachrichtung",
+          "gloss_en": "the medical discipline"
+        },
+        {
+          "phrase": "sich in einer Fachrichtung spezialisieren",
+          "gloss_en": "to specialise in a field"
+        },
+        {
+          "phrase": "je nach Fachrichtung",
+          "gloss_en": "depending on the field"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In welcher Fachrichtung möchtest du promovieren?",
+          "en": "In which field do you want to do your doctorate?"
+        },
+        {
+          "de": "Ingenieure verschiedener Fachrichtungen arbeiten hier zusammen.",
+          "en": "Engineers from various disciplines work together here."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; ordnet ein Studium oder einen Beruf einer Sparte zu.",
+      "near_synonyms": [
+        {
+          "lemma": "das Fachgebiet",
+          "distinction": "fast bedeutungsgleich, betont den Wissensbereich"
+        },
+        {
+          "lemma": "der Studiengang",
+          "distinction": "der konkrete organisatorische Studienweg"
+        }
+      ]
+    },
+    "Wortschatz": {
+      "meaning_de": "die Gesamtheit der Wörter, die jemand kennt oder eine Sprache umfasst",
+      "meaning_en": "vocabulary; lexicon",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wortschatzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wortschätze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Wortschatz erweitern",
+          "gloss_en": "to expand one's vocabulary"
+        },
+        {
+          "phrase": "der aktive Wortschatz",
+          "gloss_en": "the active vocabulary"
+        },
+        {
+          "phrase": "einen reichen Wortschatz haben",
+          "gloss_en": "to have a rich vocabulary"
+        },
+        {
+          "phrase": "neuen Wortschatz lernen",
+          "gloss_en": "to learn new vocabulary"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Durch viel Lesen wächst der Wortschatz fast von allein.",
+          "en": "Reading a lot makes your vocabulary grow almost by itself."
+        },
+        {
+          "de": "Für die Prüfung fehlt mir noch der nötige Wortschatz.",
+          "en": "I still lack the necessary vocabulary for the exam."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; der Plural ist selten und meist theoretisch-fachsprachlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Vokabular",
+          "distinction": "oft auf einen bestimmten Bereich oder Fachjargon bezogen"
+        },
+        {
+          "lemma": "der Sprachschatz",
+          "distinction": "gehobener und umfassender, auch Wendungen einschließend"
+        }
+      ]
+    },
+    "Rechtschreibung": {
+      "meaning_de": "die korrekte Schreibung von Wörtern nach den geltenden Regeln",
+      "meaning_en": "spelling; orthography",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rechtschreibung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die deutsche Rechtschreibung",
+          "gloss_en": "German spelling"
+        },
+        {
+          "phrase": "die Rechtschreibung beherrschen",
+          "gloss_en": "to have a good command of spelling"
+        },
+        {
+          "phrase": "Fehler in der Rechtschreibung",
+          "gloss_en": "spelling mistakes"
+        },
+        {
+          "phrase": "die Reform der Rechtschreibung",
+          "gloss_en": "the spelling reform"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine Rechtschreibung hat sich deutlich verbessert.",
+          "en": "His spelling has improved noticeably."
+        },
+        {
+          "de": "In diesem Aufsatz achte ich besonders auf die Rechtschreibung.",
+          "en": "In this essay I pay special attention to spelling."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Abstraktum ohne gebräuchlichen Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Orthografie",
+          "distinction": "fachsprachliches Synonym, gleichbedeutend"
+        },
+        {
+          "lemma": "die Grammatik",
+          "distinction": "betrifft den Satzbau und die Formen, nicht die Schreibung"
+        }
+      ]
+    },
+    "Nachhilfe": {
+      "meaning_de": "zusätzlicher Unterricht, um Lernrückstände aufzuholen",
+      "meaning_en": "tutoring; extra lessons",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Nachhilfe"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Nachhilfe in etwas",
+          "cases": "in + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Nachhilfe geben",
+          "gloss_en": "to give tutoring"
+        },
+        {
+          "phrase": "Nachhilfe nehmen",
+          "gloss_en": "to have tutoring"
+        },
+        {
+          "phrase": "Nachhilfe in Mathe",
+          "gloss_en": "maths tutoring"
+        },
+        {
+          "phrase": "auf Nachhilfe angewiesen sein",
+          "gloss_en": "to rely on tutoring"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er gibt in den Ferien Nachhilfe in Englisch.",
+          "en": "He gives English tutoring over the holidays."
+        },
+        {
+          "de": "Ohne Nachhilfe hätte sie die Klasse nicht geschafft.",
+          "en": "Without tutoring she wouldn't have passed the year."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Abstraktum ohne Plural, alltäglich im Schulkontext.",
+      "near_synonyms": [
+        {
+          "lemma": "der Förderunterricht",
+          "distinction": "meist schulisch organisiert, nicht privat bezahlt"
+        },
+        {
+          "lemma": "das Coaching",
+          "distinction": "moderner, zielt eher auf Methoden und Lernstrategien"
+        }
+      ]
+    },
+    "Fachwissen": {
+      "meaning_de": "vertieftes, spezialisiertes Wissen auf einem bestimmten Gebiet",
+      "meaning_en": "expertise; specialist knowledge",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Fachwissens"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "über fundiertes Fachwissen verfügen",
+          "gloss_en": "to have sound expertise"
+        },
+        {
+          "phrase": "sich Fachwissen aneignen",
+          "gloss_en": "to acquire specialist knowledge"
+        },
+        {
+          "phrase": "das nötige Fachwissen fehlt",
+          "gloss_en": "the necessary expertise is lacking"
+        },
+        {
+          "phrase": "Fachwissen weitergeben",
+          "gloss_en": "to pass on expertise"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für diese Aufgabe braucht man solides Fachwissen.",
+          "en": "This task requires solid expertise."
+        },
+        {
+          "de": "Sie beeindruckte die Kommission mit ihrem Fachwissen.",
+          "en": "She impressed the panel with her expertise."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Abstraktum ohne Plural, häufig im Beruf und in der Wissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "das Know-how",
+          "distinction": "eher praktisches Können, oft technisch-wirtschaftlich"
+        },
+        {
+          "lemma": "die Allgemeinbildung",
+          "distinction": "breites Grundwissen statt fachlicher Vertiefung"
+        }
+      ]
+    },
+    "Allgemeinbildung": {
+      "meaning_de": "breites Grundwissen über viele Bereiche, das man von einem gebildeten Menschen erwartet",
+      "meaning_en": "general knowledge; general education",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Allgemeinbildung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine gute Allgemeinbildung haben",
+          "gloss_en": "to be well-rounded in general knowledge"
+        },
+        {
+          "phrase": "die Allgemeinbildung fördern",
+          "gloss_en": "to foster general education"
+        },
+        {
+          "phrase": "zur Allgemeinbildung gehören",
+          "gloss_en": "to be part of general knowledge"
+        },
+        {
+          "phrase": "Lücken in der Allgemeinbildung",
+          "gloss_en": "gaps in one's general knowledge"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Solche historischen Daten gehören zur Allgemeinbildung.",
+          "en": "Such historical dates are part of general knowledge."
+        },
+        {
+          "de": "Er verfügt über eine erstaunliche Allgemeinbildung.",
+          "en": "He has an astonishing breadth of general knowledge."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Abstraktum ohne Plural, betont die Breite statt die Tiefe.",
+      "near_synonyms": [
+        {
+          "lemma": "das Fachwissen",
+          "distinction": "tief und spezialisiert statt breit angelegt"
+        },
+        {
+          "lemma": "die Bildung",
+          "distinction": "umfassender, schließt Haltung und Urteilskraft ein"
+        }
+      ]
+    },
+    "Studienplatz": {
+      "meaning_de": "ein an einer Hochschule verfügbarer Platz in einem Studiengang",
+      "meaning_en": "university place; place to study",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Studienplatzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Studienplätze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Studienplatz bekommen",
+          "gloss_en": "to get a university place"
+        },
+        {
+          "phrase": "sich um einen Studienplatz bewerben",
+          "gloss_en": "to apply for a place to study"
+        },
+        {
+          "phrase": "einen Studienplatz einklagen",
+          "gloss_en": "to sue for a university place"
+        },
+        {
+          "phrase": "die Vergabe der Studienplätze",
+          "gloss_en": "the allocation of university places"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat einen Studienplatz in Medizin ergattert.",
+          "en": "She landed a place to study medicine."
+        },
+        {
+          "de": "Die Zahl der Studienplätze ist begrenzt.",
+          "en": "The number of university places is limited."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff der Hochschulzulassung, oft knapp und umkämpft.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zulassung",
+          "distinction": "der formale Bescheid, nicht der Platz selbst"
+        },
+        {
+          "lemma": "der Ausbildungsplatz",
+          "distinction": "bezieht sich auf eine betriebliche Ausbildung"
+        }
+      ]
+    },
+    "Zulassung": {
+      "meaning_de": "die offizielle Erlaubnis, an etwas teilzunehmen, etwa an einem Studium",
+      "meaning_en": "admission; approval; authorisation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zulassung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zulassungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Zulassung zu etwas",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Zulassung zum Studium",
+          "gloss_en": "admission to a degree course"
+        },
+        {
+          "phrase": "eine Zulassung erhalten",
+          "gloss_en": "to receive an admission"
+        },
+        {
+          "phrase": "die Zulassung beantragen",
+          "gloss_en": "to apply for admission"
+        },
+        {
+          "phrase": "die Zulassung verweigern",
+          "gloss_en": "to refuse admission"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Zulassung zum Masterstudium kam letzte Woche.",
+          "en": "Her admission to the master's programme came last week."
+        },
+        {
+          "de": "Die Zulassung hängt von den Abiturnoten ab.",
+          "en": "Admission depends on the school-leaving grades."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; auch außerhalb der Bildung (z. B. Zulassung eines Medikaments).",
+      "near_synonyms": [
+        {
+          "lemma": "die Genehmigung",
+          "distinction": "allgemeine behördliche Erlaubnis, nicht zum Teilnehmen"
+        },
+        {
+          "lemma": "die Immatrikulation",
+          "distinction": "die anschließende Einschreibung nach erfolgter Zulassung"
+        }
+      ]
+    },
+    "Auswendiglernen": {
+      "meaning_de": "das Einprägen von Stoff, sodass man ihn wörtlich wiedergeben kann",
+      "meaning_en": "memorising; learning by heart",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Auswendiglernens"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "stures Auswendiglernen",
+          "gloss_en": "mindless rote learning"
+        },
+        {
+          "phrase": "durch Auswendiglernen",
+          "gloss_en": "by memorising"
+        },
+        {
+          "phrase": "das Auswendiglernen von Vokabeln",
+          "gloss_en": "the memorising of vocabulary"
+        },
+        {
+          "phrase": "vom Auswendiglernen abraten",
+          "gloss_en": "to advise against rote learning"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Reines Auswendiglernen führt selten zu echtem Verständnis.",
+          "en": "Pure rote learning rarely leads to real understanding."
+        },
+        {
+          "de": "Das Auswendiglernen der Formeln kostete ihn viel Zeit.",
+          "en": "Memorising the formulas cost him a lot of time."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; substantivierter Infinitiv, sächlich und ohne Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "das Pauken",
+          "distinction": "umgangssprachlich, betont die Mühe und Wiederholung"
+        },
+        {
+          "lemma": "das Einprägen",
+          "distinction": "allgemeiner, nicht unbedingt wörtlich"
+        }
+      ]
+    },
+    "Leistungsdruck": {
+      "meaning_de": "der Druck, ständig gute Leistungen erbringen zu müssen",
+      "meaning_en": "pressure to perform; performance pressure",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Leistungsdrucks"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter Leistungsdruck stehen",
+          "gloss_en": "to be under pressure to perform"
+        },
+        {
+          "phrase": "dem Leistungsdruck standhalten",
+          "gloss_en": "to withstand the pressure"
+        },
+        {
+          "phrase": "der wachsende Leistungsdruck",
+          "gloss_en": "the growing performance pressure"
+        },
+        {
+          "phrase": "Leistungsdruck erzeugen",
+          "gloss_en": "to create pressure to perform"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Viele Schüler leiden unter enormem Leistungsdruck.",
+          "en": "Many pupils suffer from enormous pressure to perform."
+        },
+        {
+          "de": "Der Leistungsdruck an der Uni hat sie krank gemacht.",
+          "en": "The performance pressure at university made her ill."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Abstraktum ohne Plural, häufig in Debatten über Schule und Beruf.",
+      "near_synonyms": [
+        {
+          "lemma": "der Stress",
+          "distinction": "allgemeiner, auch ohne Leistungsbezug"
+        },
+        {
+          "lemma": "der Erwartungsdruck",
+          "distinction": "geht von Erwartungen anderer aus, nicht von Leistung selbst"
+        }
+      ]
+    },
+    "Immatrikulation": {
+      "meaning_de": "die offizielle Einschreibung an einer Hochschule",
+      "meaning_en": "enrolment; matriculation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Immatrikulation"
+        },
+        {
+          "label": "Plural",
+          "value": "die Immatrikulationen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Immatrikulation beantragen",
+          "gloss_en": "to apply for enrolment"
+        },
+        {
+          "phrase": "die Frist zur Immatrikulation",
+          "gloss_en": "the enrolment deadline"
+        },
+        {
+          "phrase": "die Immatrikulation bestätigen",
+          "gloss_en": "to confirm the enrolment"
+        },
+        {
+          "phrase": "die Unterlagen zur Immatrikulation",
+          "gloss_en": "the enrolment documents"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Immatrikulation erhält man den Studierendenausweis.",
+          "en": "After enrolment you receive your student ID."
+        },
+        {
+          "de": "Die Immatrikulation ist erst nach Zahlung der Gebühren gültig.",
+          "en": "Enrolment is only valid once the fees are paid."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; Verwaltungsbegriff der Hochschule.",
+      "near_synonyms": [
+        {
+          "lemma": "die Einschreibung",
+          "distinction": "das alltagssprachliche Synonym, gleichbedeutend"
+        },
+        {
+          "lemma": "die Zulassung",
+          "distinction": "die vorausgehende Erlaubnis, nicht die Einschreibung selbst"
+        }
+      ]
+    },
+    "Skript": {
+      "meaning_de": "eine schriftliche Zusammenfassung des Stoffs einer Lehrveranstaltung",
+      "meaning_en": "lecture notes; course handout; script",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Skripts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Skripte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Skript herunterladen",
+          "gloss_en": "to download a handout"
+        },
+        {
+          "phrase": "nach dem Skript lernen",
+          "gloss_en": "to study from the notes"
+        },
+        {
+          "phrase": "das Skript zur Vorlesung",
+          "gloss_en": "the lecture notes"
+        },
+        {
+          "phrase": "ein Skript verteilen",
+          "gloss_en": "to hand out course notes"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Skript zur Vorlesung steht online zur Verfügung.",
+          "en": "The lecture notes are available online."
+        },
+        {
+          "de": "Ohne das Skript hätte ich die Prüfung nicht geschafft.",
+          "en": "Without the handout I wouldn't have passed the exam."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Hochschulkontext das begleitende Lehrmaterial (nicht das Filmskript).",
+      "near_synonyms": [
+        {
+          "lemma": "das Handout",
+          "distinction": "kürzer, meist zu einem einzelnen Vortrag"
+        },
+        {
+          "lemma": "die Mitschrift",
+          "distinction": "selbst angefertigte Notizen, kein offizielles Material"
+        }
+      ]
+    },
+    "Hausarbeit": {
+      "meaning_de": "eine schriftliche wissenschaftliche Arbeit, die man zu Hause zu einem Seminar verfasst",
+      "meaning_en": "term paper; written assignment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Hausarbeit"
+        },
+        {
+          "label": "Plural",
+          "value": "die Hausarbeiten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Hausarbeit über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Hausarbeit schreiben",
+          "gloss_en": "to write a term paper"
+        },
+        {
+          "phrase": "die Hausarbeit abgeben",
+          "gloss_en": "to hand in the paper"
+        },
+        {
+          "phrase": "das Thema der Hausarbeit",
+          "gloss_en": "the topic of the term paper"
+        },
+        {
+          "phrase": "die Hausarbeit benoten",
+          "gloss_en": "to grade the paper"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Hausarbeit muss bis Ende des Semesters fertig sein.",
+          "en": "The term paper has to be finished by the end of the semester."
+        },
+        {
+          "de": "Für die Hausarbeit hat sie zwanzig Quellen ausgewertet.",
+          "en": "For the term paper she evaluated twenty sources."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Studium die schriftliche Seminarleistung (nicht die häusliche Arbeit im Haushalt).",
+      "near_synonyms": [
+        {
+          "lemma": "das Referat",
+          "distinction": "ein mündlicher Vortrag, keine ausgearbeitete Schrift"
+        },
+        {
+          "lemma": "die Abschlussarbeit",
+          "distinction": "umfangreicher, am Ende des Studiums zum Abschluss"
+        }
+      ]
+    },
+    "Abschlussarbeit": {
+      "meaning_de": "die umfangreiche schriftliche Arbeit am Ende eines Studiums",
+      "meaning_en": "thesis; final-year dissertation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Abschlussarbeit"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abschlussarbeiten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Abschlussarbeit über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "an der Abschlussarbeit schreiben",
+          "gloss_en": "to be working on one's thesis"
+        },
+        {
+          "phrase": "die Abschlussarbeit betreuen",
+          "gloss_en": "to supervise the thesis"
+        },
+        {
+          "phrase": "die Abschlussarbeit verteidigen",
+          "gloss_en": "to defend the thesis"
+        },
+        {
+          "phrase": "das Thema der Abschlussarbeit",
+          "gloss_en": "the topic of the thesis"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er schreibt seine Abschlussarbeit über erneuerbare Energien.",
+          "en": "He is writing his thesis on renewable energy."
+        },
+        {
+          "de": "Die Abschlussarbeit zählt zur Hälfte in die Endnote.",
+          "en": "The thesis counts for half of the final grade."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Oberbegriff für Bachelor-, Master- oder Diplomarbeit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Hausarbeit",
+          "distinction": "kleiner, zu einem einzelnen Seminar"
+        },
+        {
+          "lemma": "die Dissertation",
+          "distinction": "die Doktorarbeit, wissenschaftlich noch anspruchsvoller"
+        }
+      ]
+    },
+    "Dozent": {
+      "meaning_de": "eine Person, die an einer Hochschule oder in Kursen lehrt",
+      "meaning_en": "lecturer; instructor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Dozenten"
+        },
+        {
+          "label": "Plural",
+          "value": "die Dozenten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Dozent für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein erfahrener Dozent",
+          "gloss_en": "an experienced lecturer"
+        },
+        {
+          "phrase": "der Dozent für Germanistik",
+          "gloss_en": "the lecturer in German studies"
+        },
+        {
+          "phrase": "beim Dozenten nachfragen",
+          "gloss_en": "to ask the lecturer"
+        },
+        {
+          "phrase": "der Dozent hält das Seminar",
+          "gloss_en": "the lecturer runs the seminar"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Dozent erklärte den Stoff sehr anschaulich.",
+          "en": "The lecturer explained the material very vividly."
+        },
+        {
+          "de": "Ich habe dem Dozenten eine E-Mail geschrieben.",
+          "en": "I wrote an email to the lecturer."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; schwaches Maskulinum (n-Deklination: des/dem/den Dozenten).",
+      "near_synonyms": [
+        {
+          "lemma": "der Professor",
+          "distinction": "höherrangig, mit Lehrstuhl und Berufung"
+        },
+        {
+          "lemma": "der Lehrer",
+          "distinction": "unterrichtet an der Schule, nicht an der Hochschule"
+        }
+      ]
+    },
+    "Referat": {
+      "meaning_de": "ein mündlicher Vortrag über ein Thema vor einer Gruppe",
+      "meaning_en": "oral presentation; talk",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Referats"
+        },
+        {
+          "label": "Plural",
+          "value": "die Referate"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Referat über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Referat halten",
+          "gloss_en": "to give a presentation"
+        },
+        {
+          "phrase": "ein Referat vorbereiten",
+          "gloss_en": "to prepare a presentation"
+        },
+        {
+          "phrase": "das Referat über ein Thema",
+          "gloss_en": "the talk on a topic"
+        },
+        {
+          "phrase": "ein Referat abhalten",
+          "gloss_en": "to deliver a presentation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nächste Woche halte ich ein Referat über die Weimarer Republik.",
+          "en": "Next week I'm giving a presentation on the Weimar Republic."
+        },
+        {
+          "de": "Ihr Referat war klar gegliedert und gut vorgetragen.",
+          "en": "Her presentation was clearly structured and well delivered."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Schule und Studium der mündliche Vortrag (auch: Abteilung einer Behörde).",
+      "near_synonyms": [
+        {
+          "lemma": "der Vortrag",
+          "distinction": "allgemeiner und oft öffentlicher, nicht nur schulisch"
+        },
+        {
+          "lemma": "die Präsentation",
+          "distinction": "betont die mediale Darstellung, z. B. mit Folien"
+        }
+      ]
+    },
+    "Fremdsprache": {
+      "meaning_de": "eine Sprache, die nicht die Muttersprache ist und die man erlernt",
+      "meaning_en": "foreign language",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fremdsprache"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fremdsprachen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Fremdsprache lernen",
+          "gloss_en": "to learn a foreign language"
+        },
+        {
+          "phrase": "eine Fremdsprache beherrschen",
+          "gloss_en": "to master a foreign language"
+        },
+        {
+          "phrase": "in einer Fremdsprache",
+          "gloss_en": "in a foreign language"
+        },
+        {
+          "phrase": "mehrere Fremdsprachen sprechen",
+          "gloss_en": "to speak several foreign languages"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie spricht drei Fremdsprachen fließend.",
+          "en": "She speaks three foreign languages fluently."
+        },
+        {
+          "de": "Eine Fremdsprache lernt man am besten im Alltag.",
+          "en": "You learn a foreign language best in everyday life."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Standardbegriff im Sprachunterricht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zweitsprache",
+          "distinction": "im Alltag zusätzlich zur Muttersprache erworben, nicht nur im Unterricht"
+        },
+        {
+          "lemma": "die Muttersprache",
+          "distinction": "das Gegenteil: die von klein auf erworbene Sprache"
+        }
+      ]
+    },
+    "Sprachkurs": {
+      "meaning_de": "ein Kurs, in dem man eine Sprache systematisch lernt",
+      "meaning_en": "language course",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Sprachkurses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sprachkurse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Sprachkurs besuchen",
+          "gloss_en": "to attend a language course"
+        },
+        {
+          "phrase": "sich für einen Sprachkurs anmelden",
+          "gloss_en": "to sign up for a language course"
+        },
+        {
+          "phrase": "ein intensiver Sprachkurs",
+          "gloss_en": "an intensive language course"
+        },
+        {
+          "phrase": "einen Sprachkurs belegen",
+          "gloss_en": "to take a language course"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor dem Studium macht sie einen Sprachkurs in Spanien.",
+          "en": "Before university she is taking a language course in Spain."
+        },
+        {
+          "de": "Der Sprachkurs findet zweimal pro Woche statt.",
+          "en": "The language course takes place twice a week."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; gebräuchlich für Angebote an Schulen, Unis und Sprachschulen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Sprachunterricht",
+          "distinction": "das Unterrichten selbst, nicht die organisierte Kurseinheit"
+        },
+        {
+          "lemma": "der Intensivkurs",
+          "distinction": "besonders dicht und zeitlich komprimiert"
+        }
+      ]
+    },
+    "Sprachniveau": {
+      "meaning_de": "der Grad der Beherrschung einer Sprache, oft nach A1 bis C2 eingestuft",
+      "meaning_en": "language level; proficiency level",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Sprachniveaus"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sprachniveaus"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Sprachniveau einschätzen",
+          "gloss_en": "to assess the language level"
+        },
+        {
+          "phrase": "das geforderte Sprachniveau",
+          "gloss_en": "the required proficiency level"
+        },
+        {
+          "phrase": "sein Sprachniveau verbessern",
+          "gloss_en": "to improve one's language level"
+        },
+        {
+          "phrase": "das Sprachniveau B2 erreichen",
+          "gloss_en": "to reach level B2"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für das Studium ist das Sprachniveau C1 erforderlich.",
+          "en": "The degree course requires a C1 language level."
+        },
+        {
+          "de": "Ein Test bestimmt dein aktuelles Sprachniveau.",
+          "en": "A test determines your current language level."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; bezieht sich meist auf die Stufen des Gemeinsamen Europäischen Referenzrahmens.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sprachkenntnisse",
+          "distinction": "das konkrete Können, nicht die abstrakte Einstufung"
+        },
+        {
+          "lemma": "die Kompetenzstufe",
+          "distinction": "fachsprachlicher, allgemein auf Fähigkeiten bezogen"
+        }
+      ]
+    },
+    "Prüfungsangst": {
+      "meaning_de": "die starke Angst vor oder während einer Prüfung, die die Leistung beeinträchtigt",
+      "meaning_en": "exam anxiety; test anxiety",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Prüfungsangst"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "unter Prüfungsangst leiden",
+          "gloss_en": "to suffer from exam anxiety"
+        },
+        {
+          "phrase": "die Prüfungsangst überwinden",
+          "gloss_en": "to overcome exam anxiety"
+        },
+        {
+          "phrase": "lähmende Prüfungsangst",
+          "gloss_en": "paralysing exam anxiety"
+        },
+        {
+          "phrase": "gegen Prüfungsangst helfen",
+          "gloss_en": "to help against exam anxiety"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Prüfungsangst war so groß, dass sie einen Blackout hatte.",
+          "en": "Her exam anxiety was so great that she had a blackout."
+        },
+        {
+          "de": "Gegen Prüfungsangst helfen oft Atemübungen.",
+          "en": "Breathing exercises often help against exam anxiety."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Abstraktum ohne Plural, häufig in Beratung und Psychologie.",
+      "near_synonyms": [
+        {
+          "lemma": "das Lampenfieber",
+          "distinction": "die Nervosität vor einem Auftritt, meist vorübergehend"
+        },
+        {
+          "lemma": "die Versagensangst",
+          "distinction": "allgemeiner die Angst zu scheitern, nicht nur bei Prüfungen"
+        }
+      ]
+    },
+    "Bildungssystem": {
+      "meaning_de": "die Gesamtheit der Einrichtungen und Regeln, in denen Bildung organisiert ist",
+      "meaning_en": "education system",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Bildungssystems"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bildungssysteme"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das deutsche Bildungssystem",
+          "gloss_en": "the German education system"
+        },
+        {
+          "phrase": "das Bildungssystem reformieren",
+          "gloss_en": "to reform the education system"
+        },
+        {
+          "phrase": "Chancengleichheit im Bildungssystem",
+          "gloss_en": "equal opportunity in the education system"
+        },
+        {
+          "phrase": "das gegliederte Bildungssystem",
+          "gloss_en": "the tiered education system"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Bildungssystem soll allen Kindern gleiche Chancen bieten.",
+          "en": "The education system is meant to give all children equal opportunities."
+        },
+        {
+          "de": "Kritiker fordern eine Reform des Bildungssystems.",
+          "en": "Critics are calling for a reform of the education system."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; häufig in bildungspolitischen und gesellschaftlichen Debatten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Schulsystem",
+          "distinction": "enger, nur auf die Schulen bezogen"
+        },
+        {
+          "lemma": "das Bildungswesen",
+          "distinction": "nahezu gleichbedeutend, etwas gehobener"
+        }
+      ]
+    },
+    "Nachschlagewerk": {
+      "meaning_de": "ein Buch oder Werk, in dem man gezielt Informationen nachschlägt, etwa ein Lexikon",
+      "meaning_en": "reference work; reference book",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Nachschlagewerks"
+        },
+        {
+          "label": "Plural",
+          "value": "die Nachschlagewerke"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in einem Nachschlagewerk nachschlagen",
+          "gloss_en": "to look something up in a reference work"
+        },
+        {
+          "phrase": "ein umfassendes Nachschlagewerk",
+          "gloss_en": "a comprehensive reference work"
+        },
+        {
+          "phrase": "das Nachschlagewerk konsultieren",
+          "gloss_en": "to consult the reference work"
+        },
+        {
+          "phrase": "als Nachschlagewerk dienen",
+          "gloss_en": "to serve as a reference work"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Duden ist das bekannteste Nachschlagewerk zur Rechtschreibung.",
+          "en": "The Duden is the best-known reference work on spelling."
+        },
+        {
+          "de": "Dieses Handbuch ist ein unverzichtbares Nachschlagewerk.",
+          "en": "This handbook is an indispensable reference work."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; Oberbegriff für Lexika, Wörterbücher und Handbücher.",
+      "near_synonyms": [
+        {
+          "lemma": "das Lexikon",
+          "distinction": "ein bestimmter Typ, nach Stichwörtern geordnet"
+        },
+        {
+          "lemma": "das Handbuch",
+          "distinction": "systematisch aufgebaut, zum Durcharbeiten statt Nachschlagen"
+        }
+      ]
+    },
+    "Plagiat": {
+      "meaning_de": "die unrechtmäßige Übernahme fremden geistigen Eigentums als eigenes",
+      "meaning_en": "plagiarism; plagiarised work",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Plagiats"
+        },
+        {
+          "label": "Plural",
+          "value": "die Plagiate"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Plagiat begehen",
+          "gloss_en": "to commit plagiarism"
+        },
+        {
+          "phrase": "ein Plagiat aufdecken",
+          "gloss_en": "to expose a plagiarism"
+        },
+        {
+          "phrase": "wegen eines Plagiats",
+          "gloss_en": "on account of plagiarism"
+        },
+        {
+          "phrase": "auf Plagiate prüfen",
+          "gloss_en": "to check for plagiarism"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Doktorarbeit erwies sich als Plagiat.",
+          "en": "The doctoral thesis turned out to be plagiarism."
+        },
+        {
+          "de": "Ein Programm prüft die Arbeiten automatisch auf Plagiate.",
+          "en": "A program automatically checks the papers for plagiarism."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; im akademischen Kontext ein schwerer Verstoß.",
+      "near_synonyms": [
+        {
+          "lemma": "die Fälschung",
+          "distinction": "das Vortäuschen von Echtheit, nicht das Abschreiben"
+        },
+        {
+          "lemma": "das Zitat",
+          "distinction": "die korrekte, gekennzeichnete Übernahme, das Gegenteil des Plagiats"
+        }
+      ]
+    },
+    "pauken": {
+      "meaning_de": "intensiv und angestrengt lernen, meist durch Wiederholung",
+      "meaning_en": "to cram; to swot",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er paukt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er paukte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gepaukt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er paukte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas pauken",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Vokabeln pauken",
+          "gloss_en": "to cram vocabulary"
+        },
+        {
+          "phrase": "für die Prüfung pauken",
+          "gloss_en": "to cram for the exam"
+        },
+        {
+          "phrase": "die ganze Nacht pauken",
+          "gloss_en": "to swot all night"
+        },
+        {
+          "phrase": "Grammatik pauken",
+          "gloss_en": "to drill grammar"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor dem Test hat er die halbe Nacht gepaukt.",
+          "en": "Before the test he crammed half the night."
+        },
+        {
+          "de": "Sie paukt jeden Tag zwanzig neue Vokabeln.",
+          "en": "She crams twenty new words every day."
+        }
+      ],
+      "register": "colloquial",
+      "register_note": "Umgangssprachlich; betont das mühsame, oft stumpfe Wiederholen.",
+      "near_synonyms": [
+        {
+          "lemma": "büffeln",
+          "distinction": "fast bedeutungsgleich, ebenso umgangssprachlich"
+        },
+        {
+          "lemma": "lernen",
+          "distinction": "neutral, ohne die Nuance der Anstrengung"
+        }
+      ]
+    },
+    "büffeln": {
+      "meaning_de": "angestrengt und ausdauernd lernen, um sich viel Stoff einzuprägen",
+      "meaning_en": "to swot; to cram",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er büffelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er büffelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gebüffelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er büffelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas büffeln",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "für die Klausur büffeln",
+          "gloss_en": "to swot for the exam"
+        },
+        {
+          "phrase": "Vokabeln büffeln",
+          "gloss_en": "to cram vocabulary"
+        },
+        {
+          "phrase": "tagelang büffeln",
+          "gloss_en": "to swot for days"
+        },
+        {
+          "phrase": "verbissen büffeln",
+          "gloss_en": "to swot doggedly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Prüfungsphase büffelt sie oft bis Mitternacht.",
+          "en": "During exam period she often swots until midnight."
+        },
+        {
+          "de": "Wir haben zusammen für die Matheklausur gebüffelt.",
+          "en": "We swotted together for the maths exam."
+        }
+      ],
+      "register": "colloquial",
+      "register_note": "Umgangssprachlich; anschauliches Bild für angestrengtes Lernen.",
+      "near_synonyms": [
+        {
+          "lemma": "pauken",
+          "distinction": "praktisch gleichbedeutend, ebenso salopp"
+        },
+        {
+          "lemma": "sich vorbereiten",
+          "distinction": "neutral und breiter, nicht auf Auswendiglernen beschränkt"
+        }
+      ]
+    },
+    "sich aneignen": {
+      "meaning_de": "sich Wissen oder Fähigkeiten durch Lernen zu eigen machen",
+      "meaning_en": "to acquire; to learn; to master",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er eignet sich an"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er eignete sich an"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich angeeignet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er eignete sich an"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich etwas aneignen",
+          "cases": "Dat. (Reflexiv) + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich Wissen aneignen",
+          "gloss_en": "to acquire knowledge"
+        },
+        {
+          "phrase": "sich Fähigkeiten aneignen",
+          "gloss_en": "to acquire skills"
+        },
+        {
+          "phrase": "sich eine Sprache aneignen",
+          "gloss_en": "to pick up a language"
+        },
+        {
+          "phrase": "sich etwas selbst aneignen",
+          "gloss_en": "to teach oneself something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er hat sich das Programmieren selbst angeeignet.",
+          "en": "He taught himself programming."
+        },
+        {
+          "de": "Im Ausland eignete sie sich schnell die Sprache an.",
+          "en": "Abroad she quickly picked up the language."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; das Dativreflexiv 'sich' verlangt ein Akkusativobjekt.",
+      "near_synonyms": [
+        {
+          "lemma": "erlernen",
+          "distinction": "betont den systematischen Lernprozess"
+        },
+        {
+          "lemma": "erwerben",
+          "distinction": "förmlicher, auch für Abschlüsse und Rechte"
+        }
+      ]
+    },
+    "vertiefen": {
+      "meaning_de": "Kenntnisse gründlicher und umfassender machen; auch: sich versenken",
+      "meaning_en": "to deepen; to consolidate (knowledge)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vertieft"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vertiefte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vertieft"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vertiefte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas vertiefen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "sich in etwas vertiefen",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "seine Kenntnisse vertiefen",
+          "gloss_en": "to deepen one's knowledge"
+        },
+        {
+          "phrase": "den Stoff vertiefen",
+          "gloss_en": "to consolidate the material"
+        },
+        {
+          "phrase": "ein Thema vertiefen",
+          "gloss_en": "to explore a topic in more depth"
+        },
+        {
+          "phrase": "sich in ein Buch vertiefen",
+          "gloss_en": "to become engrossed in a book"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Aufbaukurs vertiefen wir die Grammatik.",
+          "en": "In the advanced course we deepen our grammar."
+        },
+        {
+          "de": "Sie vertiefte sich so sehr in die Arbeit, dass sie die Zeit vergaß.",
+          "en": "She got so engrossed in the work that she forgot the time."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; transitiv (Wissen vertiefen) wie reflexiv (sich vertiefen in) gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "festigen",
+          "distinction": "betont das Sichern des bereits Gelernten"
+        },
+        {
+          "lemma": "erweitern",
+          "distinction": "zielt auf mehr Breite, nicht auf mehr Tiefe"
+        }
+      ]
+    },
+    "vermitteln": {
+      "meaning_de": "Wissen oder Inhalte weitergeben; auch: zwischen Parteien schlichten",
+      "meaning_en": "to impart; to teach; to mediate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vermittelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vermittelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vermittelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vermittelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem etwas vermitteln",
+          "cases": "Dat. + Akk."
+        },
+        {
+          "pattern": "zwischen Parteien vermitteln",
+          "cases": "zwischen + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Wissen vermitteln",
+          "gloss_en": "to impart knowledge"
+        },
+        {
+          "phrase": "einen Eindruck vermitteln",
+          "gloss_en": "to convey an impression"
+        },
+        {
+          "phrase": "Werte vermitteln",
+          "gloss_en": "to instil values"
+        },
+        {
+          "phrase": "in einem Konflikt vermitteln",
+          "gloss_en": "to mediate in a conflict"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Kurs vermittelt die Grundlagen der Statistik.",
+          "en": "The course teaches the basics of statistics."
+        },
+        {
+          "de": "Sie vermittelte geschickt zwischen den Streitenden.",
+          "en": "She skilfully mediated between the disputing parties."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Lernkontext meint es das Weitergeben von Inhalten.",
+      "near_synonyms": [
+        {
+          "lemma": "beibringen",
+          "distinction": "alltäglicher, stärker auf konkretes Können bezogen"
+        },
+        {
+          "lemma": "lehren",
+          "distinction": "gehobener und umfassender, oft institutionell"
+        }
+      ]
+    },
+    "durchfallen": {
+      "meaning_de": "eine Prüfung nicht bestehen",
+      "meaning_en": "to fail (an exam); to flunk",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er fällt durch"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er fiel durch"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist durchgefallen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er fiele durch"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "bei/in einer Prüfung durchfallen",
+          "cases": "bei/in + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "durch die Prüfung fallen",
+          "gloss_en": "to fail the exam"
+        },
+        {
+          "phrase": "im Examen durchfallen",
+          "gloss_en": "to flunk the finals"
+        },
+        {
+          "phrase": "glatt durchfallen",
+          "gloss_en": "to fail outright"
+        },
+        {
+          "phrase": "beim Test durchfallen",
+          "gloss_en": "to fail the test"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er ist schon zum zweiten Mal durch die Fahrprüfung gefallen.",
+          "en": "He has failed the driving test for the second time now."
+        },
+        {
+          "de": "Wenn du nicht lernst, fällst du durch.",
+          "en": "If you don't study, you'll fail."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; bildet das Perfekt mit 'sein' und wird trennbar gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "scheitern",
+          "distinction": "allgemeiner, jedes Misslingen, nicht nur Prüfungen"
+        },
+        {
+          "lemma": "versagen",
+          "distinction": "betont das persönliche Nichtkönnen im Moment"
+        }
+      ]
+    },
+    "bestehen": {
+      "meaning_de": "eine Prüfung erfolgreich absolvieren; auch: existieren oder beharren",
+      "meaning_en": "to pass (an exam); to exist; to insist",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er besteht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bestand"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bestanden"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bestünde"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Prüfung bestehen",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "auf etwas bestehen",
+          "cases": "auf + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Prüfung bestehen",
+          "gloss_en": "to pass the exam"
+        },
+        {
+          "phrase": "eine Probe bestehen",
+          "gloss_en": "to pass a test"
+        },
+        {
+          "phrase": "auf seinem Recht bestehen",
+          "gloss_en": "to insist on one's right"
+        },
+        {
+          "phrase": "aus etwas bestehen",
+          "gloss_en": "to consist of something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat die Prüfung mit Auszeichnung bestanden.",
+          "en": "She passed the exam with distinction."
+        },
+        {
+          "de": "Ich bestehe darauf, dass wir pünktlich anfangen.",
+          "en": "I insist that we start on time."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; polysem — hier vor allem die Prüfungsbedeutung (mit Akkusativ).",
+      "near_synonyms": [
+        {
+          "lemma": "schaffen",
+          "distinction": "umgangssprachlicher, breiter für jedes Gelingen"
+        },
+        {
+          "lemma": "durchkommen",
+          "distinction": "salopp, betont das knappe Bestehen"
+        }
+      ]
+    },
+    "sich immatrikulieren": {
+      "meaning_de": "sich offiziell an einer Hochschule einschreiben",
+      "meaning_en": "to enrol; to matriculate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er immatrikuliert sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er immatrikulierte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich immatrikuliert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er immatrikulierte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich für etwas immatrikulieren",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich an der Universität immatrikulieren",
+          "gloss_en": "to enrol at the university"
+        },
+        {
+          "phrase": "sich für ein Fach immatrikulieren",
+          "gloss_en": "to enrol for a subject"
+        },
+        {
+          "phrase": "sich rechtzeitig immatrikulieren",
+          "gloss_en": "to enrol in good time"
+        },
+        {
+          "phrase": "sich neu immatrikulieren",
+          "gloss_en": "to newly enrol"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zum Wintersemester hat er sich in Jura immatrikuliert.",
+          "en": "He enrolled in law for the winter semester."
+        },
+        {
+          "de": "Man muss sich vor Semesterbeginn immatrikulieren.",
+          "en": "You have to enrol before the semester starts."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; reflexives Verb der Hochschulverwaltung.",
+      "near_synonyms": [
+        {
+          "lemma": "sich einschreiben",
+          "distinction": "das alltagssprachliche Synonym, gleichbedeutend"
+        },
+        {
+          "lemma": "sich anmelden",
+          "distinction": "allgemeiner, für jede Art von Registrierung"
+        }
+      ]
+    },
+    "zitieren": {
+      "meaning_de": "eine fremde Textstelle wörtlich anführen und kennzeichnen",
+      "meaning_en": "to quote; to cite",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zitiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zitierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat zitiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zitierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden/etwas zitieren",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "aus etwas zitieren",
+          "cases": "aus + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Quelle zitieren",
+          "gloss_en": "to cite a source"
+        },
+        {
+          "phrase": "wörtlich zitieren",
+          "gloss_en": "to quote verbatim"
+        },
+        {
+          "phrase": "korrekt zitieren",
+          "gloss_en": "to cite correctly"
+        },
+        {
+          "phrase": "aus einem Buch zitieren",
+          "gloss_en": "to quote from a book"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Hausarbeit muss man alle Quellen korrekt zitieren.",
+          "en": "In a term paper you have to cite all sources correctly."
+        },
+        {
+          "de": "Der Autor zitiert Kant gleich im ersten Satz.",
+          "en": "The author quotes Kant right in the first sentence."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; im wissenschaftlichen Arbeiten zentral.",
+      "near_synonyms": [
+        {
+          "lemma": "anführen",
+          "distinction": "allgemeiner, auch für Beispiele und Gründe"
+        },
+        {
+          "lemma": "belegen",
+          "distinction": "betont den Nachweis, nicht das Wörtliche"
+        }
+      ]
+    },
+    "sich einprägen": {
+      "meaning_de": "sich etwas fest ins Gedächtnis bringen, sodass man es behält",
+      "meaning_en": "to memorise; to commit to memory",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er prägt sich ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er prägte sich ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich eingeprägt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er prägte sich ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich etwas einprägen",
+          "cases": "Dat. (Reflexiv) + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich einen Namen einprägen",
+          "gloss_en": "to memorise a name"
+        },
+        {
+          "phrase": "sich Zahlen einprägen",
+          "gloss_en": "to commit numbers to memory"
+        },
+        {
+          "phrase": "sich etwas gut einprägen",
+          "gloss_en": "to memorise something well"
+        },
+        {
+          "phrase": "sich einen Weg einprägen",
+          "gloss_en": "to memorise a route"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit Eselsbrücken kann man sich Vokabeln leichter einprägen.",
+          "en": "With mnemonics you can memorise words more easily."
+        },
+        {
+          "de": "Dieses Bild hat sich mir tief eingeprägt.",
+          "en": "This image is deeply etched in my memory."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch intransitiv-übertragen ('etwas prägt sich mir ein').",
+      "near_synonyms": [
+        {
+          "lemma": "sich merken",
+          "distinction": "alltäglicher, weniger nachdrücklich"
+        },
+        {
+          "lemma": "auswendig lernen",
+          "distinction": "zielt auf wörtliche Wiedergabe"
+        }
+      ]
+    },
+    "verinnerlichen": {
+      "meaning_de": "sich etwas so zu eigen machen, dass es zur eigenen Haltung wird",
+      "meaning_en": "to internalise; to take to heart",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verinnerlicht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verinnerlichte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verinnerlicht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verinnerlichte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verinnerlichen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Werte verinnerlichen",
+          "gloss_en": "to internalise values"
+        },
+        {
+          "phrase": "eine Regel verinnerlichen",
+          "gloss_en": "to internalise a rule"
+        },
+        {
+          "phrase": "Gelerntes verinnerlichen",
+          "gloss_en": "to internalise what one has learned"
+        },
+        {
+          "phrase": "etwas völlig verinnerlichen",
+          "gloss_en": "to fully internalise something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Erst wenn man die Grammatik verinnerlicht hat, spricht man flüssig.",
+          "en": "Only once you've internalised the grammar do you speak fluently."
+        },
+        {
+          "de": "Sie hat die Prinzipien ihres Faches ganz verinnerlicht.",
+          "en": "She has thoroughly internalised the principles of her field."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; mehr als bloßes Lernen — es wird Teil der Person.",
+      "near_synonyms": [
+        {
+          "lemma": "verstehen",
+          "distinction": "das gedankliche Erfassen, ohne die dauerhafte Aneignung"
+        },
+        {
+          "lemma": "sich zu eigen machen",
+          "distinction": "feste Wendung, nahezu gleichbedeutend"
+        }
+      ]
+    },
+    "absolvieren": {
+      "meaning_de": "eine Ausbildung, Prüfung oder Aufgabe erfolgreich durchlaufen",
+      "meaning_en": "to complete; to graduate from; to pass through",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er absolviert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er absolvierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat absolviert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er absolvierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas absolvieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Studium absolvieren",
+          "gloss_en": "to complete a degree"
+        },
+        {
+          "phrase": "ein Praktikum absolvieren",
+          "gloss_en": "to do an internship"
+        },
+        {
+          "phrase": "eine Ausbildung absolvieren",
+          "gloss_en": "to complete a training"
+        },
+        {
+          "phrase": "eine Prüfung absolvieren",
+          "gloss_en": "to sit an exam"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat ihr Studium in Regelstudienzeit absolviert.",
+          "en": "She completed her degree within the standard period."
+        },
+        {
+          "de": "Vor dem Beruf absolvierte er ein einjähriges Praktikum.",
+          "en": "Before starting work he did a one-year internship."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; förmlicher als 'machen', typisch für Ausbildungswege.",
+      "near_synonyms": [
+        {
+          "lemma": "abschließen",
+          "distinction": "betont das Beenden, nicht das Durchlaufen"
+        },
+        {
+          "lemma": "durchlaufen",
+          "distinction": "neutraler, ohne die Konnotation des Erfolgs"
+        }
+      ]
+    },
+    "lehrreich": {
+      "meaning_de": "so, dass man viel daraus lernt",
+      "meaning_en": "instructive; enlightening",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "lehrreicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am lehrreichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine lehrreiche Erfahrung",
+          "gloss_en": "an instructive experience"
+        },
+        {
+          "phrase": "ein lehrreiches Buch",
+          "gloss_en": "an enlightening book"
+        },
+        {
+          "phrase": "besonders lehrreich sein",
+          "gloss_en": "to be particularly instructive"
+        },
+        {
+          "phrase": "ein lehrreiches Beispiel",
+          "gloss_en": "an instructive example"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Praktikum war für mich äußerst lehrreich.",
+          "en": "The internship was extremely instructive for me."
+        },
+        {
+          "de": "Auch aus Fehlern kann eine lehrreiche Lektion werden.",
+          "en": "Even mistakes can turn into an instructive lesson."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; positiv wertend, oft über Erfahrungen und Medien.",
+      "near_synonyms": [
+        {
+          "lemma": "aufschlussreich",
+          "distinction": "betont den Erkenntnisgewinn, nicht das Lernen als Prozess"
+        },
+        {
+          "lemma": "informativ",
+          "distinction": "reich an Information, aber nicht unbedingt lehrhaft"
+        }
+      ]
+    },
+    "wissbegierig": {
+      "meaning_de": "voller Verlangen, Neues zu erfahren und zu lernen",
+      "meaning_en": "eager to learn; inquisitive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "wissbegieriger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am wissbegierigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein wissbegieriges Kind",
+          "gloss_en": "an inquisitive child"
+        },
+        {
+          "phrase": "wissbegierig zuhören",
+          "gloss_en": "to listen eagerly"
+        },
+        {
+          "phrase": "wissbegierig fragen",
+          "gloss_en": "to ask inquisitively"
+        },
+        {
+          "phrase": "wissbegierig sein",
+          "gloss_en": "to be eager to learn"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Schülerin ist außerordentlich wissbegierig.",
+          "en": "The pupil is extraordinarily eager to learn."
+        },
+        {
+          "de": "Wissbegierig löcherte er den Professor mit Fragen.",
+          "en": "Inquisitively he bombarded the professor with questions."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; durchweg positiv, oft über Kinder und Lernende.",
+      "near_synonyms": [
+        {
+          "lemma": "neugierig",
+          "distinction": "allgemeiner, auch auf Klatsch und Privates bezogen"
+        },
+        {
+          "lemma": "lernbegierig",
+          "distinction": "fast gleichbedeutend, betont das Lernen stärker"
+        }
+      ]
+    },
+    "lernfähig": {
+      "meaning_de": "fähig oder bereit, Neues zu lernen und sich anzupassen",
+      "meaning_en": "capable of learning; adaptable",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "lernfähiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am lernfähigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein lernfähiges System",
+          "gloss_en": "an adaptive system"
+        },
+        {
+          "phrase": "sich lernfähig zeigen",
+          "gloss_en": "to prove capable of learning"
+        },
+        {
+          "phrase": "geistig lernfähig bleiben",
+          "gloss_en": "to stay mentally adaptable"
+        },
+        {
+          "phrase": "hoch lernfähig sein",
+          "gloss_en": "to be highly capable of learning"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auch im Alter bleibt das Gehirn erstaunlich lernfähig.",
+          "en": "Even in old age the brain remains remarkably capable of learning."
+        },
+        {
+          "de": "Nach der Kritik zeigte er sich durchaus lernfähig.",
+          "en": "After the criticism he proved quite willing to learn."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; über Menschen wie über technische Systeme (Maschinenlernen).",
+      "near_synonyms": [
+        {
+          "lemma": "aufnahmefähig",
+          "distinction": "betont die momentane Aufnahmebereitschaft"
+        },
+        {
+          "lemma": "anpassungsfähig",
+          "distinction": "zielt auf Flexibilität, nicht auf Wissenserwerb"
+        }
+      ]
+    },
+    "sprachbegabt": {
+      "meaning_de": "mit einer besonderen Begabung für das Erlernen von Sprachen",
+      "meaning_en": "gifted at languages; linguistically talented",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "sprachbegabter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am sprachbegabtesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein sprachbegabtes Kind",
+          "gloss_en": "a linguistically gifted child"
+        },
+        {
+          "phrase": "besonders sprachbegabt sein",
+          "gloss_en": "to be especially gifted at languages"
+        },
+        {
+          "phrase": "sprachbegabt und wissbegierig",
+          "gloss_en": "gifted at languages and eager to learn"
+        },
+        {
+          "phrase": "als sprachbegabt gelten",
+          "gloss_en": "to be considered gifted at languages"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ist so sprachbegabt, dass sie fünf Sprachen spricht.",
+          "en": "She is so gifted at languages that she speaks five of them."
+        },
+        {
+          "de": "Sprachbegabte Kinder lernen Fremdsprachen fast nebenbei.",
+          "en": "Linguistically gifted children learn foreign languages almost effortlessly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; positiv wertend, speziell auf das Sprachenlernen bezogen.",
+      "near_synonyms": [
+        {
+          "lemma": "begabt",
+          "distinction": "allgemein, ohne Festlegung auf Sprachen"
+        },
+        {
+          "lemma": "sprachgewandt",
+          "distinction": "betont die gekonnte Ausdrucksweise, nicht die Begabung"
+        }
+      ]
+    },
+    "fakultativ": {
+      "meaning_de": "dem eigenen Ermessen überlassen, freiwillig wählbar",
+      "meaning_en": "optional; elective",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein fakultatives Fach",
+          "gloss_en": "an elective subject"
+        },
+        {
+          "phrase": "fakultative Teilnahme",
+          "gloss_en": "optional attendance"
+        },
+        {
+          "phrase": "ein fakultatives Angebot",
+          "gloss_en": "an optional offering"
+        },
+        {
+          "phrase": "fakultativ belegbar",
+          "gloss_en": "available as an elective"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der zweite Sprachkurs ist fakultativ, nicht verpflichtend.",
+          "en": "The second language course is optional, not compulsory."
+        },
+        {
+          "de": "Für den Abschluss sind zwei fakultative Module vorgesehen.",
+          "en": "Two elective modules are provided for the degree."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; das Gegenteil von obligatorisch, nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "wahlweise",
+          "distinction": "alltäglicher, betont die freie Wahl zwischen Optionen"
+        },
+        {
+          "lemma": "freiwillig",
+          "distinction": "allgemeiner, jede nicht erzwungene Handlung"
+        }
+      ]
+    },
+    "prüfungsrelevant": {
+      "meaning_de": "für eine Prüfung von Bedeutung, also prüfungsstoffbezogen",
+      "meaning_en": "exam-relevant; relevant to the exam",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "prüfungsrelevanter Stoff",
+          "gloss_en": "exam-relevant material"
+        },
+        {
+          "phrase": "prüfungsrelevante Themen",
+          "gloss_en": "topics relevant to the exam"
+        },
+        {
+          "phrase": "prüfungsrelevant sein",
+          "gloss_en": "to be relevant to the exam"
+        },
+        {
+          "phrase": "das ist nicht prüfungsrelevant",
+          "gloss_en": "that isn't relevant to the exam"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Dozent markierte, welche Kapitel prüfungsrelevant sind.",
+          "en": "The lecturer marked which chapters are relevant to the exam."
+        },
+        {
+          "de": "Konzentrier dich zuerst auf den prüfungsrelevanten Stoff.",
+          "en": "Focus first on the exam-relevant material."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; typisch im Schul- und Studienalltag, klassifizierend und nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "relevant",
+          "distinction": "allgemein bedeutsam, ohne Bezug zur Prüfung"
+        },
+        {
+          "lemma": "klausurrelevant",
+          "distinction": "enger, nur auf die schriftliche Klausur bezogen"
+        }
+      ]
+    }
+  }
+}

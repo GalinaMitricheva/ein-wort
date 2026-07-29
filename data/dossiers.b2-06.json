@@ -1,0 +1,2904 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored dossiers for the B2 domain batch \"Recht, Staat & Verwaltung\" (law, state & administration), keyed by lemma.",
+  "dossiers": {
+    "Antrag": {
+      "meaning_de": "ein förmliches Gesuch, mit dem man um etwas bittet oder etwas beantragt",
+      "meaning_en": "application; formal request; motion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Antrags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anträge"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Antrag auf etwas",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Antrag stellen",
+          "gloss_en": "to submit an application"
+        },
+        {
+          "phrase": "einen Antrag ablehnen",
+          "gloss_en": "to reject an application"
+        },
+        {
+          "phrase": "einen Antrag bewilligen",
+          "gloss_en": "to approve an application"
+        },
+        {
+          "phrase": "der Antrag auf Kindergeld",
+          "gloss_en": "the application for child benefit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich habe einen Antrag auf Wohngeld gestellt.",
+          "en": "I submitted an application for housing benefit."
+        },
+        {
+          "de": "Der Antrag wurde von der Behörde abgelehnt.",
+          "en": "The application was rejected by the authority."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprache in Ämtern und Verwaltung; im Parlament auch im Sinne von \"Antrag zur Abstimmung\".",
+      "near_synonyms": [
+        {
+          "lemma": "das Gesuch",
+          "distinction": "gehobener und seltener, oft im Amtsdeutsch"
+        },
+        {
+          "lemma": "die Bewerbung",
+          "distinction": "speziell das Bewerben um eine Stelle"
+        }
+      ]
+    },
+    "Behörde": {
+      "meaning_de": "eine staatliche Stelle, die öffentliche Aufgaben wahrnimmt",
+      "meaning_en": "public authority; government agency",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Behörde"
+        },
+        {
+          "label": "Plural",
+          "value": "die Behörden"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die zuständige Behörde",
+          "gloss_en": "the responsible authority"
+        },
+        {
+          "phrase": "sich an eine Behörde wenden",
+          "gloss_en": "to turn to an authority"
+        },
+        {
+          "phrase": "die staatlichen Behörden",
+          "gloss_en": "the state authorities"
+        },
+        {
+          "phrase": "bei der Behörde vorsprechen",
+          "gloss_en": "to call in at the authority"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für diese Genehmigung ist eine andere Behörde zuständig.",
+          "en": "A different authority is responsible for this permit."
+        },
+        {
+          "de": "Die Behörde hat den Antrag innerhalb einer Woche bearbeitet.",
+          "en": "The authority processed the application within a week."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich-institutionell; Oberbegriff für Ämter aller Art.",
+      "near_synonyms": [
+        {
+          "lemma": "das Amt",
+          "distinction": "konkrete Dienststelle, oft mit engerem Aufgabenbereich"
+        },
+        {
+          "lemma": "die Verwaltung",
+          "distinction": "der ganze Apparat, nicht die einzelne Stelle"
+        }
+      ]
+    },
+    "Ausweis": {
+      "meaning_de": "ein amtliches Dokument, das die Identität einer Person belegt",
+      "meaning_en": "identity card; ID",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Ausweises"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ausweise"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Ausweis vorzeigen",
+          "gloss_en": "to show one's ID"
+        },
+        {
+          "phrase": "der Personalausweis",
+          "gloss_en": "the identity card"
+        },
+        {
+          "phrase": "einen Ausweis beantragen",
+          "gloss_en": "to apply for an ID card"
+        },
+        {
+          "phrase": "der abgelaufene Ausweis",
+          "gloss_en": "the expired ID"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bitte zeigen Sie mir Ihren Ausweis.",
+          "en": "Please show me your ID."
+        },
+        {
+          "de": "Mein Ausweis ist letzten Monat abgelaufen.",
+          "en": "My ID expired last month."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; meist gemeint ist der Personalausweis.",
+      "near_synonyms": [
+        {
+          "lemma": "der Reisepass",
+          "distinction": "gilt für Auslandsreisen, umfangreicher"
+        },
+        {
+          "lemma": "das Dokument",
+          "distinction": "allgemeiner, nicht speziell zur Identität"
+        }
+      ]
+    },
+    "Genehmigung": {
+      "meaning_de": "die offizielle Erlaubnis einer Behörde, etwas zu tun",
+      "meaning_en": "permit; permission; authorization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Genehmigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Genehmigungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Genehmigung für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Genehmigung erteilen",
+          "gloss_en": "to grant a permit"
+        },
+        {
+          "phrase": "eine Genehmigung einholen",
+          "gloss_en": "to obtain a permit"
+        },
+        {
+          "phrase": "die behördliche Genehmigung",
+          "gloss_en": "the official permit"
+        },
+        {
+          "phrase": "ohne Genehmigung bauen",
+          "gloss_en": "to build without a permit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für den Umbau brauchen Sie eine Genehmigung der Stadt.",
+          "en": "You need a permit from the city for the renovation."
+        },
+        {
+          "de": "Die Genehmigung wurde nach Prüfung erteilt.",
+          "en": "The permit was granted after review."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungssprache; das Ergebnis eines Genehmigungsverfahrens.",
+      "near_synonyms": [
+        {
+          "lemma": "die Erlaubnis",
+          "distinction": "allgemeiner, auch privat und mündlich"
+        },
+        {
+          "lemma": "die Bewilligung",
+          "distinction": "betont die positive Entscheidung über einen Antrag"
+        }
+      ]
+    },
+    "Vorschrift": {
+      "meaning_de": "eine verbindliche Regel, an die man sich halten muss",
+      "meaning_en": "regulation; rule; official directive",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Vorschrift"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vorschriften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich an die Vorschriften halten",
+          "gloss_en": "to comply with the rules"
+        },
+        {
+          "phrase": "gegen eine Vorschrift verstoßen",
+          "gloss_en": "to violate a regulation"
+        },
+        {
+          "phrase": "die gesetzlichen Vorschriften",
+          "gloss_en": "the statutory regulations"
+        },
+        {
+          "phrase": "nach Vorschrift handeln",
+          "gloss_en": "to act by the book"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach den Vorschriften ist das Rauchen hier verboten.",
+          "en": "According to the rules, smoking is prohibited here."
+        },
+        {
+          "de": "Er hält sich streng an die Vorschriften.",
+          "en": "He strictly follows the regulations."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; oft mit einem Beiklang von Bürokratie (\"Vorschrift ist Vorschrift\").",
+      "near_synonyms": [
+        {
+          "lemma": "die Regel",
+          "distinction": "allgemeiner, auch informell und ungeschrieben"
+        },
+        {
+          "lemma": "die Verordnung",
+          "distinction": "eine bestimmte Rechtsform mit gesetzlicher Grundlage"
+        }
+      ]
+    },
+    "Verordnung": {
+      "meaning_de": "eine von einer Behörde erlassene Rechtsvorschrift unterhalb des Gesetzes",
+      "meaning_en": "ordinance; decree; regulation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verordnung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verordnungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Verordnung über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Verordnung erlassen",
+          "gloss_en": "to issue an ordinance"
+        },
+        {
+          "phrase": "die EU-Verordnung",
+          "gloss_en": "the EU regulation"
+        },
+        {
+          "phrase": "gegen die Verordnung verstoßen",
+          "gloss_en": "to breach the ordinance"
+        },
+        {
+          "phrase": "eine Verordnung in Kraft setzen",
+          "gloss_en": "to bring a decree into force"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Regierung hat eine neue Verordnung zum Datenschutz erlassen.",
+          "en": "The government has issued a new ordinance on data protection."
+        },
+        {
+          "de": "Diese Verordnung tritt am ersten Januar in Kraft.",
+          "en": "This ordinance comes into force on the first of January."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprache des Rechts; enger als \"Gesetz\", da von der Exekutive erlassen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Gesetz",
+          "distinction": "vom Parlament beschlossen, ranghöher"
+        },
+        {
+          "lemma": "die Vorschrift",
+          "distinction": "allgemeiner Oberbegriff für verbindliche Regeln"
+        }
+      ]
+    },
+    "Bescheid": {
+      "meaning_de": "eine schriftliche Entscheidung einer Behörde über einen Antrag",
+      "meaning_en": "official decision; notice; notification",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Bescheids"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bescheide"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Bescheid über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Bescheid erhalten",
+          "gloss_en": "to receive an official notice"
+        },
+        {
+          "phrase": "gegen den Bescheid Widerspruch einlegen",
+          "gloss_en": "to appeal against the decision"
+        },
+        {
+          "phrase": "der ablehnende Bescheid",
+          "gloss_en": "the rejection notice"
+        },
+        {
+          "phrase": "Bescheid geben",
+          "gloss_en": "to let someone know"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bescheid vom Finanzamt kam gestern mit der Post.",
+          "en": "The notice from the tax office arrived yesterday by mail."
+        },
+        {
+          "de": "Gegen den Bescheid können Sie innerhalb eines Monats Widerspruch einlegen.",
+          "en": "You can appeal against the decision within one month."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungssprache; in der Wendung \"Bescheid geben/wissen\" auch ganz alltäglich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Mitteilung",
+          "distinction": "allgemeiner, ohne rechtsverbindliche Entscheidung"
+        },
+        {
+          "lemma": "der Beschluss",
+          "distinction": "eine Entscheidung eines Gremiums oder Gerichts"
+        }
+      ]
+    },
+    "Formular": {
+      "meaning_de": "ein vorgedrucktes Blatt mit Feldern, das man ausfüllt",
+      "meaning_en": "form",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Formulars"
+        },
+        {
+          "label": "Plural",
+          "value": "die Formulare"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Formular ausfüllen",
+          "gloss_en": "to fill out a form"
+        },
+        {
+          "phrase": "das Formular einreichen",
+          "gloss_en": "to submit the form"
+        },
+        {
+          "phrase": "das Formular unterschreiben",
+          "gloss_en": "to sign the form"
+        },
+        {
+          "phrase": "ein Formular herunterladen",
+          "gloss_en": "to download a form"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bitte füllen Sie das Formular vollständig aus.",
+          "en": "Please fill out the form completely."
+        },
+        {
+          "de": "Das Formular finden Sie auf der Internetseite der Behörde.",
+          "en": "You can find the form on the authority's website."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich in Ämtern, Banken und im Netz.",
+      "near_synonyms": [
+        {
+          "lemma": "der Vordruck",
+          "distinction": "amtssprachlicher, betont den vorgedruckten Charakter"
+        },
+        {
+          "lemma": "der Antrag",
+          "distinction": "das Anliegen selbst, nicht das leere Blatt"
+        }
+      ]
+    },
+    "Unterschrift": {
+      "meaning_de": "der handschriftliche Namenszug, mit dem man etwas bestätigt",
+      "meaning_en": "signature",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Unterschrift"
+        },
+        {
+          "label": "Plural",
+          "value": "die Unterschriften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "seine Unterschrift leisten",
+          "gloss_en": "to give one's signature"
+        },
+        {
+          "phrase": "eine Unterschrift fälschen",
+          "gloss_en": "to forge a signature"
+        },
+        {
+          "phrase": "etwas zur Unterschrift vorlegen",
+          "gloss_en": "to present something for signing"
+        },
+        {
+          "phrase": "Unterschriften sammeln",
+          "gloss_en": "to collect signatures"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne Ihre Unterschrift ist der Vertrag ungültig.",
+          "en": "Without your signature the contract is invalid."
+        },
+        {
+          "de": "An dieser Stelle fehlt noch die Unterschrift.",
+          "en": "The signature is still missing here."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprache; \"seine Unterschrift leisten\" ist die gehobenere Variante.",
+      "near_synonyms": [
+        {
+          "lemma": "die Signatur",
+          "distinction": "eher technisch, auch digital (elektronische Signatur)"
+        },
+        {
+          "lemma": "das Autogramm",
+          "distinction": "der Namenszug einer prominenten Person als Andenken"
+        }
+      ]
+    },
+    "Amt": {
+      "meaning_de": "eine öffentliche Dienststelle oder eine offizielle Position mit Aufgaben",
+      "meaning_en": "public office; government agency; official post",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Amtes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ämter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Amt bekleiden",
+          "gloss_en": "to hold an office"
+        },
+        {
+          "phrase": "aufs Amt gehen",
+          "gloss_en": "to go to the government office"
+        },
+        {
+          "phrase": "ein Amt antreten",
+          "gloss_en": "to take up an office"
+        },
+        {
+          "phrase": "das zuständige Amt",
+          "gloss_en": "the responsible agency"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Anmeldung müssen Sie persönlich aufs Amt gehen.",
+          "en": "For the registration you have to go to the office in person."
+        },
+        {
+          "de": "Der Minister trat sein Amt im Mai an.",
+          "en": "The minister took up his office in May."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Zweideutig: die Dienststelle (aufs Amt gehen) und die Funktion (ein Amt bekleiden).",
+      "near_synonyms": [
+        {
+          "lemma": "die Behörde",
+          "distinction": "Oberbegriff, meist die ganze Institution"
+        },
+        {
+          "lemma": "die Dienststelle",
+          "distinction": "neutraler, betont den Arbeitsort"
+        }
+      ]
+    },
+    "Anmeldung": {
+      "meaning_de": "die offizielle Meldung, mit der man sich irgendwo registriert",
+      "meaning_en": "registration; sign-up",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Anmeldung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anmeldungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Anmeldung zu etwas",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Anmeldung des Wohnsitzes",
+          "gloss_en": "the registration of one's residence"
+        },
+        {
+          "phrase": "eine Anmeldung ausfüllen",
+          "gloss_en": "to fill out a registration"
+        },
+        {
+          "phrase": "sich an der Anmeldung melden",
+          "gloss_en": "to check in at the reception"
+        },
+        {
+          "phrase": "die Anmeldung zum Kurs",
+          "gloss_en": "the sign-up for the course"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Anmeldung beim Einwohnermeldeamt muss innerhalb von zwei Wochen erfolgen.",
+          "en": "Registration at the residents' office must be done within two weeks."
+        },
+        {
+          "de": "Bitte warten Sie an der Anmeldung, bis Sie aufgerufen werden.",
+          "en": "Please wait at the reception until you are called."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Doppeldeutig: der Vorgang des Anmeldens und der Empfangsschalter.",
+      "near_synonyms": [
+        {
+          "lemma": "die Registrierung",
+          "distinction": "technischer, oft im digitalen Kontext"
+        },
+        {
+          "lemma": "die Anmeldung",
+          "distinction": "im Gegensatz zur Abmeldung als Beendigung"
+        }
+      ]
+    },
+    "Wohnsitz": {
+      "meaning_de": "der Ort, an dem eine Person offiziell und dauerhaft wohnt",
+      "meaning_en": "place of residence; domicile",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wohnsitzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wohnsitze"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "seinen Wohnsitz anmelden",
+          "gloss_en": "to register one's residence"
+        },
+        {
+          "phrase": "den Wohnsitz verlegen",
+          "gloss_en": "to relocate one's residence"
+        },
+        {
+          "phrase": "der erste Wohnsitz",
+          "gloss_en": "the primary residence"
+        },
+        {
+          "phrase": "ohne festen Wohnsitz",
+          "gloss_en": "of no fixed abode"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat ihren Wohnsitz nach München verlegt.",
+          "en": "She relocated her residence to Munich."
+        },
+        {
+          "de": "Ohne festen Wohnsitz ist die Kontoeröffnung schwierig.",
+          "en": "Opening an account is difficult without a fixed address."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungs- und Rechtssprache; alltäglich sagt man eher \"Adresse\".",
+      "near_synonyms": [
+        {
+          "lemma": "die Adresse",
+          "distinction": "alltäglich, die konkrete Anschrift"
+        },
+        {
+          "lemma": "der Aufenthaltsort",
+          "distinction": "wo man sich gerade befindet, nicht unbedingt gemeldet"
+        }
+      ]
+    },
+    "Verwaltung": {
+      "meaning_de": "der Apparat, der öffentliche oder betriebliche Aufgaben organisiert und ausführt",
+      "meaning_en": "administration; management",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verwaltung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verwaltungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die öffentliche Verwaltung",
+          "gloss_en": "the public administration"
+        },
+        {
+          "phrase": "in der Verwaltung arbeiten",
+          "gloss_en": "to work in administration"
+        },
+        {
+          "phrase": "die Verwaltung eines Vermögens",
+          "gloss_en": "the management of an estate"
+        },
+        {
+          "phrase": "die kommunale Verwaltung",
+          "gloss_en": "the municipal administration"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Digitalisierung der Verwaltung geht nur langsam voran.",
+          "en": "The digitalization of the administration is progressing only slowly."
+        },
+        {
+          "de": "Sie ist seit Jahren in der städtischen Verwaltung tätig.",
+          "en": "She has worked in the municipal administration for years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; bezeichnet sowohl den Apparat als auch die Tätigkeit des Verwaltens.",
+      "near_synonyms": [
+        {
+          "lemma": "die Behörde",
+          "distinction": "eine einzelne staatliche Stelle, nicht der ganze Apparat"
+        },
+        {
+          "lemma": "die Bürokratie",
+          "distinction": "abwertend, betont Umständlichkeit und Regelwerk"
+        }
+      ]
+    },
+    "Klage": {
+      "meaning_de": "das förmliche Anrufen eines Gerichts, um ein Recht durchzusetzen",
+      "meaning_en": "lawsuit; legal action; complaint",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Klage"
+        },
+        {
+          "label": "Plural",
+          "value": "die Klagen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Klage gegen jemanden",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Klage einreichen",
+          "gloss_en": "to file a lawsuit"
+        },
+        {
+          "phrase": "eine Klage abweisen",
+          "gloss_en": "to dismiss a lawsuit"
+        },
+        {
+          "phrase": "die Klage gegen die Firma",
+          "gloss_en": "the lawsuit against the company"
+        },
+        {
+          "phrase": "einer Klage stattgeben",
+          "gloss_en": "to uphold a claim"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Mieter hat gegen die Kündigung Klage eingereicht.",
+          "en": "The tenant filed a lawsuit against the termination."
+        },
+        {
+          "de": "Das Gericht wies die Klage als unbegründet ab.",
+          "en": "The court dismissed the lawsuit as unfounded."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache; daneben existiert die alltägliche Bedeutung \"Klage\" als Jammern.",
+      "near_synonyms": [
+        {
+          "lemma": "die Anzeige",
+          "distinction": "die Meldung einer Straftat bei Polizei oder Staatsanwaltschaft"
+        },
+        {
+          "lemma": "der Prozess",
+          "distinction": "das ganze Gerichtsverfahren, nicht nur der Auftakt"
+        }
+      ]
+    },
+    "Gericht": {
+      "meaning_de": "die staatliche Einrichtung, die über Rechtsstreitigkeiten entscheidet",
+      "meaning_en": "court (of law)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gerichts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gerichte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "vor Gericht gehen",
+          "gloss_en": "to go to court"
+        },
+        {
+          "phrase": "jemanden vor Gericht bringen",
+          "gloss_en": "to take someone to court"
+        },
+        {
+          "phrase": "das Gericht entscheidet",
+          "gloss_en": "the court decides"
+        },
+        {
+          "phrase": "vor Gericht aussagen",
+          "gloss_en": "to testify in court"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Streit wird nun vor Gericht geklärt.",
+          "en": "The dispute will now be settled in court."
+        },
+        {
+          "de": "Das Gericht verurteilte ihn zu einer Geldstrafe.",
+          "en": "The court sentenced him to a fine."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtsbereich; das gleichlautende \"Gericht\" (Speise) ist ein anderes Wort.",
+      "near_synonyms": [
+        {
+          "lemma": "das Tribunal",
+          "distinction": "meist ein besonderes oder internationales Gericht"
+        },
+        {
+          "lemma": "die Justiz",
+          "distinction": "die gesamte Rechtsprechung als System, nicht die einzelne Instanz"
+        }
+      ]
+    },
+    "Richter": {
+      "meaning_de": "eine Person, die als staatliches Organ über Rechtsfälle urteilt",
+      "meaning_en": "judge",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Richters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Richter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der vorsitzende Richter",
+          "gloss_en": "the presiding judge"
+        },
+        {
+          "phrase": "der Richter verkündet das Urteil",
+          "gloss_en": "the judge pronounces the verdict"
+        },
+        {
+          "phrase": "vor den Richter treten",
+          "gloss_en": "to appear before the judge"
+        },
+        {
+          "phrase": "ein unparteiischer Richter",
+          "gloss_en": "an impartial judge"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Richter unterbrach die Verhandlung für eine Stunde.",
+          "en": "The judge adjourned the hearing for an hour."
+        },
+        {
+          "de": "Als Richterin muss sie streng neutral bleiben.",
+          "en": "As a judge she has to remain strictly neutral."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; die weibliche Form ist \"die Richterin\".",
+      "near_synonyms": [
+        {
+          "lemma": "der Schöffe",
+          "distinction": "ehrenamtlicher Laienrichter, kein Berufsjurist"
+        },
+        {
+          "lemma": "der Staatsanwalt",
+          "distinction": "vertritt die Anklage, urteilt nicht"
+        }
+      ]
+    },
+    "Urteil": {
+      "meaning_de": "die abschließende Entscheidung eines Gerichts in einem Verfahren",
+      "meaning_en": "verdict; judgment; ruling",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Urteils"
+        },
+        {
+          "label": "Plural",
+          "value": "die Urteile"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Urteil über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Urteil fällen",
+          "gloss_en": "to pass a judgment"
+        },
+        {
+          "phrase": "ein Urteil verkünden",
+          "gloss_en": "to pronounce a verdict"
+        },
+        {
+          "phrase": "gegen das Urteil Berufung einlegen",
+          "gloss_en": "to appeal against the ruling"
+        },
+        {
+          "phrase": "das rechtskräftige Urteil",
+          "gloss_en": "the final and binding judgment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Urteil wird nächste Woche verkündet.",
+          "en": "The verdict will be pronounced next week."
+        },
+        {
+          "de": "Gegen dieses Urteil legte die Verteidigung Berufung ein.",
+          "en": "The defense appealed against this ruling."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache; außerhalb des Rechts auch \"Urteil\" im Sinne von Meinung.",
+      "near_synonyms": [
+        {
+          "lemma": "der Beschluss",
+          "distinction": "eine gerichtliche Entscheidung ohne mündliche Verhandlung"
+        },
+        {
+          "lemma": "der Richterspruch",
+          "distinction": "gehobener, betont die Person des Richters"
+        }
+      ]
+    },
+    "Berufung": {
+      "meaning_de": "das Rechtsmittel, mit dem ein Urteil bei einer höheren Instanz angefochten wird",
+      "meaning_en": "appeal (against a court ruling)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Berufung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Berufungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Berufung gegen ein Urteil",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Berufung einlegen",
+          "gloss_en": "to lodge an appeal"
+        },
+        {
+          "phrase": "die Berufung zurückweisen",
+          "gloss_en": "to reject the appeal"
+        },
+        {
+          "phrase": "auf Berufung verzichten",
+          "gloss_en": "to waive the right to appeal"
+        },
+        {
+          "phrase": "in der Berufung verhandeln",
+          "gloss_en": "to hear a case on appeal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Angeklagte legte gegen das Urteil Berufung ein.",
+          "en": "The defendant appealed against the verdict."
+        },
+        {
+          "de": "Die Berufung wurde vom Landgericht zurückgewiesen.",
+          "en": "The appeal was rejected by the regional court."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Fachbegriff; daneben existiert \"Berufung\" im Sinne von Lebensaufgabe.",
+      "near_synonyms": [
+        {
+          "lemma": "die Revision",
+          "distinction": "prüft nur Rechtsfehler, nicht den Sachverhalt neu"
+        },
+        {
+          "lemma": "der Widerspruch",
+          "distinction": "Rechtsmittel gegen Verwaltungsbescheide, nicht gegen Urteile"
+        }
+      ]
+    },
+    "Anwalt": {
+      "meaning_de": "eine juristisch ausgebildete Person, die Mandanten rechtlich vertritt und berät",
+      "meaning_en": "lawyer; attorney",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Anwalts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anwälte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Anwalt einschalten",
+          "gloss_en": "to bring in a lawyer"
+        },
+        {
+          "phrase": "sich einen Anwalt nehmen",
+          "gloss_en": "to get oneself a lawyer"
+        },
+        {
+          "phrase": "der Anwalt der Gegenseite",
+          "gloss_en": "the opposing counsel"
+        },
+        {
+          "phrase": "den Anwalt konsultieren",
+          "gloss_en": "to consult the lawyer"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In dieser Sache sollten Sie unbedingt einen Anwalt einschalten.",
+          "en": "In this matter you should definitely bring in a lawyer."
+        },
+        {
+          "de": "Ihr Anwalt riet ihr, den Vergleich anzunehmen.",
+          "en": "Her lawyer advised her to accept the settlement."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; die volle Form ist \"Rechtsanwalt\", weiblich \"die Anwältin\".",
+      "near_synonyms": [
+        {
+          "lemma": "der Rechtsanwalt",
+          "distinction": "die vollständige, offizielle Berufsbezeichnung"
+        },
+        {
+          "lemma": "der Notar",
+          "distinction": "beurkundet Verträge, vertritt aber nicht im Streit"
+        }
+      ]
+    },
+    "Vollmacht": {
+      "meaning_de": "die Ermächtigung, im Namen einer anderen Person zu handeln",
+      "meaning_en": "power of attorney; authorization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Vollmacht"
+        },
+        {
+          "label": "Plural",
+          "value": "die Vollmachten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Vollmacht für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemandem eine Vollmacht erteilen",
+          "gloss_en": "to grant someone power of attorney"
+        },
+        {
+          "phrase": "eine Vollmacht widerrufen",
+          "gloss_en": "to revoke a power of attorney"
+        },
+        {
+          "phrase": "in Vollmacht handeln",
+          "gloss_en": "to act under authorization"
+        },
+        {
+          "phrase": "die notarielle Vollmacht",
+          "gloss_en": "the notarized power of attorney"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne schriftliche Vollmacht darf er das Konto nicht verwalten.",
+          "en": "Without written authorization he may not manage the account."
+        },
+        {
+          "de": "Sie erteilte ihrer Tochter eine Vollmacht für alle Bankgeschäfte.",
+          "en": "She granted her daughter power of attorney for all banking matters."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Rechts- und Verwaltungssprache; setzt eine ausdrückliche Bevollmächtigung voraus.",
+      "near_synonyme": [],
+      "near_synonyms": [
+        {
+          "lemma": "die Ermächtigung",
+          "distinction": "allgemeiner, auch außerhalb der Stellvertretung"
+        },
+        {
+          "lemma": "die Prokura",
+          "distinction": "spezielle, gesetzlich geregelte Handlungsvollmacht im Handel"
+        }
+      ]
+    },
+    "Geldstrafe": {
+      "meaning_de": "eine Strafe, bei der ein Geldbetrag als Ahndung zu zahlen ist",
+      "meaning_en": "fine (as a criminal penalty)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Geldstrafe"
+        },
+        {
+          "label": "Plural",
+          "value": "die Geldstrafen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Geldstrafe verhängen",
+          "gloss_en": "to impose a fine"
+        },
+        {
+          "phrase": "zu einer Geldstrafe verurteilt werden",
+          "gloss_en": "to be sentenced to a fine"
+        },
+        {
+          "phrase": "eine empfindliche Geldstrafe",
+          "gloss_en": "a hefty fine"
+        },
+        {
+          "phrase": "die Geldstrafe zahlen",
+          "gloss_en": "to pay the fine"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gericht verhängte eine Geldstrafe von tausend Euro.",
+          "en": "The court imposed a fine of a thousand euros."
+        },
+        {
+          "de": "Statt einer Haftstrafe erhielt er eine Geldstrafe.",
+          "en": "Instead of a prison sentence he received a fine."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache; abzugrenzen vom \"Bußgeld\" bei bloßen Ordnungswidrigkeiten.",
+      "near_synonyms": [
+        {
+          "lemma": "das Bußgeld",
+          "distinction": "bei Ordnungswidrigkeiten, keine Kriminalstrafe"
+        },
+        {
+          "lemma": "die Haftstrafe",
+          "distinction": "Freiheitsentzug statt Geldzahlung"
+        }
+      ]
+    },
+    "Verbrechen": {
+      "meaning_de": "eine schwere Straftat, die mit hoher Freiheitsstrafe bedroht ist",
+      "meaning_en": "crime; serious offense",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Verbrechens"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verbrechen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Verbrechen an jemandem",
+          "cases": "an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Verbrechen begehen",
+          "gloss_en": "to commit a crime"
+        },
+        {
+          "phrase": "ein Verbrechen aufklären",
+          "gloss_en": "to solve a crime"
+        },
+        {
+          "phrase": "ein schweres Verbrechen",
+          "gloss_en": "a serious crime"
+        },
+        {
+          "phrase": "das organisierte Verbrechen",
+          "gloss_en": "organized crime"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für dieses Verbrechen wurde er zu zehn Jahren Haft verurteilt.",
+          "en": "He was sentenced to ten years in prison for this crime."
+        },
+        {
+          "de": "Die Polizei konnte das Verbrechen schnell aufklären.",
+          "en": "The police were able to solve the crime quickly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Im Recht enger als \"Vergehen\"; umgangssprachlich für jede schwere Untat.",
+      "near_synonyms": [
+        {
+          "lemma": "die Straftat",
+          "distinction": "Oberbegriff für jede strafbare Handlung"
+        },
+        {
+          "lemma": "das Vergehen",
+          "distinction": "leichtere Straftat mit geringerer Strafandrohung"
+        }
+      ]
+    },
+    "Verfassung": {
+      "meaning_de": "das grundlegende Gesetz, das die Ordnung eines Staates festlegt",
+      "meaning_en": "constitution",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verfassung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verfassungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "gegen die Verfassung verstoßen",
+          "gloss_en": "to violate the constitution"
+        },
+        {
+          "phrase": "die Verfassung ändern",
+          "gloss_en": "to amend the constitution"
+        },
+        {
+          "phrase": "in der Verfassung verankert",
+          "gloss_en": "enshrined in the constitution"
+        },
+        {
+          "phrase": "die demokratische Verfassung",
+          "gloss_en": "the democratic constitution"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Meinungsfreiheit ist in der Verfassung garantiert.",
+          "en": "Freedom of opinion is guaranteed in the constitution."
+        },
+        {
+          "de": "Das Gericht erklärte das Gesetz für mit der Verfassung unvereinbar.",
+          "en": "The court declared the law incompatible with the constitution."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Staatsrecht; in Deutschland heißt sie \"Grundgesetz\". Daneben: körperliche Verfassung.",
+      "near_synonyms": [
+        {
+          "lemma": "das Grundgesetz",
+          "distinction": "die konkrete Verfassung der Bundesrepublik Deutschland"
+        },
+        {
+          "lemma": "die Staatsordnung",
+          "distinction": "allgemeiner, der ganze politische Aufbau"
+        }
+      ]
+    },
+    "Grundrecht": {
+      "meaning_de": "ein grundlegendes Recht, das dem Einzelnen gegenüber dem Staat zusteht",
+      "meaning_en": "fundamental right; basic right",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Grundrechts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Grundrechte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "das Grundrecht auf etwas",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Grundrecht verletzen",
+          "gloss_en": "to violate a fundamental right"
+        },
+        {
+          "phrase": "die Grundrechte garantieren",
+          "gloss_en": "to guarantee fundamental rights"
+        },
+        {
+          "phrase": "das Grundrecht auf Meinungsfreiheit",
+          "gloss_en": "the fundamental right to freedom of opinion"
+        },
+        {
+          "phrase": "ein Grundrecht einschränken",
+          "gloss_en": "to restrict a fundamental right"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Grundrecht auf körperliche Unversehrtheit ist unantastbar.",
+          "en": "The fundamental right to physical integrity is inviolable."
+        },
+        {
+          "de": "Diese Maßnahme schränkt ein zentrales Grundrecht ein.",
+          "en": "This measure restricts a central fundamental right."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Verfassungsrecht; in Deutschland stehen die Grundrechte am Anfang des Grundgesetzes.",
+      "near_synonyms": [
+        {
+          "lemma": "das Menschenrecht",
+          "distinction": "steht jedem Menschen unabhängig vom Staat zu"
+        },
+        {
+          "lemma": "das Bürgerrecht",
+          "distinction": "nur den Staatsbürgern vorbehalten, z. B. das Wahlrecht"
+        }
+      ]
+    },
+    "Wahl": {
+      "meaning_de": "das Verfahren, bei dem Stimmberechtigte Vertreter oder Entscheidungen bestimmen",
+      "meaning_en": "election; vote; choice",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Wahl"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wahlen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Wahl gewinnen",
+          "gloss_en": "to win an election"
+        },
+        {
+          "phrase": "zur Wahl gehen",
+          "gloss_en": "to go and vote"
+        },
+        {
+          "phrase": "die Wahl anfechten",
+          "gloss_en": "to contest the election"
+        },
+        {
+          "phrase": "die freie Wahl",
+          "gloss_en": "the free election / free choice"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei der letzten Wahl lag die Beteiligung bei siebzig Prozent.",
+          "en": "In the last election turnout was seventy percent."
+        },
+        {
+          "de": "Du hast die Wahl zwischen zwei Terminen.",
+          "en": "You have the choice between two dates."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Doppeldeutig: die politische Wahl und die Wahl im Sinne von Auswahl.",
+      "near_synonyms": [
+        {
+          "lemma": "die Abstimmung",
+          "distinction": "Entscheidung über eine Sachfrage, nicht über Personen"
+        },
+        {
+          "lemma": "die Auswahl",
+          "distinction": "das Aussuchen aus mehreren Möglichkeiten, unpolitisch"
+        }
+      ]
+    },
+    "Wähler": {
+      "meaning_de": "eine Person, die bei einer Wahl ihre Stimme abgibt oder abgeben darf",
+      "meaning_en": "voter; elector",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wählers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wähler"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Wähler überzeugen",
+          "gloss_en": "to convince the voters"
+        },
+        {
+          "phrase": "die Stimmen der Wähler",
+          "gloss_en": "the votes of the electorate"
+        },
+        {
+          "phrase": "der unentschlossene Wähler",
+          "gloss_en": "the undecided voter"
+        },
+        {
+          "phrase": "die Wähler mobilisieren",
+          "gloss_en": "to mobilize voters"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Viele Wähler haben sich erst am Wahltag entschieden.",
+          "en": "Many voters made up their minds only on election day."
+        },
+        {
+          "de": "Die Partei konnte junge Wähler kaum erreichen.",
+          "en": "The party could barely reach young voters."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; die weibliche Form ist \"die Wählerin\", das Kollektiv \"die Wählerschaft\".",
+      "near_synonyms": [
+        {
+          "lemma": "der Stimmberechtigte",
+          "distinction": "betont das Recht zu wählen, nicht den Akt"
+        },
+        {
+          "lemma": "der Bürger",
+          "distinction": "allgemeiner, nicht speziell im Wahlkontext"
+        }
+      ]
+    },
+    "Bürger": {
+      "meaning_de": "ein Angehöriger eines Staates mit den damit verbundenen Rechten und Pflichten",
+      "meaning_en": "citizen",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Bürgers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bürger"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Rechte der Bürger",
+          "gloss_en": "the rights of the citizens"
+        },
+        {
+          "phrase": "der mündige Bürger",
+          "gloss_en": "the responsible citizen"
+        },
+        {
+          "phrase": "Bürgerinnen und Bürger",
+          "gloss_en": "citizens (inclusive form)"
+        },
+        {
+          "phrase": "der einfache Bürger",
+          "gloss_en": "the ordinary citizen"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Staat ist verpflichtet, seine Bürger zu schützen.",
+          "en": "The state is obliged to protect its citizens."
+        },
+        {
+          "de": "Viele Bürger beteiligten sich an der Demonstration.",
+          "en": "Many citizens took part in the demonstration."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; in Ansprachen oft \"Bürgerinnen und Bürger\". Historisch auch: Stadtbewohner.",
+      "near_synonyms": [
+        {
+          "lemma": "der Staatsbürger",
+          "distinction": "betont ausdrücklich die Staatsangehörigkeit"
+        },
+        {
+          "lemma": "der Einwohner",
+          "distinction": "wer irgendwo wohnt, unabhängig von der Nationalität"
+        }
+      ]
+    },
+    "Staatsbürgerschaft": {
+      "meaning_de": "die rechtliche Zugehörigkeit einer Person zu einem Staat",
+      "meaning_en": "citizenship; nationality",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Staatsbürgerschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Staatsbürgerschaften"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Staatsbürgerschaft beantragen",
+          "gloss_en": "to apply for citizenship"
+        },
+        {
+          "phrase": "die Staatsbürgerschaft erwerben",
+          "gloss_en": "to acquire citizenship"
+        },
+        {
+          "phrase": "die doppelte Staatsbürgerschaft",
+          "gloss_en": "dual citizenship"
+        },
+        {
+          "phrase": "die Staatsbürgerschaft verlieren",
+          "gloss_en": "to lose one's citizenship"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach acht Jahren erhielt sie die deutsche Staatsbürgerschaft.",
+          "en": "After eight years she received German citizenship."
+        },
+        {
+          "de": "Er besitzt die doppelte Staatsbürgerschaft.",
+          "en": "He holds dual citizenship."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungs- und Rechtssprache; gleichbedeutend mit \"Staatsangehörigkeit\".",
+      "near_synonyms": [
+        {
+          "lemma": "die Staatsangehörigkeit",
+          "distinction": "der behördlich-formale Ausdruck, praktisch synonym"
+        },
+        {
+          "lemma": "die Nationalität",
+          "distinction": "kann auch die kulturelle Zugehörigkeit meinen"
+        }
+      ]
+    },
+    "Einbürgerung": {
+      "meaning_de": "der Vorgang, durch den ein Ausländer die Staatsbürgerschaft erhält",
+      "meaning_en": "naturalization",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Einbürgerung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Einbürgerungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Einbürgerung beantragen",
+          "gloss_en": "to apply for naturalization"
+        },
+        {
+          "phrase": "der Antrag auf Einbürgerung",
+          "gloss_en": "the application for naturalization"
+        },
+        {
+          "phrase": "die Voraussetzungen für die Einbürgerung",
+          "gloss_en": "the requirements for naturalization"
+        },
+        {
+          "phrase": "der Einbürgerungstest",
+          "gloss_en": "the naturalization test"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Einbürgerung müssen Sie ausreichende Deutschkenntnisse nachweisen.",
+          "en": "For naturalization you must prove sufficient German language skills."
+        },
+        {
+          "de": "Die Einbürgerung erfolgte im Rahmen einer feierlichen Zeremonie.",
+          "en": "The naturalization took place as part of a formal ceremony."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Verwaltungssprache; das Verb dazu ist \"einbürgern\".",
+      "near_synonyms": [
+        {
+          "lemma": "die Naturalisierung",
+          "distinction": "fachsprachlich-lateinisch, im Alltag selten"
+        },
+        {
+          "lemma": "die Einwanderung",
+          "distinction": "der Zuzug ins Land, nicht der Erwerb der Staatsbürgerschaft"
+        }
+      ]
+    },
+    "Reisepass": {
+      "meaning_de": "ein amtliches Ausweisdokument für Reisen ins Ausland",
+      "meaning_en": "passport",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Reisepasses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Reisepässe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Reisepass verlängern",
+          "gloss_en": "to renew one's passport"
+        },
+        {
+          "phrase": "einen Reisepass beantragen",
+          "gloss_en": "to apply for a passport"
+        },
+        {
+          "phrase": "der gültige Reisepass",
+          "gloss_en": "the valid passport"
+        },
+        {
+          "phrase": "den Reisepass vorlegen",
+          "gloss_en": "to present one's passport"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Einreise in die USA brauchen Sie einen gültigen Reisepass.",
+          "en": "To enter the USA you need a valid passport."
+        },
+        {
+          "de": "Mein Reisepass ist noch drei Jahre gültig.",
+          "en": "My passport is valid for another three years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; oft kurz \"Pass\". Für Auslandsreisen umfassender als der Personalausweis.",
+      "near_synonyms": [
+        {
+          "lemma": "der Personalausweis",
+          "distinction": "gilt im Inland und in der EU, nicht weltweit"
+        },
+        {
+          "lemma": "das Visum",
+          "distinction": "die Einreiseerlaubnis, kein Identitätsdokument"
+        }
+      ]
+    },
+    "Visum": {
+      "meaning_de": "die amtliche Erlaubnis, in ein bestimmtes Land einzureisen oder sich dort aufzuhalten",
+      "meaning_en": "visa",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Visums"
+        },
+        {
+          "label": "Plural",
+          "value": "die Visa"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Visum für ein Land",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Visum beantragen",
+          "gloss_en": "to apply for a visa"
+        },
+        {
+          "phrase": "ein Visum ausstellen",
+          "gloss_en": "to issue a visa"
+        },
+        {
+          "phrase": "das Visum verlängern",
+          "gloss_en": "to extend the visa"
+        },
+        {
+          "phrase": "das abgelaufene Visum",
+          "gloss_en": "the expired visa"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für ein Studium in Kanada benötigt sie ein Visum.",
+          "en": "For studying in Canada she needs a visa."
+        },
+        {
+          "de": "Das Visum wurde ihm an der Botschaft ausgestellt.",
+          "en": "The visa was issued to him at the embassy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Der Plural lautet \"Visa\" (seltener \"Visen\"); Verwaltungs- und Reisekontext.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aufenthaltsgenehmigung",
+          "distinction": "erlaubt längeres Wohnen, nicht nur die Einreise"
+        },
+        {
+          "lemma": "die Einreiseerlaubnis",
+          "distinction": "beschreibende Umschreibung des Visums"
+        }
+      ]
+    },
+    "Aufenthaltsgenehmigung": {
+      "meaning_de": "die behördliche Erlaubnis für Ausländer, sich in einem Land aufzuhalten",
+      "meaning_en": "residence permit",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Aufenthaltsgenehmigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aufenthaltsgenehmigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Aufenthaltsgenehmigung beantragen",
+          "gloss_en": "to apply for a residence permit"
+        },
+        {
+          "phrase": "die Aufenthaltsgenehmigung verlängern",
+          "gloss_en": "to extend the residence permit"
+        },
+        {
+          "phrase": "die befristete Aufenthaltsgenehmigung",
+          "gloss_en": "the temporary residence permit"
+        },
+        {
+          "phrase": "die Aufenthaltsgenehmigung erteilen",
+          "gloss_en": "to grant a residence permit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne Aufenthaltsgenehmigung darf er hier nicht arbeiten.",
+          "en": "Without a residence permit he is not allowed to work here."
+        },
+        {
+          "de": "Ihre Aufenthaltsgenehmigung wurde um zwei Jahre verlängert.",
+          "en": "Her residence permit was extended by two years."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Ausländer- und Verwaltungsrecht; amtlich heute oft \"Aufenthaltstitel\".",
+      "near_synonyms": [
+        {
+          "lemma": "der Aufenthaltstitel",
+          "distinction": "der aktuelle amtliche Oberbegriff im deutschen Recht"
+        },
+        {
+          "lemma": "die Arbeitserlaubnis",
+          "distinction": "erlaubt speziell das Arbeiten, nicht bloß den Aufenthalt"
+        }
+      ]
+    },
+    "Abschiebung": {
+      "meaning_de": "die zwangsweise Rückführung einer Person, die kein Aufenthaltsrecht hat, in ein anderes Land",
+      "meaning_en": "deportation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Abschiebung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abschiebungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Abschiebung in ein Land",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Abschiebung anordnen",
+          "gloss_en": "to order the deportation"
+        },
+        {
+          "phrase": "die Abschiebung aussetzen",
+          "gloss_en": "to suspend the deportation"
+        },
+        {
+          "phrase": "von Abschiebung bedroht sein",
+          "gloss_en": "to be threatened with deportation"
+        },
+        {
+          "phrase": "die drohende Abschiebung",
+          "gloss_en": "the imminent deportation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gericht setzte die Abschiebung vorläufig aus.",
+          "en": "The court provisionally suspended the deportation."
+        },
+        {
+          "de": "Die Familie ist von der Abschiebung bedroht.",
+          "en": "The family is threatened with deportation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ausländerrecht; politisch aufgeladenes Wort, das Verb dazu ist \"abschieben\".",
+      "near_synonyms": [
+        {
+          "lemma": "die Ausweisung",
+          "distinction": "die behördliche Anordnung, das Land zu verlassen; die Abschiebung ist der Vollzug"
+        },
+        {
+          "lemma": "die Rückführung",
+          "distinction": "amtlich-neutraler, oft auch für freiwillige Rückkehr"
+        }
+      ]
+    },
+    "Asylantrag": {
+      "meaning_de": "der Antrag, mit dem eine Person um Schutz vor Verfolgung bittet",
+      "meaning_en": "asylum application",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Asylantrags"
+        },
+        {
+          "label": "Plural",
+          "value": "die Asylanträge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Asylantrag stellen",
+          "gloss_en": "to file an asylum application"
+        },
+        {
+          "phrase": "den Asylantrag ablehnen",
+          "gloss_en": "to reject the asylum application"
+        },
+        {
+          "phrase": "über den Asylantrag entscheiden",
+          "gloss_en": "to decide on the asylum application"
+        },
+        {
+          "phrase": "der abgelehnte Asylantrag",
+          "gloss_en": "the rejected asylum application"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er hat nach seiner Ankunft sofort einen Asylantrag gestellt.",
+          "en": "He filed an asylum application immediately after his arrival."
+        },
+        {
+          "de": "Über den Asylantrag entscheidet das Bundesamt.",
+          "en": "The federal office decides on the asylum application."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ausländer- und Verwaltungsrecht; die zuständige Stelle ist das BAMF.",
+      "near_synonyms": [
+        {
+          "lemma": "das Asylgesuch",
+          "distinction": "gehobener und formaler, in Deutschland seltener"
+        },
+        {
+          "lemma": "der Antrag",
+          "distinction": "der Oberbegriff, ohne den speziellen Schutzbezug"
+        }
+      ]
+    },
+    "beantragen": {
+      "meaning_de": "bei einer Stelle förmlich um etwas bitten oder etwas offiziell verlangen",
+      "meaning_en": "to apply for; to request formally",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er beantragt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er beantragte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat beantragt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde beantragen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas beantragen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Zuschuss beantragen",
+          "gloss_en": "to apply for a subsidy"
+        },
+        {
+          "phrase": "Urlaub beantragen",
+          "gloss_en": "to request leave"
+        },
+        {
+          "phrase": "eine Genehmigung beantragen",
+          "gloss_en": "to apply for a permit"
+        },
+        {
+          "phrase": "die Verlängerung beantragen",
+          "gloss_en": "to apply for an extension"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hat rechtzeitig ein neues Visum beantragt.",
+          "en": "She applied for a new visa in good time."
+        },
+        {
+          "de": "Für das Projekt beantragen wir zusätzliche Mittel.",
+          "en": "We are applying for additional funds for the project."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungssprache, aber im Alltag völlig geläufig (Urlaub, Kindergeld usw.).",
+      "near_synonyms": [
+        {
+          "lemma": "anfordern",
+          "distinction": "eher konkrete Sachen abrufen, ohne Antragsverfahren"
+        },
+        {
+          "lemma": "ersuchen",
+          "distinction": "gehoben, um etwas bitten, oft im Amtsdeutsch"
+        }
+      ]
+    },
+    "genehmigen": {
+      "meaning_de": "als zuständige Stelle offiziell erlauben, dass etwas geschieht",
+      "meaning_en": "to approve; to authorize; to grant",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er genehmigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er genehmigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat genehmigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde genehmigen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem etwas genehmigen",
+          "cases": "Dat. + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Antrag genehmigen",
+          "gloss_en": "to approve an application"
+        },
+        {
+          "phrase": "den Bau genehmigen",
+          "gloss_en": "to approve the construction"
+        },
+        {
+          "phrase": "die Mittel genehmigen",
+          "gloss_en": "to authorize the funds"
+        },
+        {
+          "phrase": "einen Urlaub genehmigen",
+          "gloss_en": "to grant leave"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde hat den Umbau genehmigt.",
+          "en": "The authority approved the renovation."
+        },
+        {
+          "de": "Der Chef genehmigte ihr drei Tage Sonderurlaub.",
+          "en": "The boss granted her three days of special leave."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungs- und Amtssprache; Gegenwort ist \"ablehnen\".",
+      "near_synonyms": [
+        {
+          "lemma": "bewilligen",
+          "distinction": "betont die positive Entscheidung über einen Antrag, oft bei Geld"
+        },
+        {
+          "lemma": "erlauben",
+          "distinction": "allgemeiner und informeller, auch privat"
+        }
+      ]
+    },
+    "verurteilen": {
+      "meaning_de": "als Gericht durch Urteil für schuldig erklären und eine Strafe aussprechen",
+      "meaning_en": "to convict; to sentence; to condemn",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verurteilt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verurteilte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verurteilt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde verurteilen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden zu etwas verurteilen",
+          "cases": "Akk. + zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "zu einer Haftstrafe verurteilen",
+          "gloss_en": "to sentence to imprisonment"
+        },
+        {
+          "phrase": "wegen Betrugs verurteilen",
+          "gloss_en": "to convict of fraud"
+        },
+        {
+          "phrase": "zu einer Geldstrafe verurteilen",
+          "gloss_en": "to sentence to a fine"
+        },
+        {
+          "phrase": "die Gewalt scharf verurteilen",
+          "gloss_en": "to strongly condemn the violence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gericht verurteilte ihn zu zwei Jahren auf Bewährung.",
+          "en": "The court sentenced him to two years on probation."
+        },
+        {
+          "de": "Die Regierung verurteilte den Angriff aufs Schärfste.",
+          "en": "The government condemned the attack in the strongest terms."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Zwei Verwendungen: juristisch (Strafe) und moralisch (etwas scharf verurteilen).",
+      "near_synonyms": [
+        {
+          "lemma": "bestrafen",
+          "distinction": "die Strafe vollziehen, nicht das Urteil sprechen"
+        },
+        {
+          "lemma": "freisprechen",
+          "distinction": "das Gegenteil: für nicht schuldig erklären"
+        }
+      ]
+    },
+    "freisprechen": {
+      "meaning_de": "als Gericht feststellen, dass ein Angeklagter nicht schuldig ist",
+      "meaning_en": "to acquit",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er spricht frei"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er sprach frei"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat freigesprochen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er spräche frei"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden von etwas freisprechen",
+          "cases": "Akk. + von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "den Angeklagten freisprechen",
+          "gloss_en": "to acquit the defendant"
+        },
+        {
+          "phrase": "aus Mangel an Beweisen freisprechen",
+          "gloss_en": "to acquit for lack of evidence"
+        },
+        {
+          "phrase": "von allen Vorwürfen freisprechen",
+          "gloss_en": "to clear of all charges"
+        },
+        {
+          "phrase": "freigesprochen werden",
+          "gloss_en": "to be acquitted"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gericht sprach den Angeklagten aus Mangel an Beweisen frei.",
+          "en": "The court acquitted the defendant for lack of evidence."
+        },
+        {
+          "de": "Sie wurde von dem Vorwurf des Diebstahls freigesprochen.",
+          "en": "She was cleared of the charge of theft."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache; das trennbare Verb steht im Gegensatz zu \"verurteilen\".",
+      "near_synonyms": [
+        {
+          "lemma": "entlasten",
+          "distinction": "die Schuld mindern, ohne notwendig ein Urteil"
+        },
+        {
+          "lemma": "verurteilen",
+          "distinction": "das Gegenteil: für schuldig erklären"
+        }
+      ]
+    },
+    "verhaften": {
+      "meaning_de": "eine Person durch die Polizei festnehmen und in Gewahrsam bringen",
+      "meaning_en": "to arrest",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verhaftet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verhaftete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verhaftet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde verhaften"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden verhaften",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Verdächtigen verhaften",
+          "gloss_en": "to arrest a suspect"
+        },
+        {
+          "phrase": "auf frischer Tat verhaften",
+          "gloss_en": "to arrest in the act"
+        },
+        {
+          "phrase": "vorläufig verhaften",
+          "gloss_en": "to detain provisionally"
+        },
+        {
+          "phrase": "verhaftet werden",
+          "gloss_en": "to be arrested"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Polizei verhaftete den Täter noch am selben Abend.",
+          "en": "The police arrested the culprit that same evening."
+        },
+        {
+          "de": "Er wurde am Flughafen verhaftet.",
+          "en": "He was arrested at the airport."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; juristisch genauer ist oft \"festnehmen\" oder \"in Untersuchungshaft nehmen\".",
+      "near_synonyms": [
+        {
+          "lemma": "festnehmen",
+          "distinction": "der neutrale amtliche Begriff für das Ergreifen"
+        },
+        {
+          "lemma": "inhaftieren",
+          "distinction": "betont das dauerhafte Einsperren, gehobener"
+        }
+      ]
+    },
+    "vorladen": {
+      "meaning_de": "jemanden amtlich auffordern, zu einem bestimmten Termin zu erscheinen",
+      "meaning_en": "to summon (to appear officially)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lädt vor"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er lud vor"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vorgeladen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er lüde vor"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden vorladen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "als Zeuge vorgeladen werden",
+          "gloss_en": "to be summoned as a witness"
+        },
+        {
+          "phrase": "vor Gericht vorladen",
+          "gloss_en": "to summon to court"
+        },
+        {
+          "phrase": "zur Vernehmung vorladen",
+          "gloss_en": "to summon for questioning"
+        },
+        {
+          "phrase": "schriftlich vorladen",
+          "gloss_en": "to summon in writing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Zeuge wurde für Montag vor Gericht vorgeladen.",
+          "en": "The witness was summoned to court for Monday."
+        },
+        {
+          "de": "Die Polizei lud ihn zur Vernehmung vor.",
+          "en": "The police summoned him for questioning."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Amts- und Rechtssprache; trennbares Verb mit starkem Stamm (lud, lüde).",
+      "near_synonyms": [
+        {
+          "lemma": "einbestellen",
+          "distinction": "eher im diplomatischen oder dienstlichen Kontext"
+        },
+        {
+          "lemma": "laden",
+          "distinction": "juristisch fast gleichbedeutend, aber förmlicher und untrennbar gebraucht"
+        }
+      ]
+    },
+    "einbürgern": {
+      "meaning_de": "einer ausländischen Person die Staatsbürgerschaft eines Landes verleihen",
+      "meaning_en": "to naturalize (grant citizenship)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bürgert ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bürgerte ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat eingebürgert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde einbürgern"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden einbürgern",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eingebürgert werden",
+          "gloss_en": "to be naturalized"
+        },
+        {
+          "phrase": "sich einbürgern lassen",
+          "gloss_en": "to get naturalized"
+        },
+        {
+          "phrase": "einen Flüchtling einbürgern",
+          "gloss_en": "to naturalize a refugee"
+        },
+        {
+          "phrase": "erfolgreich einbürgern",
+          "gloss_en": "to naturalize successfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach vielen Jahren ließ sie sich endlich einbürgern.",
+          "en": "After many years she finally got naturalized."
+        },
+        {
+          "de": "Er wurde letztes Jahr in Deutschland eingebürgert.",
+          "en": "He was naturalized in Germany last year."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungssprache; reflexiv \"sich einbürgern lassen\" ist die häufigste Alltagsform. Übertragen: Wörter, die sich einbürgern.",
+      "near_synonyms": [
+        {
+          "lemma": "naturalisieren",
+          "distinction": "fachsprachlich-fremdwörtlich, im Alltag selten"
+        },
+        {
+          "lemma": "aufnehmen",
+          "distinction": "allgemeiner, ohne den rechtlichen Akt der Staatsangehörigkeit"
+        }
+      ]
+    },
+    "beglaubigen": {
+      "meaning_de": "amtlich bestätigen, dass eine Kopie oder Unterschrift echt ist",
+      "meaning_en": "to certify; to authenticate",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er beglaubigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er beglaubigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat beglaubigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde beglaubigen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas beglaubigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Kopie beglaubigen",
+          "gloss_en": "to certify a copy"
+        },
+        {
+          "phrase": "die Unterschrift beglaubigen lassen",
+          "gloss_en": "to have a signature authenticated"
+        },
+        {
+          "phrase": "amtlich beglaubigen",
+          "gloss_en": "to officially certify"
+        },
+        {
+          "phrase": "notariell beglaubigen",
+          "gloss_en": "to certify before a notary"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Bewerbung brauchen Sie eine beglaubigte Kopie Ihres Zeugnisses.",
+          "en": "For the application you need a certified copy of your certificate."
+        },
+        {
+          "de": "Der Notar beglaubigte die Unterschrift des Käufers.",
+          "en": "The notary authenticated the buyer's signature."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Amts- und Rechtssprache; beglaubigen dürfen nur Notare oder Behörden.",
+      "near_synonyms": [
+        {
+          "lemma": "bestätigen",
+          "distinction": "allgemeiner, ohne die amtliche Förmlichkeit"
+        },
+        {
+          "lemma": "beurkunden",
+          "distinction": "einen ganzen Vorgang notariell dokumentieren, umfassender"
+        }
+      ]
+    },
+    "abschieben": {
+      "meaning_de": "eine ausländische Person zwangsweise aus dem Land in ein anderes bringen",
+      "meaning_en": "to deport",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er schiebt ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er schob ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abgeschoben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er schöbe ab"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden in ein Land abschieben",
+          "cases": "Akk. + in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "abgeschoben werden",
+          "gloss_en": "to be deported"
+        },
+        {
+          "phrase": "in das Herkunftsland abschieben",
+          "gloss_en": "to deport to the country of origin"
+        },
+        {
+          "phrase": "die Verantwortung abschieben",
+          "gloss_en": "to shift the responsibility"
+        },
+        {
+          "phrase": "die Schuld auf andere abschieben",
+          "gloss_en": "to pin the blame on others"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der abgelehnte Asylbewerber soll nächste Woche abgeschoben werden.",
+          "en": "The rejected asylum seeker is to be deported next week."
+        },
+        {
+          "de": "Er schob die Schuld einfach auf seine Kollegen ab.",
+          "en": "He simply pinned the blame on his colleagues."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Ausländerrecht; übertragen \"etwas/jemanden abschieben\" = loswerden, wegschieben (leicht abwertend).",
+      "near_synonyms": [
+        {
+          "lemma": "ausweisen",
+          "distinction": "die behördliche Anordnung zu gehen; das Abschieben ist der Zwangsvollzug"
+        },
+        {
+          "lemma": "abwälzen",
+          "distinction": "nur im übertragenen Sinn: Verantwortung von sich schieben"
+        }
+      ]
+    },
+    "verpflichten": {
+      "meaning_de": "jemanden rechtlich oder moralisch dazu binden, etwas zu tun",
+      "meaning_en": "to oblige; to commit; to bind",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verpflichtet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verpflichtete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verpflichtet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde verpflichten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden zu etwas verpflichten",
+          "cases": "Akk. + zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich zu etwas verpflichten",
+          "gloss_en": "to commit oneself to something"
+        },
+        {
+          "phrase": "gesetzlich verpflichtet sein",
+          "gloss_en": "to be legally obliged"
+        },
+        {
+          "phrase": "zur Verschwiegenheit verpflichten",
+          "gloss_en": "to bind to secrecy"
+        },
+        {
+          "phrase": "einen Spieler verpflichten",
+          "gloss_en": "to sign a player"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vertrag verpflichtet ihn zur Rückzahlung des Vorschusses.",
+          "en": "The contract obliges him to repay the advance."
+        },
+        {
+          "de": "Sie hat sich verpflichtet, die Kosten zu übernehmen.",
+          "en": "She committed herself to covering the costs."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechts- und Alltagssprache; im Sport bedeutet \"verpflichten\" jemanden unter Vertrag nehmen.",
+      "near_synonyms": [
+        {
+          "lemma": "binden",
+          "distinction": "allgemeiner, betont die feste Bindung ohne konkrete Pflicht"
+        },
+        {
+          "lemma": "zwingen",
+          "distinction": "stärker, mit Druck oder Gewalt, nicht durch Vereinbarung"
+        }
+      ]
+    },
+    "rechtskräftig": {
+      "meaning_de": "endgültig gültig, weil keine Rechtsmittel mehr möglich sind",
+      "meaning_en": "legally binding; final and conclusive",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein rechtskräftiges Urteil",
+          "gloss_en": "a legally binding judgment"
+        },
+        {
+          "phrase": "rechtskräftig werden",
+          "gloss_en": "to become final"
+        },
+        {
+          "phrase": "rechtskräftig verurteilt",
+          "gloss_en": "convicted with a final judgment"
+        },
+        {
+          "phrase": "das Urteil ist rechtskräftig",
+          "gloss_en": "the judgment is final"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Urteil ist seit gestern rechtskräftig.",
+          "en": "The judgment has been final since yesterday."
+        },
+        {
+          "de": "Solange die Entscheidung nicht rechtskräftig ist, kann man Berufung einlegen.",
+          "en": "As long as the decision is not final, one can lodge an appeal."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Juristischer Fachbegriff; bezeichnet den Zustand, in dem ein Urteil nicht mehr anfechtbar ist.",
+      "near_synonyms": [
+        {
+          "lemma": "endgültig",
+          "distinction": "allgemeinsprachlich, ohne den speziellen Rechtsbezug"
+        },
+        {
+          "lemma": "bindend",
+          "distinction": "verpflichtend, aber nicht notwendig gerichtlich unanfechtbar"
+        }
+      ]
+    },
+    "strafbar": {
+      "meaning_de": "so beschaffen, dass es nach dem Gesetz mit Strafe bedroht ist",
+      "meaning_en": "punishable; criminal (as an offense)",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich strafbar machen",
+          "gloss_en": "to make oneself liable to prosecution"
+        },
+        {
+          "phrase": "eine strafbare Handlung",
+          "gloss_en": "a punishable act"
+        },
+        {
+          "phrase": "strafbar sein",
+          "gloss_en": "to be a punishable offense"
+        },
+        {
+          "phrase": "das ist strafbar",
+          "gloss_en": "that is a criminal offense"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wer die Papiere fälscht, macht sich strafbar.",
+          "en": "Whoever forges the documents makes themselves liable to prosecution."
+        },
+        {
+          "de": "Schwarzfahren ist strafbar.",
+          "en": "Fare dodging is a punishable offense."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache, aber im Alltag geläufig; typisch die Wendung \"sich strafbar machen\".",
+      "near_synonyms": [
+        {
+          "lemma": "illegal",
+          "distinction": "gesetzwidrig allgemein, nicht unbedingt mit Strafe bedroht"
+        },
+        {
+          "lemma": "rechtswidrig",
+          "distinction": "gegen das Recht verstoßend, aber ohne die konkrete Strafandrohung"
+        }
+      ]
+    },
+    "zuständig": {
+      "meaning_de": "verantwortlich und befugt, sich um eine bestimmte Aufgabe zu kümmern",
+      "meaning_en": "responsible; in charge; competent (to deal with)",
+      "forms": [],
+      "rektion": [
+        {
+          "pattern": "für etwas zuständig sein",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die zuständige Behörde",
+          "gloss_en": "the responsible authority"
+        },
+        {
+          "phrase": "für etwas zuständig sein",
+          "gloss_en": "to be in charge of something"
+        },
+        {
+          "phrase": "sich für nicht zuständig erklären",
+          "gloss_en": "to declare oneself not responsible"
+        },
+        {
+          "phrase": "der zuständige Sachbearbeiter",
+          "gloss_en": "the responsible case worker"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für Ihr Anliegen ist ein anderes Amt zuständig.",
+          "en": "A different office is responsible for your matter."
+        },
+        {
+          "de": "Wer ist hier für Beschwerden zuständig?",
+          "en": "Who is in charge of complaints here?"
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sehr geläufig in Verwaltung und Alltag; nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "verantwortlich",
+          "distinction": "betont die Rechenschaftspflicht, nicht nur die Befugnis"
+        },
+        {
+          "lemma": "befugt",
+          "distinction": "betont die Erlaubnis zu handeln, ohne die Aufgabenzuweisung"
+        }
+      ]
+    },
+    "amtlich": {
+      "meaning_de": "von einer Behörde ausgehend und daher offiziell und verbindlich",
+      "meaning_en": "official; issued by an authority",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das amtliche Kennzeichen",
+          "gloss_en": "the official registration number"
+        },
+        {
+          "phrase": "amtlich beglaubigt",
+          "gloss_en": "officially certified"
+        },
+        {
+          "phrase": "die amtliche Bestätigung",
+          "gloss_en": "the official confirmation"
+        },
+        {
+          "phrase": "amtlich bestätigt",
+          "gloss_en": "officially confirmed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Anmeldung benötigen Sie ein amtliches Dokument.",
+          "en": "For the registration you need an official document."
+        },
+        {
+          "de": "Das Ergebnis ist jetzt amtlich.",
+          "en": "The result is now official."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Verwaltungssprache; \"jetzt ist es amtlich\" wird auch umgangssprachlich verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "offiziell",
+          "distinction": "allgemeiner, auch außerhalb von Behörden (offizielle Version)"
+        },
+        {
+          "lemma": "behördlich",
+          "distinction": "betont ausdrücklich die Behörde als Urheber"
+        }
+      ]
+    },
+    "volljährig": {
+      "meaning_de": "das gesetzliche Alter erreicht, ab dem man voll geschäftsfähig ist",
+      "meaning_en": "of legal age; adult (in the legal sense)",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "volljährig werden",
+          "gloss_en": "to come of age"
+        },
+        {
+          "phrase": "volljährig sein",
+          "gloss_en": "to be of legal age"
+        },
+        {
+          "phrase": "erst mit achtzehn volljährig",
+          "gloss_en": "of legal age only at eighteen"
+        },
+        {
+          "phrase": "noch nicht volljährig",
+          "gloss_en": "not yet of legal age"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In Deutschland ist man mit achtzehn Jahren volljährig.",
+          "en": "In Germany you come of age at eighteen."
+        },
+        {
+          "de": "Als Volljähriger darf er den Vertrag selbst unterschreiben.",
+          "en": "As an adult he may sign the contract himself."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache, aber allgemein bekannt; Gegenwort ist \"minderjährig\", nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "erwachsen",
+          "distinction": "allgemeiner und biologisch-sozial, nicht rein rechtlich"
+        },
+        {
+          "lemma": "mündig",
+          "distinction": "betont die Fähigkeit zu eigenverantwortlichem Handeln"
+        }
+      ]
+    },
+    "minderjährig": {
+      "meaning_de": "noch nicht das gesetzliche Alter der Volljährigkeit erreicht",
+      "meaning_en": "underage; minor (in the legal sense)",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein minderjähriges Kind",
+          "gloss_en": "a minor child"
+        },
+        {
+          "phrase": "noch minderjährig sein",
+          "gloss_en": "to still be a minor"
+        },
+        {
+          "phrase": "minderjährige Flüchtlinge",
+          "gloss_en": "underage refugees"
+        },
+        {
+          "phrase": "als Minderjähriger",
+          "gloss_en": "as a minor"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Vertrag ist ungültig, weil der Käufer noch minderjährig ist.",
+          "en": "The contract is invalid because the buyer is still a minor."
+        },
+        {
+          "de": "Minderjährige dürfen keinen Alkohol kaufen.",
+          "en": "Minors are not allowed to buy alcohol."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Rechtssprache, aber allgemein bekannt; Gegenwort ist \"volljährig\", nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "unmündig",
+          "distinction": "betont die fehlende Selbstständigkeit, oft übertragen gebraucht"
+        },
+        {
+          "lemma": "jugendlich",
+          "distinction": "beschreibt die Altersphase, kein rechtlicher Status"
+        }
+      ]
+    }
+  }
+}

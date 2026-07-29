@@ -1,0 +1,2890 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "Hand-authored dossiers for the B2 domain batch 'Reisen, Freizeit, Sport & Kultur' (b2-10). Keyed by lemma.",
+  "dossiers": {
+    "Unterkunft": {
+      "meaning_de": "ein Ort, an dem man vorübergehend wohnt und übernachtet",
+      "meaning_en": "accommodation; lodging",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Unterkunft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Unterkünfte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Unterkunft suchen",
+          "gloss_en": "to look for accommodation"
+        },
+        {
+          "phrase": "eine günstige Unterkunft",
+          "gloss_en": "an affordable place to stay"
+        },
+        {
+          "phrase": "Unterkunft und Verpflegung",
+          "gloss_en": "board and lodging"
+        },
+        {
+          "phrase": "eine Unterkunft buchen",
+          "gloss_en": "to book accommodation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir haben für die erste Nacht noch keine Unterkunft.",
+          "en": "We don't have accommodation for the first night yet."
+        },
+        {
+          "de": "Die Unterkunft lag direkt am Strand.",
+          "en": "The lodging was right on the beach."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprachlich wie schriftlich üblich, oft im Reise- und Behördenkontext.",
+      "near_synonyms": [
+        {
+          "lemma": "die Herberge",
+          "distinction": "einfache, meist günstige Unterkunft für Reisende"
+        },
+        {
+          "lemma": "die Bleibe",
+          "distinction": "umgangssprachlich, betont das Dach über dem Kopf"
+        }
+      ]
+    },
+    "Sehenswürdigkeit": {
+      "meaning_de": "ein besonders sehenswerter Ort oder ein bekanntes Bauwerk, das Touristen anzieht",
+      "meaning_en": "sight; tourist attraction",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sehenswürdigkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sehenswürdigkeiten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Sehenswürdigkeit besichtigen",
+          "gloss_en": "to visit a sight"
+        },
+        {
+          "phrase": "die bekanntesten Sehenswürdigkeiten",
+          "gloss_en": "the most famous sights"
+        },
+        {
+          "phrase": "kulturelle Sehenswürdigkeiten",
+          "gloss_en": "cultural attractions"
+        },
+        {
+          "phrase": "eine Stadt mit vielen Sehenswürdigkeiten",
+          "gloss_en": "a city with many sights"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Reiseführer stellt die wichtigsten Sehenswürdigkeiten der Stadt vor.",
+          "en": "The guidebook presents the city's most important sights."
+        },
+        {
+          "de": "Wir haben an einem Tag mehrere Sehenswürdigkeiten besichtigt.",
+          "en": "We visited several sights in one day."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Standardwort des Tourismus, gleichermaßen mündlich und schriftlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Attraktion",
+          "distinction": "betont die Anziehungskraft, auch außerhalb der Kultur"
+        },
+        {
+          "lemma": "das Wahrzeichen",
+          "distinction": "ein einzelnes, für einen Ort typisches Symbol"
+        }
+      ]
+    },
+    "Verpflegung": {
+      "meaning_de": "die Versorgung mit Essen und Trinken, besonders auf Reisen oder bei Veranstaltungen",
+      "meaning_en": "catering; food and drink provision",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verpflegung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Vollverpflegung buchen",
+          "gloss_en": "to book full board"
+        },
+        {
+          "phrase": "für die Verpflegung sorgen",
+          "gloss_en": "to take care of the catering"
+        },
+        {
+          "phrase": "Unterkunft und Verpflegung",
+          "gloss_en": "board and lodging"
+        },
+        {
+          "phrase": "warme Verpflegung",
+          "gloss_en": "hot meals"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Preis sind Unterkunft und Verpflegung inbegriffen.",
+          "en": "Accommodation and meals are included in the price."
+        },
+        {
+          "de": "Für die Verpflegung der Gäste ist bestens gesorgt.",
+          "en": "The catering for the guests is well taken care of."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich, häufig in Reise-, Behörden- und Organisationskontexten; kein Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Versorgung",
+          "distinction": "allgemeiner, nicht nur auf Essen bezogen"
+        },
+        {
+          "lemma": "das Catering",
+          "distinction": "Anglizismus, meist gewerbliche Bewirtung von Events"
+        }
+      ]
+    },
+    "Veranstalter": {
+      "meaning_de": "eine Person oder Firma, die eine Veranstaltung oder Reise organisiert und durchführt",
+      "meaning_en": "organizer; (tour) operator",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Veranstalters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Veranstalter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Veranstalter einer Reise",
+          "gloss_en": "the operator of a trip"
+        },
+        {
+          "phrase": "sich an den Veranstalter wenden",
+          "gloss_en": "to contact the organizer"
+        },
+        {
+          "phrase": "ein seriöser Veranstalter",
+          "gloss_en": "a reputable operator"
+        },
+        {
+          "phrase": "der Veranstalter sagt ab",
+          "gloss_en": "the organizer cancels"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei Fragen können Sie sich direkt an den Veranstalter wenden.",
+          "en": "If you have questions, you can contact the organizer directly."
+        },
+        {
+          "de": "Der Veranstalter musste das Konzert wegen des Sturms absagen.",
+          "en": "The organizer had to cancel the concert because of the storm."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich, im Tourismus und bei Events geläufig; die weibliche Form ist Veranstalterin.",
+      "near_synonyms": [
+        {
+          "lemma": "der Organisator",
+          "distinction": "betont das Planen, unabhängig von der kommerziellen Rolle"
+        },
+        {
+          "lemma": "der Reiseanbieter",
+          "distinction": "speziell auf das Anbieten von Reisen begrenzt"
+        }
+      ]
+    },
+    "Buchung": {
+      "meaning_de": "das verbindliche Reservieren einer Reise, eines Zimmers oder Tickets",
+      "meaning_en": "booking; reservation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Buchung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Buchungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Buchung vornehmen",
+          "gloss_en": "to make a booking"
+        },
+        {
+          "phrase": "die Buchung bestätigen",
+          "gloss_en": "to confirm the booking"
+        },
+        {
+          "phrase": "eine Buchung ändern",
+          "gloss_en": "to change a booking"
+        },
+        {
+          "phrase": "die verbindliche Buchung",
+          "gloss_en": "the binding reservation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Buchung wurde per E-Mail bestätigt.",
+          "en": "Your booking has been confirmed by email."
+        },
+        {
+          "de": "Eine nachträgliche Änderung der Buchung ist kostenpflichtig.",
+          "en": "A subsequent change to the booking incurs a fee."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Standardwort im Reise- und Dienstleistungsbereich; im Rechnungswesen auch 'Eintrag ins Konto'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Reservierung",
+          "distinction": "oft unverbindlicher, das bloße Vormerken"
+        },
+        {
+          "lemma": "die Bestellung",
+          "distinction": "eher auf Waren als auf Reisen bezogen"
+        }
+      ]
+    },
+    "Stornierung": {
+      "meaning_de": "das Rückgängigmachen einer bereits getätigten Buchung oder Bestellung",
+      "meaning_en": "cancellation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Stornierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Stornierungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Stornierung vornehmen",
+          "gloss_en": "to make a cancellation"
+        },
+        {
+          "phrase": "die kostenlose Stornierung",
+          "gloss_en": "free cancellation"
+        },
+        {
+          "phrase": "Gebühren bei Stornierung",
+          "gloss_en": "cancellation fees"
+        },
+        {
+          "phrase": "eine Stornierung beantragen",
+          "gloss_en": "to request a cancellation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Bei einer Stornierung kurz vor Reisebeginn wird eine Gebühr fällig.",
+          "en": "A fee applies if you cancel shortly before departure."
+        },
+        {
+          "de": "Die kostenlose Stornierung ist bis 24 Stunden vorher möglich.",
+          "en": "Free cancellation is possible up to 24 hours in advance."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich-formell, typisch für Reise-, Hotel- und Vertragskontexte.",
+      "near_synonyms": [
+        {
+          "lemma": "die Absage",
+          "distinction": "allgemeiner, auch für Termine und Veranstaltungen"
+        },
+        {
+          "lemma": "der Rücktritt",
+          "distinction": "juristischer, das Zurücktreten von einem Vertrag"
+        }
+      ]
+    },
+    "Aufenthalt": {
+      "meaning_de": "die Zeit, die man an einem bestimmten Ort verbringt",
+      "meaning_en": "stay; sojourn",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Aufenthalts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aufenthalte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen angenehmen Aufenthalt",
+          "gloss_en": "a pleasant stay"
+        },
+        {
+          "phrase": "während des Aufenthalts",
+          "gloss_en": "during the stay"
+        },
+        {
+          "phrase": "den Aufenthalt verlängern",
+          "gloss_en": "to extend the stay"
+        },
+        {
+          "phrase": "ein kurzer Aufenthalt",
+          "gloss_en": "a short stop"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir wünschen Ihnen einen angenehmen Aufenthalt in unserem Hotel.",
+          "en": "We wish you a pleasant stay in our hotel."
+        },
+        {
+          "de": "Der Zug hat in Frankfurt nur einen kurzen Aufenthalt.",
+          "en": "The train has only a short stop in Frankfurt."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Vielseitig: vom Hotelaufenthalt bis zum kurzen Halt eines Zuges; auch im Amtsdeutsch (Aufenthaltsrecht).",
+      "near_synonyms": [
+        {
+          "lemma": "der Halt",
+          "distinction": "nur das kurze Anhalten eines Verkehrsmittels"
+        },
+        {
+          "lemma": "der Verbleib",
+          "distinction": "gehoben, betont das Bleiben oder den Ort des Bleibens"
+        }
+      ]
+    },
+    "Anreise": {
+      "meaning_de": "die Fahrt zu einem Zielort, besonders zu Beginn einer Reise",
+      "meaning_en": "journey there; arrival trip",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Anreise"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anreisen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Anreise mit dem Auto",
+          "gloss_en": "the journey by car"
+        },
+        {
+          "phrase": "eine lange Anreise",
+          "gloss_en": "a long trip there"
+        },
+        {
+          "phrase": "am Tag der Anreise",
+          "gloss_en": "on the day of arrival"
+        },
+        {
+          "phrase": "die Anreise planen",
+          "gloss_en": "to plan the journey there"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Anreise mit dem Zug dauert etwa vier Stunden.",
+          "en": "The journey there by train takes about four hours."
+        },
+        {
+          "de": "Am Tag der Anreise ist das Zimmer ab 15 Uhr beziehbar.",
+          "en": "On the day of arrival the room is available from 3 p.m."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reise- und Tourismussprache; das Gegenstück ist die Abreise.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ankunft",
+          "distinction": "nur der Moment des Ankommens, nicht die Fahrt selbst"
+        },
+        {
+          "lemma": "die Hinfahrt",
+          "distinction": "umgangssprachlicher, betont die Richtung hin"
+        }
+      ]
+    },
+    "Abreise": {
+      "meaning_de": "das Verlassen eines Ortes am Ende eines Aufenthalts",
+      "meaning_en": "departure",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Abreise"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abreisen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Tag der Abreise",
+          "gloss_en": "the day of departure"
+        },
+        {
+          "phrase": "vor der Abreise",
+          "gloss_en": "before departure"
+        },
+        {
+          "phrase": "die Abreise verschieben",
+          "gloss_en": "to postpone the departure"
+        },
+        {
+          "phrase": "eine überstürzte Abreise",
+          "gloss_en": "a hasty departure"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Tag der Abreise muss das Zimmer bis zehn Uhr geräumt sein.",
+          "en": "On the day of departure the room must be vacated by ten."
+        },
+        {
+          "de": "Vor der Abreise haben wir noch einmal am Meer gefrühstückt.",
+          "en": "Before departure we had breakfast by the sea one last time."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reisekontext; das Gegenstück zur Anreise.",
+      "near_synonyms": [
+        {
+          "lemma": "die Abfahrt",
+          "distinction": "der konkrete Moment, in dem ein Verkehrsmittel losfährt"
+        },
+        {
+          "lemma": "der Aufbruch",
+          "distinction": "betont das Losgehen, oft von einer Gruppe"
+        }
+      ]
+    },
+    "Reiseziel": {
+      "meaning_de": "der Ort, den man auf einer Reise erreichen möchte",
+      "meaning_en": "travel destination",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Reiseziels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Reiseziele"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein beliebtes Reiseziel",
+          "gloss_en": "a popular destination"
+        },
+        {
+          "phrase": "das Reiseziel erreichen",
+          "gloss_en": "to reach the destination"
+        },
+        {
+          "phrase": "ein Reiseziel auswählen",
+          "gloss_en": "to choose a destination"
+        },
+        {
+          "phrase": "ein exotisches Reiseziel",
+          "gloss_en": "an exotic destination"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Italien ist nach wie vor ein beliebtes Reiseziel der Deutschen.",
+          "en": "Italy remains a popular destination for Germans."
+        },
+        {
+          "de": "Wir konnten uns nicht auf ein gemeinsames Reiseziel einigen.",
+          "en": "We couldn't agree on a common destination."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Tourismussprache, gleichermaßen mündlich und schriftlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Ziel",
+          "distinction": "allgemeiner, auch übertragen für Absichten und Zwecke"
+        },
+        {
+          "lemma": "der Zielort",
+          "distinction": "nüchterner, betont den geografischen Endpunkt"
+        }
+      ]
+    },
+    "Zeitvertreib": {
+      "meaning_de": "eine Beschäftigung, mit der man sich die Zeit angenehm vertreibt",
+      "meaning_en": "pastime; way to pass the time",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zeitvertreibs"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zum Zeitvertreib",
+          "gloss_en": "to pass the time"
+        },
+        {
+          "phrase": "ein netter Zeitvertreib",
+          "gloss_en": "a pleasant pastime"
+        },
+        {
+          "phrase": "als Zeitvertreib dienen",
+          "gloss_en": "to serve as a pastime"
+        },
+        {
+          "phrase": "einen Zeitvertreib suchen",
+          "gloss_en": "to look for something to do"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zum Zeitvertreib löste sie im Zug Kreuzworträtsel.",
+          "en": "To pass the time she did crosswords on the train."
+        },
+        {
+          "de": "Kartenspielen war unser liebster Zeitvertreib im Urlaub.",
+          "en": "Playing cards was our favorite pastime on holiday."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Leicht gehoben, meist im Singular gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "das Hobby",
+          "distinction": "eine regelmäßige, oft ernsthaft betriebene Freizeitbeschäftigung"
+        },
+        {
+          "lemma": "die Ablenkung",
+          "distinction": "betont das Wegdenken von etwas, nicht den Genuss"
+        }
+      ]
+    },
+    "Freizeitgestaltung": {
+      "meaning_de": "die Art und Weise, wie man seine freie Zeit sinnvoll oder angenehm verbringt",
+      "meaning_en": "leisure activities; way of spending free time",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Freizeitgestaltung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Möglichkeiten der Freizeitgestaltung",
+          "gloss_en": "options for leisure activities"
+        },
+        {
+          "phrase": "eine aktive Freizeitgestaltung",
+          "gloss_en": "an active leisure lifestyle"
+        },
+        {
+          "phrase": "Angebote zur Freizeitgestaltung",
+          "gloss_en": "offerings for leisure activities"
+        },
+        {
+          "phrase": "die sinnvolle Freizeitgestaltung",
+          "gloss_en": "meaningful use of free time"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Stadt bietet vielfältige Möglichkeiten zur Freizeitgestaltung.",
+          "en": "The city offers a wide range of leisure options."
+        },
+        {
+          "de": "Zur Freizeitgestaltung der Kinder gehören Sport und Musik.",
+          "en": "The children's leisure activities include sport and music."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich-abstrakt, häufig in Broschüren, Pädagogik und Verwaltung; kein Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Freizeit",
+          "distinction": "die freie Zeit selbst, nicht deren Ausgestaltung"
+        },
+        {
+          "lemma": "die Erholung",
+          "distinction": "betont das Ausruhen und Regenerieren"
+        }
+      ]
+    },
+    "Wettkampf": {
+      "meaning_de": "ein sportlicher Wettstreit, bei dem Teilnehmer um den Sieg kämpfen",
+      "meaning_en": "competition; contest",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wettkampfs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wettkämpfe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "an einem Wettkampf teilnehmen",
+          "gloss_en": "to take part in a competition"
+        },
+        {
+          "phrase": "einen Wettkampf austragen",
+          "gloss_en": "to hold a competition"
+        },
+        {
+          "phrase": "einen Wettkampf gewinnen",
+          "gloss_en": "to win a competition"
+        },
+        {
+          "phrase": "der sportliche Wettkampf",
+          "gloss_en": "the athletic contest"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie bereitet sich seit Monaten auf den Wettkampf vor.",
+          "en": "She has been preparing for the competition for months."
+        },
+        {
+          "de": "Beim Wettkampf zählt am Ende nur die schnellste Zeit.",
+          "en": "In the competition, in the end only the fastest time counts."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sportsprache; übertragen auch für harte Konkurrenz (Wettkampf um Marktanteile).",
+      "near_synonyms": [
+        {
+          "lemma": "der Wettbewerb",
+          "distinction": "breiter, auch außerhalb des Sports (Wirtschaft, Kunst)"
+        },
+        {
+          "lemma": "das Duell",
+          "distinction": "ein Zweikampf zwischen genau zwei Gegnern"
+        }
+      ]
+    },
+    "Schiedsrichter": {
+      "meaning_de": "eine Person, die bei einem Spiel über die Einhaltung der Regeln wacht und entscheidet",
+      "meaning_en": "referee; umpire",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Schiedsrichters"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schiedsrichter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der Schiedsrichter pfeift",
+          "gloss_en": "the referee blows the whistle"
+        },
+        {
+          "phrase": "den Schiedsrichter kritisieren",
+          "gloss_en": "to criticize the referee"
+        },
+        {
+          "phrase": "eine Entscheidung des Schiedsrichters",
+          "gloss_en": "a decision by the referee"
+        },
+        {
+          "phrase": "der Schiedsrichter zeigt die Rote Karte",
+          "gloss_en": "the referee shows the red card"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Schiedsrichter entschied auf Elfmeter.",
+          "en": "The referee awarded a penalty."
+        },
+        {
+          "de": "Nach dem Spiel diskutierten die Fans über den Schiedsrichter.",
+          "en": "After the match the fans argued about the referee."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sportsprache; die weibliche Form ist Schiedsrichterin, umgangssprachlich oft Schiri.",
+      "near_synonyms": [
+        {
+          "lemma": "der Unparteiische",
+          "distinction": "gehobenes Synonym, betont die Neutralität"
+        },
+        {
+          "lemma": "der Kampfrichter",
+          "distinction": "bewertet Leistungen in Einzelsportarten statt Regelverstöße"
+        }
+      ]
+    },
+    "Niederlage": {
+      "meaning_de": "das Verlieren eines Wettkampfs, Spiels oder Kampfes",
+      "meaning_en": "defeat; loss",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Niederlage"
+        },
+        {
+          "label": "Plural",
+          "value": "die Niederlagen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Niederlage einstecken",
+          "gloss_en": "to suffer a defeat"
+        },
+        {
+          "phrase": "eine klare Niederlage",
+          "gloss_en": "a clear defeat"
+        },
+        {
+          "phrase": "eine Niederlage hinnehmen",
+          "gloss_en": "to accept a defeat"
+        },
+        {
+          "phrase": "aus einer Niederlage lernen",
+          "gloss_en": "to learn from a defeat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Mannschaft musste eine bittere Niederlage hinnehmen.",
+          "en": "The team had to accept a bitter defeat."
+        },
+        {
+          "de": "Nach der dritten Niederlage in Folge geriet der Trainer unter Druck.",
+          "en": "After the third defeat in a row the coach came under pressure."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sport und übertragen (politische, persönliche Niederlage); Gegenteil ist der Sieg.",
+      "near_synonyms": [
+        {
+          "lemma": "die Pleite",
+          "distinction": "umgangssprachlich, betont das blamable Scheitern"
+        },
+        {
+          "lemma": "das Scheitern",
+          "distinction": "allgemeiner, ein Misslingen ohne Gegner"
+        }
+      ]
+    },
+    "Ausdauer": {
+      "meaning_de": "die Fähigkeit, eine Anstrengung über lange Zeit durchzuhalten",
+      "meaning_en": "endurance; stamina; perseverance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ausdauer"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Ausdauer trainieren",
+          "gloss_en": "to build up stamina"
+        },
+        {
+          "phrase": "körperliche Ausdauer",
+          "gloss_en": "physical endurance"
+        },
+        {
+          "phrase": "mit großer Ausdauer",
+          "gloss_en": "with great perseverance"
+        },
+        {
+          "phrase": "Ausdauer beweisen",
+          "gloss_en": "to show perseverance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für einen Marathon braucht man vor allem Ausdauer.",
+          "en": "For a marathon you need endurance above all."
+        },
+        {
+          "de": "Sie verfolgte ihr Ziel mit bewundernswerter Ausdauer.",
+          "en": "She pursued her goal with admirable perseverance."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Körperlich (Sport) wie charakterlich (Durchhaltevermögen); kein Plural.",
+      "near_synonyms": [
+        {
+          "lemma": "die Kondition",
+          "distinction": "rein körperliche Fitness, meist im Sport"
+        },
+        {
+          "lemma": "die Beharrlichkeit",
+          "distinction": "betont das hartnäckige Festhalten an einem Ziel"
+        }
+      ]
+    },
+    "Verletzung": {
+      "meaning_de": "eine Schädigung des Körpers, etwa durch einen Unfall oder beim Sport",
+      "meaning_en": "injury",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verletzung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verletzungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich eine Verletzung zuziehen",
+          "gloss_en": "to sustain an injury"
+        },
+        {
+          "phrase": "eine schwere Verletzung",
+          "gloss_en": "a serious injury"
+        },
+        {
+          "phrase": "von einer Verletzung genesen",
+          "gloss_en": "to recover from an injury"
+        },
+        {
+          "phrase": "wegen einer Verletzung ausfallen",
+          "gloss_en": "to be out due to injury"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Spieler fällt wegen einer Verletzung mehrere Wochen aus.",
+          "en": "The player is out for several weeks due to an injury."
+        },
+        {
+          "de": "Zum Glück blieb es bei einer leichten Verletzung.",
+          "en": "Fortunately it was only a minor injury."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Körperlich; übertragen auch für Rechts- oder Regelverstöße (Verletzung der Pflicht).",
+      "near_synonyms": [
+        {
+          "lemma": "die Wunde",
+          "distinction": "die konkrete offene Stelle an der Haut"
+        },
+        {
+          "lemma": "die Blessur",
+          "distinction": "gehoben, meist eine leichtere Verletzung"
+        }
+      ]
+    },
+    "Turnier": {
+      "meaning_de": "ein Wettbewerb, bei dem mehrere Teilnehmer in mehreren Runden gegeneinander antreten",
+      "meaning_en": "tournament",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Turniers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Turniere"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "an einem Turnier teilnehmen",
+          "gloss_en": "to take part in a tournament"
+        },
+        {
+          "phrase": "ein Turnier ausrichten",
+          "gloss_en": "to host a tournament"
+        },
+        {
+          "phrase": "ein Turnier gewinnen",
+          "gloss_en": "to win a tournament"
+        },
+        {
+          "phrase": "beim Turnier ausscheiden",
+          "gloss_en": "to be eliminated at the tournament"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beim Turnier trafen die besten Teams des Landes aufeinander.",
+          "en": "At the tournament the country's best teams met."
+        },
+        {
+          "de": "Sie schied schon in der ersten Runde des Turniers aus.",
+          "en": "She was eliminated in the very first round of the tournament."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sport- und Spielsprache (Schach, Tennis, Fußball); historisch auch der Ritterwettkampf.",
+      "near_synonyms": [
+        {
+          "lemma": "die Meisterschaft",
+          "distinction": "ermittelt über eine Saison einen Titelträger"
+        },
+        {
+          "lemma": "der Wettbewerb",
+          "distinction": "allgemeiner, nicht zwingend in Turnierform"
+        }
+      ]
+    },
+    "Wanderweg": {
+      "meaning_de": "ein markierter Weg, der zum Wandern durch die Natur angelegt ist",
+      "meaning_en": "hiking trail",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wanderwegs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wanderwege"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einem Wanderweg folgen",
+          "gloss_en": "to follow a hiking trail"
+        },
+        {
+          "phrase": "ein markierter Wanderweg",
+          "gloss_en": "a marked trail"
+        },
+        {
+          "phrase": "ein gut ausgeschilderter Wanderweg",
+          "gloss_en": "a well-signposted trail"
+        },
+        {
+          "phrase": "der Wanderweg führt zum Gipfel",
+          "gloss_en": "the trail leads to the summit"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Wanderweg führt durch einen dichten Wald zum Gipfel.",
+          "en": "The hiking trail leads through a dense forest to the summit."
+        },
+        {
+          "de": "Dieser Wanderweg ist auch für Familien mit Kindern geeignet.",
+          "en": "This trail is also suitable for families with children."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Freizeit- und Tourismussprache.",
+      "near_synonyms": [
+        {
+          "lemma": "der Pfad",
+          "distinction": "schmaler, oft naturbelassen und nicht ausgebaut"
+        },
+        {
+          "lemma": "die Route",
+          "distinction": "die geplante Strecke, nicht der Weg als Bauwerk"
+        }
+      ]
+    },
+    "Aufführung": {
+      "meaning_de": "die öffentliche Darbietung eines Theaterstücks, Konzerts oder Balletts vor Publikum",
+      "meaning_en": "performance; staging",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Aufführung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aufführungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Aufführung besuchen",
+          "gloss_en": "to attend a performance"
+        },
+        {
+          "phrase": "die Premiere einer Aufführung",
+          "gloss_en": "the premiere of a production"
+        },
+        {
+          "phrase": "eine gelungene Aufführung",
+          "gloss_en": "a successful performance"
+        },
+        {
+          "phrase": "zur Aufführung bringen",
+          "gloss_en": "to stage; to put on"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Aufführung des Stücks dauerte fast drei Stunden.",
+          "en": "The performance of the play lasted almost three hours."
+        },
+        {
+          "de": "Das Theater brachte die Oper in einer modernen Aufführung heraus.",
+          "en": "The theatre put on the opera in a modern production."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kultur- und Theatersprache; betont das einzelne Ereignis vor Publikum.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vorstellung",
+          "distinction": "der einzelne Termin, an dem gespielt wird"
+        },
+        {
+          "lemma": "die Inszenierung",
+          "distinction": "die künstlerische Gesamtgestaltung, nicht der Abend selbst"
+        }
+      ]
+    },
+    "Inszenierung": {
+      "meaning_de": "die künstlerische Gestaltung und Umsetzung eines Stücks durch die Regie",
+      "meaning_en": "staging; (theatrical) production",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Inszenierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Inszenierungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine moderne Inszenierung",
+          "gloss_en": "a modern production"
+        },
+        {
+          "phrase": "die Inszenierung eines Regisseurs",
+          "gloss_en": "a director's staging"
+        },
+        {
+          "phrase": "eine werktreue Inszenierung",
+          "gloss_en": "a faithful staging"
+        },
+        {
+          "phrase": "die Inszenierung feiern",
+          "gloss_en": "to celebrate the production"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Kritiker lobten die kühne Inszenierung des jungen Regisseurs.",
+          "en": "The critics praised the young director's bold staging."
+        },
+        {
+          "de": "In dieser Inszenierung spielt das Stück in der Gegenwart.",
+          "en": "In this production the play is set in the present day."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kulturkritik und Feuilleton; übertragen auch abwertend für bewusste Selbstdarstellung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aufführung",
+          "distinction": "der einzelne Abend, nicht die künstlerische Konzeption"
+        },
+        {
+          "lemma": "die Regie",
+          "distinction": "die leitende Tätigkeit, nicht ihr sichtbares Ergebnis"
+        }
+      ]
+    },
+    "Applaus": {
+      "meaning_de": "das Beifallklatschen des Publikums als Zeichen der Anerkennung",
+      "meaning_en": "applause",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Applauses"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "tosender Applaus",
+          "gloss_en": "thunderous applause"
+        },
+        {
+          "phrase": "Applaus ernten",
+          "gloss_en": "to earn applause"
+        },
+        {
+          "phrase": "der Applaus brandet auf",
+          "gloss_en": "the applause breaks out"
+        },
+        {
+          "phrase": "mit Applaus bedacht werden",
+          "gloss_en": "to be met with applause"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem letzten Ton brandete tosender Applaus auf.",
+          "en": "After the final note, thunderous applause broke out."
+        },
+        {
+          "de": "Die Sängerin erntete minutenlangen Applaus.",
+          "en": "The singer earned minutes of applause."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kultur- und Bühnensprache; meist im Singular gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "der Beifall",
+          "distinction": "deutsches Wort, sonst weitgehend bedeutungsgleich"
+        },
+        {
+          "lemma": "die Ovation",
+          "distinction": "besonders begeisterter, oft stehender Applaus"
+        }
+      ]
+    },
+    "Kritik": {
+      "meaning_de": "die prüfende Beurteilung von etwas, oft mit Hinweis auf Mängel; auch eine Rezension",
+      "meaning_en": "criticism; review",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kritik"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kritiken"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Kritik an etwas",
+          "cases": "an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Kritik üben",
+          "gloss_en": "to voice criticism"
+        },
+        {
+          "phrase": "auf Kritik stoßen",
+          "gloss_en": "to meet with criticism"
+        },
+        {
+          "phrase": "sachliche Kritik",
+          "gloss_en": "objective criticism"
+        },
+        {
+          "phrase": "gute Kritiken bekommen",
+          "gloss_en": "to get good reviews"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Regierung übte scharfe Kritik an dem Vorschlag.",
+          "en": "The government voiced sharp criticism of the proposal."
+        },
+        {
+          "de": "Der Film bekam durchweg gute Kritiken.",
+          "en": "The film received consistently good reviews."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Zwei Sinne: das Beurteilen allgemein und die veröffentlichte Rezension (Plural: Kritiken).",
+      "near_synonyms": [
+        {
+          "lemma": "die Rezension",
+          "distinction": "speziell die schriftliche Besprechung eines Werks"
+        },
+        {
+          "lemma": "der Tadel",
+          "distinction": "ausschließlich negativ, eine ausdrückliche Rüge"
+        }
+      ]
+    },
+    "Genuss": {
+      "meaning_de": "das intensive, angenehme Erleben von etwas Schönem oder Wohlschmeckendem",
+      "meaning_en": "enjoyment; pleasure; delight",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Genusses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Genüsse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "etwas mit Genuss essen",
+          "gloss_en": "to eat something with relish"
+        },
+        {
+          "phrase": "ein kulinarischer Genuss",
+          "gloss_en": "a culinary delight"
+        },
+        {
+          "phrase": "in den Genuss von etwas kommen",
+          "gloss_en": "to enjoy the benefit of something"
+        },
+        {
+          "phrase": "ein wahrer Genuss",
+          "gloss_en": "a real treat"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Konzert war ein Genuss für alle Sinne.",
+          "en": "The concert was a delight for all the senses."
+        },
+        {
+          "de": "Als Mitglied kommt man in den Genuss vieler Vorteile.",
+          "en": "As a member you get to enjoy many benefits."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv besetzt; die Wendung 'in den Genuss von etwas kommen' meint einen Vorteil erhalten.",
+      "near_synonyms": [
+        {
+          "lemma": "die Freude",
+          "distinction": "allgemeiner, ein Gefühl statt eines sinnlichen Erlebens"
+        },
+        {
+          "lemma": "das Vergnügen",
+          "distinction": "betont das Amüsement, oft weniger sinnlich-genüsslich"
+        }
+      ]
+    },
+    "Delikatesse": {
+      "meaning_de": "ein besonders feines, hochwertiges Nahrungsmittel oder Gericht",
+      "meaning_en": "delicacy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Delikatesse"
+        },
+        {
+          "label": "Plural",
+          "value": "die Delikatessen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine seltene Delikatesse",
+          "gloss_en": "a rare delicacy"
+        },
+        {
+          "phrase": "als Delikatesse gelten",
+          "gloss_en": "to be considered a delicacy"
+        },
+        {
+          "phrase": "erlesene Delikatessen",
+          "gloss_en": "exquisite delicacies"
+        },
+        {
+          "phrase": "regionale Delikatessen",
+          "gloss_en": "regional specialties"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Frische Trüffel gelten als teure Delikatesse.",
+          "en": "Fresh truffles are considered an expensive delicacy."
+        },
+        {
+          "de": "Auf dem Markt gab es allerlei regionale Delikatessen.",
+          "en": "At the market there were all kinds of regional delicacies."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kulinarisch gehoben, oft im Zusammenhang mit Feinkost.",
+      "near_synonyms": [
+        {
+          "lemma": "die Spezialität",
+          "distinction": "typisch für eine Region oder ein Lokal, nicht zwingend edel"
+        },
+        {
+          "lemma": "der Leckerbissen",
+          "distinction": "umgangssprachlicher, einfach etwas besonders Schmackhaftes"
+        }
+      ]
+    },
+    "Zutat": {
+      "meaning_de": "ein einzelner Bestandteil, aus dem ein Gericht zubereitet wird",
+      "meaning_en": "ingredient",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zutat"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zutaten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Zutaten mischen",
+          "gloss_en": "to mix the ingredients"
+        },
+        {
+          "phrase": "frische Zutaten",
+          "gloss_en": "fresh ingredients"
+        },
+        {
+          "phrase": "die Zutaten für einen Kuchen",
+          "gloss_en": "the ingredients for a cake"
+        },
+        {
+          "phrase": "eine geheime Zutat",
+          "gloss_en": "a secret ingredient"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für dieses Rezept braucht man nur wenige Zutaten.",
+          "en": "This recipe needs only a few ingredients."
+        },
+        {
+          "de": "Vermischen Sie alle Zutaten zu einem glatten Teig.",
+          "en": "Mix all the ingredients into a smooth dough."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Küchen- und Rezeptsprache; meist im Plural; übertragen auch 'Bestandteil des Erfolgs'.",
+      "near_synonyms": [
+        {
+          "lemma": "der Bestandteil",
+          "distinction": "allgemeiner, nicht auf Essen beschränkt"
+        },
+        {
+          "lemma": "das Ingredienz",
+          "distinction": "gehoben und selten, oft im Plural Ingredienzien"
+        }
+      ]
+    },
+    "Ausstellung": {
+      "meaning_de": "eine öffentliche Präsentation von Kunstwerken, Objekten oder Produkten",
+      "meaning_en": "exhibition; show",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ausstellung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Ausstellungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Ausstellung besuchen",
+          "gloss_en": "to visit an exhibition"
+        },
+        {
+          "phrase": "eine Ausstellung eröffnen",
+          "gloss_en": "to open an exhibition"
+        },
+        {
+          "phrase": "eine Ausstellung über etwas",
+          "gloss_en": "an exhibition about something"
+        },
+        {
+          "phrase": "die Werke sind in einer Ausstellung zu sehen",
+          "gloss_en": "the works are on show in an exhibition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ausstellung im Museum zeigt Werke der Moderne.",
+          "en": "The exhibition at the museum shows works of modern art."
+        },
+        {
+          "de": "Zur Eröffnung der Ausstellung kamen zahlreiche Gäste.",
+          "en": "Numerous guests came to the opening of the exhibition."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kultur- und Messesprache; auch das Ausstellen von Dokumenten (eine Rechnung ausstellen).",
+      "near_synonyms": [
+        {
+          "lemma": "die Schau",
+          "distinction": "oft größer angelegt oder umgangssprachlich verkürzt"
+        },
+        {
+          "lemma": "die Messe",
+          "distinction": "kommerziell, dient dem Verkauf und Geschäftskontakt"
+        }
+      ]
+    },
+    "Festspiel": {
+      "meaning_de": "eine meist jährliche Reihe festlicher Theater-, Opern- oder Musikaufführungen",
+      "meaning_en": "festival (of the performing arts)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Festspiels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Festspiele"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Salzburger Festspiele",
+          "gloss_en": "the Salzburg Festival"
+        },
+        {
+          "phrase": "die Festspiele eröffnen",
+          "gloss_en": "to open the festival"
+        },
+        {
+          "phrase": "bei den Festspielen auftreten",
+          "gloss_en": "to perform at the festival"
+        },
+        {
+          "phrase": "ein Höhepunkt der Festspiele",
+          "gloss_en": "a highlight of the festival"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Festspiele locken jeden Sommer Tausende Besucher an.",
+          "en": "The festival draws thousands of visitors every summer."
+        },
+        {
+          "de": "Bei den Festspielen wird in diesem Jahr eine neue Oper uraufgeführt.",
+          "en": "This year a new opera premieres at the festival."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kultursprache; fast immer im Plural (Festspiele) und häufig mit Ortsnamen verbunden.",
+      "near_synonyms": [
+        {
+          "lemma": "das Festival",
+          "distinction": "moderner und breiter, auch für Pop, Film oder Literatur"
+        },
+        {
+          "lemma": "die Spielzeit",
+          "distinction": "die gesamte Saison eines Theaters, kein einzelnes Fest"
+        }
+      ]
+    },
+    "Kulisse": {
+      "meaning_de": "die bemalte Dekoration auf einer Bühne; übertragen der sichtbare Hintergrund eines Geschehens",
+      "meaning_en": "stage set; backdrop; scenery",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kulisse"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kulissen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Kulisse aufbauen",
+          "gloss_en": "to set up scenery"
+        },
+        {
+          "phrase": "vor malerischer Kulisse",
+          "gloss_en": "against a picturesque backdrop"
+        },
+        {
+          "phrase": "ein Blick hinter die Kulissen",
+          "gloss_en": "a look behind the scenes"
+        },
+        {
+          "phrase": "die Kulisse eines Films",
+          "gloss_en": "the set of a film"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Konzert fand vor der malerischen Kulisse der Altstadt statt.",
+          "en": "The concert took place against the picturesque backdrop of the old town."
+        },
+        {
+          "de": "Ein Blick hinter die Kulissen zeigt die harte Arbeit des Teams.",
+          "en": "A look behind the scenes reveals the team's hard work."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Theatersprache; die Wendung 'hinter den Kulissen' meint das nicht öffentlich Sichtbare.",
+      "near_synonyms": [
+        {
+          "lemma": "der Hintergrund",
+          "distinction": "allgemeiner, nicht speziell die gebaute Bühnendekoration"
+        },
+        {
+          "lemma": "das Bühnenbild",
+          "distinction": "die künstlerische Gesamtgestaltung des Bühnenraums"
+        }
+      ]
+    },
+    "Warteschlange": {
+      "meaning_de": "eine Reihe wartender Menschen, die nacheinander an die Reihe kommen",
+      "meaning_en": "queue; line",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Warteschlange"
+        },
+        {
+          "label": "Plural",
+          "value": "die Warteschlangen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich in die Warteschlange einreihen",
+          "gloss_en": "to join the queue"
+        },
+        {
+          "phrase": "in der Warteschlange stehen",
+          "gloss_en": "to stand in line"
+        },
+        {
+          "phrase": "eine lange Warteschlange",
+          "gloss_en": "a long queue"
+        },
+        {
+          "phrase": "die Warteschlange bildet sich",
+          "gloss_en": "the queue forms"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor der Kasse hatte sich eine lange Warteschlange gebildet.",
+          "en": "A long queue had formed in front of the checkout."
+        },
+        {
+          "de": "Wir mussten fast eine Stunde in der Warteschlange stehen.",
+          "en": "We had to stand in the queue for almost an hour."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprache; in der Informatik auch Fachbegriff für eine geordnete Datenstruktur.",
+      "near_synonyms": [
+        {
+          "lemma": "die Schlange",
+          "distinction": "die verkürzte, alltägliche Form (Schlange stehen)"
+        },
+        {
+          "lemma": "die Reihe",
+          "distinction": "neutraler, nicht zwingend wartend oder geordnet nach Zeit"
+        }
+      ]
+    },
+    "übernachten": {
+      "meaning_de": "an einem Ort außerhalb der eigenen Wohnung eine Nacht verbringen",
+      "meaning_en": "to stay overnight; to spend the night",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er übernachtet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er übernachtete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat übernachtet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er übernachtete"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "im Hotel übernachten",
+          "gloss_en": "to stay overnight at a hotel"
+        },
+        {
+          "phrase": "bei Freunden übernachten",
+          "gloss_en": "to spend the night at friends'"
+        },
+        {
+          "phrase": "kostenlos übernachten",
+          "gloss_en": "to stay overnight for free"
+        },
+        {
+          "phrase": "unter freiem Himmel übernachten",
+          "gloss_en": "to sleep out in the open"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir übernachten heute in einem kleinen Gasthof.",
+          "en": "We're staying overnight in a small inn today."
+        },
+        {
+          "de": "Auf der Durchreise hat er bei Verwandten übernachtet.",
+          "en": "Passing through, he stayed the night with relatives."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reisealltag; schwaches Verb, das Perfekt bildet man mit haben.",
+      "near_synonyms": [
+        {
+          "lemma": "nächtigen",
+          "distinction": "gehoben und seltener, gleiche Bedeutung"
+        },
+        {
+          "lemma": "unterkommen",
+          "distinction": "betont das Finden einer Unterkunft, nicht das Schlafen selbst"
+        }
+      ]
+    },
+    "besichtigen": {
+      "meaning_de": "sich etwas prüfend oder interessiert genau ansehen, etwa eine Sehenswürdigkeit",
+      "meaning_en": "to view; to visit; to inspect",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er besichtigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er besichtigte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat besichtigt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er besichtigte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas besichtigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Kirche besichtigen",
+          "gloss_en": "to visit a church"
+        },
+        {
+          "phrase": "die Altstadt besichtigen",
+          "gloss_en": "to tour the old town"
+        },
+        {
+          "phrase": "eine Wohnung besichtigen",
+          "gloss_en": "to view a flat"
+        },
+        {
+          "phrase": "die Baustelle besichtigen",
+          "gloss_en": "to inspect the construction site"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Vormittag besichtigen wir das Schloss.",
+          "en": "In the morning we'll tour the castle."
+        },
+        {
+          "de": "Bevor sie die Wohnung mietete, besichtigte sie sie zweimal.",
+          "en": "Before renting the flat she viewed it twice."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; im Tourismus wie bei Wohnungs- und Prüfungsbesichtigungen üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "ansehen",
+          "distinction": "allgemeiner und weniger gründlich"
+        },
+        {
+          "lemma": "besuchen",
+          "distinction": "betont das Hingehen, nicht das prüfende Betrachten"
+        }
+      ]
+    },
+    "buchen": {
+      "meaning_de": "eine Reise, ein Zimmer oder ein Ticket verbindlich reservieren und bestellen",
+      "meaning_en": "to book; to reserve",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bucht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er buchte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gebucht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er buchte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas buchen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Flug buchen",
+          "gloss_en": "to book a flight"
+        },
+        {
+          "phrase": "ein Zimmer buchen",
+          "gloss_en": "to book a room"
+        },
+        {
+          "phrase": "online buchen",
+          "gloss_en": "to book online"
+        },
+        {
+          "phrase": "eine Reise buchen",
+          "gloss_en": "to book a trip"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir haben den Flug schon vor drei Monaten gebucht.",
+          "en": "We booked the flight three months ago."
+        },
+        {
+          "de": "Am besten buchen Sie das Hotel gleich online.",
+          "en": "It's best to book the hotel online right away."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reise- und Dienstleistungsalltag; im Rechnungswesen 'einen Betrag verbuchen'.",
+      "near_synonyms": [
+        {
+          "lemma": "reservieren",
+          "distinction": "oft unverbindlicher, das bloße Vormerken ohne Bezahlung"
+        },
+        {
+          "lemma": "bestellen",
+          "distinction": "eher für Waren als für Reisen oder Zimmer"
+        }
+      ]
+    },
+    "stornieren": {
+      "meaning_de": "eine bereits getätigte Buchung oder Bestellung offiziell rückgängig machen",
+      "meaning_en": "to cancel (a booking or order)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er storniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er stornierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat storniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er stornierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas stornieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Buchung stornieren",
+          "gloss_en": "to cancel a booking"
+        },
+        {
+          "phrase": "kostenlos stornieren",
+          "gloss_en": "to cancel free of charge"
+        },
+        {
+          "phrase": "einen Flug stornieren",
+          "gloss_en": "to cancel a flight"
+        },
+        {
+          "phrase": "rechtzeitig stornieren",
+          "gloss_en": "to cancel in good time"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich musste das Hotel wegen einer Krankheit stornieren.",
+          "en": "I had to cancel the hotel because of an illness."
+        },
+        {
+          "de": "Wenn Sie bis morgen stornieren, entstehen keine Kosten.",
+          "en": "If you cancel by tomorrow, no charges apply."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich-formell, typisch für Buchungen und Verträge.",
+      "near_synonyms": [
+        {
+          "lemma": "absagen",
+          "distinction": "allgemeiner, auch für Termine und Veranstaltungen"
+        },
+        {
+          "lemma": "zurücktreten",
+          "distinction": "juristisch, das Zurücktreten von einem Vertrag (von etwas zurücktreten)"
+        }
+      ]
+    },
+    "verreisen": {
+      "meaning_de": "zu einem anderen Ort reisen und für eine Weile fortbleiben",
+      "meaning_en": "to go away (on a trip); to travel",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verreist"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verreiste"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist verreist"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verreiste"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "geschäftlich verreisen",
+          "gloss_en": "to travel on business"
+        },
+        {
+          "phrase": "über die Feiertage verreisen",
+          "gloss_en": "to go away over the holidays"
+        },
+        {
+          "phrase": "für ein paar Tage verreisen",
+          "gloss_en": "to go away for a few days"
+        },
+        {
+          "phrase": "verreist sein",
+          "gloss_en": "to be away"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Über Ostern verreisen wir für eine Woche nach Spanien.",
+          "en": "Over Easter we're going away to Spain for a week."
+        },
+        {
+          "de": "Sie ist gerade verreist und daher nicht erreichbar.",
+          "en": "She's away travelling right now and therefore not reachable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprache; bildet das Perfekt mit sein (Bewegung).",
+      "near_synonyms": [
+        {
+          "lemma": "reisen",
+          "distinction": "betont das Reisen als Tätigkeit, nicht das Fortsein von zu Hause"
+        },
+        {
+          "lemma": "wegfahren",
+          "distinction": "umgangssprachlicher, oft für kürzere Ausflüge"
+        }
+      ]
+    },
+    "trainieren": {
+      "meaning_de": "durch regelmäßige Übung eine körperliche oder geistige Fähigkeit verbessern",
+      "meaning_en": "to train; to practise; to work out",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er trainiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er trainierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat trainiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er trainierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas/jemanden trainieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "hart trainieren",
+          "gloss_en": "to train hard"
+        },
+        {
+          "phrase": "für einen Wettkampf trainieren",
+          "gloss_en": "to train for a competition"
+        },
+        {
+          "phrase": "eine Mannschaft trainieren",
+          "gloss_en": "to coach a team"
+        },
+        {
+          "phrase": "das Gedächtnis trainieren",
+          "gloss_en": "to train one's memory"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er trainiert dreimal pro Woche im Fitnessstudio.",
+          "en": "He works out three times a week at the gym."
+        },
+        {
+          "de": "Die Trainerin trainiert seit zehn Jahren die Nationalmannschaft.",
+          "en": "The coach has been training the national team for ten years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sport und Bildung; transitiv (jemanden trainieren = coachen) wie intransitiv gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "üben",
+          "distinction": "allgemeiner, betont das Wiederholen zum Lernen"
+        },
+        {
+          "lemma": "einstudieren",
+          "distinction": "speziell das Einüben eines Stücks oder Ablaufs"
+        }
+      ]
+    },
+    "siegen": {
+      "meaning_de": "in einem Wettkampf oder Kampf als Erster oder Bester gewinnen",
+      "meaning_en": "to win; to be victorious",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er siegt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er siegte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gesiegt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er siegte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "über jemanden siegen",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "klar siegen",
+          "gloss_en": "to win clearly"
+        },
+        {
+          "phrase": "über den Gegner siegen",
+          "gloss_en": "to triumph over the opponent"
+        },
+        {
+          "phrase": "am Ende siegen",
+          "gloss_en": "to prevail in the end"
+        },
+        {
+          "phrase": "die Vernunft siegt",
+          "gloss_en": "reason prevails"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Mannschaft siegte im Finale mit drei zu eins.",
+          "en": "The team won the final three to one."
+        },
+        {
+          "de": "Am Ende siegte die Vernunft über den Ehrgeiz.",
+          "en": "In the end reason prevailed over ambition."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sport und übertragen (die Gerechtigkeit siegt); etwas gehobener als das alltägliche 'gewinnen'.",
+      "near_synonyms": [
+        {
+          "lemma": "gewinnen",
+          "distinction": "alltäglicher und häufiger, auch mit Objekt (ein Spiel gewinnen)"
+        },
+        {
+          "lemma": "triumphieren",
+          "distinction": "gehoben, betont den glanzvollen, überlegenen Sieg"
+        }
+      ]
+    },
+    "genießen": {
+      "meaning_de": "etwas Angenehmes bewusst und mit Freude erleben",
+      "meaning_en": "to enjoy; to savour",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er genießt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er genoss"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat genossen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er genösse"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas genießen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "das Leben genießen",
+          "gloss_en": "to enjoy life"
+        },
+        {
+          "phrase": "die Aussicht genießen",
+          "gloss_en": "to enjoy the view"
+        },
+        {
+          "phrase": "in vollen Zügen genießen",
+          "gloss_en": "to enjoy to the full"
+        },
+        {
+          "phrase": "hohes Ansehen genießen",
+          "gloss_en": "to enjoy high esteem"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wir genossen den Sonnenuntergang am Strand.",
+          "en": "We enjoyed the sunset on the beach."
+        },
+        {
+          "de": "Der Professor genießt in Fachkreisen großes Ansehen.",
+          "en": "The professor enjoys great esteem among experts."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Starkes Verb; neben dem sinnlichen Genuss auch 'etwas zuteilwerden lassen' (Ansehen, Vertrauen genießen).",
+      "near_synonyms": [
+        {
+          "lemma": "auskosten",
+          "distinction": "betont das restlose, intensive Ausschöpfen"
+        },
+        {
+          "lemma": "sich erfreuen",
+          "distinction": "gehoben, mit Genitiv (sich guter Gesundheit erfreuen)"
+        }
+      ]
+    },
+    "verkosten": {
+      "meaning_de": "Speisen oder Getränke prüfend probieren, um Geschmack und Qualität zu beurteilen",
+      "meaning_en": "to taste; to sample (for quality)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verkostet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verkostete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verkostet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verkostete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verkosten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Wein verkosten",
+          "gloss_en": "to taste wine"
+        },
+        {
+          "phrase": "verschiedene Käsesorten verkosten",
+          "gloss_en": "to sample different cheeses"
+        },
+        {
+          "phrase": "professionell verkosten",
+          "gloss_en": "to taste professionally"
+        },
+        {
+          "phrase": "die Weine verkosten",
+          "gloss_en": "to sample the wines"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auf dem Weingut konnten die Gäste zehn Weine verkosten.",
+          "en": "At the winery the guests could taste ten wines."
+        },
+        {
+          "de": "Die Jury verkostete jedes Gericht sorgfältig.",
+          "en": "The jury carefully tasted each dish."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich (Gastronomie, Önologie); im Alltag sagt man eher 'probieren'.",
+      "near_synonyms": [
+        {
+          "lemma": "probieren",
+          "distinction": "alltäglich, ohne den prüfend-fachlichen Anspruch"
+        },
+        {
+          "lemma": "kosten",
+          "distinction": "kurz das bloße Schmecken einer kleinen Menge"
+        }
+      ]
+    },
+    "veranstalten": {
+      "meaning_de": "eine Veranstaltung organisieren und durchführen",
+      "meaning_en": "to organize; to hold (an event)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er veranstaltet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er veranstaltete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat veranstaltet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er veranstaltete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas veranstalten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Konzert veranstalten",
+          "gloss_en": "to put on a concert"
+        },
+        {
+          "phrase": "eine Feier veranstalten",
+          "gloss_en": "to hold a celebration"
+        },
+        {
+          "phrase": "ein Turnier veranstalten",
+          "gloss_en": "to organize a tournament"
+        },
+        {
+          "phrase": "eine Sammlung veranstalten",
+          "gloss_en": "to organize a collection"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Verein veranstaltet jedes Jahr ein Sommerfest.",
+          "en": "The club holds a summer party every year."
+        },
+        {
+          "de": "Zum Jubiläum veranstalteten sie ein großes Konzert.",
+          "en": "For the anniversary they put on a big concert."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; umgangssprachlich auch abwertend 'ein Theater veranstalten' für unnötigen Aufwand.",
+      "near_synonyms": [
+        {
+          "lemma": "organisieren",
+          "distinction": "betont das Planen und Koordinieren, nicht die Trägerschaft"
+        },
+        {
+          "lemma": "ausrichten",
+          "distinction": "gehobener, meist für größere offizielle Anlässe"
+        }
+      ]
+    },
+    "aufführen": {
+      "meaning_de": "ein Theaterstück, Konzert oder Ballett öffentlich vor Publikum darbieten",
+      "meaning_en": "to perform; to stage",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er führt auf"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er führte auf"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat aufgeführt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er führte auf"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas aufführen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Stück aufführen",
+          "gloss_en": "to perform a play"
+        },
+        {
+          "phrase": "eine Oper aufführen",
+          "gloss_en": "to stage an opera"
+        },
+        {
+          "phrase": "zum ersten Mal aufführen",
+          "gloss_en": "to perform for the first time"
+        },
+        {
+          "phrase": "ein Ballett aufführen",
+          "gloss_en": "to perform a ballet"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Ensemble führt in dieser Saison einen Klassiker auf.",
+          "en": "The ensemble is staging a classic this season."
+        },
+        {
+          "de": "Die Schüler führten ein selbst geschriebenes Stück auf.",
+          "en": "The pupils performed a play they had written themselves."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kultursprache; trennbares Verb. Reflexiv 'sich aufführen' bedeutet umgangssprachlich 'sich benehmen'.",
+      "near_synonyms": [
+        {
+          "lemma": "spielen",
+          "distinction": "alltäglicher, auch für die einzelnen Darsteller"
+        },
+        {
+          "lemma": "inszenieren",
+          "distinction": "betont die künstlerische Regie, nicht das Zeigen vor Publikum"
+        }
+      ]
+    },
+    "besteigen": {
+      "meaning_de": "auf etwas Hohes hinaufsteigen, besonders einen Berg erklimmen",
+      "meaning_en": "to climb; to ascend; to board",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er besteigt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bestieg"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bestiegen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bestiege"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas besteigen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Berg besteigen",
+          "gloss_en": "to climb a mountain"
+        },
+        {
+          "phrase": "den Gipfel besteigen",
+          "gloss_en": "to ascend the summit"
+        },
+        {
+          "phrase": "den Thron besteigen",
+          "gloss_en": "to ascend the throne"
+        },
+        {
+          "phrase": "ein Pferd besteigen",
+          "gloss_en": "to mount a horse"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie bestiegen im Morgengrauen den höchsten Gipfel der Region.",
+          "en": "At dawn they climbed the region's highest peak."
+        },
+        {
+          "de": "Der junge König bestieg den Thron mit erst achtzehn Jahren.",
+          "en": "The young king ascended the throne at just eighteen."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Etwas gehoben; untrennbares Verb. Alltäglich sagt man eher 'auf den Berg steigen'.",
+      "near_synonyms": [
+        {
+          "lemma": "erklimmen",
+          "distinction": "gehoben, betont die Mühe des Hinaufsteigens"
+        },
+        {
+          "lemma": "hinaufsteigen",
+          "distinction": "neutral und trennbar, ohne akkusativisches Objekt"
+        }
+      ]
+    },
+    "sehenswert": {
+      "meaning_de": "so interessant oder schön, dass es sich lohnt, es anzusehen",
+      "meaning_en": "worth seeing",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "sehenswerter"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am sehenswertesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine sehenswerte Altstadt",
+          "gloss_en": "an old town worth seeing"
+        },
+        {
+          "phrase": "besonders sehenswert sein",
+          "gloss_en": "to be especially worth seeing"
+        },
+        {
+          "phrase": "eine sehenswerte Ausstellung",
+          "gloss_en": "an exhibition worth seeing"
+        },
+        {
+          "phrase": "durchaus sehenswert",
+          "gloss_en": "quite worth seeing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die kleine Kirche im Dorf ist wirklich sehenswert.",
+          "en": "The little village church is really worth seeing."
+        },
+        {
+          "de": "Der Film ist trotz seiner Länge sehr sehenswert.",
+          "en": "Despite its length the film is well worth seeing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv wertend, im Tourismus und in Rezensionen häufig.",
+      "near_synonyms": [
+        {
+          "lemma": "sehenswürdig",
+          "distinction": "seltener, meist attributiv für Orte und Bauwerke"
+        },
+        {
+          "lemma": "beeindruckend",
+          "distinction": "betont die starke Wirkung, nicht das bloße Anschauenlohnen"
+        }
+      ]
+    },
+    "erholsam": {
+      "meaning_de": "so, dass man sich dabei gut entspannt und neue Kraft schöpft",
+      "meaning_en": "restful; relaxing",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "erholsamer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am erholsamsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein erholsamer Urlaub",
+          "gloss_en": "a relaxing holiday"
+        },
+        {
+          "phrase": "einen erholsamen Schlaf",
+          "gloss_en": "a restful sleep"
+        },
+        {
+          "phrase": "erholsame Tage",
+          "gloss_en": "restful days"
+        },
+        {
+          "phrase": "erholsam wirken",
+          "gloss_en": "to have a relaxing effect"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich wünsche dir ein erholsames Wochenende.",
+          "en": "I wish you a relaxing weekend."
+        },
+        {
+          "de": "Der Spaziergang am Meer war überraschend erholsam.",
+          "en": "The walk by the sea was surprisingly relaxing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv, im Freizeit- und Reisekontext gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "entspannend",
+          "distinction": "betont das Lösen von Anspannung, nicht das Kräftesammeln"
+        },
+        {
+          "lemma": "wohltuend",
+          "distinction": "allgemeiner, angenehm und gut für das Befinden"
+        }
+      ]
+    },
+    "atemberaubend": {
+      "meaning_de": "so beeindruckend, dass es einem den Atem verschlägt",
+      "meaning_en": "breathtaking; stunning",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "atemberaubender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am atemberaubendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine atemberaubende Aussicht",
+          "gloss_en": "a breathtaking view"
+        },
+        {
+          "phrase": "atemberaubende Landschaften",
+          "gloss_en": "stunning landscapes"
+        },
+        {
+          "phrase": "in atemberaubendem Tempo",
+          "gloss_en": "at breakneck speed"
+        },
+        {
+          "phrase": "atemberaubend schön",
+          "gloss_en": "stunningly beautiful"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vom Gipfel hatten wir eine atemberaubende Aussicht.",
+          "en": "From the summit we had a breathtaking view."
+        },
+        {
+          "de": "Die Akrobaten zeigten atemberaubende Kunststücke.",
+          "en": "The acrobats performed breathtaking feats."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Starkes Wertwort, in Werbung und Reiseberichten beliebt; kann leicht abgegriffen wirken.",
+      "near_synonyms": [
+        {
+          "lemma": "überwältigend",
+          "distinction": "betont die emotionale Übermacht des Eindrucks"
+        },
+        {
+          "lemma": "spektakulär",
+          "distinction": "betont das Aufsehenerregende, Schauhafte"
+        }
+      ]
+    },
+    "malerisch": {
+      "meaning_de": "so schön und stimmungsvoll wie auf einem Gemälde",
+      "meaning_en": "picturesque; scenic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "malerischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am malerischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein malerisches Dorf",
+          "gloss_en": "a picturesque village"
+        },
+        {
+          "phrase": "eine malerische Landschaft",
+          "gloss_en": "a scenic landscape"
+        },
+        {
+          "phrase": "malerisch gelegen",
+          "gloss_en": "picturesquely situated"
+        },
+        {
+          "phrase": "eine malerische Kulisse",
+          "gloss_en": "a picturesque backdrop"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Städtchen liegt malerisch an einem See.",
+          "en": "The little town is picturesquely situated on a lake."
+        },
+        {
+          "de": "Wir wanderten durch eine malerische Weinlandschaft.",
+          "en": "We hiked through a picturesque wine-growing landscape."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv, gehoben-bildhaft; typisch in Reisebeschreibungen.",
+      "near_synonyms": [
+        {
+          "lemma": "idyllisch",
+          "distinction": "betont Ruhe und Ungestörtheit, nicht die Bildwirkung"
+        },
+        {
+          "lemma": "pittoresk",
+          "distinction": "bildungssprachlich, oft mit reizvoll-altertümlichem Beiklang"
+        }
+      ]
+    },
+    "ausverkauft": {
+      "meaning_de": "vollständig verkauft, sodass keine Karten oder Waren mehr verfügbar sind",
+      "meaning_en": "sold out",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "das Konzert ist ausverkauft",
+          "gloss_en": "the concert is sold out"
+        },
+        {
+          "phrase": "vor ausverkauftem Haus spielen",
+          "gloss_en": "to play to a sold-out house"
+        },
+        {
+          "phrase": "restlos ausverkauft",
+          "gloss_en": "completely sold out"
+        },
+        {
+          "phrase": "ausverkauft sein",
+          "gloss_en": "to be sold out"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Vorstellung am Samstag ist bereits ausverkauft.",
+          "en": "Saturday's performance is already sold out."
+        },
+        {
+          "de": "Der Sänger trat vor ausverkauftem Haus auf.",
+          "en": "The singer performed to a sold-out house."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Nicht steigerbar (Absolutadjektiv); Partizip von 'ausverkaufen'.",
+      "near_synonyms": [
+        {
+          "lemma": "vergriffen",
+          "distinction": "speziell für Waren und Bücher, die nicht mehr lieferbar sind"
+        },
+        {
+          "lemma": "besetzt",
+          "distinction": "betont belegte Plätze, nicht verkaufte Karten"
+        }
+      ]
+    },
+    "hochkarätig": {
+      "meaning_de": "von hoher Qualität oder mit sehr bedeutenden, erstklassigen Beteiligten",
+      "meaning_en": "top-class; high-calibre",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "hochkarätiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am hochkarätigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein hochkarätiges Programm",
+          "gloss_en": "a top-class programme"
+        },
+        {
+          "phrase": "hochkarätig besetzt",
+          "gloss_en": "with a star-studded cast"
+        },
+        {
+          "phrase": "eine hochkarätige Jury",
+          "gloss_en": "a high-calibre jury"
+        },
+        {
+          "phrase": "hochkarätige Gäste",
+          "gloss_en": "distinguished guests"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Festival ist in diesem Jahr hochkarätig besetzt.",
+          "en": "This year the festival has a star-studded line-up."
+        },
+        {
+          "de": "An der Diskussion nahmen mehrere hochkarätige Experten teil.",
+          "en": "Several high-calibre experts took part in the discussion."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv wertend; ursprünglich vom Karat des Goldes, heute vor allem für Personen und Veranstaltungen.",
+      "near_synonyms": [
+        {
+          "lemma": "erstklassig",
+          "distinction": "betont die höchste Qualitätsstufe allgemein"
+        },
+        {
+          "lemma": "prominent",
+          "distinction": "bezieht sich auf die Bekanntheit der beteiligten Personen"
+        }
+      ]
+    },
+    "deftig": {
+      "meaning_de": "kräftig gewürzt, reichhaltig und sättigend (von Speisen)",
+      "meaning_en": "hearty; substantial (of food)",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "deftiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am deftigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine deftige Mahlzeit",
+          "gloss_en": "a hearty meal"
+        },
+        {
+          "phrase": "deftige Hausmannskost",
+          "gloss_en": "hearty home cooking"
+        },
+        {
+          "phrase": "deftig essen",
+          "gloss_en": "to eat hearty food"
+        },
+        {
+          "phrase": "ein deftiger Eintopf",
+          "gloss_en": "a hearty stew"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der Wanderung freuten wir uns auf eine deftige Mahlzeit.",
+          "en": "After the hike we looked forward to a hearty meal."
+        },
+        {
+          "de": "In dem Gasthof gibt es vor allem deftige Hausmannskost.",
+          "en": "The inn mainly serves hearty home cooking."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Kulinarisch positiv; übertragen auch 'derb, kräftig' (ein deftiger Witz, eine deftige Rechnung).",
+      "near_synonyms": [
+        {
+          "lemma": "herzhaft",
+          "distinction": "betont den kräftig-würzigen, nicht-süßen Geschmack"
+        },
+        {
+          "lemma": "üppig",
+          "distinction": "betont die reichliche Menge, nicht die Würze"
+        }
+      ]
+    },
+    "hautnah": {
+      "meaning_de": "unmittelbar und aus nächster Nähe miterlebt",
+      "meaning_en": "up close; at first hand",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "etwas hautnah erleben",
+          "gloss_en": "to experience something up close"
+        },
+        {
+          "phrase": "hautnah dabei sein",
+          "gloss_en": "to be right there in the thick of it"
+        },
+        {
+          "phrase": "die Stars hautnah erleben",
+          "gloss_en": "to see the stars up close"
+        },
+        {
+          "phrase": "hautnah miterleben",
+          "gloss_en": "to witness at first hand"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beim Konzert erlebten die Fans ihre Idole hautnah.",
+          "en": "At the concert the fans experienced their idols up close."
+        },
+        {
+          "de": "Die Reportage lässt die Zuschauer den Alltag der Sportler hautnah miterleben.",
+          "en": "The report lets viewers witness the athletes' everyday life at first hand."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Meist adverbial und nicht gesteigert; in Medien und Werbung beliebt für unmittelbares Erleben.",
+      "near_synonyms": [
+        {
+          "lemma": "unmittelbar",
+          "distinction": "sachlicher, ohne den erlebnishaften Beiklang"
+        },
+        {
+          "lemma": "live",
+          "distinction": "Anglizismus, betont das direkte, gleichzeitige Dabeisein"
+        }
+      ]
+    }
+  }
+}

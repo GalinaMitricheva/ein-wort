@@ -1,0 +1,3026 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2 domain batch \"Gefühle, Charakter & Beziehungen\" (b2-09). Keyed by lemma.",
+  "dossiers": {
+    "Zuneigung": {
+      "meaning_de": "ein warmes, freundschaftliches oder liebevolles Gefühl für jemanden",
+      "meaning_en": "affection; fondness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zuneigung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Zuneigung zu jemandem",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine tiefe Zuneigung empfinden",
+          "gloss_en": "to feel deep affection"
+        },
+        {
+          "phrase": "jemandem seine Zuneigung zeigen",
+          "gloss_en": "to show someone one's affection"
+        },
+        {
+          "phrase": "Zuneigung zu jemandem fassen",
+          "gloss_en": "to grow fond of someone"
+        },
+        {
+          "phrase": "gegenseitige Zuneigung",
+          "gloss_en": "mutual affection"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er empfand eine tiefe Zuneigung zu seiner Kollegin.",
+          "en": "He felt a deep affection for his colleague."
+        },
+        {
+          "de": "Ihre Zuneigung zueinander wuchs mit den Jahren.",
+          "en": "Their affection for each other grew over the years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Etwas gehoben; wärmer und persönlicher als bloße Sympathie.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sympathie",
+          "distinction": "schwächer, eher ein Grundwohlwollen"
+        },
+        {
+          "lemma": "die Liebe",
+          "distinction": "stärker und umfassender"
+        }
+      ]
+    },
+    "Abneigung": {
+      "meaning_de": "ein Gefühl der Ablehnung oder des Widerwillens gegen jemanden oder etwas",
+      "meaning_en": "aversion; dislike",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Abneigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Abneigungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Abneigung gegen jemanden/etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Abneigung gegen etwas haben",
+          "gloss_en": "to have an aversion to something"
+        },
+        {
+          "phrase": "eine tiefe Abneigung empfinden",
+          "gloss_en": "to feel a deep aversion"
+        },
+        {
+          "phrase": "seine Abneigung überwinden",
+          "gloss_en": "to overcome one's aversion"
+        },
+        {
+          "phrase": "eine instinktive Abneigung",
+          "gloss_en": "an instinctive dislike"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie hatte schon immer eine Abneigung gegen laute Partys.",
+          "en": "She always had an aversion to loud parties."
+        },
+        {
+          "de": "Seine Abneigung gegen den neuen Chef war unübersehbar.",
+          "en": "His dislike of the new boss was unmistakable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; von leichter Abgeneigtheit bis zu starkem Widerwillen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Widerwille",
+          "distinction": "körperlich-spontaner und stärker"
+        },
+        {
+          "lemma": "die Antipathie",
+          "distinction": "gehobener, meist gegen Personen gerichtet"
+        }
+      ]
+    },
+    "Eifersucht": {
+      "meaning_de": "die quälende Angst, die Zuneigung eines geliebten Menschen an einen anderen zu verlieren",
+      "meaning_en": "jealousy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Eifersucht"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Eifersucht auf jemanden",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "krankhafte Eifersucht",
+          "gloss_en": "pathological jealousy"
+        },
+        {
+          "phrase": "vor Eifersucht rasen",
+          "gloss_en": "to be mad with jealousy"
+        },
+        {
+          "phrase": "jemandes Eifersucht wecken",
+          "gloss_en": "to arouse someone's jealousy"
+        },
+        {
+          "phrase": "blinde Eifersucht",
+          "gloss_en": "blind jealousy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus Eifersucht kontrollierte er ständig ihr Handy.",
+          "en": "Out of jealousy he constantly checked her phone."
+        },
+        {
+          "de": "Ihre Eifersucht auf die neue Kollegin war völlig unbegründet.",
+          "en": "Her jealousy of the new colleague was entirely unfounded."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; bezieht sich auf Liebe und Zuneigung, nicht auf Besitz.",
+      "near_synonyms": [
+        {
+          "lemma": "der Neid",
+          "distinction": "bezieht sich auf Besitz oder Erfolg, nicht auf Liebe"
+        },
+        {
+          "lemma": "die Missgunst",
+          "distinction": "gönnt dem anderen nichts, ohne Liebesbezug"
+        }
+      ]
+    },
+    "Enttäuschung": {
+      "meaning_de": "das niederdrückende Gefühl, wenn eine Erwartung oder Hoffnung sich nicht erfüllt",
+      "meaning_en": "disappointment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Enttäuschung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Enttäuschungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Enttäuschung über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine herbe Enttäuschung",
+          "gloss_en": "a bitter disappointment"
+        },
+        {
+          "phrase": "seine Enttäuschung verbergen",
+          "gloss_en": "to hide one's disappointment"
+        },
+        {
+          "phrase": "zu jemandes Enttäuschung",
+          "gloss_en": "to someone's disappointment"
+        },
+        {
+          "phrase": "eine Enttäuschung erleben",
+          "gloss_en": "to experience a disappointment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Enttäuschung über das Ergebnis war groß.",
+          "en": "Her disappointment over the result was great."
+        },
+        {
+          "de": "Zu meiner Enttäuschung sagte er das Treffen ab.",
+          "en": "To my disappointment, he cancelled the meeting."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; sowohl das Gefühl als auch das enttäuschende Ereignis.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ernüchterung",
+          "distinction": "nüchternes Erkennen nach dem Ende von Illusionen"
+        },
+        {
+          "lemma": "die Frustration",
+          "distinction": "betont das Gefühl der Vergeblichkeit und den Ärger"
+        }
+      ]
+    },
+    "Gelassenheit": {
+      "meaning_de": "innere Ruhe und Ausgeglichenheit, auch in schwierigen Situationen",
+      "meaning_en": "composure; serenity; calmness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gelassenheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "stoische Gelassenheit",
+          "gloss_en": "stoic composure"
+        },
+        {
+          "phrase": "mit Gelassenheit reagieren",
+          "gloss_en": "to react with composure"
+        },
+        {
+          "phrase": "seine Gelassenheit bewahren",
+          "gloss_en": "to keep one's composure"
+        },
+        {
+          "phrase": "innere Gelassenheit",
+          "gloss_en": "inner serenity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie nahm die Kritik mit bewundernswerter Gelassenheit auf.",
+          "en": "She took the criticism with admirable composure."
+        },
+        {
+          "de": "Mit zunehmendem Alter gewann er an Gelassenheit.",
+          "en": "With advancing age he gained in serenity."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Durchweg positiv besetzt; ein geschätzter Charakterzug.",
+      "near_synonyms": [
+        {
+          "lemma": "die Ruhe",
+          "distinction": "allgemeiner, auch äußere Ruhe"
+        },
+        {
+          "lemma": "die Besonnenheit",
+          "distinction": "betont das überlegte, umsichtige Handeln"
+        }
+      ]
+    },
+    "Bescheidenheit": {
+      "meaning_de": "die Haltung, sich selbst und seine Leistungen nicht in den Vordergrund zu stellen",
+      "meaning_en": "modesty; humility",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bescheidenheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "falsche Bescheidenheit",
+          "gloss_en": "false modesty"
+        },
+        {
+          "phrase": "in aller Bescheidenheit",
+          "gloss_en": "in all modesty"
+        },
+        {
+          "phrase": "Bescheidenheit an den Tag legen",
+          "gloss_en": "to display modesty"
+        },
+        {
+          "phrase": "übertriebene Bescheidenheit",
+          "gloss_en": "excessive modesty"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Trotz ihres Erfolgs blieb sie ein Vorbild an Bescheidenheit.",
+          "en": "Despite her success she remained a model of modesty."
+        },
+        {
+          "de": "In aller Bescheidenheit möchte ich auf meinen Beitrag hinweisen.",
+          "en": "In all modesty, I would like to point out my contribution."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Meist positiv; „falsche Bescheidenheit\" kann aber auch getadelt werden.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zurückhaltung",
+          "distinction": "betont das zurückhaltende Auftreten allgemein"
+        },
+        {
+          "lemma": "die Demut",
+          "distinction": "religiös-gehoben, tiefer und unterwürfiger"
+        }
+      ]
+    },
+    "Großzügigkeit": {
+      "meaning_de": "die Bereitschaft, gern zu geben und über Kleinigkeiten hinwegzusehen",
+      "meaning_en": "generosity",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Großzügigkeit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "sich durch Großzügigkeit auszeichnen",
+          "gloss_en": "to be marked by generosity"
+        },
+        {
+          "phrase": "jemandes Großzügigkeit ausnutzen",
+          "gloss_en": "to take advantage of someone's generosity"
+        },
+        {
+          "phrase": "aus reiner Großzügigkeit",
+          "gloss_en": "out of pure generosity"
+        },
+        {
+          "phrase": "verschwenderische Großzügigkeit",
+          "gloss_en": "lavish generosity"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine Großzügigkeit gegenüber Fremden war bekannt.",
+          "en": "His generosity toward strangers was well known."
+        },
+        {
+          "de": "Dank der Großzügigkeit der Spender konnte das Projekt starten.",
+          "en": "Thanks to the donors' generosity the project could begin."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; bezieht sich auf materielles Geben wie auf Nachsicht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Freigebigkeit",
+          "distinction": "bezieht sich enger auf das materielle Geben"
+        },
+        {
+          "lemma": "die Nachsicht",
+          "distinction": "bezieht sich auf Milde bei Fehlern anderer"
+        }
+      ]
+    },
+    "Sturheit": {
+      "meaning_de": "die hartnäckige Weigerung, seine Meinung oder sein Verhalten zu ändern",
+      "meaning_en": "stubbornness; obstinacy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sturheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "aus reiner Sturheit",
+          "gloss_en": "out of sheer stubbornness"
+        },
+        {
+          "phrase": "an etwas mit Sturheit festhalten",
+          "gloss_en": "to cling to something with obstinacy"
+        },
+        {
+          "phrase": "grenzenlose Sturheit",
+          "gloss_en": "boundless stubbornness"
+        },
+        {
+          "phrase": "jemandes Sturheit",
+          "gloss_en": "someone's stubbornness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus reiner Sturheit gab er nicht nach.",
+          "en": "Out of sheer stubbornness he wouldn't give in."
+        },
+        {
+          "de": "Ihre Sturheit machte jede Diskussion unmöglich.",
+          "en": "Her stubbornness made any discussion impossible."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Abwertend; beschreibt hartnäckiges Beharren negativ.",
+      "near_synonyms": [
+        {
+          "lemma": "der Eigensinn",
+          "distinction": "kann auch positiv als Eigenständigkeit gelten"
+        },
+        {
+          "lemma": "die Halsstarrigkeit",
+          "distinction": "gehobener und noch stärker abwertend"
+        }
+      ]
+    },
+    "Mitgefühl": {
+      "meaning_de": "die innere Anteilnahme am Leid eines anderen Menschen",
+      "meaning_en": "compassion; sympathy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Mitgefühls"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Mitgefühl mit jemandem",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "tiefes Mitgefühl",
+          "gloss_en": "deep compassion"
+        },
+        {
+          "phrase": "jemandem sein Mitgefühl aussprechen",
+          "gloss_en": "to express one's sympathy to someone"
+        },
+        {
+          "phrase": "Mitgefühl empfinden",
+          "gloss_en": "to feel compassion"
+        },
+        {
+          "phrase": "aufrichtiges Mitgefühl",
+          "gloss_en": "sincere sympathy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie zeigte großes Mitgefühl mit den Opfern.",
+          "en": "She showed great compassion for the victims."
+        },
+        {
+          "de": "Ich spreche Ihnen mein aufrichtiges Mitgefühl aus.",
+          "en": "I offer you my sincere condolences."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; „sein Mitgefühl aussprechen\" ist auch bei Trauerfällen üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Mitleid",
+          "distinction": "betont das Leiden, kann von oben herab wirken"
+        },
+        {
+          "lemma": "die Anteilnahme",
+          "distinction": "förmlicher, oft bei Trauerfällen gebraucht"
+        }
+      ]
+    },
+    "Verachtung": {
+      "meaning_de": "das Gefühl, jemanden oder etwas als minderwertig oder verwerflich anzusehen",
+      "meaning_en": "contempt; disdain",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Verachtung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Verachtung für jemanden",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "tiefe Verachtung",
+          "gloss_en": "deep contempt"
+        },
+        {
+          "phrase": "jemanden mit Verachtung strafen",
+          "gloss_en": "to treat someone with contempt"
+        },
+        {
+          "phrase": "Verachtung empfinden",
+          "gloss_en": "to feel contempt"
+        },
+        {
+          "phrase": "offene Verachtung",
+          "gloss_en": "open disdain"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In seinem Blick lag nichts als Verachtung.",
+          "en": "There was nothing but contempt in his gaze."
+        },
+        {
+          "de": "Sie strafte ihn mit eisiger Verachtung.",
+          "en": "She treated him with icy contempt."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Stark wertend; ein sehr negatives, herabsetzendes Gefühl.",
+      "near_synonyms": [
+        {
+          "lemma": "die Geringschätzung",
+          "distinction": "schwächer, eher mangelnde Wertschätzung"
+        },
+        {
+          "lemma": "der Hohn",
+          "distinction": "verächtlicher Spott, aktiv geäußert"
+        }
+      ]
+    },
+    "Sehnsucht": {
+      "meaning_de": "das starke, schmerzliche Verlangen nach jemandem oder etwas Abwesendem",
+      "meaning_en": "longing; yearning",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sehnsucht"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sehnsüchte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Sehnsucht nach etwas",
+          "cases": "nach + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Sehnsucht nach der Heimat",
+          "gloss_en": "longing for home"
+        },
+        {
+          "phrase": "voller Sehnsucht",
+          "gloss_en": "full of longing"
+        },
+        {
+          "phrase": "eine brennende Sehnsucht",
+          "gloss_en": "a burning yearning"
+        },
+        {
+          "phrase": "eine tiefe Sehnsucht verspüren",
+          "gloss_en": "to feel a deep longing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie verspürte eine tiefe Sehnsucht nach ihrer Heimat.",
+          "en": "She felt a deep longing for her homeland."
+        },
+        {
+          "de": "Voller Sehnsucht wartete er auf ihren Brief.",
+          "en": "Full of longing, he waited for her letter."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Emotional und oft literarisch; stärker als ein bloßer Wunsch.",
+      "near_synonyms": [
+        {
+          "lemma": "das Verlangen",
+          "distinction": "konkreter, drängender Wunsch nach etwas"
+        },
+        {
+          "lemma": "das Heimweh",
+          "distinction": "speziell die Sehnsucht nach zu Hause"
+        }
+      ]
+    },
+    "Geborgenheit": {
+      "meaning_de": "das Gefühl, sicher, angenommen und beschützt zu sein",
+      "meaning_en": "sense of security; feeling of safety and warmth",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Geborgenheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Geborgenheit vermitteln",
+          "gloss_en": "to convey a sense of security"
+        },
+        {
+          "phrase": "ein Gefühl der Geborgenheit",
+          "gloss_en": "a feeling of security"
+        },
+        {
+          "phrase": "Wärme und Geborgenheit",
+          "gloss_en": "warmth and security"
+        },
+        {
+          "phrase": "Geborgenheit finden",
+          "gloss_en": "to find security"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In der Familie fand sie Halt und Geborgenheit.",
+          "en": "In her family she found support and a sense of security."
+        },
+        {
+          "de": "Das Kind braucht ein Gefühl der Geborgenheit.",
+          "en": "The child needs a feeling of security."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv und emotional; kaum ins Englische wörtlich übersetzbar.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sicherheit",
+          "distinction": "sachlicher, auch äußere oder materielle Sicherheit"
+        },
+        {
+          "lemma": "die Wärme",
+          "distinction": "bildlich für emotionale Nähe und Zuwendung"
+        }
+      ]
+    },
+    "Vertrautheit": {
+      "meaning_de": "das Gefühl enger Nähe und Vertrauens, das aus langer Bekanntschaft wächst",
+      "meaning_en": "familiarity; intimacy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Vertrautheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Vertrautheit mit etwas",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine wohlige Vertrautheit",
+          "gloss_en": "a cozy familiarity"
+        },
+        {
+          "phrase": "die Vertrautheit zwischen ihnen",
+          "gloss_en": "the intimacy between them"
+        },
+        {
+          "phrase": "eine Atmosphäre der Vertrautheit",
+          "gloss_en": "an atmosphere of familiarity"
+        },
+        {
+          "phrase": "die Vertrautheit mit dem Thema",
+          "gloss_en": "familiarity with the subject"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen den alten Freunden herrschte eine tiefe Vertrautheit.",
+          "en": "There was a deep familiarity between the old friends."
+        },
+        {
+          "de": "Trotz der langen Trennung war die alte Vertrautheit sofort wieder da.",
+          "en": "Despite the long separation, the old intimacy was instantly back."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; meint sowohl menschliche Nähe als auch Kenntnis einer Sache.",
+      "near_synonyms": [
+        {
+          "lemma": "die Nähe",
+          "distinction": "allgemeiner, auch räumlich zu verstehen"
+        },
+        {
+          "lemma": "die Intimität",
+          "distinction": "betont besondere persönliche oder körperliche Nähe"
+        }
+      ]
+    },
+    "Partnerschaft": {
+      "meaning_de": "eine auf Gleichberechtigung beruhende Beziehung zwischen zwei Menschen oder Parteien",
+      "meaning_en": "partnership; (romantic) relationship",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Partnerschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Partnerschaften"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Partnerschaft mit jemandem",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine feste Partnerschaft",
+          "gloss_en": "a steady relationship"
+        },
+        {
+          "phrase": "eine Partnerschaft eingehen",
+          "gloss_en": "to enter into a partnership"
+        },
+        {
+          "phrase": "eine gleichberechtigte Partnerschaft",
+          "gloss_en": "an equal partnership"
+        },
+        {
+          "phrase": "in einer Partnerschaft leben",
+          "gloss_en": "to live in a relationship"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine gute Partnerschaft beruht auf Vertrauen.",
+          "en": "A good relationship is based on trust."
+        },
+        {
+          "de": "Die beiden Unternehmen gingen eine strategische Partnerschaft ein.",
+          "en": "The two companies entered into a strategic partnership."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gilt für private Beziehungen wie für geschäftliche Kooperationen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Beziehung",
+          "distinction": "allgemeiner, umfasst jede Art von Verbindung"
+        },
+        {
+          "lemma": "die Ehe",
+          "distinction": "die rechtlich geschlossene Form der Partnerschaft"
+        }
+      ]
+    },
+    "Versöhnung": {
+      "meaning_de": "die Beilegung eines Streits und die Wiederherstellung eines guten Verhältnisses",
+      "meaning_en": "reconciliation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Versöhnung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Versöhnungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Versöhnung mit jemandem",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Versöhnung anstreben",
+          "gloss_en": "to seek reconciliation"
+        },
+        {
+          "phrase": "es kam zur Versöhnung",
+          "gloss_en": "a reconciliation took place"
+        },
+        {
+          "phrase": "eine späte Versöhnung",
+          "gloss_en": "a late reconciliation"
+        },
+        {
+          "phrase": "die Versöhnung mit dem Gegner",
+          "gloss_en": "reconciliation with the opponent"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach Jahren des Streits kam es endlich zur Versöhnung.",
+          "en": "After years of conflict, reconciliation finally came."
+        },
+        {
+          "de": "Sie hoffte auf eine Versöhnung mit ihrem Bruder.",
+          "en": "She hoped for a reconciliation with her brother."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Von privaten Streitigkeiten bis zu politischen Konflikten gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Aussöhnung",
+          "distinction": "oft im größeren, gesellschaftlichen Rahmen"
+        },
+        {
+          "lemma": "der Friedensschluss",
+          "distinction": "förmlich, betont das Ende eines Konflikts"
+        }
+      ]
+    },
+    "Entfremdung": {
+      "meaning_de": "das allmähliche Auseinanderleben und der Verlust von Nähe zwischen Menschen",
+      "meaning_en": "estrangement; alienation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Entfremdung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Entfremdung von jemandem",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine wachsende Entfremdung",
+          "gloss_en": "a growing estrangement"
+        },
+        {
+          "phrase": "die Entfremdung zwischen den Partnern",
+          "gloss_en": "the estrangement between the partners"
+        },
+        {
+          "phrase": "zur Entfremdung führen",
+          "gloss_en": "to lead to estrangement"
+        },
+        {
+          "phrase": "emotionale Entfremdung",
+          "gloss_en": "emotional alienation"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die lange Trennung führte zu einer schleichenden Entfremdung.",
+          "en": "The long separation led to a creeping estrangement."
+        },
+        {
+          "de": "Zwischen den einst engen Freunden war eine Entfremdung eingetreten.",
+          "en": "An estrangement had set in between the once close friends."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Etwas gehoben; auch soziologisch für die Entfremdung von der Arbeit.",
+      "near_synonyms": [
+        {
+          "lemma": "die Distanz",
+          "distinction": "neutraler, kann auch bewusst gewählt sein"
+        },
+        {
+          "lemma": "die Abkühlung",
+          "distinction": "bildlich, betont die nachlassenden Gefühle"
+        }
+      ]
+    },
+    "Bindung": {
+      "meaning_de": "eine enge gefühlsmäßige Verbindung zu einem Menschen oder einer Sache",
+      "meaning_en": "bond; attachment; tie",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bindung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bindungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Bindung an jemanden/etwas",
+          "cases": "an + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine enge Bindung",
+          "gloss_en": "a close bond"
+        },
+        {
+          "phrase": "eine Bindung eingehen",
+          "gloss_en": "to form an attachment"
+        },
+        {
+          "phrase": "die Bindung an die Eltern",
+          "gloss_en": "the attachment to one's parents"
+        },
+        {
+          "phrase": "eine emotionale Bindung",
+          "gloss_en": "an emotional bond"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zwischen Mutter und Kind besteht eine enge Bindung.",
+          "en": "There is a close bond between mother and child."
+        },
+        {
+          "de": "Er scheute jede feste Bindung.",
+          "en": "He shied away from any firm commitment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Reicht von der psychologischen Bindung bis zur festen Beziehung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verbundenheit",
+          "distinction": "betont das Gefühl der Zusammengehörigkeit"
+        },
+        {
+          "lemma": "das Band",
+          "distinction": "bildlich-gehoben für eine Verbindung"
+        }
+      ]
+    },
+    "Charakterzug": {
+      "meaning_de": "ein einzelnes, kennzeichnendes Merkmal im Wesen eines Menschen",
+      "meaning_en": "character trait",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Charakterzugs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Charakterzüge"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein sympathischer Charakterzug",
+          "gloss_en": "a likeable character trait"
+        },
+        {
+          "phrase": "ein hervorstechender Charakterzug",
+          "gloss_en": "a striking character trait"
+        },
+        {
+          "phrase": "ein negativer Charakterzug",
+          "gloss_en": "a negative character trait"
+        },
+        {
+          "phrase": "einen Charakterzug offenbaren",
+          "gloss_en": "to reveal a character trait"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Großzügigkeit ist einer ihrer schönsten Charakterzüge.",
+          "en": "Generosity is one of her finest character traits."
+        },
+        {
+          "de": "Seine Ungeduld ist ein wenig sympathischer Charakterzug.",
+          "en": "His impatience is a rather unappealing character trait."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Sachlich; typisch für Personenbeschreibungen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Eigenschaft",
+          "distinction": "allgemeiner, auch bei Dingen verwendbar"
+        },
+        {
+          "lemma": "das Wesensmerkmal",
+          "distinction": "gehobener, betont das Grundlegende"
+        }
+      ]
+    },
+    "Selbstbeherrschung": {
+      "meaning_de": "die Fähigkeit, seine Gefühle und Impulse bewusst zu kontrollieren",
+      "meaning_en": "self-control; self-restraint",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Selbstbeherrschung"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Selbstbeherrschung verlieren",
+          "gloss_en": "to lose one's self-control"
+        },
+        {
+          "phrase": "eiserne Selbstbeherrschung",
+          "gloss_en": "iron self-control"
+        },
+        {
+          "phrase": "mit großer Selbstbeherrschung",
+          "gloss_en": "with great self-restraint"
+        },
+        {
+          "phrase": "die Selbstbeherrschung bewahren",
+          "gloss_en": "to keep one's self-control"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Es kostete ihn große Selbstbeherrschung, ruhig zu bleiben.",
+          "en": "It took him great self-control to stay calm."
+        },
+        {
+          "de": "Sie verlor für einen Moment die Selbstbeherrschung.",
+          "en": "For a moment she lost her self-control."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv besetzt; eine geschätzte charakterliche Stärke.",
+      "near_synonyms": [
+        {
+          "lemma": "die Selbstdisziplin",
+          "distinction": "betont das langfristige, zielgerichtete Steuern"
+        },
+        {
+          "lemma": "die Beherrschtheit",
+          "distinction": "der Zustand, nicht die Fähigkeit"
+        }
+      ]
+    },
+    "Herzenskälte": {
+      "meaning_de": "der Mangel an Mitgefühl und Wärme im Umgang mit anderen",
+      "meaning_en": "coldheartedness; heartlessness",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Herzenskälte"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eisige Herzenskälte",
+          "gloss_en": "icy coldheartedness"
+        },
+        {
+          "phrase": "mit Herzenskälte reagieren",
+          "gloss_en": "to react with coldheartedness"
+        },
+        {
+          "phrase": "jemandes Herzenskälte",
+          "gloss_en": "someone's coldheartedness"
+        },
+        {
+          "phrase": "eine erschreckende Herzenskälte",
+          "gloss_en": "a shocking heartlessness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine Herzenskälte gegenüber den Bedürftigen entsetzte alle.",
+          "en": "His coldheartedness toward the needy appalled everyone."
+        },
+        {
+          "de": "Hinter der freundlichen Fassade verbarg sich eine erstaunliche Herzenskälte.",
+          "en": "Behind the friendly facade lurked a surprising coldheartedness."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Gehoben und literarisch; stark wertend und selten im Alltag.",
+      "near_synonyms": [
+        {
+          "lemma": "die Gefühlskälte",
+          "distinction": "nüchterner, oft psychologisch gebraucht"
+        },
+        {
+          "lemma": "die Kaltherzigkeit",
+          "distinction": "nahezu bedeutungsgleich, etwas seltener"
+        }
+      ]
+    },
+    "Schadenfreude": {
+      "meaning_de": "die boshafte Freude über das Missgeschick oder Unglück eines anderen",
+      "meaning_en": "schadenfreude; malicious glee",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Schadenfreude"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "klammheimliche Schadenfreude",
+          "gloss_en": "secret malicious glee"
+        },
+        {
+          "phrase": "mit Schadenfreude",
+          "gloss_en": "with schadenfreude"
+        },
+        {
+          "phrase": "seine Schadenfreude nicht verbergen",
+          "gloss_en": "to not hide one's glee"
+        },
+        {
+          "phrase": "reine Schadenfreude",
+          "gloss_en": "pure schadenfreude"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit kaum verhohlener Schadenfreude sah sie ihn stolpern.",
+          "en": "With barely concealed glee she watched him stumble."
+        },
+        {
+          "de": "Seine Schadenfreude über meinen Fehler war offensichtlich.",
+          "en": "His glee over my mistake was obvious."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; das Gefühl gilt als wenig ehrenhaft.",
+      "near_synonyms": [
+        {
+          "lemma": "der Hohn",
+          "distinction": "aktiv geäußerter, verächtlicher Spott"
+        },
+        {
+          "lemma": "die Häme",
+          "distinction": "betont die boshafte, gehässige Äußerung"
+        }
+      ]
+    },
+    "Reue": {
+      "meaning_de": "das schmerzliche Bedauern über eine eigene Tat oder Schuld",
+      "meaning_en": "remorse; repentance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Reue"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Reue über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "aufrichtige Reue",
+          "gloss_en": "sincere remorse"
+        },
+        {
+          "phrase": "Reue zeigen",
+          "gloss_en": "to show remorse"
+        },
+        {
+          "phrase": "von Reue geplagt",
+          "gloss_en": "plagued by remorse"
+        },
+        {
+          "phrase": "tiefe Reue empfinden",
+          "gloss_en": "to feel deep remorse"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er zeigte aufrichtige Reue über seine Tat.",
+          "en": "He showed sincere remorse for his deed."
+        },
+        {
+          "de": "Von Reue geplagt, entschuldigte sie sich bei allen.",
+          "en": "Plagued by remorse, she apologized to everyone."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Etwas gehoben; auch religiös-moralisch besetzt.",
+      "near_synonyms": [
+        {
+          "lemma": "das Bedauern",
+          "distinction": "schwächer, ohne ausgeprägtes Schuldgefühl"
+        },
+        {
+          "lemma": "die Zerknirschung",
+          "distinction": "gehoben, betont die seelische Niedergeschlagenheit"
+        }
+      ]
+    },
+    "Neid": {
+      "meaning_de": "das missgünstige Gefühl über den Besitz, Erfolg oder das Glück eines anderen",
+      "meaning_en": "envy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Neids"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Neid auf jemanden",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "blasser Neid",
+          "gloss_en": "sheer envy"
+        },
+        {
+          "phrase": "vor Neid erblassen",
+          "gloss_en": "to turn pale with envy"
+        },
+        {
+          "phrase": "Neid erregen",
+          "gloss_en": "to arouse envy"
+        },
+        {
+          "phrase": "aus Neid handeln",
+          "gloss_en": "to act out of envy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Erfolg erregte den Neid der Kollegen.",
+          "en": "Her success aroused the envy of her colleagues."
+        },
+        {
+          "de": "Vor Neid wurde er ganz blass.",
+          "en": "He turned quite pale with envy."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; bezieht sich auf Besitz und Erfolg, nicht auf Zuneigung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Missgunst",
+          "distinction": "gehobener, betont das Nichtgönnen"
+        },
+        {
+          "lemma": "die Eifersucht",
+          "distinction": "bezieht sich auf Zuneigung, nicht auf Besitz"
+        }
+      ]
+    },
+    "Missgunst": {
+      "meaning_de": "die Haltung, einem anderen sein Glück oder seinen Erfolg nicht zu gönnen",
+      "meaning_en": "resentment; begrudging attitude",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Missgunst"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "kleinliche Missgunst",
+          "gloss_en": "petty resentment"
+        },
+        {
+          "phrase": "von Missgunst erfüllt",
+          "gloss_en": "filled with resentment"
+        },
+        {
+          "phrase": "aus Missgunst handeln",
+          "gloss_en": "to act out of resentment"
+        },
+        {
+          "phrase": "Neid und Missgunst",
+          "gloss_en": "envy and resentment"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Aus reiner Missgunst redete er ihren Erfolg klein.",
+          "en": "Out of sheer resentment he belittled her success."
+        },
+        {
+          "de": "Ihre Worte waren von Missgunst getragen.",
+          "en": "Her words were laden with resentment."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Etwas gehoben; enger mit dem Nichtgönnen verbunden als Neid.",
+      "near_synonyms": [
+        {
+          "lemma": "der Neid",
+          "distinction": "alltäglicher, betont das eigene Begehren"
+        },
+        {
+          "lemma": "der Groll",
+          "distinction": "länger anhaltender Unwille, oft nach einer Kränkung"
+        }
+      ]
+    },
+    "sich verlieben": {
+      "meaning_de": "beginnen, starke Gefühle der Zuneigung und Verliebtheit für jemanden zu empfinden",
+      "meaning_en": "to fall in love",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verliebt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verliebte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich verliebt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verliebte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich in jemanden verlieben",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich unsterblich verlieben",
+          "gloss_en": "to fall head over heels in love"
+        },
+        {
+          "phrase": "sich auf den ersten Blick verlieben",
+          "gloss_en": "to fall in love at first sight"
+        },
+        {
+          "phrase": "sich Hals über Kopf verlieben",
+          "gloss_en": "to fall madly in love"
+        },
+        {
+          "phrase": "sich neu verlieben",
+          "gloss_en": "to fall in love again"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie verliebte sich Hals über Kopf in ihn.",
+          "en": "She fell head over heels in love with him."
+        },
+        {
+          "de": "Auf der Reise hat er sich in eine Einheimische verliebt.",
+          "en": "On the trip he fell in love with a local woman."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; die Rektion „sich in + Akk.\" ist zu beachten.",
+      "near_synonyms": [
+        {
+          "lemma": "sich verknallen",
+          "distinction": "umgangssprachlich, oft leichter und flüchtiger"
+        },
+        {
+          "lemma": "schwärmen",
+          "distinction": "aus der Ferne bewundern, ohne Beziehung"
+        }
+      ]
+    },
+    "vertrauen": {
+      "meaning_de": "sich auf jemanden oder etwas fest verlassen",
+      "meaning_en": "to trust; to have confidence in",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vertraut"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vertraute"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vertraut"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vertraute"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem vertrauen",
+          "cases": "Dat."
+        },
+        {
+          "pattern": "auf etwas vertrauen",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemandem blind vertrauen",
+          "gloss_en": "to trust someone blindly"
+        },
+        {
+          "phrase": "jemandem voll und ganz vertrauen",
+          "gloss_en": "to trust someone completely"
+        },
+        {
+          "phrase": "auf sein Glück vertrauen",
+          "gloss_en": "to trust in one's luck"
+        },
+        {
+          "phrase": "seinem Instinkt vertrauen",
+          "gloss_en": "to trust one's instinct"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich vertraue dir vollkommen.",
+          "en": "I trust you completely."
+        },
+        {
+          "de": "Sie vertraute darauf, dass alles gut ausgehen würde.",
+          "en": "She trusted that everything would turn out well."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; die Person steht im Dativ, nicht im Akkusativ.",
+      "near_synonyms": [
+        {
+          "lemma": "sich verlassen auf",
+          "distinction": "betont das Sich-Stützen auf jemanden"
+        },
+        {
+          "lemma": "glauben",
+          "distinction": "etwas für wahr halten, nicht unbedingt Zutrauen"
+        }
+      ]
+    },
+    "misstrauen": {
+      "meaning_de": "jemandem oder etwas kein Vertrauen entgegenbringen, Argwohn hegen",
+      "meaning_en": "to distrust; to be suspicious of",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er misstraut"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er misstraute"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat misstraut"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er misstraute"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem misstrauen",
+          "cases": "Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemandem zutiefst misstrauen",
+          "gloss_en": "to deeply distrust someone"
+        },
+        {
+          "phrase": "seinen eigenen Augen misstrauen",
+          "gloss_en": "to distrust one's own eyes"
+        },
+        {
+          "phrase": "den schönen Worten misstrauen",
+          "gloss_en": "to distrust the fine words"
+        },
+        {
+          "phrase": "instinktiv misstrauen",
+          "gloss_en": "to instinctively distrust"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie misstraute seinen Versprechen.",
+          "en": "She distrusted his promises."
+        },
+        {
+          "de": "Er misstraute dem plötzlichen Sinneswandel seines Chefs.",
+          "en": "He was suspicious of his boss's sudden change of mind."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Das Gegenstück zu vertrauen; die Person steht im Dativ.",
+      "near_synonyms": [
+        {
+          "lemma": "zweifeln an",
+          "distinction": "betont Unsicherheit, nicht ausgeprägten Argwohn"
+        },
+        {
+          "lemma": "argwöhnen",
+          "distinction": "gehoben, aktives Vermuten von Schlechtem"
+        }
+      ]
+    },
+    "sich streiten": {
+      "meaning_de": "mit jemandem heftig und mit gegensätzlichen Meinungen auseinandergeraten",
+      "meaning_en": "to argue; to quarrel",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er streitet sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er stritt sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich gestritten"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er stritte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich mit jemandem streiten",
+          "cases": "mit + Dat."
+        },
+        {
+          "pattern": "sich über etwas streiten",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich lautstark streiten",
+          "gloss_en": "to argue loudly"
+        },
+        {
+          "phrase": "sich um Geld streiten",
+          "gloss_en": "to quarrel over money"
+        },
+        {
+          "phrase": "sich ständig streiten",
+          "gloss_en": "to argue constantly"
+        },
+        {
+          "phrase": "sich heftig streiten",
+          "gloss_en": "to argue fiercely"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister stritten sich ständig um Kleinigkeiten.",
+          "en": "The siblings were constantly quarreling over trifles."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Nachbarn über den Zaun gestritten.",
+          "en": "She argued with her neighbor about the fence."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; „um etwas\" nennt den Streitgegenstand, „über etwas\" das Thema.",
+      "near_synonyms": [
+        {
+          "lemma": "sich zanken",
+          "distinction": "eher wegen Kleinigkeiten, umgangssprachlich"
+        },
+        {
+          "lemma": "sich auseinandersetzen",
+          "distinction": "sachlicher, muss kein Streit sein"
+        }
+      ]
+    },
+    "sich versöhnen": {
+      "meaning_de": "einen Streit beilegen und wieder ein gutes Verhältnis herstellen",
+      "meaning_en": "to reconcile; to make up",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er versöhnt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er versöhnte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich versöhnt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er versöhnte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich mit jemandem versöhnen",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich wieder versöhnen",
+          "gloss_en": "to make up again"
+        },
+        {
+          "phrase": "sich nach dem Streit versöhnen",
+          "gloss_en": "to reconcile after the argument"
+        },
+        {
+          "phrase": "sich mit dem Bruder versöhnen",
+          "gloss_en": "to reconcile with one's brother"
+        },
+        {
+          "phrase": "sich rasch versöhnen",
+          "gloss_en": "to reconcile quickly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem heftigen Streit versöhnten sie sich schnell wieder.",
+          "en": "After the fierce argument they quickly made up again."
+        },
+        {
+          "de": "Er hat sich endlich mit seinem Vater versöhnt.",
+          "en": "He has finally reconciled with his father."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; das Gegenteil von sich streiten.",
+      "near_synonyms": [
+        {
+          "lemma": "sich aussöhnen",
+          "distinction": "gehobener, oft nach langem Zerwürfnis"
+        },
+        {
+          "lemma": "sich vertragen",
+          "distinction": "umgangssprachlich, besonders bei Kindern"
+        }
+      ]
+    },
+    "kränken": {
+      "meaning_de": "jemanden in seinen Gefühlen oder seiner Ehre verletzen",
+      "meaning_en": "to hurt (someone's feelings); to offend",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er kränkt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er kränkte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gekränkt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er kränkte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden kränken",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemanden tief kränken",
+          "gloss_en": "to hurt someone deeply"
+        },
+        {
+          "phrase": "sich gekränkt fühlen",
+          "gloss_en": "to feel hurt"
+        },
+        {
+          "phrase": "jemandes Stolz kränken",
+          "gloss_en": "to wound someone's pride"
+        },
+        {
+          "phrase": "mit einer Bemerkung kränken",
+          "gloss_en": "to hurt with a remark"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Deine Bemerkung hat sie zutiefst gekränkt.",
+          "en": "Your remark hurt her deeply."
+        },
+        {
+          "de": "Er war gekränkt, weil man ihn nicht gefragt hatte.",
+          "en": "He was hurt because nobody had asked him."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bezieht sich auf seelische, nicht körperliche Verletzung.",
+      "near_synonyms": [
+        {
+          "lemma": "verletzen",
+          "distinction": "allgemeiner, auch körperlich zu verstehen"
+        },
+        {
+          "lemma": "beleidigen",
+          "distinction": "gröber, oft mit Absicht und durch Worte"
+        }
+      ]
+    },
+    "enttäuschen": {
+      "meaning_de": "die Erwartungen oder Hoffnungen eines anderen nicht erfüllen",
+      "meaning_en": "to disappoint; to let down",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er enttäuscht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er enttäuschte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat enttäuscht"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er enttäuschte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden enttäuschen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemanden bitter enttäuschen",
+          "gloss_en": "to bitterly disappoint someone"
+        },
+        {
+          "phrase": "jemandes Vertrauen enttäuschen",
+          "gloss_en": "to betray someone's trust"
+        },
+        {
+          "phrase": "die Erwartungen enttäuschen",
+          "gloss_en": "to fall short of expectations"
+        },
+        {
+          "phrase": "maßlos enttäuscht sein",
+          "gloss_en": "to be utterly disappointed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Ergebnis hat viele Fans enttäuscht.",
+          "en": "The result disappointed many fans."
+        },
+        {
+          "de": "Ich möchte dein Vertrauen nicht enttäuschen.",
+          "en": "I don't want to let down your trust."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; das Partizip „enttäuscht\" beschreibt oft den Gefühlszustand.",
+      "near_synonyms": [
+        {
+          "lemma": "im Stich lassen",
+          "distinction": "betont das Alleinlassen in der Not"
+        },
+        {
+          "lemma": "ernüchtern",
+          "distinction": "nimmt Illusionen, ohne persönliche Kränkung"
+        }
+      ]
+    },
+    "trösten": {
+      "meaning_de": "jemandem in Kummer oder Leid Zuspruch und Erleichterung geben",
+      "meaning_en": "to comfort; to console",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er tröstet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er tröstete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat getröstet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er tröstete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden trösten",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "sich mit etwas trösten",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein weinendes Kind trösten",
+          "gloss_en": "to comfort a crying child"
+        },
+        {
+          "phrase": "jemanden liebevoll trösten",
+          "gloss_en": "to comfort someone lovingly"
+        },
+        {
+          "phrase": "sich mit etwas trösten",
+          "gloss_en": "to console oneself with something"
+        },
+        {
+          "phrase": "tröstende Worte finden",
+          "gloss_en": "to find comforting words"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie tröstete das weinende Kind.",
+          "en": "She comforted the crying child."
+        },
+        {
+          "de": "Er tröstete sich mit dem Gedanken, dass es hätte schlimmer kommen können.",
+          "en": "He consoled himself with the thought that it could have been worse."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; reflexiv „sich trösten mit\" bedeutet sich hinwegzuhelfen.",
+      "near_synonyms": [
+        {
+          "lemma": "beruhigen",
+          "distinction": "betont das Besänftigen von Aufregung"
+        },
+        {
+          "lemma": "aufmuntern",
+          "distinction": "zielt auf gute Laune, nicht auf Trost bei Leid"
+        }
+      ]
+    },
+    "beneiden": {
+      "meaning_de": "auf den Besitz, das Glück oder den Erfolg eines anderen neidisch sein",
+      "meaning_en": "to envy",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er beneidet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er beneidete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat beneidet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er beneidete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden um etwas beneiden",
+          "cases": "Akk. + um + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemanden um seinen Erfolg beneiden",
+          "gloss_en": "to envy someone their success"
+        },
+        {
+          "phrase": "nicht zu beneiden sein",
+          "gloss_en": "to be not to be envied"
+        },
+        {
+          "phrase": "jemanden heimlich beneiden",
+          "gloss_en": "to secretly envy someone"
+        },
+        {
+          "phrase": "um etwas beneidet werden",
+          "gloss_en": "to be envied for something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich beneide dich um deine Gelassenheit.",
+          "en": "I envy you your composure."
+        },
+        {
+          "de": "In seiner Lage ist er wirklich nicht zu beneiden.",
+          "en": "In his situation he is really not to be envied."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; die Konstruktion „jemanden um etwas\" ist zu beachten.",
+      "near_synonyms": [
+        {
+          "lemma": "neiden",
+          "distinction": "gehoben und veraltend, „jemandem etwas neiden\""
+        },
+        {
+          "lemma": "missgönnen",
+          "distinction": "betont das aktive Nichtgönnen"
+        }
+      ]
+    },
+    "bewundern": {
+      "meaning_de": "jemanden oder etwas mit großer Anerkennung und Staunen betrachten",
+      "meaning_en": "to admire",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er bewundert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er bewunderte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat bewundert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er bewunderte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemanden für etwas bewundern",
+          "cases": "Akk. + für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemanden für seinen Mut bewundern",
+          "gloss_en": "to admire someone for their courage"
+        },
+        {
+          "phrase": "ein Kunstwerk bewundern",
+          "gloss_en": "to admire a work of art"
+        },
+        {
+          "phrase": "jemanden aufrichtig bewundern",
+          "gloss_en": "to sincerely admire someone"
+        },
+        {
+          "phrase": "etwas bewundernd betrachten",
+          "gloss_en": "to look at something admiringly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich bewundere sie für ihren Mut.",
+          "en": "I admire her for her courage."
+        },
+        {
+          "de": "Die Touristen bewunderten die alte Kathedrale.",
+          "en": "The tourists admired the old cathedral."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; bezieht sich auf Personen wie auf Dinge.",
+      "near_synonyms": [
+        {
+          "lemma": "verehren",
+          "distinction": "stärker, mit Hochachtung und Ehrfurcht"
+        },
+        {
+          "lemma": "schätzen",
+          "distinction": "nüchterner, betont die Wertschätzung"
+        }
+      ]
+    },
+    "sich sehnen": {
+      "meaning_de": "ein starkes, schmerzliches Verlangen nach jemandem oder etwas empfinden",
+      "meaning_en": "to long for; to yearn",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er sehnt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er sehnte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich gesehnt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er sehnte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich nach jemandem/etwas sehnen",
+          "cases": "nach + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich nach Ruhe sehnen",
+          "gloss_en": "to long for peace and quiet"
+        },
+        {
+          "phrase": "sich nach Hause sehnen",
+          "gloss_en": "to long for home"
+        },
+        {
+          "phrase": "sich verzweifelt sehnen",
+          "gloss_en": "to yearn desperately"
+        },
+        {
+          "phrase": "sich nach Nähe sehnen",
+          "gloss_en": "to long for closeness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach den langen Wochen sehnte sie sich nach Ruhe.",
+          "en": "After the long weeks she longed for some peace."
+        },
+        {
+          "de": "Er sehnte sich danach, endlich wieder zu Hause zu sein.",
+          "en": "He longed to be home again at last."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Emotional und leicht gehoben; häufig in gefühlvollen Kontexten.",
+      "near_synonyms": [
+        {
+          "lemma": "sich wünschen",
+          "distinction": "schwächer und alltäglicher"
+        },
+        {
+          "lemma": "schmachten",
+          "distinction": "literarisch-übertrieben, oft ironisch"
+        }
+      ]
+    },
+    "sich schämen": {
+      "meaning_de": "ein peinliches Gefühl wegen eigenen Verhaltens oder Versagens empfinden",
+      "meaning_en": "to be ashamed; to feel embarrassed",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er schämt sich"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er schämte sich"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat sich geschämt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er schämte sich"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "sich für etwas schämen",
+          "cases": "für + Akk."
+        },
+        {
+          "pattern": "sich vor jemandem schämen",
+          "cases": "vor + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "sich zu Tode schämen",
+          "gloss_en": "to be mortified"
+        },
+        {
+          "phrase": "sich für etwas schämen",
+          "gloss_en": "to be ashamed of something"
+        },
+        {
+          "phrase": "sich in Grund und Boden schämen",
+          "gloss_en": "to be utterly ashamed"
+        },
+        {
+          "phrase": "sich vor jemandem schämen",
+          "gloss_en": "to feel ashamed in front of someone"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie schämte sich für ihre unbedachten Worte.",
+          "en": "She was ashamed of her thoughtless words."
+        },
+        {
+          "de": "Ich schäme mich, dass ich dich vergessen habe.",
+          "en": "I'm ashamed that I forgot you."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; die Sache steht mit „für\", die Person mit „vor\".",
+      "near_synonyms": [
+        {
+          "lemma": "sich genieren",
+          "distinction": "schwächer, eher Verlegenheit als Scham"
+        },
+        {
+          "lemma": "erröten",
+          "distinction": "die sichtbare körperliche Reaktion darauf"
+        }
+      ]
+    },
+    "verzeihen": {
+      "meaning_de": "jemandem eine Schuld oder ein Unrecht nicht länger nachtragen",
+      "meaning_en": "to forgive; to pardon",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verzeiht"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verzieh"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verziehen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verziehe"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem etwas verzeihen",
+          "cases": "Dat. + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "jemandem einen Fehler verzeihen",
+          "gloss_en": "to forgive someone a mistake"
+        },
+        {
+          "phrase": "sich selbst nicht verzeihen können",
+          "gloss_en": "to be unable to forgive oneself"
+        },
+        {
+          "phrase": "jemandem von Herzen verzeihen",
+          "gloss_en": "to forgive someone wholeheartedly"
+        },
+        {
+          "phrase": "eine Unachtsamkeit verzeihen",
+          "gloss_en": "to forgive a careless slip"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Kannst du mir diesen Fehler verzeihen?",
+          "en": "Can you forgive me this mistake?"
+        },
+        {
+          "de": "Sie konnte ihm den Betrug nie verzeihen.",
+          "en": "She could never forgive him the betrayal."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltäglich; die Person steht im Dativ, die Schuld im Akkusativ.",
+      "near_synonyms": [
+        {
+          "lemma": "vergeben",
+          "distinction": "gehobener, oft moralisch-religiös"
+        },
+        {
+          "lemma": "entschuldigen",
+          "distinction": "eher das Hinnehmen einer kleineren Sache"
+        }
+      ]
+    },
+    "feinfühlig": {
+      "meaning_de": "mit viel Gespür für die Gefühle und Empfindungen anderer",
+      "meaning_en": "sensitive; perceptive; tactful",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "feinfühliger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am feinfühligsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein feinfühliger Mensch",
+          "gloss_en": "a sensitive person"
+        },
+        {
+          "phrase": "feinfühlig reagieren",
+          "gloss_en": "to react sensitively"
+        },
+        {
+          "phrase": "feinfühlig mit jemandem umgehen",
+          "gloss_en": "to deal sensitively with someone"
+        },
+        {
+          "phrase": "ein feinfühliges Gespür",
+          "gloss_en": "a delicate intuition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ging feinfühlig auf die Sorgen ihrer Freundin ein.",
+          "en": "She responded sensitively to her friend's worries."
+        },
+        {
+          "de": "Ein feinfühliger Therapeut erkennt auch unausgesprochene Ängste.",
+          "en": "A perceptive therapist recognizes unspoken fears too."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; beschreibt ein feines Gespür im Umgang mit Menschen.",
+      "near_synonyms": [
+        {
+          "lemma": "einfühlsam",
+          "distinction": "betont das Sich-Hineinversetzen, fast bedeutungsgleich"
+        },
+        {
+          "lemma": "sensibel",
+          "distinction": "kann auch Empfindlichkeit oder Verletzlichkeit meinen"
+        }
+      ]
+    },
+    "einfühlsam": {
+      "meaning_de": "fähig, sich gut in die Lage und Gefühle anderer hineinzuversetzen",
+      "meaning_en": "empathetic; understanding",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "einfühlsamer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am einfühlsamsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein einfühlsamer Zuhörer",
+          "gloss_en": "an empathetic listener"
+        },
+        {
+          "phrase": "einfühlsam reagieren",
+          "gloss_en": "to react empathetically"
+        },
+        {
+          "phrase": "ein einfühlsames Gespräch",
+          "gloss_en": "an understanding conversation"
+        },
+        {
+          "phrase": "jemanden einfühlsam begleiten",
+          "gloss_en": "to accompany someone with empathy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Arzt erklärte die Diagnose sehr einfühlsam.",
+          "en": "The doctor explained the diagnosis very empathetically."
+        },
+        {
+          "de": "Sie ist eine einfühlsame Zuhörerin.",
+          "en": "She is an empathetic listener."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; besonders für Zuhören und Begleiten gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "feinfühlig",
+          "distinction": "betont das feine Gespür, fast bedeutungsgleich"
+        },
+        {
+          "lemma": "verständnisvoll",
+          "distinction": "betont Nachsicht und Akzeptanz"
+        }
+      ]
+    },
+    "taktvoll": {
+      "meaning_de": "rücksichtsvoll und mit Feingefühl im Umgang mit anderen",
+      "meaning_en": "tactful",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "taktvoller"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am taktvollsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine taktvolle Bemerkung",
+          "gloss_en": "a tactful remark"
+        },
+        {
+          "phrase": "sich taktvoll verhalten",
+          "gloss_en": "to behave tactfully"
+        },
+        {
+          "phrase": "taktvoll schweigen",
+          "gloss_en": "to remain tactfully silent"
+        },
+        {
+          "phrase": "taktvoll auf etwas hinweisen",
+          "gloss_en": "to point something out tactfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie wies ihn taktvoll auf seinen Fehler hin.",
+          "en": "She tactfully pointed out his mistake."
+        },
+        {
+          "de": "Es war taktvoll von ihm, das Thema nicht anzusprechen.",
+          "en": "It was tactful of him not to bring up the subject."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; betont angemessenes, rücksichtsvolles Verhalten.",
+      "near_synonyms": [
+        {
+          "lemma": "rücksichtsvoll",
+          "distinction": "betont die Rücksichtnahme allgemein"
+        },
+        {
+          "lemma": "diskret",
+          "distinction": "betont Verschwiegenheit und Zurückhaltung"
+        }
+      ]
+    },
+    "rücksichtslos": {
+      "meaning_de": "ohne Rücksicht auf die Gefühle, Bedürfnisse oder Rechte anderer",
+      "meaning_en": "inconsiderate; ruthless",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "rücksichtsloser"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am rücksichtslosesten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "rücksichtslos gegenüber jemandem",
+          "cases": "gegenüber + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "rücksichtslos handeln",
+          "gloss_en": "to act ruthlessly"
+        },
+        {
+          "phrase": "ein rücksichtsloser Fahrer",
+          "gloss_en": "a reckless driver"
+        },
+        {
+          "phrase": "rücksichtslos gegen andere",
+          "gloss_en": "ruthless toward others"
+        },
+        {
+          "phrase": "rücksichtslos seine Ziele verfolgen",
+          "gloss_en": "to pursue one's goals ruthlessly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er drängelte sich rücksichtslos nach vorn.",
+          "en": "He pushed his way to the front ruthlessly."
+        },
+        {
+          "de": "Sie verfolgt ihre Ziele rücksichtslos.",
+          "en": "She pursues her goals ruthlessly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Abwertend; reicht vom Straßenverkehr bis zu skrupellosem Ehrgeiz.",
+      "near_synonyms": [
+        {
+          "lemma": "skrupellos",
+          "distinction": "betont fehlendes Gewissen, noch stärker"
+        },
+        {
+          "lemma": "egoistisch",
+          "distinction": "betont die Ichbezogenheit"
+        }
+      ]
+    },
+    "gutmütig": {
+      "meaning_de": "von Natur aus freundlich, nachsichtig und hilfsbereit",
+      "meaning_en": "good-natured; kind-hearted",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "gutmütiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am gutmütigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gutmütiger Kerl",
+          "gloss_en": "a good-natured fellow"
+        },
+        {
+          "phrase": "ein gutmütiges Wesen",
+          "gloss_en": "a kind-hearted nature"
+        },
+        {
+          "phrase": "gutmütig über etwas hinwegsehen",
+          "gloss_en": "to good-naturedly overlook something"
+        },
+        {
+          "phrase": "gutmütig spotten",
+          "gloss_en": "to tease good-naturedly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er ist ein gutmütiger Kerl, der niemandem etwas abschlagen kann.",
+          "en": "He's a good-natured fellow who can't say no to anyone."
+        },
+        {
+          "de": "Sie ertrug die Neckereien gutmütig.",
+          "en": "She endured the teasing good-naturedly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Meist positiv, kann aber auch leichte Gutgläubigkeit andeuten.",
+      "near_synonyms": [
+        {
+          "lemma": "gutherzig",
+          "distinction": "betont das gute Herz, die Herzensgüte"
+        },
+        {
+          "lemma": "gutgläubig",
+          "distinction": "betont Vertrauensseligkeit, oft naiv"
+        }
+      ]
+    },
+    "launisch": {
+      "meaning_de": "in der Stimmung schnell und unberechenbar wechselnd",
+      "meaning_en": "moody; temperamental",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "launischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am launischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein launischer Mensch",
+          "gloss_en": "a moody person"
+        },
+        {
+          "phrase": "launisch reagieren",
+          "gloss_en": "to react moodily"
+        },
+        {
+          "phrase": "launisch wie das Wetter",
+          "gloss_en": "as changeable as the weather"
+        },
+        {
+          "phrase": "launische Anwandlungen",
+          "gloss_en": "capricious moods"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ist morgens oft launisch und schweigsam.",
+          "en": "In the mornings she is often moody and taciturn."
+        },
+        {
+          "de": "Sein launisches Verhalten machte den Umgang schwierig.",
+          "en": "His moody behavior made dealing with him difficult."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Leicht abwertend; betont die Unberechenbarkeit der Stimmung.",
+      "near_synonyms": [
+        {
+          "lemma": "reizbar",
+          "distinction": "betont die schnelle Gereiztheit"
+        },
+        {
+          "lemma": "unberechenbar",
+          "distinction": "betont die Unvorhersehbarkeit allgemein"
+        }
+      ]
+    },
+    "reizbar": {
+      "meaning_de": "leicht zu ärgern oder aus der Fassung zu bringen",
+      "meaning_en": "irritable; touchy",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "reizbarer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am reizbarsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "leicht reizbar",
+          "gloss_en": "easily irritated"
+        },
+        {
+          "phrase": "ein reizbarer Charakter",
+          "gloss_en": "an irritable character"
+        },
+        {
+          "phrase": "reizbar reagieren",
+          "gloss_en": "to react irritably"
+        },
+        {
+          "phrase": "vor Müdigkeit reizbar sein",
+          "gloss_en": "to be irritable from tiredness"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Vor Müdigkeit war er den ganzen Tag reizbar.",
+          "en": "He was irritable all day from tiredness."
+        },
+        {
+          "de": "Sie reagiert in letzter Zeit sehr reizbar.",
+          "en": "She has been reacting very irritably lately."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Leicht abwertend; beschreibt eine Neigung zu schneller Gereiztheit.",
+      "near_synonyms": [
+        {
+          "lemma": "gereizt",
+          "distinction": "beschreibt den aktuellen Zustand, nicht die Veranlagung"
+        },
+        {
+          "lemma": "jähzornig",
+          "distinction": "stärker, mit plötzlichen Wutausbrüchen"
+        }
+      ]
+    },
+    "aufgeschlossen": {
+      "meaning_de": "offen und interessiert gegenüber neuen Ideen, Menschen und Erfahrungen",
+      "meaning_en": "open-minded; receptive",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "aufgeschlossener"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am aufgeschlossensten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "aufgeschlossen gegenüber etwas",
+          "cases": "gegenüber + Dat."
+        },
+        {
+          "pattern": "für etwas aufgeschlossen sein",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "aufgeschlossen gegenüber Neuem",
+          "gloss_en": "open to new things"
+        },
+        {
+          "phrase": "ein aufgeschlossener Mensch",
+          "gloss_en": "an open-minded person"
+        },
+        {
+          "phrase": "für neue Ideen aufgeschlossen",
+          "gloss_en": "receptive to new ideas"
+        },
+        {
+          "phrase": "weltoffen und aufgeschlossen",
+          "gloss_en": "cosmopolitan and open-minded"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ist neuen Technologien gegenüber sehr aufgeschlossen.",
+          "en": "She is very open to new technologies."
+        },
+        {
+          "de": "Er zeigte sich für unsere Vorschläge aufgeschlossen.",
+          "en": "He proved receptive to our suggestions."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; ein geschätzter Wesenszug, oft in Bewerbungen genannt.",
+      "near_synonyms": [
+        {
+          "lemma": "weltoffen",
+          "distinction": "betont Offenheit gegenüber Kulturen und der Welt"
+        },
+        {
+          "lemma": "tolerant",
+          "distinction": "betont das Dulden anderer Ansichten"
+        }
+      ]
+    },
+    "eigensinnig": {
+      "meaning_de": "hartnäckig auf der eigenen Meinung bestehend, ohne auf andere zu hören",
+      "meaning_en": "stubborn; headstrong; willful",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "eigensinniger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am eigensinnigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein eigensinniges Kind",
+          "gloss_en": "a willful child"
+        },
+        {
+          "phrase": "eigensinnig auf etwas beharren",
+          "gloss_en": "to stubbornly insist on something"
+        },
+        {
+          "phrase": "eigensinnig handeln",
+          "gloss_en": "to act headstrongly"
+        },
+        {
+          "phrase": "ein eigensinniger Charakter",
+          "gloss_en": "a headstrong character"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das eigensinnige Kind wollte sich nichts sagen lassen.",
+          "en": "The willful child refused to be told anything."
+        },
+        {
+          "de": "Er verfolgte eigensinnig seinen eigenen Weg.",
+          "en": "He willfully went his own way."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Meist leicht abwertend, kann aber auch eigenständige Willensstärke andeuten.",
+      "near_synonyms": [
+        {
+          "lemma": "stur",
+          "distinction": "umgangssprachlicher und deutlich abwertender"
+        },
+        {
+          "lemma": "starrköpfig",
+          "distinction": "betont die Unnachgiebigkeit noch stärker"
+        }
+      ]
+    },
+    "überheblich": {
+      "meaning_de": "sich für besser und wichtiger haltend als andere",
+      "meaning_en": "arrogant; presumptuous; conceited",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "überheblicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am überheblichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein überhebliches Lächeln",
+          "gloss_en": "a conceited smile"
+        },
+        {
+          "phrase": "sich überheblich verhalten",
+          "gloss_en": "to behave arrogantly"
+        },
+        {
+          "phrase": "ein überheblicher Ton",
+          "gloss_en": "a presumptuous tone"
+        },
+        {
+          "phrase": "überheblich auf andere herabsehen",
+          "gloss_en": "to look down on others arrogantly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sein überhebliches Auftreten stieß viele vor den Kopf.",
+          "en": "His arrogant manner offended many."
+        },
+        {
+          "de": "Sie lächelte überheblich, als hätte sie längst gewonnen.",
+          "en": "She smiled conceitedly, as if she had long since won."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Abwertend; ein deutlich negativer Charakterzug.",
+      "near_synonyms": [
+        {
+          "lemma": "arrogant",
+          "distinction": "nahezu bedeutungsgleich, etwas gängiger"
+        },
+        {
+          "lemma": "hochmütig",
+          "distinction": "gehobener, betont Stolz und Herablassung"
+        }
+      ]
+    },
+    "nachtragend": {
+      "meaning_de": "dazu neigend, erlittenes Unrecht lange übelzunehmen und nicht zu verzeihen",
+      "meaning_en": "resentful; unforgiving",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "nachtragender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am nachtragendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein nachtragender Mensch",
+          "gloss_en": "a resentful person"
+        },
+        {
+          "phrase": "nachtragend sein",
+          "gloss_en": "to hold grudges"
+        },
+        {
+          "phrase": "nicht nachtragend sein",
+          "gloss_en": "to not hold grudges"
+        },
+        {
+          "phrase": "nachtragend reagieren",
+          "gloss_en": "to react resentfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie ist überhaupt nicht nachtragend und vergisst Streit schnell.",
+          "en": "She isn't resentful at all and forgets quarrels quickly."
+        },
+        {
+          "de": "Er kann sehr nachtragend sein, wenn man ihn kränkt.",
+          "en": "He can be very resentful when you hurt him."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Leicht abwertend; das Gegenteil von versöhnlich.",
+      "near_synonyms": [
+        {
+          "lemma": "rachsüchtig",
+          "distinction": "stärker, will aktiv Vergeltung"
+        },
+        {
+          "lemma": "grollend",
+          "distinction": "gehoben, betont den anhaltenden Groll"
+        }
+      ]
+    },
+    "versöhnlich": {
+      "meaning_de": "zur Aussöhnung bereit; friedlich und milde gestimmt",
+      "meaning_en": "conciliatory; forgiving",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "versöhnlicher"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am versöhnlichsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein versöhnlicher Ton",
+          "gloss_en": "a conciliatory tone"
+        },
+        {
+          "phrase": "sich versöhnlich zeigen",
+          "gloss_en": "to show oneself conciliatory"
+        },
+        {
+          "phrase": "ein versöhnliches Ende",
+          "gloss_en": "a conciliatory ending"
+        },
+        {
+          "phrase": "in versöhnlicher Stimmung",
+          "gloss_en": "in a forgiving mood"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Ende schlug er einen versöhnlichen Ton an.",
+          "en": "In the end he struck a conciliatory tone."
+        },
+        {
+          "de": "Der Film hat ein versöhnliches Ende.",
+          "en": "The film has a conciliatory ending."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; das Gegenteil von nachtragend.",
+      "near_synonyms": [
+        {
+          "lemma": "friedfertig",
+          "distinction": "betont die grundsätzliche Friedliebe"
+        },
+        {
+          "lemma": "nachsichtig",
+          "distinction": "betont die Milde bei Fehlern anderer"
+        }
+      ]
+    },
+    "vertrauenswürdig": {
+      "meaning_de": "so, dass man ihm oder ihr vertrauen kann; verlässlich und ehrlich",
+      "meaning_en": "trustworthy; reliable",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "vertrauenswürdiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am vertrauenswürdigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine vertrauenswürdige Person",
+          "gloss_en": "a trustworthy person"
+        },
+        {
+          "phrase": "eine vertrauenswürdige Quelle",
+          "gloss_en": "a trustworthy source"
+        },
+        {
+          "phrase": "vertrauenswürdig wirken",
+          "gloss_en": "to seem trustworthy"
+        },
+        {
+          "phrase": "einen vertrauenswürdigen Eindruck machen",
+          "gloss_en": "to make a trustworthy impression"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er machte einen durchweg vertrauenswürdigen Eindruck.",
+          "en": "He made a thoroughly trustworthy impression."
+        },
+        {
+          "de": "Beziehen Sie Ihre Informationen nur aus vertrauenswürdigen Quellen.",
+          "en": "Get your information only from trustworthy sources."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Positiv; gilt für Personen wie für Quellen und Informationen.",
+      "near_synonyms": [
+        {
+          "lemma": "verlässlich",
+          "distinction": "betont, dass man sich darauf verlassen kann"
+        },
+        {
+          "lemma": "seriös",
+          "distinction": "betont Anständigkeit und guten Ruf"
+        }
+      ]
+    }
+  }
+}

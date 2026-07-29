@@ -1,0 +1,2948 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "B2 batch: Wirtschaft, Handel & Geld — 50 dossiers (Nomen, Verben, Adjektive rund um Finanzen und Handel).",
+  "dossiers": {
+    "Zahlungsfrist": {
+      "meaning_de": "der Zeitraum, innerhalb dessen eine Rechnung oder Schuld bezahlt werden muss",
+      "meaning_en": "payment deadline; term of payment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zahlungsfrist"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zahlungsfristen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Zahlungsfrist einhalten",
+          "gloss_en": "to meet the payment deadline"
+        },
+        {
+          "phrase": "die Zahlungsfrist überschreiten",
+          "gloss_en": "to miss the payment deadline"
+        },
+        {
+          "phrase": "eine Zahlungsfrist setzen",
+          "gloss_en": "to set a payment deadline"
+        },
+        {
+          "phrase": "die Zahlungsfrist verlängern",
+          "gloss_en": "to extend the payment deadline"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Zahlungsfrist beträgt 14 Tage nach Rechnungseingang.",
+          "en": "The payment term is 14 days after receipt of the invoice."
+        },
+        {
+          "de": "Wenn Sie die Zahlungsfrist versäumen, fallen Mahngebühren an.",
+          "en": "If you miss the payment deadline, reminder fees will apply."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; fester Begriff im Geschäfts- und Rechnungsverkehr.",
+      "near_synonyms": [
+        {
+          "lemma": "die Frist",
+          "distinction": "allgemeiner, jede Art von Termin, nicht nur zum Zahlen"
+        },
+        {
+          "lemma": "das Zahlungsziel",
+          "distinction": "kaufmännisch, bezeichnet oft denselben Endtermin"
+        }
+      ]
+    },
+    "Stornierung": {
+      "meaning_de": "das Rückgängigmachen einer Buchung, Bestellung oder eines Vertrags",
+      "meaning_en": "cancellation (of a booking or order)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Stornierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Stornierungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Stornierung einer Buchung",
+          "cases": "Gen."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Stornierung vornehmen",
+          "gloss_en": "to carry out a cancellation"
+        },
+        {
+          "phrase": "die kostenlose Stornierung",
+          "gloss_en": "free cancellation"
+        },
+        {
+          "phrase": "die Stornierung bestätigen",
+          "gloss_en": "to confirm the cancellation"
+        },
+        {
+          "phrase": "die Stornierung einer Bestellung",
+          "gloss_en": "the cancellation of an order"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Eine Stornierung ist bis 24 Stunden vor Anreise kostenlos.",
+          "en": "Cancellation is free up to 24 hours before arrival."
+        },
+        {
+          "de": "Für die Stornierung des Fluges wurde eine Gebühr fällig.",
+          "en": "A fee was charged for cancelling the flight."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch für Reisen, Hotels und Online-Bestellungen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Absage",
+          "distinction": "allgemeiner, das Absagen eines Termins oder Vorhabens"
+        },
+        {
+          "lemma": "der Widerruf",
+          "distinction": "das Zurücknehmen einer Erklärung, oft juristisch"
+        }
+      ]
+    },
+    "Kredit": {
+      "meaning_de": "geliehenes Geld, das man mit Zinsen zurückzahlen muss",
+      "meaning_en": "loan; credit",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kredits"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kredite"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "einen Kredit aufnehmen",
+          "gloss_en": "to take out a loan"
+        },
+        {
+          "phrase": "einen Kredit abzahlen",
+          "gloss_en": "to pay off a loan"
+        },
+        {
+          "phrase": "einen Kredit gewähren",
+          "gloss_en": "to grant a loan"
+        },
+        {
+          "phrase": "der zinsgünstige Kredit",
+          "gloss_en": "the low-interest loan"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für den Hausbau nahmen sie einen Kredit bei der Bank auf.",
+          "en": "They took out a loan from the bank to build the house."
+        },
+        {
+          "de": "Der Kredit wird über zehn Jahre zurückgezahlt.",
+          "en": "The loan is repaid over ten years."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im übertragenen Sinn auch 'Ansehen, Vertrauen' (bei jemandem Kredit haben).",
+      "near_synonyms": [
+        {
+          "lemma": "das Darlehen",
+          "distinction": "förmlicher, oft für größere, langfristige Summen"
+        },
+        {
+          "lemma": "die Anleihe",
+          "distinction": "Kredit über handelbare Wertpapiere, meist von Staaten oder Firmen"
+        }
+      ]
+    },
+    "Schuld": {
+      "meaning_de": "im Plural: Geld, das man jemandem zurückzahlen muss; im Singular: die Verantwortung für etwas Schlechtes",
+      "meaning_en": "debt (pl.); guilt, fault (sg.)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Schuld"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schulden"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Schuld an etwas",
+          "cases": "an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Schulden machen",
+          "gloss_en": "to run up debts"
+        },
+        {
+          "phrase": "Schulden abbauen",
+          "gloss_en": "to reduce debts"
+        },
+        {
+          "phrase": "hoch verschuldet sein",
+          "gloss_en": "to be heavily in debt"
+        },
+        {
+          "phrase": "die Schuld an etwas tragen",
+          "gloss_en": "to be to blame for something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Unternehmen sitzt auf einem Berg von Schulden.",
+          "en": "The company is sitting on a mountain of debt."
+        },
+        {
+          "de": "Er versuchte jahrelang, seine Schulden abzuzahlen.",
+          "en": "For years he tried to pay off his debts."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im finanziellen Sinn fast nur im Plural (Schulden), im Singular meist 'Verantwortung'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Verbindlichkeit",
+          "distinction": "kaufmännisch-förmlich für eine Zahlungsverpflichtung"
+        },
+        {
+          "lemma": "das Minus",
+          "distinction": "umgangssprachlich, der negative Kontostand"
+        }
+      ]
+    },
+    "Kontostand": {
+      "meaning_de": "der aktuelle Geldbetrag, der sich auf einem Konto befindet",
+      "meaning_en": "account balance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kontostands"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kontostände"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Kontostand abfragen",
+          "gloss_en": "to check the account balance"
+        },
+        {
+          "phrase": "der aktuelle Kontostand",
+          "gloss_en": "the current balance"
+        },
+        {
+          "phrase": "ein negativer Kontostand",
+          "gloss_en": "a negative balance"
+        },
+        {
+          "phrase": "den Kontostand im Blick behalten",
+          "gloss_en": "to keep an eye on the balance"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Am Automaten kannst du deinen Kontostand abfragen.",
+          "en": "You can check your account balance at the machine."
+        },
+        {
+          "de": "Nach der Miete war der Kontostand bedenklich niedrig.",
+          "en": "After the rent, the account balance was worryingly low."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglicher Begriff im Umgang mit dem Bankkonto.",
+      "near_synonyms": [
+        {
+          "lemma": "das Guthaben",
+          "distinction": "nur der positive Betrag, das verfügbare Geld"
+        },
+        {
+          "lemma": "der Saldo",
+          "distinction": "kaufmännisch, die Differenz aus Soll und Haben"
+        }
+      ]
+    },
+    "Überweisung": {
+      "meaning_de": "die bargeldlose Übertragung von Geld von einem Konto auf ein anderes",
+      "meaning_en": "bank transfer",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Überweisung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Überweisungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Überweisung tätigen",
+          "gloss_en": "to make a transfer"
+        },
+        {
+          "phrase": "eine Überweisung ausführen",
+          "gloss_en": "to execute a transfer"
+        },
+        {
+          "phrase": "per Überweisung bezahlen",
+          "gloss_en": "to pay by bank transfer"
+        },
+        {
+          "phrase": "die Überweisung geht ein",
+          "gloss_en": "the transfer comes in"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Miete zahle ich per Dauerauftrag als monatliche Überweisung.",
+          "en": "I pay the rent as a monthly transfer via standing order."
+        },
+        {
+          "de": "Die Überweisung ist erst zwei Tage später auf dem Konto.",
+          "en": "The transfer only reaches the account two days later."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Bankwesen der Standardbegriff, auch: Überweisung zum Facharzt.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zahlung",
+          "distinction": "allgemeiner, jede Art zu bezahlen"
+        },
+        {
+          "lemma": "der Dauerauftrag",
+          "distinction": "eine wiederkehrende, automatisch ausgeführte Überweisung"
+        }
+      ]
+    },
+    "Gebühr": {
+      "meaning_de": "ein festgelegter Geldbetrag, den man für eine Leistung oder Amtshandlung zahlen muss",
+      "meaning_en": "fee; charge",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gebühr"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gebühren"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Gebühr für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Gebühr erheben",
+          "gloss_en": "to charge a fee"
+        },
+        {
+          "phrase": "eine Gebühr entrichten",
+          "gloss_en": "to pay a fee"
+        },
+        {
+          "phrase": "gegen eine geringe Gebühr",
+          "gloss_en": "for a small fee"
+        },
+        {
+          "phrase": "Gebühren fallen an",
+          "gloss_en": "fees apply"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für die Ausstellung des Ausweises wird eine Gebühr erhoben.",
+          "en": "A fee is charged for issuing the ID card."
+        },
+        {
+          "de": "Die Bank verlangt für jede Auslandsüberweisung eine Gebühr.",
+          "en": "The bank charges a fee for every foreign transfer."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; oft für amtliche oder vertraglich festgelegte Beträge.",
+      "near_synonyms": [
+        {
+          "lemma": "die Kosten",
+          "distinction": "allgemeiner, die gesamte finanzielle Belastung"
+        },
+        {
+          "lemma": "der Beitrag",
+          "distinction": "regelmäßige Zahlung, etwa an einen Verein oder eine Kasse"
+        }
+      ]
+    },
+    "Zins": {
+      "meaning_de": "der Preis für geliehenes Geld, meist als Prozentsatz des Betrags",
+      "meaning_en": "interest (on money)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zinses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zinsen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Zinsen auf etwas",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Zinsen zahlen",
+          "gloss_en": "to pay interest"
+        },
+        {
+          "phrase": "Zinsen kassieren",
+          "gloss_en": "to earn interest"
+        },
+        {
+          "phrase": "die Zinsen senken",
+          "gloss_en": "to lower interest rates"
+        },
+        {
+          "phrase": "hohe Zinsen",
+          "gloss_en": "high interest"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für den Kredit fallen jährlich vier Prozent Zinsen an.",
+          "en": "The loan carries four percent interest per year."
+        },
+        {
+          "de": "Bei diesem niedrigen Zins lohnt sich das Sparen kaum.",
+          "en": "With interest this low, saving hardly pays off."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Alltag fast immer im Plural (Zinsen), Singular eher fachsprachlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zinssatz",
+          "distinction": "der Prozentsatz selbst, nicht der gezahlte Betrag"
+        },
+        {
+          "lemma": "die Rendite",
+          "distinction": "der gesamte Ertrag einer Anlage, nicht nur der Zins"
+        }
+      ]
+    },
+    "Versicherung": {
+      "meaning_de": "ein Vertrag, der gegen regelmäßige Beiträge vor finanziellen Folgen von Schäden schützt",
+      "meaning_en": "insurance",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Versicherung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Versicherungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Versicherung gegen etwas",
+          "cases": "gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Versicherung abschließen",
+          "gloss_en": "to take out insurance"
+        },
+        {
+          "phrase": "die Versicherung kündigen",
+          "gloss_en": "to cancel the insurance"
+        },
+        {
+          "phrase": "die Versicherung zahlt",
+          "gloss_en": "the insurance pays out"
+        },
+        {
+          "phrase": "gegen Diebstahl versichert sein",
+          "gloss_en": "to be insured against theft"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Unfall kam die Versicherung für den Schaden auf.",
+          "en": "After the accident, the insurance covered the damage."
+        },
+        {
+          "de": "Er hat eine private Versicherung gegen Berufsunfähigkeit abgeschlossen.",
+          "en": "He took out private insurance against occupational disability."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; bezeichnet Vertrag wie Gesellschaft, zweite Bedeutung: nachdrückliche Zusicherung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Police",
+          "distinction": "die Vertragsurkunde der Versicherung, nicht der Schutz selbst"
+        },
+        {
+          "lemma": "die Absicherung",
+          "distinction": "allgemeiner, jeder Schutz vor Risiken, nicht nur per Vertrag"
+        }
+      ]
+    },
+    "Kündigung": {
+      "meaning_de": "die einseitige Beendigung eines Vertrags oder Arbeitsverhältnisses",
+      "meaning_en": "termination; notice (of a contract or job)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Kündigung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kündigungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Kündigung einreichen",
+          "gloss_en": "to hand in one's notice"
+        },
+        {
+          "phrase": "eine Kündigung aussprechen",
+          "gloss_en": "to give notice of termination"
+        },
+        {
+          "phrase": "die fristlose Kündigung",
+          "gloss_en": "dismissal without notice"
+        },
+        {
+          "phrase": "gegen die Kündigung klagen",
+          "gloss_en": "to contest the dismissal in court"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er reichte zum Monatsende seine Kündigung ein.",
+          "en": "He handed in his notice at the end of the month."
+        },
+        {
+          "de": "Die Kündigung des Vertrags muss schriftlich erfolgen.",
+          "en": "The termination of the contract must be in writing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; gilt für Arbeitsverhältnisse ebenso wie für Miet-, Versicherungs- oder Handyverträge.",
+      "near_synonyms": [
+        {
+          "lemma": "die Entlassung",
+          "distinction": "nur vom Arbeitgeber ausgehend, das Beenden von dessen Seite"
+        },
+        {
+          "lemma": "der Rücktritt",
+          "distinction": "das Lösen vom Vertrag vor dessen Erfüllung, oder Amtsverzicht"
+        }
+      ]
+    },
+    "Umsatz": {
+      "meaning_de": "der gesamte Wert der verkauften Waren oder Dienstleistungen in einem Zeitraum",
+      "meaning_en": "turnover; sales revenue",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Umsatzes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Umsätze"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Umsatz mit etwas machen",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Umsatz machen",
+          "gloss_en": "to generate revenue"
+        },
+        {
+          "phrase": "den Umsatz steigern",
+          "gloss_en": "to increase turnover"
+        },
+        {
+          "phrase": "der Umsatz bricht ein",
+          "gloss_en": "sales collapse"
+        },
+        {
+          "phrase": "einen Umsatz erzielen",
+          "gloss_en": "to achieve a turnover"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Konzern erzielte im vergangenen Jahr einen Rekordumsatz.",
+          "en": "The group achieved record turnover last year."
+        },
+        {
+          "de": "In der Weihnachtszeit machen die Händler den größten Umsatz.",
+          "en": "Retailers generate the most revenue at Christmas."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; wirtschaftlicher Fachbegriff, nicht mit dem Gewinn zu verwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "der Erlös",
+          "distinction": "die Einnahmen aus dem Verkauf, oft gleichbedeutend"
+        },
+        {
+          "lemma": "der Gewinn",
+          "distinction": "der Überschuss nach Abzug aller Kosten, nicht die Bruttoeinnahmen"
+        }
+      ]
+    },
+    "Gewinn": {
+      "meaning_de": "der finanzielle Überschuss, der nach Abzug aller Kosten übrig bleibt",
+      "meaning_en": "profit; gain",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gewinns"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gewinne"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Gewinn erzielen",
+          "gloss_en": "to make a profit"
+        },
+        {
+          "phrase": "den Gewinn steigern",
+          "gloss_en": "to increase profits"
+        },
+        {
+          "phrase": "mit Gewinn verkaufen",
+          "gloss_en": "to sell at a profit"
+        },
+        {
+          "phrase": "die Gewinne ausschütten",
+          "gloss_en": "to distribute the profits"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Unternehmen machte trotz der Krise einen kleinen Gewinn.",
+          "en": "The company made a small profit despite the crisis."
+        },
+        {
+          "de": "Sie verkaufte die Aktien mit hohem Gewinn.",
+          "en": "She sold the shares at a large profit."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch im Sinne von 'Preisgewinn' (im Lotto) oder 'Nutzen, Bereicherung'.",
+      "near_synonyms": [
+        {
+          "lemma": "der Profit",
+          "distinction": "oft wertend, betont das Streben nach Geld"
+        },
+        {
+          "lemma": "der Ertrag",
+          "distinction": "der Ergebniswert einer Tätigkeit, weniger auf den Überschuss bezogen"
+        }
+      ]
+    },
+    "Verlust": {
+      "meaning_de": "der finanzielle Fehlbetrag, wenn die Ausgaben die Einnahmen übersteigen; auch: das Verlieren von etwas",
+      "meaning_en": "loss",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Verlustes"
+        },
+        {
+          "label": "Plural",
+          "value": "die Verluste"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "der Verlust von etwas",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Verluste machen",
+          "gloss_en": "to make a loss"
+        },
+        {
+          "phrase": "einen Verlust hinnehmen",
+          "gloss_en": "to accept a loss"
+        },
+        {
+          "phrase": "mit Verlust verkaufen",
+          "gloss_en": "to sell at a loss"
+        },
+        {
+          "phrase": "Verluste ausgleichen",
+          "gloss_en": "to offset losses"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Firma schrieb im ersten Quartal hohe Verluste.",
+          "en": "The company posted heavy losses in the first quarter."
+        },
+        {
+          "de": "Der Verlust des Arbeitsplatzes traf ihn schwer.",
+          "en": "Losing his job hit him hard."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Gegenteil von Gewinn, im weiteren Sinn auch persönlicher Verlust.",
+      "near_synonyms": [
+        {
+          "lemma": "das Defizit",
+          "distinction": "der Fehlbetrag in einem Haushalt oder einer Bilanz"
+        },
+        {
+          "lemma": "die Einbuße",
+          "distinction": "eine teilweise Verringerung, oft von Wert oder Ansehen"
+        }
+      ]
+    },
+    "Finanzamt": {
+      "meaning_de": "die Behörde, die Steuern festsetzt und einzieht",
+      "meaning_en": "tax office; revenue office",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Finanzamts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Finanzämter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Steuererklärung beim Finanzamt einreichen",
+          "gloss_en": "to file the tax return with the tax office"
+        },
+        {
+          "phrase": "das Finanzamt prüft",
+          "gloss_en": "the tax office audits"
+        },
+        {
+          "phrase": "Ärger mit dem Finanzamt",
+          "gloss_en": "trouble with the tax office"
+        },
+        {
+          "phrase": "der Bescheid vom Finanzamt",
+          "gloss_en": "the notice from the tax office"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Finanzamt hat ihm die Steuer zurückerstattet.",
+          "en": "The tax office refunded him the tax."
+        },
+        {
+          "de": "Bis Ende Juli muss die Erklärung beim Finanzamt sein.",
+          "en": "The return must be with the tax office by the end of July."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; behördlicher Begriff, in Deutschland die zuständige Steuerbehörde.",
+      "near_synonyms": [
+        {
+          "lemma": "die Steuerbehörde",
+          "distinction": "der allgemeine Oberbegriff für steuererhebende Ämter"
+        },
+        {
+          "lemma": "der Fiskus",
+          "distinction": "gehoben für den Staat als Steuereinnehmer, nicht die konkrete Behörde"
+        }
+      ]
+    },
+    "Gehalt": {
+      "meaning_de": "das feste monatliche Arbeitsentgelt eines Angestellten",
+      "meaning_en": "salary",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gehalts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gehälter"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Gehalt beziehen",
+          "gloss_en": "to draw a salary"
+        },
+        {
+          "phrase": "das Gehalt aushandeln",
+          "gloss_en": "to negotiate one's salary"
+        },
+        {
+          "phrase": "eine Gehaltserhöhung fordern",
+          "gloss_en": "to ask for a pay rise"
+        },
+        {
+          "phrase": "das monatliche Gehalt",
+          "gloss_en": "the monthly salary"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Gehalt wird am Monatsende überwiesen.",
+          "en": "Her salary is transferred at the end of the month."
+        },
+        {
+          "de": "Für die neue Stelle handelte er ein höheres Gehalt aus.",
+          "en": "He negotiated a higher salary for the new position."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Neutrum (das Gehalt) meint den Lohn, das andere 'der Gehalt' meint den Inhalt.",
+      "near_synonyms": [
+        {
+          "lemma": "der Lohn",
+          "distinction": "meist nach Stunden für Arbeiter, das Gehalt ist fest und monatlich"
+        },
+        {
+          "lemma": "das Einkommen",
+          "distinction": "die Gesamteinnahmen, auch aus anderen Quellen als der Anstellung"
+        }
+      ]
+    },
+    "Rente": {
+      "meaning_de": "die regelmäßige Zahlung, die man im Alter oder bei Erwerbsunfähigkeit erhält",
+      "meaning_en": "pension",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rente"
+        },
+        {
+          "label": "Plural",
+          "value": "die Renten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in Rente gehen",
+          "gloss_en": "to retire"
+        },
+        {
+          "phrase": "Rente beziehen",
+          "gloss_en": "to draw a pension"
+        },
+        {
+          "phrase": "die gesetzliche Rente",
+          "gloss_en": "the state pension"
+        },
+        {
+          "phrase": "für die Rente vorsorgen",
+          "gloss_en": "to save for retirement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit 67 Jahren geht sie in Rente.",
+          "en": "She retires at the age of 67."
+        },
+        {
+          "de": "Von der gesetzlichen Rente allein kann er kaum leben.",
+          "en": "He can hardly live on the state pension alone."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Deutschland vor allem die Altersrente der gesetzlichen Rentenversicherung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Pension",
+          "distinction": "die Altersbezüge von Beamten, nicht der gesetzlich Versicherten"
+        },
+        {
+          "lemma": "der Ruhestand",
+          "distinction": "der Lebensabschnitt nach dem Berufsleben, nicht die Zahlung selbst"
+        }
+      ]
+    },
+    "Marktanteil": {
+      "meaning_de": "der prozentuale Anteil eines Unternehmens am Gesamtumsatz eines Marktes",
+      "meaning_en": "market share",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Marktanteils"
+        },
+        {
+          "label": "Plural",
+          "value": "die Marktanteile"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Marktanteile gewinnen",
+          "gloss_en": "to gain market share"
+        },
+        {
+          "phrase": "Marktanteile verlieren",
+          "gloss_en": "to lose market share"
+        },
+        {
+          "phrase": "den Marktanteil ausbauen",
+          "gloss_en": "to expand market share"
+        },
+        {
+          "phrase": "einen hohen Marktanteil halten",
+          "gloss_en": "to hold a large market share"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Hersteller konnte seinen Marktanteil in Asien verdoppeln.",
+          "en": "The manufacturer managed to double its market share in Asia."
+        },
+        {
+          "de": "Durch den neuen Wettbewerber schrumpfte ihr Marktanteil.",
+          "en": "Their market share shrank because of the new competitor."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; betriebswirtschaftlicher Begriff, häufig in Geschäftsberichten und Analysen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Anteil",
+          "distinction": "allgemeiner, jeder Teil eines Ganzen, nicht nur am Markt"
+        },
+        {
+          "lemma": "die Marktstellung",
+          "distinction": "die Position insgesamt, nicht nur als messbare Prozentzahl"
+        }
+      ]
+    },
+    "Lieferant": {
+      "meaning_de": "eine Person oder Firma, die Waren an einen Abnehmer liefert",
+      "meaning_en": "supplier",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Lieferanten"
+        },
+        {
+          "label": "Plural",
+          "value": "die Lieferanten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Lieferanten wechseln",
+          "gloss_en": "to change supplier"
+        },
+        {
+          "phrase": "ein zuverlässiger Lieferant",
+          "gloss_en": "a reliable supplier"
+        },
+        {
+          "phrase": "mit einem Lieferanten verhandeln",
+          "gloss_en": "to negotiate with a supplier"
+        },
+        {
+          "phrase": "der wichtigste Lieferant",
+          "gloss_en": "the main supplier"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Unser Lieferant hat die Preise um zehn Prozent erhöht.",
+          "en": "Our supplier has raised prices by ten percent."
+        },
+        {
+          "de": "Wegen der Lieferprobleme suchen wir einen neuen Lieferanten.",
+          "en": "Because of the delivery problems we are looking for a new supplier."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; n-Deklination: im Genitiv, Dativ und Akkusativ 'den/dem/des Lieferanten'.",
+      "near_synonyms": [
+        {
+          "lemma": "der Zulieferer",
+          "distinction": "liefert vor allem Teile für die Produktion, etwa in der Industrie"
+        },
+        {
+          "lemma": "der Händler",
+          "distinction": "verkauft Waren, oft direkt an Endkunden, nicht nur an Abnehmer"
+        }
+      ]
+    },
+    "Lieferung": {
+      "meaning_de": "das Ausliefern von Waren oder die gelieferte Warenmenge selbst",
+      "meaning_en": "delivery; consignment",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Lieferung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Lieferungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Lieferung erfolgt",
+          "gloss_en": "delivery takes place"
+        },
+        {
+          "phrase": "eine Lieferung erhalten",
+          "gloss_en": "to receive a delivery"
+        },
+        {
+          "phrase": "die kostenlose Lieferung",
+          "gloss_en": "free delivery"
+        },
+        {
+          "phrase": "die Lieferung verzögert sich",
+          "gloss_en": "the delivery is delayed"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Lieferung soll innerhalb von drei Werktagen eintreffen.",
+          "en": "The delivery is due to arrive within three working days."
+        },
+        {
+          "de": "In der letzten Lieferung fehlten mehrere Artikel.",
+          "en": "Several items were missing from the last delivery."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; bezeichnet sowohl den Vorgang als auch die gelieferten Waren.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sendung",
+          "distinction": "das versandte Paket selbst, stärker auf das Objekt bezogen"
+        },
+        {
+          "lemma": "die Zustellung",
+          "distinction": "betont das Überbringen an die Empfängeradresse, etwa durch die Post"
+        }
+      ]
+    },
+    "Bestellung": {
+      "meaning_de": "der Auftrag, eine Ware oder Leistung zu liefern; auch die bestellte Ware",
+      "meaning_en": "order (of goods)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bestellung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bestellungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Bestellung aufgeben",
+          "gloss_en": "to place an order"
+        },
+        {
+          "phrase": "die Bestellung stornieren",
+          "gloss_en": "to cancel the order"
+        },
+        {
+          "phrase": "die Bestellung bearbeiten",
+          "gloss_en": "to process the order"
+        },
+        {
+          "phrase": "die Bestellung ist eingegangen",
+          "gloss_en": "the order has been received"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Bestellung wird in Kürze versandt.",
+          "en": "Your order will be shipped shortly."
+        },
+        {
+          "de": "Der Kellner nahm unsere Bestellung auf.",
+          "en": "The waiter took our order."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Handel, Online-Shopping und in der Gastronomie gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Auftrag",
+          "distinction": "allgemeiner, auch für Dienstleistungen und größere Vorhaben"
+        },
+        {
+          "lemma": "die Order",
+          "distinction": "kaufmännisch-englisch, vor allem im Börsen- und Großhandel"
+        }
+      ]
+    },
+    "Filiale": {
+      "meaning_de": "eine örtliche Zweigstelle eines Unternehmens oder einer Bank",
+      "meaning_en": "branch; store (of a chain)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Filiale"
+        },
+        {
+          "label": "Plural",
+          "value": "die Filialen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Filiale eröffnen",
+          "gloss_en": "to open a branch"
+        },
+        {
+          "phrase": "eine Filiale schließen",
+          "gloss_en": "to close a branch"
+        },
+        {
+          "phrase": "in der nächsten Filiale",
+          "gloss_en": "at the nearest branch"
+        },
+        {
+          "phrase": "die Filiale leiten",
+          "gloss_en": "to run the branch"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bank schließt in diesem Jahr zahlreiche Filialen.",
+          "en": "The bank is closing numerous branches this year."
+        },
+        {
+          "de": "In unserer Stadt gibt es drei Filialen der Kette.",
+          "en": "There are three branches of the chain in our town."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; typisch für Handelsketten, Banken und Supermärkte.",
+      "near_synonyms": [
+        {
+          "lemma": "die Zweigstelle",
+          "distinction": "förmlicher, betont die Abhängigkeit vom Hauptsitz"
+        },
+        {
+          "lemma": "die Niederlassung",
+          "distinction": "oft ein eigenständigerer Standort, auch von Firmen im Ausland"
+        }
+      ]
+    },
+    "Aktie": {
+      "meaning_de": "ein Wertpapier, das einen Anteil am Grundkapital einer Aktiengesellschaft verbrieft",
+      "meaning_en": "share; stock",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Aktie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Aktien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Aktien kaufen",
+          "gloss_en": "to buy shares"
+        },
+        {
+          "phrase": "in Aktien investieren",
+          "gloss_en": "to invest in stocks"
+        },
+        {
+          "phrase": "die Aktie steigt",
+          "gloss_en": "the share rises"
+        },
+        {
+          "phrase": "der Kurs der Aktie",
+          "gloss_en": "the share price"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nach der guten Bilanz stieg die Aktie kräftig.",
+          "en": "After the good results the share rose sharply."
+        },
+        {
+          "de": "Er legt einen Teil seines Ersparten in Aktien an.",
+          "en": "He invests part of his savings in shares."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Grundbegriff des Börsenhandels, oft im Plural (Aktien).",
+      "near_synonyms": [
+        {
+          "lemma": "der Anteil",
+          "distinction": "allgemeiner Teil an einem Unternehmen, nicht zwingend verbrieft"
+        },
+        {
+          "lemma": "das Wertpapier",
+          "distinction": "Oberbegriff, umfasst auch Anleihen und Fonds"
+        }
+      ]
+    },
+    "Sparbuch": {
+      "meaning_de": "ein Konto bei einer Bank, auf dem man Geld anspart und dafür Zinsen bekommt",
+      "meaning_en": "savings account (passbook)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Sparbuchs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sparbücher"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Sparbuch anlegen",
+          "gloss_en": "to open a savings account"
+        },
+        {
+          "phrase": "Geld aufs Sparbuch legen",
+          "gloss_en": "to put money into savings"
+        },
+        {
+          "phrase": "vom Sparbuch abheben",
+          "gloss_en": "to withdraw from the savings account"
+        },
+        {
+          "phrase": "das Guthaben auf dem Sparbuch",
+          "gloss_en": "the balance in the savings account"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Großeltern legten für das Kind ein Sparbuch an.",
+          "en": "The grandparents opened a savings account for the child."
+        },
+        {
+          "de": "Auf dem Sparbuch gibt es kaum noch Zinsen.",
+          "en": "There is hardly any interest on savings accounts anymore."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; klassische, eher traditionelle Sparform in Deutschland und Österreich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Sparkonto",
+          "distinction": "moderner Oberbegriff, meist ohne physisches Buch"
+        },
+        {
+          "lemma": "das Tagesgeldkonto",
+          "distinction": "flexibler verzinstes Sparkonto mit täglich verfügbarem Geld"
+        }
+      ]
+    },
+    "Darlehen": {
+      "meaning_de": "eine Geldsumme, die man von jemandem leiht und später zurückzahlt",
+      "meaning_en": "loan (formal)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Darlehens"
+        },
+        {
+          "label": "Plural",
+          "value": "die Darlehen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Darlehen aufnehmen",
+          "gloss_en": "to take out a loan"
+        },
+        {
+          "phrase": "ein Darlehen gewähren",
+          "gloss_en": "to grant a loan"
+        },
+        {
+          "phrase": "das Darlehen tilgen",
+          "gloss_en": "to repay the loan"
+        },
+        {
+          "phrase": "ein zinsloses Darlehen",
+          "gloss_en": "an interest-free loan"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bank gewährte ihm ein Darlehen über 50.000 Euro.",
+          "en": "The bank granted him a loan of 50,000 euros."
+        },
+        {
+          "de": "Das Darlehen wird in monatlichen Raten getilgt.",
+          "en": "The loan is repaid in monthly instalments."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und juristisch-kaufmännisch; förmlicher als das alltägliche Kredit.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kredit",
+          "distinction": "alltäglicher, oft für laufende Bankkredite verwendet"
+        },
+        {
+          "lemma": "die Anleihe",
+          "distinction": "ein handelbares Wertpapier, meist von Staaten oder großen Firmen"
+        }
+      ]
+    },
+    "Bürgschaft": {
+      "meaning_de": "die Verpflichtung, für die Schuld eines anderen einzustehen, falls dieser nicht zahlt",
+      "meaning_en": "guarantee; surety",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bürgschaft"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bürgschaften"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Bürgschaft für jemanden",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Bürgschaft übernehmen",
+          "gloss_en": "to stand surety"
+        },
+        {
+          "phrase": "eine Bürgschaft stellen",
+          "gloss_en": "to provide a guarantee"
+        },
+        {
+          "phrase": "aus der Bürgschaft haften",
+          "gloss_en": "to be liable under the guarantee"
+        },
+        {
+          "phrase": "die staatliche Bürgschaft",
+          "gloss_en": "the state guarantee"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Eltern übernahmen die Bürgschaft für den Mietvertrag.",
+          "en": "The parents stood surety for the tenancy agreement."
+        },
+        {
+          "de": "Ohne eine Bürgschaft gewährt die Bank keinen Kredit.",
+          "en": "Without a guarantee the bank grants no loan."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und juristisch; fester Begriff im Kredit- und Vertragsrecht.",
+      "near_synonyms": [
+        {
+          "lemma": "die Garantie",
+          "distinction": "ein selbstständiges Einstehen, unabhängig von der Hauptschuld"
+        },
+        {
+          "lemma": "die Sicherheit",
+          "distinction": "allgemeiner Oberbegriff, auch Pfand oder Hypothek"
+        }
+      ]
+    },
+    "Insolvenz": {
+      "meaning_de": "die Zahlungsunfähigkeit eines Unternehmens oder einer Person",
+      "meaning_en": "insolvency; bankruptcy",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Insolvenz"
+        },
+        {
+          "label": "Plural",
+          "value": "die Insolvenzen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "Insolvenz anmelden",
+          "gloss_en": "to file for insolvency"
+        },
+        {
+          "phrase": "in die Insolvenz gehen",
+          "gloss_en": "to go into insolvency"
+        },
+        {
+          "phrase": "kurz vor der Insolvenz stehen",
+          "gloss_en": "to be on the brink of insolvency"
+        },
+        {
+          "phrase": "das Insolvenzverfahren eröffnen",
+          "gloss_en": "to open insolvency proceedings"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Konzern musste im Frühjahr Insolvenz anmelden.",
+          "en": "The group had to file for insolvency in spring."
+        },
+        {
+          "de": "Durch die Umstrukturierung wurde die Insolvenz abgewendet.",
+          "en": "The restructuring averted insolvency."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und juristisch; hat den älteren Begriff 'Konkurs' weitgehend ersetzt.",
+      "near_synonyms": [
+        {
+          "lemma": "der Konkurs",
+          "distinction": "älterer, teils veralteter Begriff für dasselbe"
+        },
+        {
+          "lemma": "die Pleite",
+          "distinction": "umgangssprachlich für den finanziellen Zusammenbruch"
+        }
+      ]
+    },
+    "Rabatt": {
+      "meaning_de": "ein Preisnachlass, den man auf den regulären Preis erhält",
+      "meaning_en": "discount",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rabatts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rabatte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Rabatt auf etwas",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Rabatt gewähren",
+          "gloss_en": "to grant a discount"
+        },
+        {
+          "phrase": "Rabatt bekommen",
+          "gloss_en": "to get a discount"
+        },
+        {
+          "phrase": "einen Rabatt aushandeln",
+          "gloss_en": "to negotiate a discount"
+        },
+        {
+          "phrase": "zehn Prozent Rabatt",
+          "gloss_en": "ten percent off"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auf das Auslaufmodell gab es 20 Prozent Rabatt.",
+          "en": "There was a 20 percent discount on the discontinued model."
+        },
+        {
+          "de": "Als Stammkunde bekommt er meist einen kleinen Rabatt.",
+          "en": "As a regular customer he usually gets a small discount."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglich im Einzelhandel und beim Einkaufen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Nachlass",
+          "distinction": "etwas förmlicher, oft ausgehandelt oder als Kulanz"
+        },
+        {
+          "lemma": "die Ermäßigung",
+          "distinction": "ein reduzierter Preis für bestimmte Gruppen, etwa Studierende"
+        }
+      ]
+    },
+    "Finanzierung": {
+      "meaning_de": "die Bereitstellung der Geldmittel für ein Vorhaben oder eine Anschaffung",
+      "meaning_en": "financing; funding",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Finanzierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Finanzierungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Finanzierung von etwas",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Finanzierung sichern",
+          "gloss_en": "to secure the financing"
+        },
+        {
+          "phrase": "die Finanzierung eines Projekts",
+          "gloss_en": "the financing of a project"
+        },
+        {
+          "phrase": "die Finanzierung steht",
+          "gloss_en": "the funding is in place"
+        },
+        {
+          "phrase": "eine günstige Finanzierung",
+          "gloss_en": "favourable financing"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ohne öffentliche Zuschüsse war die Finanzierung nicht gesichert.",
+          "en": "Without public grants the financing was not secured."
+        },
+        {
+          "de": "Für den Autokauf bot der Händler eine günstige Finanzierung an.",
+          "en": "For the car purchase the dealer offered favourable financing."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Wirtschaft, Politik und bei größeren privaten Anschaffungen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Förderung",
+          "distinction": "gezielte Unterstützung, oft mit Zuschüssen statt Krediten"
+        },
+        {
+          "lemma": "die Mittelbereitstellung",
+          "distinction": "amtlich-förmlich, das Zuweisen von Geldmitteln"
+        }
+      ]
+    },
+    "Wechselkurs": {
+      "meaning_de": "das Verhältnis, zu dem eine Währung in eine andere getauscht wird",
+      "meaning_en": "exchange rate",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wechselkurses"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wechselkurse"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der aktuelle Wechselkurs",
+          "gloss_en": "the current exchange rate"
+        },
+        {
+          "phrase": "der Wechselkurs schwankt",
+          "gloss_en": "the exchange rate fluctuates"
+        },
+        {
+          "phrase": "zum günstigen Wechselkurs",
+          "gloss_en": "at a favourable exchange rate"
+        },
+        {
+          "phrase": "der Wechselkurs von Euro zu Dollar",
+          "gloss_en": "the euro-to-dollar exchange rate"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Wechselkurs des Euro zum Dollar ist zuletzt gesunken.",
+          "en": "The euro's exchange rate against the dollar has fallen recently."
+        },
+        {
+          "de": "Beim Umtausch am Flughafen ist der Wechselkurs meist schlecht.",
+          "en": "The exchange rate at the airport is usually poor."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Fachbegriff aus Finanzwelt und Reise, aber allgemein verständlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kurs",
+          "distinction": "kürzer, kann auch Aktien- oder Börsenkurs meinen"
+        },
+        {
+          "lemma": "die Parität",
+          "distinction": "fachsprachlich, ein festgelegtes Austauschverhältnis von Währungen"
+        }
+      ]
+    },
+    "Konzern": {
+      "meaning_de": "ein Zusammenschluss mehrerer Unternehmen unter einer gemeinsamen Leitung",
+      "meaning_en": "corporation; group (of companies)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Konzerns"
+        },
+        {
+          "label": "Plural",
+          "value": "die Konzerne"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein internationaler Konzern",
+          "gloss_en": "an international corporation"
+        },
+        {
+          "phrase": "der Konzern übernimmt",
+          "gloss_en": "the group takes over"
+        },
+        {
+          "phrase": "an der Spitze des Konzerns",
+          "gloss_en": "at the head of the group"
+        },
+        {
+          "phrase": "die Tochtergesellschaften des Konzerns",
+          "gloss_en": "the group's subsidiaries"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Konzern beschäftigt weltweit über 200.000 Menschen.",
+          "en": "The group employs over 200,000 people worldwide."
+        },
+        {
+          "de": "Mehrere kleine Firmen wurden vom Konzern aufgekauft.",
+          "en": "Several small firms were bought up by the corporation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; bezeichnet vor allem große, oft multinationale Unternehmensgruppen.",
+      "near_synonyms": [
+        {
+          "lemma": "das Unternehmen",
+          "distinction": "allgemeiner, jede Firma unabhängig von der Größe"
+        },
+        {
+          "lemma": "der Betrieb",
+          "distinction": "eher die einzelne Produktions- oder Arbeitsstätte"
+        }
+      ]
+    },
+    "Schuldner": {
+      "meaning_de": "jemand, der einem anderen Geld oder eine Leistung schuldet",
+      "meaning_en": "debtor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Schuldners"
+        },
+        {
+          "label": "Plural",
+          "value": "die Schuldner"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "der säumige Schuldner",
+          "gloss_en": "the defaulting debtor"
+        },
+        {
+          "phrase": "den Schuldner mahnen",
+          "gloss_en": "to send the debtor a reminder"
+        },
+        {
+          "phrase": "gegen den Schuldner vorgehen",
+          "gloss_en": "to take action against the debtor"
+        },
+        {
+          "phrase": "der zahlungsunfähige Schuldner",
+          "gloss_en": "the insolvent debtor"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Gläubiger verklagte den säumigen Schuldner.",
+          "en": "The creditor sued the defaulting debtor."
+        },
+        {
+          "de": "Der Schuldner konnte die Raten nicht mehr aufbringen.",
+          "en": "The debtor could no longer come up with the instalments."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und juristisch; das Gegenstück zum Gläubiger.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kreditnehmer",
+          "distinction": "speziell, wer einen Kredit aufgenommen hat"
+        },
+        {
+          "lemma": "der Zahlungspflichtige",
+          "distinction": "amtlich für jeden, der zu einer Zahlung verpflichtet ist"
+        }
+      ]
+    },
+    "Gläubiger": {
+      "meaning_de": "jemand, der von einem anderen Geld oder eine Leistung zu bekommen hat",
+      "meaning_en": "creditor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Gläubigers"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gläubiger"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die Gläubiger befriedigen",
+          "gloss_en": "to satisfy the creditors"
+        },
+        {
+          "phrase": "die Gläubiger auszahlen",
+          "gloss_en": "to pay off the creditors"
+        },
+        {
+          "phrase": "die Forderung des Gläubigers",
+          "gloss_en": "the creditor's claim"
+        },
+        {
+          "phrase": "die Gläubiger einigen sich",
+          "gloss_en": "the creditors reach an agreement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Insolvenzverfahren gehen die Gläubiger oft leer aus.",
+          "en": "In insolvency proceedings the creditors often go empty-handed."
+        },
+        {
+          "de": "Die Bank ist der größte Gläubiger des Unternehmens.",
+          "en": "The bank is the company's biggest creditor."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und juristisch; das Gegenstück zum Schuldner, nicht mit 'gläubig' (religiös) zu verwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kreditgeber",
+          "distinction": "speziell, wer einen Kredit vergeben hat"
+        },
+        {
+          "lemma": "der Forderungsinhaber",
+          "distinction": "juristisch-technisch, wer eine Forderung innehat"
+        }
+      ]
+    },
+    "investieren": {
+      "meaning_de": "Geld anlegen, um damit einen Gewinn oder Nutzen zu erzielen",
+      "meaning_en": "to invest",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er investiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er investierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat investiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er investierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "in etwas investieren",
+          "cases": "in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "in Aktien investieren",
+          "gloss_en": "to invest in shares"
+        },
+        {
+          "phrase": "in die Zukunft investieren",
+          "gloss_en": "to invest in the future"
+        },
+        {
+          "phrase": "Zeit investieren",
+          "gloss_en": "to invest time"
+        },
+        {
+          "phrase": "kräftig investieren",
+          "gloss_en": "to invest heavily"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Firma investiert Millionen in neue Technologien.",
+          "en": "The company is investing millions in new technologies."
+        },
+        {
+          "de": "Er investierte sein Erspartes in einen Fonds.",
+          "en": "He invested his savings in a fund."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch übertragen für Zeit oder Mühe, die man in etwas steckt.",
+      "near_synonyms": [
+        {
+          "lemma": "anlegen",
+          "distinction": "meist auf Geldanlage bezogen, alltäglicher"
+        },
+        {
+          "lemma": "einsetzen",
+          "distinction": "allgemeiner, Mittel für einen Zweck verwenden"
+        }
+      ]
+    },
+    "sparen": {
+      "meaning_de": "Geld nicht ausgeben, sondern für später zurücklegen; auch: sparsam mit etwas umgehen",
+      "meaning_en": "to save (money); to economize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er spart"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er sparte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gespart"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er sparte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "für etwas sparen",
+          "cases": "für + Akk."
+        },
+        {
+          "pattern": "an etwas sparen",
+          "cases": "an + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Geld sparen",
+          "gloss_en": "to save money"
+        },
+        {
+          "phrase": "auf etwas sparen",
+          "gloss_en": "to save up for something"
+        },
+        {
+          "phrase": "an der falschen Stelle sparen",
+          "gloss_en": "to make false economies"
+        },
+        {
+          "phrase": "Energie sparen",
+          "gloss_en": "to save energy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie spart seit Jahren auf ein eigenes Haus.",
+          "en": "She has been saving up for her own house for years."
+        },
+        {
+          "de": "Wenn wir beim Heizen sparen, sinkt die Rechnung.",
+          "en": "If we economize on heating, the bill goes down."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; alltäglich, sowohl für Geld als auch für Ressourcen wie Energie oder Zeit.",
+      "near_synonyms": [
+        {
+          "lemma": "zurücklegen",
+          "distinction": "betont das Beiseitelegen einer bestimmten Summe"
+        },
+        {
+          "lemma": "haushalten",
+          "distinction": "gehoben, mit Mitteln planvoll und sparsam umgehen"
+        }
+      ]
+    },
+    "abzahlen": {
+      "meaning_de": "eine Schuld nach und nach in Raten vollständig begleichen",
+      "meaning_en": "to pay off (in instalments)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zahlt ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zahlte ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abgezahlt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zahlte ab"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas abzahlen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Kredit abzahlen",
+          "gloss_en": "to pay off a loan"
+        },
+        {
+          "phrase": "in Raten abzahlen",
+          "gloss_en": "to pay off in instalments"
+        },
+        {
+          "phrase": "das Auto abzahlen",
+          "gloss_en": "to pay off the car"
+        },
+        {
+          "phrase": "die Schulden abzahlen",
+          "gloss_en": "to pay off the debts"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie zahlen ihr Haus noch fünfzehn Jahre ab.",
+          "en": "They will be paying off their house for another fifteen years."
+        },
+        {
+          "de": "Erst als der Kredit abgezahlt war, fühlte er sich frei.",
+          "en": "Only when the loan was paid off did he feel free."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; betont das vollständige Tilgen in Teilbeträgen.",
+      "near_synonyms": [
+        {
+          "lemma": "tilgen",
+          "distinction": "förmlicher, kaufmännisch-juristisch für das Rückzahlen von Schulden"
+        },
+        {
+          "lemma": "zurückzahlen",
+          "distinction": "allgemeiner, auch eine einmalige Rückerstattung"
+        }
+      ]
+    },
+    "handeln": {
+      "meaning_de": "mit Waren Geschäfte machen; auch: tätig werden oder über den Preis feilschen",
+      "meaning_en": "to trade; to act; to bargain",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er handelt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er handelte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gehandelt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er handelte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "mit etwas handeln",
+          "cases": "mit + Dat."
+        },
+        {
+          "pattern": "es handelt sich um etwas",
+          "cases": "um + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "mit Waren handeln",
+          "gloss_en": "to trade in goods"
+        },
+        {
+          "phrase": "verantwortungsvoll handeln",
+          "gloss_en": "to act responsibly"
+        },
+        {
+          "phrase": "schnell handeln",
+          "gloss_en": "to act quickly"
+        },
+        {
+          "phrase": "um den Preis handeln",
+          "gloss_en": "to haggle over the price"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Unternehmen handelt mit Rohstoffen aus Übersee.",
+          "en": "The company trades in raw materials from overseas."
+        },
+        {
+          "de": "In dieser Lage muss man rasch handeln.",
+          "en": "In this situation one has to act quickly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; stark polysem: 'Handel treiben', 'tätig werden', 'feilschen' sowie 'es handelt sich um'.",
+      "near_synonyms": [
+        {
+          "lemma": "vorgehen",
+          "distinction": "nur im Sinne von 'tätig werden', betont die Art des Handelns"
+        },
+        {
+          "lemma": "feilschen",
+          "distinction": "nur fürs Verhandeln über den Preis, umgangssprachlicher"
+        }
+      ]
+    },
+    "haften": {
+      "meaning_de": "rechtlich für einen Schaden oder eine Schuld einstehen müssen",
+      "meaning_en": "to be liable (for)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er haftet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er haftete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gehaftet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er haftete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "für etwas haften",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "für den Schaden haften",
+          "gloss_en": "to be liable for the damage"
+        },
+        {
+          "phrase": "persönlich haften",
+          "gloss_en": "to be personally liable"
+        },
+        {
+          "phrase": "mit dem Privatvermögen haften",
+          "gloss_en": "to be liable with one's private assets"
+        },
+        {
+          "phrase": "gesamtschuldnerisch haften",
+          "gloss_en": "to be jointly and severally liable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Für Schäden am Mietwagen haftet der Fahrer.",
+          "en": "The driver is liable for damage to the rental car."
+        },
+        {
+          "de": "Der Geschäftsführer haftet unter Umständen mit seinem Privatvermögen.",
+          "en": "In some cases the managing director is liable with his private assets."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und juristisch; im wörtlichen Sinn heißt haften auch 'kleben, festhalten'.",
+      "near_synonyms": [
+        {
+          "lemma": "einstehen",
+          "distinction": "allgemeiner, auch moralisch die Verantwortung übernehmen"
+        },
+        {
+          "lemma": "geradestehen",
+          "distinction": "umgangssprachlich, für die Folgen einer Sache aufkommen"
+        }
+      ]
+    },
+    "verzinsen": {
+      "meaning_de": "ein Kapital mit Zinsen versehen, also darauf Zinsen zahlen oder gutschreiben",
+      "meaning_en": "to pay interest on; to yield interest",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verzinst"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verzinste"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verzinst"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verzinste"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas mit einem Satz verzinsen",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "das Guthaben verzinsen",
+          "gloss_en": "to pay interest on the balance"
+        },
+        {
+          "phrase": "hoch verzinst sein",
+          "gloss_en": "to bear high interest"
+        },
+        {
+          "phrase": "sich gut verzinsen",
+          "gloss_en": "to yield good interest"
+        },
+        {
+          "phrase": "mit zwei Prozent verzinsen",
+          "gloss_en": "to pay two percent interest"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bank verzinst das Sparguthaben mit einem Prozent.",
+          "en": "The bank pays one percent interest on the savings balance."
+        },
+        {
+          "de": "Die Anlage verzinst sich derzeit kaum.",
+          "en": "The investment currently yields hardly any interest."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; typisch für Bank- und Finanztexte, oft reflexiv (sich verzinsen).",
+      "near_synonyms": [
+        {
+          "lemma": "abwerfen",
+          "distinction": "allgemeiner, einen Ertrag oder Gewinn erbringen"
+        },
+        {
+          "lemma": "einbringen",
+          "distinction": "betont den erzielten Ertrag, nicht die Verzinsung als Vorgang"
+        }
+      ]
+    },
+    "finanzieren": {
+      "meaning_de": "die nötigen Geldmittel für etwas bereitstellen oder aufbringen",
+      "meaning_en": "to finance; to fund",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er finanziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er finanzierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat finanziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er finanzierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas finanzieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Projekt finanzieren",
+          "gloss_en": "to finance a project"
+        },
+        {
+          "phrase": "etwas über einen Kredit finanzieren",
+          "gloss_en": "to finance something with a loan"
+        },
+        {
+          "phrase": "das Studium finanzieren",
+          "gloss_en": "to fund one's studies"
+        },
+        {
+          "phrase": "aus Steuermitteln finanzieren",
+          "gloss_en": "to finance from tax revenue"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Den Umbau finanzieren sie zum Teil über einen Bankkredit.",
+          "en": "They are partly financing the renovation with a bank loan."
+        },
+        {
+          "de": "Das Projekt wird aus öffentlichen Mitteln finanziert.",
+          "en": "The project is funded from public money."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Wirtschaft, Politik und Alltag gleichermaßen gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "bezahlen",
+          "distinction": "das schlichte Begleichen, ohne den Aspekt der Mittelbeschaffung"
+        },
+        {
+          "lemma": "fördern",
+          "distinction": "gezielt unterstützen, oft mit Zuschüssen durch Staat oder Stiftung"
+        }
+      ]
+    },
+    "exportieren": {
+      "meaning_de": "Waren ins Ausland verkaufen und ausführen",
+      "meaning_en": "to export",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er exportiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er exportierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat exportiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er exportierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas nach/in ein Land exportieren",
+          "cases": "nach + Dat. / in + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Waren exportieren",
+          "gloss_en": "to export goods"
+        },
+        {
+          "phrase": "ins Ausland exportieren",
+          "gloss_en": "to export abroad"
+        },
+        {
+          "phrase": "Autos exportieren",
+          "gloss_en": "to export cars"
+        },
+        {
+          "phrase": "in großem Umfang exportieren",
+          "gloss_en": "to export on a large scale"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Deutschland exportiert Maschinen in die ganze Welt.",
+          "en": "Germany exports machinery all over the world."
+        },
+        {
+          "de": "Der Betrieb exportiert seine Produkte vor allem nach Asien.",
+          "en": "The firm exports its products mainly to Asia."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; wirtschaftlicher Fachbegriff, auch übertragen in der Informatik (Daten exportieren).",
+      "near_synonyms": [
+        {
+          "lemma": "ausführen",
+          "distinction": "der deutsche Ausdruck fürs Exportieren, etwas förmlicher"
+        },
+        {
+          "lemma": "liefern",
+          "distinction": "allgemeiner, auch im Inland, ohne den Auslandsbezug"
+        }
+      ]
+    },
+    "importieren": {
+      "meaning_de": "Waren aus dem Ausland einkaufen und einführen",
+      "meaning_en": "to import",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er importiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er importierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat importiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er importierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas aus einem Land importieren",
+          "cases": "aus + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Waren importieren",
+          "gloss_en": "to import goods"
+        },
+        {
+          "phrase": "Öl importieren",
+          "gloss_en": "to import oil"
+        },
+        {
+          "phrase": "aus dem Ausland importieren",
+          "gloss_en": "to import from abroad"
+        },
+        {
+          "phrase": "billig importieren",
+          "gloss_en": "to import cheaply"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Land importiert einen Großteil seiner Energie.",
+          "en": "The country imports most of its energy."
+        },
+        {
+          "de": "Wir importieren den Kaffee direkt von den Erzeugern.",
+          "en": "We import the coffee directly from the producers."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; wirtschaftlicher Fachbegriff, das Gegenstück zu exportieren.",
+      "near_synonyms": [
+        {
+          "lemma": "einführen",
+          "distinction": "der deutsche Ausdruck fürs Importieren, etwas förmlicher"
+        },
+        {
+          "lemma": "beziehen",
+          "distinction": "allgemeiner, Waren von einer Quelle erhalten, auch im Inland"
+        }
+      ]
+    },
+    "abheben": {
+      "meaning_de": "Geld vom Konto in bar entnehmen",
+      "meaning_en": "to withdraw (money)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er hebt ab"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er hob ab"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat abgehoben"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er höbe ab"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Geld von etwas abheben",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Geld abheben",
+          "gloss_en": "to withdraw money"
+        },
+        {
+          "phrase": "am Automaten abheben",
+          "gloss_en": "to withdraw at the cash machine"
+        },
+        {
+          "phrase": "vom Konto abheben",
+          "gloss_en": "to withdraw from the account"
+        },
+        {
+          "phrase": "einen Betrag abheben",
+          "gloss_en": "to withdraw an amount"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ich muss noch schnell am Automaten Geld abheben.",
+          "en": "I quickly need to withdraw some money at the machine."
+        },
+        {
+          "de": "Sie hob die gesamte Summe in bar ab.",
+          "en": "She withdrew the whole sum in cash."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Bankkontext, das Verb heißt auch 'starten' (das Flugzeug hebt ab) oder 'sich abheben von'.",
+      "near_synonyms": [
+        {
+          "lemma": "auszahlen lassen",
+          "distinction": "betont, dass jemand anderes das Geld auszahlt"
+        },
+        {
+          "lemma": "entnehmen",
+          "distinction": "förmlicher, etwas aus einem Bestand herausnehmen"
+        }
+      ]
+    },
+    "einzahlen": {
+      "meaning_de": "Geld auf ein Konto einbringen",
+      "meaning_en": "to pay in; to deposit",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er zahlt ein"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er zahlte ein"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat eingezahlt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er zahlte ein"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Geld auf etwas einzahlen",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Geld einzahlen",
+          "gloss_en": "to pay in money"
+        },
+        {
+          "phrase": "auf das Konto einzahlen",
+          "gloss_en": "to deposit into the account"
+        },
+        {
+          "phrase": "bar einzahlen",
+          "gloss_en": "to deposit in cash"
+        },
+        {
+          "phrase": "in die Rentenkasse einzahlen",
+          "gloss_en": "to pay into the pension fund"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er zahlte das Bargeld auf sein Sparkonto ein.",
+          "en": "He paid the cash into his savings account."
+        },
+        {
+          "de": "Jeden Monat zahlt sie einen festen Betrag ein.",
+          "en": "Every month she pays in a fixed amount."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das Gegenstück zu abheben, alltäglich im Bankverkehr.",
+      "near_synonyms": [
+        {
+          "lemma": "überweisen",
+          "distinction": "bargeldlos von Konto zu Konto, nicht als Bareinzahlung"
+        },
+        {
+          "lemma": "gutschreiben",
+          "distinction": "aus Sicht der Bank, einen Betrag dem Konto zufügen"
+        }
+      ]
+    },
+    "überweisen": {
+      "meaning_de": "Geld bargeldlos von einem Konto auf ein anderes übertragen",
+      "meaning_en": "to transfer (money); to remit",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er überweist"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er überwies"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat überwiesen"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er überwiese"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "jemandem etwas überweisen",
+          "cases": "Dat. + Akk."
+        },
+        {
+          "pattern": "etwas auf ein Konto überweisen",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Geld überweisen",
+          "gloss_en": "to transfer money"
+        },
+        {
+          "phrase": "die Miete überweisen",
+          "gloss_en": "to transfer the rent"
+        },
+        {
+          "phrase": "auf das Konto überweisen",
+          "gloss_en": "to transfer to the account"
+        },
+        {
+          "phrase": "den Betrag überweisen",
+          "gloss_en": "to transfer the amount"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Arbeitgeber überweist das Gehalt am Monatsende.",
+          "en": "The employer transfers the salary at the end of the month."
+        },
+        {
+          "de": "Kannst du mir das Geld auf mein Konto überweisen?",
+          "en": "Can you transfer the money to my account?"
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Bankwesen der Standardausdruck, im Medizinischen auch 'zum Facharzt überweisen'.",
+      "near_synonyms": [
+        {
+          "lemma": "einzahlen",
+          "distinction": "Geld bar aufs Konto bringen, nicht von Konto zu Konto"
+        },
+        {
+          "lemma": "zahlen",
+          "distinction": "allgemeiner, jede Art des Bezahlens, auch bar"
+        }
+      ]
+    },
+    "rentabel": {
+      "meaning_de": "so, dass mehr Ertrag als Aufwand herauskommt; sich finanziell lohnend",
+      "meaning_en": "profitable; cost-effective",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "rentabler"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am rentabelsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein rentables Geschäft",
+          "gloss_en": "a profitable business"
+        },
+        {
+          "phrase": "rentabel wirtschaften",
+          "gloss_en": "to operate profitably"
+        },
+        {
+          "phrase": "sich als rentabel erweisen",
+          "gloss_en": "to prove profitable"
+        },
+        {
+          "phrase": "nicht mehr rentabel sein",
+          "gloss_en": "to be no longer profitable"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die kleine Filiale war schon lange nicht mehr rentabel.",
+          "en": "The small branch had long ceased to be profitable."
+        },
+        {
+          "de": "Erst ab einer gewissen Stückzahl wird die Produktion rentabel.",
+          "en": "Production only becomes profitable above a certain quantity."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; wirtschaftlich, bezieht sich auf das Verhältnis von Ertrag und Aufwand.",
+      "near_synonyms": [
+        {
+          "lemma": "profitabel",
+          "distinction": "fast bedeutungsgleich, betont stärker den erzielten Gewinn"
+        },
+        {
+          "lemma": "wirtschaftlich",
+          "distinction": "weiter gefasst, auch sparsam oder ökonomisch sinnvoll"
+        }
+      ]
+    },
+    "solvent": {
+      "meaning_de": "fähig, seine finanziellen Verpflichtungen zu erfüllen; zahlungsfähig",
+      "meaning_en": "solvent; creditworthy",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "solventer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am solventesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein solventer Kunde",
+          "gloss_en": "a solvent customer"
+        },
+        {
+          "phrase": "solvent bleiben",
+          "gloss_en": "to remain solvent"
+        },
+        {
+          "phrase": "einen solventen Käufer finden",
+          "gloss_en": "to find a solvent buyer"
+        },
+        {
+          "phrase": "als solvent gelten",
+          "gloss_en": "to be regarded as solvent"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bank vergibt den Kredit nur an solvente Kunden.",
+          "en": "The bank only grants the loan to solvent customers."
+        },
+        {
+          "de": "Trotz der Krise blieb das Unternehmen solvent.",
+          "en": "Despite the crisis the company remained solvent."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und fachsprachlich; typisch für Finanz-, Bank- und Wirtschaftskontexte.",
+      "near_synonyms": [
+        {
+          "lemma": "zahlungsfähig",
+          "distinction": "der deutsche Ausdruck, im Alltag geläufiger"
+        },
+        {
+          "lemma": "kreditwürdig",
+          "distinction": "betont die Eignung, einen Kredit zu erhalten"
+        }
+      ]
+    },
+    "zahlungsfähig": {
+      "meaning_de": "in der Lage, fällige Rechnungen und Schulden zu bezahlen",
+      "meaning_en": "able to pay; solvent",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zahlungsfähig bleiben",
+          "gloss_en": "to stay solvent"
+        },
+        {
+          "phrase": "einen zahlungsfähigen Schuldner",
+          "gloss_en": "a solvent debtor"
+        },
+        {
+          "phrase": "wieder zahlungsfähig werden",
+          "gloss_en": "to become able to pay again"
+        },
+        {
+          "phrase": "als zahlungsfähig gelten",
+          "gloss_en": "to be considered able to pay"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Nur wer zahlungsfähig ist, bekommt Ware auf Rechnung.",
+          "en": "Only those able to pay get goods on account."
+        },
+        {
+          "de": "Dank der Finanzspritze blieb die Stadt zahlungsfähig.",
+          "en": "Thanks to the cash injection the town stayed solvent."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das nicht steigerbare Gegenteil von zahlungsunfähig, sachlich-wirtschaftlich.",
+      "near_synonyms": [
+        {
+          "lemma": "solvent",
+          "distinction": "das Fremdwort, förmlicher und stärker im Bankjargon"
+        },
+        {
+          "lemma": "liquide",
+          "distinction": "betont, dass genug Bargeld verfügbar ist, nicht nur Vermögen"
+        }
+      ]
+    },
+    "zahlungsunfähig": {
+      "meaning_de": "nicht in der Lage, fällige Rechnungen und Schulden zu bezahlen",
+      "meaning_en": "insolvent; unable to pay",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zahlungsunfähig werden",
+          "gloss_en": "to become insolvent"
+        },
+        {
+          "phrase": "zahlungsunfähig sein",
+          "gloss_en": "to be unable to pay"
+        },
+        {
+          "phrase": "einen zahlungsunfähigen Schuldner",
+          "gloss_en": "an insolvent debtor"
+        },
+        {
+          "phrase": "sich für zahlungsunfähig erklären",
+          "gloss_en": "to declare oneself insolvent"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Als das Unternehmen zahlungsunfähig wurde, meldete es Insolvenz an.",
+          "en": "When the company became insolvent, it filed for bankruptcy."
+        },
+        {
+          "de": "Der Schuldner war zahlungsunfähig und konnte nichts mehr begleichen.",
+          "en": "The debtor was insolvent and could settle nothing more."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; das nicht steigerbare Gegenteil von zahlungsfähig, führt oft zur Insolvenz.",
+      "near_synonyms": [
+        {
+          "lemma": "insolvent",
+          "distinction": "das Fremdwort, förmlicher und juristisch geprägt"
+        },
+        {
+          "lemma": "pleite",
+          "distinction": "umgangssprachlich für finanziell am Ende"
+        }
+      ]
+    },
+    "steuerpflichtig": {
+      "meaning_de": "so, dass darauf oder dafür Steuern gezahlt werden müssen",
+      "meaning_en": "taxable; liable to tax",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein steuerpflichtiges Einkommen",
+          "gloss_en": "a taxable income"
+        },
+        {
+          "phrase": "steuerpflichtige Einkünfte",
+          "gloss_en": "taxable earnings"
+        },
+        {
+          "phrase": "voll steuerpflichtig sein",
+          "gloss_en": "to be fully liable to tax"
+        },
+        {
+          "phrase": "steuerpflichtig werden",
+          "gloss_en": "to become liable to tax"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Auch Zinserträge sind ab einem bestimmten Betrag steuerpflichtig.",
+          "en": "Interest income is also taxable above a certain amount."
+        },
+        {
+          "de": "Als Selbstständiger ist er in Deutschland steuerpflichtig.",
+          "en": "As a self-employed person he is liable to tax in Germany."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis fachsprachlich; steuer- und behördenrechtlicher Begriff, nicht steigerbar.",
+      "near_synonyms": [
+        {
+          "lemma": "abgabepflichtig",
+          "distinction": "weiter gefasst, auch für Beiträge und Gebühren, nicht nur Steuern"
+        },
+        {
+          "lemma": "besteuert",
+          "distinction": "Partizip, beschreibt das bereits erfolgte Besteuern"
+        }
+      ]
+    },
+    "gewinnbringend": {
+      "meaning_de": "so, dass es einen Gewinn oder Nutzen einbringt",
+      "meaning_en": "profitable; lucrative",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "gewinnbringender"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am gewinnbringendsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine gewinnbringende Investition",
+          "gloss_en": "a profitable investment"
+        },
+        {
+          "phrase": "etwas gewinnbringend anlegen",
+          "gloss_en": "to invest something profitably"
+        },
+        {
+          "phrase": "gewinnbringend verkaufen",
+          "gloss_en": "to sell at a profit"
+        },
+        {
+          "phrase": "ein gewinnbringendes Geschäft",
+          "gloss_en": "a lucrative deal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie legte das Kapital gewinnbringend in Immobilien an.",
+          "en": "She invested the capital profitably in real estate."
+        },
+        {
+          "de": "Die Zusammenarbeit erwies sich für beide Seiten als gewinnbringend.",
+          "en": "The cooperation proved profitable for both sides."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; auch übertragen für 'nützlich, bereichernd', nicht nur im finanziellen Sinn.",
+      "near_synonyms": [
+        {
+          "lemma": "rentabel",
+          "distinction": "stärker wirtschaftlich, betont das Verhältnis von Ertrag zu Aufwand"
+        },
+        {
+          "lemma": "lukrativ",
+          "distinction": "betont besonders hohe, verlockende Gewinne"
+        }
+      ]
+    }
+  }
+}
