@@ -1,0 +1,2911 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1-Domäne Kultur, Kunst, Literatur & Medien (Batch c1-05): 30 Nomen, 10 Verben, 10 Adjektive.",
+  "dossiers": {
+    "Ästhetik": {
+      "meaning_de": "die Lehre vom Schönen und von der Wirkung der Kunst; auch: das ästhetische Erscheinungsbild von etwas",
+      "meaning_en": "aesthetics; the aesthetic quality or appearance of something",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Ästhetik"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine eigene Ästhetik entwickeln",
+          "gloss_en": "to develop a distinctive aesthetic"
+        },
+        {
+          "phrase": "die Ästhetik des Films",
+          "gloss_en": "the aesthetics of the film"
+        },
+        {
+          "phrase": "eine strenge Ästhetik",
+          "gloss_en": "a rigorous aesthetic"
+        },
+        {
+          "phrase": "Ethik und Ästhetik",
+          "gloss_en": "ethics and aesthetics"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Ästhetik des Regisseurs prägt jede Einstellung.",
+          "en": "The director's aesthetic shapes every shot."
+        },
+        {
+          "de": "In seinem Werk verbinden sich Politik und Ästhetik.",
+          "en": "In his work, politics and aesthetics come together."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; philosophisch-kunstwissenschaftlich, aber auch im Feuilleton geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "die Formsprache",
+          "distinction": "enger, meint die konkreten gestalterischen Mittel"
+        },
+        {
+          "lemma": "der Stil",
+          "distinction": "allgemeiner, die Gesamtheit charakteristischer Merkmale"
+        }
+      ]
+    },
+    "Deutungshoheit": {
+      "meaning_de": "die Macht, die maßgebliche und allgemein anerkannte Auslegung von etwas festzulegen",
+      "meaning_en": "interpretive authority; the power to define the accepted reading of something",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Deutungshoheit"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "die Deutungshoheit über etwas",
+          "cases": "über + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Deutungshoheit beanspruchen",
+          "gloss_en": "to claim interpretive authority"
+        },
+        {
+          "phrase": "die Deutungshoheit verlieren",
+          "gloss_en": "to lose interpretive authority"
+        },
+        {
+          "phrase": "um die Deutungshoheit ringen",
+          "gloss_en": "to struggle over the dominant interpretation"
+        },
+        {
+          "phrase": "die Deutungshoheit über den Diskurs",
+          "gloss_en": "control over how the discourse is read"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beide Lager beanspruchen die Deutungshoheit über das Ereignis.",
+          "en": "Both camps claim the authority to interpret the event."
+        },
+        {
+          "de": "Mit den sozialen Medien geriet die klassische Presse um ihre Deutungshoheit.",
+          "en": "With social media, the traditional press came under threat regarding its interpretive authority."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; typisch für Feuilleton, Politik und Medienkritik.",
+      "near_synonyms": [
+        {
+          "lemma": "die Meinungsführerschaft",
+          "distinction": "betont das Anführen der öffentlichen Meinung, nicht das Auslegen"
+        },
+        {
+          "lemma": "die Diskurshoheit",
+          "distinction": "die Kontrolle über das Thema selbst, weniger über dessen Deutung"
+        }
+      ]
+    },
+    "Sprachbild": {
+      "meaning_de": "ein sprachlicher Ausdruck, der etwas anschaulich und bildhaft veranschaulicht",
+      "meaning_en": "figure of speech; verbal image",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Sprachbilds"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sprachbilder"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein eindringliches Sprachbild",
+          "gloss_en": "a vivid figure of speech"
+        },
+        {
+          "phrase": "ein schiefes Sprachbild",
+          "gloss_en": "a mixed or awkward metaphor"
+        },
+        {
+          "phrase": "Sprachbilder verwenden",
+          "gloss_en": "to use figures of speech"
+        },
+        {
+          "phrase": "ein abgegriffenes Sprachbild",
+          "gloss_en": "a hackneyed image"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Autor arbeitet mit kühnen Sprachbildern.",
+          "en": "The author works with bold figures of speech."
+        },
+        {
+          "de": "Das Sprachbild vom Herbst des Lebens ist längst abgenutzt.",
+          "en": "The image of the autumn of life has long since worn thin."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Literaturkritik und Deutschunterricht verbreitet.",
+      "near_synonyms": [
+        {
+          "lemma": "die Metapher",
+          "distinction": "enger, eine bestimmte Art bildhafter Übertragung"
+        },
+        {
+          "lemma": "die Bildsprache",
+          "distinction": "das übergeordnete System, nicht das einzelne Bild"
+        }
+      ]
+    },
+    "Metapher": {
+      "meaning_de": "ein sprachliches Bild, bei dem ein Wort in übertragener Bedeutung für etwas anderes steht",
+      "meaning_en": "metaphor",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Metapher"
+        },
+        {
+          "label": "Plural",
+          "value": "die Metaphern"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Metapher für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine treffende Metapher",
+          "gloss_en": "an apt metaphor"
+        },
+        {
+          "phrase": "eine Metapher gebrauchen",
+          "gloss_en": "to use a metaphor"
+        },
+        {
+          "phrase": "eine erweiterte Metapher",
+          "gloss_en": "an extended metaphor"
+        },
+        {
+          "phrase": "in Metaphern sprechen",
+          "gloss_en": "to speak in metaphors"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Schiff ist bei ihm eine Metapher für das Leben.",
+          "en": "For him, the ship is a metaphor for life."
+        },
+        {
+          "de": "Ihre Rede war voller anschaulicher Metaphern.",
+          "en": "Her speech was full of vivid metaphors."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; fest im literarischen und alltäglichen Sprachgebrauch.",
+      "near_synonyms": [
+        {
+          "lemma": "der Vergleich",
+          "distinction": "nennt beide Seiten ausdrücklich, meist mit 'wie'"
+        },
+        {
+          "lemma": "die Allegorie",
+          "distinction": "ausgedehnter, ein ganzes Bildsystem statt eines Wortes"
+        }
+      ]
+    },
+    "Allegorie": {
+      "meaning_de": "die bildhafte Darstellung eines abstrakten Begriffs, oft als durchgehendes Sinnbild in einem Werk",
+      "meaning_en": "allegory",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Allegorie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Allegorien"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Allegorie auf etwas",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Allegorie der Gerechtigkeit",
+          "gloss_en": "an allegory of justice"
+        },
+        {
+          "phrase": "als Allegorie deuten",
+          "gloss_en": "to read as an allegory"
+        },
+        {
+          "phrase": "eine politische Allegorie",
+          "gloss_en": "a political allegory"
+        },
+        {
+          "phrase": "die Allegorie entschlüsseln",
+          "gloss_en": "to decode the allegory"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Roman lässt sich als Allegorie auf die Diktatur lesen.",
+          "en": "The novel can be read as an allegory of dictatorship."
+        },
+        {
+          "de": "Die verbundenen Augen sind eine Allegorie der Unparteilichkeit.",
+          "en": "The blindfold is an allegory of impartiality."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich in Literatur- und Kunstwissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "das Symbol",
+          "distinction": "ein einzelnes Zeichen, keine durchgeführte Erzählung"
+        },
+        {
+          "lemma": "die Parabel",
+          "distinction": "eine lehrhafte Erzählung mit übertragbarer Botschaft"
+        }
+      ]
+    },
+    "Rezension": {
+      "meaning_de": "eine kritische Besprechung eines Buches, Films oder anderen Werkes",
+      "meaning_en": "review; critical appraisal",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rezension"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rezensionen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Rezension zu etwas",
+          "cases": "zu + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Rezension schreiben",
+          "gloss_en": "to write a review"
+        },
+        {
+          "phrase": "eine vernichtende Rezension",
+          "gloss_en": "a scathing review"
+        },
+        {
+          "phrase": "eine wohlwollende Rezension",
+          "gloss_en": "a favourable review"
+        },
+        {
+          "phrase": "eine Rezension veröffentlichen",
+          "gloss_en": "to publish a review"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Rezension in der Zeitung fiel überaus positiv aus.",
+          "en": "The review in the newspaper turned out very positive."
+        },
+        {
+          "de": "Nach der vernichtenden Rezension brach der Verkauf ein.",
+          "en": "After the scathing review, sales collapsed."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Kultur- und Wissenschaftsbetrieb fest etabliert.",
+      "near_synonyms": [
+        {
+          "lemma": "die Kritik",
+          "distinction": "allgemeiner, auch die bewertende Instanz insgesamt"
+        },
+        {
+          "lemma": "die Besprechung",
+          "distinction": "etwas neutraler, weniger stark auf Wertung fokussiert"
+        }
+      ]
+    },
+    "Rezensent": {
+      "meaning_de": "eine Person, die ein Werk fachkundig bespricht und beurteilt",
+      "meaning_en": "reviewer; critic",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Rezensenten"
+        },
+        {
+          "label": "Plural",
+          "value": "die Rezensenten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein wohlwollender Rezensent",
+          "gloss_en": "a well-disposed reviewer"
+        },
+        {
+          "phrase": "ein strenger Rezensent",
+          "gloss_en": "a severe critic"
+        },
+        {
+          "phrase": "die Rezensenten lobten das Werk",
+          "gloss_en": "the reviewers praised the work"
+        },
+        {
+          "phrase": "beim Rezensenten Anklang finden",
+          "gloss_en": "to find favour with the reviewer"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Rezensent hob vor allem die Sprache des Romans hervor.",
+          "en": "The reviewer singled out the novel's language above all."
+        },
+        {
+          "de": "Selbst wohlwollende Rezensenten fanden das Stück zu lang.",
+          "en": "Even sympathetic reviewers found the play too long."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; N-Deklination (der Rezensent, des Rezensenten, dem Rezensenten).",
+      "near_synonyms": [
+        {
+          "lemma": "der Kritiker",
+          "distinction": "umfassender, auch über einzelne Werke hinaus urteilend"
+        },
+        {
+          "lemma": "der Gutachter",
+          "distinction": "prüft fachlich, meist wissenschaftlich, ohne öffentliche Wertung"
+        }
+      ]
+    },
+    "Inszenierung": {
+      "meaning_de": "die künstlerische Umsetzung eines Stücks für die Bühne; auch: bewusst wirkungsvolle Darstellung",
+      "meaning_en": "staging; production; deliberate staging of an effect",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Inszenierung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Inszenierungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine gelungene Inszenierung",
+          "gloss_en": "a successful production"
+        },
+        {
+          "phrase": "eine moderne Inszenierung des Klassikers",
+          "gloss_en": "a modern staging of the classic"
+        },
+        {
+          "phrase": "die mediale Inszenierung",
+          "gloss_en": "the media staging"
+        },
+        {
+          "phrase": "die Selbstinszenierung des Politikers",
+          "gloss_en": "the politician's self-staging"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Inszenierung verlegt die Handlung in die Gegenwart.",
+          "en": "The production relocates the plot to the present day."
+        },
+        {
+          "de": "Der Auftritt war reine Inszenierung fürs Publikum.",
+          "en": "The appearance was pure staging for the audience."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Theater fachsprachlich, übertragen oft leicht kritisch (Selbstinszenierung).",
+      "near_synonyms": [
+        {
+          "lemma": "die Aufführung",
+          "distinction": "der einzelne Abend, nicht das gestalterische Konzept"
+        },
+        {
+          "lemma": "die Regie",
+          "distinction": "die leitende Tätigkeit, nicht das fertige Ergebnis"
+        }
+      ]
+    },
+    "Regisseur": {
+      "meaning_de": "eine Person, die die künstlerische Gesamtleitung bei Theater, Film oder Fernsehen innehat",
+      "meaning_en": "director (film, theatre)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Regisseurs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Regisseure"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein renommierter Regisseur",
+          "gloss_en": "a renowned director"
+        },
+        {
+          "phrase": "beim Film Regie führen",
+          "gloss_en": "to direct a film"
+        },
+        {
+          "phrase": "der Regisseur des Films",
+          "gloss_en": "the director of the film"
+        },
+        {
+          "phrase": "unter der Regie von",
+          "gloss_en": "directed by"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Regisseur ließ die Schlüsselszene mehrfach wiederholen.",
+          "en": "The director had the key scene shot several times."
+        },
+        {
+          "de": "Für ihren Film gewann die Regisseurin einen bedeutenden Preis.",
+          "en": "The director won a major award for her film."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; feminine Form: die Regisseurin.",
+      "near_synonyms": [
+        {
+          "lemma": "der Intendant",
+          "distinction": "leitet ein ganzes Haus, nicht eine einzelne Produktion"
+        },
+        {
+          "lemma": "der Dramaturg",
+          "distinction": "berät inhaltlich, ohne die Inszenierung zu verantworten"
+        }
+      ]
+    },
+    "Dramaturgie": {
+      "meaning_de": "die Lehre und Kunst des Aufbaus eines Bühnen- oder Filmwerks; auch: die konkrete Struktur eines Werkes",
+      "meaning_en": "dramaturgy; dramatic structure",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Dramaturgie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Dramaturgien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine geschickte Dramaturgie",
+          "gloss_en": "a skilful dramatic structure"
+        },
+        {
+          "phrase": "die Dramaturgie des Abends",
+          "gloss_en": "the dramaturgy of the evening"
+        },
+        {
+          "phrase": "an der Dramaturgie feilen",
+          "gloss_en": "to refine the dramatic structure"
+        },
+        {
+          "phrase": "einer klaren Dramaturgie folgen",
+          "gloss_en": "to follow a clear dramatic arc"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Dramaturgie des Films fehlt jede Spannung.",
+          "en": "The film's dramatic structure lacks any tension."
+        },
+        {
+          "de": "Die ganze Veranstaltung hatte eine ausgeklügelte Dramaturgie.",
+          "en": "The whole event had a carefully worked-out dramaturgy."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich am Theater, übertragen für den Spannungsaufbau von Ereignissen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Aufbau",
+          "distinction": "allgemeiner, jede Art von Gliederung"
+        },
+        {
+          "lemma": "die Handlungsführung",
+          "distinction": "enger auf den Verlauf der Handlung bezogen"
+        }
+      ]
+    },
+    "Novelle": {
+      "meaning_de": "eine kürzere Erzählung mit straffer Handlung um ein außergewöhnliches Ereignis",
+      "meaning_en": "novella; novelette",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Novelle"
+        },
+        {
+          "label": "Plural",
+          "value": "die Novellen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine klassische Novelle",
+          "gloss_en": "a classic novella"
+        },
+        {
+          "phrase": "die Novelle spielt in",
+          "gloss_en": "the novella is set in"
+        },
+        {
+          "phrase": "eine Novelle verfassen",
+          "gloss_en": "to write a novella"
+        },
+        {
+          "phrase": "der Wendepunkt der Novelle",
+          "gloss_en": "the turning point of the novella"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Novelle erzählt in wenigen Seiten ein ganzes Schicksal.",
+          "en": "In just a few pages, the novella tells an entire fate."
+        },
+        {
+          "de": "In der Schule lasen wir eine Novelle von Storm.",
+          "en": "At school we read a novella by Storm."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; literaturwissenschaftlicher Gattungsbegriff. Im Recht bezeichnet Novelle zudem eine Gesetzesänderung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Erzählung",
+          "distinction": "offener in Form und Umfang, ohne strenge Gattungsregeln"
+        },
+        {
+          "lemma": "die Kurzgeschichte",
+          "distinction": "moderner, mit offenem Anfang und Ende"
+        }
+      ]
+    },
+    "Lyrik": {
+      "meaning_de": "die Dichtung in Versform, die literarische Gattung der Gedichte",
+      "meaning_en": "poetry; lyric verse",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Lyrik"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "moderne Lyrik",
+          "gloss_en": "modern poetry"
+        },
+        {
+          "phrase": "sich der Lyrik widmen",
+          "gloss_en": "to devote oneself to poetry"
+        },
+        {
+          "phrase": "expressionistische Lyrik",
+          "gloss_en": "Expressionist poetry"
+        },
+        {
+          "phrase": "ein Band mit Lyrik",
+          "gloss_en": "a volume of poetry"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihre Lyrik lebt von knappen, dichten Bildern.",
+          "en": "Her poetry thrives on sparse, dense imagery."
+        },
+        {
+          "de": "Lyrik verkauft sich schlechter als Prosa.",
+          "en": "Poetry sells worse than prose."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; Gattungsbegriff neben Epik und Dramatik.",
+      "near_synonyms": [
+        {
+          "lemma": "die Dichtung",
+          "distinction": "umfassender, kann auch Versepen und Dramen meinen"
+        },
+        {
+          "lemma": "die Poesie",
+          "distinction": "betont stärker das Poetische, oft auch übertragen gebraucht"
+        }
+      ]
+    },
+    "Prosa": {
+      "meaning_de": "die ungebundene, nicht in Versen verfasste Sprache der Erzählliteratur",
+      "meaning_en": "prose",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Prosa"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "nüchterne Prosa",
+          "gloss_en": "sober prose"
+        },
+        {
+          "phrase": "kunstvolle Prosa",
+          "gloss_en": "artful prose"
+        },
+        {
+          "phrase": "in Prosa verfasst",
+          "gloss_en": "written in prose"
+        },
+        {
+          "phrase": "die Prosa des Alltags",
+          "gloss_en": "the prose of everyday life"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine Prosa ist klar und ohne jeden Schnörkel.",
+          "en": "His prose is clear and without any flourish."
+        },
+        {
+          "de": "Sie übersetzte die Verse in schlichte Prosa.",
+          "en": "She rendered the verses into plain prose."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; übertragen steht Prosa auch für das Nüchtern-Alltägliche.",
+      "near_synonyms": [
+        {
+          "lemma": "die Epik",
+          "distinction": "Gattungsbegriff für erzählende Literatur, nicht die Sprachform"
+        },
+        {
+          "lemma": "der Fließtext",
+          "distinction": "rein formal, ohne literarische Konnotation"
+        }
+      ]
+    },
+    "Sujet": {
+      "meaning_de": "der zentrale Gegenstand oder das Thema eines künstlerischen Werkes",
+      "meaning_en": "subject matter; theme (of an artwork)",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Sujets"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sujets"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein beliebtes Sujet",
+          "gloss_en": "a popular subject"
+        },
+        {
+          "phrase": "das Sujet des Gemäldes",
+          "gloss_en": "the subject of the painting"
+        },
+        {
+          "phrase": "ein heikles Sujet",
+          "gloss_en": "a delicate subject"
+        },
+        {
+          "phrase": "ein Sujet aufgreifen",
+          "gloss_en": "to take up a theme"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Krieg ist ein wiederkehrendes Sujet in seinem Werk.",
+          "en": "War is a recurring subject in his work."
+        },
+        {
+          "de": "Das Stillleben war im Barock ein beliebtes Sujet.",
+          "en": "The still life was a popular subject in the Baroque."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich, aus dem Französischen, im Kunst- und Literaturbetrieb.",
+      "near_synonyms": [
+        {
+          "lemma": "das Motiv",
+          "distinction": "ein wiederkehrendes Einzelelement, kleiner als das ganze Thema"
+        },
+        {
+          "lemma": "der Stoff",
+          "distinction": "der Handlungskern, aus dem ein Werk geformt wird"
+        }
+      ]
+    },
+    "Symbolik": {
+      "meaning_de": "die Gesamtheit der Symbole und ihrer Bedeutung in einem Werk oder Zusammenhang",
+      "meaning_en": "symbolism; symbolic imagery",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Symbolik"
+        },
+        {
+          "label": "Plural",
+          "value": "die Symboliken"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine reiche Symbolik",
+          "gloss_en": "a rich symbolism"
+        },
+        {
+          "phrase": "die religiöse Symbolik",
+          "gloss_en": "the religious symbolism"
+        },
+        {
+          "phrase": "die Symbolik entschlüsseln",
+          "gloss_en": "to decode the symbolism"
+        },
+        {
+          "phrase": "voller Symbolik stecken",
+          "gloss_en": "to be full of symbolism"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Farbsymbolik des Films erschließt sich erst beim zweiten Sehen.",
+          "en": "The film's colour symbolism only reveals itself on a second viewing."
+        },
+        {
+          "de": "Der Ort war mit Bedacht gewählt und voller Symbolik.",
+          "en": "The venue was deliberately chosen and full of symbolism."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Kunst-, Literatur- und Kulturanalyse verbreitet.",
+      "near_synonyms": [
+        {
+          "lemma": "die Symbolkraft",
+          "distinction": "die Wirkung eines Symbols, nicht das System der Symbole"
+        },
+        {
+          "lemma": "die Bildsprache",
+          "distinction": "weiter gefasst, umfasst auch nicht-symbolische Bilder"
+        }
+      ]
+    },
+    "Erzählperspektive": {
+      "meaning_de": "der Blickwinkel, aus dem eine Geschichte erzählt wird",
+      "meaning_en": "narrative perspective; point of view",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Erzählperspektive"
+        },
+        {
+          "label": "Plural",
+          "value": "die Erzählperspektiven"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die auktoriale Erzählperspektive",
+          "gloss_en": "the authorial narrative perspective"
+        },
+        {
+          "phrase": "die Erzählperspektive wechseln",
+          "gloss_en": "to switch the narrative perspective"
+        },
+        {
+          "phrase": "eine ungewöhnliche Erzählperspektive",
+          "gloss_en": "an unusual point of view"
+        },
+        {
+          "phrase": "aus der Erzählperspektive des Kindes",
+          "gloss_en": "from the child's narrative perspective"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Roman wechselt ständig die Erzählperspektive.",
+          "en": "The novel constantly switches its narrative perspective."
+        },
+        {
+          "de": "Aus der Erzählperspektive des Täters wirkt alles anders.",
+          "en": "From the perpetrator's point of view, everything looks different."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; literaturwissenschaftlicher Fachbegriff, auch im Deutschunterricht.",
+      "near_synonyms": [
+        {
+          "lemma": "der Blickwinkel",
+          "distinction": "allgemeiner, nicht auf das Erzählen beschränkt"
+        },
+        {
+          "lemma": "die Erzählhaltung",
+          "distinction": "betont die Einstellung des Erzählers zum Geschehen"
+        }
+      ]
+    },
+    "Feuilleton": {
+      "meaning_de": "der Kulturteil einer Zeitung; auch: ein unterhaltsam-essayistischer Beitrag darin",
+      "meaning_en": "arts and culture section (of a newspaper); feature article",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Feuilletons"
+        },
+        {
+          "label": "Plural",
+          "value": "die Feuilletons"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "im Feuilleton erscheinen",
+          "gloss_en": "to appear in the arts section"
+        },
+        {
+          "phrase": "das Feuilleton der Zeitung",
+          "gloss_en": "the paper's culture section"
+        },
+        {
+          "phrase": "ein geistreiches Feuilleton",
+          "gloss_en": "a witty feature piece"
+        },
+        {
+          "phrase": "die Debatte im Feuilleton",
+          "gloss_en": "the debate in the arts pages"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Feuilleton wurde das Buch heftig diskutiert.",
+          "en": "The book was fiercely debated in the arts pages."
+        },
+        {
+          "de": "Sie schreibt regelmäßig kluge Feuilletons über die Stadt.",
+          "en": "She regularly writes clever feature pieces about the city."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich, aus dem Französischen (Aussprache: föjetong).",
+      "near_synonyms": [
+        {
+          "lemma": "der Kulturteil",
+          "distinction": "sachlicher, rein die Rubrik ohne den Essay-Beiklang"
+        },
+        {
+          "lemma": "die Kolumne",
+          "distinction": "ein regelmäßiger, meist namentlich gezeichneter Meinungsbeitrag"
+        }
+      ]
+    },
+    "Pathos": {
+      "meaning_de": "feierlich-leidenschaftliche Ergriffenheit im Ausdruck, oft mit dem Beiklang des Übertriebenen",
+      "meaning_en": "pathos; grandiloquent emotion",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Pathos"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "mit großem Pathos",
+          "gloss_en": "with great pathos"
+        },
+        {
+          "phrase": "falsches Pathos",
+          "gloss_en": "false pathos"
+        },
+        {
+          "phrase": "ohne jedes Pathos",
+          "gloss_en": "without any pathos"
+        },
+        {
+          "phrase": "in Pathos verfallen",
+          "gloss_en": "to lapse into pathos"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er trug das Gedicht mit theatralischem Pathos vor.",
+          "en": "He recited the poem with theatrical pathos."
+        },
+        {
+          "de": "Der Rede fehlte jedes Pathos, sie blieb nüchtern.",
+          "en": "The speech lacked any pathos and stayed sober."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; heute oft leicht abwertend im Sinne von aufgesetztem Pathos.",
+      "near_synonyms": [
+        {
+          "lemma": "die Emphase",
+          "distinction": "der Nachdruck im Ausdruck, weniger die feierliche Ergriffenheit"
+        },
+        {
+          "lemma": "der Schwulst",
+          "distinction": "eindeutig abwertend, überladen und geschmacklos"
+        }
+      ]
+    },
+    "Rhetorik": {
+      "meaning_de": "die Kunst und Lehre der wirkungsvollen Rede; auch: die Redeweise als solche",
+      "meaning_en": "rhetoric; the art of persuasive speech",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Rhetorik"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine geschliffene Rhetorik",
+          "gloss_en": "a polished rhetoric"
+        },
+        {
+          "phrase": "die Rhetorik beherrschen",
+          "gloss_en": "to master rhetoric"
+        },
+        {
+          "phrase": "kämpferische Rhetorik",
+          "gloss_en": "combative rhetoric"
+        },
+        {
+          "phrase": "hinter der Rhetorik steckt",
+          "gloss_en": "behind the rhetoric lies"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit geschickter Rhetorik überzeugte er die Zuhörer.",
+          "en": "With skilful rhetoric he won over the audience."
+        },
+        {
+          "de": "Auf die markige Rhetorik folgten keine Taten.",
+          "en": "The forceful rhetoric was not followed by any action."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; oft kritisch, wenn bloße Rhetorik ohne Substanz gemeint ist.",
+      "near_synonyms": [
+        {
+          "lemma": "die Redekunst",
+          "distinction": "eingedeutscht, betont die praktische Fertigkeit"
+        },
+        {
+          "lemma": "die Eloquenz",
+          "distinction": "die persönliche Redegewandtheit, nicht die Lehre"
+        }
+      ]
+    },
+    "Eloquenz": {
+      "meaning_de": "die Fähigkeit, sich gewandt, flüssig und überzeugend auszudrücken",
+      "meaning_en": "eloquence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Eloquenz"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "mit bestechender Eloquenz",
+          "gloss_en": "with captivating eloquence"
+        },
+        {
+          "phrase": "seine Eloquenz beweisen",
+          "gloss_en": "to demonstrate one's eloquence"
+        },
+        {
+          "phrase": "eine blendende Eloquenz",
+          "gloss_en": "a dazzling eloquence"
+        },
+        {
+          "phrase": "durch Eloquenz überzeugen",
+          "gloss_en": "to persuade through eloquence"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit erstaunlicher Eloquenz verteidigte sie ihre These.",
+          "en": "With remarkable eloquence she defended her thesis."
+        },
+        {
+          "de": "Seine Eloquenz kaschierte die Dürftigkeit der Argumente.",
+          "en": "His eloquence masked the thinness of the arguments."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich, ausgesprochen positiv konnotiert.",
+      "near_synonyms": [
+        {
+          "lemma": "die Redegewandtheit",
+          "distinction": "eingedeutscht und etwas nüchterner"
+        },
+        {
+          "lemma": "die Beredsamkeit",
+          "distinction": "leicht altertümlich, betont das Überzeugende der Rede"
+        }
+      ]
+    },
+    "Topos": {
+      "meaning_de": "ein feststehendes, immer wiederkehrendes Motiv oder Denkbild in der Literatur und Kultur",
+      "meaning_en": "topos; recurring literary motif or commonplace",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Topos"
+        },
+        {
+          "label": "Plural",
+          "value": "die Topoi"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein literarischer Topos",
+          "gloss_en": "a literary topos"
+        },
+        {
+          "phrase": "der Topos vom goldenen Zeitalter",
+          "gloss_en": "the topos of the golden age"
+        },
+        {
+          "phrase": "einen Topos bedienen",
+          "gloss_en": "to draw on a topos"
+        },
+        {
+          "phrase": "ein weit verbreiteter Topos",
+          "gloss_en": "a widespread commonplace"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der einsame Wanderer ist ein Topos der Romantik.",
+          "en": "The solitary wanderer is a topos of Romanticism."
+        },
+        {
+          "de": "Die Rede bediente den Topos vom bedrohten Abendland.",
+          "en": "The speech drew on the topos of the endangered West."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich in Literaturwissenschaft und Rhetorik (aus dem Griechischen).",
+      "near_synonyms": [
+        {
+          "lemma": "das Motiv",
+          "distinction": "konkreter und werkbezogen, nicht notwendig überliefert"
+        },
+        {
+          "lemma": "der Gemeinplatz",
+          "distinction": "abwertend, eine abgedroschene Aussage"
+        }
+      ]
+    },
+    "Kunstgriff": {
+      "meaning_de": "ein geschickter, oft raffinierter Kniff, um eine bestimmte Wirkung zu erzielen",
+      "meaning_en": "artifice; clever device or trick",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kunstgriffs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kunstgriffe"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein rhetorischer Kunstgriff",
+          "gloss_en": "a rhetorical device"
+        },
+        {
+          "phrase": "zu einem Kunstgriff greifen",
+          "gloss_en": "to resort to a trick"
+        },
+        {
+          "phrase": "ein raffinierter Kunstgriff",
+          "gloss_en": "an ingenious device"
+        },
+        {
+          "phrase": "mit einem Kunstgriff lösen",
+          "gloss_en": "to solve with a clever trick"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Mit einem einfachen Kunstgriff hält der Autor die Spannung.",
+          "en": "With a simple device the author sustains the tension."
+        },
+        {
+          "de": "Die Rahmenhandlung ist ein bewährter erzählerischer Kunstgriff.",
+          "en": "The framing story is a tried-and-tested narrative device."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; anerkennend für eine gekonnte Technik, nicht abwertend wie Trick.",
+      "near_synonyms": [
+        {
+          "lemma": "der Kniff",
+          "distinction": "umgangssprachlicher und alltäglicher"
+        },
+        {
+          "lemma": "der Trick",
+          "distinction": "neutraler bis negativ, kann auch Täuschung meinen"
+        }
+      ]
+    },
+    "Wortspiel": {
+      "meaning_de": "ein Spiel mit Doppel- oder Mehrdeutigkeit sowie ähnlichem Klang von Wörtern",
+      "meaning_en": "pun; play on words",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Wortspiels"
+        },
+        {
+          "label": "Plural",
+          "value": "die Wortspiele"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Wortspiel mit etwas",
+          "cases": "mit + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein geistreiches Wortspiel",
+          "gloss_en": "a witty pun"
+        },
+        {
+          "phrase": "ein Wortspiel machen",
+          "gloss_en": "to make a pun"
+        },
+        {
+          "phrase": "ein unübersetzbares Wortspiel",
+          "gloss_en": "an untranslatable pun"
+        },
+        {
+          "phrase": "das Wortspiel geht verloren",
+          "gloss_en": "the pun gets lost"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Titel ist ein Wortspiel, das man leicht überliest.",
+          "en": "The title is a pun that is easy to overlook."
+        },
+        {
+          "de": "In der Übersetzung geht das Wortspiel leider verloren.",
+          "en": "Unfortunately, the pun is lost in translation."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Alltag wie in der Literatur gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "das Kalauer",
+          "distinction": "umgangssprachlich für einen flachen, plumpen Witz"
+        },
+        {
+          "lemma": "die Doppeldeutigkeit",
+          "distinction": "die Mehrdeutigkeit selbst, nicht das spielerische Nutzen"
+        }
+      ]
+    },
+    "Gattung": {
+      "meaning_de": "eine übergeordnete Art oder Kategorie, in die Werke nach gemeinsamen Merkmalen eingeteilt werden",
+      "meaning_en": "genre; category; (biology) genus",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gattung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gattungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "die literarische Gattung",
+          "gloss_en": "the literary genre"
+        },
+        {
+          "phrase": "einer Gattung zuordnen",
+          "gloss_en": "to assign to a genre"
+        },
+        {
+          "phrase": "die Grenzen der Gattung sprengen",
+          "gloss_en": "to burst the bounds of the genre"
+        },
+        {
+          "phrase": "eine neue Gattung begründen",
+          "gloss_en": "to establish a new genre"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Roman lässt sich keiner Gattung eindeutig zuordnen.",
+          "en": "The novel cannot be clearly assigned to any genre."
+        },
+        {
+          "de": "Drama, Epik und Lyrik sind die drei großen Gattungen.",
+          "en": "Drama, epic and poetry are the three great genres."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; in Literatur, Kunst und Biologie fachsprachlich verwendet.",
+      "near_synonyms": [
+        {
+          "lemma": "das Genre",
+          "distinction": "moderner, besonders bei Film und Populärkultur"
+        },
+        {
+          "lemma": "die Art",
+          "distinction": "allgemeiner und weniger fachlich"
+        }
+      ]
+    },
+    "Zeitgeist": {
+      "meaning_de": "die für eine Epoche kennzeichnende geistige und kulturelle Grundhaltung",
+      "meaning_en": "zeitgeist; spirit of the age",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zeitgeistes"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "den Zeitgeist treffen",
+          "gloss_en": "to capture the spirit of the age"
+        },
+        {
+          "phrase": "dem Zeitgeist verhaftet sein",
+          "gloss_en": "to be captive to the zeitgeist"
+        },
+        {
+          "phrase": "gegen den Zeitgeist",
+          "gloss_en": "against the zeitgeist"
+        },
+        {
+          "phrase": "ein Kind seines Zeitgeistes",
+          "gloss_en": "a child of its age"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Film trifft den Zeitgeist der neunziger Jahre.",
+          "en": "The film captures the zeitgeist of the nineties."
+        },
+        {
+          "de": "Sie stellte sich bewusst gegen den herrschenden Zeitgeist.",
+          "en": "She deliberately opposed the prevailing zeitgeist."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich, oft mit leicht kritischem Unterton.",
+      "near_synonyms": [
+        {
+          "lemma": "die Mode",
+          "distinction": "kurzlebiger und oberflächlicher, ohne geistige Tiefe"
+        },
+        {
+          "lemma": "die Stimmung",
+          "distinction": "flüchtiger und weniger prägend für eine ganze Epoche"
+        }
+      ]
+    },
+    "Bildsprache": {
+      "meaning_de": "die Gesamtheit der bildhaften Ausdrucksmittel in Sprache oder Kunst",
+      "meaning_en": "imagery; visual or figurative language",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Bildsprache"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine kraftvolle Bildsprache",
+          "gloss_en": "a powerful imagery"
+        },
+        {
+          "phrase": "die Bildsprache des Films",
+          "gloss_en": "the visual language of the film"
+        },
+        {
+          "phrase": "eine eigene Bildsprache finden",
+          "gloss_en": "to find one's own visual idiom"
+        },
+        {
+          "phrase": "in seiner Bildsprache",
+          "gloss_en": "in its imagery"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Bildsprache des Gedichts ist von der Natur geprägt.",
+          "en": "The poem's imagery is shaped by nature."
+        },
+        {
+          "de": "Der Regisseur hat eine unverwechselbare Bildsprache.",
+          "en": "The director has an unmistakable visual language."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; in Literatur-, Kunst- und Filmkritik gebräuchlich.",
+      "near_synonyms": [
+        {
+          "lemma": "die Metaphorik",
+          "distinction": "enger auf Metaphern beschränkt"
+        },
+        {
+          "lemma": "die Symbolik",
+          "distinction": "das System der Symbole, nicht der Bilder allgemein"
+        }
+      ]
+    },
+    "Anthologie": {
+      "meaning_de": "eine Sammlung ausgewählter Texte verschiedener Autoren in einem Band",
+      "meaning_en": "anthology",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Anthologie"
+        },
+        {
+          "label": "Plural",
+          "value": "die Anthologien"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Anthologie herausgeben",
+          "gloss_en": "to edit an anthology"
+        },
+        {
+          "phrase": "eine Anthologie zeitgenössischer Lyrik",
+          "gloss_en": "an anthology of contemporary poetry"
+        },
+        {
+          "phrase": "in eine Anthologie aufgenommen werden",
+          "gloss_en": "to be included in an anthology"
+        },
+        {
+          "phrase": "eine umfangreiche Anthologie",
+          "gloss_en": "a comprehensive anthology"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Gedicht wurde in eine renommierte Anthologie aufgenommen.",
+          "en": "Her poem was included in a renowned anthology."
+        },
+        {
+          "de": "Die Anthologie versammelt Texte aus drei Jahrhunderten.",
+          "en": "The anthology gathers texts from three centuries."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich im Literaturbetrieb.",
+      "near_synonyms": [
+        {
+          "lemma": "die Sammlung",
+          "distinction": "allgemeiner, auch von einem einzigen Autor"
+        },
+        {
+          "lemma": "der Sammelband",
+          "distinction": "oft für Fachaufsätze, nicht nur literarische Texte"
+        }
+      ]
+    },
+    "Fälschung": {
+      "meaning_de": "die betrügerische Nachahmung eines Werkes oder Dokuments; auch: das gefälschte Stück selbst",
+      "meaning_en": "forgery; fake; counterfeit",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Fälschung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Fälschungen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine plumpe Fälschung",
+          "gloss_en": "a crude forgery"
+        },
+        {
+          "phrase": "eine Fälschung entlarven",
+          "gloss_en": "to expose a forgery"
+        },
+        {
+          "phrase": "sich als Fälschung erweisen",
+          "gloss_en": "to turn out to be a fake"
+        },
+        {
+          "phrase": "eine täuschend echte Fälschung",
+          "gloss_en": "a deceptively genuine fake"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Gemälde entpuppte sich als geschickte Fälschung.",
+          "en": "The painting turned out to be a skilful forgery."
+        },
+        {
+          "de": "Experten enttarnten die Unterschrift als Fälschung.",
+          "en": "Experts exposed the signature as a forgery."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Kunstmarkt, in der Justiz und im Alltag geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "das Plagiat",
+          "distinction": "geistiger Diebstahl, das Ausgeben fremden Werks als eigenes"
+        },
+        {
+          "lemma": "die Imitation",
+          "distinction": "die Nachahmung ohne Täuschungsabsicht"
+        }
+      ]
+    },
+    "Bildungsroman": {
+      "meaning_de": "ein Roman, der die innere Entwicklung und Reifung des Helden über die Jahre schildert",
+      "meaning_en": "coming-of-age novel; Bildungsroman",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Bildungsromans"
+        },
+        {
+          "label": "Plural",
+          "value": "die Bildungsromane"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein klassischer Bildungsroman",
+          "gloss_en": "a classic Bildungsroman"
+        },
+        {
+          "phrase": "der Held des Bildungsromans",
+          "gloss_en": "the hero of the coming-of-age novel"
+        },
+        {
+          "phrase": "in der Tradition des Bildungsromans",
+          "gloss_en": "in the tradition of the Bildungsroman"
+        },
+        {
+          "phrase": "ein moderner Bildungsroman",
+          "gloss_en": "a modern coming-of-age novel"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Goethes Wilhelm Meister gilt als Muster des Bildungsromans.",
+          "en": "Goethe's Wilhelm Meister is regarded as the model of the Bildungsroman."
+        },
+        {
+          "de": "Das Buch ist ein Bildungsroman über das Erwachsenwerden.",
+          "en": "The book is a coming-of-age novel about growing up."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; literaturwissenschaftlicher Gattungsbegriff, international übernommen.",
+      "near_synonyms": [
+        {
+          "lemma": "der Entwicklungsroman",
+          "distinction": "breiter, betont die Entwicklung ohne den Bildungsgedanken"
+        },
+        {
+          "lemma": "der Erziehungsroman",
+          "distinction": "stellt die formende Erziehung stärker in den Vordergrund"
+        }
+      ]
+    },
+    "Zäsur": {
+      "meaning_de": "ein tiefer Einschnitt, der einen deutlichen Wendepunkt markiert; auch: metrischer Einschnitt im Vers",
+      "meaning_en": "caesura; decisive turning point or break",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zäsur"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zäsuren"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine tiefe Zäsur",
+          "gloss_en": "a deep caesura"
+        },
+        {
+          "phrase": "eine Zäsur markieren",
+          "gloss_en": "to mark a turning point"
+        },
+        {
+          "phrase": "eine historische Zäsur",
+          "gloss_en": "a historical watershed"
+        },
+        {
+          "phrase": "eine Zäsur bedeuten",
+          "gloss_en": "to represent a break"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Mauerfall war eine Zäsur in der deutschen Geschichte.",
+          "en": "The fall of the Wall was a watershed in German history."
+        },
+        {
+          "de": "Mit diesem Werk vollzog die Autorin eine künstlerische Zäsur.",
+          "en": "With this work the author made a decisive artistic break."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich für einen Wendepunkt, fachsprachlich in der Verslehre.",
+      "near_synonyms": [
+        {
+          "lemma": "der Einschnitt",
+          "distinction": "eingedeutscht und etwas neutraler"
+        },
+        {
+          "lemma": "der Wendepunkt",
+          "distinction": "betont die Richtungsänderung, nicht das Trennende"
+        }
+      ]
+    },
+    "inszenieren": {
+      "meaning_de": "ein Stück für die Bühne oder den Film künstlerisch umsetzen; auch: etwas wirkungsvoll in Szene setzen",
+      "meaning_en": "to stage; to direct; to orchestrate for effect",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er inszeniert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er inszenierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat inszeniert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er inszenierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas inszenieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Stück inszenieren",
+          "gloss_en": "to stage a play"
+        },
+        {
+          "phrase": "modern inszenieren",
+          "gloss_en": "to stage in a modern way"
+        },
+        {
+          "phrase": "einen Skandal inszenieren",
+          "gloss_en": "to orchestrate a scandal"
+        },
+        {
+          "phrase": "sich geschickt inszenieren",
+          "gloss_en": "to stage oneself cleverly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie inszeniert den Klassiker als bissige Satire.",
+          "en": "She stages the classic as a biting satire."
+        },
+        {
+          "de": "Der Auftritt war von langer Hand inszeniert.",
+          "en": "The appearance had been orchestrated well in advance."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Theater fachsprachlich, übertragen oft kritisch (einen Skandal inszenieren).",
+      "near_synonyms": [
+        {
+          "lemma": "aufführen",
+          "distinction": "das konkrete Zeigen vor Publikum, nicht das Gestalten"
+        },
+        {
+          "lemma": "in Szene setzen",
+          "distinction": "feste Wendung, betont die wirkungsvolle Präsentation"
+        }
+      ]
+    },
+    "rezensieren": {
+      "meaning_de": "ein Buch, einen Film oder ein anderes Werk fachkundig besprechen und beurteilen",
+      "meaning_en": "to review; to appraise critically",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er rezensiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er rezensierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat rezensiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er rezensierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas rezensieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Buch rezensieren",
+          "gloss_en": "to review a book"
+        },
+        {
+          "phrase": "wohlwollend rezensieren",
+          "gloss_en": "to review favourably"
+        },
+        {
+          "phrase": "einen Film rezensieren",
+          "gloss_en": "to review a film"
+        },
+        {
+          "phrase": "für eine Zeitung rezensieren",
+          "gloss_en": "to review for a newspaper"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie rezensiert seit Jahren Neuerscheinungen für das Feuilleton.",
+          "en": "For years she has reviewed new releases for the arts pages."
+        },
+        {
+          "de": "Das Stück wurde durchweg positiv rezensiert.",
+          "en": "The play was reviewed positively throughout."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Kultur- und Wissenschaftsbetrieb üblich.",
+      "near_synonyms": [
+        {
+          "lemma": "besprechen",
+          "distinction": "allgemeiner und etwas weniger wertend"
+        },
+        {
+          "lemma": "kritisieren",
+          "distinction": "betont das negative Urteil, nicht die fachliche Würdigung"
+        }
+      ]
+    },
+    "interpretieren": {
+      "meaning_de": "den Sinn eines Werkes oder einer Aussage deutend erschließen; auch: künstlerisch wiedergeben",
+      "meaning_en": "to interpret; to construe; to perform (a piece)",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er interpretiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er interpretierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat interpretiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er interpretierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas interpretieren",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "etwas als etwas interpretieren",
+          "cases": "als + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Gedicht interpretieren",
+          "gloss_en": "to interpret a poem"
+        },
+        {
+          "phrase": "etwas falsch interpretieren",
+          "gloss_en": "to misinterpret something"
+        },
+        {
+          "phrase": "ein Werk neu interpretieren",
+          "gloss_en": "to reinterpret a work"
+        },
+        {
+          "phrase": "eine Sonate interpretieren",
+          "gloss_en": "to perform a sonata"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Man kann das Schweigen der Figur unterschiedlich interpretieren.",
+          "en": "The character's silence can be interpreted in different ways."
+        },
+        {
+          "de": "Die Pianistin interpretiert das Stück ungewöhnlich langsam.",
+          "en": "The pianist performs the piece unusually slowly."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; in Wissenschaft, Kunst und Alltag gleichermaßen.",
+      "near_synonyms": [
+        {
+          "lemma": "deuten",
+          "distinction": "eingedeutscht, betont das Erschließen der Bedeutung"
+        },
+        {
+          "lemma": "auslegen",
+          "distinction": "oft bei Texten und Gesetzen, das maßgebliche Verständnis festlegen"
+        }
+      ]
+    },
+    "verfilmen": {
+      "meaning_de": "eine literarische Vorlage in einen Film umsetzen",
+      "meaning_en": "to make a film of; to adapt for the screen",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er verfilmt"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er verfilmte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat verfilmt"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er verfilmte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas verfilmen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Roman verfilmen",
+          "gloss_en": "to film a novel"
+        },
+        {
+          "phrase": "aufwendig verfilmen",
+          "gloss_en": "to adapt lavishly for the screen"
+        },
+        {
+          "phrase": "einen Stoff verfilmen",
+          "gloss_en": "to turn a story into a film"
+        },
+        {
+          "phrase": "werkgetreu verfilmen",
+          "gloss_en": "to adapt faithfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Bestseller wurde noch im selben Jahr verfilmt.",
+          "en": "The bestseller was made into a film that same year."
+        },
+        {
+          "de": "Man kann diesen komplexen Roman kaum verfilmen.",
+          "en": "This complex novel is barely filmable."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; im Medien- und Kulturbereich alltäglich.",
+      "near_synonyms": [
+        {
+          "lemma": "adaptieren",
+          "distinction": "allgemeiner, auch für Bühne oder Hörspiel"
+        },
+        {
+          "lemma": "umsetzen",
+          "distinction": "sehr allgemein, nicht speziell auf Film bezogen"
+        }
+      ]
+    },
+    "vertonen": {
+      "meaning_de": "einen Text mit Musik versehen oder in Musik umsetzen",
+      "meaning_en": "to set to music",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er vertont"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er vertonte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat vertont"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er vertonte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas vertonen",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Gedicht vertonen",
+          "gloss_en": "to set a poem to music"
+        },
+        {
+          "phrase": "einen Text vertonen",
+          "gloss_en": "to set a text to music"
+        },
+        {
+          "phrase": "kunstvoll vertonen",
+          "gloss_en": "to set to music artfully"
+        },
+        {
+          "phrase": "für Chor vertonen",
+          "gloss_en": "to set for choir"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Schubert hat viele Gedichte Goethes vertont.",
+          "en": "Schubert set many of Goethe's poems to music."
+        },
+        {
+          "de": "Die Ballade wurde für Orchester vertont.",
+          "en": "The ballad was set to music for orchestra."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich in der Musik. Nicht mit synchronisieren (Film) verwechseln.",
+      "near_synonyms": [
+        {
+          "lemma": "komponieren",
+          "distinction": "Musik schaffen, nicht notwendig zu einem vorhandenen Text"
+        },
+        {
+          "lemma": "in Musik setzen",
+          "distinction": "umschreibende Wendung mit gleicher Bedeutung"
+        }
+      ]
+    },
+    "deuten": {
+      "meaning_de": "den Sinn von etwas erschließen und auslegen; auch: mit einer Geste auf etwas zeigen",
+      "meaning_en": "to interpret; to read (a sign); to point at",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er deutet"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er deutete"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat gedeutet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er deutete"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas deuten",
+          "cases": "Akk."
+        },
+        {
+          "pattern": "auf etwas deuten",
+          "cases": "auf + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Zeichen deuten",
+          "gloss_en": "to read a sign"
+        },
+        {
+          "phrase": "einen Traum deuten",
+          "gloss_en": "to interpret a dream"
+        },
+        {
+          "phrase": "etwas als Erfolg deuten",
+          "gloss_en": "to read something as a success"
+        },
+        {
+          "phrase": "alles deutet darauf hin",
+          "gloss_en": "everything points to that"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Wie soll man dieses rätselhafte Ende deuten?",
+          "en": "How is one to interpret this puzzling ending?"
+        },
+        {
+          "de": "Alles deutet auf einen baldigen Wandel hin.",
+          "en": "Everything points to imminent change."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; die Wendung 'auf etwas hindeuten' ist besonders häufig.",
+      "near_synonyms": [
+        {
+          "lemma": "interpretieren",
+          "distinction": "bildungssprachlicher, oft methodisch und ausführlicher"
+        },
+        {
+          "lemma": "auslegen",
+          "distinction": "meist bei Texten und Gesetzen, das verbindliche Verständnis"
+        }
+      ]
+    },
+    "rezitieren": {
+      "meaning_de": "einen Text, besonders ein Gedicht, kunstvoll und auswendig vortragen",
+      "meaning_en": "to recite",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er rezitiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er rezitierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat rezitiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er rezitierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas rezitieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Gedicht rezitieren",
+          "gloss_en": "to recite a poem"
+        },
+        {
+          "phrase": "auswendig rezitieren",
+          "gloss_en": "to recite from memory"
+        },
+        {
+          "phrase": "Verse rezitieren",
+          "gloss_en": "to recite verses"
+        },
+        {
+          "phrase": "feierlich rezitieren",
+          "gloss_en": "to recite solemnly"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Zum Abschluss rezitierte sie ein Sonett von Rilke.",
+          "en": "To close, she recited a sonnet by Rilke."
+        },
+        {
+          "de": "Er rezitierte die ganze Ballade fehlerfrei auswendig.",
+          "en": "He recited the entire ballad flawlessly from memory."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; künstlerisch-feierlich, nicht für das bloße Vorlesen eines Textes.",
+      "near_synonyms": [
+        {
+          "lemma": "vortragen",
+          "distinction": "allgemeiner, auch Sachtexte, nicht notwendig auswendig"
+        },
+        {
+          "lemma": "aufsagen",
+          "distinction": "schlichter, oft schulisch, ohne künstlerischen Anspruch"
+        }
+      ]
+    },
+    "persiflieren": {
+      "meaning_de": "etwas oder jemanden durch geistreich-spöttische Nachahmung verspotten",
+      "meaning_en": "to satirize; to spoof; to lampoon",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er persifliert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er persiflierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat persifliert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er persiflierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas persiflieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Stil persiflieren",
+          "gloss_en": "to spoof a style"
+        },
+        {
+          "phrase": "geistreich persiflieren",
+          "gloss_en": "to satirize wittily"
+        },
+        {
+          "phrase": "die Politik persiflieren",
+          "gloss_en": "to lampoon politics"
+        },
+        {
+          "phrase": "gekonnt persiflieren",
+          "gloss_en": "to parody skilfully"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Sketch persifliert den Politjargon der Talkshows.",
+          "en": "The sketch spoofs the political jargon of talk shows."
+        },
+        {
+          "de": "In dem Roman persifliert sie das Kunstmilieu ihrer Zeit.",
+          "en": "In the novel she satirizes the art scene of her time."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich, spöttisch, aber nicht bösartig.",
+      "near_synonyms": [
+        {
+          "lemma": "parodieren",
+          "distinction": "ahmt eine konkrete Vorlage komisch überzeichnend nach"
+        },
+        {
+          "lemma": "verspotten",
+          "distinction": "direkter und härter, ohne kunstvolle Nachahmung"
+        }
+      ]
+    },
+    "plagiieren": {
+      "meaning_de": "fremdes geistiges Eigentum übernehmen und als eigenes ausgeben",
+      "meaning_en": "to plagiarize",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er plagiiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er plagiierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat plagiiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er plagiierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas plagiieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "einen Text plagiieren",
+          "gloss_en": "to plagiarize a text"
+        },
+        {
+          "phrase": "dreist plagiieren",
+          "gloss_en": "to plagiarize brazenly"
+        },
+        {
+          "phrase": "Passagen plagiieren",
+          "gloss_en": "to plagiarize passages"
+        },
+        {
+          "phrase": "ganze Absätze plagiieren",
+          "gloss_en": "to plagiarize whole paragraphs"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er hatte weite Teile seiner Doktorarbeit plagiiert.",
+          "en": "He had plagiarized large parts of his doctoral thesis."
+        },
+        {
+          "de": "Wer plagiiert, verliert seinen wissenschaftlichen Ruf.",
+          "en": "Anyone who plagiarizes loses their scholarly reputation."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; fachsprachlich in Wissenschaft und Justiz, deutlich negativ.",
+      "near_synonyms": [
+        {
+          "lemma": "abschreiben",
+          "distinction": "alltäglicher und milder, nicht zwingend als eigenes ausgeben"
+        },
+        {
+          "lemma": "kopieren",
+          "distinction": "neutral, ohne den Vorwurf des geistigen Diebstahls"
+        }
+      ]
+    },
+    "publizieren": {
+      "meaning_de": "einen Text oder ein Werk veröffentlichen, besonders im wissenschaftlichen Kontext",
+      "meaning_en": "to publish",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er publiziert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er publizierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat publiziert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er publizierte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas publizieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Studie publizieren",
+          "gloss_en": "to publish a study"
+        },
+        {
+          "phrase": "regelmäßig publizieren",
+          "gloss_en": "to publish regularly"
+        },
+        {
+          "phrase": "in einer Fachzeitschrift publizieren",
+          "gloss_en": "to publish in a journal"
+        },
+        {
+          "phrase": "seine Ergebnisse publizieren",
+          "gloss_en": "to publish one's findings"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Forscherin publiziert ihre Ergebnisse in einem renommierten Journal.",
+          "en": "The researcher publishes her findings in a renowned journal."
+        },
+        {
+          "de": "Er hat bereits mehrere Bücher zum Thema publiziert.",
+          "en": "He has already published several books on the subject."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; besonders in Wissenschaft und Verlagswesen. Alltäglicher: veröffentlichen.",
+      "near_synonyms": [
+        {
+          "lemma": "veröffentlichen",
+          "distinction": "eingedeutscht und breiter, auch außerhalb der Wissenschaft"
+        },
+        {
+          "lemma": "herausgeben",
+          "distinction": "betont das verlegerische Betreuen, nicht das Verfassen"
+        }
+      ]
+    },
+    "vielschichtig": {
+      "meaning_de": "aus vielen Ebenen bestehend, komplex und nicht auf einen Sinn festzulegen",
+      "meaning_en": "multi-layered; complex; nuanced",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "vielschichtiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am vielschichtigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine vielschichtige Figur",
+          "gloss_en": "a multi-layered character"
+        },
+        {
+          "phrase": "ein vielschichtiges Werk",
+          "gloss_en": "a complex work"
+        },
+        {
+          "phrase": "vielschichtig angelegt",
+          "gloss_en": "conceived on many levels"
+        },
+        {
+          "phrase": "ein vielschichtiges Problem",
+          "gloss_en": "a many-faceted problem"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Roman zeichnet eine vielschichtige Hauptfigur.",
+          "en": "The novel draws a multi-layered protagonist."
+        },
+        {
+          "de": "Die Ursachen des Konflikts sind vielschichtig.",
+          "en": "The causes of the conflict are many-layered."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; anerkennend, oft in Kultur- und Literaturkritik.",
+      "near_synonyms": [
+        {
+          "lemma": "komplex",
+          "distinction": "sachlicher, betont die Verflechtung, nicht die Deutungstiefe"
+        },
+        {
+          "lemma": "facettenreich",
+          "distinction": "hebt die Vielfalt der Aspekte hervor, weniger die Ebenen"
+        }
+      ]
+    },
+    "schwülstig": {
+      "meaning_de": "in Sprache oder Stil übertrieben ausschmückend, aufgebläht und geschmacklos pathetisch",
+      "meaning_en": "bombastic; turgid; overblown",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "schwülstiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am schwülstigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein schwülstiger Stil",
+          "gloss_en": "a turgid style"
+        },
+        {
+          "phrase": "schwülstige Verse",
+          "gloss_en": "bombastic verses"
+        },
+        {
+          "phrase": "schwülstig formuliert",
+          "gloss_en": "overblown in wording"
+        },
+        {
+          "phrase": "eine schwülstige Rede",
+          "gloss_en": "a bombastic speech"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Text ist mir zu schwülstig und aufgesetzt.",
+          "en": "The text is too overblown and contrived for my taste."
+        },
+        {
+          "de": "In schwülstigen Worten pries er die Heimat.",
+          "en": "In bombastic words he extolled the homeland."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und deutlich abwertend; stilkritischer Fachbegriff.",
+      "near_synonyms": [
+        {
+          "lemma": "pathetisch",
+          "distinction": "übertrieben feierlich, nicht zwingend überladen"
+        },
+        {
+          "lemma": "geschwollen",
+          "distinction": "umgangssprachlicher, für gespreizt-wichtigtuerische Sprache"
+        }
+      ]
+    },
+    "sprachgewaltig": {
+      "meaning_de": "über eine kraftvolle, ausdrucksstarke und mitreißende Sprache verfügend",
+      "meaning_en": "linguistically powerful; commanding in language",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "sprachgewaltiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am sprachgewaltigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein sprachgewaltiger Autor",
+          "gloss_en": "a linguistically powerful author"
+        },
+        {
+          "phrase": "ein sprachgewaltiges Werk",
+          "gloss_en": "a work of great verbal power"
+        },
+        {
+          "phrase": "sprachgewaltig erzählen",
+          "gloss_en": "to narrate with verbal force"
+        },
+        {
+          "phrase": "ein sprachgewaltiges Plädoyer",
+          "gloss_en": "an eloquent, forceful plea"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In sprachgewaltigen Bildern schildert sie den Untergang der Stadt.",
+          "en": "In powerful language she depicts the city's downfall."
+        },
+        {
+          "de": "Der Roman ist ebenso sprachgewaltig wie verstörend.",
+          "en": "The novel is as linguistically powerful as it is disturbing."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ausgesprochen positiv, typisch für Buchbesprechungen.",
+      "near_synonyms": [
+        {
+          "lemma": "wortgewaltig",
+          "distinction": "nahezu bedeutungsgleich, etwas stärker auf die Wortwahl bezogen"
+        },
+        {
+          "lemma": "eindringlich",
+          "distinction": "betont die nachhaltige Wirkung, nicht die sprachliche Kraft selbst"
+        }
+      ]
+    },
+    "stilprägend": {
+      "meaning_de": "einen Stil maßgeblich formend und für spätere Entwicklungen richtungsweisend",
+      "meaning_en": "style-defining; formative for a style",
+      "forms": [],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine stilprägende Figur",
+          "gloss_en": "a style-defining figure"
+        },
+        {
+          "phrase": "stilprägend wirken",
+          "gloss_en": "to have a formative influence on style"
+        },
+        {
+          "phrase": "ein stilprägendes Werk",
+          "gloss_en": "a style-defining work"
+        },
+        {
+          "phrase": "für eine Epoche stilprägend",
+          "gloss_en": "formative for an era's style"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Band war für eine ganze Generation stilprägend.",
+          "en": "The band was style-defining for an entire generation."
+        },
+        {
+          "de": "Sein Frühwerk gilt als stilprägend für die moderne Architektur.",
+          "en": "His early work is regarded as formative for modern architecture."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; anerkennend, in Kunst-, Musik- und Kulturkritik. Kaum steigerbar, meist prädikativ.",
+      "near_synonyms": [
+        {
+          "lemma": "richtungsweisend",
+          "distinction": "allgemeiner, gibt die Richtung vor, nicht speziell den Stil"
+        },
+        {
+          "lemma": "wegweisend",
+          "distinction": "betont die Vorreiterrolle, weniger die stilistische Prägung"
+        }
+      ]
+    },
+    "kunstvoll": {
+      "meaning_de": "mit großem handwerklichem und gestalterischem Geschick gefertigt oder ausgeführt",
+      "meaning_en": "artful; elaborate; skilfully crafted",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "kunstvoller"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am kunstvollsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "kunstvoll gestaltet",
+          "gloss_en": "artfully designed"
+        },
+        {
+          "phrase": "eine kunstvolle Verzierung",
+          "gloss_en": "an elaborate ornament"
+        },
+        {
+          "phrase": "kunstvoll verschachtelt",
+          "gloss_en": "intricately interwoven"
+        },
+        {
+          "phrase": "eine kunstvolle Komposition",
+          "gloss_en": "an artful composition"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Erzählung ist kunstvoll aus mehreren Zeitebenen gefügt.",
+          "en": "The narrative is artfully assembled from several time levels."
+        },
+        {
+          "de": "Auf dem Deckel prangt ein kunstvoll geschnitztes Wappen.",
+          "en": "On the lid there is an elaborately carved coat of arms."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral bis gehoben; positiv, betont das Können. Nicht zu verwechseln mit künstlich (unecht).",
+      "near_synonyms": [
+        {
+          "lemma": "kunstfertig",
+          "distinction": "stärker auf die handwerkliche Geschicklichkeit bezogen"
+        },
+        {
+          "lemma": "raffiniert",
+          "distinction": "betont die Cleverness der Gestaltung, kann berechnend klingen"
+        }
+      ]
+    },
+    "epochal": {
+      "meaning_de": "von so großer Bedeutung, dass es eine Epoche prägt oder eine Wende einleitet",
+      "meaning_en": "epochal; epoch-making; momentous",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "epochaler"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am epochalsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein epochales Werk",
+          "gloss_en": "an epoch-making work"
+        },
+        {
+          "phrase": "eine epochale Wende",
+          "gloss_en": "an epochal turning point"
+        },
+        {
+          "phrase": "von epochaler Bedeutung",
+          "gloss_en": "of epochal significance"
+        },
+        {
+          "phrase": "eine epochale Leistung",
+          "gloss_en": "a momentous achievement"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Erfindung des Buchdrucks war ein epochaler Einschnitt.",
+          "en": "The invention of printing was an epochal watershed."
+        },
+        {
+          "de": "Kritiker feierten den Roman als epochales Werk.",
+          "en": "Critics celebrated the novel as an epoch-making work."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; emphatisch, im Feuilleton gelegentlich inflationär gebraucht.",
+      "near_synonyms": [
+        {
+          "lemma": "bahnbrechend",
+          "distinction": "betont das Neue und Wegbereitende, nicht die Epochengröße"
+        },
+        {
+          "lemma": "wegweisend",
+          "distinction": "richtungsgebend, aber ohne den Anspruch epochaler Größe"
+        }
+      ]
+    },
+    "eklektisch": {
+      "meaning_de": "aus verschiedenen Quellen und Stilen zusammengesetzt, ohne eigene geschlossene Linie",
+      "meaning_en": "eclectic",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "eklektischer"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am eklektischsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein eklektischer Stil",
+          "gloss_en": "an eclectic style"
+        },
+        {
+          "phrase": "eklektisch zusammengestellt",
+          "gloss_en": "eclectically compiled"
+        },
+        {
+          "phrase": "ein eklektisches Programm",
+          "gloss_en": "an eclectic programme"
+        },
+        {
+          "phrase": "eklektisch anmuten",
+          "gloss_en": "to come across as eclectic"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ihr Werk ist eklektisch und schöpft aus vielen Traditionen.",
+          "en": "Her work is eclectic and draws on many traditions."
+        },
+        {
+          "de": "Die Einrichtung wirkt reizvoll eklektisch.",
+          "en": "The furnishings come across as appealingly eclectic."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; bildungssprachlich, je nach Kontext neutral würdigend oder leicht kritisch.",
+      "near_synonyms": [
+        {
+          "lemma": "vielfältig",
+          "distinction": "neutral positiv, ohne den Beiklang des Zusammengeliehenen"
+        },
+        {
+          "lemma": "unoriginell",
+          "distinction": "eindeutig abwertend, betont das Fehlen von Eigenständigkeit"
+        }
+      ]
+    },
+    "kontrovers": {
+      "meaning_de": "umstritten und gegensätzliche Standpunkte hervorrufend",
+      "meaning_en": "controversial; contentious",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "kontroverser"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am kontroversesten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein kontroverses Thema",
+          "gloss_en": "a controversial topic"
+        },
+        {
+          "phrase": "kontrovers diskutieren",
+          "gloss_en": "to debate controversially"
+        },
+        {
+          "phrase": "eine kontroverse These",
+          "gloss_en": "a contentious thesis"
+        },
+        {
+          "phrase": "kontrovers aufgenommen werden",
+          "gloss_en": "to be received controversially"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Film wurde kontrovers diskutiert.",
+          "en": "The film was discussed controversially."
+        },
+        {
+          "de": "Ihre Thesen sind bewusst kontrovers angelegt.",
+          "en": "Her theses are deliberately controversial."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Neutral; besonders häufig in der festen Wendung 'kontrovers diskutieren'.",
+      "near_synonyms": [
+        {
+          "lemma": "umstritten",
+          "distinction": "eingedeutscht, betont eher das anhaltende Bestrittensein"
+        },
+        {
+          "lemma": "strittig",
+          "distinction": "meist auf eine einzelne Frage bezogen, sachlicher"
+        }
+      ]
+    },
+    "gehaltvoll": {
+      "meaning_de": "reich an geistigem Gehalt, inhaltlich substanziell und tiefgründig",
+      "meaning_en": "substantial; rich in content; meaty",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "gehaltvoller"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am gehaltvollsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gehaltvoller Beitrag",
+          "gloss_en": "a substantial contribution"
+        },
+        {
+          "phrase": "ein gehaltvolles Gespräch",
+          "gloss_en": "a substantial conversation"
+        },
+        {
+          "phrase": "gehaltvolle Lektüre",
+          "gloss_en": "meaty reading"
+        },
+        {
+          "phrase": "inhaltlich gehaltvoll",
+          "gloss_en": "rich in content"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Essay ist kurz, aber ausgesprochen gehaltvoll.",
+          "en": "The essay is short but decidedly substantial."
+        },
+        {
+          "de": "Wir führten ein langes, gehaltvolles Gespräch.",
+          "en": "We had a long and substantial conversation."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; positiv wertend. Von Speisen und Wein zudem: nahrhaft bzw. schwer.",
+      "near_synonyms": [
+        {
+          "lemma": "substanziell",
+          "distinction": "sachlicher, betont das Wesentliche statt die geistige Tiefe"
+        },
+        {
+          "lemma": "tiefgründig",
+          "distinction": "hebt die Denktiefe hervor, weniger die inhaltliche Fülle"
+        }
+      ]
+    },
+    "kitschig": {
+      "meaning_de": "auf billige, oberflächliche Weise gefühlvoll und geschmacklich fragwürdig",
+      "meaning_en": "kitschy; tacky; corny",
+      "forms": [
+        {
+          "label": "Komparativ",
+          "value": "kitschiger"
+        },
+        {
+          "label": "Superlativ",
+          "value": "am kitschigsten"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "kitschig wirken",
+          "gloss_en": "to look kitschy"
+        },
+        {
+          "phrase": "ein kitschiges Bild",
+          "gloss_en": "a kitschy picture"
+        },
+        {
+          "phrase": "kitschig süß",
+          "gloss_en": "saccharine, corny"
+        },
+        {
+          "phrase": "ein kitschiges Ende",
+          "gloss_en": "a corny ending"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Finale des Films ist mir zu kitschig geraten.",
+          "en": "The film's finale turned out too corny for me."
+        },
+        {
+          "de": "Der Sonnenuntergang auf dem Poster wirkt reichlich kitschig.",
+          "en": "The sunset on the poster looks rather kitschy."
+        }
+      ],
+      "register": "colloquial",
+      "register_note": "Umgangssprachlich und abwertend; ästhetisches Urteil über billige Rührseligkeit.",
+      "near_synonyms": [
+        {
+          "lemma": "rührselig",
+          "distinction": "bezieht sich enger auf übertriebene Gefühlsseligkeit"
+        },
+        {
+          "lemma": "geschmacklos",
+          "distinction": "allgemeiner, ohne den Beiklang der Sentimentalität"
+        }
+      ]
+    }
+  }
+}
