@@ -1,0 +1,1272 @@
+{
+  "schema_version": 1,
+  "model": "claude-opus-4-8",
+  "note": "C1 supplement batch: 16 abstract/figurative nouns and 5 Latinate verbs of trajectory and tension.",
+  "dossiers": {
+    "Gemengelage": {
+      "meaning_de": "eine unübersichtliche Situation, in der viele verschiedene Interessen, Umstände oder Faktoren zusammentreffen",
+      "meaning_en": "complex mix of factors; tangled constellation of interests",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gemengelage"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gemengelagen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine schwierige Gemengelage",
+          "gloss_en": "a difficult constellation"
+        },
+        {
+          "phrase": "eine unübersichtliche Gemengelage",
+          "gloss_en": "a confusing tangle of factors"
+        },
+        {
+          "phrase": "die politische Gemengelage",
+          "gloss_en": "the political situation as a whole"
+        },
+        {
+          "phrase": "eine komplexe Gemengelage aus etwas",
+          "gloss_en": "a complex mix of something"
+        }
+      ],
+      "examples": [
+        {
+          "de": "In dieser Region herrscht eine explosive Gemengelage aus Armut, Korruption und Gewalt.",
+          "en": "In this region there is an explosive mix of poverty, corruption and violence."
+        },
+        {
+          "de": "Angesichts der komplizierten Gemengelage wagte niemand eine klare Prognose.",
+          "en": "Given the complicated constellation of factors, no one dared to make a clear forecast."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; vor allem in politischer und journalistischer Analyse, oft mit negativer Färbung.",
+      "near_synonyms": [
+        {
+          "lemma": "das Geflecht",
+          "distinction": "betont die Verflechtung, das Ineinandergreifen der Teile"
+        },
+        {
+          "lemma": "die Konstellation",
+          "distinction": "neutraler, nur das Zusammentreffen, ohne den Beiklang der Unübersichtlichkeit"
+        }
+      ]
+    },
+    "Zwiespalt": {
+      "meaning_de": "ein innerer Widerstreit zwischen zwei entgegengesetzten Gefühlen, Pflichten oder Möglichkeiten",
+      "meaning_en": "inner conflict; dilemma; ambivalence",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Zwiespalts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zwiespälte"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "im Zwiespalt zwischen etwas und etwas",
+          "cases": "zwischen + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "in einen Zwiespalt geraten",
+          "gloss_en": "to be torn; to fall into inner conflict"
+        },
+        {
+          "phrase": "ein innerer Zwiespalt",
+          "gloss_en": "an inner conflict"
+        },
+        {
+          "phrase": "im Zwiespalt sein",
+          "gloss_en": "to be torn"
+        },
+        {
+          "phrase": "einen Zwiespalt empfinden",
+          "gloss_en": "to feel a sense of conflict"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sie befand sich im Zwiespalt zwischen Karriere und Familie.",
+          "en": "She was torn between career and family."
+        },
+        {
+          "de": "Der Beschluss stürzte ihn in einen tiefen inneren Zwiespalt.",
+          "en": "The decision plunged him into deep inner conflict."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; beschreibt fast immer eine seelische, moralische Zerrissenheit.",
+      "near_synonyms": [
+        {
+          "lemma": "das Dilemma",
+          "distinction": "betont die Zwangslage zwischen zwei schlechten Optionen, nicht das Gefühl"
+        },
+        {
+          "lemma": "die Zerrissenheit",
+          "distinction": "stärker, dauerhafter Zustand innerer Gespaltenheit"
+        }
+      ]
+    },
+    "Flickenteppich": {
+      "meaning_de": "etwas uneinheitlich Zusammengesetztes, das aus vielen ungleichen, schlecht zusammenpassenden Teilen besteht",
+      "meaning_en": "patchwork; hotchpotch of disparate parts",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Flickenteppichs"
+        },
+        {
+          "label": "Plural",
+          "value": "die Flickenteppiche"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Flickenteppich aus etwas",
+          "cases": "aus + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Flickenteppich aus Vorschriften",
+          "gloss_en": "a patchwork of regulations"
+        },
+        {
+          "phrase": "ein bunter Flickenteppich",
+          "gloss_en": "a colourful patchwork"
+        },
+        {
+          "phrase": "zum Flickenteppich werden",
+          "gloss_en": "to become a patchwork"
+        },
+        {
+          "phrase": "der föderale Flickenteppich",
+          "gloss_en": "the federal patchwork"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Coronaregeln bildeten einen Flickenteppich aus Landesverordnungen.",
+          "en": "The Covid rules formed a patchwork of state regulations."
+        },
+        {
+          "de": "Europa drohe zu einem Flickenteppich unterschiedlicher Standards zu werden, warnte die Kommission.",
+          "en": "Europe risked becoming a patchwork of differing standards, the commission warned."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildhaft und meist kritisch; im wörtlichen Sinn ein Teppich aus Stoffresten, übertragen sehr geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "das Sammelsurium",
+          "distinction": "betont das planlos Zusammengewürfelte, oft abwertend"
+        },
+        {
+          "lemma": "das Kuddelmuddel",
+          "distinction": "umgangssprachlich, meint eher Durcheinander als Uneinheitlichkeit"
+        }
+      ]
+    },
+    "Gratwanderung": {
+      "meaning_de": "ein riskantes Vorgehen, bei dem man ständig die Balance zwischen zwei Gefahren halten muss",
+      "meaning_en": "balancing act; tightrope walk between two risks",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Gratwanderung"
+        },
+        {
+          "label": "Plural",
+          "value": "die Gratwanderungen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Gratwanderung zwischen etwas und etwas",
+          "cases": "zwischen + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine heikle Gratwanderung",
+          "gloss_en": "a delicate balancing act"
+        },
+        {
+          "phrase": "eine Gratwanderung zwischen Nähe und Distanz",
+          "gloss_en": "a balancing act between closeness and distance"
+        },
+        {
+          "phrase": "eine ständige Gratwanderung",
+          "gloss_en": "a constant balancing act"
+        },
+        {
+          "phrase": "eine Gratwanderung wagen",
+          "gloss_en": "to attempt a tightrope walk"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Notenbank vollzieht eine Gratwanderung zwischen Inflation und Rezession.",
+          "en": "The central bank is performing a balancing act between inflation and recession."
+        },
+        {
+          "de": "Satire ist stets eine Gratwanderung zwischen Witz und Geschmacklosigkeit.",
+          "en": "Satire is always a tightrope walk between wit and tastelessness."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildhaft; vom Gehen auf einem Berggrat abgeleitet, übertragen sehr häufig in Medien.",
+      "near_synonyms": [
+        {
+          "lemma": "der Balanceakt",
+          "distinction": "gleichbedeutend, etwas neutraler und weniger dramatisch"
+        },
+        {
+          "lemma": "der Drahtseilakt",
+          "distinction": "betont noch stärker die Absturzgefahr und Waghalsigkeit"
+        }
+      ]
+    },
+    "Prüfstein": {
+      "meaning_de": "etwas, an dem sich der wahre Wert, die Tauglichkeit oder Ernsthaftigkeit von etwas erweisen muss",
+      "meaning_en": "touchstone; test case; acid test",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Prüfsteins"
+        },
+        {
+          "label": "Plural",
+          "value": "die Prüfsteine"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Prüfstein für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Prüfstein für die Demokratie",
+          "gloss_en": "a touchstone for democracy"
+        },
+        {
+          "phrase": "zum Prüfstein werden",
+          "gloss_en": "to become a test case"
+        },
+        {
+          "phrase": "der eigentliche Prüfstein",
+          "gloss_en": "the real acid test"
+        },
+        {
+          "phrase": "sich als Prüfstein erweisen",
+          "gloss_en": "to prove to be a touchstone"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Wahl gilt als Prüfstein für die Stabilität der jungen Regierung.",
+          "en": "The election is seen as a test case for the stability of the young government."
+        },
+        {
+          "de": "Der Umgang mit Minderheiten ist ein Prüfstein für jede Gesellschaft.",
+          "en": "How it treats minorities is a touchstone for any society."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ursprünglich der Stein zum Prüfen von Edelmetall, übertragen fast nur noch bildlich.",
+      "near_synonyms": [
+        {
+          "lemma": "der Test",
+          "distinction": "neutral und allgemein, ohne den feierlichen Beiklang"
+        },
+        {
+          "lemma": "die Bewährungsprobe",
+          "distinction": "betont, dass sich jemand oder etwas bewähren muss, nicht nur der Maßstab"
+        }
+      ]
+    },
+    "Zerreißprobe": {
+      "meaning_de": "eine extreme Belastung, die den Zusammenhalt oder die Widerstandskraft von etwas bis an die Grenze prüft",
+      "meaning_en": "severe test; ordeal that threatens to break something apart",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zerreißprobe"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zerreißproben"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Zerreißprobe für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Zerreißprobe für die Koalition",
+          "gloss_en": "a severe test for the coalition"
+        },
+        {
+          "phrase": "vor einer Zerreißprobe stehen",
+          "gloss_en": "to face an ordeal"
+        },
+        {
+          "phrase": "eine Zerreißprobe bestehen",
+          "gloss_en": "to survive a severe test"
+        },
+        {
+          "phrase": "zur Zerreißprobe werden",
+          "gloss_en": "to become an ordeal"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Streit um den Haushalt wurde zur Zerreißprobe für das Bündnis.",
+          "en": "The budget dispute became a severe test for the alliance."
+        },
+        {
+          "de": "Die Pflege des Vaters war für die Familie eine jahrelange Zerreißprobe.",
+          "en": "Caring for their father was a years-long ordeal for the family."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildhaft; vom Materialtest abgeleitet, im übertragenen Sinn in Politik und Alltag geläufig.",
+      "near_synonyms": [
+        {
+          "lemma": "die Belastungsprobe",
+          "distinction": "etwas schwächer, die Grenze wird geprüft, aber weniger dramatisch"
+        },
+        {
+          "lemma": "die Bewährungsprobe",
+          "distinction": "betont das Sich-Beweisen, nicht die drohende Spaltung"
+        }
+      ]
+    },
+    "Nährboden": {
+      "meaning_de": "die Bedingungen, unter denen etwas – meist Negatives – besonders gut entstehen und gedeihen kann",
+      "meaning_en": "breeding ground; fertile soil for something",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Nährbodens"
+        },
+        {
+          "label": "Plural",
+          "value": "die Nährböden"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "ein Nährboden für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "ein Nährboden für Extremismus",
+          "gloss_en": "a breeding ground for extremism"
+        },
+        {
+          "phrase": "den Nährboden für etwas bereiten",
+          "gloss_en": "to prepare the ground for something"
+        },
+        {
+          "phrase": "einen fruchtbaren Nährboden finden",
+          "gloss_en": "to find fertile soil"
+        },
+        {
+          "phrase": "der ideale Nährboden",
+          "gloss_en": "the ideal breeding ground"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Armut und Perspektivlosigkeit bilden den Nährboden für Radikalisierung.",
+          "en": "Poverty and hopelessness form the breeding ground for radicalisation."
+        },
+        {
+          "de": "In der aufgeheizten Stimmung fanden Verschwörungstheorien einen fruchtbaren Nährboden.",
+          "en": "In the heated atmosphere, conspiracy theories found fertile soil."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildhaft; wörtlich der Substrat für Kulturen, übertragen meist auf unerwünschte Entwicklungen bezogen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Brutstätte",
+          "distinction": "noch drastischer und ausschließlich negativ"
+        },
+        {
+          "lemma": "der Boden",
+          "distinction": "im Ausdruck 'den Boden bereiten' ähnlich, aber allgemeiner und ohne das Bild des Wachsens"
+        }
+      ]
+    },
+    "Blaupause": {
+      "meaning_de": "ein Muster oder Entwurf, der als genaue Vorlage für etwas Späteres dient",
+      "meaning_en": "blueprint; template; model",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Blaupause"
+        },
+        {
+          "label": "Plural",
+          "value": "die Blaupausen"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Blaupause für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Blaupause für die Reform",
+          "gloss_en": "a blueprint for the reform"
+        },
+        {
+          "phrase": "als Blaupause dienen",
+          "gloss_en": "to serve as a blueprint"
+        },
+        {
+          "phrase": "eine Blaupause liefern",
+          "gloss_en": "to provide a template"
+        },
+        {
+          "phrase": "es gibt keine Blaupause",
+          "gloss_en": "there is no ready-made template"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Das Modell könnte als Blaupause für andere Städte dienen.",
+          "en": "The model could serve as a blueprint for other cities."
+        },
+        {
+          "de": "Für eine solche Krise gab es keine Blaupause.",
+          "en": "There was no ready-made blueprint for a crisis like this."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildhaft; von der blauen Lichtpause der Technik abgeleitet, heute fast nur noch übertragen.",
+      "near_synonyms": [
+        {
+          "lemma": "die Vorlage",
+          "distinction": "allgemeiner, jede Art von Muster, auch ohne planhaften Charakter"
+        },
+        {
+          "lemma": "das Konzept",
+          "distinction": "die gedankliche Idee, weniger die fertige, kopierbare Vorlage"
+        }
+      ]
+    },
+    "Zwickmühle": {
+      "meaning_de": "eine schwierige Lage, in der jede der möglichen Entscheidungen nachteilig ist",
+      "meaning_en": "predicament; catch-22; no-win situation",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Zwickmühle"
+        },
+        {
+          "label": "Plural",
+          "value": "die Zwickmühlen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "in einer Zwickmühle stecken",
+          "gloss_en": "to be in a predicament"
+        },
+        {
+          "phrase": "in eine Zwickmühle geraten",
+          "gloss_en": "to get into a bind"
+        },
+        {
+          "phrase": "aus der Zwickmühle herauskommen",
+          "gloss_en": "to get out of the predicament"
+        },
+        {
+          "phrase": "in der Zwickmühle sein",
+          "gloss_en": "to be in a bind"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Er steckte in der Zwickmühle: Egal, wie er sich entschied, jemand würde enttäuscht sein.",
+          "en": "He was in a bind: whatever he decided, someone would be disappointed."
+        },
+        {
+          "de": "Die Regierung gerät zunehmend in eine Zwickmühle zwischen Sparzwang und Wahlversprechen.",
+          "en": "The government is increasingly caught between austerity pressure and campaign promises."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Alltagssprachlich-bildhaft; ursprünglich eine Doppelfalle im Mühlespiel.",
+      "near_synonyms": [
+        {
+          "lemma": "das Dilemma",
+          "distinction": "gehobener und abstrakter, betont die Wahl zwischen zwei Optionen"
+        },
+        {
+          "lemma": "die Klemme",
+          "distinction": "umgangssprachlicher, allgemeine Notlage, nicht zwingend eine Wahlsituation"
+        }
+      ]
+    },
+    "Politikum": {
+      "meaning_de": "eine Angelegenheit, die über den Einzelfall hinaus politische Bedeutung gewinnt",
+      "meaning_en": "matter of political significance; political issue",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Politikums"
+        },
+        {
+          "label": "Plural",
+          "value": "die Politika"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "zum Politikum werden",
+          "gloss_en": "to become a political issue"
+        },
+        {
+          "phrase": "ein Politikum ersten Ranges",
+          "gloss_en": "a matter of the highest political significance"
+        },
+        {
+          "phrase": "etwas zum Politikum machen",
+          "gloss_en": "to turn something into a political issue"
+        },
+        {
+          "phrase": "ein handfestes Politikum",
+          "gloss_en": "a genuine political controversy"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die eigentlich technische Frage wurde rasch zu einem Politikum.",
+          "en": "The essentially technical question quickly became a political issue."
+        },
+        {
+          "de": "Die Personalie entwickelte sich zu einem Politikum, das die ganze Stadt beschäftigte.",
+          "en": "The appointment turned into a political affair that preoccupied the whole city."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; lateinisches Fremdwort, häufig in der Wendung 'zum Politikum werden'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Affäre",
+          "distinction": "betont den Skandal und die persönliche Verfehlung"
+        },
+        {
+          "lemma": "der Streitfall",
+          "distinction": "allgemeiner, jede strittige Sache, nicht zwingend politisch aufgeladen"
+        }
+      ]
+    },
+    "Sollbruchstelle": {
+      "meaning_de": "eine bewusst geschaffene oder erkennbare schwache Stelle, an der etwas planmäßig oder absehbar zerbricht",
+      "meaning_en": "predetermined breaking point; deliberate weak spot",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Sollbruchstelle"
+        },
+        {
+          "label": "Plural",
+          "value": "die Sollbruchstellen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Sollbruchstelle einbauen",
+          "gloss_en": "to build in a predetermined breaking point"
+        },
+        {
+          "phrase": "die entscheidende Sollbruchstelle",
+          "gloss_en": "the crucial breaking point"
+        },
+        {
+          "phrase": "zur Sollbruchstelle werden",
+          "gloss_en": "to become the point of rupture"
+        },
+        {
+          "phrase": "die Sollbruchstelle der Koalition",
+          "gloss_en": "the coalition's likely breaking point"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Migrationspolitik ist die Sollbruchstelle des Regierungsbündnisses.",
+          "en": "Migration policy is the coalition's predetermined breaking point."
+        },
+        {
+          "de": "Ingenieure bauen an dieser Stelle bewusst eine Sollbruchstelle ein.",
+          "en": "At this spot engineers deliberately build in a predetermined breaking point."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Fachsprachlich aus der Technik, übertragen gern in der politischen Berichterstattung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Schwachstelle",
+          "distinction": "allgemeiner, eine ungewollte Schwäche, nicht die planmäßige Bruchstelle"
+        },
+        {
+          "lemma": "der Knackpunkt",
+          "distinction": "der entscheidende strittige Punkt, ohne das Bild des Zerbrechens"
+        }
+      ]
+    },
+    "Kraftakt": {
+      "meaning_de": "eine Anstrengung, die außergewöhnlich viel Einsatz und Energie erfordert",
+      "meaning_en": "herculean effort; major feat of strength",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Kraftakts"
+        },
+        {
+          "label": "Plural",
+          "value": "die Kraftakte"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein gewaltiger Kraftakt",
+          "gloss_en": "a huge effort"
+        },
+        {
+          "phrase": "einen Kraftakt vollbringen",
+          "gloss_en": "to accomplish a herculean feat"
+        },
+        {
+          "phrase": "ein finanzieller Kraftakt",
+          "gloss_en": "a major financial effort"
+        },
+        {
+          "phrase": "einen Kraftakt erfordern",
+          "gloss_en": "to require an enormous effort"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Wiederaufbau wird ein Kraftakt über viele Jahre sein.",
+          "en": "The reconstruction will be a herculean effort spanning many years."
+        },
+        {
+          "de": "Nur mit einem gemeinsamen Kraftakt lässt sich das Klimaziel erreichen.",
+          "en": "Only with a joint, all-out effort can the climate target be met."
+        }
+      ],
+      "register": "neutral",
+      "register_note": "Bildhaft; meist positiv-anerkennend für eine große kollektive oder individuelle Anstrengung.",
+      "near_synonyms": [
+        {
+          "lemma": "die Anstrengung",
+          "distinction": "neutraler und schwächer, ohne die Vorstellung des Außergewöhnlichen"
+        },
+        {
+          "lemma": "der Kraftaufwand",
+          "distinction": "betont die aufgewendete Menge an Kraft, nicht das eindrucksvolle Bewältigen"
+        }
+      ]
+    },
+    "Novum": {
+      "meaning_de": "etwas, das es in dieser Form noch nie gegeben hat; eine Neuheit ohne Vorbild",
+      "meaning_en": "something unprecedented; a first",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Novums"
+        },
+        {
+          "label": "Plural",
+          "value": "die Nova"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "ein Novum darstellen",
+          "gloss_en": "to constitute a first"
+        },
+        {
+          "phrase": "ein absolutes Novum",
+          "gloss_en": "an absolute first"
+        },
+        {
+          "phrase": "ein Novum in der Geschichte",
+          "gloss_en": "a first in history"
+        },
+        {
+          "phrase": "das ist ein Novum",
+          "gloss_en": "that is unprecedented"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Dass ein Roboter den Preis gewann, war ein Novum.",
+          "en": "A robot winning the prize was a first."
+        },
+        {
+          "de": "Der gemeinsame Auftritt der Rivalen stellte ein Novum dar.",
+          "en": "The rivals' joint appearance constituted something unprecedented."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; lateinisches Fremdwort, häufig in Nachrichten und Wissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "die Neuheit",
+          "distinction": "allgemeiner, betont nur das Neue, nicht das absolut Erstmalige"
+        },
+        {
+          "lemma": "die Premiere",
+          "distinction": "meint die erste Aufführung oder Vorstellung, konkreter und ereignisbezogen"
+        }
+      ]
+    },
+    "Chiffre": {
+      "meaning_de": "ein Zeichen oder Bild, das stellvertretend für etwas Größeres oder Abstraktes steht; auch: Geheimzeichen",
+      "meaning_en": "cipher; symbol standing for something else",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Chiffre"
+        },
+        {
+          "label": "Plural",
+          "value": "die Chiffren"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "eine Chiffre für etwas",
+          "cases": "für + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Chiffre für etwas sein",
+          "gloss_en": "to be a cipher for something"
+        },
+        {
+          "phrase": "zur Chiffre werden",
+          "gloss_en": "to become a symbol"
+        },
+        {
+          "phrase": "eine literarische Chiffre",
+          "gloss_en": "a literary cipher"
+        },
+        {
+          "phrase": "etwas als Chiffre lesen",
+          "gloss_en": "to read something as a symbol"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Der Mauerfall wurde zur Chiffre für den Zusammenbruch des Ostblocks.",
+          "en": "The fall of the Wall became a cipher for the collapse of the Eastern Bloc."
+        },
+        {
+          "de": "In dem Gedicht ist der Herbst eine Chiffre für Vergänglichkeit.",
+          "en": "In the poem, autumn is a cipher for transience."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; besonders in Literaturkritik und Feuilleton; daneben die Fachbedeutung 'verschlüsseltes Zeichen'.",
+      "near_synonyms": [
+        {
+          "lemma": "das Symbol",
+          "distinction": "allgemeiner und geläufiger, das Bedeutungsverhältnis ist meist offener erkennbar"
+        },
+        {
+          "lemma": "das Sinnbild",
+          "distinction": "betont die anschauliche Verkörperung eines Gedankens"
+        }
+      ]
+    },
+    "Maxime": {
+      "meaning_de": "ein oberster Grundsatz, nach dem jemand sein Handeln ausrichtet",
+      "meaning_en": "maxim; guiding principle",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "der Maxime"
+        },
+        {
+          "label": "Plural",
+          "value": "die Maximen"
+        }
+      ],
+      "rektion": [],
+      "collocations": [
+        {
+          "phrase": "eine Maxime befolgen",
+          "gloss_en": "to follow a maxim"
+        },
+        {
+          "phrase": "nach der Maxime handeln",
+          "gloss_en": "to act according to the principle"
+        },
+        {
+          "phrase": "die oberste Maxime",
+          "gloss_en": "the supreme principle"
+        },
+        {
+          "phrase": "sich eine Maxime zu eigen machen",
+          "gloss_en": "to adopt a maxim as one's own"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Seine Maxime lautete: erst zuhören, dann urteilen.",
+          "en": "His guiding principle was: listen first, judge later."
+        },
+        {
+          "de": "Sparsamkeit war die oberste Maxime des Unternehmens.",
+          "en": "Thrift was the company's supreme principle."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; philosophisch geprägt, erinnert an Kants Gebrauch des Begriffs.",
+      "near_synonyms": [
+        {
+          "lemma": "der Grundsatz",
+          "distinction": "neutraler und alltäglicher, ohne den philosophischen Klang"
+        },
+        {
+          "lemma": "der Leitsatz",
+          "distinction": "eher eine ausformulierte Devise, oft für Organisationen"
+        }
+      ]
+    },
+    "Widerhall": {
+      "meaning_de": "die Resonanz oder Wirkung, die etwas bei anderen findet; wörtlich das Echo eines Schalls",
+      "meaning_en": "resonance; response; echo",
+      "forms": [
+        {
+          "label": "Genitiv",
+          "value": "des Widerhalls"
+        },
+        {
+          "label": "Plural",
+          "value": "—"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "Widerhall bei jemandem finden",
+          "cases": "bei + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Widerhall finden",
+          "gloss_en": "to find resonance"
+        },
+        {
+          "phrase": "einen breiten Widerhall finden",
+          "gloss_en": "to find a wide response"
+        },
+        {
+          "phrase": "Widerhall in der Presse",
+          "gloss_en": "an echo in the press"
+        },
+        {
+          "phrase": "keinen Widerhall finden",
+          "gloss_en": "to fall on deaf ears"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Sein Appell fand in der Bevölkerung großen Widerhall.",
+          "en": "His appeal found a strong response among the population."
+        },
+        {
+          "de": "Die Warnungen der Forscher fanden lange keinen Widerhall in der Politik.",
+          "en": "The researchers' warnings long found no echo in politics."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben und leicht literarisch; im übertragenen Sinn meist in der Wendung 'Widerhall finden'.",
+      "near_synonyms": [
+        {
+          "lemma": "die Resonanz",
+          "distinction": "geläufiger und neutraler, das gebräuchliche Wort für die öffentliche Reaktion"
+        },
+        {
+          "lemma": "das Echo",
+          "distinction": "bildlich ähnlich, betont stärker die zurückkommende Reaktion selbst"
+        }
+      ]
+    },
+    "ausloten": {
+      "meaning_de": "vorsichtig und gründlich erkunden, welche Möglichkeiten, Grenzen oder Spielräume bestehen",
+      "meaning_en": "to sound out; to explore the limits or scope of",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er lotet aus"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er lotete aus"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat ausgelotet"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde ausloten"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas ausloten",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "Möglichkeiten ausloten",
+          "gloss_en": "to explore possibilities"
+        },
+        {
+          "phrase": "die Grenzen ausloten",
+          "gloss_en": "to test the limits"
+        },
+        {
+          "phrase": "einen Spielraum ausloten",
+          "gloss_en": "to sound out the scope"
+        },
+        {
+          "phrase": "Chancen ausloten",
+          "gloss_en": "to explore opportunities"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Beide Seiten wollen zunächst die Möglichkeiten einer Zusammenarbeit ausloten.",
+          "en": "Both sides first want to explore the possibilities of cooperation."
+        },
+        {
+          "de": "Der Künstler lotet in seinem Werk die Grenzen des Erlaubten aus.",
+          "en": "In his work, the artist tests the limits of what is permissible."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; ursprünglich die Wassertiefe mit dem Lot messen, übertragen in Politik und Wirtschaft häufig.",
+      "near_synonyms": [
+        {
+          "lemma": "erkunden",
+          "distinction": "allgemeiner, sich Kenntnis verschaffen, ohne das Bild des Messens der Tiefe"
+        },
+        {
+          "lemma": "sondieren",
+          "distinction": "betont das vorsichtige, oft inoffizielle Vorfühlen"
+        }
+      ]
+    },
+    "konvergieren": {
+      "meaning_de": "sich einander annähern und schließlich zu einem gemeinsamen Punkt oder Ergebnis zusammenlaufen",
+      "meaning_en": "to converge; to move toward the same point",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er konvergiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er konvergierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist konvergiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde konvergieren"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "mit etwas konvergieren; gegen etwas konvergieren",
+          "cases": "mit + Dat.; gegen + Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Interessen konvergieren",
+          "gloss_en": "the interests converge"
+        },
+        {
+          "phrase": "gegen einen Grenzwert konvergieren",
+          "gloss_en": "to converge toward a limit"
+        },
+        {
+          "phrase": "die Standpunkte konvergieren",
+          "gloss_en": "the positions converge"
+        },
+        {
+          "phrase": "aufeinander konvergieren",
+          "gloss_en": "to converge on each other"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Im Lauf der Verhandlungen konvergierten die Positionen allmählich.",
+          "en": "Over the course of the negotiations, the positions gradually converged."
+        },
+        {
+          "de": "Die Reihe konvergiert gegen null.",
+          "en": "The series converges to zero."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich; verbreitet in Mathematik, Wissenschaft und gehobener Analyse.",
+      "near_synonyms": [
+        {
+          "lemma": "zusammenlaufen",
+          "distinction": "anschaulicher und alltäglicher, ohne den fachlichen Klang"
+        },
+        {
+          "lemma": "sich annähern",
+          "distinction": "betont die Annäherung, muss nicht in einem gemeinsamen Punkt enden"
+        }
+      ]
+    },
+    "divergieren": {
+      "meaning_de": "voneinander abweichen und sich in unterschiedliche Richtungen entwickeln",
+      "meaning_en": "to diverge; to differ or move apart",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er divergiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er divergierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist divergiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde divergieren"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "von etwas divergieren",
+          "cases": "von + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "die Meinungen divergieren",
+          "gloss_en": "opinions diverge"
+        },
+        {
+          "phrase": "stark divergieren",
+          "gloss_en": "to differ sharply"
+        },
+        {
+          "phrase": "die Interessen divergieren",
+          "gloss_en": "the interests diverge"
+        },
+        {
+          "phrase": "voneinander divergieren",
+          "gloss_en": "to diverge from one another"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Einschätzungen der Experten divergieren erheblich.",
+          "en": "The experts' assessments diverge considerably."
+        },
+        {
+          "de": "Je länger die Debatte dauerte, desto stärker divergierten die Auffassungen.",
+          "en": "The longer the debate lasted, the more sharply the views diverged."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Fachsprachlich-gehoben; das Gegenstück zu konvergieren, häufig in Wissenschaft und Analyse.",
+      "near_synonyms": [
+        {
+          "lemma": "abweichen",
+          "distinction": "geläufiger und neutraler, betont die Differenz zu einem Bezugspunkt"
+        },
+        {
+          "lemma": "auseinandergehen",
+          "distinction": "anschaulicher, oft für Meinungen im Alltag"
+        }
+      ]
+    },
+    "kulminieren": {
+      "meaning_de": "in einem Höhepunkt gipfeln, auf den etwas zusteuert",
+      "meaning_en": "to culminate; to reach a climax",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er kulminiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er kulminierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er ist kulminiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde kulminieren"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "in etwas kulminieren",
+          "cases": "in + Dat."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "in etwas kulminieren",
+          "gloss_en": "to culminate in something"
+        },
+        {
+          "phrase": "in einem Höhepunkt kulminieren",
+          "gloss_en": "to culminate in a climax"
+        },
+        {
+          "phrase": "in Gewalt kulminieren",
+          "gloss_en": "to culminate in violence"
+        },
+        {
+          "phrase": "schließlich kulminieren",
+          "gloss_en": "to finally culminate"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Die Proteste kulminierten in einer Großdemonstration vor dem Parlament.",
+          "en": "The protests culminated in a mass demonstration in front of parliament."
+        },
+        {
+          "de": "Der lange schwelende Konflikt kulminierte schließlich in offener Gewalt.",
+          "en": "The long-simmering conflict finally culminated in open violence."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; lateinisches Fremdwort, fast immer mit der Präposition 'in' und meist für Zuspitzungen.",
+      "near_synonyms": [
+        {
+          "lemma": "gipfeln",
+          "distinction": "gleichbedeutend, etwas geläufiger und weniger fachsprachlich"
+        },
+        {
+          "lemma": "sich zuspitzen",
+          "distinction": "betont die wachsende Verschärfung, nicht zwingend einen einzelnen Höhepunkt"
+        }
+      ]
+    },
+    "antizipieren": {
+      "meaning_de": "etwas Künftiges gedanklich vorwegnehmen und sich darauf einstellen",
+      "meaning_en": "to anticipate; to foresee and factor in",
+      "forms": [
+        {
+          "label": "Präsens",
+          "value": "er antizipiert"
+        },
+        {
+          "label": "Präteritum",
+          "value": "er antizipierte"
+        },
+        {
+          "label": "Perfekt",
+          "value": "er hat antizipiert"
+        },
+        {
+          "label": "Konjunktiv II",
+          "value": "er würde antizipieren"
+        }
+      ],
+      "rektion": [
+        {
+          "pattern": "etwas antizipieren",
+          "cases": "Akk."
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "eine Entwicklung antizipieren",
+          "gloss_en": "to anticipate a development"
+        },
+        {
+          "phrase": "Reaktionen antizipieren",
+          "gloss_en": "to anticipate reactions"
+        },
+        {
+          "phrase": "Risiken antizipieren",
+          "gloss_en": "to anticipate risks"
+        },
+        {
+          "phrase": "die Zukunft antizipieren",
+          "gloss_en": "to anticipate the future"
+        }
+      ],
+      "examples": [
+        {
+          "de": "Ein guter Stratege antizipiert die Züge des Gegners.",
+          "en": "A good strategist anticipates the opponent's moves."
+        },
+        {
+          "de": "Der Markt hatte die Zinssenkung längst antizipiert.",
+          "en": "The market had long since anticipated the rate cut."
+        }
+      ],
+      "register": "formal",
+      "register_note": "Gehoben; lateinisches Fremdwort, verbreitet in Wirtschaft, Strategie und Wissenschaft.",
+      "near_synonyms": [
+        {
+          "lemma": "vorwegnehmen",
+          "distinction": "deutsches Pendant, geläufiger und ohne den fachlichen Klang"
+        },
+        {
+          "lemma": "voraussehen",
+          "distinction": "betont nur das Erkennen des Künftigen, nicht das Sich-darauf-Einstellen"
+        }
+      ]
+    }
+  }
+}
