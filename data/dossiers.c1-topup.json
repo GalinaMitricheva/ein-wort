@@ -1010,7 +1010,7 @@
         },
         {
           "label": "Perfekt",
-          "value": "er ist konvergiert"
+          "value": "er hat konvergiert"
         },
         {
           "label": "Konjunktiv II",
@@ -1078,7 +1078,7 @@
         },
         {
           "label": "Perfekt",
-          "value": "er ist divergiert"
+          "value": "er hat divergiert"
         },
         {
           "label": "Konjunktiv II",
