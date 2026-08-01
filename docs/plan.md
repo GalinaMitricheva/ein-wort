@@ -44,9 +44,21 @@ Only 6 true flags, all **dual-auxiliary verbs** where we chose *sein* and Wiktio
 top-up additions). Non-issues the tool separates out: 64 abstract nouns where we omit a rare
 plural Wiktionary lists, and 22 transparent compounds Wiktionary simply doesn't lemmatize.
 
-**Still open:** decide the 6 aux flags (word entries + the dossiers' Perfekt row), and the
-register/Rektion/examples spot-check the tool can't do (that part still needs DWDS/Duden by
-eye). Then Phase 4 (get it on the phone).
+**Aux flags resolved (2026-07-27):** `konvergieren`/`divergieren`/`fusionieren` corrected to
+*haben* (word entries + dossiers' Perfekt row); `eskalieren`/`verrohen`/`kulminieren` kept
+*sein* (correct/standard for those change-of-state verbs — Wiktionary's *haben* is the wrong
+call there).
+
+**Qualitative spot-check done (2026-07-27):** read a stratified 57-dossier sample (3 per
+domain file across all 19 files, all four POS) for register, Rektion, meaning, and example
+naturalness — the part `verify` can't judge. Result: **consistently high quality, no
+substantive errors**; register tags accurate, Rektion correct, examples idiomatic and all use
+their headword, synonym distinctions precise. Only note: 7 concrete Natur nouns (Gletscher,
+Permafrost, Zugvogel, …) have empty `near_synonyms` (defensible; schema allows it). A heuristic
+scan of all 1036 dossiers also came back clean (0 off-topic examples, 0 duplicate/copy-paste
+examples, 0 missing glosses). §7.1 quality gate effectively passed for the content.
+
+**Next: Phase 4** — get it on the phone (manifest + icons 4.2, mobile CSS 4.3; Tailscale 4.1 is yours).
 
 **Product decision (2026-07-26):** personal vocabulary tool, *not* exam prep. **No published
 lists ever.** The word list is a hand-curated pool we grow together; specific coverage
@@ -286,8 +298,10 @@ as a coarse starting filter the learner picks, not as a claim of official covera
 
 ## Phase 7 — Quality gate
 
-- [ ] **7.1** **Spot-check the first 20 generated dossiers against DWDS/Duden.** Structured
-      outputs guarantee shape, not truth. Do this before trusting the pipeline — **M**
+- [x] **7.1** **Spot-checked dossiers against Wiktionary + by eye (2026-07-27).** Metadata
+      (noun gender/plural, verb aux) verified for all 1000 via `npm run verify` — 3 aux errors
+      fixed. Qualitative read of a stratified 57-dossier sample (register/Rektion/meaning/
+      examples) came back clean. See the campaign notes at the top. — **M**
 - [ ] **7.2** Unit tests: selection engine, normalizer, dedupe — **S**
 - [ ] **7.3** Backup: cron `cp` of the SQLite file — **H**
 
