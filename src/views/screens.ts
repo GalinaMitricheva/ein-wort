@@ -67,14 +67,33 @@ export function offerScreen(word: WordRow, sessionId: number, level: Level): str
       <div class="prompt">Kennst du dieses Wort?</div>
       <form class="inline" method="post" action="/session/${sessionId}/calibrate">
         <div class="actions">
-          <button name="answer" value="know-it" type="submit">Kenne ich</button>
+          <button id="ack-know" name="answer" value="know-it" type="submit">Kenne ich</button>
           <button name="answer" value="vaguely" type="submit">Vage</button>
           <button name="answer" value="new" type="submit">Neu für mich</button>
         </div>
       </form>
     </div>
-  </div>`;
+  </div>
+  ${ackScript}`;
 }
+
+// 2.10 — a brief acknowledgement when "Kenne ich" is tapped before the redirect
+// carries you to the next word, so a known word doesn't just blink past. Pure
+// progressive enhancement: with no JS the button submits normally.
+const ackScript = `<script>
+(function(){
+  var b=document.getElementById('ack-know');
+  if(!b||!b.form||!b.form.requestSubmit) return;
+  b.addEventListener('click',function(ev){
+    if(b.dataset.acking) return;
+    ev.preventDefault();
+    b.dataset.acking='1';
+    b.classList.add('ack');
+    b.textContent='Schon bekannt \\u2713';
+    setTimeout(function(){ b.form.requestSubmit(b); }, 480);
+  });
+})();
+</script>`;
 
 function dossierSections(d: Dossier, marked: Set<string>): string {
   const parts: string[] = [];
@@ -145,12 +164,27 @@ const captureScript = (sessionId: number) => `<script>
 })();
 </script>`;
 
+/** "Fehler melden" (§11 / ui.md screen 2): a quiet 12px affordance under Weiter.
+ *  Progressive disclosure via <details> — no JS. Once reported, shows a settled
+ *  acknowledgement instead of the form. */
+function reportAffordance(sessionId: number, reported: boolean): string {
+  if (reported) return `<div class="report-done">Fehler gemeldet ✓</div>`;
+  return `<details class="report">
+    <summary>Fehler melden</summary>
+    <form method="post" action="/session/${sessionId}/report">
+      <textarea name="note" rows="2" maxlength="1000" placeholder="Was stimmt hier nicht?"></textarea>
+      <div class="actions"><button class="report-send" type="submit">Absenden</button></div>
+    </form>
+  </details>`;
+}
+
 export function dossierScreen(
   word: WordRow,
   dossier: Dossier,
   sessionId: number,
   marked: Set<string>,
   trayEntries: string[],
+  reported: boolean,
 ): string {
   return `<div class="card">
     <div class="top">
@@ -166,6 +200,7 @@ export function dossierScreen(
         <button class="btn-primary" type="submit">Weiter</button>
       </div>
     </form>
+    ${reportAffordance(sessionId, reported)}
   </div>
   ${captureScript(sessionId)}`;
 }

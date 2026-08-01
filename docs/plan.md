@@ -176,8 +176,9 @@ interaction before any LLM spend.
 - [x] **2.7** Level selector (first-run picker + `/settings`, changeable anytime) — **H**
 - [x] **2.8** Session complete screen — no "next word" button (§3.1, §7) — **H**
 - [x] **2.9** Level-exhausted state — shown when no unknown word remains at the active level — **S**
-- [ ] **2.10** *Kenne ich* micro-confirmation — functional (redirects to next word), but no
-      visual acknowledgement animation yet. Polish, deferred — **H**
+- [x] **2.10** *Kenne ich* micro-confirmation — tapping it briefly shows "Schon bekannt ✓"
+      (accent state) before the redirect, so a known word doesn't blink past. Progressive
+      enhancement (no-JS still submits normally); `ackScript` in screens.ts — **H**
 - [x] **2.11** Session-resume: `currentOpenSession()` resumes an open session in place
       (offer or dossier) on `GET /` — decided *resume*, not discard — **S**
 - [x] **2.12** Empty-log state (log shows "Noch keine Wörter"). No-search-results N/A —
@@ -185,9 +186,11 @@ interaction before any LLM spend.
 
 *This turn also built a minimal log screen (`/log`) so the session-complete exit isn't a
 dead link; the full Phase 6 version (search, distinct-by-recent, level-free rows) still stands.*
-- [ ] **2.13** Level selector reached from the settings gear on the log header; level
-      changes never touch the queue (ui.md screen 9) — **H**
-- [ ] **2.14** First run: single level question, B2 preselected, one button — **H**
+- [x] **2.13** Level selector reached from the settings gear (⚙) on the log header
+      (`/settings` → `levelSelectorScreen`); `/level` only calls `setActiveLevel`, so the
+      queue and met words are never touched (ui.md screen 9) — **H**
+- [x] **2.14** First run: single level question ("Wo stehst du gerade?"), B2 preselected
+      (radio `checked`), one "Erstes Wort" button — **H**
 
 See [ui.md](ui.md) for the full screen and state inventory, and the design review tracker.
 
@@ -223,7 +226,10 @@ needs no in-app credential; the app makes zero model calls.
 - [x] **3.4** `StoredDossierSource`: reads stored dossiers from SQLite, validates on the
       way out; `null` when not built → word not offered. Selection now requires a current
       dossier (`nextSeedWord`) so no word is ever offered without one — **S**
-- [ ] **3.7** "Report an error" affordance writing to `dossiers.error_report` (§11 says MVP, not later) — **H**
+- [x] **3.7** "Fehler melden" affordance on the dossier (quiet 12px `<details>` under Weiter)
+      → `POST /session/:id/report` appends a timestamped note to `dossiers.error_report`
+      (never completes the session); once reported it shows "Fehler gemeldet ✓". The offline
+      collection task can surface these notes. Verified end-to-end incl. DB write — **H**
 
 ### Word capture (architecture.md §5b)
 

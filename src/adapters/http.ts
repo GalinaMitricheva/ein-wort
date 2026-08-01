@@ -43,7 +43,8 @@ export function registerRoutes(app: FastifyInstance, store: Store, dossiers: Dos
         const caps = store.sessionActiveCaptures(open.id);
         const marked = new Set(caps.map((c) => c.surface_form));
         const tray = caps.map((c) => captureDisplay(store, c));
-        return reply.type("text/html").send(html(dossierScreen(word, dossier, open.id, marked, tray)));
+        const reported = store.dossierErrorReport(word.id) != null;
+        return reply.type("text/html").send(html(dossierScreen(word, dossier, open.id, marked, tray, reported)));
       }
       // No dossier built yet (shouldn't happen on fixtures): close the session, move on.
       store.completeSession(open.id);
@@ -88,6 +89,21 @@ export function registerRoutes(app: FastifyInstance, store: Store, dossiers: Dos
     const caps = store.sessionActiveCaptures(sessionId);
     return reply.send({ marked, tray: trayInner(caps.map((c) => captureDisplay(store, c))) });
   });
+
+  // "Fehler melden" on the dossier: save a reader-reported problem to
+  // dossiers.error_report (§11 / ui.md screen 2). Never completes the session —
+  // the reader keeps reading; the note is picked up by the offline collection task.
+  app.post<{ Params: { id: string }; Body: { note?: unknown } }>(
+    "/session/:id/report",
+    async (req, reply) => {
+      const id = Number(req.params.id);
+      const session = store.getSession(id);
+      if (!session) return reply.redirect("/", 303);
+      const note = typeof req.body.note === "string" ? req.body.note.trim() : "";
+      if (note) store.reportDossierError(session.word_id, note.slice(0, 1000));
+      return reply.redirect("/", 303);
+    },
+  );
 
   // "Weiter" on the dossier: the word lands in the log, session ends.
   app.post<{ Params: { id: string } }>("/session/:id/complete", async (req, reply) => {

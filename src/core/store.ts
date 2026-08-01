@@ -237,6 +237,30 @@ export class Store {
       .run(wordId, schemaVersion, model, now(), json);
   }
 
+  /** The reader-reported problem note for a word's dossier, or null if none. */
+  dossierErrorReport(wordId: number): string | null {
+    const row = this.db
+      .prepare("SELECT error_report FROM dossiers WHERE word_id = ?")
+      .get(wordId) as { error_report: string | null } | undefined;
+    return row?.error_report ?? null;
+  }
+
+  /** Append a reader-reported error to the dossier (§11 "Fehler melden", ui.md screen 2).
+   *  Timestamped and appended so repeated reports on the same word aren't lost. */
+  reportDossierError(wordId: number, note: string): void {
+    const stamped = `[${now()}] ${note}`;
+    this.db
+      .prepare(
+        `UPDATE dossiers
+         SET error_report = CASE
+           WHEN error_report IS NULL OR error_report = '' THEN ?
+           ELSE error_report || char(10) || ?
+         END
+         WHERE word_id = ?`,
+      )
+      .run(stamped, stamped, wordId);
+  }
+
   // ── captures ─────────────────────────────────────────────────────────────
 
   /**

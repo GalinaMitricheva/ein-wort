@@ -128,6 +128,22 @@ form.inline { margin: 0; display: contents; }
 .syn-lemma { font-family: var(--font-serif); font-size: 14px; color: var(--text); min-width: 92px; }
 .syn-note { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
 
+/* "Kenne ich" micro-confirmation (2.10) */
+button.ack { background: var(--accent-bg); color: var(--accent-text); border-color: var(--accent);
+  transition: background 0.2s, color 0.2s, border-color 0.2s; }
+
+/* report an error (3.7 / ui.md screen 2) — deliberately quiet, below Weiter */
+.report { margin-top: 16px; }
+.report summary { list-style: none; text-align: center; font-size: 12px; color: var(--text-muted); cursor: pointer; }
+.report summary::-webkit-details-marker { display: none; }
+.report[open] summary { margin-bottom: 10px; }
+.report textarea { width: 100%; font-family: var(--font-sans); font-size: 14px; color: var(--text);
+  line-height: 1.5; padding: 8px 10px; resize: vertical; background: var(--surface);
+  border: 0.5px solid var(--border-strong); border-radius: var(--radius); }
+.report .actions { margin-top: 8px; }
+.report-send { height: 40px; font-size: 14px; }
+.report-done { margin-top: 16px; text-align: center; font-size: 12px; color: var(--text-muted); }
+
 /* level picker */
 .title { font-family: var(--font-serif); font-size: 22px; color: var(--text); margin: 0 0 20px; line-height: 1.25; }
 .tagline { font-size: 15px; color: var(--text-secondary); line-height: 1.65; margin-bottom: 36px; }
