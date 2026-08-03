@@ -235,9 +235,13 @@ function levelOptions(current: Level, selectable: boolean): string {
   return LEVELS.map(({ level, desc }) => {
     const sel = level === current ? " selected" : "";
     const inner = `<div class="level-name">${level}</div><div class="level-desc">${e(desc)}</div>`;
+    // Button variant (settings): a tap submits immediately, so the current level
+    // is marked server-side with .selected. Radio variant (first run): the visible
+    // highlight follows the actually-checked radio via :has() in CSS, so tapping an
+    // option reacts even though nothing is submitted until "Erstes Wort".
     return selectable
       ? `<button class="level-opt${sel}" name="level" value="${level}" type="submit">${inner}</button>`
-      : `<label class="level-opt${sel}"><input type="radio" name="level" value="${level}"${level === current ? " checked" : ""} style="position:absolute;opacity:0">${inner}</label>`;
+      : `<label class="level-opt"><input type="radio" name="level" value="${level}"${level === current ? " checked" : ""} style="position:absolute;opacity:0">${inner}</label>`;
   }).join("");
 }
 

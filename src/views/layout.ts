@@ -152,7 +152,8 @@ button.ack { background: var(--accent-bg); color: var(--accent-text); border-col
   padding: 14px; border: 0.5px solid var(--border); border-radius: var(--radius);
   margin-bottom: 8px; background: var(--surface); cursor: pointer; height: auto;
 }
-.level-opt.selected { border-color: var(--border-strong); background: var(--bg); }
+.level-opt.selected,
+.level-opt:has(input:checked) { border-color: var(--border-strong); background: var(--bg); }
 .level-name { font-size: 16px; color: var(--text); margin-bottom: 3px; }
 .level-desc { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
 
